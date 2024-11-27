@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:101
+  Original Name: gtk_window_get_focus/usr/include/gtk-4.0/gtk/gtkwindow.h:101
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_window_get_focus[NullablePointer[GtkWidget]](window: NullablePointer[GtkWindow] tag)
+

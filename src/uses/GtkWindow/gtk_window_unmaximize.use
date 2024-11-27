@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:194
+  Original Name: gtk_window_unmaximize/usr/include/gtk-4.0/gtk/gtkwindow.h:194
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_window_unmaximize[None](window: NullablePointer[GtkWindow] tag)
+

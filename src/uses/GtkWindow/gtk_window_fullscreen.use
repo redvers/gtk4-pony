@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:196
+  Original Name: gtk_window_fullscreen/usr/include/gtk-4.0/gtk/gtkwindow.h:196
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_window_fullscreen[None](window: NullablePointer[GtkWindow] tag)
+
