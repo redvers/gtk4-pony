@@ -8,8 +8,16 @@ gtk_castxml2pony_use:
 	mkdir -p Gtk4
 	mv use.xml usetypes.xml renderuse.xml Gtk4
 
-gtk_genuse: gtk_clean_use
+glib_castxml2pony_use:
+	../../castxml2pony/castxml2pony -x gtk.xml -u `grep File gtk.xml  | grep '/glib-2.0/' | grep -v depre | cut -d'"' -f2 | tr '\n' ' '`
+	mkdir -p GLib
+	mv use.xml usetypes.xml renderuse.xml GLib
+
+gtk_genuse:
 	java -jar /usr/share/java/Saxon-HE.jar -xi Gtk4/use.xml makeuse.xsl
 
-gtk_clean_use:
+glib_genuse:
+	java -jar /usr/share/java/Saxon-HE.jar -xi GLib/use.xml makeuse.xsl
+
+clean_use:
 	rm -rf uses/

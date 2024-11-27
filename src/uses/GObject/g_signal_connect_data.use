@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:409
+  Original Name: g_signal_connect_data/usr/include/glib-2.0/gobject/gsignal.h:409
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [Enumeration size=32,fid: f140]
+*/
+use @g_signal_connect_data[U64](instance: Pointer[None] tag, detailedsignal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Pointer[None] tag, destroydata: Pointer[None] tag, connectflags: I32)
+

@@ -1306,9 +1306,9 @@
 <!-- gtk_widget_set_sensitive -->                                                                   <renderuse render="0" id="_14340"/>
 <!-- gtk_widget_get_sensitive -->                                                                   <renderuse render="0" id="_14341"/>
 <!-- gtk_widget_is_sensitive -->                                                                    <renderuse render="0" id="_14342"/>
-<!-- gtk_widget_set_visible -->                                                                     <renderuse render="0" id="_14343"/>
-<!-- gtk_widget_get_visible -->                                                                     <renderuse render="0" id="_14344"/>
-<!-- gtk_widget_is_visible -->                                                                      <renderuse render="0" id="_14345"/>
+<!-- gtk_widget_set_visible -->                                                                     <renderuse render="GtkWidget" id="_14343"/>
+<!-- gtk_widget_get_visible -->                                                                     <renderuse render="GtkWidget" id="_14344"/>
+<!-- gtk_widget_is_visible -->                                                                      <renderuse render="GtkWidget" id="_14345"/>
 <!-- gtk_widget_is_drawable -->                                                                     <renderuse render="0" id="_14346"/>
 <!-- gtk_widget_get_realized -->                                                                    <renderuse render="0" id="_14347"/>
 <!-- gtk_widget_get_mapped -->                                                                      <renderuse render="0" id="_14348"/>
@@ -1486,7 +1486,7 @@
 <!-- gtk_window_set_auto_startup_notification -->                                                   <renderuse render="0" id="_14576"/>
 <!-- gtk_window_set_modal -->                                                                       <renderuse render="0" id="_14577"/>
 <!-- gtk_window_get_modal -->                                                                       <renderuse render="0" id="_14578"/>
-<!-- gtk_window_get_toplevels -->                                                                   <renderuse render="0" id="_14579"/>
+<!-- gtk_window_get_toplevels -->                                                                   <renderuse render="GtkWindow" id="_14579"/>
 <!-- gtk_window_list_toplevels -->                                                                  <renderuse render="0" id="_14580"/>
 <!-- gtk_window_present -->                                                                         <renderuse render="0" id="_14581"/>
 <!-- gtk_window_present_with_time -->                                                               <renderuse render="0" id="_14582"/>

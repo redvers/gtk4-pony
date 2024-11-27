@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:409
+  Original Name: g_main_context_iteration/usr/include/glib-2.0/glib/gmain.h:409
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [FundamentalType(int) size=32]
+*/
+use @g_main_context_iteration[I32](context: NullablePointer[GMainContext] tag, mayblock: I32)
+

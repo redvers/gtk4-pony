@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:406
+  Original Name: g_main_context_default/usr/include/glib-2.0/glib/gmain.h:406
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f85]
+
+  Arguments:
+*/
+use @g_main_context_default[NullablePointer[GMainContext]]()
+
