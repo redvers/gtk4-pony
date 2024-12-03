@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:52
+  Original Name: _GtkWidgetPrivate
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct GtkWidgetPrivate

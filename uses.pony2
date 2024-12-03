@@ -61,7 +61,7 @@ use @gtk_widget_set_visible[None](widget: NullablePointer[GtkWidget] tag, visibl
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_close[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_close[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -74,7 +74,7 @@ use @gtk_window_close[None](window: NullablePointer[GtkWindow] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_fullscreen[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_fullscreen[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -87,7 +87,7 @@ use @gtk_window_fullscreen[None](window: NullablePointer[GtkWindow] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_get_focus[NullablePointer[GtkWidget]](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_get_focus[NullablePointer[GtkWidget]](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -100,7 +100,7 @@ use @gtk_window_get_focus[NullablePointer[GtkWidget]](window: NullablePointer[Gt
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -112,7 +112,7 @@ use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
 
   Arguments:
 */
-use @gtk_window_get_type[U64]()
+//use @gtk_window_get_type[U64]()
 
 
 
@@ -125,7 +125,7 @@ use @gtk_window_get_type[U64]()
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_maximize[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_maximize[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -138,7 +138,7 @@ use @gtk_window_maximize[None](window: NullablePointer[GtkWindow] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_minimize[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_minimize[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -164,7 +164,7 @@ use @gtk_window_new[NullablePointer[GtkWidget]]()
     [PointerType size=64]->[Struct size=256,fid: f482]
     [PointerType size=64]->[Struct size=256,fid: f480]
 */
-use @gtk_window_set_focus[None](window: NullablePointer[GtkWindow] tag, focus: NullablePointer[GtkWidget] tag)
+//use @gtk_window_set_focus[None](window: NullablePointer[GtkWindow] tag, focus: NullablePointer[GtkWidget] tag)
 
 
 
@@ -178,7 +178,7 @@ use @gtk_window_set_focus[None](window: NullablePointer[GtkWindow] tag, focus: N
     [PointerType size=64]->[Struct size=256,fid: f482]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @gtk_window_set_title[None](window: NullablePointer[GtkWindow] tag, title: Pointer[U8] tag)
+//use @gtk_window_set_title[None](window: NullablePointer[GtkWindow] tag, title: Pointer[U8] tag)
 
 
 
@@ -191,7 +191,7 @@ use @gtk_window_set_title[None](window: NullablePointer[GtkWindow] tag, title: P
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_unfullscreen[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_unfullscreen[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -204,7 +204,7 @@ use @gtk_window_unfullscreen[None](window: NullablePointer[GtkWindow] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_unmaximize[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_unmaximize[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -217,7 +217,7 @@ use @gtk_window_unmaximize[None](window: NullablePointer[GtkWindow] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f482]
 */
-use @gtk_window_unminimize[None](window: NullablePointer[GtkWindow] tag)
+//use @gtk_window_unminimize[None](window: NullablePointer[GtkWindow] tag)
 
 
 
@@ -242,7 +242,7 @@ use @gtk_window_get_toplevels[NullablePointer[GListModel]]()
 
   Arguments:
 */
-use @g_main_context_default[NullablePointer[GMainContext]]()
+//use @g_main_context_default[NullablePointer[GMainContext]]()
 
 
 
@@ -255,7 +255,7 @@ use @g_main_context_default[NullablePointer[GMainContext]]()
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f85]
 */
-use @g_main_context_pending[I32](context: NullablePointer[GMainContext] tag)
+//use @g_main_context_pending[I32](context: NullablePointer[GMainContext] tag)
 
 
 
@@ -269,7 +269,7 @@ use @g_main_context_pending[I32](context: NullablePointer[GMainContext] tag)
     [PointerType size=64]->[Struct size=,fid: f85]
     [FundamentalType(int) size=32]
 */
-use @g_main_context_iteration[I32](context: NullablePointer[GMainContext] tag, mayblock: I32)
+//use @g_main_context_iteration[I32](context: NullablePointer[GMainContext] tag, mayblock: I32)
 
 
 

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:50
+  Original Name: _GtkWindow
+  Struct Size (bits):  256
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=256,fid: f480]: parent_instance  
+*/
+struct GtkWindow
+    embed _parent_instance: GtkWidget = GtkWidget

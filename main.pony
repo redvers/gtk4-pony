@@ -5,6 +5,11 @@ use "actor_pinning"
 use @printf[USize](fmt: Pointer[None] tag)
 use @sleep[None](secs: USize)
 use @exit[None](e: I32)
+use "Gtk"
+use "Gtk/Window"
+use "GLib"
+use "GObject/Object"
+
 
 actor Main
   new create(env': Env) =>
@@ -31,7 +36,7 @@ actor GtkController
   be initialize_gtk() =>
     if ActorPinning.is_successfully_pinned(auth) then
       env.out.print("We are pinned")
-      @gtk_init()
+      Gtk.init()
       build_window()
     else
       env.out.print("We are not pinned")
@@ -39,9 +44,9 @@ actor GtkController
     end
 
   be build_window() =>
-    let w: NullablePointer[GtkWidget] = @gtk_window_new()
-    @gtk_widget_set_visible(w, 1)
-    @g_signal_connect_data(w, "close-request".cstring(), Callbacks~e(), me, Pointer[None], 0)
+    let w: GtkWindow = GtkWindow
+    w.set_visible(true)
+    w.signal_connect_data[GtkController]("close-request", Callbacks~e[GtkController](), me)
     window_active = true
     loop()
 
@@ -49,8 +54,7 @@ actor GtkController
     window_active = false
 
   be loop() =>
-    let d: NullablePointer[GMainContext] = @g_main_context_default()
-    @g_main_context_iteration(d, 0)
+    GMainContext.default().>iteration(false)
     if (window_active) then
       loop()
     end
@@ -59,9 +63,7 @@ actor GtkController
     ActorPinning.request_unpin(auth)
 
 primitive Callbacks
-  fun @e(gobj: Pointer[None], me: GtkController tag) =>
-    @printf("In callback\n".cstring())
+  fun @e[A: GtkController](gobj: Pointer[GObject], me: A) => None
     me.close_window()
-
 
 
