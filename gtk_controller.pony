@@ -1,6 +1,7 @@
 use "actor_pinning"
 use "Gtk"
 use "Gtk/Window"
+use "Gtk/Label"
 use "GLib"
 use "GObject/Object"
 
@@ -9,6 +10,7 @@ actor GtkController
   let auth: PinUnpinActorAuth
   var window_active: Bool = false
   var me: GtkController tag
+  var window: (GtkWindow | None) = None
 
   new create(env': Env) =>
     env = env'
@@ -27,12 +29,17 @@ actor GtkController
     end
 
   be build_window() =>
-    let w: GtkWindow = GtkWindow
-    w.set_interactive_debugging(true)
-    w.set_visible(true)
-    w.signal_connect_data[GtkController]("close-request", Callbacks~window_close_request[GtkController](), me)
-    window_active = true
-    loop()
+    window = GtkWindow
+    match window
+    | let w: GtkWindow =>
+      let l: GtkLabel = GtkLabel.new_with_mnemonic("Test wheee")
+      w.set_visible(true)
+      w.set_child(l)
+      w.set_interactive_debugging(true)
+      w.signal_connect_data[GtkController]("close-request", Callbacks~window_close_request[GtkController](), me)
+      window_active = true
+      loop()
+    end
 
   be close_window() =>
     window_active = false
