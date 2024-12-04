@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gconvert.h:88
+  Original Name: g_iconv_open/usr/include/glib-2.0/glib/gconvert.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f67]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_iconv_open[NullablePointer[GIConv]](tocodeset: Pointer[U8] tag, fromcodeset: Pointer[U8] tag)
+

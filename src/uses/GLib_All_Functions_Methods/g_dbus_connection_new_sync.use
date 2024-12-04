@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:70
+  Original Name: g_dbus_connection_new_sync/usr/include/glib-2.0/gio/gdbusconnection.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f193]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_connection_new_sync[NullablePointer[GDBusConnection]](stream: NullablePointer[GIOStream] tag, guid: Pointer[U8] tag, flags: I32, observer: NullablePointer[GDBusAuthObserver] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

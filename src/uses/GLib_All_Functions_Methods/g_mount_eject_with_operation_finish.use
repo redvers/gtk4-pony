@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmount.h:269
+  Original Name: g_mount_eject_with_operation_finish/usr/include/glib-2.0/gio/gmount.h:269
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_mount_eject_with_operation_finish[I32](mount: NullablePointer[GMount] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

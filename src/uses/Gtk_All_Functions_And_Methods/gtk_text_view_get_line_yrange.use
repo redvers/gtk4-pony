@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:252
+  Original Name: gtk_text_view_get_line_yrange/usr/include/gtk-4.0/gtk/gtktextview.h:252
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_text_view_get_line_yrange[None](textview: NullablePointer[GtkTextView] tag, iter: NullablePointer[GtkTextIter] tag, y: Pointer[I32] tag, height: Pointer[I32] tag)
+

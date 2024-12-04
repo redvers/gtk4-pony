@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedinputstream.h:98
+  Original Name: g_buffered_input_stream_peek/usr/include/glib-2.0/gio/gbufferedinputstream.h:98
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f162]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_buffered_input_stream_peek[U64](stream: NullablePointer[GBufferedInputStream] tag, buffer: Pointer[None] tag, offset: U64, count: U64)
+

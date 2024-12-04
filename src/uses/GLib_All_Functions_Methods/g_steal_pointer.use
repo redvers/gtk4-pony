@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:234
+  Original Name: g_steal_pointer/usr/include/glib-2.0/glib/gmem.h:234
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_steal_pointer[Pointer[None]](pp: Pointer[None] tag)
+

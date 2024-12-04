@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:469
+  Original Name: g_regex_get_string_number/usr/include/glib-2.0/glib/gregex.h:469
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_regex_get_string_number[I32](regex: NullablePointer[GRegex] tag, name: Pointer[U8] tag)
+

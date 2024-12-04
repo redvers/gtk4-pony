@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:134
+  Original Name: gtk_text_grab_focus_without_selecting/usr/include/gtk-4.0/gtk/gtktext.h:134
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_grab_focus_without_selecting[I32](self: NullablePointer[GtkText] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchbar.h:62
+  Original Name: gtk_search_bar_get_show_close_button/usr/include/gtk-4.0/gtk/gtksearchbar.h:62
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f699]
+*/
+use @gtk_search_bar_get_show_close_button[I32](bar: NullablePointer[GtkSearchBar] tag)
+

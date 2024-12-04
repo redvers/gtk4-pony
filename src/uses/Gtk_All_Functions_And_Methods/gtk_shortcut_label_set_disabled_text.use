@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutlabel.h:50
+  Original Name: gtk_shortcut_label_set_disabled_text/usr/include/gtk-4.0/gtk/gtkshortcutlabel.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f706]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_shortcut_label_set_disabled_text[None](self: NullablePointer[GtkShortcutLabel] tag, disabledtext: Pointer[U8] tag)
+

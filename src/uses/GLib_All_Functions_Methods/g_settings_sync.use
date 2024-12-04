@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:223
+  Original Name: g_settings_sync/usr/include/glib-2.0/gio/gsettings.h:223
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @g_settings_sync[None]()
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:65
+  Original Name: gtk_bitset_new_empty/usr/include/gtk-4.0/gtk/gtkbitset.h:65
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+*/
+use @gtk_bitset_new_empty[NullablePointer[GtkBitset]]()
+

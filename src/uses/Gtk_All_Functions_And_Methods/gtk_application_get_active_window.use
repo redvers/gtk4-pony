@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplication.h:115
+  Original Name: gtk_application_get_active_window/usr/include/gtk-4.0/gtk/gtkapplication.h:115
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f482]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f485]
+*/
+use @gtk_application_get_active_window[NullablePointer[GtkWindow]](application: NullablePointer[GtkApplication] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:333
+  Original Name: g_variant_type_equal/usr/include/glib-2.0/glib/gvarianttype.h:333
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_variant_type_equal[I32](type1: Pointer[None] tag, type2: Pointer[None] tag)
+

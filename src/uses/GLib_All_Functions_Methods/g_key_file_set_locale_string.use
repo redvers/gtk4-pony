@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:157
+  Original Name: g_key_file_set_locale_string/usr/include/glib-2.0/glib/gkeyfile.h:157
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_key_file_set_locale_string[None](keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag, key: Pointer[U8] tag, locale: Pointer[U8] tag, string: Pointer[U8] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:64
+  Original Name: gtk_grid_new/usr/include/gtk-4.0/gtk/gtkgrid.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_grid_new[NullablePointer[GtkWidget]]()
+

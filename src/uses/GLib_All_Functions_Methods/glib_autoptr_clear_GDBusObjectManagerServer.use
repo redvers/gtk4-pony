@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:61
+  Original Name: glib_autoptr_clear_GDBusObjectManagerServer/usr/include/glib-2.0/gio/gio-autocleanups.h:61
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f225]
+*/
+use @glib_autoptr_clear_GDBusObjectManagerServer[None](ptr: NullablePointer[GDBusObjectManagerServer] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkmonitor.h:77
+  Original Name: gdk_monitor_get_connector/usr/include/gtk-4.0/gdk/gdkmonitor.h:77
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f403]
+*/
+use @gdk_monitor_get_connector[Pointer[U8]](monitor: NullablePointer[GdkMonitor] tag)
+

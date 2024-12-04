@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:332
+  Original Name: g_app_launch_context_get_environment/usr/include/glib-2.0/gio/gappinfo.h:332
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f160]
+*/
+use @g_app_launch_context_get_environment[Pointer[Pointer[U8]]](context: NullablePointer[GAppLaunchContext] tag)
+

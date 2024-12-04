@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:394
+  Original Name: g_option_group_unref/usr/include/glib-2.0/glib/goption.h:394
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+*/
+use @g_option_group_unref[None](group: NullablePointer[GOptionGroup] tag)
+

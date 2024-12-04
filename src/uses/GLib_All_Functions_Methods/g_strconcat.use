@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:298
+  Original Name: g_strconcat/usr/include/glib-2.0/glib/gstrfuncs.h:298
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strconcat[Pointer[U8]](string1: Pointer[U8] tag, ...)
+

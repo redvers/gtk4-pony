@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:162
+  Original Name: g_thread_exit/usr/include/glib-2.0/glib/gthread.h:162
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_thread_exit[None](retval: Pointer[None] tag)
+

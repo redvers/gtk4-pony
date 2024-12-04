@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrgba.h:54
+  Original Name: gdk_rgba_is_clear/usr/include/gtk-4.0/gdk/gdkrgba.h:54
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gdk_rgba_is_clear[I32](rgba: NullablePointer[GdkRGBA] tag)
+

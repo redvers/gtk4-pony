@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:213
+  Original Name: g_dbus_node_info_generate_xml/usr/include/glib-2.0/gio/gdbusintrospection.h:213
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f220]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @g_dbus_node_info_generate_xml[None](info: NullablePointer[GDBusNodeInfo] tag, indent: U32, stringbuilder: NullablePointer[GString] tag)
+

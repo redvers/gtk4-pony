@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdirectorylist.h:57
+  Original Name: gtk_directory_list_get_io_priority/usr/include/gtk-4.0/gtk/gtkdirectorylist.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f583]
+*/
+use @gtk_directory_list_get_io_priority[I32](self: NullablePointer[GtkDirectoryList] tag)
+

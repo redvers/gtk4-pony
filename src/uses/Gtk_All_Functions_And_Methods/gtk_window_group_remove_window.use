@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindowgroup.h:73
+  Original Name: gtk_window_group_remove_window/usr/include/gtk-4.0/gtk/gtkwindowgroup.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f487]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_window_group_remove_window[None](windowgroup: NullablePointer[GtkWindowGroup] tag, window: NullablePointer[GtkWindow] tag)
+

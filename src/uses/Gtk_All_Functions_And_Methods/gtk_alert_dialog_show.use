@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkalertdialog.h:94
+  Original Name: gtk_alert_dialog_show/usr/include/gtk-4.0/gtk/gtkalertdialog.h:94
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f494]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_alert_dialog_show[None](self: NullablePointer[GtkAlertDialog] tag, parent: NullablePointer[GtkWindow] tag)
+

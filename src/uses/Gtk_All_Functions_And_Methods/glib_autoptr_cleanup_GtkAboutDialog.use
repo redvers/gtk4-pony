@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:191
+  Original Name: glib_autoptr_cleanup_GtkAboutDialog/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:191
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f488]
+*/
+use @glib_autoptr_cleanup_GtkAboutDialog[None](ptr: Pointer[NullablePointer[GtkAboutDialog]] tag)
+

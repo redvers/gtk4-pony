@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:61
+  Original Name: gtk_shortcut_trigger_trigger/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:61
+
+  Return Value: [Enumeration size=32,fid: f400]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_shortcut_trigger_trigger[I32](self: NullablePointer[GtkShortcutTrigger] tag, event: NullablePointer[GdkEvent] tag, enablemnemonics: I32)
+

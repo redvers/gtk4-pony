@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:68
+  Original Name: gtk_print_settings_load_file/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_print_settings_load_file[I32](settings: NullablePointer[GtkPrintSettings] tag, filename: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

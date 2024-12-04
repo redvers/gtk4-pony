@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketcontrolmessage.h:96
+  Original Name: g_socket_control_message_get_size/usr/include/glib-2.0/gio/gsocketcontrolmessage.h:96
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f196]
+*/
+use @g_socket_control_message_get_size[U64](message: NullablePointer[GSocketControlMessage] tag)
+

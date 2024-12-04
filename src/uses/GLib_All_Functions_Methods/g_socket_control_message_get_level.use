@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketcontrolmessage.h:98
+  Original Name: g_socket_control_message_get_level/usr/include/glib-2.0/gio/gsocketcontrolmessage.h:98
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f196]
+*/
+use @g_socket_control_message_get_level[I32](message: NullablePointer[GSocketControlMessage] tag)
+

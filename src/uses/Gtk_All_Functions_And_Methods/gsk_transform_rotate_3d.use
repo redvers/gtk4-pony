@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:111
+  Original Name: gsk_transform_rotate_3d/usr/include/gtk-4.0/gsk/gsktransform.h:111
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(float) size=32]
+    [PointerType size=64]->[Struct size=128,fid: f440]
+*/
+use @gsk_transform_rotate_3d[NullablePointer[GskTransform]](next: NullablePointer[GskTransform] tag, angle: F32, axis: NullablePointer[Graphenevec3t] tag)
+

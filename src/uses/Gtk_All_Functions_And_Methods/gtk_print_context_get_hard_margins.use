@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:57
+  Original Name: gtk_print_context_get_hard_margins/usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f683]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_print_context_get_hard_margins[I32](context: NullablePointer[GtkPrintContext] tag, top: Pointer[F64] tag, bottom: Pointer[F64] tag, left: Pointer[F64] tag, right: Pointer[F64] tag)
+

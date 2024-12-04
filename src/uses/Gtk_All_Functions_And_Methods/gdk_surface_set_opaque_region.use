@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:129
+  Original Name: gdk_surface_set_opaque_region/usr/include/gtk-4.0/gdk/gdksurface.h:129
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gdk_surface_set_opaque_region[None](surface: NullablePointer[GdkSurface] tag, region: NullablePointer[Cairoregion] tag)
+

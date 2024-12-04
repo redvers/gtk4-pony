@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterbox.h:68
+  Original Name: gtk_center_box_get_baseline_position/usr/include/gtk-4.0/gtk/gtkcenterbox.h:68
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f541]
+*/
+use @gtk_center_box_get_baseline_position[I32](self: NullablePointer[GtkCenterBox] tag)
+

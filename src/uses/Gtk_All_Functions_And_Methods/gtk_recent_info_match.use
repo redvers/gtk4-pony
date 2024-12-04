@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:247
+  Original Name: gtk_recent_info_match/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:247
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+    [PointerType size=64]->[Struct size=,fid: f688]
+*/
+use @gtk_recent_info_match[I32](infoa: NullablePointer[GtkRecentInfo] tag, infob: NullablePointer[GtkRecentInfo] tag)
+

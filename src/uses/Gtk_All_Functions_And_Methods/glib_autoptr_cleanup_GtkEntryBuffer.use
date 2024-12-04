@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentrybuffer.h:139
+  Original Name: glib_autoptr_cleanup_GtkEntryBuffer/usr/include/gtk-4.0/gtk/gtkentrybuffer.h:139
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f565]
+*/
+use @glib_autoptr_cleanup_GtkEntryBuffer[None](ptr: Pointer[NullablePointer[GtkEntryBuffer]] tag)
+

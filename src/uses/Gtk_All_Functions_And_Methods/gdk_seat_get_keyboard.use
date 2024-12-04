@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkseat.h:86
+  Original Name: gdk_seat_get_keyboard/usr/include/gtk-4.0/gdk/gdkseat.h:86
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f375]
+*/
+use @gdk_seat_get_keyboard[NullablePointer[GdkDevice]](seat: NullablePointer[GdkSeat] tag)
+

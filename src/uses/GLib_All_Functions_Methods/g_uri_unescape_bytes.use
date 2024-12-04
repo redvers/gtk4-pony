@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:408
+  Original Name: g_uri_unescape_bytes/usr/include/glib-2.0/glib/guri.h:408
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_uri_unescape_bytes[NullablePointer[GBytes]](escapedstring: Pointer[U8] tag, length: I64, illegalcharacters: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

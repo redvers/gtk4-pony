@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvalue.h:145
+  Original Name: g_value_set_instance/usr/include/glib-2.0/gobject/gvalue.h:145
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_value_set_instance[None](value: NullablePointer[GValue] tag, instance: Pointer[None] tag)
+

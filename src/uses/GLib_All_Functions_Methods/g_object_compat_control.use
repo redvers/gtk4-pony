@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:664
+  Original Name: g_object_compat_control/usr/include/glib-2.0/gobject/gobject.h:664
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_compat_control[U64](what: U64, data: Pointer[None] tag)
+

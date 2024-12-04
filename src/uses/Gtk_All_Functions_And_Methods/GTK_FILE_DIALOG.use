@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:34
+  Original Name: GTK_FILE_DIALOG/usr/include/gtk-4.0/gtk/gtkfiledialog.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f609]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_FILE_DIALOG[NullablePointer[GtkFileDialog]](ptr: Pointer[None] tag)
+

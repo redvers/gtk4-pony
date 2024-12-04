@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:683
+  Original Name: g_dbus_connection_remove_filter/usr/include/glib-2.0/gio/gdbusconnection.h:683
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_dbus_connection_remove_filter[None](connection: NullablePointer[GDBusConnection] tag, filterid: U32)
+

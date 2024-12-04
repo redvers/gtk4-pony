@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gconvert.h:175
+  Original Name: g_uri_list_extract_uris/usr/include/glib-2.0/glib/gconvert.h:175
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_uri_list_extract_uris[Pointer[Pointer[U8]]](urilist: Pointer[U8] tag)
+

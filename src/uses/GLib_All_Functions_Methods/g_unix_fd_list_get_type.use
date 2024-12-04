@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gunixfdlist.h:67
+  Original Name: g_unix_fd_list_get_type/usr/include/glib-2.0/gio/gunixfdlist.h:67
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_unix_fd_list_get_type[U64]()
+

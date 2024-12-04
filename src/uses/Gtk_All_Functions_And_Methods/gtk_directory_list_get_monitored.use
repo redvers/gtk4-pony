@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdirectorylist.h:68
+  Original Name: gtk_directory_list_get_monitored/usr/include/gtk-4.0/gtk/gtkdirectorylist.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f583]
+*/
+use @gtk_directory_list_get_monitored[I32](self: NullablePointer[GtkDirectoryList] tag)
+

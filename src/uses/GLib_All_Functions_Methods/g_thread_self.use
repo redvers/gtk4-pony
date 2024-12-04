@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:160
+  Original Name: g_thread_self/usr/include/glib-2.0/glib/gthread.h:160
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f42]
+
+  Arguments:
+*/
+use @g_thread_self[NullablePointer[GThread]]()
+

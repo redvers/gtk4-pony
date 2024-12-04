@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghostutils.h:34
+  Original Name: g_hostname_is_ascii_encoded/usr/include/glib-2.0/glib/ghostutils.h:34
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_hostname_is_ascii_encoded[I32](hostname: Pointer[U8] tag)
+

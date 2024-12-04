@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:78
+  Original Name: g_thread_pool_move_to_front/usr/include/glib-2.0/glib/gthreadpool.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f116]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_thread_pool_move_to_front[I32](pool: NullablePointer[GThreadPool] tag, data: Pointer[None] tag)
+

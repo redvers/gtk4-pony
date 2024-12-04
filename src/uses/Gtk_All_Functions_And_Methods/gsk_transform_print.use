@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:43
+  Original Name: gsk_transform_print/usr/include/gtk-4.0/gsk/gsktransform.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @gsk_transform_print[None](self: NullablePointer[GskTransform] tag, string: NullablePointer[GString] tag)
+

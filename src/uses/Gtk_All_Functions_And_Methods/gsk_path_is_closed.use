@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:111
+  Original Name: gsk_path_is_closed/usr/include/gtk-4.0/gsk/gskpath.h:111
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_path_is_closed[I32](self: NullablePointer[GskPath] tag)
+

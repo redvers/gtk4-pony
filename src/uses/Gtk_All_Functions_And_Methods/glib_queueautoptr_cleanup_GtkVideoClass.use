@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:35
+  Original Name: glib_queueautoptr_cleanup_GtkVideoClass/usr/include/gtk-4.0/gtk/gtkvideo.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @glib_queueautoptr_cleanup_GtkVideoClass[None](q: Pointer[NullablePointer[GQueue]] tag)
+

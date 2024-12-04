@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:259
+  Original Name: g_io_channel_read_line_string/usr/include/glib-2.0/glib/giochannel.h:259
+
+  Return Value: [Enumeration size=32,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_io_channel_read_line_string[I32](channel: NullablePointer[GIOChannel] tag, buffer: NullablePointer[GString] tag, terminatorpos: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

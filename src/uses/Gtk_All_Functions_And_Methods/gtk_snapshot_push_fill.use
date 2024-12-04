@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:91
+  Original Name: gtk_snapshot_push_fill/usr/include/gtk-4.0/gtk/gtksnapshot.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [Enumeration size=32,fid: f432]
+*/
+use @gtk_snapshot_push_fill[None](snapshot: NullablePointer[GdkSnapshot] tag, path: NullablePointer[GskPath] tag, fillrule: I32)
+

@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:580
+  Original Name: g_test_trap_assertions/usr/include/glib-2.0/glib/gtestutils.h:580
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_trap_assertions[None](domain: Pointer[U8] tag, file: Pointer[U8] tag, line: I32, func: Pointer[U8] tag, assertionflags: U64, pattern: Pointer[U8] tag)
+

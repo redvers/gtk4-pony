@@ -1,3 +1,4 @@
+use "lib:gtk-4"
 use @gtk_init[None]()
 
 primitive Gtk

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:89
+  Original Name: gtk_stack_page_set_use_underline/usr/include/gtk-4.0/gtk/gtkstack.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_stack_page_set_use_underline[None](self: NullablePointer[GtkStackPage] tag, setting: I32)
+

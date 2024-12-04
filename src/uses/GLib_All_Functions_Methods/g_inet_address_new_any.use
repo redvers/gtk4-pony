@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:75
+  Original Name: g_inet_address_new_any/usr/include/glib-2.0/gio/ginetaddress.h:75
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f182]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+*/
+use @g_inet_address_new_any[NullablePointer[GInetAddress]](family: I32)
+

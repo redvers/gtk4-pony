@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsclientconnection.h:64
+  Original Name: g_dtls_client_connection_set_validation_flags/usr/include/glib-2.0/gio/gdtlsclientconnection.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_dtls_client_connection_set_validation_flags[None](conn: NullablePointer[GDtlsClientConnection] tag, flags: I32)
+

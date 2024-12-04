@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:43
+  Original Name: gtk_filter_list_model_set_filter/usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f611]
+    [PointerType size=64]->[Struct size=192,fid: f513]
+*/
+use @gtk_filter_list_model_set_filter[None](self: NullablePointer[GtkFilterListModel] tag, filter: NullablePointer[GtkFilter] tag)
+

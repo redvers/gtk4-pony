@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterface.h:64
+  Original Name: g_dbus_interface_get_info/usr/include/glib-2.0/gio/gdbusinterface.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f220]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_interface_get_info[NullablePointer[GDBusInterfaceInfo]](interface: NullablePointer[GDBusInterface] tag)
+

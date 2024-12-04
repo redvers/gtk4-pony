@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:123
+  Original Name: gtk_notebook_get_nth_page/usr/include/gtk-4.0/gtk/gtknotebook.h:123
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_notebook_get_nth_page[NullablePointer[GtkWidget]](notebook: NullablePointer[GtkNotebook] tag, pagenum: I32)
+

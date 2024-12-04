@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:126
+  Original Name: gtk_image_get_icon_size/usr/include/gtk-4.0/gtk/gtkimage.h:126
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+*/
+use @gtk_image_get_icon_size[I32](image: NullablePointer[GtkImage] tag)
+

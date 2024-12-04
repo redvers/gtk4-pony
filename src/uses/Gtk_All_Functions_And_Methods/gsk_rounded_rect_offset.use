@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskroundedrect.h:73
+  Original Name: gsk_rounded_rect_offset/usr/include/gtk-4.0/gsk/gskroundedrect.h:73
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f463]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_rounded_rect_offset[NullablePointer[GskRoundedRect]](self: NullablePointer[GskRoundedRect] tag, dx: F32, dy: F32)
+

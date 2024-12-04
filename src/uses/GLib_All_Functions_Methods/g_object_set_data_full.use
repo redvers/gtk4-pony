@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:601
+  Original Name: g_object_set_data_full/usr/include/glib-2.0/gobject/gobject.h:601
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_object_set_data_full[None](object: NullablePointer[GObject] tag, key: Pointer[U8] tag, data: Pointer[None] tag, destroy: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpaned.h:46
+  Original Name: gtk_paned_set_start_child/usr/include/gtk-4.0/gtk/gtkpaned.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f675]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_paned_set_start_child[None](paned: NullablePointer[GtkPaned] tag, child: NullablePointer[GtkWidget] tag)
+

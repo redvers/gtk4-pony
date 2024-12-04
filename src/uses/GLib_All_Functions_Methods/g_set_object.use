@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:734
+  Original Name: g_set_object/usr/include/glib-2.0/gobject/gobject.h:734
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_set_object[I32](objectptr: Pointer[NullablePointer[GObject]] tag, newobject: NullablePointer[GObject] tag)
+

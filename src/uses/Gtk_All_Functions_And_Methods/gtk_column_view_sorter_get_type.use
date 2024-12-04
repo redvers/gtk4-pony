@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewsorter.h:35
+  Original Name: gtk_column_view_sorter_get_type/usr/include/gtk-4.0/gtk/gtkcolumnviewsorter.h:35
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_column_view_sorter_get_type[U64]()
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:214
+  Original Name: g_variant_lookup/usr/include/glib-2.0/glib/gvariant.h:214
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_variant_lookup[I32](dictionary: NullablePointer[GVariant] tag, key: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)
+

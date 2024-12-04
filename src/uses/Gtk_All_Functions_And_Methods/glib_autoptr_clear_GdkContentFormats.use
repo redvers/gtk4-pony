@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:106
+  Original Name: glib_autoptr_clear_GdkContentFormats/usr/include/gtk-4.0/gdk/gdkcontentformats.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_clear_GdkContentFormats[None](ptr: NullablePointer[GdkContentFormats] tag)
+

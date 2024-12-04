@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnection.h:77
+  Original Name: g_socket_connection_is_connected/usr/include/glib-2.0/gio/gsocketconnection.h:77
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f198]
+*/
+use @g_socket_connection_is_connected[I32](connection: NullablePointer[GSocketConnection] tag)
+

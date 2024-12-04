@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:145
+  Original Name: g_simple_async_report_gerror_in_idle/usr/include/glib-2.0/gio/gsimpleasyncresult.h:145
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_simple_async_report_gerror_in_idle[None](object: NullablePointer[GObject] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag, error: NullablePointer[GError] tag)
+

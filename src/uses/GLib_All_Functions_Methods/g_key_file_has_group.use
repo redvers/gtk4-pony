@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:118
+  Original Name: g_key_file_has_group/usr/include/glib-2.0/glib/gkeyfile.h:118
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_key_file_has_group[I32](keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag)
+

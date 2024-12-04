@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:148
+  Original Name: gtk_paper_size_get_default_left_margin/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:148
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f673]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_paper_size_get_default_left_margin[F64](size: NullablePointer[GtkPaperSize] tag, unit: I32)
+

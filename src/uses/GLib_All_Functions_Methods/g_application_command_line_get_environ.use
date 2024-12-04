@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplicationcommandline.h:89
+  Original Name: g_application_command_line_get_environ/usr/include/glib-2.0/gio/gapplicationcommandline.h:89
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f170]
+*/
+use @g_application_command_line_get_environ[Pointer[Pointer[U8]]](cmdline: NullablePointer[GApplicationCommandLine] tag)
+

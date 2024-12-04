@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:390
+  Original Name: g_option_group_free/usr/include/glib-2.0/glib/goption.h:390
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+*/
+use @g_option_group_free[None](group: NullablePointer[GOptionGroup] tag)
+

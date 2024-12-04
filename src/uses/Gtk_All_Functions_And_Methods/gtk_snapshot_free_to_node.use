@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:55
+  Original Name: gtk_snapshot_free_to_node/usr/include/gtk-4.0/gtk/gtksnapshot.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_snapshot_free_to_node[NullablePointer[GskRenderNode]](snapshot: NullablePointer[GdkSnapshot] tag)
+

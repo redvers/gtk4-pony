@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:70
+  Original Name: g_hash_table_destroy/usr/include/glib-2.0/glib/ghash.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+*/
+use @g_hash_table_destroy[None](hashtable: NullablePointer[GHashTable] tag)
+

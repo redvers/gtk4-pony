@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghmac.h:40
+  Original Name: g_hmac_copy/usr/include/glib-2.0/glib/ghmac.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f80]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+*/
+use @g_hmac_copy[NullablePointer[GHmac]](hmac: NullablePointer[GHmac] tag)
+

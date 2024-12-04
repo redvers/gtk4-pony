@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilter.h:105
+  Original Name: gtk_filter_get_strictness/usr/include/gtk-4.0/gtk/gtkfilter.h:105
+
+  Return Value: [Enumeration size=32,fid: f513]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f513]
+*/
+use @gtk_filter_get_strictness[I32](self: NullablePointer[GtkFilter] tag)
+

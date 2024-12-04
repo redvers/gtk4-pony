@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:242
+  Original Name: gsk_linear_gradient_node_new/usr/include/gtk-4.0/gsk/gskrendernode.h:242
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f445]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+    [PointerType size=64]->[Struct size=160,fid: f468]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gsk_linear_gradient_node_new[NullablePointer[GskRenderNode]](bounds: NullablePointer[Graphenerectt] tag, start: NullablePointer[Graphenepointt] tag, end: NullablePointer[Graphenepointt] tag, colorstops: NullablePointer[GskColorStop] tag, ncolorstops: U64)
+

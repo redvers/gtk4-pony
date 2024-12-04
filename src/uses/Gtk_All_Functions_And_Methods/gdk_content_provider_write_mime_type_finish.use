@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentprovider.h:104
+  Original Name: gdk_content_provider_write_mime_type_finish/usr/include/gtk-4.0/gdk/gdkcontentprovider.h:104
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f374]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_content_provider_write_mime_type_finish[I32](provider: NullablePointer[GdkContentProvider] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroup.h:153
+  Original Name: g_action_group_query_action/usr/include/glib-2.0/gio/gactiongroup.h:153
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f93]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f93]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_action_group_query_action[I32](actiongroup: NullablePointer[GActionGroup] tag, actionname: Pointer[U8] tag, enabled: Pointer[I32] tag, parametertype: Pointer[NullablePointer[GVariantType]] tag, statetype: Pointer[NullablePointer[GVariantType]] tag, statehint: Pointer[NullablePointer[GVariant]] tag, state: Pointer[NullablePointer[GVariant]] tag)
+

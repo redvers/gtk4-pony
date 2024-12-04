@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:103
+  Original Name: gtk_text_get_placeholder_text/usr/include/gtk-4.0/gtk/gtktext.h:103
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_get_placeholder_text[Pointer[U8]](self: NullablePointer[GtkText] tag)
+

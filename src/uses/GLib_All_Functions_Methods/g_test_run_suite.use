@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:571
+  Original Name: g_test_run_suite/usr/include/glib-2.0/glib/gtestutils.h:571
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f115]
+*/
+use @g_test_run_suite[I32](suite: NullablePointer[GTestSuite] tag)
+

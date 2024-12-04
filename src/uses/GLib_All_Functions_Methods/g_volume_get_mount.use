@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolume.h:200
+  Original Name: g_volume_get_mount/usr/include/glib-2.0/gio/gvolume.h:200
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_volume_get_mount[NullablePointer[GMount]](volume: NullablePointer[GVolume] tag)
+

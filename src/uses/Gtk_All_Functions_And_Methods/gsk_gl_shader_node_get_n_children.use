@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:586
+  Original Name: gsk_gl_shader_node_get_n_children/usr/include/gtk-4.0/gsk/gskrendernode.h:586
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_gl_shader_node_get_n_children[U32](node: NullablePointer[GskRenderNode] tag)
+

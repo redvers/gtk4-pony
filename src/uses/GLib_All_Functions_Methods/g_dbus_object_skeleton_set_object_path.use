@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectskeleton.h:85
+  Original Name: g_dbus_object_skeleton_set_object_path/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f222]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_object_skeleton_set_object_path[None](object: NullablePointer[GDBusObjectSkeleton] tag, objectpath: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:86
+  Original Name: g_queue_is_empty/usr/include/glib-2.0/glib/gqueue.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @g_queue_is_empty[I32](queue: NullablePointer[GQueue] tag)
+

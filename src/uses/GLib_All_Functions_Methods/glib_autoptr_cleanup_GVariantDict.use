@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:100
+  Original Name: glib_autoptr_cleanup_GVariantDict/usr/include/glib-2.0/glib/glib-autocleanups.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1024,fid: f94]
+*/
+use @glib_autoptr_cleanup_GVariantDict[None](ptr: Pointer[NullablePointer[GVariantDict]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:102
+  Original Name: g_ascii_xdigit_value/usr/include/glib-2.0/glib/gstrfuncs.h:102
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(char) size=8]
+*/
+use @g_ascii_xdigit_value[I32](c: U8)
+

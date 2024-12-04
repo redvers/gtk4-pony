@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentserializer.h:82
+  Original Name: gdk_content_register_serializer/usr/include/gtk-4.0/gdk/gdkcontentserializer.h:82
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gdk_content_register_serializer[None](type: U64, mimetype: Pointer[U8] tag, serialize: Pointer[None] tag, data: Pointer[None] tag, notify: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknoselection.h:37
+  Original Name: gtk_no_selection_set_model/usr/include/gtk-4.0/gtk/gtknoselection.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f666]
+    [PointerType size=64]->[Struct size=,fid: f274]
+*/
+use @gtk_no_selection_set_model[None](self: NullablePointer[GtkNoSelection] tag, model: NullablePointer[GListModel] tag)
+

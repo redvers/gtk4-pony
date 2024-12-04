@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:85
+  Original Name: g_variant_new_byte/usr/include/glib-2.0/glib/gvariant.h:85
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [FundamentalType(unsigned char) size=8]
+*/
+use @g_variant_new_byte[NullablePointer[GVariant]](value: U8)
+

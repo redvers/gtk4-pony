@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcheckbutton.h:93
+  Original Name: gtk_check_button_get_use_underline/usr/include/gtk-4.0/gtk/gtkcheckbutton.h:93
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f544]
+*/
+use @gtk_check_button_get_use_underline[I32](self: NullablePointer[GtkCheckButton] tag)
+

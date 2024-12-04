@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:108
+  Original Name: gdk_display_put_event/usr/include/gtk-4.0/gdk/gdkdisplay.h:108
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_display_put_event[None](display: NullablePointer[GdkDisplay] tag, event: NullablePointer[GdkEvent] tag)
+

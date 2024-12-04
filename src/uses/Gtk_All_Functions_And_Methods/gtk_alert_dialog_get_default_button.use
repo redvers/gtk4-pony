@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkalertdialog.h:75
+  Original Name: gtk_alert_dialog_get_default_button/usr/include/gtk-4.0/gtk/gtkalertdialog.h:75
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f494]
+*/
+use @gtk_alert_dialog_get_default_button[I32](self: NullablePointer[GtkAlertDialog] tag)
+

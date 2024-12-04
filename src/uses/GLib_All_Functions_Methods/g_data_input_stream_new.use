@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdatainputstream.h:68
+  Original Name: g_data_input_stream_new/usr/include/glib-2.0/gio/gdatainputstream.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=448,fid: f167]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f186]
+*/
+use @g_data_input_stream_new[NullablePointer[GDataInputStream]](basestream: NullablePointer[GInputStream] tag)
+

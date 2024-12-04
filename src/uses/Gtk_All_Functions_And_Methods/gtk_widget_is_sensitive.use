@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:436
+  Original Name: gtk_widget_is_sensitive/usr/include/gtk-4.0/gtk/gtkwidget.h:436
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_is_sensitive[I32](widget: NullablePointer[GtkWidget] tag)
+

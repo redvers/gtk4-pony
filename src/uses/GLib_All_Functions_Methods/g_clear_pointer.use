@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:80
+  Original Name: g_clear_pointer/usr/include/glib-2.0/glib/gmem.h:80
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_clear_pointer[None](pp: NullablePointer[Pointer[None]] tag, destroy: Pointer[None] tag)
+

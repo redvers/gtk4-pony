@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:114
+  Original Name: gsk_path_get_bounds/usr/include/gtk-4.0/gsk/gskpath.h:114
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gsk_path_get_bounds[I32](self: NullablePointer[GskPath] tag, bounds: NullablePointer[Graphenerectt] tag)
+

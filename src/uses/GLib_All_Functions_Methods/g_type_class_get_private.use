@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1513
+  Original Name: g_type_class_get_private/usr/include/glib-2.0/gobject/gtype.h:1513
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f135]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_class_get_private[Pointer[None]](klass: NullablePointer[GTypeClass] tag, privatetype: U64)
+

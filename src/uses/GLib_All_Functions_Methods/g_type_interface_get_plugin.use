@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2586
+  Original Name: g_type_interface_get_plugin/usr/include/glib-2.0/gobject/gtype.h:2586
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f135]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_interface_get_plugin[NullablePointer[GTypePlugin]](instancetype: U64, interfacetype: U64)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontroller.h:63
+  Original Name: gtk_event_controller_set_propagation_limit/usr/include/gtk-4.0/gtk/gtkeventcontroller.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_event_controller_set_propagation_limit[None](controller: NullablePointer[GtkEventController] tag, limit: I32)
+

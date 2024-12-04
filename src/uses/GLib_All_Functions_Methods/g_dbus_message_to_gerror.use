@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:200
+  Original Name: g_dbus_message_to_gerror/usr/include/glib-2.0/gio/gdbusmessage.h:200
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_message_to_gerror[I32](message: NullablePointer[GDBusMessage] tag, error: Pointer[NullablePointer[GError]] tag)
+

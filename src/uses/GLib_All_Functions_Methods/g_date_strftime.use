@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:281
+  Original Name: g_date_strftime/usr/include/glib-2.0/glib/gdate.h:281
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_strftime[U64](s: Pointer[U8] tag, slen: U64, format: Pointer[U8] tag, date: NullablePointer[GDate] tag)
+

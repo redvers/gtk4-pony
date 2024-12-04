@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrawcontext.h:54
+  Original Name: glib_autoptr_clear_GdkDrawContext/usr/include/gtk-4.0/gdk/gdkdrawcontext.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_clear_GdkDrawContext[None](ptr: NullablePointer[GdkDrawContext] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:192
+  Original Name: g_ptr_array_ref/usr/include/glib-2.0/glib/garray.h:192
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @g_ptr_array_ref[NullablePointer[GPtrArray]](array: NullablePointer[GPtrArray] tag)
+

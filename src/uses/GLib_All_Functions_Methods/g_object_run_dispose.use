@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:653
+  Original Name: g_object_run_dispose/usr/include/glib-2.0/gobject/gobject.h:653
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_object_run_dispose[None](object: NullablePointer[GObject] tag)
+

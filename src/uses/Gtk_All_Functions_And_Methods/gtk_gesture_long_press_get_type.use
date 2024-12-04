@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturelongpress.h:41
+  Original Name: gtk_gesture_long_press_get_type/usr/include/gtk-4.0/gtk/gtkgesturelongpress.h:41
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_gesture_long_press_get_type[U64]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:355
+  Original Name: g_signal_query/usr/include/glib-2.0/gobject/gsignal.h:355
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=448,fid: f140]
+*/
+use @g_signal_query[None](signalid: U32, query: NullablePointer[GSignalQuery] tag)
+

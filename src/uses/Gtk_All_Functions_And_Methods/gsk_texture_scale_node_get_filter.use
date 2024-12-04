@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:237
+  Original Name: gsk_texture_scale_node_get_filter/usr/include/gtk-4.0/gsk/gskrendernode.h:237
+
+  Return Value: [Enumeration size=32,fid: f432]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_texture_scale_node_get_filter[I32](node: NullablePointer[GskRenderNode] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:73
+  Original Name: g_dbus_message_lock/usr/include/glib-2.0/gio/gdbusmessage.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_message_lock[None](message: NullablePointer[GDBusMessage] tag)
+

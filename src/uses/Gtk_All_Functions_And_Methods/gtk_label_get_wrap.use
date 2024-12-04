@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:118
+  Original Name: gtk_label_get_wrap/usr/include/gtk-4.0/gtk/gtklabel.h:118
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_wrap[I32](self: NullablePointer[GtkLabel] tag)
+

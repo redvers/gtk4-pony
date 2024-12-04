@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:596
+  Original Name: gsk_subsurface_node_get_type/usr/include/gtk-4.0/gsk/gskrendernode.h:596
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_subsurface_node_get_type[U64]()
+

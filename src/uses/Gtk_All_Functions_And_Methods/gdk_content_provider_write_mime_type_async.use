@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentprovider.h:96
+  Original Name: gdk_content_provider_write_mime_type_async/usr/include/gtk-4.0/gdk/gdkcontentprovider.h:96
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f374]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f192]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gdk_content_provider_write_mime_type_async[None](provider: NullablePointer[GdkContentProvider] tag, mimetype: Pointer[U8] tag, stream: NullablePointer[GOutputStream] tag, iopriority: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

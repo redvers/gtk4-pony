@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:85
+  Original Name: gtk_column_view_get_sorter/usr/include/gtk-4.0/gtk/gtkcolumnview.h:85
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f552]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+*/
+use @gtk_column_view_get_sorter[NullablePointer[GtkSorter]](self: NullablePointer[GtkColumnView] tag)
+

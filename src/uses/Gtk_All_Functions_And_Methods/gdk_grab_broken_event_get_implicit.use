@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:502
+  Original Name: gdk_grab_broken_event_get_implicit/usr/include/gtk-4.0/gdk/gdkevents.h:502
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_grab_broken_event_get_implicit[I32](event: NullablePointer[GdkEvent] tag)
+

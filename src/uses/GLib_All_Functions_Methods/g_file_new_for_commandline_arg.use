@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:611
+  Original Name: g_file_new_for_commandline_arg/usr/include/glib-2.0/gio/gfile.h:611
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_new_for_commandline_arg[NullablePointer[GFile]](arg: Pointer[U8] tag)
+

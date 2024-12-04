@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/genums.h:262
+  Original Name: g_enum_register_static/usr/include/glib-2.0/gobject/genums.h:262
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f146]
+*/
+use @g_enum_register_static[U64](name: Pointer[U8] tag, conststaticvalues: NullablePointer[GEnumValue] tag)
+

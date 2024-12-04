@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:101
+  Original Name: gsk_path_parse/usr/include/gtk-4.0/gsk/gskpath.h:101
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gsk_path_parse[NullablePointer[GskPath]](string: Pointer[U8] tag)
+

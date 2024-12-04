@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:160
+  Original Name: gtk_recent_manager_add_full/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:160
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f688]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=448,fid: f688]
+*/
+use @gtk_recent_manager_add_full[I32](manager: NullablePointer[GtkRecentManager] tag, uri: Pointer[U8] tag, recentdata: NullablePointer[GtkRecentData] tag)
+

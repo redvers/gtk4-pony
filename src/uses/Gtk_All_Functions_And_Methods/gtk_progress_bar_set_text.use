@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprogressbar.h:51
+  Original Name: gtk_progress_bar_set_text/usr/include/gtk-4.0/gtk/gtkprogressbar.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f686]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_progress_bar_set_text[None](pbar: NullablePointer[GtkProgressBar] tag, text: Pointer[U8] tag)
+

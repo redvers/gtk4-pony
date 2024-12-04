@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:243
+  Original Name: gtk_notebook_get_pages/usr/include/gtk-4.0/gtk/gtknotebook.h:243
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_get_pages[NullablePointer[GListModel]](notebook: NullablePointer[GtkNotebook] tag)
+

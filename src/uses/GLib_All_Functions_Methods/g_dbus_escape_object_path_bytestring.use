@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusutils.h:57
+  Original Name: g_dbus_escape_object_path_bytestring/usr/include/glib-2.0/gio/gdbusutils.h:57
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @g_dbus_escape_object_path_bytestring[Pointer[U8]](bytes: Pointer[U8] tag)
+

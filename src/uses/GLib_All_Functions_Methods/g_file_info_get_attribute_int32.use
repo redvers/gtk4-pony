@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1344
+  Original Name: g_file_info_get_attribute_int32/usr/include/glib-2.0/gio/gfileinfo.h:1344
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_info_get_attribute_int32[I32](info: NullablePointer[GFileInfo] tag, attribute: Pointer[U8] tag)
+

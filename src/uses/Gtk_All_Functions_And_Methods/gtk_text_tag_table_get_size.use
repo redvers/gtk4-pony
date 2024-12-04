@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktexttagtable.h:68
+  Original Name: gtk_text_tag_table_get_size/usr/include/gtk-4.0/gtk/gtktexttagtable.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f728]
+*/
+use @gtk_text_tag_table_get_size[I32](table: NullablePointer[GtkTextTagTable] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:132
+  Original Name: g_date_valid/usr/include/glib-2.0/glib/gdate.h:132
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_valid[I32](date: NullablePointer[GDate] tag)
+

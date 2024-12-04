@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2640
+  Original Name: g_type_check_value_holds/usr/include/glib-2.0/gobject/gtype.h:2640
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_check_value_holds[I32](value: NullablePointer[GValue] tag, type: U64)
+

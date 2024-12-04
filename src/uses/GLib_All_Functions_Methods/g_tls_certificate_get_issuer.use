@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlscertificate.h:94
+  Original Name: g_tls_certificate_get_issuer/usr/include/glib-2.0/gio/gtlscertificate.h:94
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f206]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f206]
+*/
+use @g_tls_certificate_get_issuer[NullablePointer[GTlsCertificate]](cert: NullablePointer[GTlsCertificate] tag)
+

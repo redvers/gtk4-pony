@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:98
+  Original Name: g_async_queue_sort_unlocked/usr/include/glib-2.0/glib/gasyncqueue.h:98
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_async_queue_sort_unlocked[None](queue: NullablePointer[GAsyncQueue] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

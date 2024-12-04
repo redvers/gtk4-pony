@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:603
+  Original Name: g_match_info_fetch_named_pos/usr/include/glib-2.0/glib/gregex.h:603
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_match_info_fetch_named_pos[I32](matchinfo: NullablePointer[GMatchInfo] tag, name: Pointer[U8] tag, startpos: Pointer[I32] tag, endpos: Pointer[I32] tag)
+

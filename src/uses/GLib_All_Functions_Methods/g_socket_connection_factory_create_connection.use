@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnection.h:113
+  Original Name: g_socket_connection_factory_create_connection/usr/include/glib-2.0/gio/gsocketconnection.h:113
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f198]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+*/
+use @g_socket_connection_factory_create_connection[NullablePointer[GSocketConnection]](socket: NullablePointer[GSocket] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gthemedicon.h:44
+  Original Name: g_themed_icon_get_type/usr/include/glib-2.0/gio/gthemedicon.h:44
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_themed_icon_get_type[U64]()
+

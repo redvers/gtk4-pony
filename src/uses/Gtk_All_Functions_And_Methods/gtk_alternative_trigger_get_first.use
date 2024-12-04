@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:135
+  Original Name: gtk_alternative_trigger_get_first/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:135
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f708]
+*/
+use @gtk_alternative_trigger_get_first[NullablePointer[GtkShortcutTrigger]](self: NullablePointer[GtkAlternativeTrigger] tag)
+

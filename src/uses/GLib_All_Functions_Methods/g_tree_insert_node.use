@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:98
+  Original Name: g_tree_insert_node/usr/include/glib-2.0/glib/gtree.h:98
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f119]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_insert_node[NullablePointer[GTreeNode]](tree: NullablePointer[GTree] tag, key: Pointer[None] tag, value: Pointer[None] tag)
+

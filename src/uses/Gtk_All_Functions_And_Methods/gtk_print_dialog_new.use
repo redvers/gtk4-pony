@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:59
+  Original Name: gtk_print_dialog_new/usr/include/gtk-4.0/gtk/gtkprintdialog.h:59
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f682]
+
+  Arguments:
+*/
+use @gtk_print_dialog_new[NullablePointer[GtkPrintDialog]]()
+

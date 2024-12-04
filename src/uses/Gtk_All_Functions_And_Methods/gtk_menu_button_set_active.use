@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:130
+  Original Name: gtk_menu_button_set_active/usr/include/gtk-4.0/gtk/gtkmenubutton.h:130
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_menu_button_set_active[None](menubutton: NullablePointer[GtkMenuButton] tag, active: I32)
+

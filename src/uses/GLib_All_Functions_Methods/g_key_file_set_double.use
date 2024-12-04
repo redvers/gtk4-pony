@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:208
+  Original Name: g_key_file_set_double/usr/include/glib-2.0/glib/gkeyfile.h:208
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(double) size=64]
+*/
+use @g_key_file_set_double[None](keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag, key: Pointer[U8] tag, value: F64)
+

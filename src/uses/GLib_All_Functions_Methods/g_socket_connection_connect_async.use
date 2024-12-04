@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnection.h:84
+  Original Name: g_socket_connection_connect_async/usr/include/glib-2.0/gio/gsocketconnection.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f198]
+    [PointerType size=64]->[Struct size=192,fid: f201]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_socket_connection_connect_async[None](connection: NullablePointer[GSocketConnection] tag, address: NullablePointer[GSocketAddress] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

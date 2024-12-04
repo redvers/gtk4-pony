@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:129
+  Original Name: gtk_activate_action_get/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:129
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+*/
+use @gtk_activate_action_get[NullablePointer[GtkShortcutAction]]()
+

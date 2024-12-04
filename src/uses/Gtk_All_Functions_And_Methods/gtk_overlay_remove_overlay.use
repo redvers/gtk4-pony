@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkoverlay.h:45
+  Original Name: gtk_overlay_remove_overlay/usr/include/gtk-4.0/gtk/gtkoverlay.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f670]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_overlay_remove_overlay[None](overlay: NullablePointer[GtkOverlay] tag, widget: NullablePointer[GtkWidget] tag)
+

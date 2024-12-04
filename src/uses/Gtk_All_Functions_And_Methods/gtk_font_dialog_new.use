@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:37
+  Original Name: gtk_font_dialog_new/usr/include/gtk-4.0/gtk/gtkfontdialog.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f619]
+
+  Arguments:
+*/
+use @gtk_font_dialog_new[NullablePointer[GtkFontDialog]]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gliststore.h:38
+  Original Name: G_IS_LIST_STORE/usr/include/glib-2.0/gio/gliststore.h:38
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @G_IS_LIST_STORE[I32](ptr: Pointer[None] tag)
+

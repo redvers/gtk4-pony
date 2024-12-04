@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcsssection.h:66
+  Original Name: gtk_css_section_get_start_location/usr/include/gtk-4.0/gtk/css/gtkcsssection.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f158]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f317]
+*/
+use @gtk_css_section_get_start_location[NullablePointer[GtkCssLocation]](section: NullablePointer[GtkCssSection] tag)
+

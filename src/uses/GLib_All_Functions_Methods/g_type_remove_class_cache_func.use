@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2601
+  Original Name: g_type_remove_class_cache_func/usr/include/glib-2.0/gobject/gtype.h:2601
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_type_remove_class_cache_func[None](cachedata: Pointer[None] tag, cachefunc: Pointer[None] tag)
+

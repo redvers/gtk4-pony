@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gemblemedicon.h:64
+  Original Name: g_emblemed_icon_new/usr/include/glib-2.0/gio/gemblemedicon.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f263]
+*/
+use @g_emblemed_icon_new[NullablePointer[GIcon]](icon: NullablePointer[GIcon] tag, emblem: NullablePointer[GEmblem] tag)
+

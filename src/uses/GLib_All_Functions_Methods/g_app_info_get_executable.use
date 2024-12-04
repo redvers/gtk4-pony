@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:163
+  Original Name: g_app_info_get_executable/usr/include/glib-2.0/gio/gappinfo.h:163
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_app_info_get_executable[Pointer[U8]](appinfo: NullablePointer[GAppInfo] tag)
+

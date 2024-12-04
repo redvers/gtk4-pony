@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:76
+  Original Name: g_settings_list_schemas/usr/include/glib-2.0/gio/gsettings.h:76
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+*/
+use @g_settings_list_schemas[Pointer[Pointer[U8]]]()
+

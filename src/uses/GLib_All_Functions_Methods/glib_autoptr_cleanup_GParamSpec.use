@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject-autocleanups.h:33
+  Original Name: glib_autoptr_cleanup_GParamSpec/usr/include/glib-2.0/gobject/gobject-autocleanups.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @glib_autoptr_cleanup_GParamSpec[None](ptr: Pointer[NullablePointer[GParamSpec]] tag)
+

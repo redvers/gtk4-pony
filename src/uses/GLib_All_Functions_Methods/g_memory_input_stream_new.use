@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemoryinputstream.h:68
+  Original Name: g_memory_input_stream_new/usr/include/glib-2.0/gio/gmemoryinputstream.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+*/
+use @g_memory_input_stream_new[NullablePointer[GInputStream]]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkoverlay.h:52
+  Original Name: gtk_overlay_get_child/usr/include/gtk-4.0/gtk/gtkoverlay.h:52
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f670]
+*/
+use @gtk_overlay_get_child[NullablePointer[GtkWidget]](overlay: NullablePointer[GtkOverlay] tag)
+

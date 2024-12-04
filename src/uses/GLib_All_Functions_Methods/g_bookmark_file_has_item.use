@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:309
+  Original Name: g_bookmark_file_has_item/usr/include/glib-2.0/glib/gbookmarkfile.h:309
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_bookmark_file_has_item[I32](bookmark: NullablePointer[GBookmarkFile] tag, uri: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:71
+  Original Name: gtk_file_dialog_set_initial_folder/usr/include/gtk-4.0/gtk/gtkfiledialog.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @gtk_file_dialog_set_initial_folder[None](self: NullablePointer[GtkFileDialog] tag, folder: NullablePointer[GFile] tag)
+

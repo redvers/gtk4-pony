@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:88
+  Original Name: glib_autoptr_clear_GMutexLocker/usr/include/glib-2.0/glib/glib-autocleanups.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @glib_autoptr_clear_GMutexLocker[None](ptr: Pointer[None] tag)
+

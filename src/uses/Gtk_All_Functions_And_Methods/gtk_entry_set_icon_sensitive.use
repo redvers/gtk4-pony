@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:220
+  Original Name: gtk_entry_set_icon_sensitive/usr/include/gtk-4.0/gtk/gtkentry.h:220
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_entry_set_icon_sensitive[None](entry: NullablePointer[GtkEntry] tag, iconpos: I32, sensitive: I32)
+

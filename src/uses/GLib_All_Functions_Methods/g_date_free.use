@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:122
+  Original Name: g_date_free/usr/include/glib-2.0/glib/gdate.h:122
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_free[None](date: NullablePointer[GDate] tag)
+

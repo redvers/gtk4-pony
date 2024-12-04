@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gthemedicon.h:47
+  Original Name: g_themed_icon_new/usr/include/glib-2.0/gio/gthemedicon.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_themed_icon_new[NullablePointer[GIcon]](iconname: Pointer[U8] tag)
+

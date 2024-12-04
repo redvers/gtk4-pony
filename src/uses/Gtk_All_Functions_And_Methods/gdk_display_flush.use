@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:55
+  Original Name: gdk_display_flush/usr/include/gtk-4.0/gdk/gdkdisplay.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_flush[None](display: NullablePointer[GdkDisplay] tag)
+

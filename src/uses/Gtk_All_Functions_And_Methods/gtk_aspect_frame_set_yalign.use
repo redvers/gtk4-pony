@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:58
+  Original Name: gtk_aspect_frame_set_yalign/usr/include/gtk-4.0/gtk/gtkaspectframe.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f505]
+    [FundamentalType(float) size=32]
+*/
+use @gtk_aspect_frame_set_yalign[None](self: NullablePointer[GtkAspectFrame] tag, yalign: F32)
+

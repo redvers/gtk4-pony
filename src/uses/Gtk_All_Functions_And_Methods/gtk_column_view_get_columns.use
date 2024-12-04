@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:53
+  Original Name: gtk_column_view_get_columns/usr/include/gtk-4.0/gtk/gtkcolumnview.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+*/
+use @gtk_column_view_get_columns[NullablePointer[GListModel]](self: NullablePointer[GtkColumnView] tag)
+

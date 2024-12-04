@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbox.h:87
+  Original Name: gtk_box_get_baseline_position/usr/include/gtk-4.0/gtk/gtkbox.h:87
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f517]
+*/
+use @gtk_box_get_baseline_position[I32](box: NullablePointer[GtkBox] tag)
+

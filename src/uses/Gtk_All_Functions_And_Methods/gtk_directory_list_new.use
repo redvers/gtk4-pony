@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdirectorylist.h:40
+  Original Name: gtk_directory_list_new/usr/include/gtk-4.0/gtk/gtkdirectorylist.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f583]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @gtk_directory_list_new[NullablePointer[GtkDirectoryList]](attributes: Pointer[U8] tag, file: NullablePointer[GFile] tag)
+

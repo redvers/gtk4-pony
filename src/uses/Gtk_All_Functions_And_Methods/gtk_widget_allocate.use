@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:298
+  Original Name: gtk_widget_allocate/usr/include/gtk-4.0/gtk/gtkwidget.h:298
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gtk_widget_allocate[None](widget: NullablePointer[GtkWidget] tag, width: I32, height: I32, baseline: I32, transform: NullablePointer[GskTransform] tag)
+

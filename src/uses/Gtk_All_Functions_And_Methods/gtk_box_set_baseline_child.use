@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbox.h:90
+  Original Name: gtk_box_set_baseline_child/usr/include/gtk-4.0/gtk/gtkbox.h:90
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f517]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_box_set_baseline_child[None](box: NullablePointer[GtkBox] tag, child: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:58
+  Original Name: gsk_path_builder_add_cairo_path/usr/include/gtk-4.0/gsk/gskpathbuilder.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=192,fid: f318]
+*/
+use @gsk_path_builder_add_cairo_path[None](self: NullablePointer[GskPathBuilder] tag, path: NullablePointer[Cairopath] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplicationcommandline.h:96
+  Original Name: g_application_command_line_get_cwd/usr/include/glib-2.0/gio/gapplicationcommandline.h:96
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f170]
+*/
+use @g_application_command_line_get_cwd[Pointer[U8]](cmdline: NullablePointer[GApplicationCommandLine] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:99
+  Original Name: g_thread_pool_set_max_idle_time/usr/include/glib-2.0/glib/gthreadpool.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_thread_pool_set_max_idle_time[None](interval: U32)
+

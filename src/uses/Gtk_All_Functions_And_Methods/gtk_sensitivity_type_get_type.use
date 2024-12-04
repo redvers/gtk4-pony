@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:127
+  Original Name: gtk_sensitivity_type_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:127
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_sensitivity_type_get_type[U64]()
+

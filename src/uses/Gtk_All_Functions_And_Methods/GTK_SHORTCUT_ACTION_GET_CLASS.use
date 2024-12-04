@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:61
+  Original Name: GTK_SHORTCUT_ACTION_GET_CLASS/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f484]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_SHORTCUT_ACTION_GET_CLASS[NullablePointer[GtkShortcutActionClass]](ptr: Pointer[None] tag)
+

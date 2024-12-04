@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkselectionmodel.h:33
+  Original Name: GTK_SELECTION_MODEL_GET_IFACE/usr/include/gtk-4.0/gtk/gtkselectionmodel.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=704,fid: f554]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_SELECTION_MODEL_GET_IFACE[NullablePointer[GtkSelectionModelInterface]](ptr: Pointer[None] tag)
+

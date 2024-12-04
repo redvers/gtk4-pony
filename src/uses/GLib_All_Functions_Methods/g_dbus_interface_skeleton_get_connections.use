@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:112
+  Original Name: g_dbus_interface_skeleton_get_connections/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:112
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f221]
+*/
+use @g_dbus_interface_skeleton_get_connections[NullablePointer[GList]](interface: NullablePointer[GDBusInterfaceSkeleton] tag)
+

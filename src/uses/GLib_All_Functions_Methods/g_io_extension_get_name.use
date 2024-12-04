@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:94
+  Original Name: g_io_extension_get_name/usr/include/glib-2.0/gio/giomodule.h:94
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_io_extension_get_name[Pointer[U8]](extension: NullablePointer[GIOExtension] tag)
+

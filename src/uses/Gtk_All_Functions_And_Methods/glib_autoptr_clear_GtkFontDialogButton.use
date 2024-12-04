@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:34
+  Original Name: glib_autoptr_clear_GtkFontDialogButton/usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f620]
+*/
+use @glib_autoptr_clear_GtkFontDialogButton[None](ptr: NullablePointer[GtkFontDialogButton] tag)
+

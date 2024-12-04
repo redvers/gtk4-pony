@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:88
+  Original Name: gtk_column_view_sort_by_column/usr/include/gtk-4.0/gtk/gtkcolumnview.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_column_view_sort_by_column[None](self: NullablePointer[GtkColumnView] tag, column: NullablePointer[GtkColumnViewColumn] tag, direction: I32)
+

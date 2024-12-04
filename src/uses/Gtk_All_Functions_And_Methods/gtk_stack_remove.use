@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:127
+  Original Name: gtk_stack_remove/usr/include/gtk-4.0/gtk/gtkstack.h:127
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_stack_remove[None](stack: NullablePointer[GtkStack] tag, child: NullablePointer[GtkWidget] tag)
+

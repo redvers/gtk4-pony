@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbacktrace.h:43
+  Original Name: g_on_error_query/usr/include/glib-2.0/glib/gbacktrace.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_on_error_query[None](prgname: Pointer[U8] tag)
+

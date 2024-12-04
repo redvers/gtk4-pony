@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:370
+  Original Name: g_option_context_get_main_group/usr/include/glib-2.0/glib/goption.h:370
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f96]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+*/
+use @g_option_context_get_main_group[NullablePointer[GOptionGroup]](context: NullablePointer[GOptionContext] tag)
+

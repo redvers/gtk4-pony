@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevellayout.h:54
+  Original Name: gdk_toplevel_layout_set_maximized/usr/include/gtk-4.0/gdk/gdktoplevellayout.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f428]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_toplevel_layout_set_maximized[None](layout: NullablePointer[GdkToplevelLayout] tag, maximized: I32)
+

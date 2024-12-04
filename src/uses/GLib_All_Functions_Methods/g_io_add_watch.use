@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:203
+  Original Name: g_io_add_watch/usr/include/glib-2.0/glib/giochannel.h:203
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [Enumeration size=32,fid: f85]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_io_add_watch[U32](channel: NullablePointer[GIOChannel] tag, condition: I32, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:168
+  Original Name: gtk_spin_button_set_update_policy/usr/include/gtk-4.0/gtk/gtkspinbutton.h:168
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+    [Enumeration size=32,fid: f717]
+*/
+use @gtk_spin_button_set_update_policy[None](spinbutton: NullablePointer[GtkSpinButton] tag, policy: I32)
+

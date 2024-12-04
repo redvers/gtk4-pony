@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:121
+  Original Name: gtk_paper_size_get_display_name/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:121
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f673]
+*/
+use @gtk_paper_size_get_display_name[Pointer[U8]](size: NullablePointer[GtkPaperSize] tag)
+

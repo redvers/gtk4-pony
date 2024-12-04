@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentserializer.h:56
+  Original Name: gdk_content_serializer_get_output_stream/usr/include/gtk-4.0/gdk/gdkcontentserializer.h:56
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f192]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f394]
+*/
+use @gdk_content_serializer_get_output_stream[NullablePointer[GOutputStream]](serializer: NullablePointer[GdkContentSerializer] tag)
+

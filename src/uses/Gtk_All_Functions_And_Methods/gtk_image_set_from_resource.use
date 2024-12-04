@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:92
+  Original Name: gtk_image_set_from_resource/usr/include/gtk-4.0/gtk/gtkimage.h:92
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_image_set_from_resource[None](image: NullablePointer[GtkImage] tag, resourcepath: Pointer[U8] tag)
+

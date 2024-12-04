@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:51
+  Original Name: glib_autoptr_clear_GBytes/usr/include/glib-2.0/glib/glib-autocleanups.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @glib_autoptr_clear_GBytes[None](ptr: NullablePointer[GBytes] tag)
+

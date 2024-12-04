@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutswindow.h:40
+  Original Name: gtk_shortcuts_window_add_section/usr/include/gtk-4.0/gtk/gtkshortcutswindow.h:40
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f503]
+    [PointerType size=64]->[Struct size=,fid: f502]
+*/
+use @gtk_shortcuts_window_add_section[None](self: NullablePointer[GtkShortcutsWindow] tag, section: NullablePointer[GtkShortcutsSection] tag)
+

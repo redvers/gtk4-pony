@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:420
+  Original Name: gdk_button_event_get_type/usr/include/gtk-4.0/gdk/gdkevents.h:420
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_button_event_get_type[U64]()
+

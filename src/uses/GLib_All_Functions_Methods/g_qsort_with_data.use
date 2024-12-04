@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqsort.h:39
+  Original Name: g_qsort_with_data/usr/include/glib-2.0/glib/gqsort.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(int) size=32]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_qsort_with_data[None](pbase: Pointer[None] tag, totalelems: I32, size: U64, comparefunc: Pointer[None] tag, userdata: Pointer[None] tag)
+

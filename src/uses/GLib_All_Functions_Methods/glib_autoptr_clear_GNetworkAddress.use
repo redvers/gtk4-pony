@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:100
+  Original Name: glib_autoptr_clear_GNetworkAddress/usr/include/glib-2.0/gio/gio-autocleanups.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f190]
+*/
+use @glib_autoptr_clear_GNetworkAddress[None](ptr: NullablePointer[GNetworkAddress] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:57
+  Original Name: g_subprocess_get_stdout_pipe/usr/include/glib-2.0/gio/gsubprocess.h:57
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_subprocess_get_stdout_pipe[NullablePointer[GInputStream]](subprocess: NullablePointer[GSubprocess] tag)
+

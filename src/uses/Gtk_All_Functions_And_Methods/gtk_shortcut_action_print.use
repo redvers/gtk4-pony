@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:69
+  Original Name: gtk_shortcut_action_print/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @gtk_shortcut_action_print[None](self: NullablePointer[GtkShortcutAction] tag, string: NullablePointer[GString] tag)
+

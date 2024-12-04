@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkmonitor.h:87
+  Original Name: gdk_monitor_is_valid/usr/include/gtk-4.0/gdk/gdkmonitor.h:87
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f403]
+*/
+use @gdk_monitor_is_valid[I32](monitor: NullablePointer[GdkMonitor] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleproxyresolver.h:72
+  Original Name: g_simple_proxy_resolver_set_default_proxy/usr/include/glib-2.0/gio/gsimpleproxyresolver.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f299]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_simple_proxy_resolver_set_default_proxy[None](resolver: NullablePointer[GSimpleProxyResolver] tag, defaultproxy: Pointer[U8] tag)
+

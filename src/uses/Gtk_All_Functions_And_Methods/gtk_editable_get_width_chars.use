@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:130
+  Original Name: gtk_editable_get_width_chars/usr/include/gtk-4.0/gtk/gtkeditable.h:130
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+*/
+use @gtk_editable_get_width_chars[I32](editable: NullablePointer[GtkEditable] tag)
+

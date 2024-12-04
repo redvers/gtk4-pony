@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrag.h:82
+  Original Name: gdk_drag_drop_done/usr/include/gtk-4.0/gdk/gdkdrag.h:82
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_drag_drop_done[None](drag: NullablePointer[GdkDrag] tag, success: I32)
+

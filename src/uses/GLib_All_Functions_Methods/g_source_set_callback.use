@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:634
+  Original Name: g_source_set_callback/usr/include/glib-2.0/glib/gmain.h:634
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_source_set_callback[None](source: NullablePointer[GSource] tag, func: Pointer[None] tag, data: Pointer[None] tag, notify: Pointer[None] tag)
+

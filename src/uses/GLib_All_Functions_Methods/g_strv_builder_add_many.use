@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrvbuilder.h:53
+  Original Name: g_strv_builder_add_many/usr/include/glib-2.0/glib/gstrvbuilder.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f113]
+*/
+use @g_strv_builder_add_many[None](builder: NullablePointer[GStrvBuilder] tag, ...)
+

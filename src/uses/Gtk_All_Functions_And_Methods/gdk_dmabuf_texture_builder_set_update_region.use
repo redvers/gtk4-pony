@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:112
+  Original Name: gdk_dmabuf_texture_builder_set_update_region/usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f411]
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gdk_dmabuf_texture_builder_set_update_region[None](self: NullablePointer[GdkDmabufTextureBuilder] tag, region: NullablePointer[Cairoregion] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:227
+  Original Name: g_private_set/usr/include/glib-2.0/glib/gthread.h:227
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f41]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_private_set[None](key: NullablePointer[GPrivate] tag, value: Pointer[None] tag)
+

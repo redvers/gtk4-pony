@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:444
+  Original Name: g_signal_handlers_unblock_matched/usr/include/glib-2.0/gobject/gsignal.h:444
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [Enumeration size=32,fid: f140]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_handlers_unblock_matched[U32](instance: Pointer[None] tag, mask: I32, signalid: U32, detail: U32, closure: NullablePointer[GClosure] tag, func: Pointer[None] tag, data: Pointer[None] tag)
+

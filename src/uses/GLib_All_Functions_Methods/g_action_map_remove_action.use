@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactionmap.h:87
+  Original Name: g_action_map_remove_action/usr/include/glib-2.0/gio/gactionmap.h:87
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_action_map_remove_action[None](actionmap: NullablePointer[GActionMap] tag, actionname: Pointer[U8] tag)
+

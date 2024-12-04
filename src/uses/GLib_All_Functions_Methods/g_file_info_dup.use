@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1296
+  Original Name: g_file_info_dup/usr/include/glib-2.0/gio/gfileinfo.h:1296
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_dup[NullablePointer[GFileInfo]](other: NullablePointer[GFileInfo] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnection.h:104
+  Original Name: g_socket_connection_factory_register_type/usr/include/glib-2.0/gio/gsocketconnection.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f159]
+    [Enumeration size=32,fid: f159]
+    [FundamentalType(int) size=32]
+*/
+use @g_socket_connection_factory_register_type[None](gtype: U64, family: I32, type: I32, protocol: I32)
+

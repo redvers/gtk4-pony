@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:99
+  Original Name: gtk_about_dialog_new/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:99
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_about_dialog_new[NullablePointer[GtkWidget]]()
+

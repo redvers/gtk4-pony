@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1435
+  Original Name: g_file_info_get_size/usr/include/glib-2.0/gio/gfileinfo.h:1435
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_get_size[I64](info: NullablePointer[GFileInfo] tag)
+

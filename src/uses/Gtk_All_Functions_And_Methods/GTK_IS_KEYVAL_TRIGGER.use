@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:88
+  Original Name: GTK_IS_KEYVAL_TRIGGER/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:88
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_KEYVAL_TRIGGER[I32](ptr: Pointer[None] tag)
+

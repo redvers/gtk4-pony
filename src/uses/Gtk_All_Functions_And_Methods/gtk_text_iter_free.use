@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:104
+  Original Name: gtk_text_iter_free/usr/include/gtk-4.0/gtk/gtktextiter.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_free[None](iter: NullablePointer[GtkTextIter] tag)
+

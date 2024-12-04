@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmount.h:245
+  Original Name: g_mount_shadow/usr/include/glib-2.0/gio/gmount.h:245
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_mount_shadow[None](mount: NullablePointer[GMount] tag)
+

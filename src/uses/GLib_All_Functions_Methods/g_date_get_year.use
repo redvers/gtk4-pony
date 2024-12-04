@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:153
+  Original Name: g_date_get_year/usr/include/glib-2.0/glib/gdate.h:153
+
+  Return Value: [FundamentalType(short unsigned int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_get_year[U16](date: NullablePointer[GDate] tag)
+

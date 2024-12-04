@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenuexporter.h:44
+  Original Name: g_dbus_connection_export_menu_model/usr/include/glib-2.0/gio/gmenuexporter.h:44
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f173]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_connection_export_menu_model[U32](connection: NullablePointer[GDBusConnection] tag, objectpath: Pointer[U8] tag, menu: NullablePointer[GMenuModel] tag, error: Pointer[NullablePointer[GError]] tag)
+

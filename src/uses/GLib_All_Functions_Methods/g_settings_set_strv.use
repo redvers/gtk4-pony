@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:189
+  Original Name: g_settings_set_strv/usr/include/glib-2.0/gio/gsettings.h:189
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_settings_set_strv[I32](settings: NullablePointer[GSettings] tag, key: Pointer[U8] tag, value: Pointer[Pointer[U8]] tag)
+

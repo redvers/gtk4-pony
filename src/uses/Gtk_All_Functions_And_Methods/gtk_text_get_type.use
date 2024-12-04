@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:55
+  Original Name: gtk_text_get_type/usr/include/gtk-4.0/gtk/gtktext.h:55
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_text_get_type[U64]()
+

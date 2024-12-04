@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilemonitor.h:88
+  Original Name: g_file_monitor_emit_event/usr/include/glib-2.0/gio/gfilemonitor.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f175]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_file_monitor_emit_event[None](monitor: NullablePointer[GFileMonitor] tag, child: NullablePointer[GFile] tag, otherfile: NullablePointer[GFile] tag, eventtype: I32)
+

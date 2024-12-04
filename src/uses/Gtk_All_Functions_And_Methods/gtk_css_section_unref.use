@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcsssection.h:52
+  Original Name: gtk_css_section_unref/usr/include/gtk-4.0/gtk/css/gtkcsssection.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f317]
+*/
+use @gtk_css_section_unref[None](section: NullablePointer[GtkCssSection] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraintguide.h:31
+  Original Name: gtk_constraint_guide_get_type/usr/include/gtk-4.0/gtk/gtkconstraintguide.h:31
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_constraint_guide_get_type[U64]()
+

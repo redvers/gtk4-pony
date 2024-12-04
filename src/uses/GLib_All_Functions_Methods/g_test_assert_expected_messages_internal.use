@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:742
+  Original Name: g_test_assert_expected_messages_internal/usr/include/glib-2.0/glib/gtestutils.h:742
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_assert_expected_messages_internal[None](domain: Pointer[U8] tag, file: Pointer[U8] tag, line: I32, func: Pointer[U8] tag)
+

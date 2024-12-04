@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:193
+  Original Name: g_rw_lock_reader_trylock/usr/include/glib-2.0/glib/gthread.h:193
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f41]
+*/
+use @g_rw_lock_reader_trylock[I32](rwlock: NullablePointer[GRWLock] tag)
+

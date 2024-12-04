@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklevelbar.h:70
+  Original Name: gtk_level_bar_set_mode/usr/include/gtk-4.0/gtk/gtklevelbar.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f647]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_level_bar_set_mode[None](self: NullablePointer[GtkLevelBar] tag, mode: I32)
+

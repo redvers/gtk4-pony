@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:51
+  Original Name: gtk_page_setup_set_paper_size/usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f674]
+    [PointerType size=64]->[Struct size=,fid: f673]
+*/
+use @gtk_page_setup_set_paper_size[None](setup: NullablePointer[GtkPageSetup] tag, size: NullablePointer[GtkPaperSize] tag)
+

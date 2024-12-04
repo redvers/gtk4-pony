@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklevelbar.h:66
+  Original Name: gtk_level_bar_new_for_interval/usr/include/gtk-4.0/gtk/gtklevelbar.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_level_bar_new_for_interval[NullablePointer[GtkWidget]](minvalue: F64, maxvalue: F64)
+

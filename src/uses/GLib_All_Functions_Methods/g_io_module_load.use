@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:126
+  Original Name: g_io_module_load/usr/include/glib-2.0/gio/giomodule.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_io_module_load[None](module: NullablePointer[GIOModule] tag)
+

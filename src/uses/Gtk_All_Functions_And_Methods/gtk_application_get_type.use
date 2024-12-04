@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplication.h:71
+  Original Name: gtk_application_get_type/usr/include/gtk-4.0/gtk/gtkapplication.h:71
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_application_get_type[U64]()
+

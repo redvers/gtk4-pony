@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:415
+  Original Name: g_object_class_install_properties/usr/include/glib-2.0/gobject/gobject.h:415
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1088,fid: f143]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_object_class_install_properties[None](oclass: NullablePointer[GObjectClass] tag, npspecs: U32, pspecs: Pointer[NullablePointer[GParamSpec]] tag)
+

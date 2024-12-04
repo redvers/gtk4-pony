@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpander.h:56
+  Original Name: gtk_expander_get_label/usr/include/gtk-4.0/gtk/gtkexpander.h:56
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f600]
+*/
+use @gtk_expander_get_label[Pointer[U8]](expander: NullablePointer[GtkExpander] tag)
+

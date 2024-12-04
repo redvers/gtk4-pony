@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:45
+  Original Name: gdk_display_get_name/usr/include/gtk-4.0/gdk/gdkdisplay.h:45
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_get_name[Pointer[U8]](display: NullablePointer[GdkDisplay] tag)
+

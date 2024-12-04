@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:120
+  Original Name: g_dbus_object_manager_client_new_for_bus_sync/usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:120
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_object_manager_client_new_for_bus_sync[NullablePointer[GDBusObjectManager]](bustype: I32, flags: I32, name: Pointer[U8] tag, objectpath: Pointer[U8] tag, getproxytypefunc: Pointer[None] tag, getproxytypeuserdata: Pointer[None] tag, getproxytypedestroynotify: Pointer[None] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

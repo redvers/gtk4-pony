@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathpoint.h:78
+  Original Name: gsk_path_point_get_rotation/usr/include/gtk-4.0/gsk/gskpathpoint.h:78
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f462]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [Enumeration size=32,fid: f432]
+*/
+use @gsk_path_point_get_rotation[F32](point: NullablePointer[GskPathPoint] tag, path: NullablePointer[GskPath] tag, direction: I32)
+

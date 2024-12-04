@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathpoint.h:89
+  Original Name: gsk_path_point_get_distance/usr/include/gtk-4.0/gsk/gskpathpoint.h:89
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f462]
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_path_point_get_distance[F32](point: NullablePointer[GskPathPoint] tag, measure: NullablePointer[GskPathMeasure] tag)
+

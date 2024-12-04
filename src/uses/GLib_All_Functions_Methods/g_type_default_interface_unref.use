@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:783
+  Original Name: g_type_default_interface_unref/usr/include/glib-2.0/gobject/gtype.h:783
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_type_default_interface_unref[None](giface: Pointer[None] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkalertdialog.h:89
+  Original Name: gtk_alert_dialog_choose_finish/usr/include/gtk-4.0/gtk/gtkalertdialog.h:89
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f494]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_alert_dialog_choose_finish[I32](self: NullablePointer[GtkAlertDialog] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

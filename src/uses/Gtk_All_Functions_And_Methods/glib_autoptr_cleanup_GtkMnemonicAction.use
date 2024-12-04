@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:113
+  Original Name: glib_autoptr_cleanup_GtkMnemonicAction/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:113
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f484]
+*/
+use @glib_autoptr_cleanup_GtkMnemonicAction[None](ptr: Pointer[NullablePointer[GtkMnemonicAction]] tag)
+

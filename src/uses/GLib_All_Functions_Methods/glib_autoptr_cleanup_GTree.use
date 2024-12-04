@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:95
+  Original Name: glib_autoptr_cleanup_GTree/usr/include/glib-2.0/glib/glib-autocleanups.h:95
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f119]
+*/
+use @glib_autoptr_cleanup_GTree[None](ptr: Pointer[NullablePointer[GTree]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:609
+  Original Name: g_file_new_for_uri/usr/include/glib-2.0/gio/gfile.h:609
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_new_for_uri[NullablePointer[GFile]](uri: Pointer[U8] tag)
+

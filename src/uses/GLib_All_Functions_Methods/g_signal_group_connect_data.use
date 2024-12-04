@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignalgroup.h:66
+  Original Name: g_signal_group_connect_data/usr/include/glib-2.0/gobject/gsignalgroup.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f149]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [Enumeration size=32,fid: f140]
+*/
+use @g_signal_group_connect_data[None](self: NullablePointer[GSignalGroup] tag, detailedsignal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Pointer[None] tag, notify: Pointer[None] tag, flags: I32)
+

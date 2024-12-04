@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:207
+  Original Name: g_log_structured_array/usr/include/glib-2.0/glib/gmessages.h:207
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f95]
+    [PointerType size=64]->[Struct size=192,fid: f95]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_log_structured_array[None](loglevel: I32, fields: NullablePointer[GLogField] tag, nfields: U64)
+

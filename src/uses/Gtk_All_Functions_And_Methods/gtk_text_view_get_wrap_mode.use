@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:339
+  Original Name: gtk_text_view_get_wrap_mode/usr/include/gtk-4.0/gtk/gtktextview.h:339
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+*/
+use @gtk_text_view_get_wrap_mode[I32](textview: NullablePointer[GtkTextView] tag)
+

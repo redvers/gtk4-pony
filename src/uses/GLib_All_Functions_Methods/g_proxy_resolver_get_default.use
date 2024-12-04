@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxyresolver.h:74
+  Original Name: g_proxy_resolver_get_default/usr/include/glib-2.0/gio/gproxyresolver.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+*/
+use @g_proxy_resolver_get_default[NullablePointer[GProxyResolver]]()
+

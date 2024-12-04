@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcut.h:32
+  Original Name: gtk_shortcut_new/usr/include/gtk-4.0/gtk/gtkshortcut.h:32
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_shortcut_new[NullablePointer[GtkShortcut]](trigger: NullablePointer[GtkShortcutTrigger] tag, action: NullablePointer[GtkShortcutAction] tag)
+

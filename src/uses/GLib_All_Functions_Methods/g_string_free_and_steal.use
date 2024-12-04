@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:65
+  Original Name: g_string_free_and_steal/usr/include/glib-2.0/glib/gstring.h:65
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @g_string_free_and_steal[Pointer[U8]](string: NullablePointer[GString] tag)
+

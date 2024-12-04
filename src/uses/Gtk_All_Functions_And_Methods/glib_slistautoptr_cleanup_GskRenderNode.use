@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:624
+  Original Name: glib_slistautoptr_cleanup_GskRenderNode/usr/include/gtk-4.0/gsk/gskrendernode.h:624
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @glib_slistautoptr_cleanup_GskRenderNode[None](l: Pointer[NullablePointer[GSList]] tag)
+

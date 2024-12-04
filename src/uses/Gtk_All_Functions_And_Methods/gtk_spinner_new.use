@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinner.h:43
+  Original Name: gtk_spinner_new/usr/include/gtk-4.0/gtk/gtkspinner.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_spinner_new[NullablePointer[GtkWidget]]()
+

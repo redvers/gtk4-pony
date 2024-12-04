@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcancellable.h:83
+  Original Name: g_cancellable_make_pollfd/usr/include/glib-2.0/gio/gcancellable.h:83
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[Struct size=64,fid: f83]
+*/
+use @g_cancellable_make_pollfd[I32](cancellable: NullablePointer[GCancellable] tag, pollfd: NullablePointer[GPollFD] tag)
+

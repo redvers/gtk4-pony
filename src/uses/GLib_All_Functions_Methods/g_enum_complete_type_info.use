@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/genums.h:271
+  Original Name: g_enum_complete_type_info/usr/include/glib-2.0/gobject/genums.h:271
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[Struct size=576,fid: f135]
+    [PointerType size=64]->[Struct size=192,fid: f146]
+*/
+use @g_enum_complete_type_info[None](genumtype: U64, info: NullablePointer[GTypeInfo] tag, constvalues: NullablePointer[GEnumValue] tag)
+

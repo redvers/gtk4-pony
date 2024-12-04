@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:278
+  Original Name: gtk_print_operation_get_status_string/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:278
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+*/
+use @gtk_print_operation_get_status_string[Pointer[U8]](op: NullablePointer[GtkPrintOperation] tag)
+

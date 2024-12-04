@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:84
+  Original Name: gtk_media_stream_get_timestamp/usr/include/gtk-4.0/gtk/gtkmediastream.h:84
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_stream_get_timestamp[I64](self: NullablePointer[GtkMediaStream] tag)
+

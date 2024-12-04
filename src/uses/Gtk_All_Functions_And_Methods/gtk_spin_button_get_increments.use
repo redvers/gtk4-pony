@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:144
+  Original Name: gtk_spin_button_get_increments/usr/include/gtk-4.0/gtk/gtkspinbutton.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_spin_button_get_increments[None](spinbutton: NullablePointer[GtkSpinButton] tag, step: Pointer[F64] tag, page: Pointer[F64] tag)
+

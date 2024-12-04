@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gspawn.h:301
+  Original Name: g_spawn_command_line_sync/usr/include/glib-2.0/glib/gspawn.h:301
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_spawn_command_line_sync[I32](commandline: Pointer[U8] tag, standardoutput: Pointer[Pointer[U8]] tag, standarderror: Pointer[Pointer[U8]] tag, waitstatus: Pointer[I32] tag, error: Pointer[NullablePointer[GError]] tag)
+

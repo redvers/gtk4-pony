@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h:50
+  Original Name: gtk_color_dialog_button_set_rgba/usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f550]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gtk_color_dialog_button_set_rgba[None](self: NullablePointer[GtkColorDialogButton] tag, color: NullablePointer[GdkRGBA] tag)
+

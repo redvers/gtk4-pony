@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:159
+  Original Name: gsk_shader_args_builder_set_vec4/usr/include/gtk-4.0/gsk/gskglshader.h:159
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=128,fid: f441]
+*/
+use @gsk_shader_args_builder_set_vec4[None](builder: NullablePointer[GskShaderArgsBuilder] tag, idx: I32, value: NullablePointer[Graphenevec4t] tag)
+

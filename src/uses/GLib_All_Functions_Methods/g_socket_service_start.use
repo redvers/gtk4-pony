@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketservice.h:86
+  Original Name: g_socket_service_start/usr/include/glib-2.0/gio/gsocketservice.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f200]
+*/
+use @g_socket_service_start[None](service: NullablePointer[GSocketService] tag)
+

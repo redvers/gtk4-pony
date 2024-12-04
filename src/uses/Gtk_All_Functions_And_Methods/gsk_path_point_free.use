@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathpoint.h:56
+  Original Name: gsk_path_point_free/usr/include/gtk-4.0/gsk/gskpathpoint.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f462]
+*/
+use @gsk_path_point_free[None](point: NullablePointer[GskPathPoint] tag)
+

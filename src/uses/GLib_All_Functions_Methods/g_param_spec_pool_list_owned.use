@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:440
+  Original Name: g_param_spec_pool_list_owned/usr/include/glib-2.0/gobject/gparam.h:440
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f137]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_param_spec_pool_list_owned[NullablePointer[GList]](pool: NullablePointer[GParamSpecPool] tag, ownertype: U64)
+

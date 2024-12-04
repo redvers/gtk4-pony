@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:110
+  Original Name: g_hook_list_clear/usr/include/glib-2.0/glib/ghook.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+*/
+use @g_hook_list_clear[None](hooklist: NullablePointer[GHookList] tag)
+

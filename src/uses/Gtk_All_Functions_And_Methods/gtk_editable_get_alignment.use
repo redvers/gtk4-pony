@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:124
+  Original Name: gtk_editable_get_alignment/usr/include/gtk-4.0/gtk/gtkeditable.h:124
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+*/
+use @gtk_editable_get_alignment[F32](editable: NullablePointer[GtkEditable] tag)
+

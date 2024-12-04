@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktexttagtable.h:53
+  Original Name: gtk_text_tag_table_new/usr/include/gtk-4.0/gtk/gtktexttagtable.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f728]
+
+  Arguments:
+*/
+use @gtk_text_tag_table_new[NullablePointer[GtkTextTagTable]]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:980
+  Original Name: gtk_widget_class_get_accessible_role/usr/include/gtk-4.0/gtk/gtkwidget.h:980
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f480]
+*/
+use @gtk_widget_class_get_accessible_role[I32](widgetclass: NullablePointer[GtkWidgetClass] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmappedfile.h:37
+  Original Name: g_mapped_file_new/usr/include/glib-2.0/glib/gmappedfile.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f91]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_mapped_file_new[NullablePointer[GMappedFile]](filename: Pointer[U8] tag, writable: I32, error: Pointer[NullablePointer[GError]] tag)
+

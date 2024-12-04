@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkurilauncher.h:41
+  Original Name: gtk_uri_launcher_set_uri/usr/include/gtk-4.0/gtk/gtkurilauncher.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f743]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_uri_launcher_set_uri[None](self: NullablePointer[GtkUriLauncher] tag, uri: Pointer[U8] tag)
+

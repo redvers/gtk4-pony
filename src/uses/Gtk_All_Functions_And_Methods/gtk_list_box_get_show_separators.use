@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:275
+  Original Name: gtk_list_box_get_show_separators/usr/include/gtk-4.0/gtk/gtklistbox.h:275
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+*/
+use @gtk_list_box_get_show_separators[I32](box: NullablePointer[GtkListBox] tag)
+

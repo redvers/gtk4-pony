@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:167
+  Original Name: gtk_snapshot_append_scaled_texture/usr/include/gtk-4.0/gtk/gtksnapshot.h:167
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [Enumeration size=32,fid: f432]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gtk_snapshot_append_scaled_texture[None](snapshot: NullablePointer[GdkSnapshot] tag, texture: NullablePointer[GdkTexture] tag, filter: I32, bounds: NullablePointer[Graphenerectt] tag)
+

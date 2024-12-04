@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gconverter.h:75
+  Original Name: g_converter_convert/usr/include/glib-2.0/gio/gconverter.h:75
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_converter_convert[I32](converter: NullablePointer[GConverter] tag, inbuf: Pointer[None] tag, inbufsize: U64, outbuf: Pointer[None] tag, outbufsize: U64, flags: I32, bytesread: Pointer[U64] tag, byteswritten: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:588
+  Original Name: g_main_loop_unref/usr/include/glib-2.0/glib/gmain.h:588
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_loop_unref[None](loop: NullablePointer[GMainLoop] tag)
+

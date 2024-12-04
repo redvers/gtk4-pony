@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:51
+  Original Name: gtk_list_view_set_model/usr/include/gtk-4.0/gtk/gtklistview.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+    [PointerType size=64]->[Struct size=,fid: f554]
+*/
+use @gtk_list_view_set_model[None](self: NullablePointer[GtkListView] tag, model: NullablePointer[GtkSelectionModel] tag)
+

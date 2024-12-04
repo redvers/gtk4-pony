@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:584
+  Original Name: g_main_loop_quit/usr/include/glib-2.0/glib/gmain.h:584
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_loop_quit[None](loop: NullablePointer[GMainLoop] tag)
+

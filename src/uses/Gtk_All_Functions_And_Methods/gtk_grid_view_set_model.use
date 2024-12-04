@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridview.h:51
+  Original Name: gtk_grid_view_set_model/usr/include/gtk-4.0/gtk/gtkgridview.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f637]
+    [PointerType size=64]->[Struct size=,fid: f554]
+*/
+use @gtk_grid_view_set_model[None](self: NullablePointer[GtkGridView] tag, model: NullablePointer[GtkSelectionModel] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:108
+  Original Name: gsk_transform_rotate/usr/include/gtk-4.0/gsk/gsktransform.h:108
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_transform_rotate[NullablePointer[GskTransform]](next: NullablePointer[GskTransform] tag, angle: F32)
+

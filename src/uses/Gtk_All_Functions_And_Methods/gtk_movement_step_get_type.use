@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:139
+  Original Name: gtk_movement_step_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:139
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_movement_step_get_type[U64]()
+

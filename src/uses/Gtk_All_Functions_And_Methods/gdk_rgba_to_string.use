@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrgba.h:68
+  Original Name: gdk_rgba_to_string/usr/include/gtk-4.0/gdk/gdkrgba.h:68
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gdk_rgba_to_string[Pointer[U8]](rgba: NullablePointer[GdkRGBA] tag)
+

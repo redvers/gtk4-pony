@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterlayout.h:27
+  Original Name: glib_autoptr_cleanup_GtkCenterLayoutClass/usr/include/gtk-4.0/gtk/gtkcenterlayout.h:27
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=2560,fid: f542]
+*/
+use @glib_autoptr_cleanup_GtkCenterLayoutClass[None](ptr: Pointer[NullablePointer[]] tag)
+

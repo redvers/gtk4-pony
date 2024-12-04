@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gchecksum.h:91
+  Original Name: g_compute_checksum_for_bytes/usr/include/glib-2.0/glib/gchecksum.h:91
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [Enumeration size=32,fid: f66]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @g_compute_checksum_for_bytes[Pointer[U8]](checksumtype: I32, data: NullablePointer[GBytes] tag)
+

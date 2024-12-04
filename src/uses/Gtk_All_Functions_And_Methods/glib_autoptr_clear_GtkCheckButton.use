@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcheckbutton.h:103
+  Original Name: glib_autoptr_clear_GtkCheckButton/usr/include/gtk-4.0/gtk/gtkcheckbutton.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f544]
+*/
+use @glib_autoptr_clear_GtkCheckButton[None](ptr: NullablePointer[GtkCheckButton] tag)
+

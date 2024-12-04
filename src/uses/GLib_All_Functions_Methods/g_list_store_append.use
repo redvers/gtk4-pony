@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gliststore.h:60
+  Original Name: g_list_store_append/usr/include/glib-2.0/gio/gliststore.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f275]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_list_store_append[None](store: NullablePointer[GListStore] tag, item: Pointer[None] tag)
+

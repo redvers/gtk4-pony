@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:38
+  Original Name: gtk_window_controls_get_side/usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:38
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f749]
+*/
+use @gtk_window_controls_get_side[I32](self: NullablePointer[GtkWindowControls] tag)
+

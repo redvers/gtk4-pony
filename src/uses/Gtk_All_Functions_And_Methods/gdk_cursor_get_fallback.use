@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcursor.h:55
+  Original Name: gdk_cursor_get_fallback/usr/include/gtk-4.0/gdk/gdkcursor.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_cursor_get_fallback[NullablePointer[GdkCursor]](cursor: NullablePointer[GdkCursor] tag)
+

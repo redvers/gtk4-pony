@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:509
+  Original Name: g_object_ref_sink/usr/include/glib-2.0/gobject/gobject.h:509
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_ref_sink[Pointer[None]](object: Pointer[None] tag)
+

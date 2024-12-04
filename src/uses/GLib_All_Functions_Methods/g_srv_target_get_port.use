@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsrvtarget.h:49
+  Original Name: g_srv_target_get_port/usr/include/glib-2.0/gio/gsrvtarget.h:49
+
+  Return Value: [FundamentalType(short unsigned int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_srv_target_get_port[U16](target: NullablePointer[GSrvTarget] tag)
+

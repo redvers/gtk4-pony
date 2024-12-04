@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:142
+  Original Name: g_array_set_clear_func/usr/include/glib-2.0/glib/garray.h:142
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_array_set_clear_func[None](array: NullablePointer[GArray] tag, clearfunc: Pointer[None] tag)
+

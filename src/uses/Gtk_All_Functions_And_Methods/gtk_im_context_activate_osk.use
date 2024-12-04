@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontext.h:173
+  Original Name: gtk_im_context_activate_osk/usr/include/gtk-4.0/gtk/gtkimcontext.h:173
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f564]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gtk_im_context_activate_osk[I32](context: NullablePointer[GtkIMContext] tag, event: NullablePointer[GdkEvent] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:93
+  Original Name: gdk_display_get_app_launch_context/usr/include/gtk-4.0/gdk/gdkdisplay.h:93
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_get_app_launch_context[NullablePointer[GdkAppLaunchContext]](display: NullablePointer[GdkDisplay] tag)
+

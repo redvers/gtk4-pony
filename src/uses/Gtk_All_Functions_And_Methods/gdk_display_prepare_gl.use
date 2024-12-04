@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:72
+  Original Name: gdk_display_prepare_gl/usr/include/gtk-4.0/gdk/gdkdisplay.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_display_prepare_gl[I32](self: NullablePointer[GdkDisplay] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketlistener.h:88
+  Original Name: g_socket_listener_new/usr/include/glib-2.0/gio/gsocketlistener.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f199]
+
+  Arguments:
+*/
+use @g_socket_listener_new[NullablePointer[GSocketListener]]()
+

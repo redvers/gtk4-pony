@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gliststore.h:55
+  Original Name: g_list_store_sort/usr/include/glib-2.0/gio/gliststore.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f275]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_list_store_sort[None](store: NullablePointer[GListStore] tag, comparefunc: Pointer[None] tag, userdata: Pointer[None] tag)
+

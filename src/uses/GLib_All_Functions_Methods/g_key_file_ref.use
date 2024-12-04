@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:62
+  Original Name: g_key_file_ref/usr/include/glib-2.0/glib/gkeyfile.h:62
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f90]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+*/
+use @g_key_file_ref[NullablePointer[GKeyFile]](keyfile: NullablePointer[GKeyFile] tag)
+

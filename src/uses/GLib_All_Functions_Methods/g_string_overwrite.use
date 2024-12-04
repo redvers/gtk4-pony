@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:139
+  Original Name: g_string_overwrite/usr/include/glib-2.0/glib/gstring.h:139
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_string_overwrite[NullablePointer[GString]](string: NullablePointer[GString] tag, pos: U64, val: Pointer[U8] tag)
+

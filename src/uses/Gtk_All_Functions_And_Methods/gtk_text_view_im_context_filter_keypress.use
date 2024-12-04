@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:299
+  Original Name: gtk_text_view_im_context_filter_keypress/usr/include/gtk-4.0/gtk/gtktextview.h:299
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gtk_text_view_im_context_filter_keypress[I32](textview: NullablePointer[GtkTextView] tag, event: NullablePointer[GdkEvent] tag)
+

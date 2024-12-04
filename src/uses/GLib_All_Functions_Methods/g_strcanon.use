@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:113
+  Original Name: g_strcanon/usr/include/glib-2.0/glib/gstrfuncs.h:113
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(char) size=8]
+*/
+use @g_strcanon[Pointer[U8]](string: Pointer[U8] tag, validchars: Pointer[U8] tag, substitutor: U8)
+

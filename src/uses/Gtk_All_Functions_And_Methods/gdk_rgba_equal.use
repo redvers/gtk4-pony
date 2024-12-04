@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrgba.h:61
+  Original Name: gdk_rgba_equal/usr/include/gtk-4.0/gdk/gdkrgba.h:61
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gdk_rgba_equal[I32](p1: Pointer[None] tag, p2: Pointer[None] tag)
+

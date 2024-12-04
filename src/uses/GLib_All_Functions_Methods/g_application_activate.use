@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:215
+  Original Name: g_application_activate/usr/include/glib-2.0/gio/gapplication.h:215
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+*/
+use @g_application_activate[None](application: NullablePointer[GApplication] tag)
+

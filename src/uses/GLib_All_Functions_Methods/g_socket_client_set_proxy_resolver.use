@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:123
+  Original Name: g_socket_client_set_proxy_resolver/usr/include/glib-2.0/gio/gsocketclient.h:123
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_socket_client_set_proxy_resolver[None](client: NullablePointer[GSocketClient] tag, proxyresolver: NullablePointer[GProxyResolver] tag)
+

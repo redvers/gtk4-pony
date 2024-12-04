@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkkeys.h:54
+  Original Name: gdk_keyval_to_unicode/usr/include/gtk-4.0/gdk/gdkkeys.h:54
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gdk_keyval_to_unicode[U32](keyval: U32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:192
+  Original Name: gtk_recent_info_unref/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:192
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+*/
+use @gtk_recent_info_unref[None](info: NullablePointer[GtkRecentInfo] tag)
+

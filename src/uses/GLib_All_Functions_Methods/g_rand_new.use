@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grand.h:55
+  Original Name: g_rand_new/usr/include/glib-2.0/glib/grand.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f102]
+
+  Arguments:
+*/
+use @g_rand_new[NullablePointer[GRand]]()
+

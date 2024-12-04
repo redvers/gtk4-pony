@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:92
+  Original Name: gtk_scale_set_digits/usr/include/gtk-4.0/gtk/gtkscale.h:92
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f693]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_scale_set_digits[None](scale: NullablePointer[GtkScale] tag, digits: I32)
+

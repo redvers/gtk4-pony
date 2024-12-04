@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:490
+  Original Name: g_regex_match/usr/include/glib-2.0/glib/gregex.h:490
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f106]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_regex_match[I32](regex: NullablePointer[GRegex] tag, string: Pointer[U8] tag, matchoptions: I32, matchinfo: Pointer[NullablePointer[GMatchInfo]] tag)
+

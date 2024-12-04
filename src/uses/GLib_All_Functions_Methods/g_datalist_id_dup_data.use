@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdataset.h:66
+  Original Name: g_datalist_id_dup_data/usr/include/glib-2.0/glib/gdataset.h:66
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f68]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_datalist_id_dup_data[Pointer[None]](datalist: Pointer[NullablePointer[GData]] tag, keyid: U32, dupfunc: Pointer[None] tag, userdata: Pointer[None] tag)
+

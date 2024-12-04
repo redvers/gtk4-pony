@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:229
+  Original Name: g_application_quit/usr/include/glib-2.0/gio/gapplication.h:229
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+*/
+use @g_application_quit[None](application: NullablePointer[GApplication] tag)
+

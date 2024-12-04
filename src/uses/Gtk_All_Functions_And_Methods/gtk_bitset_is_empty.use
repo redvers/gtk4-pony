@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:46
+  Original Name: gtk_bitset_is_empty/usr/include/gtk-4.0/gtk/gtkbitset.h:46
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_bitset_is_empty[I32](self: NullablePointer[GtkBitset] tag)
+

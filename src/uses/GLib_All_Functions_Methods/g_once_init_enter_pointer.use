@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:244
+  Original Name: g_once_init_enter_pointer/usr/include/glib-2.0/glib/gthread.h:244
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_once_init_enter_pointer[I32](location: Pointer[None] tag)
+

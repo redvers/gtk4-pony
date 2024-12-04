@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:502
+  Original Name: gtk_widget_get_size/usr/include/gtk-4.0/gtk/gtkwidget.h:502
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_widget_get_size[I32](widget: NullablePointer[GtkWidget] tag, orientation: I32)
+

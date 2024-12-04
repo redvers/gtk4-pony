@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:127
+  Original Name: gtk_entry_set_has_frame/usr/include/gtk-4.0/gtk/gtkentry.h:127
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_entry_set_has_frame[None](entry: NullablePointer[GtkEntry] tag, setting: I32)
+

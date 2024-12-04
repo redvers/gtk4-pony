@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboolfilter.h:41
+  Original Name: gtk_bool_filter_set_expression/usr/include/gtk-4.0/gtk/gtkboolfilter.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f514]
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_bool_filter_set_expression[None](self: NullablePointer[GtkBoolFilter] tag, expression: NullablePointer[GtkExpression] tag)
+

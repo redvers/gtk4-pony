@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbuserror.h:92
+  Original Name: g_dbus_error_new_for_dbus_error/usr/include/glib-2.0/gio/gdbuserror.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f23]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_error_new_for_dbus_error[NullablePointer[GError]](dbuserrorname: Pointer[U8] tag, dbuserrormessage: Pointer[U8] tag)
+

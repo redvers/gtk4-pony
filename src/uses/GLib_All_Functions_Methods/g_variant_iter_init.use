@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:279
+  Original Name: g_variant_iter_init/usr/include/glib-2.0/glib/gvariant.h:279
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_variant_iter_init[U64](iter: NullablePointer[GVariantIter] tag, value: NullablePointer[GVariant] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:407
+  Original Name: gtk_text_view_set_input_purpose/usr/include/gtk-4.0/gtk/gtktextview.h:407
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_text_view_set_input_purpose[None](textview: NullablePointer[GtkTextView] tag, purpose: I32)
+

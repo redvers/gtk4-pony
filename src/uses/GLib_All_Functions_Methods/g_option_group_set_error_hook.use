@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:387
+  Original Name: g_option_group_set_error_hook/usr/include/glib-2.0/glib/goption.h:387
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_option_group_set_error_hook[None](group: NullablePointer[GOptionGroup] tag, errorfunc: Pointer[None] tag)
+

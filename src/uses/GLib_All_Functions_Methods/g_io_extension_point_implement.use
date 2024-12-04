@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:86
+  Original Name: g_io_extension_point_implement/usr/include/glib-2.0/gio/giomodule.h:86
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_io_extension_point_implement[NullablePointer[GIOExtension]](extensionpointname: Pointer[U8] tag, type: U64, extensionname: Pointer[U8] tag, priority: I32)
+

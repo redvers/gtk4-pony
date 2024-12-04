@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:262
+  Original Name: g_date_compare/usr/include/glib-2.0/glib/gdate.h:262
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_compare[I32](lhs: NullablePointer[GDate] tag, rhs: NullablePointer[GDate] tag)
+

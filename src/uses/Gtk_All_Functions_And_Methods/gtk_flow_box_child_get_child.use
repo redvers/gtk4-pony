@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:92
+  Original Name: gtk_flow_box_child_get_child/usr/include/gtk-4.0/gtk/gtkflowbox.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f614]
+*/
+use @gtk_flow_box_child_get_child[NullablePointer[GtkWidget]](self: NullablePointer[GtkFlowBoxChild] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:86
+  Original Name: gtk_list_view_set_tab_behavior/usr/include/gtk-4.0/gtk/gtklistview.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_list_view_set_tab_behavior[None](self: NullablePointer[GtkListView] tag, tabbehavior: I32)
+

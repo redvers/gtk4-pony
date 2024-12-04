@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:471
+  Original Name: g_object_setv/usr/include/glib-2.0/gobject/gobject.h:471
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_object_setv[None](object: NullablePointer[GObject] tag, nproperties: U32, names: Pointer[Pointer[U8]] tag, values: NullablePointer[GValue] tag)
+

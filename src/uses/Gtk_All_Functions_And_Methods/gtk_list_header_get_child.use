@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistheader.h:47
+  Original Name: gtk_list_header_get_child/usr/include/gtk-4.0/gtk/gtklistheader.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f650]
+*/
+use @gtk_list_header_get_child[NullablePointer[GtkWidget]](self: NullablePointer[GtkListHeader] tag)
+

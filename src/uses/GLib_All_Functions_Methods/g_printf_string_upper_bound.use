@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:45
+  Original Name: g_printf_string_upper_bound/usr/include/glib-2.0/glib/gmessages.h:45
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_printf_string_upper_bound[U64](format: Pointer[U8] tag, args: NullablePointer[Valisttag] tag)
+

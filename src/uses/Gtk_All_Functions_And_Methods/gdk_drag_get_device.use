@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrag.h:61
+  Original Name: gdk_drag_get_device/usr/include/gtk-4.0/gdk/gdkdrag.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drag_get_device[NullablePointer[GdkDevice]](drag: NullablePointer[GdkDrag] tag)
+

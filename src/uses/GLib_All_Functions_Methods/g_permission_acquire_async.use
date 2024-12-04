@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpermission.h:91
+  Original Name: g_permission_acquire_async/usr/include/glib-2.0/gio/gpermission.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f172]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_permission_acquire_async[None](permission: NullablePointer[GPermission] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:496
+  Original Name: gdk_dnd_event_get_drop/usr/include/gtk-4.0/gdk/gdkevents.h:496
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_dnd_event_get_drop[NullablePointer[GdkDrop]](event: NullablePointer[GdkEvent] tag)
+

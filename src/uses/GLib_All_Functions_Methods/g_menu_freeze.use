@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:50
+  Original Name: g_menu_freeze/usr/include/glib-2.0/gio/gmenu.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+*/
+use @g_menu_freeze[None](menu: NullablePointer[GMenu] tag)
+

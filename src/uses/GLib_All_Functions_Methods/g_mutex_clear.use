@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:172
+  Original Name: g_mutex_clear/usr/include/glib-2.0/glib/gthread.h:172
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[UNION size=64]  UNSUPPORTED FIXME
+*/
+use @g_mutex_clear[None](mutex: Pointer[None] tag)
+

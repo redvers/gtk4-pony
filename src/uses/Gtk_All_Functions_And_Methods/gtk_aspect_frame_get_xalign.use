@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:55
+  Original Name: gtk_aspect_frame_get_xalign/usr/include/gtk-4.0/gtk/gtkaspectframe.h:55
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f505]
+*/
+use @gtk_aspect_frame_get_xalign[F32](self: NullablePointer[GtkAspectFrame] tag)
+

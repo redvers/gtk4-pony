@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:252
+  Original Name: gtk_entry_get_icon_area/usr/include/gtk-4.0/gtk/gtkentry.h:252
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gtk_entry_get_icon_area[None](entry: NullablePointer[GtkEntry] tag, iconpos: I32, iconarea: NullablePointer[Cairorectangleint] tag)
+

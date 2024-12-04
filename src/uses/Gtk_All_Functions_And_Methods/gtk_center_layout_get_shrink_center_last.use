@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterlayout.h:61
+  Original Name: gtk_center_layout_get_shrink_center_last/usr/include/gtk-4.0/gtk/gtkcenterlayout.h:61
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f542]
+*/
+use @gtk_center_layout_get_shrink_center_last[I32](self: NullablePointer[GtkCenterLayout] tag)
+

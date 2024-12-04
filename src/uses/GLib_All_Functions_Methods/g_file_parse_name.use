@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:639
+  Original Name: g_file_parse_name/usr/include/glib-2.0/gio/gfile.h:639
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_parse_name[NullablePointer[GFile]](parsename: Pointer[U8] tag)
+

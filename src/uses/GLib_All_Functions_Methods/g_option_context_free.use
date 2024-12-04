@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:323
+  Original Name: g_option_context_free/usr/include/glib-2.0/glib/goption.h:323
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+*/
+use @g_option_context_free[None](context: NullablePointer[GOptionContext] tag)
+

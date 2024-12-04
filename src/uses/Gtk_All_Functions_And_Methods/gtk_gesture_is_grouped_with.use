@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesture.h:101
+  Original Name: gtk_gesture_is_grouped_with/usr/include/gtk-4.0/gtk/gtkgesture.h:101
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_gesture_is_grouped_with[I32](gesture: NullablePointer[GtkGesture] tag, other: NullablePointer[GtkGesture] tag)
+

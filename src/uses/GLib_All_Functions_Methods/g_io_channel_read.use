@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:169
+  Original Name: g_io_channel_read/usr/include/glib-2.0/glib/giochannel.h:169
+
+  Return Value: [Enumeration size=32,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_io_channel_read[I32](channel: NullablePointer[GIOChannel] tag, buf: Pointer[U8] tag, count: U64, bytesread: Pointer[U64] tag)
+

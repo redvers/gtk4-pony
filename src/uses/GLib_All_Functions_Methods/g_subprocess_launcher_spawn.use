@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:47
+  Original Name: g_subprocess_launcher_spawn/usr/include/glib-2.0/gio/gsubprocesslauncher.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_subprocess_launcher_spawn[NullablePointer[GSubprocess]](self: NullablePointer[GSubprocessLauncher] tag, error: Pointer[NullablePointer[GError]] tag, argv0: Pointer[U8] tag, ...)
+

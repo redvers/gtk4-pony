@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusnameowning.h:78
+  Original Name: g_bus_own_name/usr/include/glib-2.0/gio/gdbusnameowning.h:78
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_bus_own_name[U32](bustype: I32, name: Pointer[U8] tag, flags: I32, busacquiredhandler: Pointer[None] tag, nameacquiredhandler: Pointer[None] tag, namelosthandler: Pointer[None] tag, userdata: Pointer[None] tag, userdatafreefunc: Pointer[None] tag)
+

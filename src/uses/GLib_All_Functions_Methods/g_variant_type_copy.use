@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:299
+  Original Name: g_variant_type_copy/usr/include/glib-2.0/glib/gvarianttype.h:299
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f93]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_type_copy[NullablePointer[GVariantType]](type: NullablePointer[GVariantType] tag)
+

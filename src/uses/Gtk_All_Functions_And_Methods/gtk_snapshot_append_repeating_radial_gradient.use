@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:200
+  Original Name: gtk_snapshot_append_repeating_radial_gradient/usr/include/gtk-4.0/gtk/gtksnapshot.h:200
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [PointerType size=64]->[Struct size=160,fid: f468]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gtk_snapshot_append_repeating_radial_gradient[None](snapshot: NullablePointer[GdkSnapshot] tag, bounds: NullablePointer[Graphenerectt] tag, center: NullablePointer[Graphenepointt] tag, hradius: F32, vradius: F32, start: F32, end: F32, stops: NullablePointer[GskColorStop] tag, nstops: U64)
+

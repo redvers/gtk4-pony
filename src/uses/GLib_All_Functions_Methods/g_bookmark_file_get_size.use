@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:312
+  Original Name: g_bookmark_file_get_size/usr/include/glib-2.0/glib/gbookmarkfile.h:312
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+*/
+use @g_bookmark_file_get_size[I32](bookmark: NullablePointer[GBookmarkFile] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:248
+  Original Name: gtk_text_buffer_insert_paintable/usr/include/gtk-4.0/gtk/gtktextbuffer.h:248
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=,fid: f422]
+*/
+use @gtk_text_buffer_insert_paintable[None](buffer: NullablePointer[GtkTextBuffer] tag, iter: NullablePointer[GtkTextIter] tag, paintable: NullablePointer[GdkPaintable] tag)
+

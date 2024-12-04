@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1409
+  Original Name: g_file_info_clear_status/usr/include/glib-2.0/gio/gfileinfo.h:1409
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_clear_status[None](info: NullablePointer[GFileInfo] tag)
+

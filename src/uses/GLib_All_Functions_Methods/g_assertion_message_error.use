@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:639
+  Original Name: g_assertion_message_error/usr/include/glib-2.0/glib/gtestutils.h:639
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=128,fid: f23]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @g_assertion_message_error[None](domain: Pointer[U8] tag, file: Pointer[U8] tag, line: I32, func: Pointer[U8] tag, expr: Pointer[U8] tag, error: NullablePointer[GError] tag, errordomain: U32, errorcode: I32)
+

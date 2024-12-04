@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:73
+  Original Name: gtk_print_context_set_cairo_context/usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f683]
+    [PointerType size=64]->[Struct size=,fid: f318]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_print_context_set_cairo_context[None](context: NullablePointer[GtkPrintContext] tag, cr: NullablePointer[Cairo] tag, dpix: F64, dpiy: F64)
+

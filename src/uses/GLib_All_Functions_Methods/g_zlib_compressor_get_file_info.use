@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gzlibcompressor.h:57
+  Original Name: g_zlib_compressor_get_file_info/usr/include/glib-2.0/gio/gzlibcompressor.h:57
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_zlib_compressor_get_file_info[NullablePointer[GFileInfo]](compressor: NullablePointer[GZlibCompressor] tag)
+

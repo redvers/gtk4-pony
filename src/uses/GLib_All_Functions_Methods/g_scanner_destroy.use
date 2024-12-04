@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:218
+  Original Name: g_scanner_destroy/usr/include/glib-2.0/glib/gscanner.h:218
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+*/
+use @g_scanner_destroy[None](scanner: NullablePointer[GScanner] tag)
+

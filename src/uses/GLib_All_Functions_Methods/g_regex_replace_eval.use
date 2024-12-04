@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:553
+  Original Name: g_regex_replace_eval/usr/include/glib-2.0/glib/gregex.h:553
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [FundamentalType(int) size=32]
+    [Enumeration size=32,fid: f106]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_regex_replace_eval[Pointer[U8]](regex: NullablePointer[GRegex] tag, string: Pointer[U8] tag, stringlen: I64, startposition: I32, matchoptions: I32, eval: Pointer[None] tag, userdata: Pointer[None] tag, error: Pointer[NullablePointer[GError]] tag)
+

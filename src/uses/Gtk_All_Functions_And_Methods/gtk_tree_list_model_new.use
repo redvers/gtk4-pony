@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:60
+  Original Name: gtk_tree_list_model_new/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f737]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f274]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_tree_list_model_new[NullablePointer[GtkTreeListModel]](root: NullablePointer[GListModel] tag, passthrough: I32, autoexpand: I32, createfunc: Pointer[None] tag, userdata: Pointer[None] tag, userdestroy: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:89
+  Original Name: gtk_media_stream_is_seekable/usr/include/gtk-4.0/gtk/gtkmediastream.h:89
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_stream_is_seekable[I32](self: NullablePointer[GtkMediaStream] tag)
+

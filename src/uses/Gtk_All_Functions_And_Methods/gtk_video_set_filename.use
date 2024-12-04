@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:59
+  Original Name: gtk_video_set_filename/usr/include/gtk-4.0/gtk/gtkvideo.h:59
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f745]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_video_set_filename[None](self: NullablePointer[GtkVideo] tag, filename: Pointer[U8] tag)
+

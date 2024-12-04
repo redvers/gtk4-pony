@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginitable.h:91
+  Original Name: g_initable_new_valist/usr/include/glib-2.0/gio/ginitable.h:91
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f143]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_initable_new_valist[NullablePointer[GObject]](objecttype: U64, firstpropertyname: Pointer[U8] tag, varargs: NullablePointer[Valisttag] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

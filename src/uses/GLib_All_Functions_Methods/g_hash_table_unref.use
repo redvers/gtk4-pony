@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:163
+  Original Name: g_hash_table_unref/usr/include/glib-2.0/glib/ghash.h:163
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+*/
+use @g_hash_table_unref[None](hashtable: NullablePointer[GHashTable] tag)
+

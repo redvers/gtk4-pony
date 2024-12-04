@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:195
+  Original Name: gtk_text_view_get_buffer/usr/include/gtk-4.0/gtk/gtktextview.h:195
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f731]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+*/
+use @gtk_text_view_get_buffer[NullablePointer[GtkTextBuffer]](textview: NullablePointer[GtkTextView] tag)
+

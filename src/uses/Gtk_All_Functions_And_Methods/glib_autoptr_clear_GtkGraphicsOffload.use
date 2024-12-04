@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:35
+  Original Name: glib_autoptr_clear_GtkGraphicsOffload/usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f633]
+*/
+use @glib_autoptr_clear_GtkGraphicsOffload[None](ptr: NullablePointer[GtkGraphicsOffload] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:82
+  Original Name: gtk_image_new_from_icon_name/usr/include/gtk-4.0/gtk/gtkimage.h:82
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_image_new_from_icon_name[NullablePointer[GtkWidget]](iconname: Pointer[U8] tag)
+

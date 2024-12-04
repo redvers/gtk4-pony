@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:93
+  Original Name: g_thread_pool_get_max_unused_threads/usr/include/glib-2.0/glib/gthreadpool.h:93
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @g_thread_pool_get_max_unused_threads[I32]()
+

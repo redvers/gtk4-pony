@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpango.h:35
+  Original Name: gdk_pango_layout_line_get_clip_region/usr/include/gtk-4.0/gdk/gdkpango.h:35
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f318]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f359]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_pango_layout_line_get_clip_region[NullablePointer[Cairoregion]](line: NullablePointer[PangoLayoutLine] tag, xorigin: I32, yorigin: I32, indexranges: Pointer[I32] tag, nranges: I32)
+

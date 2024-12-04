@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:139
+  Original Name: gtk_menu_button_get_can_shrink/usr/include/gtk-4.0/gtk/gtkmenubutton.h:139
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @gtk_menu_button_get_can_shrink[I32](menubutton: NullablePointer[GtkMenuButton] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:543
+  Original Name: g_test_rand_double/usr/include/glib-2.0/glib/gtestutils.h:543
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+*/
+use @g_test_rand_double[F64]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollinfo.h:52
+  Original Name: gtk_scroll_info_set_enable_vertical/usr/include/gtk-4.0/gtk/gtkscrollinfo.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_scroll_info_set_enable_vertical[None](self: NullablePointer[GtkScrollInfo] tag, vertical: I32)
+

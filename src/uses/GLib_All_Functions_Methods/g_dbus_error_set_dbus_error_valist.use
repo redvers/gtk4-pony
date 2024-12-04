@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbuserror.h:101
+  Original Name: g_dbus_error_set_dbus_error_valist/usr/include/glib-2.0/gio/gdbuserror.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_dbus_error_set_dbus_error_valist[None](error: Pointer[NullablePointer[GError]] tag, dbuserrorname: Pointer[U8] tag, dbuserrormessage: Pointer[U8] tag, format: Pointer[U8] tag, varargs: NullablePointer[Valisttag] tag)
+

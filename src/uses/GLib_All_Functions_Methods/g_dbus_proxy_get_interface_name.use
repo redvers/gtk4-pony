@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusproxy.h:138
+  Original Name: g_dbus_proxy_get_interface_name/usr/include/glib-2.0/gio/gdbusproxy.h:138
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f217]
+*/
+use @g_dbus_proxy_get_interface_name[Pointer[U8]](proxy: NullablePointer[GDBusProxy] tag)
+

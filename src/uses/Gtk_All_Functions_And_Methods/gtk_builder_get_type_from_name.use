@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:154
+  Original Name: gtk_builder_get_type_from_name/usr/include/gtk-4.0/gtk/gtkbuilder.h:154
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_builder_get_type_from_name[U64](builder: NullablePointer[GtkBuilder] tag, typename: Pointer[U8] tag)
+

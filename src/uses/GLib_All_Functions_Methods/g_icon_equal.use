@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gicon.h:113
+  Original Name: g_icon_equal/usr/include/glib-2.0/gio/gicon.h:113
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_icon_equal[I32](icon1: NullablePointer[GIcon] tag, icon2: NullablePointer[GIcon] tag)
+

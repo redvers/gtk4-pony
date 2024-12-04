@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gconverteroutputstream.h:69
+  Original Name: g_converter_output_stream_new/usr/include/glib-2.0/gio/gconverteroutputstream.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f192]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f192]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_converter_output_stream_new[NullablePointer[GOutputStream]](basestream: NullablePointer[GOutputStream] tag, converter: NullablePointer[GConverter] tag)
+

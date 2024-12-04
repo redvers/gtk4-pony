@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:197
+  Original Name: gtk_spin_button_set_climb_rate/usr/include/gtk-4.0/gtk/gtkspinbutton.h:197
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_spin_button_set_climb_rate[None](spinbutton: NullablePointer[GtkSpinButton] tag, climbrate: F64)
+

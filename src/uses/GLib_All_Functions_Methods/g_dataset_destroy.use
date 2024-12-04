@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdataset.h:120
+  Original Name: g_dataset_destroy/usr/include/glib-2.0/glib/gdataset.h:120
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_dataset_destroy[None](datasetlocation: Pointer[None] tag)
+

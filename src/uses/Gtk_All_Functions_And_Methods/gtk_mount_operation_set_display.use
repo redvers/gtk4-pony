@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmountoperation.h:81
+  Original Name: gtk_mount_operation_set_display/usr/include/gtk-4.0/gtk/gtkmountoperation.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f661]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_mount_operation_set_display[None](op: NullablePointer[GtkMountOperation] tag, display: NullablePointer[GdkDisplay] tag)
+

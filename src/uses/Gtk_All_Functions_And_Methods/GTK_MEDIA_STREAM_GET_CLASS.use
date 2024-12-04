@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:33
+  Original Name: GTK_MEDIA_STREAM_GET_CLASS/usr/include/gtk-4.0/gtk/gtkmediastream.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=1984,fid: f655]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_MEDIA_STREAM_GET_CLASS[NullablePointer[GtkMediaStreamClass]](ptr: Pointer[None] tag)
+

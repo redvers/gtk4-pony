@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpaintable.h:33
+  Original Name: GDK_PAINTABLE_GET_IFACE/usr/include/gtk-4.0/gdk/gdkpaintable.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f422]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_PAINTABLE_GET_IFACE[NullablePointer[GdkPaintableInterface]](ptr: Pointer[None] tag)
+

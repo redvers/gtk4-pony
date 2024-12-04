@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:104
+  Original Name: gdk_display_get_monitor_at_surface/usr/include/gtk-4.0/gdk/gdkdisplay.h:104
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f403]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_get_monitor_at_surface[NullablePointer[GdkMonitor]](display: NullablePointer[GdkDisplay] tag, surface: NullablePointer[GdkSurface] tag)
+

@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbindinggroup.h:51
+  Original Name: g_binding_group_bind/usr/include/glib-2.0/gobject/gbindinggroup.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f145]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f144]
+*/
+use @g_binding_group_bind[None](self: NullablePointer[GBindingGroup] tag, sourceproperty: Pointer[U8] tag, target: Pointer[None] tag, targetproperty: Pointer[U8] tag, flags: I32)
+

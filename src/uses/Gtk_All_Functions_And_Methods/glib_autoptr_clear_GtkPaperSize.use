@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:171
+  Original Name: glib_autoptr_clear_GtkPaperSize/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:171
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f673]
+*/
+use @glib_autoptr_clear_GtkPaperSize[None](ptr: NullablePointer[GtkPaperSize] tag)
+

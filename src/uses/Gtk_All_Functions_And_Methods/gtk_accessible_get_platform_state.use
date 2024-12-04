@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:170
+  Original Name: gtk_accessible_get_platform_state/usr/include/gtk-4.0/gtk/gtkaccessible.h:170
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [Enumeration size=32,fid: f489]
+*/
+use @gtk_accessible_get_platform_state[I32](self: NullablePointer[GtkAccessible] tag, state: I32)
+

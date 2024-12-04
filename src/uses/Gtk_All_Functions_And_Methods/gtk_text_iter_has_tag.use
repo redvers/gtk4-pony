@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:184
+  Original Name: gtk_text_iter_has_tag/usr/include/gtk-4.0/gtk/gtktextiter.h:184
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=256,fid: f728]
+*/
+use @gtk_text_iter_has_tag[I32](iter: NullablePointer[GtkTextIter] tag, tag: NullablePointer[GtkTextTag] tag)
+

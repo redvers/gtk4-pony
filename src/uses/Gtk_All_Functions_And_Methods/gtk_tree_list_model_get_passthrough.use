@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:70
+  Original Name: gtk_tree_list_model_get_passthrough/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:70
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f737]
+*/
+use @gtk_tree_list_model_get_passthrough[I32](self: NullablePointer[GtkTreeListModel] tag)
+

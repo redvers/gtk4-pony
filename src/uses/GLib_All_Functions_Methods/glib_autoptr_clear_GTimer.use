@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:93
+  Original Name: glib_autoptr_clear_GTimer/usr/include/glib-2.0/glib/glib-autocleanups.h:93
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f117]
+*/
+use @glib_autoptr_clear_GTimer[None](ptr: NullablePointer[GTimer] tag)
+

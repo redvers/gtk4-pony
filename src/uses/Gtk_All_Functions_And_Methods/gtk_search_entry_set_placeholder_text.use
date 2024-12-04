@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchentry.h:63
+  Original Name: gtk_search_entry_set_placeholder_text/usr/include/gtk-4.0/gtk/gtksearchentry.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f700]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_search_entry_set_placeholder_text[None](entry: NullablePointer[GtkSearchEntry] tag, text: Pointer[U8] tag)
+

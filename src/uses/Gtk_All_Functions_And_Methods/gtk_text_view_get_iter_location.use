@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:237
+  Original Name: gtk_text_view_get_iter_location/usr/include/gtk-4.0/gtk/gtktextview.h:237
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gtk_text_view_get_iter_location[None](textview: NullablePointer[GtkTextView] tag, iter: NullablePointer[GtkTextIter] tag, location: NullablePointer[Cairorectangleint] tag)
+

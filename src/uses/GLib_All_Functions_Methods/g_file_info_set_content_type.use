@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1486
+  Original Name: g_file_info_set_content_type/usr/include/glib-2.0/gio/gfileinfo.h:1486
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_info_set_content_type[None](info: NullablePointer[GFileInfo] tag, contenttype: Pointer[U8] tag)
+

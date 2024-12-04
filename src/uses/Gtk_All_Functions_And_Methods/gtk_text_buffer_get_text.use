@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:235
+  Original Name: gtk_text_buffer_get_text/usr/include/gtk-4.0/gtk/gtktextbuffer.h:235
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_buffer_get_text[Pointer[U8]](buffer: NullablePointer[GtkTextBuffer] tag, start: NullablePointer[GtkTextIter] tag, end: NullablePointer[GtkTextIter] tag, includehiddenchars: I32)
+

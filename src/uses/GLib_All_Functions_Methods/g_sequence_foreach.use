@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:48
+  Original Name: g_sequence_foreach/usr/include/glib-2.0/glib/gsequence.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_sequence_foreach[None](seq: NullablePointer[GSequence] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

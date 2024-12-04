@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflattenlistmodel.h:41
+  Original Name: gtk_flatten_list_model_set_model/usr/include/gtk-4.0/gtk/gtkflattenlistmodel.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f613]
+    [PointerType size=64]->[Struct size=,fid: f274]
+*/
+use @gtk_flatten_list_model_set_model[None](self: NullablePointer[GtkFlattenListModel] tag, model: NullablePointer[GListModel] tag)
+

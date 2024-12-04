@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:53
+  Original Name: gtk_column_view_row_set_focusable/usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f559]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_column_view_row_set_focusable[None](self: NullablePointer[GtkColumnViewRow] tag, focusable: I32)
+

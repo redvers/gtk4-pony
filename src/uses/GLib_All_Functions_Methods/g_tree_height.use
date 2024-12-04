@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:168
+  Original Name: g_tree_height/usr/include/glib-2.0/glib/gtree.h:168
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+*/
+use @g_tree_height[I32](tree: NullablePointer[GTree] tag)
+

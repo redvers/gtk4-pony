@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:97
+  Original Name: glib_queueautoptr_cleanup_GMount/usr/include/glib-2.0/gio/gio-autocleanups.h:97
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @glib_queueautoptr_cleanup_GMount[None](q: Pointer[NullablePointer[GQueue]] tag)
+

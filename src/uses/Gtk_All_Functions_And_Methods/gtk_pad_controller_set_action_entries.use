@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpadcontroller.h:84
+  Original Name: gtk_pad_controller_set_action_entries/usr/include/gtk-4.0/gtk/gtkpadcontroller.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f672]
+    [PointerType size=64]->[Struct size=256,fid: f672]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_pad_controller_set_action_entries[None](controller: NullablePointer[GtkPadController] tag, entries: NullablePointer[GtkPadActionEntry] tag, nentries: I32)
+

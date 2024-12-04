@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:255
+  Original Name: g_app_info_get_default_for_uri_scheme_async/usr/include/glib-2.0/gio/gappinfo.h:255
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_app_info_get_default_for_uri_scheme_async[None](urischeme: Pointer[U8] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

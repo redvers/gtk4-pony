@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:264
+  Original Name: gtk_text_view_buffer_to_window_coords/usr/include/gtk-4.0/gtk/gtktextview.h:264
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [Enumeration size=32,fid: f733]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_text_view_buffer_to_window_coords[None](textview: NullablePointer[GtkTextView] tag, win: I32, bufferx: I32, buffery: I32, windowx: Pointer[I32] tag, windowy: Pointer[I32] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsconnection.h:121
+  Original Name: g_tls_connection_set_interaction/usr/include/glib-2.0/gio/gtlsconnection.h:121
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f207]
+    [PointerType size=64]->[Struct size=256,fid: f209]
+*/
+use @g_tls_connection_set_interaction[None](conn: NullablePointer[GTlsConnection] tag, interaction: NullablePointer[GTlsInteraction] tag)
+

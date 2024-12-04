@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:124
+  Original Name: gtk_print_settings_get_length/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:124
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_print_settings_get_length[F64](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag, unit: I32)
+

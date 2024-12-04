@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcursor.h:46
+  Original Name: gdk_cursor_new_from_texture/usr/include/gtk-4.0/gdk/gdkcursor.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_cursor_new_from_texture[NullablePointer[GdkCursor]](texture: NullablePointer[GdkTexture] tag, hotspotx: I32, hotspoty: I32, fallback: NullablePointer[GdkCursor] tag)
+

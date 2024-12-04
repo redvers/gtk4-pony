@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollbar.h:46
+  Original Name: gtk_scrollbar_get_type/usr/include/gtk-4.0/gtk/gtkscrollbar.h:46
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_scrollbar_get_type[U64]()
+

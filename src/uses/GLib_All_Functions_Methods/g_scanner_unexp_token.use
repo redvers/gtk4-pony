@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:267
+  Original Name: g_scanner_unexp_token/usr/include/glib-2.0/glib/gscanner.h:267
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+    [Enumeration size=32,fid: f107]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_scanner_unexp_token[None](scanner: NullablePointer[GScanner] tag, expectedtoken: I32, identifierspec: Pointer[U8] tag, symbolspec: Pointer[U8] tag, symbolname: Pointer[U8] tag, message: Pointer[U8] tag, iserror: I32)
+

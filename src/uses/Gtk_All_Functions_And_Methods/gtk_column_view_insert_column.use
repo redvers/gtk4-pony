@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:61
+  Original Name: gtk_column_view_insert_column/usr/include/gtk-4.0/gtk/gtkcolumnview.h:61
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f555]
+*/
+use @gtk_column_view_insert_column[None](self: NullablePointer[GtkColumnView] tag, position: U32, column: NullablePointer[GtkColumnViewColumn] tag)
+

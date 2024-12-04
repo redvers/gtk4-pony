@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:75
+  Original Name: gtk_text_set_invisible_char/usr/include/gtk-4.0/gtk/gtktext.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_text_set_invisible_char[None](self: NullablePointer[GtkText] tag, ch: U32)
+

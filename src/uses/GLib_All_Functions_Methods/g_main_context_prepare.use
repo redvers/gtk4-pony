@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:443
+  Original Name: g_main_context_prepare/usr/include/glib-2.0/glib/gmain.h:443
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_main_context_prepare[I32](context: NullablePointer[GMainContext] tag, priority: Pointer[I32] tag)
+

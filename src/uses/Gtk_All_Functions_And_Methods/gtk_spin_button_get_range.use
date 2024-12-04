@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:153
+  Original Name: gtk_spin_button_get_range/usr/include/gtk-4.0/gtk/gtkspinbutton.h:153
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_spin_button_get_range[None](spinbutton: NullablePointer[GtkSpinButton] tag, min: Pointer[F64] tag, max: Pointer[F64] tag)
+

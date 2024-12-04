@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:226
+  Original Name: gtk_recent_info_has_application/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:226
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_recent_info_has_application[I32](info: NullablePointer[GtkRecentInfo] tag, appname: Pointer[U8] tag)
+

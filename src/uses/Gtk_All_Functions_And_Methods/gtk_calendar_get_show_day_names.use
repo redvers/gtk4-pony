@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcalendar.h:79
+  Original Name: gtk_calendar_get_show_day_names/usr/include/gtk-4.0/gtk/gtkcalendar.h:79
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f524]
+*/
+use @gtk_calendar_get_show_day_names[I32](self: NullablePointer[GtkCalendar] tag)
+

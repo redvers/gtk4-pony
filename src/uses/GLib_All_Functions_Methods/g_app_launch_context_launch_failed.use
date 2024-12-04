@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:343
+  Original Name: g_app_launch_context_launch_failed/usr/include/glib-2.0/gio/gappinfo.h:343
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f160]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_app_launch_context_launch_failed[None](context: NullablePointer[GAppLaunchContext] tag, startupnotifyid: Pointer[U8] tag)
+

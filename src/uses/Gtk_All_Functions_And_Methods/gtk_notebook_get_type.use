@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:68
+  Original Name: gtk_notebook_get_type/usr/include/gtk-4.0/gtk/gtknotebook.h:68
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_notebook_get_type[U64]()
+

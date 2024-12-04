@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:63
+  Original Name: gdk_display_is_composited/usr/include/gtk-4.0/gdk/gdkdisplay.h:63
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_is_composited[I32](display: NullablePointer[GdkDisplay] tag)
+

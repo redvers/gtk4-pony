@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:369
+  Original Name: g_signal_get_invocation_hint/usr/include/glib-2.0/gobject/gsignal.h:369
+
+  Return Value: [PointerType size=64]->[Struct size=96,fid: f140]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_get_invocation_hint[NullablePointer[GSignalInvocationHint]](instance: Pointer[None] tag)
+

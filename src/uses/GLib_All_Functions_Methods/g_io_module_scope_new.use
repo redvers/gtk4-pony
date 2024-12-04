@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:38
+  Original Name: g_io_module_scope_new/usr/include/glib-2.0/gio/giomodule.h:38
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f272]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+*/
+use @g_io_module_scope_new[NullablePointer[GIOModuleScope]](flags: I32)
+

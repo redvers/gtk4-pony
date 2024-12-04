@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:445
+  Original Name: g_variant_compare/usr/include/glib-2.0/glib/gvariant.h:445
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_variant_compare[I32](one: Pointer[None] tag, two: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghmac.h:44
+  Original Name: g_hmac_unref/usr/include/glib-2.0/glib/ghmac.h:44
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+*/
+use @g_hmac_unref[None](hmac: NullablePointer[GHmac] tag)
+

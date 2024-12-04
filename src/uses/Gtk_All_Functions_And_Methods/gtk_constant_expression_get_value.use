@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:118
+  Original Name: gtk_constant_expression_get_value/usr/include/gtk-4.0/gtk/gtkexpression.h:118
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f136]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_constant_expression_get_value[NullablePointer[GValue]](expression: NullablePointer[GtkExpression] tag)
+

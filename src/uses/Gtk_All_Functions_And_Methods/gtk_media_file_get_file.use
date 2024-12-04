@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediafile.h:75
+  Original Name: gtk_media_file_get_file/usr/include/gtk-4.0/gtk/gtkmediafile.h:75
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f657]
+*/
+use @gtk_media_file_get_file[NullablePointer[GFile]](self: NullablePointer[GtkMediaFile] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraintlayout.h:80
+  Original Name: gtk_constraint_layout_observe_guides/usr/include/gtk-4.0/gtk/gtkconstraintlayout.h:80
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f577]
+*/
+use @gtk_constraint_layout_observe_guides[NullablePointer[GListModel]](layout: NullablePointer[GtkConstraintLayout] tag)
+

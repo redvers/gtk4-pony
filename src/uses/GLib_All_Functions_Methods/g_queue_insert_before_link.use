@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:150
+  Original Name: g_queue_insert_before_link/usr/include/glib-2.0/glib/gqueue.h:150
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @g_queue_insert_before_link[None](queue: NullablePointer[GQueue] tag, sibling: NullablePointer[GList] tag, link: NullablePointer[GList] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktexture.h:80
+  Original Name: gdk_texture_get_width/usr/include/gtk-4.0/gdk/gdktexture.h:80
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_texture_get_width[I32](texture: NullablePointer[GdkTexture] tag)
+

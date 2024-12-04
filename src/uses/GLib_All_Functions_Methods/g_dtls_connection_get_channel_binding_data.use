@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:216
+  Original Name: g_dtls_connection_get_channel_binding_data/usr/include/glib-2.0/gio/gdtlsconnection.h:216
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dtls_connection_get_channel_binding_data[I32](conn: NullablePointer[GDtlsConnection] tag, type: I32, data: NullablePointer[GByteArray] tag, error: Pointer[NullablePointer[GError]] tag)
+

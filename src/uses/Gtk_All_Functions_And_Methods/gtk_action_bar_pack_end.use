@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkactionbar.h:50
+  Original Name: gtk_action_bar_pack_end/usr/include/gtk-4.0/gtk/gtkactionbar.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f493]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_action_bar_pack_end[None](actionbar: NullablePointer[GtkActionBar] tag, child: NullablePointer[GtkWidget] tag)
+

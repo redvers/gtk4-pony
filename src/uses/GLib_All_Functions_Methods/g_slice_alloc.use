@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslice.h:35
+  Original Name: g_slice_alloc/usr/include/glib-2.0/glib/gslice.h:35
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_slice_alloc[Pointer[None]](blocksize: U64)
+

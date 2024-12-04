@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkservice.h:60
+  Original Name: g_network_service_new/usr/include/glib-2.0/gio/gnetworkservice.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_network_service_new[NullablePointer[GSocketConnectable]](service: Pointer[U8] tag, protocol: Pointer[U8] tag, domain: Pointer[U8] tag)
+

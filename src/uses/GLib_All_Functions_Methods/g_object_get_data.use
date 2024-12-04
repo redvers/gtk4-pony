@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:594
+  Original Name: g_object_get_data/usr/include/glib-2.0/gobject/gobject.h:594
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_object_get_data[Pointer[None]](object: NullablePointer[GObject] tag, key: Pointer[U8] tag)
+

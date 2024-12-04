@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:118
+  Original Name: g_dbus_connection_get_capabilities/usr/include/glib-2.0/gio/gdbusconnection.h:118
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_connection_get_capabilities[I32](connection: NullablePointer[GDBusConnection] tag)
+

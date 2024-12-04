@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringlist.h:56
+  Original Name: gtk_string_list_take/usr/include/gtk-4.0/gtk/gtkstringlist.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f721]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_string_list_take[None](self: NullablePointer[GtkStringList] tag, string: Pointer[U8] tag)
+

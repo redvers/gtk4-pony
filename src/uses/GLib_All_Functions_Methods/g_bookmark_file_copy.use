@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:126
+  Original Name: g_bookmark_file_copy/usr/include/glib-2.0/glib/gbookmarkfile.h:126
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f63]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+*/
+use @g_bookmark_file_copy[NullablePointer[GBookmarkFile]](bookmark: NullablePointer[GBookmarkFile] tag)
+

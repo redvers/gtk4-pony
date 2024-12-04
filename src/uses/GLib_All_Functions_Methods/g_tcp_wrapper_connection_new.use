@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtcpwrapperconnection.h:64
+  Original Name: g_tcp_wrapper_connection_new/usr/include/glib-2.0/gio/gtcpwrapperconnection.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f198]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f193]
+    [PointerType size=64]->[Struct size=256,fid: f195]
+*/
+use @g_tcp_wrapper_connection_new[NullablePointer[GSocketConnection]](baseiostream: NullablePointer[GIOStream] tag, socket: NullablePointer[GSocket] tag)
+

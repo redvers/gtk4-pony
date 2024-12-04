@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:274
+  Original Name: g_date_time_to_unix_usec/usr/include/glib-2.0/glib/gdatetime.h:274
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f62]
+*/
+use @g_date_time_to_unix_usec[I64](datetime: NullablePointer[GDateTime] tag)
+

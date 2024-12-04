@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:268
+  Original Name: gtk_print_operation_run/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:268
+
+  Return Value: [Enumeration size=32,fid: f685]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+    [Enumeration size=32,fid: f685]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_print_operation_run[I32](op: NullablePointer[GtkPrintOperation] tag, action: I32, parent: NullablePointer[GtkWindow] tag, error: Pointer[NullablePointer[GError]] tag)
+

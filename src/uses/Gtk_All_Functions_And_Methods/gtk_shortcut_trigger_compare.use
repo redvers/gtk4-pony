@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:57
+  Original Name: gtk_shortcut_trigger_compare/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_shortcut_trigger_compare[I32](trigger1: Pointer[None] tag, trigger2: Pointer[None] tag)
+

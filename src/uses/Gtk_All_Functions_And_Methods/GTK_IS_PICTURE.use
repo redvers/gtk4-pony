@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:36
+  Original Name: GTK_IS_PICTURE/usr/include/gtk-4.0/gtk/gtkpicture.h:36
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_PICTURE[I32](ptr: Pointer[None] tag)
+

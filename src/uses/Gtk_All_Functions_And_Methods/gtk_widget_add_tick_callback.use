@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:719
+  Original Name: gtk_widget_add_tick_callback/usr/include/gtk-4.0/gtk/gtkwidget.h:719
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_widget_add_tick_callback[U32](widget: NullablePointer[GtkWidget] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag, notify: Pointer[None] tag)
+

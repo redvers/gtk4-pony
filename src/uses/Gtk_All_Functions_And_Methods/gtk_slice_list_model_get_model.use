@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkslicelistmodel.h:47
+  Original Name: gtk_slice_list_model_get_model/usr/include/gtk-4.0/gtk/gtkslicelistmodel.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f712]
+*/
+use @gtk_slice_list_model_get_model[NullablePointer[GListModel]](self: NullablePointer[GtkSliceListModel] tag)
+

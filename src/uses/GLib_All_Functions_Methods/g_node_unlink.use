@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:105
+  Original Name: g_node_unlink/usr/include/glib-2.0/glib/gnode.h:105
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+*/
+use @g_node_unlink[None](node: NullablePointer[GNode] tag)
+

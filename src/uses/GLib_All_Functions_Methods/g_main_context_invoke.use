@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:838
+  Original Name: g_main_context_invoke/usr/include/glib-2.0/glib/gmain.h:838
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_main_context_invoke[None](context: NullablePointer[GMainContext] tag, function: Pointer[None] tag, data: Pointer[None] tag)
+

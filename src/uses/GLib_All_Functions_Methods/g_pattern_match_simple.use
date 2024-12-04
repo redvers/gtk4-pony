@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpattern.h:60
+  Original Name: g_pattern_match_simple/usr/include/glib-2.0/glib/gpattern.h:60
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_pattern_match_simple[I32](pattern: Pointer[U8] tag, string: Pointer[U8] tag)
+

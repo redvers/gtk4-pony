@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gatomic.h:62
+  Original Name: g_atomic_int_or/usr/include/glib-2.0/glib/gatomic.h:62
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_atomic_int_or[U32](atomic: Pointer[U32] tag, val: U32)
+

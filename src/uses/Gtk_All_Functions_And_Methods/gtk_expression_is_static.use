@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:57
+  Original Name: gtk_expression_is_static/usr/include/gtk-4.0/gtk/gtkexpression.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_expression_is_static[I32](self: NullablePointer[GtkExpression] tag)
+

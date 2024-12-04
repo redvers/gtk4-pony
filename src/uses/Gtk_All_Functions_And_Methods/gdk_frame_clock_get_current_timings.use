@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframeclock.h:97
+  Original Name: gdk_frame_clock_get_current_timings/usr/include/gtk-4.0/gdk/gdkframeclock.h:97
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f401]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f402]
+*/
+use @gdk_frame_clock_get_current_timings[NullablePointer[GdkFrameTimings]](frameclock: NullablePointer[GdkFrameClock] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstyleprovider.h:90
+  Original Name: glib_autoptr_clear_GtkStyleProvider/usr/include/gtk-4.0/gtk/gtkstyleprovider.h:90
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f723]
+*/
+use @glib_autoptr_clear_GtkStyleProvider[None](ptr: NullablePointer[GtkStyleProvider] tag)
+

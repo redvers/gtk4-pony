@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringfilter.h:73
+  Original Name: gtk_string_filter_set_match_mode/usr/include/gtk-4.0/gtk/gtkstringfilter.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f591]
+    [Enumeration size=32,fid: f591]
+*/
+use @gtk_string_filter_set_match_mode[None](self: NullablePointer[GtkStringFilter] tag, mode: I32)
+

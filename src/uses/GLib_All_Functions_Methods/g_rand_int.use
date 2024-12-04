@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grand.h:71
+  Original Name: g_rand_int/usr/include/glib-2.0/glib/grand.h:71
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f102]
+*/
+use @g_rand_int[U32](rand: NullablePointer[GRand] tag)
+

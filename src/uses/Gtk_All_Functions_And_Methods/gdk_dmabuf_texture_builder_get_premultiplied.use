@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:68
+  Original Name: gdk_dmabuf_texture_builder_get_premultiplied/usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f411]
+*/
+use @gdk_dmabuf_texture_builder_get_premultiplied[I32](self: NullablePointer[GdkDmabufTextureBuilder] tag)
+

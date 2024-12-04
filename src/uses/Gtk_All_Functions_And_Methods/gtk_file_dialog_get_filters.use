@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:54
+  Original Name: gtk_file_dialog_get_filters/usr/include/gtk-4.0/gtk/gtkfiledialog.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+*/
+use @gtk_file_dialog_get_filters[NullablePointer[GListModel]](self: NullablePointer[GtkFileDialog] tag)
+

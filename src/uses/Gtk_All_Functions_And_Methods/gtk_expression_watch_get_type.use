@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:75
+  Original Name: gtk_expression_watch_get_type/usr/include/gtk-4.0/gtk/gtkexpression.h:75
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_expression_watch_get_type[U64]()
+

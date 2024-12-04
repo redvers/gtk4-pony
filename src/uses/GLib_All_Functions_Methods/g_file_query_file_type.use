@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:810
+  Original Name: g_file_query_file_type/usr/include/glib-2.0/gio/gfile.h:810
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_file_query_file_type[I32](file: NullablePointer[GFile] tag, flags: I32, cancellable: NullablePointer[GCancellable] tag)
+

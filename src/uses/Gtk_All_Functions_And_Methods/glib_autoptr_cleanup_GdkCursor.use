@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcursor.h:65
+  Original Name: glib_autoptr_cleanup_GdkCursor/usr/include/gtk-4.0/gdk/gdkcursor.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_cleanup_GdkCursor[None](ptr: Pointer[NullablePointer[GdkCursor]] tag)
+

@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:75
+  Original Name: gtk_font_dialog_choose_family/usr/include/gtk-4.0/gtk/gtkfontdialog.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f619]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=192,fid: f341]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_font_dialog_choose_family[None](self: NullablePointer[GtkFontDialog] tag, parent: NullablePointer[GtkWindow] tag, initialvalue: NullablePointer[PangoFontFamily] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

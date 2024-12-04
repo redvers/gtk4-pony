@@ -1,0 +1,23 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:212
+  Original Name: g_dbus_connection_call_sync/usr/include/glib-2.0/gio/gdbusconnection.h:212
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[Struct size=,fid: f93]
+    [Enumeration size=32,fid: f159]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_connection_call_sync[NullablePointer[GVariant]](connection: NullablePointer[GDBusConnection] tag, busname: Pointer[U8] tag, objectpath: Pointer[U8] tag, interfacename: Pointer[U8] tag, methodname: Pointer[U8] tag, parameters: NullablePointer[GVariant] tag, replytype: NullablePointer[GVariantType] tag, flags: I32, timeoutmsec: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

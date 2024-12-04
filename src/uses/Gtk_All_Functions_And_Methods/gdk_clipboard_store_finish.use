@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkclipboard.h:52
+  Original Name: gdk_clipboard_store_finish/usr/include/gtk-4.0/gdk/gdkclipboard.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_clipboard_store_finish[I32](clipboard: NullablePointer[GdkClipboard] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

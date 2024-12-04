@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:123
+  Original Name: gsk_path_in_fill/usr/include/gtk-4.0/gsk/gskpath.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+    [Enumeration size=32,fid: f432]
+*/
+use @gsk_path_in_fill[I32](self: NullablePointer[GskPath] tag, point: NullablePointer[Graphenepointt] tag, fillrule: I32)
+

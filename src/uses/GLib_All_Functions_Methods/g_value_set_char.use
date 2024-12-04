@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:194
+  Original Name: g_value_set_char/usr/include/glib-2.0/gobject/gvaluetypes.h:194
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [FundamentalType(char) size=8]
+*/
+use @g_value_set_char[None](value: NullablePointer[GValue] tag, vchar: U8)
+

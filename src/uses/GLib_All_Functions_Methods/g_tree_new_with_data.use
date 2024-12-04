@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:76
+  Original Name: g_tree_new_with_data/usr/include/glib-2.0/glib/gtree.h:76
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f119]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_new_with_data[NullablePointer[GTree]](keycomparefunc: Pointer[None] tag, keycomparedata: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:62
+  Original Name: glib_autoptr_clear_GArray/usr/include/glib-2.0/glib/glib-autocleanups.h:62
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @glib_autoptr_clear_GArray[None](ptr: NullablePointer[GArray] tag)
+

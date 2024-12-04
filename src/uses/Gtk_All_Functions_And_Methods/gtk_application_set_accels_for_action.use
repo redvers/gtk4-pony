@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplication.h:129
+  Original Name: gtk_application_set_accels_for_action/usr/include/gtk-4.0/gtk/gtkapplication.h:129
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f485]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_application_set_accels_for_action[None](application: NullablePointer[GtkApplication] tag, detailedactionname: Pointer[U8] tag, accels: Pointer[Pointer[U8]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:570
+  Original Name: g_main_context_pusher_free/usr/include/glib-2.0/glib/gmain.h:570
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_main_context_pusher_free[None](pusher: Pointer[None] tag)
+

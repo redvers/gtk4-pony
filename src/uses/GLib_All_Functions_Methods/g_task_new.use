@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:45
+  Original Name: g_task_new/usr/include/glib-2.0/gio/gtask.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_task_new[NullablePointer[GTask]](sourceobject: Pointer[None] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, callbackdata: Pointer[None] tag)
+

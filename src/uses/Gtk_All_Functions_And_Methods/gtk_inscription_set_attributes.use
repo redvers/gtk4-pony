@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkinscription.h:65
+  Original Name: gtk_inscription_set_attributes/usr/include/gtk-4.0/gtk/gtkinscription.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f645]
+    [PointerType size=64]->[Struct size=,fid: f350]
+*/
+use @gtk_inscription_set_attributes[None](self: NullablePointer[GtkInscription] tag, attrs: NullablePointer[PangoAttrList] tag)
+

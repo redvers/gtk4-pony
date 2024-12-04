@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:66
+  Original Name: gtk_grid_attach/usr/include/gtk-4.0/gtk/gtkgrid.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f634]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_grid_attach[None](grid: NullablePointer[GtkGrid] tag, child: NullablePointer[GtkWidget] tag, column: I32, row: I32, width: I32, height: I32)
+

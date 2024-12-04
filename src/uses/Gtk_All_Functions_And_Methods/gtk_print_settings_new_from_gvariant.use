@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:348
+  Original Name: gtk_print_settings_new_from_gvariant/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:348
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f681]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @gtk_print_settings_new_from_gvariant[NullablePointer[GtkPrintSettings]](variant: NullablePointer[GVariant] tag)
+

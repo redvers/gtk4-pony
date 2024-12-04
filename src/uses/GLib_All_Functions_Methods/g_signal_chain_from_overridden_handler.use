@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:491
+  Original Name: g_signal_chain_from_overridden_handler/usr/include/glib-2.0/gobject/gsignal.h:491
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_chain_from_overridden_handler[None](instance: Pointer[None] tag, ...)
+

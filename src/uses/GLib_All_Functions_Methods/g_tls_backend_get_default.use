@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsbackend.h:86
+  Original Name: g_tls_backend_get_default/usr/include/glib-2.0/gio/gtlsbackend.h:86
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f307]
+
+  Arguments:
+*/
+use @g_tls_backend_get_default[NullablePointer[GTlsBackend]]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:119
+  Original Name: gtk_entry_set_invisible_char/usr/include/gtk-4.0/gtk/gtkentry.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_entry_set_invisible_char[None](entry: NullablePointer[GtkEntry] tag, ch: U32)
+

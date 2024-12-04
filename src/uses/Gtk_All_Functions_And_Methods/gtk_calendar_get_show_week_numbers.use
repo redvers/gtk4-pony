@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcalendar.h:69
+  Original Name: gtk_calendar_get_show_week_numbers/usr/include/gtk-4.0/gtk/gtkcalendar.h:69
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f524]
+*/
+use @gtk_calendar_get_show_week_numbers[I32](self: NullablePointer[GtkCalendar] tag)
+

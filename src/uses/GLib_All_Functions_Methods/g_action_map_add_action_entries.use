@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactionmap.h:90
+  Original Name: g_action_map_add_action_entries/usr/include/glib-2.0/gio/gactionmap.h:90
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=512,fid: f229]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_action_map_add_action_entries[None](actionmap: NullablePointer[GActionMap] tag, entries: NullablePointer[GActionEntry] tag, nentries: I32, userdata: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragicon.h:36
+  Original Name: glib_autoptr_clear_GtkDragIcon/usr/include/gtk-4.0/gtk/gtkdragicon.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f584]
+*/
+use @glib_autoptr_clear_GtkDragIcon[None](ptr: NullablePointer[GtkDragIcon] tag)
+

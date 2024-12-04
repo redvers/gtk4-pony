@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridview.h:95
+  Original Name: glib_autoptr_clear_GtkGridView/usr/include/gtk-4.0/gtk/gtkgridview.h:95
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f637]
+*/
+use @glib_autoptr_clear_GtkGridView[None](ptr: NullablePointer[GtkGridView] tag)
+

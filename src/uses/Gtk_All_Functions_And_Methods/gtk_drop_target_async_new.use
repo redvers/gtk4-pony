@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdroptargetasync.h:54
+  Original Name: gtk_drop_target_async_new/usr/include/gtk-4.0/gtk/gtkdroptargetasync.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f590]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [Enumeration size=32,fid: f371]
+*/
+use @gtk_drop_target_async_new[NullablePointer[GtkDropTargetAsync]](formats: NullablePointer[GdkContentFormats] tag, actions: I32)
+

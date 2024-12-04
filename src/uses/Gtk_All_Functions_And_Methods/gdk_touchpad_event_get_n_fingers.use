@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:472
+  Original Name: gdk_touchpad_event_get_n_fingers/usr/include/gtk-4.0/gdk/gdkevents.h:472
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_touchpad_event_get_n_fingers[U32](event: NullablePointer[GdkEvent] tag)
+

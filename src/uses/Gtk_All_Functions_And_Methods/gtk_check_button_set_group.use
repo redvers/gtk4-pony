@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcheckbutton.h:90
+  Original Name: gtk_check_button_set_group/usr/include/gtk-4.0/gtk/gtkcheckbutton.h:90
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f544]
+    [PointerType size=64]->[Struct size=256,fid: f544]
+*/
+use @gtk_check_button_set_group[None](self: NullablePointer[GtkCheckButton] tag, group: NullablePointer[GtkCheckButton] tag)
+

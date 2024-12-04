@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:262
+  Original Name: glib_autoptr_cleanup_GtkWindow/usr/include/gtk-4.0/gtk/gtkwindow.h:262
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @glib_autoptr_cleanup_GtkWindow[None](ptr: Pointer[NullablePointer[GtkWindow]] tag)
+

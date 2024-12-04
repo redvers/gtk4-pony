@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframeclock.h:106
+  Original Name: gdk_frame_clock_get_fps/usr/include/gtk-4.0/gdk/gdkframeclock.h:106
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f402]
+*/
+use @gdk_frame_clock_get_fps[F64](frameclock: NullablePointer[GdkFrameClock] tag)
+

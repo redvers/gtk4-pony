@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:125
+  Original Name: g_node_prepend/usr/include/glib-2.0/glib/gnode.h:125
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+    [PointerType size=64]->[Struct size=320,fid: f77]
+*/
+use @g_node_prepend[NullablePointer[GNode]](parent: NullablePointer[GNode] tag, node: NullablePointer[GNode] tag)
+

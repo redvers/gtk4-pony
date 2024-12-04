@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:62
+  Original Name: g_timer_is_active/usr/include/glib-2.0/glib/gtimer.h:62
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f117]
+*/
+use @g_timer_is_active[I32](timer: NullablePointer[GTimer] tag)
+

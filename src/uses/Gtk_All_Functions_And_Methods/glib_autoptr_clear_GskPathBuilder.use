@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:190
+  Original Name: glib_autoptr_clear_GskPathBuilder/usr/include/gtk-4.0/gsk/gskpathbuilder.h:190
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @glib_autoptr_clear_GskPathBuilder[None](ptr: NullablePointer[GskPathBuilder] tag)
+

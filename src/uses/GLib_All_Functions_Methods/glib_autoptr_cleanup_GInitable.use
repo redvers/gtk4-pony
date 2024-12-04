@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:85
+  Original Name: glib_autoptr_cleanup_GInitable/usr/include/glib-2.0/gio/gio-autocleanups.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_cleanup_GInitable[None](ptr: Pointer[NullablePointer[GInitable]] tag)
+

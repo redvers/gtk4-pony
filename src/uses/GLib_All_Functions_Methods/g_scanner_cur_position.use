@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:239
+  Original Name: g_scanner_cur_position/usr/include/glib-2.0/glib/gscanner.h:239
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+*/
+use @g_scanner_cur_position[U32](scanner: NullablePointer[GScanner] tag)
+

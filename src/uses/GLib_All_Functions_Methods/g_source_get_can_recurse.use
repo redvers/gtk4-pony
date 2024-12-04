@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:626
+  Original Name: g_source_get_can_recurse/usr/include/glib-2.0/glib/gmain.h:626
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+*/
+use @g_source_get_can_recurse[I32](source: NullablePointer[GSource] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutmanager.h:31
+  Original Name: GTK_IS_LAYOUT_MANAGER/usr/include/gtk-4.0/gtk/gtklayoutmanager.h:31
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_LAYOUT_MANAGER[I32](ptr: Pointer[None] tag)
+

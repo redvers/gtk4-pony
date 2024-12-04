@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleiostream.h:42
+  Original Name: g_simple_io_stream_new/usr/include/glib-2.0/gio/gsimpleiostream.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f193]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f186]
+    [PointerType size=64]->[Struct size=256,fid: f192]
+*/
+use @g_simple_io_stream_new[NullablePointer[GIOStream]](inputstream: NullablePointer[GInputStream] tag, outputstream: NullablePointer[GOutputStream] tag)
+

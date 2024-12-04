@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:177
+  Original Name: gtk_about_dialog_get_logo/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:177
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f422]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+*/
+use @gtk_about_dialog_get_logo[NullablePointer[GdkPaintable]](about: NullablePointer[GtkAboutDialog] tag)
+

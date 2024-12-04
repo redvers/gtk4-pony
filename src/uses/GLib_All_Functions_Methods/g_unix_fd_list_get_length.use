@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gunixfdlist.h:80
+  Original Name: g_unix_fd_list_get_length/usr/include/glib-2.0/gio/gunixfdlist.h:80
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f216]
+*/
+use @g_unix_fd_list_get_length[I32](list: NullablePointer[GUnixFDList] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:232
+  Original Name: g_variant_get_data_as_bytes/usr/include/glib-2.0/glib/gvariant.h:232
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_variant_get_data_as_bytes[NullablePointer[GBytes]](value: NullablePointer[GVariant] tag)
+

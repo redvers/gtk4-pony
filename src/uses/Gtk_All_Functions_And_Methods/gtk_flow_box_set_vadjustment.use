@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:203
+  Original Name: gtk_flow_box_set_vadjustment/usr/include/gtk-4.0/gtk/gtkflowbox.h:203
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_flow_box_set_vadjustment[None](box: NullablePointer[GtkFlowBox] tag, adjustment: NullablePointer[GtkAdjustment] tag)
+

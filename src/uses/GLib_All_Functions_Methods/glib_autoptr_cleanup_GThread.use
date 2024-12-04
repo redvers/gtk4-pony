@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:86
+  Original Name: glib_autoptr_cleanup_GThread/usr/include/glib-2.0/glib/glib-autocleanups.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f42]
+*/
+use @glib_autoptr_cleanup_GThread[None](ptr: Pointer[NullablePointer[GThread]] tag)
+

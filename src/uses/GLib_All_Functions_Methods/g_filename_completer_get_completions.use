@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilenamecompleter.h:68
+  Original Name: g_filename_completer_get_completions/usr/include/glib-2.0/gio/gfilenamecompleter.h:68
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_filename_completer_get_completions[Pointer[Pointer[U8]]](completer: NullablePointer[GFilenameCompleter] tag, initialtext: Pointer[U8] tag)
+

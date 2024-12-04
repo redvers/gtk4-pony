@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:78
+  Original Name: g_settings_list_relocatable_schemas/usr/include/glib-2.0/gio/gsettings.h:78
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+*/
+use @g_settings_list_relocatable_schemas[Pointer[Pointer[U8]]]()
+

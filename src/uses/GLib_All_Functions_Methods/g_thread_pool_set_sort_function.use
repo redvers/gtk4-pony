@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:74
+  Original Name: g_thread_pool_set_sort_function/usr/include/glib-2.0/glib/gthreadpool.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f116]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_thread_pool_set_sort_function[None](pool: NullablePointer[GThreadPool] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

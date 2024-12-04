@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:80
+  Original Name: gtk_picture_get_can_shrink/usr/include/gtk-4.0/gtk/gtkpicture.h:80
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f678]
+*/
+use @gtk_picture_get_can_shrink[I32](self: NullablePointer[GtkPicture] tag)
+

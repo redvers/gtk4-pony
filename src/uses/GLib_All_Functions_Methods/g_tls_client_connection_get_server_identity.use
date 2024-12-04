@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsclientconnection.h:70
+  Original Name: g_tls_client_connection_get_server_identity/usr/include/glib-2.0/gio/gtlsclientconnection.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_tls_client_connection_get_server_identity[NullablePointer[GSocketConnectable]](conn: NullablePointer[GTlsClientConnection] tag)
+

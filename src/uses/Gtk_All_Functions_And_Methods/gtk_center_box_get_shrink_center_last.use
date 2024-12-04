@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterbox.h:74
+  Original Name: gtk_center_box_get_shrink_center_last/usr/include/gtk-4.0/gtk/gtkcenterbox.h:74
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f541]
+*/
+use @gtk_center_box_get_shrink_center_last[I32](self: NullablePointer[GtkCenterBox] tag)
+

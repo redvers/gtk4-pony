@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:282
+  Original Name: gtk_entry_get_tabs/usr/include/gtk-4.0/gtk/gtkentry.h:282
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f358]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_get_tabs[NullablePointer[PangoTabArray]](entry: NullablePointer[GtkEntry] tag)
+

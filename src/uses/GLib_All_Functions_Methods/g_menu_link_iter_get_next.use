@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenumodel.h:295
+  Original Name: g_menu_link_iter_get_next/usr/include/glib-2.0/gio/gmenumodel.h:295
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f173]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @g_menu_link_iter_get_next[I32](iter: NullablePointer[GMenuLinkIter] tag, outlink: Pointer[Pointer[U8]] tag, value: Pointer[NullablePointer[GMenuModel]] tag)
+

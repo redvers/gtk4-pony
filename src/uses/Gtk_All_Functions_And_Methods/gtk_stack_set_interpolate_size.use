@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:173
+  Original Name: gtk_stack_set_interpolate_size/usr/include/gtk-4.0/gtk/gtkstack.h:173
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_stack_set_interpolate_size[None](stack: NullablePointer[GtkStack] tag, interpolatesize: I32)
+

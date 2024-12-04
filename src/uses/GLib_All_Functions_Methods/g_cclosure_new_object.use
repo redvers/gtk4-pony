@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:627
+  Original Name: g_cclosure_new_object/usr/include/glib-2.0/gobject/gobject.h:627
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f138]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_cclosure_new_object[NullablePointer[GClosure]](callbackfunc: Pointer[None] tag, object: NullablePointer[GObject] tag)
+

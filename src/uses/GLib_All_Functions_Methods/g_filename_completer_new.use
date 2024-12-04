@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilenamecompleter.h:62
+  Original Name: g_filename_completer_new/usr/include/glib-2.0/gio/gfilenamecompleter.h:62
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+*/
+use @g_filename_completer_new[NullablePointer[GFilenameCompleter]]()
+

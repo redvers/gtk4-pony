@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbox.h:115
+  Original Name: glib_autoptr_clear_GtkBox/usr/include/gtk-4.0/gtk/gtkbox.h:115
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f517]
+*/
+use @glib_autoptr_clear_GtkBox[None](ptr: NullablePointer[GtkBox] tag)
+

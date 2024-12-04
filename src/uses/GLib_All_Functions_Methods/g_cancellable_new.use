@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcancellable.h:71
+  Original Name: g_cancellable_new/usr/include/glib-2.0/gio/gcancellable.h:71
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f164]
+
+  Arguments:
+*/
+use @g_cancellable_new[NullablePointer[GCancellable]]()
+

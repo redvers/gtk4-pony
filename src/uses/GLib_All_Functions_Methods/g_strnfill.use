@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:295
+  Original Name: g_strnfill/usr/include/glib-2.0/glib/gstrfuncs.h:295
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(char) size=8]
+*/
+use @g_strnfill[Pointer[U8]](length: U64, fillchar: U8)
+

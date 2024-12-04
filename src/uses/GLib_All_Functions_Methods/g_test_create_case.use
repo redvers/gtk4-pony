@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:554
+  Original Name: g_test_create_case/usr/include/glib-2.0/glib/gtestutils.h:554
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f115]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_test_create_case[NullablePointer[GTestCase]](testname: Pointer[U8] tag, datasize: U64, testdata: Pointer[None] tag, datasetup: Pointer[None] tag, datatest: Pointer[None] tag, datateardown: Pointer[None] tag)
+

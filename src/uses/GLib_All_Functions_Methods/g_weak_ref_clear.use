@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:929
+  Original Name: g_weak_ref_clear/usr/include/glib-2.0/gobject/gobject.h:929
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f143]
+*/
+use @g_weak_ref_clear[None](weakref: NullablePointer[] tag)
+

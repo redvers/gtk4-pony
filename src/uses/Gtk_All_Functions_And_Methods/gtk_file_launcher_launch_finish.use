@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilelauncher.h:62
+  Original Name: gtk_file_launcher_launch_finish/usr/include/gtk-4.0/gtk/gtkfilelauncher.h:62
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f610]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_file_launcher_launch_finish[I32](self: NullablePointer[GtkFileLauncher] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

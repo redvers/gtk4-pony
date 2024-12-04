@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:478
+  Original Name: gdk_touchpad_event_get_pinch_angle_delta/usr/include/gtk-4.0/gdk/gdkevents.h:478
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_touchpad_event_get_pinch_angle_delta[F64](event: NullablePointer[GdkEvent] tag)
+

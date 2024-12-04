@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:157
+  Original Name: g_task_return_boolean/usr/include/glib-2.0/gio/gtask.h:157
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+*/
+use @g_task_return_boolean[None](task: NullablePointer[GTask] tag, result: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:291
+  Original Name: g_param_spec_sink/usr/include/glib-2.0/gobject/gparam.h:291
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_param_spec_sink[None](pspec: NullablePointer[GParamSpec] tag)
+

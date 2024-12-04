@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:279
+  Original Name: g_io_channel_write_chars/usr/include/glib-2.0/glib/giochannel.h:279
+
+  Return Value: [Enumeration size=32,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_io_channel_write_chars[I32](channel: NullablePointer[GIOChannel] tag, buf: Pointer[U8] tag, count: I64, byteswritten: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

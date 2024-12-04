@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:71
+  Original Name: gtk_popover_set_pointing_to/usr/include/gtk-4.0/gtk/gtkpopover.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gtk_popover_set_pointing_to[None](popover: NullablePointer[GtkPopover] tag, rect: NullablePointer[Cairorectangleint] tag)
+

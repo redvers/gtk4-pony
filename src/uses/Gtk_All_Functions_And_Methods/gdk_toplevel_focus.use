@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:151
+  Original Name: gdk_toplevel_focus/usr/include/gtk-4.0/gdk/gdktoplevel.h:151
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gdk_toplevel_focus[None](toplevel: NullablePointer[GdkToplevel] tag, timestamp: U32)
+

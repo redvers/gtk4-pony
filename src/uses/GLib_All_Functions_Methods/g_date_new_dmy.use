@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:116
+  Original Name: g_date_new_dmy/usr/include/glib-2.0/glib/gdate.h:116
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f69]
+
+  Arguments:
+    [FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f69]
+    [FundamentalType(short unsigned int) size=16]
+*/
+use @g_date_new_dmy[NullablePointer[GDate]](day: U8, month: I32, year: U16)
+

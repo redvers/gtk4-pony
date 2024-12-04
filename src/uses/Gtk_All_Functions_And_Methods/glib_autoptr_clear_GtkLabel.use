@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:188
+  Original Name: glib_autoptr_clear_GtkLabel/usr/include/gtk-4.0/gtk/gtklabel.h:188
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @glib_autoptr_clear_GtkLabel[None](ptr: NullablePointer[GtkLabel] tag)
+

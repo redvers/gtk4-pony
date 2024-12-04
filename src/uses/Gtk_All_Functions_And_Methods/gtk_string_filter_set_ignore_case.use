@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringfilter.h:68
+  Original Name: gtk_string_filter_set_ignore_case/usr/include/gtk-4.0/gtk/gtkstringfilter.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f591]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_string_filter_set_ignore_case[None](self: NullablePointer[GtkStringFilter] tag, ignorecase: I32)
+

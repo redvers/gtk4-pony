@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksorter.h:73
+  Original Name: gtk_sorter_get_type/usr/include/gtk-4.0/gtk/gtksorter.h:73
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_sorter_get_type[U64]()
+

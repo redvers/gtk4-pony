@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginputstream.h:209
+  Original Name: g_input_stream_clear_pending/usr/include/glib-2.0/gio/ginputstream.h:209
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f186]
+*/
+use @g_input_stream_clear_pending[None](stream: NullablePointer[GInputStream] tag)
+

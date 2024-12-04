@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknoselection.h:29
+  Original Name: glib_autoptr_cleanup_GtkNoSelection/usr/include/gtk-4.0/gtk/gtknoselection.h:29
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f666]
+*/
+use @glib_autoptr_cleanup_GtkNoSelection[None](ptr: Pointer[NullablePointer[GtkNoSelection]] tag)
+

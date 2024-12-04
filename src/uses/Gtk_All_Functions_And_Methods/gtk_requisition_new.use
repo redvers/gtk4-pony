@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:700
+  Original Name: gtk_requisition_new/usr/include/gtk-4.0/gtk/gtkwidget.h:700
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f480]
+
+  Arguments:
+*/
+use @gtk_requisition_new[NullablePointer[GtkRequisition]]()
+

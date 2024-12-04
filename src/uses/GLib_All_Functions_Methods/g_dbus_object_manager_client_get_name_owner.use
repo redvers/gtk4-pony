@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:136
+  Original Name: g_dbus_object_manager_client_get_name_owner/usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:136
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f224]
+*/
+use @g_dbus_object_manager_client_get_name_owner[Pointer[U8]](manager: NullablePointer[GDBusObjectManagerClient] tag)
+

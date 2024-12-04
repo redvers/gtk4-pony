@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:70
+  Original Name: gtk_aspect_frame_set_obey_child/usr/include/gtk-4.0/gtk/gtkaspectframe.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f505]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_aspect_frame_set_obey_child[None](self: NullablePointer[GtkAspectFrame] tag, obeychild: I32)
+

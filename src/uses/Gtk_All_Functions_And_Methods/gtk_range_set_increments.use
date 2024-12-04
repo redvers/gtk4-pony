@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrange.h:116
+  Original Name: gtk_range_set_increments/usr/include/gtk-4.0/gtk/gtkrange.h:116
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f687]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_range_set_increments[None](range: NullablePointer[GtkRange] tag, step: F64, page: F64)
+

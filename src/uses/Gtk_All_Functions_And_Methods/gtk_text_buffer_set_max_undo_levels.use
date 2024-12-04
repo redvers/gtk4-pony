@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:448
+  Original Name: gtk_text_buffer_set_max_undo_levels/usr/include/gtk-4.0/gtk/gtktextbuffer.h:448
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_text_buffer_set_max_undo_levels[None](buffer: NullablePointer[GtkTextBuffer] tag, maxundolevels: U32)
+

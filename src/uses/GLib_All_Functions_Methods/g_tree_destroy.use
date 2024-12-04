@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:96
+  Original Name: g_tree_destroy/usr/include/glib-2.0/glib/gtree.h:96
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+*/
+use @g_tree_destroy[None](tree: NullablePointer[GTree] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkkeys.h:49
+  Original Name: gdk_keyval_is_upper/usr/include/gtk-4.0/gdk/gdkkeys.h:49
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gdk_keyval_is_upper[I32](keyval: U32)
+

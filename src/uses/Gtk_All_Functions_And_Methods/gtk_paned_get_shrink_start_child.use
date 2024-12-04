@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpaned.h:66
+  Original Name: gtk_paned_get_shrink_start_child/usr/include/gtk-4.0/gtk/gtkpaned.h:66
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f675]
+*/
+use @gtk_paned_get_shrink_start_child[I32](paned: NullablePointer[GtkPaned] tag)
+

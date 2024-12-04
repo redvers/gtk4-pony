@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:505
+  Original Name: g_object_thaw_notify/usr/include/glib-2.0/gobject/gobject.h:505
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_object_thaw_notify[None](object: NullablePointer[GObject] tag)
+

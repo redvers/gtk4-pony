@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:141
+  Original Name: gtk_text_iter_get_slice/usr/include/gtk-4.0/gtk/gtktextiter.h:141
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_get_slice[Pointer[U8]](start: NullablePointer[GtkTextIter] tag, end: NullablePointer[GtkTextIter] tag)
+

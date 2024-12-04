@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktexture.h:96
+  Original Name: gdk_texture_save_to_tiff/usr/include/gtk-4.0/gdk/gdktexture.h:96
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_texture_save_to_tiff[I32](texture: NullablePointer[GdkTexture] tag, filename: Pointer[U8] tag)
+

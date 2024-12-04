@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignalgroup.h:78
+  Original Name: g_signal_group_connect_after/usr/include/glib-2.0/gobject/gsignalgroup.h:78
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f149]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_group_connect_after[None](self: NullablePointer[GSignalGroup] tag, detailedsignal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Pointer[None] tag)
+

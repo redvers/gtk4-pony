@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:60
+  Original Name: gdk_gl_context_set_required_version/usr/include/gtk-4.0/gdk/gdkglcontext.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_gl_context_set_required_version[None](context: NullablePointer[GdkGLContext] tag, major: I32, minor: I32)
+

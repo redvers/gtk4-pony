@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:54
+  Original Name: gdk_surface_new_popup/usr/include/gtk-4.0/gdk/gdksurface.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_surface_new_popup[NullablePointer[GdkSurface]](parent: NullablePointer[GdkSurface] tag, autohide: I32)
+

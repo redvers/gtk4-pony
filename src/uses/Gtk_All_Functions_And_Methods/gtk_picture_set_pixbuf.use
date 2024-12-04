@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:68
+  Original Name: gtk_picture_set_pixbuf/usr/include/gtk-4.0/gtk/gtkpicture.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f678]
+    [PointerType size=64]->[Struct size=,fid: f378]
+*/
+use @gtk_picture_set_pixbuf[None](self: NullablePointer[GtkPicture] tag, pixbuf: NullablePointer[GdkPixbuf] tag)
+

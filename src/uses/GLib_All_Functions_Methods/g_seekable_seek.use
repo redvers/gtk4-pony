@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gseekable.h:84
+  Original Name: g_seekable_seek/usr/include/glib-2.0/gio/gseekable.h:84
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(long int) size=64]
+    [Enumeration size=32,fid: f89]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_seekable_seek[I32](seekable: NullablePointer[GSeekable] tag, offset: I64, type: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

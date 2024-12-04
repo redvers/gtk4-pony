@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioscheduler.h:36
+  Original Name: g_io_scheduler_push_job/usr/include/glib-2.0/gio/gioscheduler.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_io_scheduler_push_job[None](jobfunc: Pointer[None] tag, userdata: Pointer[None] tag, notify: Pointer[None] tag, iopriority: I32, cancellable: NullablePointer[GCancellable] tag)
+

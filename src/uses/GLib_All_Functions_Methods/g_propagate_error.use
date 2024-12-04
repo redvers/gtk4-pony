@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gerror.h:236
+  Original Name: g_propagate_error/usr/include/glib-2.0/glib/gerror.h:236
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_propagate_error[None](dest: Pointer[NullablePointer[GError]] tag, src: NullablePointer[GError] tag)
+

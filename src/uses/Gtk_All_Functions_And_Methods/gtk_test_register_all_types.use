@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktestutils.h:36
+  Original Name: gtk_test_register_all_types/usr/include/gtk-4.0/gtk/gtktestutils.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @gtk_test_register_all_types[None]()
+

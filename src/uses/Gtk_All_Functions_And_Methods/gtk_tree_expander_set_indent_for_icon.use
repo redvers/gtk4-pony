@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreeexpander.h:60
+  Original Name: gtk_tree_expander_set_indent_for_icon/usr/include/gtk-4.0/gtk/gtktreeexpander.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f738]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_tree_expander_set_indent_for_icon[None](self: NullablePointer[GtkTreeExpander] tag, indentforicon: I32)
+

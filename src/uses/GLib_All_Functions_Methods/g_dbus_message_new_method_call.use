@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:47
+  Original Name: g_dbus_message_new_method_call/usr/include/glib-2.0/gio/gdbusmessage.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_message_new_method_call[NullablePointer[GDBusMessage]](name: Pointer[U8] tag, path: Pointer[U8] tag, interface: Pointer[U8] tag, method: Pointer[U8] tag)
+

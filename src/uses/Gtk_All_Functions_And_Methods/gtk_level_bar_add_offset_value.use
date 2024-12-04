@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklevelbar.h:101
+  Original Name: gtk_level_bar_add_offset_value/usr/include/gtk-4.0/gtk/gtklevelbar.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f647]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_level_bar_add_offset_value[None](self: NullablePointer[GtkLevelBar] tag, name: Pointer[U8] tag, value: F64)
+

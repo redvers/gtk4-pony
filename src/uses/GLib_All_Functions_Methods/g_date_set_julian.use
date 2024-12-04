@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:214
+  Original Name: g_date_set_julian/usr/include/glib-2.0/glib/gdate.h:214
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_date_set_julian[None](date: NullablePointer[GDate] tag, juliandate: U32)
+

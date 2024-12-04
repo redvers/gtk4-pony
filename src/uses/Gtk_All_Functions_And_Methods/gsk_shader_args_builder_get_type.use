@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:120
+  Original Name: gsk_shader_args_builder_get_type/usr/include/gtk-4.0/gsk/gskglshader.h:120
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_shader_args_builder_get_type[U64]()
+

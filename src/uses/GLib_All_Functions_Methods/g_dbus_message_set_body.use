@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:110
+  Original Name: g_dbus_message_set_body/usr/include/glib-2.0/gio/gdbusmessage.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_dbus_message_set_body[None](message: NullablePointer[GDBusMessage] tag, body: NullablePointer[GVariant] tag)
+

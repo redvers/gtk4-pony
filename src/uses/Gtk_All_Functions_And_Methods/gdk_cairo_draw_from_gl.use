@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairo.h:52
+  Original Name: gdk_cairo_draw_from_gl/usr/include/gtk-4.0/gdk/gdkcairo.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f318]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_cairo_draw_from_gl[None](cr: NullablePointer[Cairo] tag, surface: NullablePointer[GdkSurface] tag, source: I32, sourcetype: I32, bufferscale: I32, x: I32, y: I32, width: I32, height: I32)
+

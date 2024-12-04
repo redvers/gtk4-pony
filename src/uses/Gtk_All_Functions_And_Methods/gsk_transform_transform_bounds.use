@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:128
+  Original Name: gsk_transform_transform_bounds/usr/include/gtk-4.0/gsk/gsktransform.h:128
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gsk_transform_transform_bounds[None](self: NullablePointer[GskTransform] tag, rect: NullablePointer[Graphenerectt] tag, outrect: NullablePointer[Graphenerectt] tag)
+

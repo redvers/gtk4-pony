@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:153
+  Original Name: g_mkstemp_full/usr/include/glib-2.0/glib/gfileutils.h:153
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @g_mkstemp_full[I32](tmpl: Pointer[U8] tag, flags: I32, mode: I32)
+

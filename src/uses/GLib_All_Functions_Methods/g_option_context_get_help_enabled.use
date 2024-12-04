@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:328
+  Original Name: g_option_context_get_help_enabled/usr/include/glib-2.0/glib/goption.h:328
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+*/
+use @g_option_context_get_help_enabled[I32](context: NullablePointer[GOptionContext] tag)
+

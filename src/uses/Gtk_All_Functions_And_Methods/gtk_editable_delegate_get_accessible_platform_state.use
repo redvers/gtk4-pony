@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:197
+  Original Name: gtk_editable_delegate_get_accessible_platform_state/usr/include/gtk-4.0/gtk/gtkeditable.h:197
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+    [Enumeration size=32,fid: f489]
+*/
+use @gtk_editable_delegate_get_accessible_platform_state[I32](editable: NullablePointer[GtkEditable] tag, state: I32)
+

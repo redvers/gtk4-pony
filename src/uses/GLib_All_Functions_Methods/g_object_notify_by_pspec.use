@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:502
+  Original Name: g_object_notify_by_pspec/usr/include/glib-2.0/gobject/gobject.h:502
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_object_notify_by_pspec[None](object: NullablePointer[GObject] tag, pspec: NullablePointer[GParamSpec] tag)
+

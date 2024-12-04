@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:52
+  Original Name: gtk_window_controls_get_empty/usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f749]
+*/
+use @gtk_window_controls_get_empty[I32](self: NullablePointer[GtkWindowControls] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraintlayout.h:54
+  Original Name: gtk_constraint_layout_remove_guide/usr/include/gtk-4.0/gtk/gtkconstraintlayout.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f577]
+    [PointerType size=64]->[Struct size=,fid: f576]
+*/
+use @gtk_constraint_layout_remove_guide[None](layout: NullablePointer[GtkConstraintLayout] tag, guide: NullablePointer[GtkConstraintGuide] tag)
+

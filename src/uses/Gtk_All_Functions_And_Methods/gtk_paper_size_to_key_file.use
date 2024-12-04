@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:162
+  Original Name: gtk_paper_size_to_key_file/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:162
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f673]
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_paper_size_to_key_file[None](size: NullablePointer[GtkPaperSize] tag, keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag)
+

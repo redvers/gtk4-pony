@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:180
+  Original Name: g_application_add_main_option/usr/include/glib-2.0/gio/gapplication.h:180
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f96]
+    [Enumeration size=32,fid: f96]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_add_main_option[None](application: NullablePointer[GApplication] tag, longname: Pointer[U8] tag, shortname: U8, flags: I32, arg: I32, description: Pointer[U8] tag, argdescription: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkenums.h:693
+  Original Name: gtk_ordering_from_cmpfunc/usr/include/gtk-4.0/gtk/gtkenums.h:693
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @gtk_ordering_from_cmpfunc[I32](cmpfuncresult: I32)
+

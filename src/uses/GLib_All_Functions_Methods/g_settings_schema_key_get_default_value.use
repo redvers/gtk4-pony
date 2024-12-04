@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettingsschema.h:99
+  Original Name: g_settings_schema_key_get_default_value/usr/include/glib-2.0/gio/gsettingsschema.h:99
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+*/
+use @g_settings_schema_key_get_default_value[NullablePointer[GVariant]](key: NullablePointer[GSettingsSchemaKey] tag)
+

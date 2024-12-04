@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanager.h:87
+  Original Name: g_dbus_object_manager_get_object/usr/include/glib-2.0/gio/gdbusobjectmanager.h:87
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_object_manager_get_object[NullablePointer[GDBusObject]](manager: NullablePointer[GDBusObjectManager] tag, objectpath: Pointer[U8] tag)
+

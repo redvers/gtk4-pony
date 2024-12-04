@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdrive.h:185
+  Original Name: g_drive_get_volumes/usr/include/glib-2.0/gio/gdrive.h:185
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_drive_get_volumes[NullablePointer[GList]](drive: NullablePointer[GDrive] tag)
+

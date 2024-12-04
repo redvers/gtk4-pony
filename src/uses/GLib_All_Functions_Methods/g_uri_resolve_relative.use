@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:164
+  Original Name: g_uri_resolve_relative/usr/include/glib-2.0/glib/guri.h:164
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f120]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_uri_resolve_relative[Pointer[U8]](baseuristring: Pointer[U8] tag, uriref: Pointer[U8] tag, flags: I32, error: Pointer[NullablePointer[GError]] tag)
+

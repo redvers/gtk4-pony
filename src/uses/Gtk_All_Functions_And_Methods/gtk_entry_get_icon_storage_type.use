@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:201
+  Original Name: gtk_entry_get_icon_storage_type/usr/include/gtk-4.0/gtk/gtkentry.h:201
+
+  Return Value: [Enumeration size=32,fid: f569]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+*/
+use @gtk_entry_get_icon_storage_type[I32](entry: NullablePointer[GtkEntry] tag, iconpos: I32)
+

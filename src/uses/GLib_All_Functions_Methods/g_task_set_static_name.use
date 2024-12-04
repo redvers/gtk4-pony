@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:83
+  Original Name: g_task_set_static_name/usr/include/glib-2.0/gio/gtask.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_task_set_static_name[None](task: NullablePointer[GTask] tag, name: Pointer[U8] tag)
+

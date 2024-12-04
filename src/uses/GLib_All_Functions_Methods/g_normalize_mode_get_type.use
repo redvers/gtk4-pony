@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/glib-enumtypes.h:18
+  Original Name: g_normalize_mode_get_type/usr/include/glib-2.0/gobject/glib-enumtypes.h:18
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_normalize_mode_get_type[U64]()
+

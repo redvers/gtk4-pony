@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopovermenu.h:57
+  Original Name: gtk_popover_menu_add_child/usr/include/gtk-4.0/gtk/gtkpopovermenu.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f679]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_popover_menu_add_child[I32](popover: NullablePointer[GtkPopoverMenu] tag, child: NullablePointer[GtkWidget] tag, id: Pointer[U8] tag)
+

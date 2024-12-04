@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbindinggroup.h:67
+  Original Name: g_binding_group_bind_with_closures/usr/include/glib-2.0/gobject/gbindinggroup.h:67
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f145]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f144]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+*/
+use @g_binding_group_bind_with_closures[None](self: NullablePointer[GBindingGroup] tag, sourceproperty: Pointer[U8] tag, target: Pointer[None] tag, targetproperty: Pointer[U8] tag, flags: I32, transformto: NullablePointer[GClosure] tag, transformfrom: NullablePointer[GClosure] tag)
+

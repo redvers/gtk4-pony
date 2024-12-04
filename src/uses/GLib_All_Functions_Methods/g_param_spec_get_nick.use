@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:336
+  Original Name: g_param_spec_get_nick/usr/include/glib-2.0/gobject/gparam.h:336
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_param_spec_get_nick[Pointer[U8]](pspec: NullablePointer[GParamSpec] tag)
+

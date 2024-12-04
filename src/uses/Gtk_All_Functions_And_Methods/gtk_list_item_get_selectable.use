@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistitem.h:41
+  Original Name: gtk_list_item_get_selectable/usr/include/gtk-4.0/gtk/gtklistitem.h:41
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_list_item_get_selectable[I32](self: NullablePointer[GtkListItem] tag)
+

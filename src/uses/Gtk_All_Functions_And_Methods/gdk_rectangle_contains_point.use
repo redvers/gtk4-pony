@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrectangle.h:51
+  Original Name: gdk_rectangle_contains_point/usr/include/gtk-4.0/gdk/gdkrectangle.h:51
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f318]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_rectangle_contains_point[I32](rect: NullablePointer[Cairorectangleint] tag, x: I32, y: I32)
+

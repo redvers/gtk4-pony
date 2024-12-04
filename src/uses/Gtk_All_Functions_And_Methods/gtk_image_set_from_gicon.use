@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:104
+  Original Name: gtk_image_set_from_gicon/usr/include/gtk-4.0/gtk/gtkimage.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @gtk_image_set_from_gicon[None](image: NullablePointer[GtkImage] tag, icon: NullablePointer[GIcon] tag)
+

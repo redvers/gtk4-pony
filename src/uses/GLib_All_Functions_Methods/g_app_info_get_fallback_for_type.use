@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:235
+  Original Name: g_app_info_get_fallback_for_type/usr/include/glib-2.0/gio/gappinfo.h:235
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_app_info_get_fallback_for_type[NullablePointer[GList]](contenttype: Pointer[U8] tag)
+

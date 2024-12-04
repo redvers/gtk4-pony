@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:136
+  Original Name: gtk_print_settings_get_int_with_default/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:136
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_print_settings_get_int_with_default[I32](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag, def: I32)
+

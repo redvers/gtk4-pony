@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsourceclosure.h:32
+  Original Name: g_source_set_closure/usr/include/glib-2.0/gobject/gsourceclosure.h:32
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+*/
+use @g_source_set_closure[None](source: NullablePointer[GSource] tag, closure: NullablePointer[GClosure] tag)
+

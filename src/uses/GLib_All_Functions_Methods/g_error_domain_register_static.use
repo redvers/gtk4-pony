@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gerror.h:178
+  Original Name: g_error_domain_register_static/usr/include/glib-2.0/glib/gerror.h:178
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_error_domain_register_static[U32](errortypename: Pointer[U8] tag, errortypeprivatesize: U64, errortypeinit: Pointer[None] tag, errortypecopy: Pointer[None] tag, errortypeclear: Pointer[None] tag)
+

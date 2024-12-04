@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:107
+  Original Name: gtk_editable_select_region/usr/include/gtk-4.0/gtk/gtkeditable.h:107
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_editable_select_region[None](editable: NullablePointer[GtkEditable] tag, startpos: I32, endpos: I32)
+

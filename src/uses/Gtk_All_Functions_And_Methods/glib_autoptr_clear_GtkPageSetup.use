@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:134
+  Original Name: glib_autoptr_clear_GtkPageSetup/usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:134
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f674]
+*/
+use @glib_autoptr_clear_GtkPageSetup[None](ptr: NullablePointer[GtkPageSetup] tag)
+

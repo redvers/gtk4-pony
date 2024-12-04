@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:43
+  Original Name: gsk_stroke_equal/usr/include/gtk-4.0/gsk/gskstroke.h:43
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gsk_stroke_equal[I32](stroke1: Pointer[None] tag, stroke2: Pointer[None] tag)
+

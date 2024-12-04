@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:225
+  Original Name: g_key_file_get_locale_string_list/usr/include/glib-2.0/glib/gkeyfile.h:225
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_key_file_get_locale_string_list[Pointer[Pointer[U8]]](keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag, key: Pointer[U8] tag, locale: Pointer[U8] tag, length: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

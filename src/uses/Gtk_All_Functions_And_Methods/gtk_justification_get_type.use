@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:131
+  Original Name: gtk_justification_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:131
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_justification_get_type[U64]()
+

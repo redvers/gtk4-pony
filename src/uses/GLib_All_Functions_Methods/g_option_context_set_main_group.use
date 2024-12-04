@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:367
+  Original Name: g_option_context_set_main_group/usr/include/glib-2.0/glib/goption.h:367
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+    [PointerType size=64]->[Struct size=,fid: f96]
+*/
+use @g_option_context_set_main_group[None](context: NullablePointer[GOptionContext] tag, group: NullablePointer[GOptionGroup] tag)
+

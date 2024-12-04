@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnection.h:109
+  Original Name: g_socket_connection_factory_lookup_type/usr/include/glib-2.0/gio/gsocketconnection.h:109
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+    [Enumeration size=32,fid: f159]
+    [FundamentalType(int) size=32]
+*/
+use @g_socket_connection_factory_lookup_type[U64](family: I32, type: I32, protocolid: I32)
+

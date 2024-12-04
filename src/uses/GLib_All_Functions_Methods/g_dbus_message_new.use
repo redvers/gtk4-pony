@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:41
+  Original Name: g_dbus_message_new/usr/include/glib-2.0/gio/gdbusmessage.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+*/
+use @g_dbus_message_new[NullablePointer[GDBusMessage]]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstacksidebar.h:46
+  Original Name: gtk_stack_sidebar_get_stack/usr/include/gtk-4.0/gtk/gtkstacksidebar.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f713]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f714]
+*/
+use @gtk_stack_sidebar_get_stack[NullablePointer[GtkStack]](self: NullablePointer[GtkStackSidebar] tag)
+

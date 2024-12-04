@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:54
+  Original Name: gdk_content_formats_get_gtypes/usr/include/gtk-4.0/gdk/gdkcontentformats.h:54
+
+  Return Value: [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @gdk_content_formats_get_gtypes[Pointer[U64]](formats: NullablePointer[GdkContentFormats] tag, ngtypes: Pointer[U64] tag)
+

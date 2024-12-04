@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:66
+  Original Name: gtk_im_context_simple_add_table/usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f642]
+    [PointerType size=64]->[FundamentalType(short unsigned int) size=16]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_im_context_simple_add_table[None](contextsimple: NullablePointer[GtkIMContextSimple] tag, data: Pointer[U16] tag, maxseqlen: I32, nseqs: I32)
+

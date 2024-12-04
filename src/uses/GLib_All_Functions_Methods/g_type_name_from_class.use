@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2651
+  Original Name: g_type_name_from_class/usr/include/glib-2.0/gobject/gtype.h:2651
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f135]
+*/
+use @g_type_name_from_class[Pointer[U8]](gclass: NullablePointer[GTypeClass] tag)
+

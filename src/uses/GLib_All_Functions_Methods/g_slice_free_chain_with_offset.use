@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslice.h:45
+  Original Name: g_slice_free_chain_with_offset/usr/include/glib-2.0/glib/gslice.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_slice_free_chain_with_offset[None](blocksize: U64, memchain: Pointer[None] tag, nextoffset: U64)
+

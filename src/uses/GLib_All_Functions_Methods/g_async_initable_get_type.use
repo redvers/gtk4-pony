@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gasyncinitable.h:71
+  Original Name: g_async_initable_get_type/usr/include/glib-2.0/gio/gasyncinitable.h:71
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_async_initable_get_type[U64]()
+

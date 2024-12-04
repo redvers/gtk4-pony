@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:518
+  Original Name: gsk_blend_node_get_blend_mode/usr/include/gtk-4.0/gsk/gskrendernode.h:518
+
+  Return Value: [Enumeration size=32,fid: f432]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_blend_node_get_blend_mode[I32](node: NullablePointer[GskRenderNode] tag)
+

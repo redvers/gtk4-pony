@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringsorter.h:33
+  Original Name: GTK_IS_STRING_SORTER/usr/include/gtk-4.0/gtk/gtkstringsorter.h:33
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_STRING_SORTER[I32](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:169
+  Original Name: gtk_window_set_auto_startup_notification/usr/include/gtk-4.0/gtk/gtkwindow.h:169
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @gtk_window_set_auto_startup_notification[None](setting: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddressmask.h:68
+  Original Name: g_inet_address_mask_to_string/usr/include/glib-2.0/gio/ginetaddressmask.h:68
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f183]
+*/
+use @g_inet_address_mask_to_string[Pointer[U8]](mask: NullablePointer[GInetAddressMask] tag)
+

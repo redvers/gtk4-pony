@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:85
+  Original Name: glib_autoptr_clear_GtkNothingAction/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f484]
+*/
+use @glib_autoptr_clear_GtkNothingAction[None](ptr: NullablePointer[GtkNothingAction] tag)
+

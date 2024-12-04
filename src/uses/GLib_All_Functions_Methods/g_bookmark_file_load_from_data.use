@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:133
+  Original Name: g_bookmark_file_load_from_data/usr/include/glib-2.0/glib/gbookmarkfile.h:133
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_bookmark_file_load_from_data[I32](bookmark: NullablePointer[GBookmarkFile] tag, data: Pointer[U8] tag, length: U64, error: Pointer[NullablePointer[GError]] tag)
+

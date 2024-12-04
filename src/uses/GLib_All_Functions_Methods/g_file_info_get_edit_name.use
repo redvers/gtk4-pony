@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1427
+  Original Name: g_file_info_get_edit_name/usr/include/glib-2.0/gio/gfileinfo.h:1427
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_get_edit_name[Pointer[U8]](info: NullablePointer[GFileInfo] tag)
+

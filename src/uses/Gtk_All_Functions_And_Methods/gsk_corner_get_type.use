@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskenumtypes.h:18
+  Original Name: gsk_corner_get_type/usr/include/gtk-4.0/gsk/gskenumtypes.h:18
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_corner_get_type[U64]()
+

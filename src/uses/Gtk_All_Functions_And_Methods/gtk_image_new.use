@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:72
+  Original Name: gtk_image_new/usr/include/gtk-4.0/gtk/gtkimage.h:72
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_image_new[NullablePointer[GtkWidget]]()
+

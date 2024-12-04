@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:459
+  Original Name: g_regex_get_pattern/usr/include/glib-2.0/glib/gregex.h:459
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_regex_get_pattern[Pointer[U8]](regex: NullablePointer[GRegex] tag)
+

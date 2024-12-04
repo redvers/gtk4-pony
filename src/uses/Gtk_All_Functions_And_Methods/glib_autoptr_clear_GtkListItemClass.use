@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistitem.h:32
+  Original Name: glib_autoptr_clear_GtkListItemClass/usr/include/gtk-4.0/gtk/gtklistitem.h:32
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f556]
+*/
+use @glib_autoptr_clear_GtkListItemClass[None](ptr: NullablePointer[GtkListItemClass] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutmanager.h:123
+  Original Name: gtk_layout_manager_layout_changed/usr/include/gtk-4.0/gtk/gtklayoutmanager.h:123
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f479]
+*/
+use @gtk_layout_manager_layout_changed[None](manager: NullablePointer[GtkLayoutManager] tag)
+

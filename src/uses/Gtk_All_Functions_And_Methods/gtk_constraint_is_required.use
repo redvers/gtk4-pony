@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:82
+  Original Name: gtk_constraint_is_required/usr/include/gtk-4.0/gtk/gtkconstraint.h:82
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f574]
+*/
+use @gtk_constraint_is_required[I32](constraint: NullablePointer[GtkConstraint] tag)
+

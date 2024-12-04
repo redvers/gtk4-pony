@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklevelbar.h:105
+  Original Name: gtk_level_bar_remove_offset_value/usr/include/gtk-4.0/gtk/gtklevelbar.h:105
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f647]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_level_bar_remove_offset_value[None](self: NullablePointer[GtkLevelBar] tag, name: Pointer[U8] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkenumtypes.h:111
+  Original Name: gdk_frame_clock_phase_get_type/usr/include/gtk-4.0/gdk/gdkenumtypes.h:111
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_frame_clock_phase_get_type[U64]()
+

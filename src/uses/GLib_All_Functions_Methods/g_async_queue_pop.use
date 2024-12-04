@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:76
+  Original Name: g_async_queue_pop/usr/include/glib-2.0/glib/gasyncqueue.h:76
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+*/
+use @g_async_queue_pop[Pointer[None]](queue: NullablePointer[GAsyncQueue] tag)
+

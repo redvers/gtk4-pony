@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:76
+  Original Name: g_array_new_take/usr/include/glib-2.0/glib/garray.h:76
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(int) size=32]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_array_new_take[NullablePointer[GArray]](data: Pointer[None] tag, len: U64, clear: I32, elementsize: U64)
+

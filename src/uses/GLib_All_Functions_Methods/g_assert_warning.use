@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:304
+  Original Name: g_assert_warning/usr/include/glib-2.0/glib/gmessages.h:304
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_assert_warning[None](logdomain: Pointer[U8] tag, file: Pointer[U8] tag, line: I32, prettyfunction: Pointer[U8] tag, expression: Pointer[U8] tag)
+

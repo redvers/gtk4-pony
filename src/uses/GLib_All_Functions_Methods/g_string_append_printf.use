@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:175
+  Original Name: g_string_append_printf/usr/include/glib-2.0/glib/gstring.h:175
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_string_append_printf[None](string: NullablePointer[GString] tag, format: Pointer[U8] tag, ...)
+

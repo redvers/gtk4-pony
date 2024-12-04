@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewcell.h:33
+  Original Name: GTK_COLUMN_VIEW_CELL/usr/include/gtk-4.0/gtk/gtkcolumnviewcell.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f557]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_COLUMN_VIEW_CELL[NullablePointer[GtkColumnViewCell]](ptr: Pointer[None] tag)
+

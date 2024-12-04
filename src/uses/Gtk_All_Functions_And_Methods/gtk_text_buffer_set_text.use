@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:156
+  Original Name: gtk_text_buffer_set_text/usr/include/gtk-4.0/gtk/gtktextbuffer.h:156
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_buffer_set_text[None](buffer: NullablePointer[GtkTextBuffer] tag, text: Pointer[U8] tag, len: I32)
+

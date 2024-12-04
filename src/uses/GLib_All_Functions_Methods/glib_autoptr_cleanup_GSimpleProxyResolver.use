@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:126
+  Original Name: glib_autoptr_cleanup_GSimpleProxyResolver/usr/include/glib-2.0/gio/gio-autocleanups.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f299]
+*/
+use @glib_autoptr_cleanup_GSimpleProxyResolver[None](ptr: Pointer[NullablePointer[GSimpleProxyResolver]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:223
+  Original Name: g_scanner_sync_file_offset/usr/include/glib-2.0/glib/gscanner.h:223
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+*/
+use @g_scanner_sync_file_offset[None](scanner: NullablePointer[GScanner] tag)
+

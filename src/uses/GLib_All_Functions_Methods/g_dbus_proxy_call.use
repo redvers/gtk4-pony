@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusproxy.h:159
+  Original Name: g_dbus_proxy_call/usr/include/glib-2.0/gio/gdbusproxy.h:159
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f217]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [Enumeration size=32,fid: f159]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_dbus_proxy_call[None](proxy: NullablePointer[GDBusProxy] tag, methodname: Pointer[U8] tag, parameters: NullablePointer[GVariant] tag, flags: I32, timeoutmsec: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

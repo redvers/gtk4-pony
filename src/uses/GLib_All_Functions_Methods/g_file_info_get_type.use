@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1291
+  Original Name: g_file_info_get_type/usr/include/glib-2.0/gio/gfileinfo.h:1291
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_file_info_get_type[U64]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:92
+  Original Name: g_slist_remove_link/usr/include/glib-2.0/glib/gslist.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+    [PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @g_slist_remove_link[NullablePointer[GSList]](list: NullablePointer[GSList] tag, link: NullablePointer[GSList] tag)
+

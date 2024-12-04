@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:183
+  Original Name: g_socket_client_connect_to_uri_async/usr/include/glib-2.0/gio/gsocketclient.h:183
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(short unsigned int) size=16]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_socket_client_connect_to_uri_async[None](client: NullablePointer[GSocketClient] tag, uri: Pointer[U8] tag, defaultport: U16, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

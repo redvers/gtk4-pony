@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:217
+  Original Name: g_date_time_add_full/usr/include/glib-2.0/glib/gdatetime.h:217
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f62]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(double) size=64]
+*/
+use @g_date_time_add_full[NullablePointer[GDateTime]](datetime: NullablePointer[GDateTime] tag, years: I32, months: I32, days: I32, hours: I32, minutes: I32, seconds: F64)
+

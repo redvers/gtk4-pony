@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframeclock.h:100
+  Original Name: gdk_frame_clock_get_refresh_info/usr/include/gtk-4.0/gdk/gdkframeclock.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f402]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[FundamentalType(long int) size=64]
+    [PointerType size=64]->[FundamentalType(long int) size=64]
+*/
+use @gdk_frame_clock_get_refresh_info[None](frameclock: NullablePointer[GdkFrameClock] tag, basetime: I64, refreshintervalreturn: Pointer[I64] tag, presentationtimereturn: Pointer[I64] tag)
+

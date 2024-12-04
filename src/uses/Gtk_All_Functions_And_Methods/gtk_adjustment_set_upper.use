@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkadjustment.h:94
+  Original Name: gtk_adjustment_set_upper/usr/include/gtk-4.0/gtk/gtkadjustment.h:94
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f477]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_adjustment_set_upper[None](adjustment: NullablePointer[GtkAdjustment] tag, upper: F64)
+

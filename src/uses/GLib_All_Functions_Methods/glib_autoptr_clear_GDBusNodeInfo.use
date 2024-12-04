@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:57
+  Original Name: glib_autoptr_clear_GDBusNodeInfo/usr/include/glib-2.0/gio/gio-autocleanups.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f220]
+*/
+use @glib_autoptr_clear_GDBusNodeInfo[None](ptr: NullablePointer[GDBusNodeInfo] tag)
+

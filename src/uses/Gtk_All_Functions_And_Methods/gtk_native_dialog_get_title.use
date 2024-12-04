@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknativedialog.h:76
+  Original Name: gtk_native_dialog_get_title/usr/include/gtk-4.0/gtk/gtknativedialog.h:76
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f606]
+*/
+use @gtk_native_dialog_get_title[Pointer[U8]](self: NullablePointer[GtkNativeDialog] tag)
+

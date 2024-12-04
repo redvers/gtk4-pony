@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknativedialog.h:71
+  Original Name: gtk_native_dialog_get_modal/usr/include/gtk-4.0/gtk/gtknativedialog.h:71
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f606]
+*/
+use @gtk_native_dialog_get_modal[I32](self: NullablePointer[GtkNativeDialog] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:72
+  Original Name: gtk_application_window_get_show_menubar/usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f504]
+*/
+use @gtk_application_window_get_show_menubar[I32](window: NullablePointer[GtkApplicationWindow] tag)
+

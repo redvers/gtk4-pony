@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:248
+  Original Name: g_application_withdraw_notification/usr/include/glib-2.0/gio/gapplication.h:248
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_withdraw_notification[None](application: NullablePointer[GApplication] tag, id: Pointer[U8] tag)
+

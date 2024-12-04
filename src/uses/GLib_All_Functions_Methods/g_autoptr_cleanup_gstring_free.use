@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:36
+  Original Name: g_autoptr_cleanup_gstring_free/usr/include/glib-2.0/glib/glib-autocleanups.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @g_autoptr_cleanup_gstring_free[None](string: NullablePointer[GString] tag)
+

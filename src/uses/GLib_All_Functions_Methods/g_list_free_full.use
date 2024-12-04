@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:58
+  Original Name: g_list_free_full/usr/include/glib-2.0/glib/glist.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_list_free_full[None](list: NullablePointer[GList] tag, freefunc: Pointer[None] tag)
+

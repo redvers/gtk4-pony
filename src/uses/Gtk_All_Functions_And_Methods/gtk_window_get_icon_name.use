@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:162
+  Original Name: gtk_window_get_icon_name/usr/include/gtk-4.0/gtk/gtkwindow.h:162
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_window_get_icon_name[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
+

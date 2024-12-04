@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:494
+  Original Name: gdk_dnd_event_get_type/usr/include/gtk-4.0/gdk/gdkevents.h:494
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_dnd_event_get_type[U64]()
+

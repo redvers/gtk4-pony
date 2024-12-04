@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:407
+  Original Name: gtk_widget_set_receives_default/usr/include/gtk-4.0/gtk/gtkwidget.h:407
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_widget_set_receives_default[None](widget: NullablePointer[GtkWidget] tag, receivesdefault: I32)
+

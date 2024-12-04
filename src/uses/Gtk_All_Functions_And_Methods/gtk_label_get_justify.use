@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:93
+  Original Name: gtk_label_get_justify/usr/include/gtk-4.0/gtk/gtklabel.h:93
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_justify[I32](self: NullablePointer[GtkLabel] tag)
+

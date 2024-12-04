@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkframe.h:79
+  Original Name: gtk_frame_set_label/usr/include/gtk-4.0/gtk/gtkframe.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f621]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_frame_set_label[None](frame: NullablePointer[GtkFrame] tag, label: Pointer[U8] tag)
+

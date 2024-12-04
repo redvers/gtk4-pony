@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:305
+  Original Name: gtk_sorter_change_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:305
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_sorter_change_get_type[U64]()
+

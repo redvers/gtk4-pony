@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:428
+  Original Name: gdk_scroll_event_get_deltas/usr/include/gtk-4.0/gdk/gdkevents.h:428
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_scroll_event_get_deltas[None](event: NullablePointer[GdkEvent] tag, deltax: Pointer[F64] tag, deltay: Pointer[F64] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:255
+  Original Name: g_date_time_get_day_of_week/usr/include/glib-2.0/glib/gdatetime.h:255
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f62]
+*/
+use @g_date_time_get_day_of_week[I32](datetime: NullablePointer[GDateTime] tag)
+

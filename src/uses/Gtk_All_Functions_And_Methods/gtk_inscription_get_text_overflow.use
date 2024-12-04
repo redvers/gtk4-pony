@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkinscription.h:71
+  Original Name: gtk_inscription_get_text_overflow/usr/include/gtk-4.0/gtk/gtkinscription.h:71
+
+  Return Value: [Enumeration size=32,fid: f645]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f645]
+*/
+use @gtk_inscription_get_text_overflow[I32](self: NullablePointer[GtkInscription] tag)
+

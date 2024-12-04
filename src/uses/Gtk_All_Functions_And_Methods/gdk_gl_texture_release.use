@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkgltexture.h:51
+  Original Name: gdk_gl_texture_release/usr/include/gtk-4.0/gdk/gdkgltexture.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f418]
+*/
+use @gdk_gl_texture_release[None](self: NullablePointer[GdkGLTexture] tag)
+

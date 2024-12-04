@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccelgroup.h:69
+  Original Name: gtk_accelerator_get_default_mod_mask/usr/include/gtk-4.0/gtk/gtkaccelgroup.h:69
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+*/
+use @gtk_accelerator_get_default_mod_mask[I32]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:257
+  Original Name: g_date_days_between/usr/include/glib-2.0/glib/gdate.h:257
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_days_between[I32](date1: NullablePointer[GDate] tag, date2: NullablePointer[GDate] tag)
+

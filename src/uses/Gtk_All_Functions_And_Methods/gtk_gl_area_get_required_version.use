@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkglarea.h:97
+  Original Name: gtk_gl_area_get_required_version/usr/include/gtk-4.0/gtk/gtkglarea.h:97
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f632]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_gl_area_get_required_version[None](area: NullablePointer[GtkGLArea] tag, major: Pointer[I32] tag, minor: Pointer[I32] tag)
+

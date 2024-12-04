@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:111
+  Original Name: gdk_device_has_bidi_layouts/usr/include/gtk-4.0/gdk/gdkdevice.h:111
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_device_has_bidi_layouts[I32](device: NullablePointer[GdkDevice] tag)
+

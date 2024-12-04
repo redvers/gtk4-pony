@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcut.h:29
+  Original Name: glib_autoptr_clear_GtkShortcut/usr/include/gtk-4.0/gtk/gtkshortcut.h:29
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @glib_autoptr_clear_GtkShortcut[None](ptr: NullablePointer[GtkShortcut] tag)
+

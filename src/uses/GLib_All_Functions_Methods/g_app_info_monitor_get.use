@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:358
+  Original Name: g_app_info_monitor_get/usr/include/glib-2.0/gio/gappinfo.h:358
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f160]
+
+  Arguments:
+*/
+use @g_app_info_monitor_get[NullablePointer[GAppInfoMonitor]]()
+

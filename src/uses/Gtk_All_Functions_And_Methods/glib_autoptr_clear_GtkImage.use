@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:128
+  Original Name: glib_autoptr_clear_GtkImage/usr/include/gtk-4.0/gtk/gtkimage.h:128
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+*/
+use @glib_autoptr_clear_GtkImage[None](ptr: NullablePointer[GtkImage] tag)
+

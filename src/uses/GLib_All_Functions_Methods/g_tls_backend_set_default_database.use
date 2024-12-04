@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsbackend.h:91
+  Original Name: g_tls_backend_set_default_database/usr/include/glib-2.0/gio/gtlsbackend.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f307]
+    [PointerType size=64]->[Struct size=256,fid: f208]
+*/
+use @g_tls_backend_set_default_database[None](backend: NullablePointer[GTlsBackend] tag, database: NullablePointer[GTlsDatabase] tag)
+

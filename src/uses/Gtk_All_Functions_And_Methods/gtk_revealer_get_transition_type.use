@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrevealer.h:68
+  Original Name: gtk_revealer_get_transition_type/usr/include/gtk-4.0/gtk/gtkrevealer.h:68
+
+  Return Value: [Enumeration size=32,fid: f691]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f691]
+*/
+use @gtk_revealer_get_transition_type[I32](revealer: NullablePointer[GtkRevealer] tag)
+

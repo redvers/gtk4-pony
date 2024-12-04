@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettingsschema.h:73
+  Original Name: g_settings_schema_get_path/usr/include/glib-2.0/gio/gsettingsschema.h:73
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+*/
+use @g_settings_schema_get_path[Pointer[U8]](schema: NullablePointer[GSettingsSchema] tag)
+

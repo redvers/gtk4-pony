@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbytes.h:67
+  Original Name: g_bytes_ref/usr/include/glib-2.0/glib/gbytes.h:67
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @g_bytes_ref[NullablePointer[GBytes]](bytes: NullablePointer[GBytes] tag)
+

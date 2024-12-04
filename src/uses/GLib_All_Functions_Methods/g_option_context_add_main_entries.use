@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:342
+  Original Name: g_option_context_add_main_entries/usr/include/glib-2.0/glib/goption.h:342
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+    [PointerType size=64]->[Struct size=384,fid: f96]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_option_context_add_main_entries[None](context: NullablePointer[GOptionContext] tag, entries: NullablePointer[GOptionEntry] tag, translationdomain: Pointer[U8] tag)
+

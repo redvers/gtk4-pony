@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:298
+  Original Name: gsk_radial_gradient_node_get_n_color_stops/usr/include/gtk-4.0/gsk/gskrendernode.h:298
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_radial_gradient_node_get_n_color_stops[U64](node: NullablePointer[GskRenderNode] tag)
+

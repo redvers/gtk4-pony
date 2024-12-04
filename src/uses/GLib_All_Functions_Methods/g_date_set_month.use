@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:200
+  Original Name: g_date_set_month/usr/include/glib-2.0/glib/gdate.h:200
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [Enumeration size=32,fid: f69]
+*/
+use @g_date_set_month[None](date: NullablePointer[GDate] tag, month: I32)
+

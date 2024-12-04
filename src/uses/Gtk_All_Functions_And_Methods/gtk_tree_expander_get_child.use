@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreeexpander.h:40
+  Original Name: gtk_tree_expander_get_child/usr/include/gtk-4.0/gtk/gtktreeexpander.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f738]
+*/
+use @gtk_tree_expander_get_child[NullablePointer[GtkWidget]](self: NullablePointer[GtkTreeExpander] tag)
+

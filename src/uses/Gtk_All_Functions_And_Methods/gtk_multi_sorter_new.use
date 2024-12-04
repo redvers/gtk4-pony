@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmultisorter.h:36
+  Original Name: gtk_multi_sorter_new/usr/include/gtk-4.0/gtk/gtkmultisorter.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f664]
+
+  Arguments:
+*/
+use @gtk_multi_sorter_new[NullablePointer[GtkMultiSorter]]()
+

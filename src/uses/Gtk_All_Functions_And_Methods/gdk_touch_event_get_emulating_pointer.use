@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:457
+  Original Name: gdk_touch_event_get_emulating_pointer/usr/include/gtk-4.0/gdk/gdkevents.h:457
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_touch_event_get_emulating_pointer[I32](event: NullablePointer[GdkEvent] tag)
+

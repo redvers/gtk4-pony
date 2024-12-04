@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:154
+  Original Name: g_dbus_message_get_destination/usr/include/glib-2.0/gio/gdbusmessage.h:154
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_message_get_destination[Pointer[U8]](message: NullablePointer[GDBusMessage] tag)
+

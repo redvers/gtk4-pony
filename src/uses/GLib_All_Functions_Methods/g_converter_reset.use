@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gconverter.h:85
+  Original Name: g_converter_reset/usr/include/glib-2.0/gio/gconverter.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_converter_reset[None](converter: NullablePointer[GConverter] tag)
+

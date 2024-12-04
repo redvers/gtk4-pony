@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:146
+  Original Name: g_mkdtemp_full/usr/include/glib-2.0/glib/gfileutils.h:146
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_mkdtemp_full[Pointer[U8]](tmpl: Pointer[U8] tag, mode: I32)
+

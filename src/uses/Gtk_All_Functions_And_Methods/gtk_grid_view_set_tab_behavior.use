@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridview.h:76
+  Original Name: gtk_grid_view_set_tab_behavior/usr/include/gtk-4.0/gtk/gtkgridview.h:76
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f637]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_grid_view_set_tab_behavior[None](self: NullablePointer[GtkGridView] tag, tabbehavior: I32)
+

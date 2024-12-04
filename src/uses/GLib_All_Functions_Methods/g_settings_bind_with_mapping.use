@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:316
+  Original Name: g_settings_bind_with_mapping/usr/include/glib-2.0/gio/gsettings.h:316
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f171]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_settings_bind_with_mapping[None](settings: NullablePointer[GSettings] tag, key: Pointer[U8] tag, object: Pointer[None] tag, property: Pointer[U8] tag, flags: I32, getmapping: Pointer[None] tag, setmapping: Pointer[None] tag, userdata: Pointer[None] tag, destroy: Pointer[None] tag)
+

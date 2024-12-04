@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:60
+  Original Name: glib_autoptr_clear_GKeyFile/usr/include/glib-2.0/glib/glib-autocleanups.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+*/
+use @glib_autoptr_clear_GKeyFile[None](ptr: NullablePointer[GKeyFile] tag)
+

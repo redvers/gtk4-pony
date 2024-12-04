@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:52
+  Original Name: gtk_picture_set_paintable/usr/include/gtk-4.0/gtk/gtkpicture.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f678]
+    [PointerType size=64]->[Struct size=,fid: f422]
+*/
+use @gtk_picture_set_paintable[None](self: NullablePointer[GtkPicture] tag, paintable: NullablePointer[GdkPaintable] tag)
+

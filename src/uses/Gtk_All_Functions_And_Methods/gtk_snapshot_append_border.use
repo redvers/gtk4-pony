@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:217
+  Original Name: gtk_snapshot_append_border/usr/include/gtk-4.0/gtk/gtksnapshot.h:217
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gtk_snapshot_append_border[None](snapshot: NullablePointer[GdkSnapshot] tag, outline: NullablePointer[GskRoundedRect] tag, borderwidth: Pointer[F32] tag, bordercolor: NullablePointer[GdkRGBA] tag)
+

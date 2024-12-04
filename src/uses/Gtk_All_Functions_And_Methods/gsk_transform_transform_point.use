@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:132
+  Original Name: gsk_transform_transform_point/usr/include/gtk-4.0/gsk/gsktransform.h:132
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+*/
+use @gsk_transform_transform_point[None](self: NullablePointer[GskTransform] tag, point: NullablePointer[Graphenepointt] tag, outpoint: NullablePointer[Graphenepointt] tag)
+

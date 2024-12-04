@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkservice.h:73
+  Original Name: g_network_service_set_scheme/usr/include/glib-2.0/gio/gnetworkservice.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f191]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_network_service_set_scheme[None](srv: NullablePointer[GNetworkService] tag, scheme: Pointer[U8] tag)
+

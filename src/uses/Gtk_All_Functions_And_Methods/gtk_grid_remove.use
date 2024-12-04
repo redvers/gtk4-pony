@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:84
+  Original Name: gtk_grid_remove/usr/include/gtk-4.0/gtk/gtkgrid.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f634]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_grid_remove[None](grid: NullablePointer[GtkGrid] tag, child: NullablePointer[GtkWidget] tag)
+

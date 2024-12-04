@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmain.h:88
+  Original Name: gtk_get_locale_direction/usr/include/gtk-4.0/gtk/gtkmain.h:88
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+*/
+use @gtk_get_locale_direction[I32]()
+

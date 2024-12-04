@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:285
+  Original Name: gtk_text_view_forward_display_line_end/usr/include/gtk-4.0/gtk/gtktextview.h:285
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_view_forward_display_line_end[I32](textview: NullablePointer[GtkTextView] tag, iter: NullablePointer[GtkTextIter] tag)
+

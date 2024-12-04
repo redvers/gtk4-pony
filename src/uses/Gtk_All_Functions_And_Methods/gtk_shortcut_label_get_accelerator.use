@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutlabel.h:40
+  Original Name: gtk_shortcut_label_get_accelerator/usr/include/gtk-4.0/gtk/gtkshortcutlabel.h:40
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f706]
+*/
+use @gtk_shortcut_label_get_accelerator[Pointer[U8]](self: NullablePointer[GtkShortcutLabel] tag)
+

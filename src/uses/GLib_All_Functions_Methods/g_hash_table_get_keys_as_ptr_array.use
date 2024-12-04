@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:138
+  Original Name: g_hash_table_get_keys_as_ptr_array/usr/include/glib-2.0/glib/ghash.h:138
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+*/
+use @g_hash_table_get_keys_as_ptr_array[NullablePointer[GPtrArray]](hashtable: NullablePointer[GHashTable] tag)
+

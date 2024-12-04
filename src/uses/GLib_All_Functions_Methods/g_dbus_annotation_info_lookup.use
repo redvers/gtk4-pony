@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:185
+  Original Name: g_dbus_annotation_info_lookup/usr/include/glib-2.0/gio/gdbusintrospection.h:185
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f220]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_annotation_info_lookup[Pointer[U8]](annotations: Pointer[NullablePointer[GDBusAnnotationInfo]] tag, name: Pointer[U8] tag)
+

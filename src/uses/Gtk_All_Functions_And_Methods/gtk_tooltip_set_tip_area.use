@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktooltip.h:57
+  Original Name: gtk_tooltip_set_tip_area/usr/include/gtk-4.0/gtk/gtktooltip.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gtk_tooltip_set_tip_area[None](tooltip: NullablePointer[GtkTooltip] tag, rect: NullablePointer[Cairorectangleint] tag)
+

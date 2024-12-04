@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:256
+  Original Name: gtk_print_operation_set_track_print_status/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:256
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_print_operation_set_track_print_status[None](op: NullablePointer[GtkPrintOperation] tag, trackstatus: I32)
+

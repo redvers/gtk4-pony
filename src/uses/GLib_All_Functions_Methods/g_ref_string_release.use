@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grefstring.h:39
+  Original Name: g_ref_string_release/usr/include/glib-2.0/glib/grefstring.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_ref_string_release[None](str: Pointer[U8] tag)
+

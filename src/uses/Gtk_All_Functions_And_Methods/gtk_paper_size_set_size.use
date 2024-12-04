@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:136
+  Original Name: gtk_paper_size_set_size/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:136
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f673]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_paper_size_set_size[None](size: NullablePointer[GtkPaperSize] tag, width: F64, height: F64, unit: I32)
+

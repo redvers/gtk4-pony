@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdrawingarea.h:88
+  Original Name: gtk_drawing_area_get_type/usr/include/gtk-4.0/gtk/gtkdrawingarea.h:88
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_drawing_area_get_type[U64]()
+

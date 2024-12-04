@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:98
+  Original Name: gsk_transform_translate/usr/include/gtk-4.0/gsk/gsktransform.h:98
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+*/
+use @gsk_transform_translate[NullablePointer[GskTransform]](next: NullablePointer[GskTransform] tag, point: NullablePointer[Graphenepointt] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:68
+  Original Name: g_io_modules_load_all_in_directory_with_scope/usr/include/glib-2.0/gio/giomodule.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f272]
+*/
+use @g_io_modules_load_all_in_directory_with_scope[NullablePointer[GList]](dirname: Pointer[U8] tag, scope: NullablePointer[GIOModuleScope] tag)
+

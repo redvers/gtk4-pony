@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontext.h:168
+  Original Name: gtk_im_context_delete_surrounding/usr/include/gtk-4.0/gtk/gtkimcontext.h:168
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f564]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_im_context_delete_surrounding[I32](context: NullablePointer[GtkIMContext] tag, offset: I32, nchars: I32)
+

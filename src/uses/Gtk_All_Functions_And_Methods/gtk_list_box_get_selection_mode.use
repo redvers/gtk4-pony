@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:228
+  Original Name: gtk_list_box_get_selection_mode/usr/include/gtk-4.0/gtk/gtklistbox.h:228
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+*/
+use @gtk_list_box_get_selection_mode[I32](box: NullablePointer[GtkListBox] tag)
+

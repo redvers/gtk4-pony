@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktooltip.h:47
+  Original Name: gtk_tooltip_set_icon_from_icon_name/usr/include/gtk-4.0/gtk/gtktooltip.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_tooltip_set_icon_from_icon_name[None](tooltip: NullablePointer[GtkTooltip] tag, iconname: Pointer[U8] tag)
+

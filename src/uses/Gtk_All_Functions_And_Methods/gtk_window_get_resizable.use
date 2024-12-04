@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:138
+  Original Name: gtk_window_get_resizable/usr/include/gtk-4.0/gtk/gtkwindow.h:138
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_window_get_resizable[I32](window: NullablePointer[GtkWindow] tag)
+

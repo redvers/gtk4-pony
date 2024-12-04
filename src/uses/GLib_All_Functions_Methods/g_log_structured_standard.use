@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:311
+  Original Name: g_log_structured_standard/usr/include/glib-2.0/glib/gmessages.h:311
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f95]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_log_structured_standard[None](logdomain: Pointer[U8] tag, loglevel: I32, file: Pointer[U8] tag, line: Pointer[U8] tag, func: Pointer[U8] tag, messageformat: Pointer[U8] tag, ...)
+

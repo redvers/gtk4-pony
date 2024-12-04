@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathmeasure.h:39
+  Original Name: gsk_path_measure_new_with_tolerance/usr/include/gtk-4.0/gsk/gskpathmeasure.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_path_measure_new_with_tolerance[NullablePointer[GskPathMeasure]](path: NullablePointer[GskPath] tag, tolerance: F32)
+

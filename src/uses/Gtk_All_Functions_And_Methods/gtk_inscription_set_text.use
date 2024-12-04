@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkinscription.h:60
+  Original Name: gtk_inscription_set_text/usr/include/gtk-4.0/gtk/gtkinscription.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f645]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_inscription_set_text[None](self: NullablePointer[GtkInscription] tag, text: Pointer[U8] tag)
+

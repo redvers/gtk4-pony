@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:105
+  Original Name: gtk_builder_add_from_resource/usr/include/gtk-4.0/gtk/gtkbuilder.h:105
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_builder_add_from_resource[I32](builder: NullablePointer[GtkBuilder] tag, resourcepath: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

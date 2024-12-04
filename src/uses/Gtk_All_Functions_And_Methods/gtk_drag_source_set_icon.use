@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragsource.h:67
+  Original Name: gtk_drag_source_set_icon/usr/include/gtk-4.0/gtk/gtkdragsource.h:67
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f585]
+    [PointerType size=64]->[Struct size=,fid: f422]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_drag_source_set_icon[None](source: NullablePointer[GtkDragSource] tag, paintable: NullablePointer[GdkPaintable] tag, hotx: I32, hoty: I32)
+

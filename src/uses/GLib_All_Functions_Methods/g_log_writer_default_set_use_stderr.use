@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:254
+  Original Name: g_log_writer_default_set_use_stderr/usr/include/glib-2.0/glib/gmessages.h:254
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @g_log_writer_default_set_use_stderr[None](usestderr: I32)
+

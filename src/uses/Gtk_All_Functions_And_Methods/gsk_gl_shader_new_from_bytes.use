@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:47
+  Original Name: gsk_gl_shader_new_from_bytes/usr/include/gtk-4.0/gsk/gskglshader.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f467]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @gsk_gl_shader_new_from_bytes[NullablePointer[GskGLShader]](sourcecode: NullablePointer[GBytes] tag)
+

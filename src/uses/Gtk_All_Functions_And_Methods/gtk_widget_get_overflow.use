@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:531
+  Original Name: gtk_widget_get_overflow/usr/include/gtk-4.0/gtk/gtkwidget.h:531
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_overflow[I32](widget: NullablePointer[GtkWidget] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocket.h:180
+  Original Name: g_socket_check_connect_result/usr/include/glib-2.0/gio/gsocket.h:180
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_check_connect_result[I32](socket: NullablePointer[GSocket] tag, error: Pointer[NullablePointer[GError]] tag)
+

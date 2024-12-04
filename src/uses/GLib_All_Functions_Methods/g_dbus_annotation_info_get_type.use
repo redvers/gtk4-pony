@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:323
+  Original Name: g_dbus_annotation_info_get_type/usr/include/glib-2.0/gio/gdbusintrospection.h:323
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_dbus_annotation_info_get_type[U64]()
+

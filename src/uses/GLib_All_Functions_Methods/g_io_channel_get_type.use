@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/glib-types.h:404
+  Original Name: g_io_channel_get_type/usr/include/glib-2.0/gobject/glib-types.h:404
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_io_channel_get_type[U64]()
+

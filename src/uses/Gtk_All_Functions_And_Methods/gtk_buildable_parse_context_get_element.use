@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:254
+  Original Name: gtk_buildable_parse_context_get_element/usr/include/gtk-4.0/gtk/gtkbuildable.h:254
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f520]
+*/
+use @gtk_buildable_parse_context_get_element[Pointer[U8]](context: NullablePointer[GtkBuildableParseContext] tag)
+

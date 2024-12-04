@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:147
+  Original Name: glib_autoptr_clear_GTlsConnection/usr/include/glib-2.0/gio/gio-autocleanups.h:147
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f207]
+*/
+use @glib_autoptr_clear_GTlsConnection[None](ptr: NullablePointer[GTlsConnection] tag)
+

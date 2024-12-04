@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:416
+  Original Name: gtk_text_view_get_input_hints/usr/include/gtk-4.0/gtk/gtktextview.h:416
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+*/
+use @gtk_text_view_get_input_hints[I32](textview: NullablePointer[GtkTextView] tag)
+

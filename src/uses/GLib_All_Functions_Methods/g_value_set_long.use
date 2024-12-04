@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:224
+  Original Name: g_value_set_long/usr/include/glib-2.0/gobject/gvaluetypes.h:224
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [FundamentalType(long int) size=64]
+*/
+use @g_value_set_long[None](value: NullablePointer[GValue] tag, vlong: I64)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimplepermission.h:43
+  Original Name: g_simple_permission_new/usr/include/glib-2.0/gio/gsimplepermission.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f172]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @g_simple_permission_new[NullablePointer[GPermission]](allowed: I32)
+

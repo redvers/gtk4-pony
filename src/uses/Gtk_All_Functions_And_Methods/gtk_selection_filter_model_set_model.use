@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkselectionfiltermodel.h:41
+  Original Name: gtk_selection_filter_model_set_model/usr/include/gtk-4.0/gtk/gtkselectionfiltermodel.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f702]
+    [PointerType size=64]->[Struct size=,fid: f554]
+*/
+use @gtk_selection_filter_model_set_model[None](self: NullablePointer[GtkSelectionFilterModel] tag, model: NullablePointer[GtkSelectionModel] tag)
+

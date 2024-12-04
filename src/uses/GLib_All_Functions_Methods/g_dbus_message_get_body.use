@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:108
+  Original Name: g_dbus_message_get_body/usr/include/glib-2.0/gio/gdbusmessage.h:108
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_message_get_body[NullablePointer[GVariant]](message: NullablePointer[GDBusMessage] tag)
+

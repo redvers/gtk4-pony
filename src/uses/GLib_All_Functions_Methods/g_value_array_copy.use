@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluearray.h:68
+  Original Name: g_value_array_copy/usr/include/glib-2.0/gobject/gvaluearray.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f153]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f153]
+*/
+use @g_value_array_copy[NullablePointer[GValueArray]](valuearray: NullablePointer[GValueArray] tag)
+

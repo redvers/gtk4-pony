@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdebugcontroller.h:46
+  Original Name: g_debug_controller_get_type/usr/include/glib-2.0/gio/gdebugcontroller.h:46
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_debug_controller_get_type[U64]()
+

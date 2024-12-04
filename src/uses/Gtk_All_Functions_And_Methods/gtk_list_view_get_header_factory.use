@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:65
+  Original Name: gtk_list_view_get_header_factory/usr/include/gtk-4.0/gtk/gtklistview.h:65
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+*/
+use @gtk_list_view_get_header_factory[NullablePointer[GtkListItemFactory]](self: NullablePointer[GtkListView] tag)
+

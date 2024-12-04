@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:224
+  Original Name: g_application_run/usr/include/glib-2.0/gio/gapplication.h:224
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_run[I32](application: NullablePointer[GApplication] tag, argc: I32, argv: Pointer[Pointer[U8]] tag)
+

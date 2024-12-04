@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturestylus.h:52
+  Original Name: gtk_gesture_stylus_get_axis/usr/include/gtk-4.0/gtk/gtkgesturestylus.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f629]
+    [Enumeration size=32,fid: f371]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_gesture_stylus_get_axis[I32](gesture: NullablePointer[GtkGestureStylus] tag, axis: I32, value: Pointer[F64] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:143
+  Original Name: gsk_shader_args_builder_set_uint/usr/include/gtk-4.0/gsk/gskglshader.h:143
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [FundamentalType(int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gsk_shader_args_builder_set_uint[None](builder: NullablePointer[GskShaderArgsBuilder] tag, idx: I32, value: U32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkadjustment.h:99
+  Original Name: gtk_adjustment_set_step_increment/usr/include/gtk-4.0/gtk/gtkadjustment.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f477]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_adjustment_set_step_increment[None](adjustment: NullablePointer[GtkAdjustment] tag, stepincrement: F64)
+

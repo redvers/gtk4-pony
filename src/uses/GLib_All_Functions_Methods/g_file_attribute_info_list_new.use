@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileattribute.h:68
+  Original Name: g_file_attribute_info_list_new/usr/include/glib-2.0/gio/gfileattribute.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f178]
+
+  Arguments:
+*/
+use @g_file_attribute_info_list_new[NullablePointer[GFileAttributeInfoList]]()
+

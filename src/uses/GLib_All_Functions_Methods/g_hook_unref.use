@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:120
+  Original Name: g_hook_unref/usr/include/glib-2.0/glib/ghook.h:120
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [PointerType size=64]->[Struct size=512,fid: f81]
+*/
+use @g_hook_unref[None](hooklist: NullablePointer[GHookList] tag, hook: NullablePointer[GHook] tag)
+

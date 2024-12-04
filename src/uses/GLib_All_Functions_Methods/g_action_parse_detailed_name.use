@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gaction.h:89
+  Original Name: g_action_parse_detailed_name/usr/include/glib-2.0/gio/gaction.h:89
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_action_parse_detailed_name[I32](detailedname: Pointer[U8] tag, actionname: Pointer[Pointer[U8]] tag, targetvalue: Pointer[NullablePointer[GVariant]] tag, error: Pointer[NullablePointer[GError]] tag)
+

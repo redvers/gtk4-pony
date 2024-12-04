@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:108
+  Original Name: g_subprocess_get_status/usr/include/glib-2.0/gio/gsubprocess.h:108
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_subprocess_get_status[I32](subprocess: NullablePointer[GSubprocess] tag)
+

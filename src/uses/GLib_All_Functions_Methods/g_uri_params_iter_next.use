@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:292
+  Original Name: g_uri_params_iter_next/usr/include/glib-2.0/glib/guri.h:292
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2240,fid: f120]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_uri_params_iter_next[I32](iter: NullablePointer[GUriParamsIter] tag, attribute: Pointer[Pointer[U8]] tag, value: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

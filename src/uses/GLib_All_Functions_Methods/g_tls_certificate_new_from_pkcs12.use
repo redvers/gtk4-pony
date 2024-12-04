@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlscertificate.h:69
+  Original Name: g_tls_certificate_new_from_pkcs12/usr/include/glib-2.0/gio/gtlscertificate.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f206]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_tls_certificate_new_from_pkcs12[NullablePointer[GTlsCertificate]](data: Pointer[U8] tag, length: U64, password: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

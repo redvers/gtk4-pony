@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:461
+  Original Name: g_clear_signal_handler/usr/include/glib-2.0/gobject/gsignal.h:461
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_clear_signal_handler[None](handleridptr: Pointer[U64] tag, instance: Pointer[None] tag)
+

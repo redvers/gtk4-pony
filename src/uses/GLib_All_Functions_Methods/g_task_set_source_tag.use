@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:77
+  Original Name: g_task_set_source_tag/usr/include/glib-2.0/gio/gtask.h:77
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_task_set_source_tag[None](task: NullablePointer[GTask] tag, sourcetag: Pointer[None] tag)
+

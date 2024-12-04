@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:207
+  Original Name: g_settings_get_child/usr/include/glib-2.0/gio/gsettings.h:207
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f171]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_settings_get_child[NullablePointer[GSettings]](settings: NullablePointer[GSettings] tag, name: Pointer[U8] tag)
+

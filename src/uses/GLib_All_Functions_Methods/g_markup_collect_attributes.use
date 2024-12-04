@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmarkup.h:255
+  Original Name: g_markup_collect_attributes/usr/include/glib-2.0/glib/gmarkup.h:255
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+    [Enumeration size=32,fid: f92]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_markup_collect_attributes[I32](elementname: Pointer[U8] tag, attributenames: Pointer[Pointer[U8]] tag, attributevalues: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag, firsttype: I32, firstattr: Pointer[U8] tag, ...)
+

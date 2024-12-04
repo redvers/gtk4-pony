@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:106
+  Original Name: gtk_snapshot_push_mask/usr/include/gtk-4.0/gtk/gtksnapshot.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [Enumeration size=32,fid: f432]
+*/
+use @gtk_snapshot_push_mask[None](snapshot: NullablePointer[GdkSnapshot] tag, maskmode: I32)
+

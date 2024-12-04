@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:82
+  Original Name: g_thread_pool_set_max_threads/usr/include/glib-2.0/glib/gthreadpool.h:82
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f116]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_thread_pool_set_max_threads[I32](pool: NullablePointer[GThreadPool] tag, maxthreads: I32, error: Pointer[NullablePointer[GError]] tag)
+

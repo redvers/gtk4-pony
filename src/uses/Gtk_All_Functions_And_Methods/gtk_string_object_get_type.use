@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringlist.h:36
+  Original Name: gtk_string_object_get_type/usr/include/gtk-4.0/gtk/gtkstringlist.h:36
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_string_object_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkmonitor.h:91
+  Original Name: glib_autoptr_clear_GdkMonitor/usr/include/gtk-4.0/gdk/gdkmonitor.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f403]
+*/
+use @glib_autoptr_clear_GdkMonitor[None](ptr: NullablePointer[GdkMonitor] tag)
+

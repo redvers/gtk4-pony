@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:103
+  Original Name: g_dbus_connection_get_guid/usr/include/glib-2.0/gio/gdbusconnection.h:103
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_connection_get_guid[Pointer[U8]](connection: NullablePointer[GDBusConnection] tag)
+

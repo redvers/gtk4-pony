@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grefstring.h:34
+  Original Name: g_ref_string_new_intern/usr/include/glib-2.0/glib/grefstring.h:34
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_ref_string_new_intern[Pointer[U8]](str: Pointer[U8] tag)
+

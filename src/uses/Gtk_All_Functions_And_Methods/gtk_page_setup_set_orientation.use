@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:46
+  Original Name: gtk_page_setup_set_orientation/usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f674]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_page_setup_set_orientation[None](setup: NullablePointer[GtkPageSetup] tag, orientation: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:607
+  Original Name: gtk_widget_is_ancestor/usr/include/gtk-4.0/gtk/gtkwidget.h:607
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_is_ancestor[I32](widget: NullablePointer[GtkWidget] tag, ancestor: NullablePointer[GtkWidget] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:75
+  Original Name: gsk_path_builder_add_segment/usr/include/gtk-4.0/gsk/gskpathbuilder.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=512,fid: f462]
+    [PointerType size=64]->[Struct size=512,fid: f462]
+*/
+use @gsk_path_builder_add_segment[None](self: NullablePointer[GskPathBuilder] tag, path: NullablePointer[GskPath] tag, start: NullablePointer[GskPathPoint] tag, end: NullablePointer[GskPathPoint] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:170
+  Original Name: gtk_scrolled_window_get_propagate_natural_width/usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:170
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f698]
+*/
+use @gtk_scrolled_window_get_propagate_natural_width[I32](scrolledwindow: NullablePointer[GtkScrolledWindow] tag)
+

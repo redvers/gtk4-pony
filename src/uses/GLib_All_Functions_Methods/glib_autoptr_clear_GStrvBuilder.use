@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:85
+  Original Name: glib_autoptr_clear_GStrvBuilder/usr/include/glib-2.0/glib/glib-autocleanups.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f113]
+*/
+use @glib_autoptr_clear_GStrvBuilder[None](ptr: NullablePointer[GStrvBuilder] tag)
+

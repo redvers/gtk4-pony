@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gspawn.h:319
+  Original Name: g_spawn_close_pid/usr/include/glib-2.0/glib/gspawn.h:319
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @g_spawn_close_pid[None](pid: I32)
+

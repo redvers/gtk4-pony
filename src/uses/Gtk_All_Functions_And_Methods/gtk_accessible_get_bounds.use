@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:192
+  Original Name: gtk_accessible_get_bounds/usr/include/gtk-4.0/gtk/gtkaccessible.h:192
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_accessible_get_bounds[I32](self: NullablePointer[GtkAccessible] tag, x: Pointer[I32] tag, y: Pointer[I32] tag, width: Pointer[I32] tag, height: Pointer[I32] tag)
+

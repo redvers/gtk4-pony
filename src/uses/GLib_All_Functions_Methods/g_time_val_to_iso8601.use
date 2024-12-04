@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:75
+  Original Name: g_time_val_to_iso8601/usr/include/glib-2.0/glib/gtimer.h:75
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @g_time_val_to_iso8601[Pointer[U8]](time: NullablePointer[GTimeVal] tag)
+

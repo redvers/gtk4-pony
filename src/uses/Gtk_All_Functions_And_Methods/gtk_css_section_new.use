@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcsssection.h:46
+  Original Name: gtk_css_section_new/usr/include/gtk-4.0/gtk/css/gtkcsssection.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f317]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=320,fid: f158]
+    [PointerType size=64]->[Struct size=320,fid: f158]
+*/
+use @gtk_css_section_new[NullablePointer[GtkCssSection]](file: NullablePointer[GFile] tag, start: NullablePointer[GtkCssLocation] tag, end: NullablePointer[GtkCssLocation] tag)
+

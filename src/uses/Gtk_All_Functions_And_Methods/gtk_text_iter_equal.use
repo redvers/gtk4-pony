@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:401
+  Original Name: gtk_text_iter_equal/usr/include/gtk-4.0/gtk/gtktextiter.h:401
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_equal[I32](lhs: NullablePointer[GtkTextIter] tag, rhs: NullablePointer[GtkTextIter] tag)
+

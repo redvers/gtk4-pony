@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistrowsorter.h:41
+  Original Name: gtk_tree_list_row_sorter_set_sorter/usr/include/gtk-4.0/gtk/gtktreelistrowsorter.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f739]
+    [PointerType size=64]->[Struct size=192,fid: f552]
+*/
+use @gtk_tree_list_row_sorter_set_sorter[None](self: NullablePointer[GtkTreeListRowSorter] tag, sorter: NullablePointer[GtkSorter] tag)
+

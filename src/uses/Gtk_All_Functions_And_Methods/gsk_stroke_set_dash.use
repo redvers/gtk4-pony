@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:69
+  Original Name: gsk_stroke_set_dash/usr/include/gtk-4.0/gsk/gskstroke.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gsk_stroke_set_dash[None](self: NullablePointer[GskStroke] tag, dash: Pointer[F32] tag, ndash: U64)
+

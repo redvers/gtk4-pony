@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:663
+  Original Name: g_file_get_parent/usr/include/glib-2.0/gio/gfile.h:663
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_get_parent[NullablePointer[GFile]](file: NullablePointer[GFile] tag)
+

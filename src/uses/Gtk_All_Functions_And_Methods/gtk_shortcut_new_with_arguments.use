@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcut.h:35
+  Original Name: gtk_shortcut_new_with_arguments/usr/include/gtk-4.0/gtk/gtkshortcut.h:35
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_shortcut_new_with_arguments[NullablePointer[GtkShortcut]](trigger: NullablePointer[GtkShortcutTrigger] tag, action: NullablePointer[GtkShortcutAction] tag, formatstring: Pointer[U8] tag, ...)
+

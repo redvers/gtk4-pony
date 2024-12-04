@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:102
+  Original Name: g_log_set_default_handler/usr/include/glib-2.0/glib/gmessages.h:102
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_log_set_default_handler[Pointer[None]](logfunc: Pointer[None] tag, userdata: Pointer[None] tag)
+

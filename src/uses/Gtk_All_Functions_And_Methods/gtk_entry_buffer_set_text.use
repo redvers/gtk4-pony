@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentrybuffer.h:106
+  Original Name: gtk_entry_buffer_set_text/usr/include/gtk-4.0/gtk/gtkentrybuffer.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f565]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_entry_buffer_set_text[None](buffer: NullablePointer[GtkEntryBuffer] tag, chars: Pointer[U8] tag, nchars: I32)
+

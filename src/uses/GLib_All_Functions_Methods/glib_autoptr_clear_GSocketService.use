@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:135
+  Original Name: glib_autoptr_clear_GSocketService/usr/include/glib-2.0/gio/gio-autocleanups.h:135
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f200]
+*/
+use @glib_autoptr_clear_GSocketService[None](ptr: NullablePointer[GSocketService] tag)
+

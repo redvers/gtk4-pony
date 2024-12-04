@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gprimes.h:48
+  Original Name: g_spaced_primes_closest/usr/include/glib-2.0/glib/gprimes.h:48
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_spaced_primes_closest[U32](num: U32)
+

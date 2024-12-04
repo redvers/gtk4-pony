@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:81
+  Original Name: gtk_notebook_prepend_page/usr/include/gtk-4.0/gtk/gtknotebook.h:81
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_notebook_prepend_page[I32](notebook: NullablePointer[GtkNotebook] tag, child: NullablePointer[GtkWidget] tag, tablabel: NullablePointer[GtkWidget] tag)
+

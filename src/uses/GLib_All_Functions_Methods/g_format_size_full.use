@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:305
+  Original Name: g_format_size_full/usr/include/glib-2.0/glib/gutils.h:305
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f24]
+*/
+use @g_format_size_full[Pointer[U8]](size: U64, flags: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraintguide.h:62
+  Original Name: gtk_constraint_guide_get_strength/usr/include/gtk-4.0/gtk/gtkconstraintguide.h:62
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f576]
+*/
+use @gtk_constraint_guide_get_strength[I32](guide: NullablePointer[GtkConstraintGuide] tag)
+

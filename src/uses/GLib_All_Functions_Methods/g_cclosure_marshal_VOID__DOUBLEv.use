@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gmarshal.h:218
+  Original Name: g_cclosure_marshal_VOID__DOUBLEv/usr/include/glib-2.0/gobject/gmarshal.h:218
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f138]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_cclosure_marshal_VOID__DOUBLEv[None](closure: NullablePointer[GClosure] tag, returnvalue: NullablePointer[GValue] tag, instance: Pointer[None] tag, args: NullablePointer[Valisttag] tag, marshaldata: Pointer[None] tag, nparams: I32, paramtypes: Pointer[U64] tag)
+

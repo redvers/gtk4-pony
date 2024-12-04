@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghostutils.h:36
+  Original Name: g_hostname_is_ip_address/usr/include/glib-2.0/glib/ghostutils.h:36
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_hostname_is_ip_address[I32](hostname: Pointer[U8] tag)
+

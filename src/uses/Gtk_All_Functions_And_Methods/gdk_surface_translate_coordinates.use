@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:91
+  Original Name: gdk_surface_translate_coordinates/usr/include/gtk-4.0/gdk/gdksurface.h:91
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_surface_translate_coordinates[I32](from: NullablePointer[GdkSurface] tag, to: NullablePointer[GdkSurface] tag, x: Pointer[F64] tag, y: Pointer[F64] tag)
+

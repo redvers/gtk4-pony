@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdrawingarea.h:98
+  Original Name: gtk_drawing_area_set_content_height/usr/include/gtk-4.0/gtk/gtkdrawingarea.h:98
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f586]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_drawing_area_set_content_height[None](self: NullablePointer[GtkDrawingArea] tag, height: I32)
+

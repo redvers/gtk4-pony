@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopup.h:34
+  Original Name: GDK_POPUP_GET_IFACE/usr/include/gtk-4.0/gdk/gdkpopup.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f424]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_POPUP_GET_IFACE[NullablePointer[GdkPopupInterface]](ptr: Pointer[None] tag)
+

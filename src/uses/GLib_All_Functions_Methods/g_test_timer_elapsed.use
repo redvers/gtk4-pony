@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:458
+  Original Name: g_test_timer_elapsed/usr/include/glib-2.0/glib/gtestutils.h:458
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+*/
+use @g_test_timer_elapsed[F64]()
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:212
+  Original Name: gtk_text_buffer_insert_markup/usr/include/gtk-4.0/gtk/gtktextbuffer.h:212
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_buffer_insert_markup[None](buffer: NullablePointer[GtkTextBuffer] tag, iter: NullablePointer[GtkTextIter] tag, markup: Pointer[U8] tag, len: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:67
+  Original Name: gtk_aspect_frame_get_ratio/usr/include/gtk-4.0/gtk/gtkaspectframe.h:67
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f505]
+*/
+use @gtk_aspect_frame_get_ratio[F32](self: NullablePointer[GtkAspectFrame] tag)
+

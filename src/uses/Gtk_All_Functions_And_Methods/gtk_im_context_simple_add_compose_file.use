@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:71
+  Original Name: gtk_im_context_simple_add_compose_file/usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f642]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_im_context_simple_add_compose_file[None](contextsimple: NullablePointer[GtkIMContextSimple] tag, composefile: Pointer[U8] tag)
+

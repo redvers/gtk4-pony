@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcalendar.h:50
+  Original Name: gtk_calendar_new/usr/include/gtk-4.0/gtk/gtkcalendar.h:50
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_calendar_new[NullablePointer[GtkWidget]]()
+

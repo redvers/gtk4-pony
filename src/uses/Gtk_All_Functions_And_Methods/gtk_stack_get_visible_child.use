@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:140
+  Original Name: gtk_stack_get_visible_child/usr/include/gtk-4.0/gtk/gtkstack.h:140
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+*/
+use @gtk_stack_get_visible_child[NullablePointer[GtkWidget]](stack: NullablePointer[GtkStack] tag)
+

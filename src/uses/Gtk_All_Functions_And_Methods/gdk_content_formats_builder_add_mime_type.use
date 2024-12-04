@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:100
+  Original Name: gdk_content_formats_builder_add_mime_type/usr/include/gtk-4.0/gdk/gdkcontentformats.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f392]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_content_formats_builder_add_mime_type[None](builder: NullablePointer[GdkContentFormatsBuilder] tag, mimetype: Pointer[U8] tag)
+

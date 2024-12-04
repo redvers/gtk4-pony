@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gclosure.h:241
+  Original Name: g_closure_unref/usr/include/glib-2.0/gobject/gclosure.h:241
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f138]
+*/
+use @g_closure_unref[None](closure: NullablePointer[GClosure] tag)
+

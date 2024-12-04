@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:309
+  Original Name: g_strdup_inline/usr/include/glib-2.0/glib/gstrfuncs.h:309
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strdup_inline[Pointer[U8]](str: Pointer[U8] tag)
+

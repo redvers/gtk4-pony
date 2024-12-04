@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresource.h:126
+  Original Name: g_static_resource_fini/usr/include/glib-2.0/gio/gresource.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f292]
+*/
+use @g_static_resource_fini[None](staticresource: NullablePointer[GStaticResource] tag)
+

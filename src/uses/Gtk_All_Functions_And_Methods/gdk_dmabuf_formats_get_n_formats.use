@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdmabufformats.h:41
+  Original Name: gdk_dmabuf_formats_get_n_formats/usr/include/gtk-4.0/gdk/gdkdmabufformats.h:41
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_dmabuf_formats_get_n_formats[U64](formats: NullablePointer[GdkDmabufFormats] tag)
+

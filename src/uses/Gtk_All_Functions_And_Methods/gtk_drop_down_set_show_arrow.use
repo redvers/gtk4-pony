@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropdown.h:89
+  Original Name: gtk_drop_down_set_show_arrow/usr/include/gtk-4.0/gtk/gtkdropdown.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f592]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_drop_down_set_show_arrow[None](self: NullablePointer[GtkDropDown] tag, showarrow: I32)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemoryoutputstream.h:81
+  Original Name: g_memory_output_stream_get_type/usr/include/glib-2.0/gio/gmemoryoutputstream.h:81
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_memory_output_stream_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:56
+  Original Name: g_set_application_name/usr/include/glib-2.0/glib/gutils.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_set_application_name[None](applicationname: Pointer[U8] tag)
+

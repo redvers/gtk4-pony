@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlscertificate.h:112
+  Original Name: g_tls_certificate_get_subject_name/usr/include/glib-2.0/gio/gtlscertificate.h:112
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f206]
+*/
+use @g_tls_certificate_get_subject_name[Pointer[U8]](cert: NullablePointer[GTlsCertificate] tag)
+

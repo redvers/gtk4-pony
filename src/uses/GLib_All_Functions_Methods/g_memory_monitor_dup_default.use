@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemorymonitor.h:60
+  Original Name: g_memory_monitor_dup_default/usr/include/glib-2.0/gio/gmemorymonitor.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f277]
+
+  Arguments:
+*/
+use @g_memory_monitor_dup_default[NullablePointer[GMemoryMonitor]]()
+

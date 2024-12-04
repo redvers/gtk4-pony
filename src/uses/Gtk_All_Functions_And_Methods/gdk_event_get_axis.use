@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:410
+  Original Name: gdk_event_get_axis/usr/include/gtk-4.0/gdk/gdkevents.h:410
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [Enumeration size=32,fid: f371]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_event_get_axis[I32](event: NullablePointer[GdkEvent] tag, axisuse: I32, value: Pointer[F64] tag)
+

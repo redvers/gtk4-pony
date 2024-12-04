@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:971
+  Original Name: gtk_widget_action_set_enabled/usr/include/gtk-4.0/gtk/gtkwidget.h:971
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_widget_action_set_enabled[None](widget: NullablePointer[GtkWidget] tag, actionname: Pointer[U8] tag, enabled: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:95
+  Original Name: gtk_window_set_startup_id/usr/include/gtk-4.0/gtk/gtkwindow.h:95
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_window_set_startup_id[None](window: NullablePointer[GtkWindow] tag, startupid: Pointer[U8] tag)
+

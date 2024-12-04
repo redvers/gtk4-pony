@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:32
+  Original Name: GTK_WINDOW_CONTROLS/usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:32
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f749]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_WINDOW_CONTROLS[NullablePointer[GtkWindowControls]](ptr: Pointer[None] tag)
+

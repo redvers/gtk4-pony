@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gerror.h:208
+  Original Name: g_error_free/usr/include/glib-2.0/glib/gerror.h:208
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_error_free[None](error: NullablePointer[GError] tag)
+

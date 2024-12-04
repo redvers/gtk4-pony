@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:1294
+  Original Name: g_file_replace_contents/usr/include/glib-2.0/gio/gfile.h:1294
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_replace_contents[I32](file: NullablePointer[GFile] tag, contents: Pointer[U8] tag, length: U64, etag: Pointer[U8] tag, makebackup: I32, flags: I32, newetag: Pointer[Pointer[U8]] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

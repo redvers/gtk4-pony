@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:112
+  Original Name: gtk_column_view_set_tab_behavior/usr/include/gtk-4.0/gtk/gtkcolumnview.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_column_view_set_tab_behavior[None](self: NullablePointer[GtkColumnView] tag, tabbehavior: I32)
+

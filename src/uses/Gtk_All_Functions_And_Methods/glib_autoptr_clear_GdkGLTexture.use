@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkgltexture.h:53
+  Original Name: glib_autoptr_clear_GdkGLTexture/usr/include/gtk-4.0/gdk/gdkgltexture.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f418]
+*/
+use @glib_autoptr_clear_GdkGLTexture[None](ptr: NullablePointer[GdkGLTexture] tag)
+

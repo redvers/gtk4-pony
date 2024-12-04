@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:96
+  Original Name: gtk_builder_get_type/usr/include/gtk-4.0/gtk/gtkbuilder.h:96
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_builder_get_type[U64]()
+

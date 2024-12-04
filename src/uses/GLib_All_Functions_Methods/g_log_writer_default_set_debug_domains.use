@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:259
+  Original Name: g_log_writer_default_set_debug_domains/usr/include/glib-2.0/glib/gmessages.h:259
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_log_writer_default_set_debug_domains[None](domains: Pointer[Pointer[U8]] tag)
+

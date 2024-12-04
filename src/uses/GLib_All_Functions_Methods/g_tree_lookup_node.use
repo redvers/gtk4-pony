@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:128
+  Original Name: g_tree_lookup_node/usr/include/glib-2.0/glib/gtree.h:128
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f119]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_lookup_node[NullablePointer[GTreeNode]](tree: NullablePointer[GTree] tag, key: Pointer[None] tag)
+

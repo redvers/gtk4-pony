@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkalertdialog.h:65
+  Original Name: gtk_alert_dialog_set_buttons/usr/include/gtk-4.0/gtk/gtkalertdialog.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f494]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_alert_dialog_set_buttons[None](self: NullablePointer[GtkAlertDialog] tag, labels: Pointer[Pointer[U8]] tag)
+

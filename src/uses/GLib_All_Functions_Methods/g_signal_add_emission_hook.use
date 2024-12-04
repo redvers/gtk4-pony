@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:381
+  Original Name: g_signal_add_emission_hook/usr/include/glib-2.0/gobject/gsignal.h:381
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_signal_add_emission_hook[U64](signalid: U32, detail: U32, hookfunc: Pointer[None] tag, hookdata: Pointer[None] tag, datadestroy: Pointer[None] tag)
+

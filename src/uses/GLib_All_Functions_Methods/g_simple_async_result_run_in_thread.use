@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:105
+  Original Name: g_simple_async_result_run_in_thread/usr/include/glib-2.0/gio/gsimpleasyncresult.h:105
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_simple_async_result_run_in_thread[None](simple: NullablePointer[GSimpleAsyncResult] tag, func: Pointer[None] tag, iopriority: I32, cancellable: NullablePointer[GCancellable] tag)
+

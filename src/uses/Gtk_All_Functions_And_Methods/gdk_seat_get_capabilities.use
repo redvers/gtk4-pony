@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkseat.h:74
+  Original Name: gdk_seat_get_capabilities/usr/include/gtk-4.0/gdk/gdkseat.h:74
+
+  Return Value: [Enumeration size=32,fid: f375]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f375]
+*/
+use @gdk_seat_get_capabilities[I32](seat: NullablePointer[GdkSeat] tag)
+

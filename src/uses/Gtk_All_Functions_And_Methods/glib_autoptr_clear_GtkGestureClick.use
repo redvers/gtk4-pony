@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgestureclick.h:46
+  Original Name: glib_autoptr_clear_GtkGestureClick/usr/include/gtk-4.0/gtk/gtkgestureclick.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f624]
+*/
+use @glib_autoptr_clear_GtkGestureClick[None](ptr: NullablePointer[GtkGestureClick] tag)
+

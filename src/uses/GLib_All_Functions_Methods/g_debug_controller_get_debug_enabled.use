@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdebugcontroller.h:66
+  Original Name: g_debug_controller_get_debug_enabled/usr/include/glib-2.0/gio/gdebugcontroller.h:66
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f256]
+*/
+use @g_debug_controller_get_debug_enabled[I32](self: NullablePointer[GDebugController] tag)
+

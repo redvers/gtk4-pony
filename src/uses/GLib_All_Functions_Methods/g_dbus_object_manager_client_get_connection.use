@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:130
+  Original Name: g_dbus_object_manager_client_get_connection/usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:130
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f224]
+*/
+use @g_dbus_object_manager_client_get_connection[NullablePointer[GDBusConnection]](manager: NullablePointer[GDBusObjectManagerClient] tag)
+

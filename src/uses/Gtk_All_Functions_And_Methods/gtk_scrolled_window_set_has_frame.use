@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:127
+  Original Name: gtk_scrolled_window_set_has_frame/usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:127
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f698]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_scrolled_window_set_has_frame[None](scrolledwindow: NullablePointer[GtkScrolledWindow] tag, hasframe: I32)
+

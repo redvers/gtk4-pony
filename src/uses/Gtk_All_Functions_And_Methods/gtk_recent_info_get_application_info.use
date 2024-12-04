@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:211
+  Original Name: gtk_recent_info_get_application_info/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:211
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f62]
+*/
+use @gtk_recent_info_get_application_info[I32](info: NullablePointer[GtkRecentInfo] tag, appname: Pointer[U8] tag, appexec: Pointer[Pointer[U8]] tag, count: Pointer[U32] tag, stamp: Pointer[NullablePointer[GDateTime]] tag)
+

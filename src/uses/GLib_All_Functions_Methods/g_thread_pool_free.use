@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:64
+  Original Name: g_thread_pool_free/usr/include/glib-2.0/glib/gthreadpool.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f116]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @g_thread_pool_free[None](pool: NullablePointer[GThreadPool] tag, immediate: I32, wait: I32)
+

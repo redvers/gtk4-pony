@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketcontrolmessage.h:102
+  Original Name: g_socket_control_message_serialize/usr/include/glib-2.0/gio/gsocketcontrolmessage.h:102
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f196]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_socket_control_message_serialize[None](message: NullablePointer[GSocketControlMessage] tag, data: Pointer[None] tag)
+

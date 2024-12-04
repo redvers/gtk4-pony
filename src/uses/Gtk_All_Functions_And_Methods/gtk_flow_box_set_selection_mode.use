@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:195
+  Original Name: gtk_flow_box_set_selection_mode/usr/include/gtk-4.0/gtk/gtkflowbox.h:195
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_flow_box_set_selection_mode[None](box: NullablePointer[GtkFlowBox] tag, mode: I32)
+

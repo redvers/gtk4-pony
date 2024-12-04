@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsserverconnection.h:57
+  Original Name: g_dtls_server_connection_new/usr/include/glib-2.0/gio/gdtlsserverconnection.h:57
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f206]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dtls_server_connection_new[NullablePointer[GDatagramBased]](basesocket: NullablePointer[GDatagramBased] tag, certificate: NullablePointer[GTlsCertificate] tag, error: Pointer[NullablePointer[GError]] tag)
+

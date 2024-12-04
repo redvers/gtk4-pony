@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:758
+  Original Name: g_test_get_dir/usr/include/glib-2.0/glib/gtestutils.h:758
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [Enumeration size=32,fid: f115]
+*/
+use @g_test_get_dir[Pointer[U8]](filetype: I32)
+

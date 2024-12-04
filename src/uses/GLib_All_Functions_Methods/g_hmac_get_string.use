@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghmac.h:50
+  Original Name: g_hmac_get_string/usr/include/glib-2.0/glib/ghmac.h:50
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+*/
+use @g_hmac_get_string[Pointer[U8]](hmac: NullablePointer[GHmac] tag)
+

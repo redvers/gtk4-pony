@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:616
+  Original Name: g_file_new_tmp/usr/include/glib-2.0/gio/gfile.h:616
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=320,fid: f181]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_new_tmp[NullablePointer[GFile]](tmpl: Pointer[U8] tag, iostream: Pointer[NullablePointer[GFileIOStream]] tag, error: Pointer[NullablePointer[GError]] tag)
+

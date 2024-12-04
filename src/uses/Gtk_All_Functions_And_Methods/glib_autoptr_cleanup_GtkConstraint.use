@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:46
+  Original Name: glib_autoptr_cleanup_GtkConstraint/usr/include/gtk-4.0/gtk/gtkconstraint.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f574]
+*/
+use @glib_autoptr_cleanup_GtkConstraint[None](ptr: Pointer[NullablePointer[GtkConstraint]] tag)
+

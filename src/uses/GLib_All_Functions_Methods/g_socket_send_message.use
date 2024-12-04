@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocket.h:257
+  Original Name: g_socket_send_message/usr/include/glib-2.0/gio/gsocket.h:257
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+    [PointerType size=64]->[Struct size=192,fid: f201]
+    [PointerType size=64]->[Struct size=128,fid: f161]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f196]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_send_message[I64](socket: NullablePointer[GSocket] tag, address: NullablePointer[GSocketAddress] tag, vectors: NullablePointer[GOutputVector] tag, numvectors: I32, messages: Pointer[NullablePointer[GSocketControlMessage]] tag, nummessages: I32, flags: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

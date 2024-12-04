@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:682
+  Original Name: g_source_set_callback_indirect/usr/include/glib-2.0/glib/gmain.h:682
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=192,fid: f85]
+*/
+use @g_source_set_callback_indirect[None](source: NullablePointer[GSource] tag, callbackdata: Pointer[None] tag, callbackfuncs: NullablePointer[GSourceCallbackFuncs] tag)
+

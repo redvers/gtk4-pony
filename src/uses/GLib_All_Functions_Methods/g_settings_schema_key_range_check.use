@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettingsschema.h:103
+  Original Name: g_settings_schema_key_range_check/usr/include/glib-2.0/gio/gsettingsschema.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_settings_schema_key_range_check[I32](key: NullablePointer[GSettingsSchemaKey] tag, value: NullablePointer[GVariant] tag)
+

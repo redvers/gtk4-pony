@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gicon.h:118
+  Original Name: g_icon_new_for_string/usr/include/glib-2.0/gio/gicon.h:118
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_icon_new_for_string[NullablePointer[GIcon]](str: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollinfo.h:58
+  Original Name: glib_autoptr_cleanup_GtkScrollInfo/usr/include/gtk-4.0/gtk/gtkscrollinfo.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @glib_autoptr_cleanup_GtkScrollInfo[None](ptr: Pointer[NullablePointer[GtkScrollInfo]] tag)
+

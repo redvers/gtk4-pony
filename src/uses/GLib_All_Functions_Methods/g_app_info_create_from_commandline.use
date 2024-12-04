@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:145
+  Original Name: g_app_info_create_from_commandline/usr/include/glib-2.0/gio/gappinfo.h:145
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_app_info_create_from_commandline[NullablePointer[GAppInfo]](commandline: Pointer[U8] tag, applicationname: Pointer[U8] tag, flags: I32, error: Pointer[NullablePointer[GError]] tag)
+

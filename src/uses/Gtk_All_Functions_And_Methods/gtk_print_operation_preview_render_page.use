@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperationpreview.h:72
+  Original Name: gtk_print_operation_preview_render_page/usr/include/gtk-4.0/gtk/print/gtkprintoperationpreview.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f684]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_print_operation_preview_render_page[None](preview: NullablePointer[GtkPrintOperationPreview] tag, pagenr: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:167
+  Original Name: gtk_accessible_get_at_context/usr/include/gtk-4.0/gtk/gtkaccessible.h:167
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+*/
+use @gtk_accessible_get_at_context[NullablePointer[GtkATContext]](self: NullablePointer[GtkAccessible] tag)
+

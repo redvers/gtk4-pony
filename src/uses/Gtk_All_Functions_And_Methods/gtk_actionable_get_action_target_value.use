@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkactionable.h:63
+  Original Name: gtk_actionable_get_action_target_value/usr/include/gtk-4.0/gtk/gtkactionable.h:63
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f492]
+*/
+use @gtk_actionable_get_action_target_value[NullablePointer[GVariant]](actionable: NullablePointer[GtkActionable] tag)
+

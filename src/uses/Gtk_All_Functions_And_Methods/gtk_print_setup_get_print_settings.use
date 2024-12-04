@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:47
+  Original Name: gtk_print_setup_get_print_settings/usr/include/gtk-4.0/gtk/gtkprintdialog.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f681]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+*/
+use @gtk_print_setup_get_print_settings[NullablePointer[GtkPrintSettings]](setup: NullablePointer[GtkPrintSetup] tag)
+

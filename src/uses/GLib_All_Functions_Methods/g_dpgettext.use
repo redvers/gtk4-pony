@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ggettext.h:55
+  Original Name: g_dpgettext/usr/include/glib-2.0/glib/ggettext.h:55
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_dpgettext[Pointer[U8]](domain: Pointer[U8] tag, msgctxtid: Pointer[U8] tag, msgidoffset: U64)
+

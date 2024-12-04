@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:233
+  Original Name: gtk_print_operation_set_print_settings/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:233
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @gtk_print_operation_set_print_settings[None](op: NullablePointer[GtkPrintOperation] tag, printsettings: NullablePointer[GtkPrintSettings] tag)
+

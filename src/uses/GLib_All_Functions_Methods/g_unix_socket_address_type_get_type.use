@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioenumtypes.h:108
+  Original Name: g_unix_socket_address_type_get_type/usr/include/glib-2.0/gio/gioenumtypes.h:108
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_unix_socket_address_type_get_type[U64]()
+

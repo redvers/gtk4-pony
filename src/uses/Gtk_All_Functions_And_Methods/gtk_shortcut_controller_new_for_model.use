@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:47
+  Original Name: gtk_shortcut_controller_new_for_model/usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f274]
+*/
+use @gtk_shortcut_controller_new_for_model[NullablePointer[GtkEventController]](model: NullablePointer[GListModel] tag)
+

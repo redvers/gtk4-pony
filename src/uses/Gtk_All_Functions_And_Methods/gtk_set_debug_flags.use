@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdebug.h:106
+  Original Name: gtk_set_debug_flags/usr/include/gtk-4.0/gtk/gtkdebug.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f581]
+*/
+use @gtk_set_debug_flags[None](flags: I32)
+

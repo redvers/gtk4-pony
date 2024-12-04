@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:69
+  Original Name: gtk_column_view_set_model/usr/include/gtk-4.0/gtk/gtkcolumnview.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [PointerType size=64]->[Struct size=,fid: f554]
+*/
+use @gtk_column_view_set_model[None](self: NullablePointer[GtkColumnView] tag, model: NullablePointer[GtkSelectionModel] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:329
+  Original Name: g_app_launch_context_unsetenv/usr/include/glib-2.0/gio/gappinfo.h:329
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f160]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_app_launch_context_unsetenv[None](context: NullablePointer[GAppLaunchContext] tag, variable: Pointer[U8] tag)
+

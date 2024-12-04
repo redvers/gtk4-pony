@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:323
+  Original Name: gtk_widget_get_layout_manager/usr/include/gtk-4.0/gtk/gtkwidget.h:323
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f479]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_layout_manager[NullablePointer[GtkLayoutManager]](widget: NullablePointer[GtkWidget] tag)
+

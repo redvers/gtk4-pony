@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbookmarklist.h:53
+  Original Name: gtk_bookmark_list_set_io_priority/usr/include/gtk-4.0/gtk/gtkbookmarklist.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f511]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_bookmark_list_set_io_priority[None](self: NullablePointer[GtkBookmarkList] tag, iopriority: I32)
+

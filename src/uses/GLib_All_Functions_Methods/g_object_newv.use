@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:444
+  Original Name: g_object_newv/usr/include/glib-2.0/gobject/gobject.h:444
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f137]
+*/
+use @g_object_newv[Pointer[None]](objecttype: U64, nparameters: U32, parameters: NullablePointer[GParameter] tag)
+

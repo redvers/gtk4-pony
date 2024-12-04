@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvalue.h:164
+  Original Name: g_value_type_transformable/usr/include/glib-2.0/gobject/gvalue.h:164
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_value_type_transformable[I32](srctype: U64, desttype: U64)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdragsurfacesize.h:37
+  Original Name: gdk_drag_surface_size_set_size/usr/include/gtk-4.0/gdk/gdkdragsurfacesize.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f413]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_drag_surface_size_set_size[None](size: NullablePointer[GdkDragSurfaceSize] tag, width: I32, height: I32)
+

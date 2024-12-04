@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraintguide.h:49
+  Original Name: gtk_constraint_guide_get_nat_size/usr/include/gtk-4.0/gtk/gtkconstraintguide.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f576]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_constraint_guide_get_nat_size[None](guide: NullablePointer[GtkConstraintGuide] tag, width: Pointer[I32] tag, height: Pointer[I32] tag)
+

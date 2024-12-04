@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:44
+  Original Name: g_bus_get/usr/include/glib-2.0/gio/gdbusconnection.h:44
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_bus_get[None](bustype: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

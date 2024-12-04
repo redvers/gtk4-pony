@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkgltexturebuilder.h:92
+  Original Name: gdk_gl_texture_builder_build/usr/include/gtk-4.0/gdk/gdkgltexturebuilder.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f419]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gdk_gl_texture_builder_build[NullablePointer[GdkTexture]](self: NullablePointer[GdkGLTextureBuilder] tag, destroy: Pointer[None] tag, data: Pointer[None] tag)
+

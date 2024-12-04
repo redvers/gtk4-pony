@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:89
+  Original Name: g_sequence_swap/usr/include/glib-2.0/glib/gsequence.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_swap[None](a: NullablePointer[GSequenceNode] tag, b: NullablePointer[GSequenceNode] tag)
+

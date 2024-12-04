@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1523
+  Original Name: g_file_attribute_matcher_subtract/usr/include/glib-2.0/gio/gfileinfo.h:1523
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_attribute_matcher_subtract[NullablePointer[GFileAttributeMatcher]](matcher: NullablePointer[GFileAttributeMatcher] tag, subtract: NullablePointer[GFileAttributeMatcher] tag)
+

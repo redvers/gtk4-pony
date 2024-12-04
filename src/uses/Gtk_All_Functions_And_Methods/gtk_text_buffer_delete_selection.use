@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:428
+  Original Name: gtk_text_buffer_delete_selection/usr/include/gtk-4.0/gtk/gtktextbuffer.h:428
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_buffer_delete_selection[I32](buffer: NullablePointer[GtkTextBuffer] tag, interactive: I32, defaulteditable: I32)
+

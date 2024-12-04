@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginputstream.h:161
+  Original Name: g_input_stream_read_all_finish/usr/include/glib-2.0/gio/ginputstream.h:161
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f186]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_input_stream_read_all_finish[I32](stream: NullablePointer[GInputStream] tag, result: NullablePointer[GAsyncResult] tag, bytesread: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

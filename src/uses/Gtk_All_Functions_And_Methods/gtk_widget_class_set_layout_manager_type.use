@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:326
+  Original Name: gtk_widget_class_set_layout_manager_type/usr/include/gtk-4.0/gtk/gtkwidget.h:326
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f480]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gtk_widget_class_set_layout_manager_type[None](widgetclass: NullablePointer[GtkWidgetClass] tag, type: U64)
+

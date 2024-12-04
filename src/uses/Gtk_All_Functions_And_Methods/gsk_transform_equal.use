@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:84
+  Original Name: gsk_transform_equal/usr/include/gtk-4.0/gsk/gsktransform.h:84
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_transform_equal[I32](first: NullablePointer[GskTransform] tag, second: NullablePointer[GskTransform] tag)
+

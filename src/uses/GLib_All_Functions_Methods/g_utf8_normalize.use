@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:964
+  Original Name: g_utf8_normalize/usr/include/glib-2.0/glib/gunicode.h:964
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [Enumeration size=32,fid: f86]
+*/
+use @g_utf8_normalize[Pointer[U8]](str: Pointer[U8] tag, len: I64, mode: I32)
+

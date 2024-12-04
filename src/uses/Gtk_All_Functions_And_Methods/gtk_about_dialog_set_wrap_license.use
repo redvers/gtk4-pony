@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:138
+  Original Name: gtk_about_dialog_set_wrap_license/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:138
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_about_dialog_set_wrap_license[None](about: NullablePointer[GtkAboutDialog] tag, wraplicense: I32)
+

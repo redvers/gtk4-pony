@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:148
+  Original Name: g_date_time_new_from_timeval_local/usr/include/glib-2.0/glib/gdatetime.h:148
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @g_date_time_new_from_timeval_local[NullablePointer[GDateTime]](tv: NullablePointer[GTimeVal] tag)
+

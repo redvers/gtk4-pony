@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:197
+  Original Name: gtk_text_view_scroll_to_iter/usr/include/gtk-4.0/gtk/gtktextview.h:197
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(double) size=64]
+    [FundamentalType(int) size=32]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_text_view_scroll_to_iter[I32](textview: NullablePointer[GtkTextView] tag, iter: NullablePointer[GtkTextIter] tag, withinmargin: F64, usealign: I32, xalign: F64, yalign: F64)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesture.h:47
+  Original Name: gtk_gesture_set_state/usr/include/gtk-4.0/gtk/gtkgesture.h:47
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_gesture_set_state[I32](gesture: NullablePointer[GtkGesture] tag, state: I32)
+

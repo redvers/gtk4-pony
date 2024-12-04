@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactionmap.h:81
+  Original Name: g_action_map_lookup_action/usr/include/glib-2.0/gio/gactionmap.h:81
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_action_map_lookup_action[NullablePointer[GAction]](actionmap: NullablePointer[GActionMap] tag, actionname: Pointer[U8] tag)
+

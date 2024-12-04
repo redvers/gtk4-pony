@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:701
+  Original Name: g_file_read_finish/usr/include/glib-2.0/gio/gfile.h:701
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f179]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_read_finish[NullablePointer[GFileInputStream]](file: NullablePointer[GFile] tag, res: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

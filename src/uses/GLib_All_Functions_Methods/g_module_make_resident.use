@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gmodule.h:114
+  Original Name: g_module_make_resident/usr/include/glib-2.0/gmodule.h:114
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f271]
+*/
+use @g_module_make_resident[None](module: NullablePointer[GModule] tag)
+

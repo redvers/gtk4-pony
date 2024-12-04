@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:457
+  Original Name: g_main_context_dispatch/usr/include/glib-2.0/glib/gmain.h:457
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_context_dispatch[None](context: NullablePointer[GMainContext] tag)
+

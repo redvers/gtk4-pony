@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:190
+  Original Name: g_socket_client_connect_to_uri_finish/usr/include/glib-2.0/gio/gsocketclient.h:190
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f198]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_client_connect_to_uri_finish[NullablePointer[GSocketConnection]](client: NullablePointer[GSocketClient] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

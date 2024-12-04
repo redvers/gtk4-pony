@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutmanager.h:34
+  Original Name: GTK_SHORTCUT_MANAGER/usr/include/gtk-4.0/gtk/gtkshortcutmanager.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f707]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_SHORTCUT_MANAGER[NullablePointer[GtkShortcutManager]](ptr: Pointer[None] tag)
+

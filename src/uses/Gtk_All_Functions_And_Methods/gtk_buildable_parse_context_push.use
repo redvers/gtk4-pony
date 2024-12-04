@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:248
+  Original Name: gtk_buildable_parse_context_push/usr/include/gtk-4.0/gtk/gtkbuildable.h:248
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f520]
+    [PointerType size=64]->[Struct size=512,fid: f520]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_buildable_parse_context_push[None](context: NullablePointer[GtkBuildableParseContext] tag, parser: NullablePointer[GtkBuildableParser] tag, userdata: Pointer[None] tag)
+

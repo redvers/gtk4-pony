@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesture.h:51
+  Original Name: gtk_gesture_get_sequence_state/usr/include/gtk-4.0/gtk/gtkgesture.h:51
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gtk_gesture_get_sequence_state[I32](gesture: NullablePointer[GtkGesture] tag, sequence: NullablePointer[GdkEventSequence] tag)
+

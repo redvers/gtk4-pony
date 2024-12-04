@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpander.h:71
+  Original Name: gtk_expander_set_label_widget/usr/include/gtk-4.0/gtk/gtkexpander.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f600]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_expander_set_label_widget[None](expander: NullablePointer[GtkExpander] tag, labelwidget: NullablePointer[GtkWidget] tag)
+

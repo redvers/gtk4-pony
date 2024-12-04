@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:181
+  Original Name: gtk_list_box_remove/usr/include/gtk-4.0/gtk/gtklistbox.h:181
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_list_box_remove[None](box: NullablePointer[GtkListBox] tag, child: NullablePointer[GtkWidget] tag)
+

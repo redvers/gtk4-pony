@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:128
+  Original Name: g_aligned_free/usr/include/glib-2.0/glib/gmem.h:128
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_aligned_free[None](mem: Pointer[None] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:399
+  Original Name: g_option_group_set_translate_func/usr/include/glib-2.0/glib/goption.h:399
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_option_group_set_translate_func[None](group: NullablePointer[GOptionGroup] tag, func: Pointer[None] tag, data: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

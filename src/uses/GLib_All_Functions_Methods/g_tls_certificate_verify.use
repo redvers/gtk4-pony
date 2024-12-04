@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlscertificate.h:97
+  Original Name: g_tls_certificate_verify/usr/include/glib-2.0/gio/gtlscertificate.h:97
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f206]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f206]
+*/
+use @g_tls_certificate_verify[I32](cert: NullablePointer[GTlsCertificate] tag, identity: NullablePointer[GSocketConnectable] tag, trustedca: NullablePointer[GTlsCertificate] tag)
+

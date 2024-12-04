@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:94
+  Original Name: gdk_device_get_display/usr/include/gtk-4.0/gdk/gdkdevice.h:94
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_device_get_display[NullablePointer[GdkDisplay]](device: NullablePointer[GdkDevice] tag)
+

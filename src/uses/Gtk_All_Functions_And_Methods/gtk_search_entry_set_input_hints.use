@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchentry.h:75
+  Original Name: gtk_search_entry_set_input_hints/usr/include/gtk-4.0/gtk/gtksearchentry.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f700]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_search_entry_set_input_hints[None](entry: NullablePointer[GtkSearchEntry] tag, hints: I32)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:213
+  Original Name: gtk_window_get_default_size/usr/include/gtk-4.0/gtk/gtkwindow.h:213
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_window_get_default_size[None](window: NullablePointer[GtkWindow] tag, width: Pointer[I32] tag, height: Pointer[I32] tag)
+

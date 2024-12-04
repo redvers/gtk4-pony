@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:179
+  Original Name: g_menu_item_set_icon/usr/include/glib-2.0/gio/gmenu.h:179
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_menu_item_set_icon[None](menuitem: NullablePointer[GMenuItem] tag, icon: NullablePointer[GIcon] tag)
+

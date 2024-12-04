@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:335
+  Original Name: gtk_text_extend_selection_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:335
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_text_extend_selection_get_type[U64]()
+

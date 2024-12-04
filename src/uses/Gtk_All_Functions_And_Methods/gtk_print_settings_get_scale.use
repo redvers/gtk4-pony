@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:298
+  Original Name: gtk_print_settings_get_scale/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:298
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @gtk_print_settings_get_scale[F64](settings: NullablePointer[GtkPrintSettings] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:119
+  Original Name: g_task_get_check_cancellable/usr/include/glib-2.0/gio/gtask.h:119
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_task_get_check_cancellable[I32](task: NullablePointer[GTask] tag)
+

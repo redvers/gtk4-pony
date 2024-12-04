@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:411
+  Original Name: g_test_disable_crash_reporting/usr/include/glib-2.0/glib/gtestutils.h:411
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @g_test_disable_crash_reporting[None]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsconnection.h:177
+  Original Name: g_tls_connection_get_protocol_version/usr/include/glib-2.0/gio/gtlsconnection.h:177
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f207]
+*/
+use @g_tls_connection_get_protocol_version[I32](conn: NullablePointer[GTlsConnection] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:51
+  Original Name: gtk_filter_list_model_get_model/usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:51
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f611]
+*/
+use @gtk_filter_list_model_get_model[NullablePointer[GListModel]](self: NullablePointer[GtkFilterListModel] tag)
+

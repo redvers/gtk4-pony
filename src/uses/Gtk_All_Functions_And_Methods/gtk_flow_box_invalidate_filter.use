@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:215
+  Original Name: gtk_flow_box_invalidate_filter/usr/include/gtk-4.0/gtk/gtkflowbox.h:215
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+*/
+use @gtk_flow_box_invalidate_filter[None](box: NullablePointer[GtkFlowBox] tag)
+

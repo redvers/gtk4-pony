@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:60
+  Original Name: g_async_queue_push/usr/include/glib-2.0/glib/gasyncqueue.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_async_queue_push[None](queue: NullablePointer[GAsyncQueue] tag, data: Pointer[None] tag)
+

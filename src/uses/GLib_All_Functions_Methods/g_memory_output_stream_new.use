@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemoryoutputstream.h:84
+  Original Name: g_memory_output_stream_new/usr/include/glib-2.0/gio/gmemoryoutputstream.h:84
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f192]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_memory_output_stream_new[NullablePointer[GOutputStream]](data: Pointer[None] tag, size: U64, reallocfunction: Pointer[None] tag, destroyfunction: Pointer[None] tag)
+

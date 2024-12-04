@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:557
+  Original Name: glib_autoptr_clear_GdkEvent/usr/include/gtk-4.0/gdk/gdkevents.h:557
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @glib_autoptr_clear_GdkEvent[None](ptr: NullablePointer[GdkEvent] tag)
+

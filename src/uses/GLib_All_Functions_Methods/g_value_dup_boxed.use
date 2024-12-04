@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gboxed.h:92
+  Original Name: g_value_dup_boxed/usr/include/glib-2.0/gobject/gboxed.h:92
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_dup_boxed[Pointer[None]](value: NullablePointer[GValue] tag)
+

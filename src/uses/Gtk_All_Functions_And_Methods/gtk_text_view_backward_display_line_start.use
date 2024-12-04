@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:288
+  Original Name: gtk_text_view_backward_display_line_start/usr/include/gtk-4.0/gtk/gtktextview.h:288
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_view_backward_display_line_start[I32](textview: NullablePointer[GtkTextView] tag, iter: NullablePointer[GtkTextIter] tag)
+

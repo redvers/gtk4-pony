@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnotification.h:91
+  Original Name: g_notification_set_default_action_and_target/usr/include/glib-2.0/gio/gnotification.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_notification_set_default_action_and_target[None](notification: NullablePointer[GNotification] tag, action: Pointer[U8] tag, targetformat: Pointer[U8] tag, ...)
+

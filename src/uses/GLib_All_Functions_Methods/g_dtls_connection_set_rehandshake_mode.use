@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:144
+  Original Name: g_dtls_connection_set_rehandshake_mode/usr/include/glib-2.0/gio/gdtlsconnection.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_dtls_connection_set_rehandshake_mode[None](conn: NullablePointer[GDtlsConnection] tag, mode: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:147
+  Original Name: gtk_signal_action_get_signal_name/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:147
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f484]
+*/
+use @gtk_signal_action_get_signal_name[Pointer[U8]](self: NullablePointer[GtkSignalAction] tag)
+

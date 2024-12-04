@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkmonitor.h:81
+  Original Name: g_network_monitor_get_connectivity/usr/include/glib-2.0/gio/gnetworkmonitor.h:81
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_network_monitor_get_connectivity[I32](monitor: NullablePointer[GNetworkMonitor] tag)
+

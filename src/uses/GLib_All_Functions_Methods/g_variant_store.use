@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:234
+  Original Name: g_variant_store/usr/include/glib-2.0/glib/gvariant.h:234
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_variant_store[None](value: NullablePointer[GVariant] tag, data: Pointer[None] tag)
+

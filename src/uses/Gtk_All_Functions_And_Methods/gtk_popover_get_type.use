@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:59
+  Original Name: gtk_popover_get_type/usr/include/gtk-4.0/gtk/gtkpopover.h:59
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_popover_get_type[U64]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:166
+  Original Name: gdk_toplevel_set_transient_for/usr/include/gtk-4.0/gdk/gdktoplevel.h:166
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_toplevel_set_transient_for[None](toplevel: NullablePointer[GdkToplevel] tag, parent: NullablePointer[GdkSurface] tag)
+

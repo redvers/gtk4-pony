@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:233
+  Original Name: g_log_writer_syslog/usr/include/glib-2.0/glib/gmessages.h:233
+
+  Return Value: [Enumeration size=32,fid: f95]
+
+  Arguments:
+    [Enumeration size=32,fid: f95]
+    [PointerType size=64]->[Struct size=192,fid: f95]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_log_writer_syslog[I32](loglevel: I32, fields: NullablePointer[GLogField] tag, nfields: U64, userdata: Pointer[None] tag)
+

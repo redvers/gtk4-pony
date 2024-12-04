@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:36
+  Original Name: gtk_filter_list_model_get_type/usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:36
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_filter_list_model_get_type[U64]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpadcontroller.h:80
+  Original Name: gtk_pad_controller_new/usr/include/gtk-4.0/gtk/gtkpadcontroller.h:80
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f672]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_pad_controller_new[NullablePointer[GtkPadController]](group: NullablePointer[GActionGroup] tag, pad: NullablePointer[GdkDevice] tag)
+

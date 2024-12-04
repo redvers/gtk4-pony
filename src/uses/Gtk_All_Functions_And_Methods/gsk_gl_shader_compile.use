@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:51
+  Original Name: gsk_gl_shader_compile/usr/include/gtk-4.0/gsk/gskglshader.h:51
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gsk_gl_shader_compile[I32](shader: NullablePointer[GskGLShader] tag, renderer: NullablePointer[GskRenderer] tag, error: Pointer[NullablePointer[GError]] tag)
+

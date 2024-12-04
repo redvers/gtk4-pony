@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:170
+  Original Name: g_tree_nnodes/usr/include/glib-2.0/glib/gtree.h:170
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+*/
+use @g_tree_nnodes[I32](tree: NullablePointer[GTree] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:307
+  Original Name: g_variant_type_peek_string/usr/include/glib-2.0/glib/gvarianttype.h:307
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_type_peek_string[Pointer[U8]](type: NullablePointer[GVariantType] tag)
+

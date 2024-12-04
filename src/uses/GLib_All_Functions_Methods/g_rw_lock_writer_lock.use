@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:185
+  Original Name: g_rw_lock_writer_lock/usr/include/glib-2.0/glib/gthread.h:185
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f41]
+*/
+use @g_rw_lock_writer_lock[None](rwlock: NullablePointer[GRWLock] tag)
+

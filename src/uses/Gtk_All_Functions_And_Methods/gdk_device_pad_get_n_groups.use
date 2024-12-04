@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevicepad.h:55
+  Original Name: gdk_device_pad_get_n_groups/usr/include/gtk-4.0/gdk/gdkdevicepad.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f398]
+*/
+use @gdk_device_pad_get_n_groups[I32](pad: NullablePointer[GdkDevicePad] tag)
+

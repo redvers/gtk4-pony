@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gzlibdecompressor.h:53
+  Original Name: g_zlib_decompressor_new/usr/include/glib-2.0/gio/gzlibdecompressor.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [Enumeration size=32,fid: f159]
+*/
+use @g_zlib_decompressor_new[NullablePointer[GZlibDecompressor]](format: I32)
+

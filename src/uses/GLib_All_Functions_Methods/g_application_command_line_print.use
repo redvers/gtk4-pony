@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplicationcommandline.h:109
+  Original Name: g_application_command_line_print/usr/include/glib-2.0/gio/gapplicationcommandline.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f170]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_command_line_print[None](cmdline: NullablePointer[GApplicationCommandLine] tag, format: Pointer[U8] tag, ...)
+

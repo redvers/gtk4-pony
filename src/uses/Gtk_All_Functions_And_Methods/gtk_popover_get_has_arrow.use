@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:92
+  Original Name: gtk_popover_get_has_arrow/usr/include/gtk-4.0/gtk/gtkpopover.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+*/
+use @gtk_popover_get_has_arrow[I32](popover: NullablePointer[GtkPopover] tag)
+

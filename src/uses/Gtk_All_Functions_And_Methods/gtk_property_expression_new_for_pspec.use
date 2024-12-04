@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:97
+  Original Name: gtk_property_expression_new_for_pspec/usr/include/gtk-4.0/gtk/gtkexpression.h:97
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @gtk_property_expression_new_for_pspec[NullablePointer[GtkExpression]](expression: NullablePointer[GtkExpression] tag, pspec: NullablePointer[GParamSpec] tag)
+

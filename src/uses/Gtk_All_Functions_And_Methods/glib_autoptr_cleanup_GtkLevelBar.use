@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklevelbar.h:112
+  Original Name: glib_autoptr_cleanup_GtkLevelBar/usr/include/gtk-4.0/gtk/gtklevelbar.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f647]
+*/
+use @glib_autoptr_cleanup_GtkLevelBar[None](ptr: Pointer[NullablePointer[GtkLevelBar]] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:197
+  Original Name: gtk_entry_set_icon_from_gicon/usr/include/gtk-4.0/gtk/gtkentry.h:197
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @gtk_entry_set_icon_from_gicon[None](entry: NullablePointer[GtkEntry] tag, iconpos: I32, icon: NullablePointer[GIcon] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1497
+  Original Name: g_type_class_add_private/usr/include/glib-2.0/gobject/gtype.h:1497
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_class_add_private[None](gclass: Pointer[None] tag, privatesize: U64)
+

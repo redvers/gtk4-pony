@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:329
+  Original Name: g_atexit/usr/include/glib-2.0/glib/gutils.h:329
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_atexit[None](func: Pointer[None] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:135
+  Original Name: g_menu_item_get_attribute/usr/include/glib-2.0/gio/gmenu.h:135
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_menu_item_get_attribute[I32](menuitem: NullablePointer[GMenuItem] tag, attribute: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)
+

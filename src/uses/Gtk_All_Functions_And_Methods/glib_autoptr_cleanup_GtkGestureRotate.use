@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturerotate.h:50
+  Original Name: glib_autoptr_cleanup_GtkGestureRotate/usr/include/gtk-4.0/gtk/gtkgesturerotate.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f628]
+*/
+use @glib_autoptr_cleanup_GtkGestureRotate[None](ptr: Pointer[NullablePointer[GtkGestureRotate]] tag)
+

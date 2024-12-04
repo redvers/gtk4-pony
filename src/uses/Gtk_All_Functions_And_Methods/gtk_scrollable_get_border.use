@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollable.h:72
+  Original Name: gtk_scrollable_get_border/usr/include/gtk-4.0/gtk/gtkscrollable.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f695]
+    [PointerType size=64]->[Struct size=64,fid: f515]
+*/
+use @gtk_scrollable_get_border[I32](scrollable: NullablePointer[GtkScrollable] tag, border: NullablePointer[GtkBorder] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmountoperation.h:86
+  Original Name: glib_autoptr_clear_GtkMountOperation/usr/include/gtk-4.0/gtk/gtkmountoperation.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f661]
+*/
+use @glib_autoptr_clear_GtkMountOperation[None](ptr: NullablePointer[GtkMountOperation] tag)
+

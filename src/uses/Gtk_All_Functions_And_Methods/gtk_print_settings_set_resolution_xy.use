@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:289
+  Original Name: gtk_print_settings_set_resolution_xy/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:289
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_print_settings_set_resolution_xy[None](settings: NullablePointer[GtkPrintSettings] tag, resolutionx: I32, resolutiony: I32)
+

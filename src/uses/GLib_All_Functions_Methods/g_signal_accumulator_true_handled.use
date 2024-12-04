@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:639
+  Original Name: g_signal_accumulator_true_handled/usr/include/glib-2.0/gobject/gsignal.h:639
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=96,fid: f140]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_accumulator_true_handled[I32](ihint: NullablePointer[GSignalInvocationHint] tag, returnaccu: NullablePointer[GValue] tag, handlerreturn: NullablePointer[GValue] tag, dummy: Pointer[None] tag)
+

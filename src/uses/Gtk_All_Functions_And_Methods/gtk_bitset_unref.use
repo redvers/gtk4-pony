@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:39
+  Original Name: gtk_bitset_unref/usr/include/gtk-4.0/gtk/gtkbitset.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_bitset_unref[None](self: NullablePointer[GtkBitset] tag)
+

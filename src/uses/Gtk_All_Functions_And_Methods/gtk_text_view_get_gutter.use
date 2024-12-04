@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:306
+  Original Name: gtk_text_view_get_gutter/usr/include/gtk-4.0/gtk/gtktextview.h:306
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [Enumeration size=32,fid: f733]
+*/
+use @gtk_text_view_get_gutter[NullablePointer[GtkWidget]](textview: NullablePointer[GtkTextView] tag, win: I32)
+

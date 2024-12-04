@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:99
+  Original Name: gdk_display_list_seats/usr/include/gtk-4.0/gdk/gdkdisplay.h:99
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_list_seats[NullablePointer[GList]](display: NullablePointer[GdkDisplay] tag)
+

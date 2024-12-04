@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:232
+  Original Name: g_ptr_array_extend_and_steal/usr/include/glib-2.0/glib/garray.h:232
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @g_ptr_array_extend_and_steal[None](arraytoextend: NullablePointer[GPtrArray] tag, array: NullablePointer[GPtrArray] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkclipboard.h:113
+  Original Name: gdk_clipboard_set_text/usr/include/gtk-4.0/gdk/gdkclipboard.h:113
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_clipboard_set_text[None](clipboard: NullablePointer[GdkClipboard] tag, text: Pointer[U8] tag)
+

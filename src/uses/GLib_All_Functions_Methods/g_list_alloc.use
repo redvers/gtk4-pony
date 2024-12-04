@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:51
+  Original Name: g_list_alloc/usr/include/glib-2.0/glib/glist.h:51
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+*/
+use @g_list_alloc[NullablePointer[GList]]()
+

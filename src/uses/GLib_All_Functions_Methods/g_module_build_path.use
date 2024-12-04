@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gmodule.h:142
+  Original Name: g_module_build_path/usr/include/glib-2.0/gmodule.h:142
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_module_build_path[Pointer[U8]](directory: Pointer[U8] tag, modulename: Pointer[U8] tag)
+

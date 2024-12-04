@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchentry.h:57
+  Original Name: gtk_search_entry_set_search_delay/usr/include/gtk-4.0/gtk/gtksearchentry.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f700]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_search_entry_set_search_delay[None](entry: NullablePointer[GtkSearchEntry] tag, delay: U32)
+

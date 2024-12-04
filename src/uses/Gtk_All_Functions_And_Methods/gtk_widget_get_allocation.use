@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:479
+  Original Name: gtk_widget_get_allocation/usr/include/gtk-4.0/gtk/gtkwidget.h:479
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gtk_widget_get_allocation[None](widget: NullablePointer[GtkWidget] tag, allocation: NullablePointer[Cairorectangleint] tag)
+

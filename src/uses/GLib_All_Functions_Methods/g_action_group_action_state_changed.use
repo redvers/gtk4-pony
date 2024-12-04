@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroup.h:148
+  Original Name: g_action_group_action_state_changed/usr/include/glib-2.0/gio/gactiongroup.h:148
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_action_group_action_state_changed[None](actiongroup: NullablePointer[GActionGroup] tag, actionname: Pointer[U8] tag, state: NullablePointer[GVariant] tag)
+

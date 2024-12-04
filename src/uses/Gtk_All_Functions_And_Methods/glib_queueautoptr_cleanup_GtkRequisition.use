@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:983
+  Original Name: glib_queueautoptr_cleanup_GtkRequisition/usr/include/gtk-4.0/gtk/gtkwidget.h:983
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @glib_queueautoptr_cleanup_GtkRequisition[None](q: Pointer[NullablePointer[GQueue]] tag)
+

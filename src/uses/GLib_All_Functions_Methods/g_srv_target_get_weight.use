@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsrvtarget.h:53
+  Original Name: g_srv_target_get_weight/usr/include/glib-2.0/gio/gsrvtarget.h:53
+
+  Return Value: [FundamentalType(short unsigned int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_srv_target_get_weight[U16](target: NullablePointer[GSrvTarget] tag)
+

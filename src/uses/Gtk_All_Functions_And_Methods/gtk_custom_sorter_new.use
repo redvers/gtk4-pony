@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomsorter.h:36
+  Original Name: gtk_custom_sorter_new/usr/include/gtk-4.0/gtk/gtkcustomsorter.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f580]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_custom_sorter_new[NullablePointer[GtkCustomSorter]](sortfunc: Pointer[None] tag, userdata: Pointer[None] tag, userdestroy: Pointer[None] tag)
+

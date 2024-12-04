@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:182
+  Original Name: gtk_scrolled_window_get_child/usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:182
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f698]
+*/
+use @gtk_scrolled_window_get_child[NullablePointer[GtkWidget]](scrolledwindow: NullablePointer[GtkScrolledWindow] tag)
+

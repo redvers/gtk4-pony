@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmethodinvocation.h:124
+  Original Name: g_dbus_method_invocation_return_gerror/usr/include/glib-2.0/gio/gdbusmethodinvocation.h:124
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_method_invocation_return_gerror[None](invocation: NullablePointer[GDBusMethodInvocation] tag, error: NullablePointer[GError] tag)
+

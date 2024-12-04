@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontroller.h:53
+  Original Name: gtk_event_controller_get_propagation_phase/usr/include/gtk-4.0/gtk/gtkeventcontroller.h:53
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_event_controller_get_propagation_phase[I32](controller: NullablePointer[GtkEventController] tag)
+

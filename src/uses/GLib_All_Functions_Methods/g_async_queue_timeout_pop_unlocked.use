@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:87
+  Original Name: g_async_queue_timeout_pop_unlocked/usr/include/glib-2.0/glib/gasyncqueue.h:87
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_async_queue_timeout_pop_unlocked[Pointer[None]](queue: NullablePointer[GAsyncQueue] tag, timeout: U64)
+

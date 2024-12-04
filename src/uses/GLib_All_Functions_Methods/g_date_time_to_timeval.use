@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:278
+  Original Name: g_date_time_to_timeval/usr/include/glib-2.0/glib/gdatetime.h:278
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f62]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @g_date_time_to_timeval[I32](datetime: NullablePointer[GDateTime] tag, tv: NullablePointer[GTimeVal] tag)
+

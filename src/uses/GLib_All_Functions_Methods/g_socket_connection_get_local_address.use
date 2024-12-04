@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnection.h:97
+  Original Name: g_socket_connection_get_local_address/usr/include/glib-2.0/gio/gsocketconnection.h:97
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f201]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f198]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_connection_get_local_address[NullablePointer[GSocketAddress]](connection: NullablePointer[GSocketConnection] tag, error: Pointer[NullablePointer[GError]] tag)
+

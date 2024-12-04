@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:88
+  Original Name: g_inet_address_get_native_size/usr/include/glib-2.0/gio/ginetaddress.h:88
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f182]
+*/
+use @g_inet_address_get_native_size[U64](address: NullablePointer[GInetAddress] tag)
+

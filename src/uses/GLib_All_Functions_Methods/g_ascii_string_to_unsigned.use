@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:450
+  Original Name: g_ascii_string_to_unsigned/usr/include/glib-2.0/glib/gstrfuncs.h:450
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_ascii_string_to_unsigned[I32](str: Pointer[U8] tag, base: U32, min: U64, max: U64, outnum: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

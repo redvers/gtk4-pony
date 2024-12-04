@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:114
+  Original Name: g_file_error_from_errno/usr/include/glib-2.0/glib/gfileutils.h:114
+
+  Return Value: [Enumeration size=32,fid: f74]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @g_file_error_from_errno[I32](errno: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:100
+  Original Name: g_slist_copy/usr/include/glib-2.0/glib/gslist.h:100
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @g_slist_copy[NullablePointer[GSList]](list: NullablePointer[GSList] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocket.h:111
+  Original Name: g_socket_get_listen_backlog/usr/include/glib-2.0/gio/gsocket.h:111
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+*/
+use @g_socket_get_listen_backlog[I32](socket: NullablePointer[GSocket] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:61
+  Original Name: gdk_content_formats_union/usr/include/gtk-4.0/gdk/gdkcontentformats.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_content_formats_union[NullablePointer[GdkContentFormats]](first: NullablePointer[GdkContentFormats] tag, second: NullablePointer[GdkContentFormats] tag)
+

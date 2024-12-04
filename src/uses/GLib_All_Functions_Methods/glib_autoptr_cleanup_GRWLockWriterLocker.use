@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:90
+  Original Name: glib_autoptr_cleanup_GRWLockWriterLocker/usr/include/glib-2.0/glib/glib-autocleanups.h:90
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @glib_autoptr_cleanup_GRWLockWriterLocker[None](ptr: NullablePointer[Pointer[None]] tag)
+

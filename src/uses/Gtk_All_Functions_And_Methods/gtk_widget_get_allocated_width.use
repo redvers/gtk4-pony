@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:472
+  Original Name: gtk_widget_get_allocated_width/usr/include/gtk-4.0/gtk/gtkwidget.h:472
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_allocated_width[I32](widget: NullablePointer[GtkWidget] tag)
+

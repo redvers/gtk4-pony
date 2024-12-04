@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:97
+  Original Name: g_ascii_toupper/usr/include/glib-2.0/glib/gstrfuncs.h:97
+
+  Return Value: [FundamentalType(char) size=8]
+
+  Arguments:
+    [FundamentalType(char) size=8]
+*/
+use @g_ascii_toupper[U8](c: U8)
+

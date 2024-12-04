@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:643
+  Original Name: g_source_is_destroyed/usr/include/glib-2.0/glib/gmain.h:643
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+*/
+use @g_source_is_destroyed[I32](source: NullablePointer[GSource] tag)
+

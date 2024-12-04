@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresource.h:108
+  Original Name: g_resources_lookup_data/usr/include/glib-2.0/gio/gresource.h:108
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_resources_lookup_data[NullablePointer[GBytes]](path: Pointer[U8] tag, lookupflags: I32, error: Pointer[NullablePointer[GError]] tag)
+

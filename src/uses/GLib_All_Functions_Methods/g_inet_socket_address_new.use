@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetsocketaddress.h:62
+  Original Name: g_inet_socket_address_new/usr/include/glib-2.0/gio/ginetsocketaddress.h:62
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f201]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f182]
+    [FundamentalType(short unsigned int) size=16]
+*/
+use @g_inet_socket_address_new[NullablePointer[GSocketAddress]](address: NullablePointer[GInetAddress] tag, port: U16)
+

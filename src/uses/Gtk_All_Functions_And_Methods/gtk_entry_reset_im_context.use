@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:257
+  Original Name: gtk_entry_reset_im_context/usr/include/gtk-4.0/gtk/gtkentry.h:257
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_reset_im_context[None](entry: NullablePointer[GtkEntry] tag)
+

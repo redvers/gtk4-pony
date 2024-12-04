@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusnameowning.h:105
+  Original Name: g_bus_own_name_on_connection_with_closures/usr/include/glib-2.0/gio/gdbusnameowning.h:105
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+*/
+use @g_bus_own_name_on_connection_with_closures[U32](connection: NullablePointer[GDBusConnection] tag, name: Pointer[U8] tag, flags: I32, nameacquiredclosure: NullablePointer[GClosure] tag, namelostclosure: NullablePointer[GClosure] tag)
+

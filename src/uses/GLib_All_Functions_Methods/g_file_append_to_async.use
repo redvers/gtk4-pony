@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:722
+  Original Name: g_file_append_to_async/usr/include/glib-2.0/gio/gfile.h:722
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_file_append_to_async[None](file: NullablePointer[GFile] tag, flags: I32, iopriority: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

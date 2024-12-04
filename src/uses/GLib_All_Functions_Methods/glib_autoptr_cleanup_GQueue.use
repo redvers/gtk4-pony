@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:75
+  Original Name: glib_autoptr_cleanup_GQueue/usr/include/glib-2.0/glib/glib-autocleanups.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @glib_autoptr_cleanup_GQueue[None](ptr: Pointer[NullablePointer[GQueue]] tag)
+

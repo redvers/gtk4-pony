@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:203
+  Original Name: g_settings_set_flags/usr/include/glib-2.0/gio/gsettings.h:203
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_settings_set_flags[I32](settings: NullablePointer[GSettings] tag, key: Pointer[U8] tag, value: U32)
+

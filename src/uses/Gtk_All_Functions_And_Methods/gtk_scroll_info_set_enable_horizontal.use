@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollinfo.h:46
+  Original Name: gtk_scroll_info_set_enable_horizontal/usr/include/gtk-4.0/gtk/gtkscrollinfo.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_scroll_info_set_enable_horizontal[None](self: NullablePointer[GtkScrollInfo] tag, horizontal: I32)
+

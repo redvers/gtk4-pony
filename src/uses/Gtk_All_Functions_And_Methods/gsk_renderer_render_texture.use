@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrenderer.h:60
+  Original Name: gsk_renderer_render_texture/usr/include/gtk-4.0/gsk/gskrenderer.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gsk_renderer_render_texture[NullablePointer[GdkTexture]](renderer: NullablePointer[GskRenderer] tag, root: NullablePointer[GskRenderNode] tag, viewport: NullablePointer[Graphenerectt] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:212
+  Original Name: g_dtls_connection_get_negotiated_protocol/usr/include/glib-2.0/gio/gdtlsconnection.h:212
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dtls_connection_get_negotiated_protocol[Pointer[U8]](conn: NullablePointer[GDtlsConnection] tag)
+

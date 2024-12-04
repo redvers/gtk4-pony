@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:485
+  Original Name: g_main_context_pop_thread_default/usr/include/glib-2.0/glib/gmain.h:485
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_context_pop_thread_default[None](context: NullablePointer[GMainContext] tag)
+

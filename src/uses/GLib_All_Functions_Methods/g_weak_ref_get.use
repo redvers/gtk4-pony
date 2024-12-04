@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:931
+  Original Name: g_weak_ref_get/usr/include/glib-2.0/gobject/gobject.h:931
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f143]
+*/
+use @g_weak_ref_get[Pointer[None]](weakref: NullablePointer[] tag)
+

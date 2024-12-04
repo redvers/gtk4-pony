@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:404
+  Original Name: g_test_skip_printf/usr/include/glib-2.0/glib/gtestutils.h:404
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_skip_printf[None](format: Pointer[U8] tag, ...)
+

@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresource.h:116
+  Original Name: g_resources_get_info/usr/include/glib-2.0/gio/gresource.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_resources_get_info[I32](path: Pointer[U8] tag, lookupflags: I32, size: Pointer[U64] tag, flags: Pointer[U32] tag, error: Pointer[NullablePointer[GError]] tag)
+

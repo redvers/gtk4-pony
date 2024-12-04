@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:76
+  Original Name: gtk_print_dialog_get_modal/usr/include/gtk-4.0/gtk/gtkprintdialog.h:76
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+*/
+use @gtk_print_dialog_get_modal[I32](self: NullablePointer[GtkPrintDialog] tag)
+

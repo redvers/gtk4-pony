@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h:72
+  Original Name: gtk_column_view_column_get_visible/usr/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+*/
+use @gtk_column_view_column_get_visible[I32](self: NullablePointer[GtkColumnViewColumn] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghmac.h:52
+  Original Name: g_hmac_get_digest/usr/include/glib-2.0/glib/ghmac.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_hmac_get_digest[None](hmac: NullablePointer[GHmac] tag, buffer: Pointer[U8] tag, digestlen: Pointer[U64] tag)
+

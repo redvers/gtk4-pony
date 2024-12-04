@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:579
+  Original Name: g_main_loop_new/usr/include/glib-2.0/glib/gmain.h:579
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [FundamentalType(int) size=32]
+*/
+use @g_main_loop_new[NullablePointer[GMainLoop]](context: NullablePointer[GMainContext] tag, isrunning: I32)
+

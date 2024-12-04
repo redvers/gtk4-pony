@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:182
+  Original Name: gtk_about_dialog_get_logo_icon_name/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:182
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+*/
+use @gtk_about_dialog_get_logo_icon_name[Pointer[U8]](about: NullablePointer[GtkAboutDialog] tag)
+

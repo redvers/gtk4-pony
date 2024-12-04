@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:670
+  Original Name: g_unicode_script_from_iso15924/usr/include/glib-2.0/glib/gunicode.h:670
+
+  Return Value: [Enumeration size=32,fid: f86]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_unicode_script_from_iso15924[I32](iso15924: U32)
+

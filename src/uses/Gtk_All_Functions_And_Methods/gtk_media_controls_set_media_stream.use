@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediacontrols.h:42
+  Original Name: gtk_media_controls_set_media_stream/usr/include/gtk-4.0/gtk/gtkmediacontrols.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f656]
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_controls_set_media_stream[None](controls: NullablePointer[GtkMediaControls] tag, stream: NullablePointer[GtkMediaStream] tag)
+

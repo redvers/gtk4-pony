@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:81
+  Original Name: g_io_extension_point_get_extensions/usr/include/glib-2.0/gio/giomodule.h:81
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_io_extension_point_get_extensions[NullablePointer[GList]](extensionpoint: NullablePointer[GIOExtensionPoint] tag)
+

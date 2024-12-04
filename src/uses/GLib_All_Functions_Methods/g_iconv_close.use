@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gconvert.h:97
+  Original Name: g_iconv_close/usr/include/glib-2.0/glib/gconvert.h:97
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+*/
+use @g_iconv_close[I32](converter: NullablePointer[GIConv] tag)
+

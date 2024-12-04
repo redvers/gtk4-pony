@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:294
+  Original Name: g_pointer_type_register_static/usr/include/glib-2.0/gobject/gvaluetypes.h:294
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_pointer_type_register_static[U64](name: Pointer[U8] tag)
+

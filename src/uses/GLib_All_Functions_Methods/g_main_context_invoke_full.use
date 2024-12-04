@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:832
+  Original Name: g_main_context_invoke_full/usr/include/glib-2.0/glib/gmain.h:832
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_main_context_invoke_full[None](context: NullablePointer[GMainContext] tag, priority: I32, function: Pointer[None] tag, data: Pointer[None] tag, notify: Pointer[None] tag)
+

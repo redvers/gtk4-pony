@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevellayout.h:50
+  Original Name: gdk_toplevel_layout_equal/usr/include/gtk-4.0/gdk/gdktoplevellayout.h:50
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f428]
+    [PointerType size=64]->[Struct size=,fid: f428]
+*/
+use @gdk_toplevel_layout_equal[I32](layout: NullablePointer[GdkToplevelLayout] tag, other: NullablePointer[GdkToplevelLayout] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdatagrambased.h:122
+  Original Name: g_datagram_based_create_source/usr/include/glib-2.0/gio/gdatagrambased.h:122
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f85]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_datagram_based_create_source[NullablePointer[GSource]](datagrambased: NullablePointer[GDatagramBased] tag, condition: I32, cancellable: NullablePointer[GCancellable] tag)
+

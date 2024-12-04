@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:71
+  Original Name: gsk_path_builder_add_circle/usr/include/gtk-4.0/gsk/gskpathbuilder.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=64,fid: f443]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_path_builder_add_circle[None](self: NullablePointer[GskPathBuilder] tag, center: NullablePointer[Graphenepointt] tag, radius: F32)
+

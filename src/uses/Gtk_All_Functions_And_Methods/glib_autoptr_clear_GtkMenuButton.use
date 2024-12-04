@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:142
+  Original Name: glib_autoptr_clear_GtkMenuButton/usr/include/gtk-4.0/gtk/gtkmenubutton.h:142
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @glib_autoptr_clear_GtkMenuButton[None](ptr: NullablePointer[GtkMenuButton] tag)
+

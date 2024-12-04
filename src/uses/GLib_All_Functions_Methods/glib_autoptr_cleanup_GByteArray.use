@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:64
+  Original Name: glib_autoptr_cleanup_GByteArray/usr/include/glib-2.0/glib/glib-autocleanups.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @glib_autoptr_cleanup_GByteArray[None](ptr: Pointer[NullablePointer[GByteArray]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:34
+  Original Name: glib_autoptr_clear_GtkFileDialog/usr/include/gtk-4.0/gtk/gtkfiledialog.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+*/
+use @glib_autoptr_clear_GtkFileDialog[None](ptr: NullablePointer[GtkFileDialog] tag)
+

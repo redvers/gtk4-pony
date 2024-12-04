@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmarkup.h:238
+  Original Name: g_markup_vprintf_escaped/usr/include/glib-2.0/glib/gmarkup.h:238
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_markup_vprintf_escaped[Pointer[U8]](format: Pointer[U8] tag, args: NullablePointer[Valisttag] tag)
+

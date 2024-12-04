@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:28
+  Original Name: glib_autoptr_clear_GAction/usr/include/glib-2.0/gio/gio-autocleanups.h:28
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_clear_GAction[None](ptr: NullablePointer[GAction] tag)
+

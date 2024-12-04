@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:138
+  Original Name: g_task_run_in_thread_sync/usr/include/glib-2.0/gio/gtask.h:138
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_task_run_in_thread_sync[None](task: NullablePointer[GTask] tag, taskfunc: Pointer[None] tag)
+

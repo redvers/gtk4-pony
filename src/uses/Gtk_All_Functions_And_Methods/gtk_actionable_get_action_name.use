@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkactionable.h:57
+  Original Name: gtk_actionable_get_action_name/usr/include/gtk-4.0/gtk/gtkactionable.h:57
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f492]
+*/
+use @gtk_actionable_get_action_name[Pointer[U8]](actionable: NullablePointer[GtkActionable] tag)
+

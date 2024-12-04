@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxy.h:114
+  Original Name: g_proxy_connect_finish/usr/include/glib-2.0/gio/gproxy.h:114
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f193]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_proxy_connect_finish[NullablePointer[GIOStream]](proxy: NullablePointer[GProxy] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

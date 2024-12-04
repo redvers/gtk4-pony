@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:155
+  Original Name: gdk_toplevel_get_state/usr/include/gtk-4.0/gdk/gdktoplevel.h:155
+
+  Return Value: [Enumeration size=32,fid: f429]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+*/
+use @gdk_toplevel_get_state[I32](toplevel: NullablePointer[GdkToplevel] tag)
+

@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:158
+  Original Name: gtk_builder_value_from_string/usr/include/gtk-4.0/gtk/gtkbuilder.h:158
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=576,fid: f137]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_builder_value_from_string[I32](builder: NullablePointer[GtkBuilder] tag, pspec: NullablePointer[GParamSpec] tag, string: Pointer[U8] tag, value: NullablePointer[GValue] tag, error: Pointer[NullablePointer[GError]] tag)
+

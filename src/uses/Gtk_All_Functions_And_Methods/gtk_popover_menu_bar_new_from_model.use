@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopovermenubar.h:41
+  Original Name: gtk_popover_menu_bar_new_from_model/usr/include/gtk-4.0/gtk/gtkpopovermenubar.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @gtk_popover_menu_bar_new_from_model[NullablePointer[GtkWidget]](model: NullablePointer[GMenuModel] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:308
+  Original Name: g_uri_error_quark/usr/include/glib-2.0/glib/guri.h:308
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @g_uri_error_quark[U32]()
+

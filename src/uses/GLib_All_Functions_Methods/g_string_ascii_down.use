@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:157
+  Original Name: g_string_ascii_down/usr/include/glib-2.0/glib/gstring.h:157
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @g_string_ascii_down[NullablePointer[GString]](string: NullablePointer[GString] tag)
+

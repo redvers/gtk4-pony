@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:411
+  Original Name: g_mem_set_vtable/usr/include/glib-2.0/glib/gmem.h:411
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f76]
+*/
+use @g_mem_set_vtable[None](vtable: NullablePointer[GMemVTable] tag)
+

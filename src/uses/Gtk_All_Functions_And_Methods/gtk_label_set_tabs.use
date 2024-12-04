@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:180
+  Original Name: gtk_label_set_tabs/usr/include/gtk-4.0/gtk/gtklabel.h:180
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+    [PointerType size=64]->[Struct size=,fid: f358]
+*/
+use @gtk_label_set_tabs[None](self: NullablePointer[GtkLabel] tag, tabs: NullablePointer[PangoTabArray] tag)
+

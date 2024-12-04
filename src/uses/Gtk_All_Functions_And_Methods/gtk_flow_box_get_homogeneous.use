@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:119
+  Original Name: gtk_flow_box_get_homogeneous/usr/include/gtk-4.0/gtk/gtkflowbox.h:119
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+*/
+use @gtk_flow_box_get_homogeneous[I32](box: NullablePointer[GtkFlowBox] tag)
+

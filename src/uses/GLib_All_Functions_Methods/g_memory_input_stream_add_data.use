@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemoryinputstream.h:77
+  Original Name: g_memory_input_stream_add_data/usr/include/glib-2.0/gio/gmemoryinputstream.h:77
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f187]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_memory_input_stream_add_data[None](stream: NullablePointer[GMemoryInputStream] tag, data: Pointer[None] tag, len: I64, destroy: Pointer[None] tag)
+

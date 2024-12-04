@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomfilter.h:53
+  Original Name: gtk_custom_filter_set_filter_func/usr/include/gtk-4.0/gtk/gtkcustomfilter.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f612]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_custom_filter_set_filter_func[None](self: NullablePointer[GtkCustomFilter] tag, matchfunc: Pointer[None] tag, userdata: Pointer[None] tag, userdestroy: Pointer[None] tag)
+

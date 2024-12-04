@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:480
+  Original Name: gdk_touchpad_event_get_pinch_scale/usr/include/gtk-4.0/gdk/gdkevents.h:480
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_touchpad_event_get_pinch_scale[F64](event: NullablePointer[GdkEvent] tag)
+

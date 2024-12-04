@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:376
+  Original Name: gsk_outset_shadow_node_get_dy/usr/include/gtk-4.0/gsk/gskrendernode.h:376
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_outset_shadow_node_get_dy[F32](node: NullablePointer[GskRenderNode] tag)
+

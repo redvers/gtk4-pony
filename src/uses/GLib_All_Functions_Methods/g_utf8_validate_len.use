@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:914
+  Original Name: g_utf8_validate_len/usr/include/glib-2.0/glib/gunicode.h:914
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_utf8_validate_len[I32](str: Pointer[U8] tag, maxlen: U64, end: Pointer[Pointer[U8]] tag)
+

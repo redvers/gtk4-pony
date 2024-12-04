@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:113
+  Original Name: g_dbus_connection_get_exit_on_close/usr/include/glib-2.0/gio/gdbusconnection.h:113
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_connection_get_exit_on_close[I32](connection: NullablePointer[GDBusConnection] tag)
+

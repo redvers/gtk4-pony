@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:258
+  Original Name: gtk_text_view_get_line_at_y/usr/include/gtk-4.0/gtk/gtktextview.h:258
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_text_view_get_line_at_y[None](textview: NullablePointer[GtkTextView] tag, targetiter: NullablePointer[GtkTextIter] tag, y: I32, linetop: Pointer[I32] tag)
+

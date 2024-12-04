@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplication.h:88
+  Original Name: gtk_application_get_menubar/usr/include/gtk-4.0/gtk/gtkapplication.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f173]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f485]
+*/
+use @gtk_application_get_menubar[NullablePointer[GMenuModel]](application: NullablePointer[GtkApplication] tag)
+

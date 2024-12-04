@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileiostream.h:111
+  Original Name: g_file_io_stream_get_etag/usr/include/glib-2.0/gio/gfileiostream.h:111
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f181]
+*/
+use @g_file_io_stream_get_etag[Pointer[U8]](stream: NullablePointer[GFileIOStream] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:322
+  Original Name: g_param_value_is_valid/usr/include/glib-2.0/gobject/gparam.h:322
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f137]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_param_value_is_valid[I32](pspec: NullablePointer[GParamSpec] tag, value: NullablePointer[GValue] tag)
+

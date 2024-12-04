@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:89
+  Original Name: glib_autoptr_clear_GRecMutexLocker/usr/include/glib-2.0/glib/glib-autocleanups.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @glib_autoptr_clear_GRecMutexLocker[None](ptr: Pointer[None] tag)
+

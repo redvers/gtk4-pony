@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedoutputstream.h:66
+  Original Name: g_buffered_output_stream_new/usr/include/glib-2.0/gio/gbufferedoutputstream.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f192]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f192]
+*/
+use @g_buffered_output_stream_new[NullablePointer[GOutputStream]](basestream: NullablePointer[GOutputStream] tag)
+

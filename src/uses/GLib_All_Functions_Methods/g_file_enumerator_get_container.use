@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileenumerator.h:134
+  Original Name: g_file_enumerator_get_container/usr/include/glib-2.0/gio/gfileenumerator.h:134
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f174]
+*/
+use @g_file_enumerator_get_container[NullablePointer[GFile]](enumerator: NullablePointer[GFileEnumerator] tag)
+

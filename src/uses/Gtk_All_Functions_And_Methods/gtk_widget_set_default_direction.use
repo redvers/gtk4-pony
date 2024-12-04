@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:657
+  Original Name: gtk_widget_set_default_direction/usr/include/gtk-4.0/gtk/gtkwidget.h:657
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_widget_set_default_direction[None](dir: I32)
+

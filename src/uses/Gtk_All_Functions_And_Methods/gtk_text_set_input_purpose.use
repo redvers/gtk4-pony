@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:109
+  Original Name: gtk_text_set_input_purpose/usr/include/gtk-4.0/gtk/gtktext.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_text_set_input_purpose[None](self: NullablePointer[GtkText] tag, purpose: I32)
+

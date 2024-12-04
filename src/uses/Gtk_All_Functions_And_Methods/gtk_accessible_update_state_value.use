@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:214
+  Original Name: gtk_accessible_update_state_value/usr/include/gtk-4.0/gtk/gtkaccessible.h:214
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Enumeration size=32,fid: f476]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @gtk_accessible_update_state_value[None](self: NullablePointer[GtkAccessible] tag, nstates: I32, states: Pointer[I32] tag, values: NullablePointer[GValue] tag)
+

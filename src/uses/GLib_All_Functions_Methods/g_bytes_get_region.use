@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbytes.h:91
+  Original Name: g_bytes_get_region/usr/include/glib-2.0/glib/gbytes.h:91
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_bytes_get_region[Pointer[None]](bytes: NullablePointer[GBytes] tag, elementsize: U64, offset: U64, nelements: U64)
+

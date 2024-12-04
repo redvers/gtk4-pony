@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:449
+  Original Name: gdk_key_event_is_modifier/usr/include/gtk-4.0/gdk/gdkevents.h:449
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_key_event_is_modifier[I32](event: NullablePointer[GdkEvent] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:65
+  Original Name: gtk_media_stream_get_error/usr/include/gtk-4.0/gtk/gtkmediastream.h:65
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f23]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_stream_get_error[NullablePointer[GError]](self: NullablePointer[GtkMediaStream] tag)
+

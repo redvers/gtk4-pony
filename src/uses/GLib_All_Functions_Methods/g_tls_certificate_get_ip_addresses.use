@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlscertificate.h:121
+  Original Name: g_tls_certificate_get_ip_addresses/usr/include/glib-2.0/gio/gtlscertificate.h:121
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f206]
+*/
+use @g_tls_certificate_get_ip_addresses[NullablePointer[GPtrArray]](cert: NullablePointer[GTlsCertificate] tag)
+

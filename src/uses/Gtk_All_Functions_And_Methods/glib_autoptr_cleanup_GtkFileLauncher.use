@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilelauncher.h:33
+  Original Name: glib_autoptr_cleanup_GtkFileLauncher/usr/include/gtk-4.0/gtk/gtkfilelauncher.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f610]
+*/
+use @glib_autoptr_cleanup_GtkFileLauncher[None](ptr: Pointer[NullablePointer[GtkFileLauncher]] tag)
+

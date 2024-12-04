@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:32
+  Original Name: GTK_IS_COLUMN_VIEW_ROW/usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:32
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_COLUMN_VIEW_ROW[I32](ptr: Pointer[None] tag)
+

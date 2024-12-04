@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenumodel.h:301
+  Original Name: g_menu_link_iter_get_name/usr/include/glib-2.0/gio/gmenumodel.h:301
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @g_menu_link_iter_get_name[Pointer[U8]](iter: NullablePointer[GMenuLinkIter] tag)
+

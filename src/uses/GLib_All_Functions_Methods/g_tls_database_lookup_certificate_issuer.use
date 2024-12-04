@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsdatabase.h:204
+  Original Name: g_tls_database_lookup_certificate_issuer/usr/include/glib-2.0/gio/gtlsdatabase.h:204
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f206]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f208]
+    [PointerType size=64]->[Struct size=256,fid: f206]
+    [PointerType size=64]->[Struct size=256,fid: f209]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_tls_database_lookup_certificate_issuer[NullablePointer[GTlsCertificate]](self: NullablePointer[GTlsDatabase] tag, certificate: NullablePointer[GTlsCertificate] tag, interaction: NullablePointer[GTlsInteraction] tag, flags: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

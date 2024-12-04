@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmultifilter.h:50
+  Original Name: glib_autoptr_cleanup_GtkEveryFilterClass/usr/include/gtk-4.0/gtk/gtkmultifilter.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f662]
+*/
+use @glib_autoptr_cleanup_GtkEveryFilterClass[None](ptr: Pointer[NullablePointer[GtkEveryFilterClass]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:80
+  Original Name: glib_autoptr_cleanup_GScanner/usr/include/glib-2.0/glib/glib-autocleanups.h:80
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1152,fid: f107]
+*/
+use @glib_autoptr_cleanup_GScanner[None](ptr: Pointer[NullablePointer[GScanner]] tag)
+

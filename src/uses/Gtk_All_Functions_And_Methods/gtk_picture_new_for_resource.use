@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:49
+  Original Name: gtk_picture_new_for_resource/usr/include/gtk-4.0/gtk/gtkpicture.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_picture_new_for_resource[NullablePointer[GtkWidget]](resourcepath: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmappedfile.h:53
+  Original Name: g_mapped_file_unref/usr/include/glib-2.0/glib/gmappedfile.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f91]
+*/
+use @g_mapped_file_unref[None](file: NullablePointer[GMappedFile] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:263
+  Original Name: glib_autoptr_clear_GtkWindowGroup/usr/include/gtk-4.0/gtk/gtkwindow.h:263
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f487]
+*/
+use @glib_autoptr_clear_GtkWindowGroup[None](ptr: NullablePointer[GtkWindowGroup] tag)
+

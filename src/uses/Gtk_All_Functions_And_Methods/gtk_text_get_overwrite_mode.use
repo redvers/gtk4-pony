@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:86
+  Original Name: gtk_text_get_overwrite_mode/usr/include/gtk-4.0/gtk/gtktext.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_get_overwrite_mode[I32](self: NullablePointer[GtkText] tag)
+

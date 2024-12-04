@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:126
+  Original Name: g_subprocess_communicate/usr/include/glib-2.0/gio/gsubprocess.h:126
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_subprocess_communicate[I32](subprocess: NullablePointer[GSubprocess] tag, stdinbuf: NullablePointer[GBytes] tag, cancellable: NullablePointer[GCancellable] tag, stdoutbuf: Pointer[NullablePointer[GBytes]] tag, stderrbuf: Pointer[NullablePointer[GBytes]] tag, error: Pointer[NullablePointer[GError]] tag)
+

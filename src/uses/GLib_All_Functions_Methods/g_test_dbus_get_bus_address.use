@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtestdbus.h:54
+  Original Name: g_test_dbus_get_bus_address/usr/include/glib-2.0/gio/gtestdbus.h:54
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_test_dbus_get_bus_address[Pointer[U8]](self: NullablePointer[GTestDBus] tag)
+

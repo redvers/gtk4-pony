@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/glib-types.h:392
+  Original Name: g_variant_type_get_gtype/usr/include/glib-2.0/gobject/glib-types.h:392
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_variant_type_get_gtype[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolume.h:204
+  Original Name: g_volume_can_eject/usr/include/glib-2.0/gio/gvolume.h:204
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_volume_can_eject[I32](volume: NullablePointer[GVolume] tag)
+

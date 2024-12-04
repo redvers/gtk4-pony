@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:681
+  Original Name: g_file_resolve_relative_path/usr/include/glib-2.0/gio/gfile.h:681
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_resolve_relative_path[NullablePointer[GFile]](file: NullablePointer[GFile] tag, relativepath: Pointer[U8] tag)
+

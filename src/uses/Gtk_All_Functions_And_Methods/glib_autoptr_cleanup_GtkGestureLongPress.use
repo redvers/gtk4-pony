@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturelongpress.h:53
+  Original Name: glib_autoptr_cleanup_GtkGestureLongPress/usr/include/gtk-4.0/gtk/gtkgesturelongpress.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f626]
+*/
+use @glib_autoptr_cleanup_GtkGestureLongPress[None](ptr: Pointer[NullablePointer[GtkGestureLongPress]] tag)
+

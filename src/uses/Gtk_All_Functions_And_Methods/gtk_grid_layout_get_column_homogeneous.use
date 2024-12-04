@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridlayout.h:48
+  Original Name: gtk_grid_layout_get_column_homogeneous/usr/include/gtk-4.0/gtk/gtkgridlayout.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f635]
+*/
+use @gtk_grid_layout_get_column_homogeneous[I32](grid: NullablePointer[GtkGridLayout] tag)
+

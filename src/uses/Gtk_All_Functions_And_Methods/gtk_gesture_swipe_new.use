@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgestureswipe.h:45
+  Original Name: gtk_gesture_swipe_new/usr/include/gtk-4.0/gtk/gtkgestureswipe.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+*/
+use @gtk_gesture_swipe_new[NullablePointer[GtkGesture]]()
+

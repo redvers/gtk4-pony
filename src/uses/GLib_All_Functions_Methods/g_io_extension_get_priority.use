@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:96
+  Original Name: g_io_extension_get_priority/usr/include/glib-2.0/gio/giomodule.h:96
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_io_extension_get_priority[I32](extension: NullablePointer[GIOExtension] tag)
+

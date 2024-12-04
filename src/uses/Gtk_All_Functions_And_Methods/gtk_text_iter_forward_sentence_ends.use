@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:289
+  Original Name: gtk_text_iter_forward_sentence_ends/usr/include/gtk-4.0/gtk/gtktextiter.h:289
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_iter_forward_sentence_ends[I32](iter: NullablePointer[GtkTextIter] tag, count: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:103
+  Original Name: glib_auto_cleanup_GStrv/usr/include/glib-2.0/glib/glib-autocleanups.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @glib_auto_cleanup_GStrv[None](ptr: NullablePointer[Array[String]] tag)
+

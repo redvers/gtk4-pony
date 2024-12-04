@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:545
+  Original Name: gsk_text_node_get_num_glyphs/usr/include/gtk-4.0/gsk/gskrendernode.h:545
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_text_node_get_num_glyphs[U32](node: NullablePointer[GskRenderNode] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:244
+  Original Name: g_value_set_float/usr/include/glib-2.0/gobject/gvaluetypes.h:244
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [FundamentalType(float) size=32]
+*/
+use @g_value_set_float[None](value: NullablePointer[GValue] tag, vfloat: F32)
+

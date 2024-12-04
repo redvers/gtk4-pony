@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:90
+  Original Name: g_async_queue_length/usr/include/glib-2.0/glib/gasyncqueue.h:90
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+*/
+use @g_async_queue_length[I32](queue: NullablePointer[GAsyncQueue] tag)
+

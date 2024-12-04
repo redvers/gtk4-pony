@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkactionable.h:69
+  Original Name: gtk_actionable_set_action_target/usr/include/gtk-4.0/gtk/gtkactionable.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f492]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_actionable_set_action_target[None](actionable: NullablePointer[GtkActionable] tag, formatstring: Pointer[U8] tag, ...)
+

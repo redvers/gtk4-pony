@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktexturedownloader.h:58
+  Original Name: gdk_texture_downloader_download_bytes/usr/include/gtk-4.0/gdk/gdktexturedownloader.h:58
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @gdk_texture_downloader_download_bytes[NullablePointer[GBytes]](self: NullablePointer[GdkTextureDownloader] tag, outstride: Pointer[U64] tag)
+

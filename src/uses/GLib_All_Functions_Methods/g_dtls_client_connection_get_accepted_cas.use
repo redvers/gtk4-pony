@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsclientconnection.h:72
+  Original Name: g_dtls_client_connection_get_accepted_cas/usr/include/glib-2.0/gio/gdtlsclientconnection.h:72
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dtls_client_connection_get_accepted_cas[NullablePointer[GList]](conn: NullablePointer[GDtlsClientConnection] tag)
+

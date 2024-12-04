@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:134
+  Original Name: gtk_notebook_next_page/usr/include/gtk-4.0/gtk/gtknotebook.h:134
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_next_page[None](notebook: NullablePointer[GtkNotebook] tag)
+

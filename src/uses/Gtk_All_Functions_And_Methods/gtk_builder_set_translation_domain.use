@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:144
+  Original Name: gtk_builder_set_translation_domain/usr/include/gtk-4.0/gtk/gtkbuilder.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_builder_set_translation_domain[None](builder: NullablePointer[GtkBuilder] tag, domain: Pointer[U8] tag)
+

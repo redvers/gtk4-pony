@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragicon.h:48
+  Original Name: gtk_drag_icon_set_from_paintable/usr/include/gtk-4.0/gtk/gtkdragicon.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f422]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_drag_icon_set_from_paintable[None](drag: NullablePointer[GdkDrag] tag, paintable: NullablePointer[GdkPaintable] tag, hotx: I32, hoty: I32)
+

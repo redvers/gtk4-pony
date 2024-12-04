@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:132
+  Original Name: g_simple_async_result_is_valid/usr/include/glib-2.0/gio/gsimpleasyncresult.h:132
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_simple_async_result_is_valid[I32](result: NullablePointer[GAsyncResult] tag, source: NullablePointer[GObject] tag, sourcetag: Pointer[None] tag)
+

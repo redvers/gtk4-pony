@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopuplayout.h:100
+  Original Name: gdk_popup_layout_get_anchor_rect/usr/include/gtk-4.0/gdk/gdkpopuplayout.h:100
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f318]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f404]
+*/
+use @gdk_popup_layout_get_anchor_rect[NullablePointer[Cairorectangleint]](layout: NullablePointer[GdkPopupLayout] tag)
+

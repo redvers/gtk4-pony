@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:117
+  Original Name: g_dbus_interface_skeleton_get_object_path/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:117
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f221]
+*/
+use @g_dbus_interface_skeleton_get_object_path[Pointer[U8]](interface: NullablePointer[GDBusInterfaceSkeleton] tag)
+

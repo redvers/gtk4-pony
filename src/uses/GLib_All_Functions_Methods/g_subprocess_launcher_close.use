@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:109
+  Original Name: g_subprocess_launcher_close/usr/include/glib-2.0/gio/gsubprocesslauncher.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_subprocess_launcher_close[None](self: NullablePointer[GSubprocessLauncher] tag)
+

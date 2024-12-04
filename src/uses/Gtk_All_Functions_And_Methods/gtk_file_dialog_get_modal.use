@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:47
+  Original Name: gtk_file_dialog_get_modal/usr/include/gtk-4.0/gtk/gtkfiledialog.h:47
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+*/
+use @gtk_file_dialog_get_modal[I32](self: NullablePointer[GtkFileDialog] tag)
+

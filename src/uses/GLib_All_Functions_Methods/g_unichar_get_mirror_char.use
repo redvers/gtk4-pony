@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:739
+  Original Name: g_unichar_get_mirror_char/usr/include/glib-2.0/glib/gunicode.h:739
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @g_unichar_get_mirror_char[I32](ch: U32, mirroredch: Pointer[U32] tag)
+

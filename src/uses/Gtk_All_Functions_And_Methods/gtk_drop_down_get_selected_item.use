@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropdown.h:53
+  Original Name: gtk_drop_down_get_selected_item/usr/include/gtk-4.0/gtk/gtkdropdown.h:53
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f592]
+*/
+use @gtk_drop_down_get_selected_item[Pointer[None]](self: NullablePointer[GtkDropDown] tag)
+

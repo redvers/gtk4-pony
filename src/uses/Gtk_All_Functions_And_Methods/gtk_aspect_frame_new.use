@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:46
+  Original Name: gtk_aspect_frame_new/usr/include/gtk-4.0/gtk/gtkaspectframe.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_aspect_frame_new[NullablePointer[GtkWidget]](xalign: F32, yalign: F32, ratio: F32, obeychild: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmethodinvocation.h:78
+  Original Name: g_dbus_method_invocation_get_object_path/usr/include/glib-2.0/gio/gdbusmethodinvocation.h:78
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_method_invocation_get_object_path[Pointer[U8]](invocation: NullablePointer[GDBusMethodInvocation] tag)
+

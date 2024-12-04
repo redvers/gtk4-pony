@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:52
+  Original Name: gdk_content_deserializer_get_gtype/usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:52
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f391]
+*/
+use @gdk_content_deserializer_get_gtype[U64](deserializer: NullablePointer[GdkContentDeserializer] tag)
+

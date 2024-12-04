@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcontenttype.h:44
+  Original Name: g_content_type_is_unknown/usr/include/glib-2.0/gio/gcontenttype.h:44
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_content_type_is_unknown[I32](type: Pointer[U8] tag)
+

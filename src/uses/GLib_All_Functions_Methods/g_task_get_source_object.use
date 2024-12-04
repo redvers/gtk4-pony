@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:109
+  Original Name: g_task_get_source_object/usr/include/glib-2.0/gio/gtask.h:109
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_task_get_source_object[Pointer[None]](task: NullablePointer[GTask] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksizegroup.h:46
+  Original Name: gtk_size_group_set_mode/usr/include/gtk-4.0/gtk/gtksizegroup.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f715]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_size_group_set_mode[None](sizegroup: NullablePointer[GtkSizeGroup] tag, mode: I32)
+

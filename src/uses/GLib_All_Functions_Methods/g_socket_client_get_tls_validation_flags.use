@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:116
+  Original Name: g_socket_client_get_tls_validation_flags/usr/include/glib-2.0/gio/gsocketclient.h:116
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+*/
+use @g_socket_client_get_tls_validation_flags[I32](client: NullablePointer[GSocketClient] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturedrag.h:47
+  Original Name: gtk_gesture_drag_get_start_point/usr/include/gtk-4.0/gtk/gtkgesturedrag.h:47
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f625]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_gesture_drag_get_start_point[I32](gesture: NullablePointer[GtkGestureDrag] tag, x: Pointer[F64] tag, y: Pointer[F64] tag)
+

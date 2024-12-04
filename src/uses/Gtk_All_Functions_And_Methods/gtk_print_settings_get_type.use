@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:57
+  Original Name: gtk_print_settings_get_type/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:57
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_print_settings_get_type[U64]()
+

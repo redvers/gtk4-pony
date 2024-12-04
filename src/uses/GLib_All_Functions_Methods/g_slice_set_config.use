@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslice.h:104
+  Original Name: g_slice_set_config/usr/include/glib-2.0/glib/gslice.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f110]
+    [FundamentalType(long int) size=64]
+*/
+use @g_slice_set_config[None](ckey: I32, value: I64)
+

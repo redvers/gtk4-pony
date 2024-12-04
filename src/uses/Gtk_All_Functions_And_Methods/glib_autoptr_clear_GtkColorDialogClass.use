@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolordialog.h:33
+  Original Name: glib_autoptr_clear_GtkColorDialogClass/usr/include/gtk-4.0/gtk/gtkcolordialog.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1088,fid: f549]
+*/
+use @glib_autoptr_clear_GtkColorDialogClass[None](ptr: NullablePointer[] tag)
+

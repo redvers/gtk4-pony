@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:117
+  Original Name: g_hook_ref/usr/include/glib-2.0/glib/ghook.h:117
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f81]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [PointerType size=64]->[Struct size=512,fid: f81]
+*/
+use @g_hook_ref[NullablePointer[GHook]](hooklist: NullablePointer[GHookList] tag, hook: NullablePointer[GHook] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:434
+  Original Name: glib_autoptr_clear_GtkTextView/usr/include/gtk-4.0/gtk/gtktextview.h:434
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+*/
+use @glib_autoptr_clear_GtkTextView[None](ptr: NullablePointer[GtkTextView] tag)
+

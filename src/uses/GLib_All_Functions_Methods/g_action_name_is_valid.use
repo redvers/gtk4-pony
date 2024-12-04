@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gaction.h:86
+  Original Name: g_action_name_is_valid/usr/include/glib-2.0/gio/gaction.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_action_name_is_valid[I32](actionname: Pointer[U8] tag)
+

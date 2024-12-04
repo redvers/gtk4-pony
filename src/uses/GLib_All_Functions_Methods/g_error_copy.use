@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gerror.h:210
+  Original Name: g_error_copy/usr/include/glib-2.0/glib/gerror.h:210
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f23]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_error_copy[NullablePointer[GError]](error: NullablePointer[GError] tag)
+

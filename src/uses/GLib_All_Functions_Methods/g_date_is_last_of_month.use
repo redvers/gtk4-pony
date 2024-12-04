@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:219
+  Original Name: g_date_is_last_of_month/usr/include/glib-2.0/glib/gdate.h:219
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_is_last_of_month[I32](date: NullablePointer[GDate] tag)
+

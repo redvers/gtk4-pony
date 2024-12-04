@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturepan.h:50
+  Original Name: gtk_gesture_pan_set_orientation/usr/include/gtk-4.0/gtk/gtkgesturepan.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f627]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_gesture_pan_set_orientation[None](gesture: NullablePointer[GtkGesturePan] tag, orientation: I32)
+

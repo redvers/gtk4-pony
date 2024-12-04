@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:71
+  Original Name: gsk_transform_to_affine/usr/include/gtk-4.0/gsk/gsktransform.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+*/
+use @gsk_transform_to_affine[None](self: NullablePointer[GskTransform] tag, outscalex: Pointer[F32] tag, outscaley: Pointer[F32] tag, outdx: Pointer[F32] tag, outdy: Pointer[F32] tag)
+

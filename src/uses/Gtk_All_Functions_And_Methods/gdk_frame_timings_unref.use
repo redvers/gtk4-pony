@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframetimings.h:36
+  Original Name: gdk_frame_timings_unref/usr/include/gtk-4.0/gdk/gdkframetimings.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f401]
+*/
+use @gdk_frame_timings_unref[None](timings: NullablePointer[GdkFrameTimings] tag)
+

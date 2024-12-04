@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:138
+  Original Name: glib_autoptr_cleanup_GTask/usr/include/glib-2.0/gio/gio-autocleanups.h:138
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_cleanup_GTask[None](ptr: Pointer[NullablePointer[GTask]] tag)
+

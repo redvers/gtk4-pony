@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:211
+  Original Name: g_settings_is_writable/usr/include/glib-2.0/gio/gsettings.h:211
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_settings_is_writable[I32](settings: NullablePointer[GSettings] tag, name: Pointer[U8] tag)
+

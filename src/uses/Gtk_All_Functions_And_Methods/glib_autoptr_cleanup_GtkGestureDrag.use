@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturedrag.h:55
+  Original Name: glib_autoptr_cleanup_GtkGestureDrag/usr/include/gtk-4.0/gtk/gtkgesturedrag.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f625]
+*/
+use @glib_autoptr_cleanup_GtkGestureDrag[None](ptr: Pointer[NullablePointer[GtkGestureDrag]] tag)
+

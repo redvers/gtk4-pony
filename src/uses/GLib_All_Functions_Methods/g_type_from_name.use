@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:747
+  Original Name: g_type_from_name/usr/include/glib-2.0/gobject/gtype.h:747
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_type_from_name[U64](name: Pointer[U8] tag)
+

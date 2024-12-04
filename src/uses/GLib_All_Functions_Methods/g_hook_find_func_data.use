@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:156
+  Original Name: g_hook_find_func_data/usr/include/glib-2.0/glib/ghook.h:156
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f81]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_hook_find_func_data[NullablePointer[GHook]](hooklist: NullablePointer[GHookList] tag, needvalids: I32, func: Pointer[None] tag, data: Pointer[None] tag)
+

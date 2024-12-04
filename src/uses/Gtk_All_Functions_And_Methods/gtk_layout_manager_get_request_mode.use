@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutmanager.h:117
+  Original Name: gtk_layout_manager_get_request_mode/usr/include/gtk-4.0/gtk/gtklayoutmanager.h:117
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f479]
+*/
+use @gtk_layout_manager_get_request_mode[I32](manager: NullablePointer[GtkLayoutManager] tag)
+

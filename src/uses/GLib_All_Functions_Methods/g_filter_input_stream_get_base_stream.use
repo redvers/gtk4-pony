@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilterinputstream.h:66
+  Original Name: g_filter_input_stream_get_base_stream/usr/include/glib-2.0/gio/gfilterinputstream.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f176]
+*/
+use @g_filter_input_stream_get_base_stream[NullablePointer[GInputStream]](stream: NullablePointer[GFilterInputStream] tag)
+

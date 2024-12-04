@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistitem.h:69
+  Original Name: gtk_list_item_set_accessible_label/usr/include/gtk-4.0/gtk/gtklistitem.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_list_item_set_accessible_label[None](self: NullablePointer[GtkListItem] tag, label: Pointer[U8] tag)
+

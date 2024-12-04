@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gmodule.h:96
+  Original Name: g_module_supported/usr/include/glib-2.0/gmodule.h:96
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @g_module_supported[I32]()
+

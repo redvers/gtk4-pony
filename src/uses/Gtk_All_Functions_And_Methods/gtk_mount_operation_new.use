@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmountoperation.h:72
+  Original Name: gtk_mount_operation_new/usr/include/gtk-4.0/gtk/gtkmountoperation.h:72
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f189]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+*/
+use @gtk_mount_operation_new[NullablePointer[GMountOperation]](parent: NullablePointer[GtkWindow] tag)
+

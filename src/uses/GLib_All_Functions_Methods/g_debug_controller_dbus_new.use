@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:55
+  Original Name: g_debug_controller_dbus_new/usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f257]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_debug_controller_dbus_new[NullablePointer[GDebugControllerDBus]](connection: NullablePointer[GDBusConnection] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:141
+  Original Name: gtk_editable_get_enable_undo/usr/include/gtk-4.0/gtk/gtkeditable.h:141
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+*/
+use @gtk_editable_get_enable_undo[I32](editable: NullablePointer[GtkEditable] tag)
+

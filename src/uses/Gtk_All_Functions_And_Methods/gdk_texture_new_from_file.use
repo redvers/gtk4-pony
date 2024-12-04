@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktexture.h:70
+  Original Name: gdk_texture_new_from_file/usr/include/gtk-4.0/gdk/gdktexture.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_texture_new_from_file[NullablePointer[GdkTexture]](file: NullablePointer[GFile] tag, error: Pointer[NullablePointer[GError]] tag)
+

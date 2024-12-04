@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:79
+  Original Name: gtk_constraint_get_strength/usr/include/gtk-4.0/gtk/gtkconstraint.h:79
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f574]
+*/
+use @gtk_constraint_get_strength[I32](constraint: NullablePointer[GtkConstraint] tag)
+

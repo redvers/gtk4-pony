@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:194
+  Original Name: g_dbus_message_to_blob/usr/include/glib-2.0/gio/gdbusmessage.h:194
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_message_to_blob[Pointer[U8]](message: NullablePointer[GDBusMessage] tag, outsize: Pointer[U64] tag, capabilities: I32, error: Pointer[NullablePointer[GError]] tag)
+

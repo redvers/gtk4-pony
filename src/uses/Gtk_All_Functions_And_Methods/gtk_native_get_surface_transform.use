@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknative.h:52
+  Original Name: gtk_native_get_surface_transform/usr/include/gtk-4.0/gtk/gtknative.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_native_get_surface_transform[None](self: NullablePointer[GtkNative] tag, x: Pointer[F64] tag, y: Pointer[F64] tag)
+

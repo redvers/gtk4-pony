@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gliststore.h:78
+  Original Name: g_list_store_find/usr/include/glib-2.0/gio/gliststore.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f275]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @g_list_store_find[I32](store: NullablePointer[GListStore] tag, item: Pointer[None] tag, position: Pointer[U32] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:74
+  Original Name: gtk_menu_button_get_menu_model/usr/include/gtk-4.0/gtk/gtkmenubutton.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f173]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @gtk_menu_button_get_menu_model[NullablePointer[GMenuModel]](menubutton: NullablePointer[GtkMenuButton] tag)
+

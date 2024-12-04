@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:254
+  Original Name: gsk_linear_gradient_node_get_color_stops/usr/include/gtk-4.0/gsk/gskrendernode.h:254
+
+  Return Value: [PointerType size=64]->[Struct size=160,fid: f468]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @gsk_linear_gradient_node_get_color_stops[NullablePointer[GskColorStop]](node: NullablePointer[GskRenderNode] tag, nstops: Pointer[U64] tag)
+

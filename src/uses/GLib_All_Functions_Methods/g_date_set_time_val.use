@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:193
+  Original Name: g_date_set_time_val/usr/include/glib-2.0/glib/gdate.h:193
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @g_date_set_time_val[None](date: NullablePointer[GDate] tag, timeval: NullablePointer[GTimeVal] tag)
+

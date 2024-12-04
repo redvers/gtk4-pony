@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/glib-enumtypes.h:12
+  Original Name: g_unicode_type_get_type/usr/include/glib-2.0/gobject/glib-enumtypes.h:12
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_unicode_type_get_type[U64]()
+

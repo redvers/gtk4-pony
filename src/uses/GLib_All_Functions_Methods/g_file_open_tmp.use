@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:159
+  Original Name: g_file_open_tmp/usr/include/glib-2.0/glib/gfileutils.h:159
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_open_tmp[I32](tmpl: Pointer[U8] tag, nameused: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

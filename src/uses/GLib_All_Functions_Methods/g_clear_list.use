@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:153
+  Original Name: g_clear_list/usr/include/glib-2.0/glib/glist.h:153
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_clear_list[None](listptr: Pointer[NullablePointer[GList]] tag, destroy: Pointer[None] tag)
+

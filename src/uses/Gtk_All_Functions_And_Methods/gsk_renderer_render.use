@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrenderer.h:65
+  Original Name: gsk_renderer_render/usr/include/gtk-4.0/gsk/gskrenderer.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gsk_renderer_render[None](renderer: NullablePointer[GskRenderer] tag, root: NullablePointer[GskRenderNode] tag, region: NullablePointer[Cairoregion] tag)
+

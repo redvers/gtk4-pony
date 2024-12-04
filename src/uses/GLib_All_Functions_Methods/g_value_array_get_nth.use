@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluearray.h:58
+  Original Name: g_value_array_get_nth/usr/include/glib-2.0/gobject/gvaluearray.h:58
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f136]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f153]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_value_array_get_nth[NullablePointer[GValue]](valuearray: NullablePointer[GValueArray] tag, index: U32)
+

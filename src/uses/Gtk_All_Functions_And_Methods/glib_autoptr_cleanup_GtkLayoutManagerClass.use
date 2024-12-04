@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutmanager.h:31
+  Original Name: glib_autoptr_cleanup_GtkLayoutManagerClass/usr/include/gtk-4.0/gtk/gtklayoutmanager.h:31
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=2560,fid: f479]
+*/
+use @glib_autoptr_cleanup_GtkLayoutManagerClass[None](ptr: Pointer[NullablePointer[GtkLayoutManagerClass]] tag)
+

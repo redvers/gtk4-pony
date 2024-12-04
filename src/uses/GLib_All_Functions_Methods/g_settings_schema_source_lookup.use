@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettingsschema.h:51
+  Original Name: g_settings_schema_source_lookup/usr/include/glib-2.0/gio/gsettingsschema.h:51
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f294]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_settings_schema_source_lookup[NullablePointer[GSettingsSchema]](source: NullablePointer[GSettingsSchemaSource] tag, schemaid: Pointer[U8] tag, recursive: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutsgroup.h:41
+  Original Name: gtk_shortcuts_group_add_shortcut/usr/include/gtk-4.0/gtk/gtkshortcutsgroup.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f501]
+    [PointerType size=64]->[Struct size=,fid: f500]
+*/
+use @gtk_shortcuts_group_add_shortcut[None](self: NullablePointer[GtkShortcutsGroup] tag, shortcut: NullablePointer[GtkShortcutsShortcut] tag)
+

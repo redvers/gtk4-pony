@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:678
+  Original Name: g_file_get_relative_path/usr/include/glib-2.0/gio/gfile.h:678
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_get_relative_path[Pointer[U8]](parent: NullablePointer[GFile] tag, descendant: NullablePointer[GFile] tag)
+

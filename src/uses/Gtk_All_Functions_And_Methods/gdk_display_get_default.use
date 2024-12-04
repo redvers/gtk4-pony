@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:79
+  Original Name: gdk_display_get_default/usr/include/gtk-4.0/gdk/gdkdisplay.h:79
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+*/
+use @gdk_display_get_default[NullablePointer[GdkDisplay]]()
+

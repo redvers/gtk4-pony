@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:90
+  Original Name: gtk_notebook_insert_page/usr/include/gtk-4.0/gtk/gtknotebook.h:90
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_notebook_insert_page[I32](notebook: NullablePointer[GtkNotebook] tag, child: NullablePointer[GtkWidget] tag, tablabel: NullablePointer[GtkWidget] tag, position: I32)
+

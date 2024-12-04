@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:85
+  Original Name: gtk_application_inhibit_flags_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:85
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_application_inhibit_flags_get_type[U64]()
+

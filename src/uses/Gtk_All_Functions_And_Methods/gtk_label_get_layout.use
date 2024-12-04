@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:144
+  Original Name: gtk_label_get_layout/usr/include/gtk-4.0/gtk/gtklabel.h:144
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f359]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_layout[NullablePointer[PangoLayout]](self: NullablePointer[GtkLabel] tag)
+

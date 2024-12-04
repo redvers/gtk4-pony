@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/genviron.h:41
+  Original Name: g_setenv/usr/include/glib-2.0/glib/genviron.h:41
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_setenv[I32](variable: Pointer[U8] tag, value: Pointer[U8] tag, overwrite: I32)
+

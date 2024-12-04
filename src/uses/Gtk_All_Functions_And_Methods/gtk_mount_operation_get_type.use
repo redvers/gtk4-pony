@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmountoperation.h:70
+  Original Name: gtk_mount_operation_get_type/usr/include/gtk-4.0/gtk/gtkmountoperation.h:70
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_mount_operation_get_type[U64]()
+

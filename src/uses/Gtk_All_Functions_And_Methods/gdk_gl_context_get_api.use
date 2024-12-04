@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:83
+  Original Name: gdk_gl_context_get_api/usr/include/gtk-4.0/gdk/gdkglcontext.h:83
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_gl_context_get_api[I32](self: NullablePointer[GdkGLContext] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathpoint.h:53
+  Original Name: gsk_path_point_copy/usr/include/gtk-4.0/gsk/gskpathpoint.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f462]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f462]
+*/
+use @gsk_path_point_copy[NullablePointer[GskPathPoint]](point: NullablePointer[GskPathPoint] tag)
+

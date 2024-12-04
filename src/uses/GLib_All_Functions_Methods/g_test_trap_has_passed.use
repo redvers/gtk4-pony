@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:525
+  Original Name: g_test_trap_has_passed/usr/include/glib-2.0/glib/gtestutils.h:525
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @g_test_trap_has_passed[I32]()
+

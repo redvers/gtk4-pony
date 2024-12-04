@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentserializer.h:71
+  Original Name: gdk_content_serializer_return_success/usr/include/gtk-4.0/gdk/gdkcontentserializer.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f394]
+*/
+use @gdk_content_serializer_return_success[None](serializer: NullablePointer[GdkContentSerializer] tag)
+

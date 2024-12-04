@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrenderer.h:57
+  Original Name: gsk_renderer_is_realized/usr/include/gtk-4.0/gsk/gskrenderer.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_renderer_is_realized[I32](renderer: NullablePointer[GskRenderer] tag)
+

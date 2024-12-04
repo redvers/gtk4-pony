@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:118
+  Original Name: gsk_path_get_stroke_bounds/usr/include/gtk-4.0/gsk/gskpath.h:118
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gsk_path_get_stroke_bounds[I32](self: NullablePointer[GskPath] tag, stroke: NullablePointer[GskStroke] tag, bounds: NullablePointer[Graphenerectt] tag)
+

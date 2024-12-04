@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:53
+  Original Name: g_menu_insert_item/usr/include/glib-2.0/gio/gmenu.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f278]
+*/
+use @g_menu_insert_item[None](menu: NullablePointer[GMenu] tag, position: I32, item: NullablePointer[GMenuItem] tag)
+

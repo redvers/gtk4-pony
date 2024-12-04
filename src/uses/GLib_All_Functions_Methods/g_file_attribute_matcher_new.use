@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1517
+  Original Name: g_file_attribute_matcher_new/usr/include/glib-2.0/gio/gfileinfo.h:1517
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_attribute_matcher_new[NullablePointer[GFileAttributeMatcher]](attributes: Pointer[U8] tag)
+

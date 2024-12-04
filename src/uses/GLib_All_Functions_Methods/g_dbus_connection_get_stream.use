@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:101
+  Original Name: g_dbus_connection_get_stream/usr/include/glib-2.0/gio/gdbusconnection.h:101
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f193]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_connection_get_stream[NullablePointer[GIOStream]](connection: NullablePointer[GDBusConnection] tag)
+

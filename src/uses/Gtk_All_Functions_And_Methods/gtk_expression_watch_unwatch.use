@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:84
+  Original Name: gtk_expression_watch_unwatch/usr/include/gtk-4.0/gtk/gtkexpression.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_expression_watch_unwatch[None](watch: NullablePointer[GtkExpressionWatch] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:112
+  Original Name: gtk_notebook_get_group_name/usr/include/gtk-4.0/gtk/gtknotebook.h:112
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_get_group_name[Pointer[U8]](notebook: NullablePointer[GtkNotebook] tag)
+

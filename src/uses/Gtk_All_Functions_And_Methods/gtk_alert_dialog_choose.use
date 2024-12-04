@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkalertdialog.h:82
+  Original Name: gtk_alert_dialog_choose/usr/include/gtk-4.0/gtk/gtkalertdialog.h:82
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f494]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_alert_dialog_choose[None](self: NullablePointer[GtkAlertDialog] tag, parent: NullablePointer[GtkWindow] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

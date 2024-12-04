@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:119
+  Original Name: glib_autoptr_clear_GSettingsSchemaKey/usr/include/glib-2.0/gio/gio-autocleanups.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+*/
+use @glib_autoptr_clear_GSettingsSchemaKey[None](ptr: NullablePointer[GSettingsSchemaKey] tag)
+

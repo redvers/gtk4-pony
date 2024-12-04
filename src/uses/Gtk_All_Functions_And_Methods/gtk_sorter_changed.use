@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksorter.h:114
+  Original Name: gtk_sorter_changed/usr/include/gtk-4.0/gtk/gtksorter.h:114
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f552]
+    [Enumeration size=32,fid: f552]
+*/
+use @gtk_sorter_changed[None](self: NullablePointer[GtkSorter] tag, change: I32)
+

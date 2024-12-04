@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:512
+  Original Name: gtk_widget_error_bell/usr/include/gtk-4.0/gtk/gtkwidget.h:512
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_error_bell[None](widget: NullablePointer[GtkWidget] tag)
+

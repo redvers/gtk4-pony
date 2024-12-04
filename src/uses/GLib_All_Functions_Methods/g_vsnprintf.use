@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:285
+  Original Name: g_vsnprintf/usr/include/glib-2.0/glib/gutils.h:285
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_vsnprintf[I32](string: Pointer[U8] tag, n: U64, format: Pointer[U8] tag, args: NullablePointer[Valisttag] tag)
+

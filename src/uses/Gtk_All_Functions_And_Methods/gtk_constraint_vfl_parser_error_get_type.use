@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:213
+  Original Name: gtk_constraint_vfl_parser_error_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:213
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_constraint_vfl_parser_error_get_type[U64]()
+

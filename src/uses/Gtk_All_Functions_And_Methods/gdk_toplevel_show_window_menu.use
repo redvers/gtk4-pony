@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:178
+  Original Name: gdk_toplevel_show_window_menu/usr/include/gtk-4.0/gdk/gdktoplevel.h:178
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_toplevel_show_window_menu[I32](toplevel: NullablePointer[GdkToplevel] tag, event: NullablePointer[GdkEvent] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:738
+  Original Name: g_test_expect_message/usr/include/glib-2.0/glib/gtestutils.h:738
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f95]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_expect_message[None](logdomain: Pointer[U8] tag, loglevel: I32, pattern: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprogressbar.h:85
+  Original Name: glib_autoptr_clear_GtkProgressBar/usr/include/gtk-4.0/gtk/gtkprogressbar.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f686]
+*/
+use @glib_autoptr_clear_GtkProgressBar[None](ptr: NullablePointer[GtkProgressBar] tag)
+

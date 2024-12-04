@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:330
+  Original Name: g_param_values_cmp/usr/include/glib-2.0/gobject/gparam.h:330
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f137]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_param_values_cmp[I32](pspec: NullablePointer[GParamSpec] tag, value1: NullablePointer[GValue] tag, value2: NullablePointer[GValue] tag)
+

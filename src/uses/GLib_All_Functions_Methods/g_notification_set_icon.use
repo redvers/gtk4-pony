@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnotification.h:53
+  Original Name: g_notification_set_icon/usr/include/glib-2.0/gio/gnotification.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_notification_set_icon[None](notification: NullablePointer[GNotification] tag, icon: NullablePointer[GIcon] tag)
+

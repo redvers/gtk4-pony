@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:364
+  Original Name: g_variant_type_new_dict_entry/usr/include/glib-2.0/glib/gvarianttype.h:364
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f93]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_type_new_dict_entry[NullablePointer[GVariantType]](key: NullablePointer[GVariantType] tag, value: NullablePointer[GVariantType] tag)
+

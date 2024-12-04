@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmethodinvocation.h:94
+  Original Name: g_dbus_method_invocation_get_user_data/usr/include/glib-2.0/gio/gdbusmethodinvocation.h:94
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_method_invocation_get_user_data[Pointer[None]](invocation: NullablePointer[GDBusMethodInvocation] tag)
+

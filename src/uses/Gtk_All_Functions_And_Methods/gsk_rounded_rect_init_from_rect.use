@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskroundedrect.h:65
+  Original Name: gsk_rounded_rect_init_from_rect/usr/include/gtk-4.0/gsk/gskroundedrect.h:65
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f463]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_rounded_rect_init_from_rect[NullablePointer[GskRoundedRect]](self: NullablePointer[GskRoundedRect] tag, bounds: NullablePointer[Graphenerectt] tag, radius: F32)
+

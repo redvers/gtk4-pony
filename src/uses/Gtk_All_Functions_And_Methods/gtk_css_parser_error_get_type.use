@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcssenumtypes.h:17
+  Original Name: gtk_css_parser_error_get_type/usr/include/gtk-4.0/gtk/css/gtkcssenumtypes.h:17
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_css_parser_error_get_type[U64]()
+

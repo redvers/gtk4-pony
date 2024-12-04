@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:472
+  Original Name: g_main_context_remove_poll/usr/include/glib-2.0/glib/gmain.h:472
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [PointerType size=64]->[Struct size=64,fid: f83]
+*/
+use @g_main_context_remove_poll[None](context: NullablePointer[GMainContext] tag, fd: NullablePointer[GPollFD] tag)
+

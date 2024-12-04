@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:127
+  Original Name: g_menu_item_new_section/usr/include/glib-2.0/gio/gmenu.h:127
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f278]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @g_menu_item_new_section[NullablePointer[GMenuItem]](label: Pointer[U8] tag, section: NullablePointer[GMenuModel] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridlayout.h:86
+  Original Name: gtk_grid_layout_child_set_row_span/usr/include/gtk-4.0/gtk/gtkgridlayout.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f635]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_grid_layout_child_set_row_span[None](child: NullablePointer[GtkGridLayoutChild] tag, span: I32)
+

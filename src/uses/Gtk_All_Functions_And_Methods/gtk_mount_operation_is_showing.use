@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmountoperation.h:74
+  Original Name: gtk_mount_operation_is_showing/usr/include/gtk-4.0/gtk/gtkmountoperation.h:74
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f661]
+*/
+use @gtk_mount_operation_is_showing[I32](op: NullablePointer[GtkMountOperation] tag)
+

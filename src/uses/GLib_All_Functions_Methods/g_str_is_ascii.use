@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:265
+  Original Name: g_str_is_ascii/usr/include/glib-2.0/glib/gstrfuncs.h:265
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_str_is_ascii[I32](str: Pointer[U8] tag)
+

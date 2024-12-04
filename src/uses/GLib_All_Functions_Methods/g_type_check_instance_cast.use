@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2621
+  Original Name: g_type_check_instance_cast/usr/include/glib-2.0/gobject/gtype.h:2621
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f135]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f135]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_check_instance_cast[NullablePointer[GTypeInstance]](instance: NullablePointer[GTypeInstance] tag, ifacetype: U64)
+

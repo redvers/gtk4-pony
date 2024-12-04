@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:181
+  Original Name: g_io_channel_seek/usr/include/glib-2.0/glib/giochannel.h:181
+
+  Return Value: [Enumeration size=32,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [FundamentalType(long int) size=64]
+    [Enumeration size=32,fid: f89]
+*/
+use @g_io_channel_seek[I32](channel: NullablePointer[GIOChannel] tag, offset: I64, type: I32)
+

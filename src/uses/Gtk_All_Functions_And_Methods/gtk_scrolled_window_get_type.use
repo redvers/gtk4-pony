@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:93
+  Original Name: gtk_scrolled_window_get_type/usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:93
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_scrolled_window_get_type[U64]()
+

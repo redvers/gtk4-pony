@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:272
+  Original Name: g_value_get_pointer/usr/include/glib-2.0/gobject/gvaluetypes.h:272
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_get_pointer[Pointer[None]](value: NullablePointer[GValue] tag)
+

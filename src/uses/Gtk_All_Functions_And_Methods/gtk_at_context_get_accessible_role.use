@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkatcontext.h:41
+  Original Name: gtk_at_context_get_accessible_role/usr/include/gtk-4.0/gtk/gtkatcontext.h:41
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_at_context_get_accessible_role[I32](self: NullablePointer[GtkATContext] tag)
+

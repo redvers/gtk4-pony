@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdatainputstream.h:161
+  Original Name: g_data_input_stream_read_upto_async/usr/include/glib-2.0/gio/gdatainputstream.h:161
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f167]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_data_input_stream_read_upto_async[None](stream: NullablePointer[GDataInputStream] tag, stopchars: Pointer[U8] tag, stopcharslen: I64, iopriority: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

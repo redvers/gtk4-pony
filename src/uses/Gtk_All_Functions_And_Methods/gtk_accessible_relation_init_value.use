@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:245
+  Original Name: gtk_accessible_relation_init_value/usr/include/gtk-4.0/gtk/gtkaccessible.h:245
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f476]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @gtk_accessible_relation_init_value[None](relation: I32, value: NullablePointer[GValue] tag)
+

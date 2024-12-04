@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:116
+  Original Name: gtk_print_settings_get_double_with_default/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:116
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_print_settings_get_double_with_default[F64](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag, def: F64)
+

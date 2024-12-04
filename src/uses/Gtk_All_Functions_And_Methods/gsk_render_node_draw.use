@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:126
+  Original Name: gsk_render_node_draw/usr/include/gtk-4.0/gsk/gskrendernode.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gsk_render_node_draw[None](node: NullablePointer[GskRenderNode] tag, cr: NullablePointer[Cairo] tag)
+

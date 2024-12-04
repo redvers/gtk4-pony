@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:132
+  Original Name: glib_autoptr_cleanup_GSocketControlMessage/usr/include/glib-2.0/gio/gio-autocleanups.h:132
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f196]
+*/
+use @glib_autoptr_cleanup_GSocketControlMessage[None](ptr: Pointer[NullablePointer[GSocketControlMessage]] tag)
+

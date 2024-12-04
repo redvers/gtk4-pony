@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscalebutton.h:95
+  Original Name: gtk_scale_button_get_minus_button/usr/include/gtk-4.0/gtk/gtkscalebutton.h:95
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f694]
+*/
+use @gtk_scale_button_get_minus_button[NullablePointer[GtkWidget]](button: NullablePointer[GtkScaleButton] tag)
+

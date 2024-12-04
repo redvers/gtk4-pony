@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:99
+  Original Name: gtk_stack_page_set_title/usr/include/gtk-4.0/gtk/gtkstack.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_stack_page_set_title[None](self: NullablePointer[GtkStackPage] tag, setting: Pointer[U8] tag)
+

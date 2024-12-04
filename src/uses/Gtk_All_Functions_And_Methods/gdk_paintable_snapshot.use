@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpaintable.h:110
+  Original Name: gdk_paintable_snapshot/usr/include/gtk-4.0/gdk/gdkpaintable.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f422]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gdk_paintable_snapshot[None](paintable: NullablePointer[GdkPaintable] tag, snapshot: NullablePointer[GdkSnapshot] tag, width: F64, height: F64)
+

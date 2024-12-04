@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h:100
+  Original Name: gtk_column_view_column_set_id/usr/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_column_view_column_set_id[None](self: NullablePointer[GtkColumnViewColumn] tag, id: Pointer[U8] tag)
+

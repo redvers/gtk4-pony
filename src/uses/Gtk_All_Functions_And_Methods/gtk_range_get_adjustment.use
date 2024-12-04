@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrange.h:87
+  Original Name: gtk_range_get_adjustment/usr/include/gtk-4.0/gtk/gtkrange.h:87
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f477]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f687]
+*/
+use @gtk_range_get_adjustment[NullablePointer[GtkAdjustment]](range: NullablePointer[GtkRange] tag)
+

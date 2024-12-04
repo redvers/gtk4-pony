@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkselectionmodel.h:132
+  Original Name: gtk_selection_model_unselect_all/usr/include/gtk-4.0/gtk/gtkselectionmodel.h:132
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f554]
+*/
+use @gtk_selection_model_unselect_all[I32](model: NullablePointer[GtkSelectionModel] tag)
+

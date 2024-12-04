@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocket.h:157
+  Original Name: g_socket_leave_multicast_group/usr/include/glib-2.0/gio/gsocket.h:157
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+    [PointerType size=64]->[Struct size=256,fid: f182]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_leave_multicast_group[I32](socket: NullablePointer[GSocket] tag, group: NullablePointer[GInetAddress] tag, sourcespecific: I32, iface: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

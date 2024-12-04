@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktogglebutton.h:78
+  Original Name: gtk_toggle_button_get_active/usr/include/gtk-4.0/gtk/gtktogglebutton.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f543]
+*/
+use @gtk_toggle_button_get_active[I32](togglebutton: NullablePointer[GtkToggleButton] tag)
+

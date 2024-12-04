@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplicationcommandline.h:86
+  Original Name: g_application_command_line_get_stdin/usr/include/glib-2.0/gio/gapplicationcommandline.h:86
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f170]
+*/
+use @g_application_command_line_get_stdin[NullablePointer[GInputStream]](cmdline: NullablePointer[GApplicationCommandLine] tag)
+

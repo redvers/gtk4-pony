@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdrive.h:193
+  Original Name: g_drive_is_media_check_automatic/usr/include/glib-2.0/gio/gdrive.h:193
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_drive_is_media_check_automatic[I32](drive: NullablePointer[GDrive] tag)
+

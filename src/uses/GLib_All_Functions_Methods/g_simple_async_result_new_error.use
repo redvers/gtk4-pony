@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:53
+  Original Name: g_simple_async_result_new_error/usr/include/glib-2.0/gio/gsimpleasyncresult.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_simple_async_result_new_error[NullablePointer[GSimpleAsyncResult]](sourceobject: NullablePointer[GObject] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag, domain: U32, code: I32, format: Pointer[U8] tag, ...)
+

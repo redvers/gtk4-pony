@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroup.h:100
+  Original Name: g_action_group_get_type/usr/include/glib-2.0/gio/gactiongroup.h:100
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_action_group_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:150
+  Original Name: glib_autoptr_cleanup_GTlsInteraction/usr/include/glib-2.0/gio/gio-autocleanups.h:150
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f209]
+*/
+use @glib_autoptr_cleanup_GTlsInteraction[None](ptr: Pointer[NullablePointer[GTlsInteraction]] tag)
+

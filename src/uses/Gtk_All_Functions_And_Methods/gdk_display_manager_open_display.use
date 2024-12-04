@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:54
+  Original Name: gdk_display_manager_open_display/usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_display_manager_open_display[NullablePointer[GdkDisplay]](manager: NullablePointer[GdkDisplayManager] tag, name: Pointer[U8] tag)
+

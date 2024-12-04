@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfixed.h:72
+  Original Name: gtk_fixed_remove/usr/include/gtk-4.0/gtk/gtkfixed.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f601]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_fixed_remove[None](fixed: NullablePointer[GtkFixed] tag, widget: NullablePointer[GtkWidget] tag)
+

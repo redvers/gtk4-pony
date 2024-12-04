@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:163
+  Original Name: gtk_entry_get_completion/usr/include/gtk-4.0/gtk/gtkentry.h:163
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f568]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_get_completion[NullablePointer[GtkEntryCompletion]](entry: NullablePointer[GtkEntry] tag)
+

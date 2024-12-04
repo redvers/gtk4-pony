@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdatagrambased.h:127
+  Original Name: g_datagram_based_condition_check/usr/include/glib-2.0/gio/gdatagrambased.h:127
+
+  Return Value: [Enumeration size=32,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f85]
+*/
+use @g_datagram_based_condition_check[I32](datagrambased: NullablePointer[GDatagramBased] tag, condition: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:118
+  Original Name: gtk_snapshot_gl_shader_pop_texture/usr/include/gtk-4.0/gtk/gtksnapshot.h:118
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_snapshot_gl_shader_pop_texture[None](snapshot: NullablePointer[GdkSnapshot] tag)
+

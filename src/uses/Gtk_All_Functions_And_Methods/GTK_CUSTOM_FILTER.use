@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomfilter.h:46
+  Original Name: GTK_CUSTOM_FILTER/usr/include/gtk-4.0/gtk/gtkcustomfilter.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f612]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_CUSTOM_FILTER[NullablePointer[GtkCustomFilter]](ptr: Pointer[None] tag)
+

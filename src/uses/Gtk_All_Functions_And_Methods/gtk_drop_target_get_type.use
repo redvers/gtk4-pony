@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdroptarget.h:45
+  Original Name: gtk_drop_target_get_type/usr/include/gtk-4.0/gtk/gtkdroptarget.h:45
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_drop_target_get_type[U64]()
+

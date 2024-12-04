@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gatomic.h:83
+  Original Name: g_atomic_pointer_exchange/usr/include/glib-2.0/glib/gatomic.h:83
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_atomic_pointer_exchange[Pointer[None]](atomic: Pointer[None] tag, newval: Pointer[None] tag)
+

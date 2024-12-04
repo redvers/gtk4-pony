@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:63
+  Original Name: gtk_graphics_offload_set_enabled/usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f633]
+    [Enumeration size=32,fid: f633]
+*/
+use @gtk_graphics_offload_set_enabled[None](self: NullablePointer[GtkGraphicsOffload] tag, enabled: I32)
+

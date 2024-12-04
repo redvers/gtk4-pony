@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:45
+  Original Name: gdk_display_manager_get/usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+*/
+use @gdk_display_manager_get[NullablePointer[GdkDisplayManager]]()
+

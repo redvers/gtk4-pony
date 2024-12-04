@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopuplayout.h:92
+  Original Name: gdk_popup_layout_equal/usr/include/gtk-4.0/gdk/gdkpopuplayout.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f404]
+    [PointerType size=64]->[Struct size=,fid: f404]
+*/
+use @gdk_popup_layout_equal[I32](layout: NullablePointer[GdkPopupLayout] tag, other: NullablePointer[GdkPopupLayout] tag)
+

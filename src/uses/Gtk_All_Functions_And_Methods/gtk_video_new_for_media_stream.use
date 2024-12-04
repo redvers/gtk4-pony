@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:40
+  Original Name: gtk_video_new_for_media_stream/usr/include/gtk-4.0/gtk/gtkvideo.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_video_new_for_media_stream[NullablePointer[GtkWidget]](stream: NullablePointer[GtkMediaStream] tag)
+

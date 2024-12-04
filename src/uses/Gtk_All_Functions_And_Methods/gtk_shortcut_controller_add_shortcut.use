@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:61
+  Original Name: gtk_shortcut_controller_add_shortcut/usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:61
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f705]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_shortcut_controller_add_shortcut[None](self: NullablePointer[GtkShortcutController] tag, shortcut: NullablePointer[GtkShortcut] tag)
+

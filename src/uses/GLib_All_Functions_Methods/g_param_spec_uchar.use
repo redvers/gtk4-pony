@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparamspecs.h:998
+  Original Name: g_param_spec_uchar/usr/include/glib-2.0/gobject/gparamspecs.h:998
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f137]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned char) size=8]
+    [FundamentalType(unsigned char) size=8]
+    [FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f137]
+*/
+use @g_param_spec_uchar[NullablePointer[GParamSpec]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, minimum: U8, maximum: U8, defaultvalue: U8, flags: I32)
+

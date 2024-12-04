@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:728
+  Original Name: g_get_current_time/usr/include/glib-2.0/glib/gmain.h:728
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @g_get_current_time[None](result: NullablePointer[GTimeVal] tag)
+

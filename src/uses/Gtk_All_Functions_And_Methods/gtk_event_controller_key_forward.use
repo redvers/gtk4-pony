@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontrollerkey.h:55
+  Original Name: gtk_event_controller_key_forward/usr/include/gtk-4.0/gtk/gtkeventcontrollerkey.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f596]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_event_controller_key_forward[I32](controller: NullablePointer[GtkEventControllerKey] tag, widget: NullablePointer[GtkWidget] tag)
+

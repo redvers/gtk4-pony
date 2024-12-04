@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:447
+  Original Name: g_param_spec_pool_free/usr/include/glib-2.0/gobject/gparam.h:447
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f137]
+*/
+use @g_param_spec_pool_free[None](pool: NullablePointer[GParamSpecPool] tag)
+

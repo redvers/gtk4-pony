@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:969
+  Original Name: g_utf8_collate/usr/include/glib-2.0/glib/gunicode.h:969
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_utf8_collate[I32](str1: Pointer[U8] tag, str2: Pointer[U8] tag)
+

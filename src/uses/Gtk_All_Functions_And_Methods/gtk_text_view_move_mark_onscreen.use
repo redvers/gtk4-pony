@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:214
+  Original Name: gtk_text_view_move_mark_onscreen/usr/include/gtk-4.0/gtk/gtktextview.h:214
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=256,fid: f732]
+*/
+use @gtk_text_view_move_mark_onscreen[I32](textview: NullablePointer[GtkTextView] tag, mark: NullablePointer[GtkTextMark] tag)
+

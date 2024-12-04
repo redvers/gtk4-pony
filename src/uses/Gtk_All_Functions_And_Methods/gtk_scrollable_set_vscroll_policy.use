@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollable.h:68
+  Original Name: gtk_scrollable_set_vscroll_policy/usr/include/gtk-4.0/gtk/gtkscrollable.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f695]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_scrollable_set_vscroll_policy[None](scrollable: NullablePointer[GtkScrollable] tag, policy: I32)
+

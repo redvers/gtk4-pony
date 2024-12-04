@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropdown.h:83
+  Original Name: gtk_drop_down_set_enable_search/usr/include/gtk-4.0/gtk/gtkdropdown.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f592]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_drop_down_set_enable_search[None](self: NullablePointer[GtkDropDown] tag, enablesearch: I32)
+

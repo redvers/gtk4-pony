@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:481
+  Original Name: g_regex_get_match_flags/usr/include/glib-2.0/glib/gregex.h:481
+
+  Return Value: [Enumeration size=32,fid: f106]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_regex_get_match_flags[I32](regex: NullablePointer[GRegex] tag)
+

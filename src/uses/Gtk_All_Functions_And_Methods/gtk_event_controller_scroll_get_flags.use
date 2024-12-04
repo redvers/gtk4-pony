@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontrollerscroll.h:71
+  Original Name: gtk_event_controller_scroll_get_flags/usr/include/gtk-4.0/gtk/gtkeventcontrollerscroll.h:71
+
+  Return Value: [Enumeration size=32,fid: f599]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f599]
+*/
+use @gtk_event_controller_scroll_get_flags[I32](scroll: NullablePointer[GtkEventControllerScroll] tag)
+

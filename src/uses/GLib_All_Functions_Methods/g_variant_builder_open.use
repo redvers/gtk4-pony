@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:390
+  Original Name: g_variant_builder_open/usr/include/glib-2.0/glib/gvariant.h:390
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_builder_open[None](builder: NullablePointer[GVariantBuilder] tag, type: NullablePointer[GVariantType] tag)
+

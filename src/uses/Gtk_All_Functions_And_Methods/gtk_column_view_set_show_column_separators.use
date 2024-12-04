@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:81
+  Original Name: gtk_column_view_set_show_column_separators/usr/include/gtk-4.0/gtk/gtkcolumnview.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_column_view_set_show_column_separators[None](self: NullablePointer[GtkColumnView] tag, showcolumnseparators: I32)
+

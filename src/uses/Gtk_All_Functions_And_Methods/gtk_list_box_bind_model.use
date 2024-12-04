@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:265
+  Original Name: gtk_list_box_bind_model/usr/include/gtk-4.0/gtk/gtklistbox.h:265
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+    [PointerType size=64]->[Struct size=,fid: f274]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_list_box_bind_model[None](box: NullablePointer[GtkListBox] tag, model: NullablePointer[GListModel] tag, createwidgetfunc: Pointer[None] tag, userdata: Pointer[None] tag, userdatafreefunc: Pointer[None] tag)
+

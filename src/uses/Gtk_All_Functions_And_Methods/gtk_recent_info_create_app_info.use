@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:217
+  Original Name: gtk_recent_info_create_app_info/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:217
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_recent_info_create_app_info[NullablePointer[GAppInfo]](info: NullablePointer[GtkRecentInfo] tag, appname: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkmemorytexture.h:58
+  Original Name: glib_autoptr_clear_GdkMemoryTexture/usr/include/gtk-4.0/gdk/gdkmemorytexture.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f421]
+*/
+use @glib_autoptr_clear_GdkMemoryTexture[None](ptr: NullablePointer[GdkMemoryTexture] tag)
+

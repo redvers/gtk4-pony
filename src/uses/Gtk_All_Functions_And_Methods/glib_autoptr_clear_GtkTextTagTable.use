@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktexttagtable.h:70
+  Original Name: glib_autoptr_clear_GtkTextTagTable/usr/include/gtk-4.0/gtk/gtktexttagtable.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f728]
+*/
+use @glib_autoptr_clear_GtkTextTagTable[None](ptr: NullablePointer[GtkTextTagTable] tag)
+

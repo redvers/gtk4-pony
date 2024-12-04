@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutchild.h:14
+  Original Name: gtk_layout_child_get_type/usr/include/gtk-4.0/gtk/gtklayoutchild.h:14
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_layout_child_get_type[U64]()
+

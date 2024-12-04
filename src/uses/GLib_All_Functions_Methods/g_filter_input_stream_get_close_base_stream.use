@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilterinputstream.h:68
+  Original Name: g_filter_input_stream_get_close_base_stream/usr/include/glib-2.0/gio/gfilterinputstream.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f176]
+*/
+use @g_filter_input_stream_get_close_base_stream[I32](stream: NullablePointer[GFilterInputStream] tag)
+

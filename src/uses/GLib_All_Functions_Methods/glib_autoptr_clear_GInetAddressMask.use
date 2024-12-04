@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:83
+  Original Name: glib_autoptr_clear_GInetAddressMask/usr/include/glib-2.0/gio/gio-autocleanups.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f183]
+*/
+use @glib_autoptr_clear_GInetAddressMask[None](ptr: NullablePointer[GInetAddressMask] tag)
+

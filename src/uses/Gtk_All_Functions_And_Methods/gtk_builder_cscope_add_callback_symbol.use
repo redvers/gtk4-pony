@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilderscope.h:109
+  Original Name: gtk_builder_cscope_add_callback_symbol/usr/include/gtk-4.0/gtk/gtkbuilderscope.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f518]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_builder_cscope_add_callback_symbol[None](self: NullablePointer[GtkBuilderCScope] tag, callbackname: Pointer[U8] tag, callbacksymbol: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesture.h:65
+  Original Name: gtk_gesture_handles_sequence/usr/include/gtk-4.0/gtk/gtkgesture.h:65
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gtk_gesture_handles_sequence[I32](gesture: NullablePointer[GtkGesture] tag, sequence: NullablePointer[GdkEventSequence] tag)
+

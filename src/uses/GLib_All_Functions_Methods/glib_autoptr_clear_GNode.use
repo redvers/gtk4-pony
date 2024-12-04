@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:71
+  Original Name: glib_autoptr_clear_GNode/usr/include/glib-2.0/glib/glib-autocleanups.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+*/
+use @glib_autoptr_clear_GNode[None](ptr: NullablePointer[GNode] tag)
+

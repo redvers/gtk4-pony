@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2595
+  Original Name: g_type_free_instance/usr/include/glib-2.0/gobject/gtype.h:2595
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f135]
+*/
+use @g_type_free_instance[None](instance: NullablePointer[GTypeInstance] tag)
+

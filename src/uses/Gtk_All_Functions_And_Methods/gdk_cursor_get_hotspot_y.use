@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcursor.h:63
+  Original Name: gdk_cursor_get_hotspot_y/usr/include/gtk-4.0/gdk/gdkcursor.h:63
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_cursor_get_hotspot_y[I32](cursor: NullablePointer[GdkCursor] tag)
+

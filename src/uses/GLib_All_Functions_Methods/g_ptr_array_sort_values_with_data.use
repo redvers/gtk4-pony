@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:249
+  Original Name: g_ptr_array_sort_values_with_data/usr/include/glib-2.0/glib/garray.h:249
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_ptr_array_sort_values_with_data[None](array: NullablePointer[GPtrArray] tag, comparefunc: Pointer[None] tag, userdata: Pointer[None] tag)
+

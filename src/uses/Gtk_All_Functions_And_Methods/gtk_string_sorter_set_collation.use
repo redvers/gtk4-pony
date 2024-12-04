@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringsorter.h:71
+  Original Name: gtk_string_sorter_set_collation/usr/include/gtk-4.0/gtk/gtkstringsorter.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f722]
+    [Enumeration size=32,fid: f722]
+*/
+use @gtk_string_sorter_set_collation[None](self: NullablePointer[GtkStringSorter] tag, collation: I32)
+

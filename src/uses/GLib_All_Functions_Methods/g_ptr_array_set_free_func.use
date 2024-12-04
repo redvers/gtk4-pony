@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:196
+  Original Name: g_ptr_array_set_free_func/usr/include/glib-2.0/glib/garray.h:196
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_ptr_array_set_free_func[None](array: NullablePointer[GPtrArray] tag, elementfreefunc: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:36
+  Original Name: GTK_IS_FILTER_LIST_MODEL/usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:36
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_FILTER_LIST_MODEL[I32](ptr: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:425
+  Original Name: gtk_text_view_set_extra_menu/usr/include/gtk-4.0/gtk/gtktextview.h:425
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @gtk_text_view_set_extra_menu[None](textview: NullablePointer[GtkTextView] tag, model: NullablePointer[GMenuModel] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:133
+  Original Name: g_application_new/usr/include/glib-2.0/gio/gapplication.h:133
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f169]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_application_new[NullablePointer[GApplication]](applicationid: Pointer[U8] tag, flags: I32)
+

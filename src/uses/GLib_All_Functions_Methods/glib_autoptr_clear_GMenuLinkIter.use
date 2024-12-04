@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:96
+  Original Name: glib_autoptr_clear_GMenuLinkIter/usr/include/glib-2.0/gio/gio-autocleanups.h:96
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @glib_autoptr_clear_GMenuLinkIter[None](ptr: NullablePointer[GMenuLinkIter] tag)
+

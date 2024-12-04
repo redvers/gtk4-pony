@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:254
+  Original Name: gtk_window_set_interactive_debugging/usr/include/gtk-4.0/gtk/gtkwindow.h:254
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @gtk_window_set_interactive_debugging[None](enable: I32)
+

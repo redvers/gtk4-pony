@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:547
+  Original Name: gdk_key_event_matches/usr/include/gtk-4.0/gdk/gdkevents.h:547
+
+  Return Value: [Enumeration size=32,fid: f400]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [FundamentalType(unsigned int) size=32]
+    [Enumeration size=32,fid: f371]
+*/
+use @gdk_key_event_matches[I32](event: NullablePointer[GdkEvent] tag, keyval: U32, modifiers: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:72
+  Original Name: gdk_surface_get_mapped/usr/include/gtk-4.0/gdk/gdksurface.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_surface_get_mapped[I32](surface: NullablePointer[GdkSurface] tag)
+

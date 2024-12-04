@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkviewport.h:59
+  Original Name: gtk_viewport_set_child/usr/include/gtk-4.0/gtk/gtkviewport.h:59
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f746]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_viewport_set_child[None](viewport: NullablePointer[GtkViewport] tag, child: NullablePointer[GtkWidget] tag)
+

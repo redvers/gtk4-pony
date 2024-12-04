@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:120
+  Original Name: gtk_about_dialog_get_comments/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:120
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+*/
+use @gtk_about_dialog_get_comments[Pointer[U8]](about: NullablePointer[GtkAboutDialog] tag)
+

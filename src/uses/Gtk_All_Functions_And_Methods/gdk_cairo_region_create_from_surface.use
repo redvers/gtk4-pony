@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairo.h:48
+  Original Name: gdk_cairo_region_create_from_surface/usr/include/gtk-4.0/gdk/gdkcairo.h:48
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f318]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gdk_cairo_region_create_from_surface[NullablePointer[Cairoregion]](surface: NullablePointer[Cairosurface] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:527
+  Original Name: g_print/usr/include/glib-2.0/glib/gmessages.h:527
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_print[None](format: Pointer[U8] tag, ...)
+

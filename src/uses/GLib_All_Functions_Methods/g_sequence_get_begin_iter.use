@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:70
+  Original Name: g_sequence_get_begin_iter/usr/include/glib-2.0/glib/gsequence.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f108]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_get_begin_iter[NullablePointer[GSequenceNode]](seq: NullablePointer[GSequence] tag)
+

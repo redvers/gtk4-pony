@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:81
+  Original Name: glib_autoptr_clear_GtkAspectFrame/usr/include/gtk-4.0/gtk/gtkaspectframe.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f505]
+*/
+use @glib_autoptr_clear_GtkAspectFrame[None](ptr: NullablePointer[GtkAspectFrame] tag)
+

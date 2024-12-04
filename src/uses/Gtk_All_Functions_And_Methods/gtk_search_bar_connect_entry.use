@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchbar.h:52
+  Original Name: gtk_search_bar_connect_entry/usr/include/gtk-4.0/gtk/gtksearchbar.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f699]
+    [PointerType size=64]->[Struct size=,fid: f563]
+*/
+use @gtk_search_bar_connect_entry[None](bar: NullablePointer[GtkSearchBar] tag, entry: NullablePointer[GtkEditable] tag)
+

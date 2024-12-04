@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:136
+  Original Name: g_date_valid_month/usr/include/glib-2.0/glib/gdate.h:136
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [Enumeration size=32,fid: f69]
+*/
+use @g_date_valid_month[I32](month: I32)
+

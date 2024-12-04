@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkgltexturebuilder.h:76
+  Original Name: gdk_gl_texture_builder_set_sync/usr/include/gtk-4.0/gdk/gdkgltexturebuilder.h:76
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f419]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gdk_gl_texture_builder_set_sync[None](self: NullablePointer[GdkGLTextureBuilder] tag, sync: Pointer[None] tag)
+

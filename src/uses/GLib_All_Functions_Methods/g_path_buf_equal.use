@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpathbuf.h:80
+  Original Name: g_path_buf_equal/usr/include/glib-2.0/glib/gpathbuf.h:80
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_path_buf_equal[I32](v1: Pointer[None] tag, v2: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxyaddress.h:75
+  Original Name: g_proxy_address_get_destination_hostname/usr/include/glib-2.0/gio/gproxyaddress.h:75
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f212]
+*/
+use @g_proxy_address_get_destination_hostname[Pointer[U8]](proxy: NullablePointer[GProxyAddress] tag)
+

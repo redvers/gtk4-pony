@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksymbolicpaintable.h:33
+  Original Name: GTK_SYMBOLIC_PAINTABLE/usr/include/gtk-4.0/gtk/gtksymbolicpaintable.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f725]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_SYMBOLIC_PAINTABLE[NullablePointer[GtkSymbolicPaintable]](ptr: Pointer[None] tag)
+

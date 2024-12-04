@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleaction.h:56
+  Original Name: g_simple_action_set_state/usr/include/glib-2.0/gio/gsimpleaction.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_simple_action_set_state[None](simple: NullablePointer[GSimpleAction] tag, value: NullablePointer[GVariant] tag)
+

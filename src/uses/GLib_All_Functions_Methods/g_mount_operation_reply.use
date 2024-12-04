@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmountoperation.h:153
+  Original Name: g_mount_operation_reply/usr/include/glib-2.0/gio/gmountoperation.h:153
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f189]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_mount_operation_reply[None](op: NullablePointer[GMountOperation] tag, result: I32)
+

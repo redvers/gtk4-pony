@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:140
+  Original Name: g_variant_get_int16/usr/include/glib-2.0/glib/gvariant.h:140
+
+  Return Value: [FundamentalType(short int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_variant_get_int16[I16](value: NullablePointer[GVariant] tag)
+

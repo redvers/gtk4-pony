@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresolver.h:191
+  Original Name: g_resolver_set_default/usr/include/glib-2.0/gio/gresolver.h:191
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f194]
+*/
+use @g_resolver_set_default[None](resolver: NullablePointer[GResolver] tag)
+

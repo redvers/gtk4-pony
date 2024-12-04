@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:123
+  Original Name: gsk_shader_args_builder_new/usr/include/gtk-4.0/gsk/gskglshader.h:123
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f467]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @gsk_shader_args_builder_new[NullablePointer[GskShaderArgsBuilder]](shader: NullablePointer[GskGLShader] tag, initialvalues: NullablePointer[GBytes] tag)
+

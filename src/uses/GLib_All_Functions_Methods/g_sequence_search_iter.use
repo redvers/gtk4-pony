@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:124
+  Original Name: g_sequence_search_iter/usr/include/glib-2.0/glib/gsequence.h:124
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f108]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_sequence_search_iter[NullablePointer[GSequenceNode]](seq: NullablePointer[GSequence] tag, data: Pointer[None] tag, itercmp: Pointer[None] tag, cmpdata: Pointer[None] tag)
+

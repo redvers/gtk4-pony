@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:49
+  Original Name: g_async_queue_ref/usr/include/glib-2.0/glib/gasyncqueue.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f43]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+*/
+use @g_async_queue_ref[NullablePointer[GAsyncQueue]](queue: NullablePointer[GAsyncQueue] tag)
+

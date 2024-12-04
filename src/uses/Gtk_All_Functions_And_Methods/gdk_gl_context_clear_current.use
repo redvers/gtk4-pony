@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:99
+  Original Name: gdk_gl_context_clear_current/usr/include/gtk-4.0/gdk/gdkglcontext.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @gdk_gl_context_clear_current[None]()
+

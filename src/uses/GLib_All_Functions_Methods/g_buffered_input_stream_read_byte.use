@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedinputstream.h:124
+  Original Name: g_buffered_input_stream_read_byte/usr/include/glib-2.0/gio/gbufferedinputstream.h:124
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f162]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_buffered_input_stream_read_byte[I32](stream: NullablePointer[GBufferedInputStream] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

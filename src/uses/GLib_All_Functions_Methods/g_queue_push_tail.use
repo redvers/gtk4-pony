@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:116
+  Original Name: g_queue_push_tail/usr/include/glib-2.0/glib/gqueue.h:116
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_queue_push_tail[None](queue: NullablePointer[GQueue] tag, data: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:214
+  Original Name: g_strtod/usr/include/glib-2.0/glib/gstrfuncs.h:214
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strtod[F64](nptr: Pointer[U8] tag, endptr: Pointer[Pointer[U8]] tag)
+

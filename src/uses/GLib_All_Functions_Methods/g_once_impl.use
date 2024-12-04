@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:234
+  Original Name: g_once_impl/usr/include/glib-2.0/glib/gthread.h:234
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f41]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_once_impl[Pointer[None]](once: NullablePointer[GOnce] tag, func: Pointer[None] tag, arg: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:46
+  Original Name: gtk_label_new_with_mnemonic/usr/include/gtk-4.0/gtk/gtklabel.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_label_new_with_mnemonic[NullablePointer[GtkWidget]](str: Pointer[U8] tag)
+

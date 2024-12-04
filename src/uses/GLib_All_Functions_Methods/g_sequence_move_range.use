@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:115
+  Original Name: g_sequence_move_range/usr/include/glib-2.0/glib/gsequence.h:115
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_move_range[None](dest: NullablePointer[GSequenceNode] tag, begin: NullablePointer[GSequenceNode] tag, end: NullablePointer[GSequenceNode] tag)
+

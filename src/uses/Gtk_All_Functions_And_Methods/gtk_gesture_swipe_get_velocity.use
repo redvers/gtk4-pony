@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgestureswipe.h:48
+  Original Name: gtk_gesture_swipe_get_velocity/usr/include/gtk-4.0/gtk/gtkgestureswipe.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f630]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_gesture_swipe_get_velocity[I32](gesture: NullablePointer[GtkGestureSwipe] tag, velocityx: Pointer[F64] tag, velocityy: Pointer[F64] tag)
+

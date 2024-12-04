@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:113
+  Original Name: gtk_mnemonic_action_get_type/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:113
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_mnemonic_action_get_type[U64]()
+

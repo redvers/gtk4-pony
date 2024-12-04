@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:111
+  Original Name: g_dtls_connection_get_type/usr/include/glib-2.0/gio/gdtlsconnection.h:111
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_dtls_connection_get_type[U64]()
+

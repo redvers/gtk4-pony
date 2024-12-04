@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:126
+  Original Name: g_dbus_message_set_reply_serial/usr/include/glib-2.0/gio/gdbusmessage.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_dbus_message_set_reply_serial[None](message: NullablePointer[GDBusMessage] tag, value: U32)
+

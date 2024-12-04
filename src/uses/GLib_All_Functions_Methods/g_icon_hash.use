@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gicon.h:111
+  Original Name: g_icon_hash/usr/include/glib-2.0/gio/gicon.h:111
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_icon_hash[U32](icon: Pointer[None] tag)
+

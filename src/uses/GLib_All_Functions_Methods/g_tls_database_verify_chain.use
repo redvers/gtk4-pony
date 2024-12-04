@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsdatabase.h:152
+  Original Name: g_tls_database_verify_chain/usr/include/glib-2.0/gio/gtlsdatabase.h:152
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f208]
+    [PointerType size=64]->[Struct size=256,fid: f206]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f209]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_tls_database_verify_chain[I32](self: NullablePointer[GTlsDatabase] tag, chain: NullablePointer[GTlsCertificate] tag, purpose: Pointer[U8] tag, identity: NullablePointer[GSocketConnectable] tag, interaction: NullablePointer[GTlsInteraction] tag, flags: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

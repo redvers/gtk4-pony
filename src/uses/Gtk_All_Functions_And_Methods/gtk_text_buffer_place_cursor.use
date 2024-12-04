@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:299
+  Original Name: gtk_text_buffer_place_cursor/usr/include/gtk-4.0/gtk/gtktextbuffer.h:299
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_buffer_place_cursor[None](buffer: NullablePointer[GtkTextBuffer] tag, where: NullablePointer[GtkTextIter] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:586
+  Original Name: g_match_info_is_partial_match/usr/include/glib-2.0/glib/gregex.h:586
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_match_info_is_partial_match[I32](matchinfo: NullablePointer[GMatchInfo] tag)
+

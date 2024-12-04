@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskcairorenderer.h:52
+  Original Name: gsk_cairo_renderer_get_type/usr/include/gtk-4.0/gsk/gskcairorenderer.h:52
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_cairo_renderer_get_type[U64]()
+

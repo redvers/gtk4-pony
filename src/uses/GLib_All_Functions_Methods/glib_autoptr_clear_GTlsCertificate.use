@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:145
+  Original Name: glib_autoptr_clear_GTlsCertificate/usr/include/glib-2.0/gio/gio-autocleanups.h:145
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f206]
+*/
+use @glib_autoptr_clear_GTlsCertificate[None](ptr: NullablePointer[GTlsCertificate] tag)
+

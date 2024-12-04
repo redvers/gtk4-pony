@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkborder.h:68
+  Original Name: glib_autoptr_cleanup_GtkBorder/usr/include/gtk-4.0/gtk/gtkborder.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=64,fid: f515]
+*/
+use @glib_autoptr_cleanup_GtkBorder[None](ptr: Pointer[NullablePointer[GtkBorder]] tag)
+

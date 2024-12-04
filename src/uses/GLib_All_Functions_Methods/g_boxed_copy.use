@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gboxed.h:72
+  Original Name: g_boxed_copy/usr/include/glib-2.0/gobject/gboxed.h:72
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_boxed_copy[Pointer[None]](boxedtype: U64, srcboxed: Pointer[None] tag)
+

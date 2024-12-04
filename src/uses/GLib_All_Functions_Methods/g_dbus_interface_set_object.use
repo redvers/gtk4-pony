@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterface.h:68
+  Original Name: g_dbus_interface_set_object/usr/include/glib-2.0/gio/gdbusinterface.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_interface_set_object[None](interface: NullablePointer[GDBusInterface] tag, object: NullablePointer[GDBusObject] tag)
+

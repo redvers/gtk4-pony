@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkframe.h:76
+  Original Name: gtk_frame_new/usr/include/gtk-4.0/gtk/gtkframe.h:76
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_frame_new[NullablePointer[GtkWidget]](label: Pointer[U8] tag)
+

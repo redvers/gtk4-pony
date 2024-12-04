@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gaction.h:74
+  Original Name: g_action_get_enabled/usr/include/glib-2.0/gio/gaction.h:74
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_action_get_enabled[I32](action: NullablePointer[GAction] tag)
+

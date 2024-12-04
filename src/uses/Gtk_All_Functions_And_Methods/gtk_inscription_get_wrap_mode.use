@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkinscription.h:76
+  Original Name: gtk_inscription_get_wrap_mode/usr/include/gtk-4.0/gtk/gtkinscription.h:76
+
+  Return Value: [Enumeration size=32,fid: f359]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f645]
+*/
+use @gtk_inscription_get_wrap_mode[I32](self: NullablePointer[GtkInscription] tag)
+

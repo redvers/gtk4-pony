@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:167
+  Original Name: g_build_path/usr/include/glib-2.0/glib/gfileutils.h:167
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_build_path[Pointer[U8]](separator: Pointer[U8] tag, firstelement: Pointer[U8] tag, ...)
+

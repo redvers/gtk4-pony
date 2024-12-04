@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:68
+  Original Name: gtk_menu_button_get_direction/usr/include/gtk-4.0/gtk/gtkmenubutton.h:68
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @gtk_menu_button_get_direction[I32](menubutton: NullablePointer[GtkMenuButton] tag)
+

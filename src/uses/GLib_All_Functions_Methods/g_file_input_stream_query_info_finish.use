@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinputstream.h:102
+  Original Name: g_file_input_stream_query_info_finish/usr/include/glib-2.0/gio/gfileinputstream.h:102
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f179]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_input_stream_query_info_finish[NullablePointer[GFileInfo]](stream: NullablePointer[GFileInputStream] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

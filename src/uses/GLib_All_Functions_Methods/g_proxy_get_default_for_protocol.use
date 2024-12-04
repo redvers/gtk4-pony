@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxy.h:96
+  Original Name: g_proxy_get_default_for_protocol/usr/include/glib-2.0/gio/gproxy.h:96
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_proxy_get_default_for_protocol[NullablePointer[GProxy]](protocol: Pointer[U8] tag)
+

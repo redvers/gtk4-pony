@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:399
+  Original Name: g_main_context_new_with_flags/usr/include/glib-2.0/glib/gmain.h:399
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f85]
+
+  Arguments:
+    [Enumeration size=32,fid: f85]
+*/
+use @g_main_context_new_with_flags[NullablePointer[GMainContext]](flags: I32)
+

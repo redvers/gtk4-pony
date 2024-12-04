@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:336
+  Original Name: g_option_context_set_strict_posix/usr/include/glib-2.0/glib/goption.h:336
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+    [FundamentalType(int) size=32]
+*/
+use @g_option_context_set_strict_posix[None](context: NullablePointer[GOptionContext] tag, strictposix: I32)
+

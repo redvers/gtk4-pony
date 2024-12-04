@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkorientable.h:50
+  Original Name: gtk_orientable_set_orientation/usr/include/gtk-4.0/gtk/gtkorientable.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f669]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_orientable_set_orientation[None](orientable: NullablePointer[GtkOrientable] tag, orientation: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturelongpress.h:47
+  Original Name: gtk_gesture_long_press_set_delay_factor/usr/include/gtk-4.0/gtk/gtkgesturelongpress.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f626]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_gesture_long_press_set_delay_factor[None](gesture: NullablePointer[GtkGestureLongPress] tag, delayfactor: F64)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:877
+  Original Name: gtk_widget_set_font_map/usr/include/gtk-4.0/gtk/gtkwidget.h:877
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=192,fid: f342]
+*/
+use @gtk_widget_set_font_map[None](widget: NullablePointer[GtkWidget] tag, fontmap: NullablePointer[PangoFontMap] tag)
+

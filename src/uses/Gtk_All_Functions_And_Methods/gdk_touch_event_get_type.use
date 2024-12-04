@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:455
+  Original Name: gdk_touch_event_get_type/usr/include/gtk-4.0/gdk/gdkevents.h:455
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_touch_event_get_type[U64]()
+

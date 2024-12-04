@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:133
+  Original Name: gtk_entry_set_overwrite_mode/usr/include/gtk-4.0/gtk/gtkentry.h:133
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_entry_set_overwrite_mode[None](entry: NullablePointer[GtkEntry] tag, overwrite: I32)
+

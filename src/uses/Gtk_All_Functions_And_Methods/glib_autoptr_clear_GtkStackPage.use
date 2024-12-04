@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:182
+  Original Name: glib_autoptr_clear_GtkStackPage/usr/include/gtk-4.0/gtk/gtkstack.h:182
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+*/
+use @glib_autoptr_clear_GtkStackPage[None](ptr: NullablePointer[GtkStackPage] tag)
+

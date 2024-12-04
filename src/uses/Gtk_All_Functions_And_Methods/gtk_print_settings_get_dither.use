@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:330
+  Original Name: gtk_print_settings_get_dither/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:330
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @gtk_print_settings_get_dither[Pointer[U8]](settings: NullablePointer[GtkPrintSettings] tag)
+

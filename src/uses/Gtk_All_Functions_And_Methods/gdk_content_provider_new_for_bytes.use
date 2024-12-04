@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentproviderimpl.h:39
+  Original Name: gdk_content_provider_new_for_bytes/usr/include/gtk-4.0/gdk/gdkcontentproviderimpl.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f374]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @gdk_content_provider_new_for_bytes[NullablePointer[GdkContentProvider]](mimetype: Pointer[U8] tag, bytes: NullablePointer[GBytes] tag)
+

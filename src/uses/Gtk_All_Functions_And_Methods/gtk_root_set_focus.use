@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkroot.h:40
+  Original Name: gtk_root_set_focus/usr/include/gtk-4.0/gtk/gtkroot.h:40
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_root_set_focus[None](self: NullablePointer[GtkRoot] tag, focus: NullablePointer[GtkWidget] tag)
+

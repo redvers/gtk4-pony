@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:116
+  Original Name: g_dbus_message_get_unix_fd_list/usr/include/glib-2.0/gio/gdbusmessage.h:116
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f216]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_message_get_unix_fd_list[NullablePointer[GUnixFDList]](message: NullablePointer[GDBusMessage] tag)
+

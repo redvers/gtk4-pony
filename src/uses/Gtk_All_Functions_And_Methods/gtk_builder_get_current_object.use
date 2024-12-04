@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:139
+  Original Name: gtk_builder_get_current_object/usr/include/gtk-4.0/gtk/gtkbuilder.h:139
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f143]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_builder_get_current_object[NullablePointer[GObject]](builder: NullablePointer[GtkBuilder] tag)
+

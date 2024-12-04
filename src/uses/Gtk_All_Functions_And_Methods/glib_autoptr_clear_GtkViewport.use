@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkviewport.h:69
+  Original Name: glib_autoptr_clear_GtkViewport/usr/include/gtk-4.0/gtk/gtkviewport.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f746]
+*/
+use @glib_autoptr_clear_GtkViewport[None](ptr: NullablePointer[GtkViewport] tag)
+

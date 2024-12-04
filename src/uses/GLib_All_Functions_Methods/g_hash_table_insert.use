@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:72
+  Original Name: g_hash_table_insert/usr/include/glib-2.0/glib/ghash.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_hash_table_insert[I32](hashtable: NullablePointer[GHashTable] tag, key: Pointer[None] tag, value: Pointer[None] tag)
+

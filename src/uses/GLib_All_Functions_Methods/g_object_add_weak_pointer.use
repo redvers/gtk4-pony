@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:525
+  Original Name: g_object_add_weak_pointer/usr/include/glib-2.0/gobject/gobject.h:525
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_add_weak_pointer[None](object: NullablePointer[GObject] tag, weakpointerlocation: NullablePointer[Pointer[None]] tag)
+

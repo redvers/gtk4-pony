@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:68
+  Original Name: gtk_list_view_set_show_separators/usr/include/gtk-4.0/gtk/gtklistview.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_list_view_set_show_separators[None](self: NullablePointer[GtkListView] tag, showseparators: I32)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:480
+  Original Name: g_signal_override_class_closure/usr/include/glib-2.0/gobject/gsignal.h:480
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[Struct size=256,fid: f138]
+*/
+use @g_signal_override_class_closure[None](signalid: U32, instancetype: U64, classclosure: NullablePointer[GClosure] tag)
+

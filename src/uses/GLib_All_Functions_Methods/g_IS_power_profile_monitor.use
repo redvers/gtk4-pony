@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpowerprofilemonitor.h:45
+  Original Name: g_IS_power_profile_monitor/usr/include/glib-2.0/gio/gpowerprofilemonitor.h:45
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_IS_power_profile_monitor[I32](ptr: Pointer[None] tag)
+

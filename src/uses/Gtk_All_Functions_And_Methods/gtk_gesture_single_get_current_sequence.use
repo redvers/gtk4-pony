@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturesingle.h:69
+  Original Name: gtk_gesture_single_get_current_sequence/usr/include/gtk-4.0/gtk/gtkgesturesingle.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f400]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f623]
+*/
+use @gtk_gesture_single_get_current_sequence[NullablePointer[GdkEventSequence]](gesture: NullablePointer[GtkGestureSingle] tag)
+

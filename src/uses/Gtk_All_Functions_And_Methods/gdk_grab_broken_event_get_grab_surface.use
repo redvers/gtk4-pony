@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:500
+  Original Name: gdk_grab_broken_event_get_grab_surface/usr/include/gtk-4.0/gdk/gdkevents.h:500
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_grab_broken_event_get_grab_surface[NullablePointer[GdkSurface]](event: NullablePointer[GdkEvent] tag)
+

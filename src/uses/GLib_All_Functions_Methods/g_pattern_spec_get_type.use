@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/glib-types.h:436
+  Original Name: g_pattern_spec_get_type/usr/include/glib-2.0/gobject/glib-types.h:436
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_pattern_spec_get_type[U64]()
+

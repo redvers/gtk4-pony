@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:517
+  Original Name: g_object_weak_ref/usr/include/glib-2.0/gobject/gobject.h:517
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_weak_ref[None](object: NullablePointer[GObject] tag, notify: Pointer[None] tag, data: Pointer[None] tag)
+

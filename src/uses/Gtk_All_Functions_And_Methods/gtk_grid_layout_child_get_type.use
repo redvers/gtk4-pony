@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridlayout.h:68
+  Original Name: gtk_grid_layout_child_get_type/usr/include/gtk-4.0/gtk/gtkgridlayout.h:68
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_grid_layout_child_get_type[U64]()
+

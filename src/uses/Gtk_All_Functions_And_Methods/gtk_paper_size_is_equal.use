@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:111
+  Original Name: gtk_paper_size_is_equal/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:111
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f673]
+    [PointerType size=64]->[Struct size=,fid: f673]
+*/
+use @gtk_paper_size_is_equal[I32](size1: NullablePointer[GtkPaperSize] tag, size2: NullablePointer[GtkPaperSize] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:107
+  Original Name: gtk_image_set_pixel_size/usr/include/gtk-4.0/gtk/gtkimage.h:107
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_image_set_pixel_size[None](image: NullablePointer[GtkImage] tag, pixelsize: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:457
+  Original Name: g_regex_unref/usr/include/glib-2.0/glib/gregex.h:457
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_regex_unref[None](regex: NullablePointer[GRegex] tag)
+

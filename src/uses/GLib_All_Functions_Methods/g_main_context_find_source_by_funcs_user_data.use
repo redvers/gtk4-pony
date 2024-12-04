@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:423
+  Original Name: g_main_context_find_source_by_funcs_user_data/usr/include/glib-2.0/glib/gmain.h:423
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [PointerType size=64]->[Struct size=384,fid: f85]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_main_context_find_source_by_funcs_user_data[NullablePointer[GSource]](context: NullablePointer[GMainContext] tag, funcs: NullablePointer[GSourceFuncs] tag, userdata: Pointer[None] tag)
+

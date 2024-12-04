@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:42
+  Original Name: gtk_shortcut_controller_get_type/usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:42
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_shortcut_controller_get_type[U64]()
+

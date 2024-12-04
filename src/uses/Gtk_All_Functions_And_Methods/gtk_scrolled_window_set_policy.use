@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:111
+  Original Name: gtk_scrolled_window_set_policy/usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:111
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f698]
+    [Enumeration size=32,fid: f698]
+    [Enumeration size=32,fid: f698]
+*/
+use @gtk_scrolled_window_set_policy[None](scrolledwindow: NullablePointer[GtkScrolledWindow] tag, hscrollbarpolicy: I32, vscrollbarpolicy: I32)
+

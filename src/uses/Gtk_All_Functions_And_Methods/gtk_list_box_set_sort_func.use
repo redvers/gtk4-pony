@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:246
+  Original Name: gtk_list_box_set_sort_func/usr/include/gtk-4.0/gtk/gtklistbox.h:246
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_list_box_set_sort_func[None](box: NullablePointer[GtkListBox] tag, sortfunc: Pointer[None] tag, userdata: Pointer[None] tag, destroy: Pointer[None] tag)
+

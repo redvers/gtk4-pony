@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframetimings.h:34
+  Original Name: gdk_frame_timings_ref/usr/include/gtk-4.0/gdk/gdkframetimings.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f401]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f401]
+*/
+use @gdk_frame_timings_ref[NullablePointer[GdkFrameTimings]](timings: NullablePointer[GdkFrameTimings] tag)
+

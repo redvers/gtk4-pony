@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:73
+  Original Name: gsk_stroke_get_dash/usr/include/gtk-4.0/gsk/gskstroke.h:73
+
+  Return Value: [PointerType size=64]->[FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @gsk_stroke_get_dash[Pointer[F32]](self: NullablePointer[GskStroke] tag, ndash: Pointer[U64] tag)
+

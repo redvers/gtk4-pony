@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilenamecompleter.h:59
+  Original Name: g_filename_completer_get_type/usr/include/glib-2.0/gio/gfilenamecompleter.h:59
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_filename_completer_get_type[U64]()
+

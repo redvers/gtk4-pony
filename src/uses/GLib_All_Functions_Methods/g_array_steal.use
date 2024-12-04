@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:85
+  Original Name: g_array_steal/usr/include/glib-2.0/glib/garray.h:85
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_array_steal[Pointer[None]](array: NullablePointer[GArray] tag, len: Pointer[U64] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:41
+  Original Name: gtk_shortcut_trigger_print/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @gtk_shortcut_trigger_print[None](self: NullablePointer[GtkShortcutTrigger] tag, string: NullablePointer[GString] tag)
+

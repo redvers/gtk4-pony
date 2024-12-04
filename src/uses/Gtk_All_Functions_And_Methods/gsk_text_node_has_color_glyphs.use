@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:543
+  Original Name: gsk_text_node_has_color_glyphs/usr/include/gtk-4.0/gsk/gskrendernode.h:543
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_text_node_has_color_glyphs[I32](node: NullablePointer[GskRenderNode] tag)
+

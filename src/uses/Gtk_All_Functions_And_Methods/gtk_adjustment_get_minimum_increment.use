@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkadjustment.h:121
+  Original Name: gtk_adjustment_get_minimum_increment/usr/include/gtk-4.0/gtk/gtkadjustment.h:121
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_adjustment_get_minimum_increment[F64](adjustment: NullablePointer[GtkAdjustment] tag)
+

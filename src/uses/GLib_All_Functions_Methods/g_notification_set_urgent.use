@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnotification.h:57
+  Original Name: g_notification_set_urgent/usr/include/glib-2.0/gio/gnotification.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+*/
+use @g_notification_set_urgent[None](notification: NullablePointer[GNotification] tag, urgent: I32)
+

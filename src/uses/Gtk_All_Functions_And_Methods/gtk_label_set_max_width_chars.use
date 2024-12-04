@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:105
+  Original Name: gtk_label_set_max_width_chars/usr/include/gtk-4.0/gtk/gtklabel.h:105
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_label_set_max_width_chars[None](self: NullablePointer[GtkLabel] tag, nchars: I32)
+

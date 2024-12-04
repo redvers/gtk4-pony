@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktexttagtable.h:64
+  Original Name: gtk_text_tag_table_foreach/usr/include/gtk-4.0/gtk/gtktexttagtable.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f728]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_text_tag_table_foreach[None](table: NullablePointer[GtkTextTagTable] tag, func: Pointer[None] tag, data: Pointer[None] tag)
+

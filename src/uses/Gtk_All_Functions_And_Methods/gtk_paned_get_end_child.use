@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpaned.h:60
+  Original Name: gtk_paned_get_end_child/usr/include/gtk-4.0/gtk/gtkpaned.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f675]
+*/
+use @gtk_paned_get_end_child[NullablePointer[GtkWidget]](paned: NullablePointer[GtkPaned] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmaplistmodel.h:54
+  Original Name: gtk_map_list_model_new/usr/include/gtk-4.0/gtk/gtkmaplistmodel.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f654]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f274]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_map_list_model_new[NullablePointer[GtkMapListModel]](model: NullablePointer[GListModel] tag, mapfunc: Pointer[None] tag, userdata: Pointer[None] tag, userdestroy: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilderscope.h:122
+  Original Name: gtk_builder_cscope_lookup_callback_symbol/usr/include/gtk-4.0/gtk/gtkbuilderscope.h:122
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f518]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_builder_cscope_lookup_callback_symbol[Pointer[None]](self: NullablePointer[GtkBuilderCScope] tag, callbackname: Pointer[U8] tag)
+

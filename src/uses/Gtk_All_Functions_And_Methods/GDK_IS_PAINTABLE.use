@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpaintable.h:33
+  Original Name: GDK_IS_PAINTABLE/usr/include/gtk-4.0/gdk/gdkpaintable.h:33
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_IS_PAINTABLE[I32](ptr: Pointer[None] tag)
+

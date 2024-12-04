@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:92
+  Original Name: gtk_print_settings_get/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:92
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_print_settings_get[Pointer[U8]](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag)
+

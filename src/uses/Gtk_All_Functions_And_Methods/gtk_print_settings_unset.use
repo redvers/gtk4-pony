@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:99
+  Original Name: gtk_print_settings_unset/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_print_settings_unset[None](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag)
+

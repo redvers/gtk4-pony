@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:36
+  Original Name: glib_autoptr_clear_GtkFilterListModel/usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f611]
+*/
+use @glib_autoptr_clear_GtkFilterListModel[None](ptr: NullablePointer[GtkFilterListModel] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkorientable.h:47
+  Original Name: gtk_orientable_get_type/usr/include/gtk-4.0/gtk/gtkorientable.h:47
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_orientable_get_type[U64]()
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:751
+  Original Name: g_unichar_compose/usr/include/glib-2.0/glib/gunicode.h:751
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @g_unichar_compose[I32](a: U32, b: U32, ch: Pointer[U32] tag)
+

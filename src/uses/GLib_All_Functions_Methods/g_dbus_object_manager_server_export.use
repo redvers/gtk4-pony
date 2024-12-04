@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:73
+  Original Name: g_dbus_object_manager_server_export/usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f225]
+    [PointerType size=64]->[Struct size=256,fid: f222]
+*/
+use @g_dbus_object_manager_server_export[None](manager: NullablePointer[GDBusObjectManagerServer] tag, object: NullablePointer[GDBusObjectSkeleton] tag)
+

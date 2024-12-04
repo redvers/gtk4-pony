@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmethodinvocation.h:101
+  Original Name: g_dbus_method_invocation_return_value_with_unix_fd_list/usr/include/glib-2.0/gio/gdbusmethodinvocation.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[Struct size=256,fid: f216]
+*/
+use @g_dbus_method_invocation_return_value_with_unix_fd_list[None](invocation: NullablePointer[GDBusMethodInvocation] tag, parameters: NullablePointer[GVariant] tag, fdlist: NullablePointer[GUnixFDList] tag)
+

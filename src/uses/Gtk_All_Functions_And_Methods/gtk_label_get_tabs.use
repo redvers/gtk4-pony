@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:184
+  Original Name: gtk_label_get_tabs/usr/include/gtk-4.0/gtk/gtklabel.h:184
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f358]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_tabs[NullablePointer[PangoTabArray]](self: NullablePointer[GtkLabel] tag)
+

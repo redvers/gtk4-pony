@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:87
+  Original Name: gtk_image_clear/usr/include/gtk-4.0/gtk/gtkimage.h:87
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+*/
+use @gtk_image_clear[None](image: NullablePointer[GtkImage] tag)
+

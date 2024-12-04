@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:47
+  Original Name: gsk_stroke_set_line_width/usr/include/gtk-4.0/gsk/gskstroke.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_stroke_set_line_width[None](self: NullablePointer[GskStroke] tag, linewidth: F32)
+

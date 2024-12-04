@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:116
+  Original Name: gtk_entry_get_visibility/usr/include/gtk-4.0/gtk/gtkentry.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_get_visibility[I32](entry: NullablePointer[GtkEntry] tag)
+

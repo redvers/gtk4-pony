@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkheaderbar.h:39
+  Original Name: gtk_header_bar_new/usr/include/gtk-4.0/gtk/gtkheaderbar.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_header_bar_new[NullablePointer[GtkWidget]]()
+

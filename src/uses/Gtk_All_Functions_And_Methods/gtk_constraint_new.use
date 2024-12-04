@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:49
+  Original Name: gtk_constraint_new/usr/include/gtk-4.0/gtk/gtkconstraint.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f574]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [Enumeration size=32,fid: f476]
+    [Enumeration size=32,fid: f476]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [Enumeration size=32,fid: f476]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_constraint_new[NullablePointer[GtkConstraint]](target: Pointer[None] tag, targetattribute: I32, relation: I32, source: Pointer[None] tag, sourceattribute: I32, multiplier: F64, constant: F64, strength: I32)
+

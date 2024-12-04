@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:38
+  Original Name: g_uri_unref/usr/include/glib-2.0/glib/guri.h:38
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f120]
+*/
+use @g_uri_unref[None](uri: NullablePointer[GUri] tag)
+

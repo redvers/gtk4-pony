@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusactiongroup.h:50
+  Original Name: g_dbus_action_group_get/usr/include/glib-2.0/gio/gdbusactiongroup.h:50
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_action_group_get[NullablePointer[GDBusActionGroup]](connection: NullablePointer[GDBusConnection] tag, busname: Pointer[U8] tag, objectpath: Pointer[U8] tag)
+

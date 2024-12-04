@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:206
+  Original Name: g_app_info_add_supports_type/usr/include/glib-2.0/gio/gappinfo.h:206
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_app_info_add_supports_type[I32](appinfo: NullablePointer[GAppInfo] tag, contenttype: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

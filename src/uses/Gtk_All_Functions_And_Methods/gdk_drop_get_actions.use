@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrop.h:47
+  Original Name: gdk_drop_get_actions/usr/include/gtk-4.0/gdk/gdkdrop.h:47
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drop_get_actions[I32](self: NullablePointer[GdkDrop] tag)
+

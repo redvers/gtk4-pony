@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdrawingarea.h:90
+  Original Name: gtk_drawing_area_new/usr/include/gtk-4.0/gtk/gtkdrawingarea.h:90
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_drawing_area_new[NullablePointer[GtkWidget]]()
+

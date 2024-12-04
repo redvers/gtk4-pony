@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:150
+  Original Name: gtk_icon_paintable_get_file/usr/include/gtk-4.0/gtk/gtkicontheme.h:150
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+*/
+use @gtk_icon_paintable_get_file[NullablePointer[GFile]](self: NullablePointer[GtkIconPaintable] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:135
+  Original Name: gtk_label_select_region/usr/include/gtk-4.0/gtk/gtklabel.h:135
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_label_select_region[None](self: NullablePointer[GtkLabel] tag, startoffset: I32, endoffset: I32)
+

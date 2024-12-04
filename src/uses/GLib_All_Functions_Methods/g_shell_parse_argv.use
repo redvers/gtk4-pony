@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gshell.h:52
+  Original Name: g_shell_parse_argv/usr/include/glib-2.0/glib/gshell.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_shell_parse_argv[I32](commandline: Pointer[U8] tag, argcp: Pointer[I32] tag, argvp: NullablePointer[Array[String]] tag, error: Pointer[NullablePointer[GError]] tag)
+

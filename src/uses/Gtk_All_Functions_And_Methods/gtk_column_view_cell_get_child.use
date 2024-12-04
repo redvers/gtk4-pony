@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewcell.h:51
+  Original Name: gtk_column_view_cell_get_child/usr/include/gtk-4.0/gtk/gtkcolumnviewcell.h:51
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f557]
+*/
+use @gtk_column_view_cell_get_child[NullablePointer[GtkWidget]](self: NullablePointer[GtkColumnViewCell] tag)
+

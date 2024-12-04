@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbookmarklist.h:37
+  Original Name: GTK_BOOKMARK_LIST/usr/include/gtk-4.0/gtk/gtkbookmarklist.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f511]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_BOOKMARK_LIST[NullablePointer[GtkBookmarkList]](ptr: Pointer[None] tag)
+

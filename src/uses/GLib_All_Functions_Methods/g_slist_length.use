@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:125
+  Original Name: g_slist_length/usr/include/glib-2.0/glib/gslist.h:125
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @g_slist_length[U32](list: NullablePointer[GSList] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:145
+  Original Name: gtk_entry_get_text_length/usr/include/gtk-4.0/gtk/gtkentry.h:145
+
+  Return Value: [FundamentalType(short unsigned int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_get_text_length[U16](entry: NullablePointer[GtkEntry] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:73
+  Original Name: gdk_content_formats_contain_gtype/usr/include/gtk-4.0/gdk/gdkcontentformats.h:73
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gdk_content_formats_contain_gtype[I32](formats: NullablePointer[GdkContentFormats] tag, type: U64)
+

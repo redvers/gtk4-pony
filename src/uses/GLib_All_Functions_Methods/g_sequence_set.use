@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:144
+  Original Name: g_sequence_set/usr/include/glib-2.0/glib/gsequence.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_sequence_set[None](iter: NullablePointer[GSequenceNode] tag, data: Pointer[None] tag)
+

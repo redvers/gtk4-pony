@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h:46
+  Original Name: gdk_app_launch_context_set_timestamp/usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gdk_app_launch_context_set_timestamp[None](context: NullablePointer[GdkAppLaunchContext] tag, timestamp: U32)
+

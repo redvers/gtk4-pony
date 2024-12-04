@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:87
+  Original Name: gtk_scale_new_with_range/usr/include/gtk-4.0/gtk/gtkscale.h:87
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [Enumeration size=32,fid: f476]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_scale_new_with_range[NullablePointer[GtkWidget]](orientation: I32, min: F64, max: F64, step: F64)
+

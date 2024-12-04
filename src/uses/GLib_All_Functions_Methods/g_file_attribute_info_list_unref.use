@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileattribute.h:72
+  Original Name: g_file_attribute_info_list_unref/usr/include/glib-2.0/gio/gfileattribute.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f178]
+*/
+use @g_file_attribute_info_list_unref[None](list: NullablePointer[GFileAttributeInfoList] tag)
+

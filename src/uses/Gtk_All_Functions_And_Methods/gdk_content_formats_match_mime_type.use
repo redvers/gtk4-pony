@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:70
+  Original Name: gdk_content_formats_match_mime_type/usr/include/gtk-4.0/gdk/gdkcontentformats.h:70
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_content_formats_match_mime_type[Pointer[U8]](first: NullablePointer[GdkContentFormats] tag, second: NullablePointer[GdkContentFormats] tag)
+

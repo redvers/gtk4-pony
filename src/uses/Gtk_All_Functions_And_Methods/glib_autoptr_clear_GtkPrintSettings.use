@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:350
+  Original Name: glib_autoptr_clear_GtkPrintSettings/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:350
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @glib_autoptr_clear_GtkPrintSettings[None](ptr: NullablePointer[GtkPrintSettings] tag)
+

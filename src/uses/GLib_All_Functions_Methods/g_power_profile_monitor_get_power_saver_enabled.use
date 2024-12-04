@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpowerprofilemonitor.h:61
+  Original Name: g_power_profile_monitor_get_power_saver_enabled/usr/include/glib-2.0/gio/gpowerprofilemonitor.h:61
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f287]
+*/
+use @g_power_profile_monitor_get_power_saver_enabled[I32](monitor: NullablePointer[GPowerProfileMonitor] tag)
+

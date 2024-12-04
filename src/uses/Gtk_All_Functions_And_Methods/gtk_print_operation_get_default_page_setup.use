@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:231
+  Original Name: gtk_print_operation_get_default_page_setup/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:231
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f674]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+*/
+use @gtk_print_operation_get_default_page_setup[NullablePointer[GtkPageSetup]](op: NullablePointer[GtkPrintOperation] tag)
+

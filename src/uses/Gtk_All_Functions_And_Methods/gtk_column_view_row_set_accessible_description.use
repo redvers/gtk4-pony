@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:58
+  Original Name: gtk_column_view_row_set_accessible_description/usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f559]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_column_view_row_set_accessible_description[None](self: NullablePointer[GtkColumnViewRow] tag, description: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreeexpander.h:65
+  Original Name: gtk_tree_expander_set_hide_expander/usr/include/gtk-4.0/gtk/gtktreeexpander.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f738]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_tree_expander_set_hide_expander[None](self: NullablePointer[GtkTreeExpander] tag, hideexpander: I32)
+

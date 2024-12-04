@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:91
+  Original Name: g_inet_address_get_family/usr/include/glib-2.0/gio/ginetaddress.h:91
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f182]
+*/
+use @g_inet_address_get_family[I32](address: NullablePointer[GInetAddress] tag)
+

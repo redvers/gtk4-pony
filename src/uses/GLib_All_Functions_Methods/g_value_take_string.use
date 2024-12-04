@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:302
+  Original Name: g_value_take_string/usr/include/glib-2.0/gobject/gvaluetypes.h:302
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_value_take_string[None](value: NullablePointer[GValue] tag, vstring: Pointer[U8] tag)
+

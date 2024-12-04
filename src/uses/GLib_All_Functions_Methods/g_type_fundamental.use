@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2591
+  Original Name: g_type_fundamental/usr/include/glib-2.0/gobject/gtype.h:2591
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_fundamental[U64](typeid: U64)
+

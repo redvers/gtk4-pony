@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:69
+  Original Name: glib_autoptr_clear_GMappedFile/usr/include/glib-2.0/glib/glib-autocleanups.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f91]
+*/
+use @glib_autoptr_clear_GMappedFile[None](ptr: NullablePointer[GMappedFile] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:138
+  Original Name: GDK_TOPLEVEL_GET_IFACE/usr/include/gtk-4.0/gdk/gdktoplevel.h:138
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f429]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_TOPLEVEL_GET_IFACE[NullablePointer[GdkToplevelInterface]](ptr: Pointer[None] tag)
+

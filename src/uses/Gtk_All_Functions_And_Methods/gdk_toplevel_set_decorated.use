@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:182
+  Original Name: gdk_toplevel_set_decorated/usr/include/gtk-4.0/gdk/gdktoplevel.h:182
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_toplevel_set_decorated[None](toplevel: NullablePointer[GdkToplevel] tag, decorated: I32)
+

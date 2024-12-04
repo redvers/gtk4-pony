@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:413
+  Original Name: _g_param_type_register_static_constant/usr/include/glib-2.0/gobject/gparam.h:413
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=448,fid: f137]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @_g_param_type_register_static_constant[U64](name: Pointer[U8] tag, pspecinfo: NullablePointer[GParamSpecTypeInfo] tag, opttype: U64)
+

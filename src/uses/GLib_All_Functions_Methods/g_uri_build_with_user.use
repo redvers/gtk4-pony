@@ -1,0 +1,22 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:179
+  Original Name: g_uri_build_with_user/usr/include/glib-2.0/glib/guri.h:179
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f120]
+
+  Arguments:
+    [Enumeration size=32,fid: f120]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_uri_build_with_user[NullablePointer[GUri]](flags: I32, scheme: Pointer[U8] tag, user: Pointer[U8] tag, password: Pointer[U8] tag, authparams: Pointer[U8] tag, host: Pointer[U8] tag, port: I32, path: Pointer[U8] tag, query: Pointer[U8] tag, fragment: Pointer[U8] tag)
+

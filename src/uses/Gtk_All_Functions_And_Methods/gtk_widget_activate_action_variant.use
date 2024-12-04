@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:869
+  Original Name: gtk_widget_activate_action_variant/usr/include/gtk-4.0/gtk/gtkwidget.h:869
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @gtk_widget_activate_action_variant[I32](widget: NullablePointer[GtkWidget] tag, name: Pointer[U8] tag, args: NullablePointer[GVariant] tag)
+

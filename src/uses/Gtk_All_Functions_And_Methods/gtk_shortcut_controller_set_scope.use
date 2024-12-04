@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:55
+  Original Name: gtk_shortcut_controller_set_scope/usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f705]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_shortcut_controller_set_scope[None](self: NullablePointer[GtkShortcutController] tag, scope: I32)
+

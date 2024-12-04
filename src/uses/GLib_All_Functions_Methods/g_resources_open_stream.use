@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresource.h:104
+  Original Name: g_resources_open_stream/usr/include/glib-2.0/gio/gresource.h:104
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_resources_open_stream[NullablePointer[GInputStream]](path: Pointer[U8] tag, lookupflags: I32, error: Pointer[NullablePointer[GError]] tag)
+

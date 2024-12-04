@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:847
+  Original Name: g_utf8_truncate_middle/usr/include/glib-2.0/glib/gunicode.h:847
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_utf8_truncate_middle[Pointer[U8]](string: Pointer[U8] tag, truncatelength: U64)
+

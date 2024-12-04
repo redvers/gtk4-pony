@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpander.h:39
+  Original Name: gtk_expander_get_type/usr/include/gtk-4.0/gtk/gtkexpander.h:39
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_expander_get_type[U64]()
+

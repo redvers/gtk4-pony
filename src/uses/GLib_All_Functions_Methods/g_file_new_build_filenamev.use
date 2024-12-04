@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:644
+  Original Name: g_file_new_build_filenamev/usr/include/glib-2.0/gio/gfile.h:644
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_new_build_filenamev[NullablePointer[GFile]](args: Pointer[Pointer[U8]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:289
+  Original Name: g_byte_array_ref/usr/include/glib-2.0/glib/garray.h:289
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @g_byte_array_ref[NullablePointer[GByteArray]](array: NullablePointer[GByteArray] tag)
+

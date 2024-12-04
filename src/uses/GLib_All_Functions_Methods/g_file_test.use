@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:117
+  Original Name: g_file_test/usr/include/glib-2.0/glib/gfileutils.h:117
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f74]
+*/
+use @g_file_test[I32](filename: Pointer[U8] tag, test: I32)
+

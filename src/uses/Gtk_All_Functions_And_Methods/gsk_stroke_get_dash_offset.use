@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:80
+  Original Name: gsk_stroke_get_dash_offset/usr/include/gtk-4.0/gsk/gskstroke.h:80
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_stroke_get_dash_offset[F32](self: NullablePointer[GskStroke] tag)
+

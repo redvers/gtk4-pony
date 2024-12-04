@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:68
+  Original Name: g_thread_pool_push/usr/include/glib-2.0/glib/gthreadpool.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f116]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_thread_pool_push[I32](pool: NullablePointer[GThreadPool] tag, data: Pointer[None] tag, error: Pointer[NullablePointer[GError]] tag)
+

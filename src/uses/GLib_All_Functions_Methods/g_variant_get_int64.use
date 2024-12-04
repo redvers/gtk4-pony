@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:148
+  Original Name: g_variant_get_int64/usr/include/glib-2.0/glib/gvariant.h:148
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_variant_get_int64[I64](value: NullablePointer[GVariant] tag)
+

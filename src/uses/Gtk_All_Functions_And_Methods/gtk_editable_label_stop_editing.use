@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditablelabel.h:43
+  Original Name: gtk_editable_label_stop_editing/usr/include/gtk-4.0/gtk/gtkeditablelabel.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f593]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_editable_label_stop_editing[None](self: NullablePointer[GtkEditableLabel] tag, commit: I32)
+

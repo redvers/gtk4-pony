@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:415
+  Original Name: gsk_opacity_node_new/usr/include/gtk-4.0/gsk/gskrendernode.h:415
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_opacity_node_new[NullablePointer[GskRenderNode]](child: NullablePointer[GskRenderNode] tag, opacity: F32)
+

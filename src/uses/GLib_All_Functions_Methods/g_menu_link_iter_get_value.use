@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenumodel.h:303
+  Original Name: g_menu_link_iter_get_value/usr/include/glib-2.0/gio/gmenumodel.h:303
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f173]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @g_menu_link_iter_get_value[NullablePointer[GMenuModel]](iter: NullablePointer[GMenuLinkIter] tag)
+

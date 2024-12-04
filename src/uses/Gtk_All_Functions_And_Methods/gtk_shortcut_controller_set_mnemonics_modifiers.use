@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:50
+  Original Name: gtk_shortcut_controller_set_mnemonics_modifiers/usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f705]
+    [Enumeration size=32,fid: f371]
+*/
+use @gtk_shortcut_controller_set_mnemonics_modifiers[None](self: NullablePointer[GtkShortcutController] tag, modifiers: I32)
+

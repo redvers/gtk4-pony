@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:55
+  Original Name: gtk_expression_get_value_type/usr/include/gtk-4.0/gtk/gtkexpression.h:55
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_expression_get_value_type[U64](self: NullablePointer[GtkExpression] tag)
+

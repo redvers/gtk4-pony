@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksortlistmodel.h:40
+  Original Name: gtk_sort_list_model_new/usr/include/gtk-4.0/gtk/gtksortlistmodel.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f553]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f274]
+    [PointerType size=64]->[Struct size=192,fid: f552]
+*/
+use @gtk_sort_list_model_new[NullablePointer[GtkSortListModel]](model: NullablePointer[GListModel] tag, sorter: NullablePointer[GtkSorter] tag)
+

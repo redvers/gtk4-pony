@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:64
+  Original Name: gtk_file_dialog_set_default_filter/usr/include/gtk-4.0/gtk/gtkfiledialog.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+    [PointerType size=64]->[Struct size=,fid: f603]
+*/
+use @gtk_file_dialog_set_default_filter[None](self: NullablePointer[GtkFileDialog] tag, filter: NullablePointer[GtkFileFilter] tag)
+

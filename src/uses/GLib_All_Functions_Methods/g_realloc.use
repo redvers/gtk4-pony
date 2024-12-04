@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:88
+  Original Name: g_realloc/usr/include/glib-2.0/glib/gmem.h:88
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_realloc[Pointer[None]](mem: Pointer[None] tag, nbytes: U64)
+

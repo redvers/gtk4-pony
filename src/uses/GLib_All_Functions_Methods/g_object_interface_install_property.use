@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:420
+  Original Name: g_object_interface_install_property/usr/include/glib-2.0/gobject/gobject.h:420
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_object_interface_install_property[None](giface: Pointer[None] tag, pspec: NullablePointer[GParamSpec] tag)
+

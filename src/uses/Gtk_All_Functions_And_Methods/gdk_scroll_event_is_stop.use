@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:435
+  Original Name: gdk_scroll_event_is_stop/usr/include/gtk-4.0/gdk/gdkevents.h:435
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_scroll_event_is_stop[I32](event: NullablePointer[GdkEvent] tag)
+

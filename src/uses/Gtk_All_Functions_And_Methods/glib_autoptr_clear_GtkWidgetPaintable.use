@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidgetpaintable.h:29
+  Original Name: glib_autoptr_clear_GtkWidgetPaintable/usr/include/gtk-4.0/gtk/gtkwidgetpaintable.h:29
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f748]
+*/
+use @glib_autoptr_clear_GtkWidgetPaintable[None](ptr: NullablePointer[GtkWidgetPaintable] tag)
+

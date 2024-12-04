@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusutils.h:42
+  Original Name: g_dbus_is_unique_name/usr/include/glib-2.0/gio/gdbusutils.h:42
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_is_unique_name[I32](string: Pointer[U8] tag)
+

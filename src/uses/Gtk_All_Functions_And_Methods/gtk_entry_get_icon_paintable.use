@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:204
+  Original Name: gtk_entry_get_icon_paintable/usr/include/gtk-4.0/gtk/gtkentry.h:204
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f422]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+*/
+use @gtk_entry_get_icon_paintable[NullablePointer[GdkPaintable]](entry: NullablePointer[GtkEntry] tag, iconpos: I32)
+

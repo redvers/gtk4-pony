@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:465
+  Original Name: gdk_crossing_event_get_focus/usr/include/gtk-4.0/gdk/gdkevents.h:465
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_crossing_event_get_focus[I32](event: NullablePointer[GdkEvent] tag)
+

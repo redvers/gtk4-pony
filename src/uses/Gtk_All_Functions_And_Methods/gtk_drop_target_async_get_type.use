@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdroptargetasync.h:51
+  Original Name: gtk_drop_target_async_get_type/usr/include/gtk-4.0/gtk/gtkdroptargetasync.h:51
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_drop_target_async_get_type[U64]()
+

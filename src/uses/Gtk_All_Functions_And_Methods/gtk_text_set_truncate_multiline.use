@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:156
+  Original Name: gtk_text_set_truncate_multiline/usr/include/gtk-4.0/gtk/gtktext.h:156
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_set_truncate_multiline[None](self: NullablePointer[GtkText] tag, truncatemultiline: I32)
+

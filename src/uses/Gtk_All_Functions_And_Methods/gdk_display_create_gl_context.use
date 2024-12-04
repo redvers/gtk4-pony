@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:75
+  Original Name: gdk_display_create_gl_context/usr/include/gtk-4.0/gdk/gdkdisplay.h:75
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_display_create_gl_context[NullablePointer[GdkGLContext]](self: NullablePointer[GdkDisplay] tag, error: Pointer[NullablePointer[GError]] tag)
+

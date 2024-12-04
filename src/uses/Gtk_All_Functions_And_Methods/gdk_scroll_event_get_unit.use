@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:432
+  Original Name: gdk_scroll_event_get_unit/usr/include/gtk-4.0/gdk/gdkevents.h:432
+
+  Return Value: [Enumeration size=32,fid: f400]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_scroll_event_get_unit[I32](event: NullablePointer[GdkEvent] tag)
+

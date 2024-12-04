@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrop.h:41
+  Original Name: gdk_drop_get_device/usr/include/gtk-4.0/gdk/gdkdrop.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drop_get_device[NullablePointer[GdkDevice]](self: NullablePointer[GdkDrop] tag)
+

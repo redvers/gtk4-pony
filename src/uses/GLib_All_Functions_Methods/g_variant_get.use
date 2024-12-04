@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:410
+  Original Name: g_variant_get/usr/include/glib-2.0/glib/gvariant.h:410
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_variant_get[None](value: NullablePointer[GVariant] tag, formatstring: Pointer[U8] tag, ...)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentprovider.h:93
+  Original Name: gdk_content_provider_content_changed/usr/include/gtk-4.0/gdk/gdkcontentprovider.h:93
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f374]
+*/
+use @gdk_content_provider_content_changed[None](provider: NullablePointer[GdkContentProvider] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:68
+  Original Name: g_inet_address_new_from_bytes/usr/include/glib-2.0/gio/ginetaddress.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f182]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_inet_address_new_from_bytes[NullablePointer[GInetAddress]](bytes: Pointer[U8] tag, family: I32)
+

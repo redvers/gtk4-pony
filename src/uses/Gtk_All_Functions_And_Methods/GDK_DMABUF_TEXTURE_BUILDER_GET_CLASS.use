@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:32
+  Original Name: GDK_DMABUF_TEXTURE_BUILDER_GET_CLASS/usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:32
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f411]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_DMABUF_TEXTURE_BUILDER_GET_CLASS[NullablePointer[GdkDmabufTextureBuilderClass]](ptr: Pointer[None] tag)
+

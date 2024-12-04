@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksectionmodel.h:67
+  Original Name: gtk_section_model_sections_changed/usr/include/gtk-4.0/gtk/gtksectionmodel.h:67
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f701]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_section_model_sections_changed[None](self: NullablePointer[GtkSectionModel] tag, position: U32, nitems: U32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:103
+  Original Name: gtk_window_set_default_widget/usr/include/gtk-4.0/gtk/gtkwindow.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_window_set_default_widget[None](window: NullablePointer[GtkWindow] tag, defaultwidget: NullablePointer[GtkWidget] tag)
+

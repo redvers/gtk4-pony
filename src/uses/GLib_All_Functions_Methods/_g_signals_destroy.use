@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:653
+  Original Name: _g_signals_destroy/usr/include/glib-2.0/gobject/gsignal.h:653
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @_g_signals_destroy[None](itype: U64)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:453
+  Original Name: gdk_focus_event_get_in/usr/include/gtk-4.0/gdk/gdkevents.h:453
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_focus_event_get_in[I32](event: NullablePointer[GdkEvent] tag)
+

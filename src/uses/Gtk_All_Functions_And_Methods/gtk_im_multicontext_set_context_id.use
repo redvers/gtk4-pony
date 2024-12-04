@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimmulticontext.h:68
+  Original Name: gtk_im_multicontext_set_context_id/usr/include/gtk-4.0/gtk/gtkimmulticontext.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f643]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_im_multicontext_set_context_id[None](context: NullablePointer[GtkIMMulticontext] tag, contextid: Pointer[U8] tag)
+

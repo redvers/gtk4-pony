@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:143
+  Original Name: g_application_get_version/usr/include/glib-2.0/gio/gapplication.h:143
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+*/
+use @g_application_get_version[Pointer[U8]](application: NullablePointer[GApplication] tag)
+

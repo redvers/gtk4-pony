@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusserver.h:54
+  Original Name: g_dbus_server_start/usr/include/glib-2.0/gio/gdbusserver.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_server_start[None](server: NullablePointer[GDBusServer] tag)
+

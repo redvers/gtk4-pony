@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:69
+  Original Name: glib_autoptr_clear_GFileEnumerator/usr/include/glib-2.0/gio/gio-autocleanups.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f174]
+*/
+use @glib_autoptr_clear_GFileEnumerator[None](ptr: NullablePointer[GFileEnumerator] tag)
+

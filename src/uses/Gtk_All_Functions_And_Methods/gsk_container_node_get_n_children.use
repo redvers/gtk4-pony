@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:397
+  Original Name: gsk_container_node_get_n_children/usr/include/gtk-4.0/gsk/gskrendernode.h:397
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_container_node_get_n_children[U32](node: NullablePointer[GskRenderNode] tag)
+

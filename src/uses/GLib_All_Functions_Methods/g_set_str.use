@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:492
+  Original Name: g_set_str/usr/include/glib-2.0/glib/gstrfuncs.h:492
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_set_str[I32](strpointer: Pointer[Pointer[U8]] tag, newstr: Pointer[U8] tag)
+

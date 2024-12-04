@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskenumtypes.h:32
+  Original Name: gsk_transform_category_get_type/usr/include/gtk-4.0/gsk/gskenumtypes.h:32
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_transform_category_get_type[U64]()
+

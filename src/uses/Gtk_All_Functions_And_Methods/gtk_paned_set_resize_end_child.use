@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpaned.h:69
+  Original Name: gtk_paned_set_resize_end_child/usr/include/gtk-4.0/gtk/gtkpaned.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f675]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_paned_set_resize_end_child[None](paned: NullablePointer[GtkPaned] tag, resize: I32)
+

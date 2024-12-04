@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:94
+  Original Name: gtk_keyval_trigger_get_modifiers/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:94
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f708]
+*/
+use @gtk_keyval_trigger_get_modifiers[I32](self: NullablePointer[GtkKeyvalTrigger] tag)
+

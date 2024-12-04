@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroupexporter.h:36
+  Original Name: g_dbus_connection_export_action_group/usr/include/glib-2.0/gio/gactiongroupexporter.h:36
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_connection_export_action_group[U32](connection: NullablePointer[GDBusConnection] tag, objectpath: Pointer[U8] tag, actiongroup: NullablePointer[GActionGroup] tag, error: Pointer[NullablePointer[GError]] tag)
+

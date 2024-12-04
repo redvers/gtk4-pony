@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:513
+  Original Name: gdk_event_triggers_context_menu/usr/include/gtk-4.0/gdk/gdkevents.h:513
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_event_triggers_context_menu[I32](event: NullablePointer[GdkEvent] tag)
+

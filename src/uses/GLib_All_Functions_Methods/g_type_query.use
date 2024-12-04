@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:802
+  Original Name: g_type_query/usr/include/glib-2.0/gobject/gtype.h:802
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[Struct size=192,fid: f135]
+*/
+use @g_type_query[None](type: U64, query: NullablePointer[GTypeQuery] tag)
+

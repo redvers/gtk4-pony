@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbytes.h:73
+  Original Name: g_bytes_unref_to_data/usr/include/glib-2.0/glib/gbytes.h:73
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_bytes_unref_to_data[Pointer[None]](bytes: NullablePointer[GBytes] tag, size: Pointer[U64] tag)
+

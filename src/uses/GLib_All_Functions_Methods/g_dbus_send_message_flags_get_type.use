@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioenumtypes.h:140
+  Original Name: g_dbus_send_message_flags_get_type/usr/include/glib-2.0/gio/gioenumtypes.h:140
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_dbus_send_message_flags_get_type[U64]()
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:117
+  Original Name: gtk_print_dialog_print_finish/usr/include/gtk-4.0/gtk/gtkprintdialog.h:117
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f192]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_print_dialog_print_finish[NullablePointer[GOutputStream]](self: NullablePointer[GtkPrintDialog] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

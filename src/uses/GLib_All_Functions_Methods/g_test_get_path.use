@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:388
+  Original Name: g_test_get_path/usr/include/glib-2.0/glib/gtestutils.h:388
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+*/
+use @g_test_get_path[Pointer[U8]]()
+

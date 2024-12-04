@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrag.h:68
+  Original Name: gdk_drag_get_selected_action/usr/include/gtk-4.0/gdk/gdkdrag.h:68
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drag_get_selected_action[I32](drag: NullablePointer[GdkDrag] tag)
+

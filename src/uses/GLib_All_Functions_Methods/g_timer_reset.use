@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:55
+  Original Name: g_timer_reset/usr/include/glib-2.0/glib/gtimer.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f117]
+*/
+use @g_timer_reset[None](timer: NullablePointer[GTimer] tag)
+

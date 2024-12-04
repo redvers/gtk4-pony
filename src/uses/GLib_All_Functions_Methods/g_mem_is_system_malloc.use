@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:413
+  Original Name: g_mem_is_system_malloc/usr/include/glib-2.0/glib/gmem.h:413
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @g_mem_is_system_malloc[I32]()
+

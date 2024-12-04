@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:32
+  Original Name: GDK_IS_DMABUF_TEXTURE_BUILDER/usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h:32
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_IS_DMABUF_TEXTURE_BUILDER[I32](ptr: Pointer[None] tag)
+

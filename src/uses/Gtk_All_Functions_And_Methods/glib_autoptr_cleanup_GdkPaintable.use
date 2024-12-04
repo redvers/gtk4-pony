@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpaintable.h:33
+  Original Name: glib_autoptr_cleanup_GdkPaintable/usr/include/gtk-4.0/gdk/gdkpaintable.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f422]
+*/
+use @glib_autoptr_cleanup_GdkPaintable[None](ptr: Pointer[NullablePointer[GdkPaintable]] tag)
+

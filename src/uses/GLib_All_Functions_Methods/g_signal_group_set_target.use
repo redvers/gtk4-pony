@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignalgroup.h:46
+  Original Name: g_signal_group_set_target/usr/include/glib-2.0/gobject/gsignalgroup.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f149]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_group_set_target[None](self: NullablePointer[GSignalGroup] tag, target: Pointer[None] tag)
+

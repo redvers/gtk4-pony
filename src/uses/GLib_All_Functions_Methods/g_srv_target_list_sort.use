@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsrvtarget.h:56
+  Original Name: g_srv_target_list_sort/usr/include/glib-2.0/gio/gsrvtarget.h:56
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @g_srv_target_list_sort[NullablePointer[GList]](targets: NullablePointer[GList] tag)
+

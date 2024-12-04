@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:371
+  Original Name: gtk_text_iter_forward_find_char/usr/include/gtk-4.0/gtk/gtktextiter.h:371
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_forward_find_char[I32](iter: NullablePointer[GtkTextIter] tag, pred: Pointer[None] tag, userdata: Pointer[None] tag, limit: NullablePointer[GtkTextIter] tag)
+

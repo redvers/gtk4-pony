@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:305
+  Original Name: g_bookmark_file_get_visited_date_time/usr/include/glib-2.0/glib/gbookmarkfile.h:305
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_bookmark_file_get_visited_date_time[NullablePointer[GDateTime]](bookmark: NullablePointer[GBookmarkFile] tag, uri: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

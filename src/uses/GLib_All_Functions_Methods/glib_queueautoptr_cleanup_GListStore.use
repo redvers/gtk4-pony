@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gliststore.h:38
+  Original Name: glib_queueautoptr_cleanup_GListStore/usr/include/glib-2.0/gio/gliststore.h:38
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @glib_queueautoptr_cleanup_GListStore[None](q: Pointer[NullablePointer[GQueue]] tag)
+

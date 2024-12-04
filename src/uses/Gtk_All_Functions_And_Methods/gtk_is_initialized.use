@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmain.h:62
+  Original Name: gtk_is_initialized/usr/include/gtk-4.0/gtk/gtkmain.h:62
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @gtk_is_initialized[I32]()
+

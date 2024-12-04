@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:142
+  Original Name: gtk_stack_set_visible_child_name/usr/include/gtk-4.0/gtk/gtkstack.h:142
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_stack_set_visible_child_name[None](stack: NullablePointer[GtkStack] tag, name: Pointer[U8] tag)
+

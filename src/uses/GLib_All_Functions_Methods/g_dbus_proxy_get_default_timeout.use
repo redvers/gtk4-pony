@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusproxy.h:140
+  Original Name: g_dbus_proxy_get_default_timeout/usr/include/glib-2.0/gio/gdbusproxy.h:140
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f217]
+*/
+use @g_dbus_proxy_get_default_timeout[I32](proxy: NullablePointer[GDBusProxy] tag)
+

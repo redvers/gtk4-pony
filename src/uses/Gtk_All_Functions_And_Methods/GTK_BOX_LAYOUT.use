@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboxlayout.h:33
+  Original Name: GTK_BOX_LAYOUT/usr/include/gtk-4.0/gtk/gtkboxlayout.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f516]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_BOX_LAYOUT[NullablePointer[GtkBoxLayout]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:105
+  Original Name: g_socket_client_get_enable_proxy/usr/include/glib-2.0/gio/gsocketclient.h:105
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+*/
+use @g_socket_client_get_enable_proxy[I32](client: NullablePointer[GSocketClient] tag)
+

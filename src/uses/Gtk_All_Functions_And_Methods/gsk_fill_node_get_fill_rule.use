@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:478
+  Original Name: gsk_fill_node_get_fill_rule/usr/include/gtk-4.0/gsk/gskrendernode.h:478
+
+  Return Value: [Enumeration size=32,fid: f432]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_fill_node_get_fill_rule[I32](node: NullablePointer[GskRenderNode] tag)
+

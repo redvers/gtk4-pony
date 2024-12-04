@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:332
+  Original Name: g_settings_unbind/usr/include/glib-2.0/gio/gsettings.h:332
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_settings_unbind[None](object: Pointer[None] tag, property: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpollableutils.h:36
+  Original Name: g_pollable_source_new_full/usr/include/glib-2.0/gio/gpollableutils.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_pollable_source_new_full[NullablePointer[GSource]](pollablestream: Pointer[None] tag, childsource: NullablePointer[GSource] tag, cancellable: NullablePointer[GCancellable] tag)
+

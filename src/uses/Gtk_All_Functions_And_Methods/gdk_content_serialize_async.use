@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentserializer.h:88
+  Original Name: gdk_content_serialize_async/usr/include/gtk-4.0/gdk/gdkcontentserializer.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f192]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gdk_content_serialize_async[None](stream: NullablePointer[GOutputStream] tag, mimetype: Pointer[U8] tag, value: NullablePointer[GValue] tag, iopriority: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

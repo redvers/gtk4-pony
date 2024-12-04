@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:242
+  Original Name: g_node_children_foreach/usr/include/glib-2.0/glib/gnode.h:242
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+    [Enumeration size=32,fid: f77]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_node_children_foreach[None](node: NullablePointer[GNode] tag, flags: I32, func: Pointer[None] tag, data: Pointer[None] tag)
+

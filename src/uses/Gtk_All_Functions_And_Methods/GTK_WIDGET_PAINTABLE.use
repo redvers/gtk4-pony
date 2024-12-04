@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidgetpaintable.h:29
+  Original Name: GTK_WIDGET_PAINTABLE/usr/include/gtk-4.0/gtk/gtkwidgetpaintable.h:29
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f748]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_WIDGET_PAINTABLE[NullablePointer[GtkWidgetPaintable]](ptr: Pointer[None] tag)
+

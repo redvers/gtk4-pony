@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:107
+  Original Name: g_variant_new_printf/usr/include/glib-2.0/glib/gvariant.h:107
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_variant_new_printf[NullablePointer[GVariant]](formatstring: Pointer[U8] tag, ...)
+

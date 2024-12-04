@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:173
+  Original Name: gtk_print_duplex_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:173
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_print_duplex_get_type[U64]()
+

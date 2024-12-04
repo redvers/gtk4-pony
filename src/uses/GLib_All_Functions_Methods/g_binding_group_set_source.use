@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbindinggroup.h:48
+  Original Name: g_binding_group_set_source/usr/include/glib-2.0/gobject/gbindinggroup.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f145]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_binding_group_set_source[None](self: NullablePointer[GBindingGroup] tag, source: Pointer[None] tag)
+

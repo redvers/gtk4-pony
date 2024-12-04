@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:92
+  Original Name: gtk_tree_list_row_is_expandable/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f737]
+*/
+use @gtk_tree_list_row_is_expandable[I32](self: NullablePointer[GtkTreeListRow] tag)
+

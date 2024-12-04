@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:348
+  Original Name: g_find_program_in_path/usr/include/glib-2.0/glib/gutils.h:348
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_find_program_in_path[Pointer[U8]](program: Pointer[U8] tag)
+

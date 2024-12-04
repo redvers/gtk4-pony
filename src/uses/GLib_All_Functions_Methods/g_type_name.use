@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:743
+  Original Name: g_type_name/usr/include/glib-2.0/gobject/gtype.h:743
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_name[Pointer[U8]](type: U64)
+

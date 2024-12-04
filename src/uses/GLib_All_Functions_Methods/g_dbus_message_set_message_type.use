@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:86
+  Original Name: g_dbus_message_set_message_type/usr/include/glib-2.0/gio/gdbusmessage.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_dbus_message_set_message_type[None](message: NullablePointer[GDBusMessage] tag, type: I32)
+

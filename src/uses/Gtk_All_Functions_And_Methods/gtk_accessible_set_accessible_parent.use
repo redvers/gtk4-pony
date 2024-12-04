@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:177
+  Original Name: gtk_accessible_set_accessible_parent/usr/include/gtk-4.0/gtk/gtkaccessible.h:177
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [PointerType size=64]->[Struct size=,fid: f489]
+*/
+use @gtk_accessible_set_accessible_parent[None](self: NullablePointer[GtkAccessible] tag, parent: NullablePointer[GtkAccessible] tag, nextsibling: NullablePointer[GtkAccessible] tag)
+

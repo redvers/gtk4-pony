@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gaction.h:79
+  Original Name: g_action_change_state/usr/include/glib-2.0/gio/gaction.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_action_change_state[None](action: NullablePointer[GAction] tag, value: NullablePointer[GVariant] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:43
+  Original Name: g_async_queue_new_full/usr/include/glib-2.0/glib/gasyncqueue.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f43]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_async_queue_new_full[NullablePointer[GAsyncQueue]](itemfreefunc: Pointer[None] tag)
+

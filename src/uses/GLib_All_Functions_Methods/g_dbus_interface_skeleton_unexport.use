@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:104
+  Original Name: g_dbus_interface_skeleton_unexport/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f221]
+*/
+use @g_dbus_interface_skeleton_unexport[None](interface: NullablePointer[GDBusInterfaceSkeleton] tag)
+

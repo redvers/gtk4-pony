@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:100
+  Original Name: gtk_tree_list_row_get_parent/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:100
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f737]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f737]
+*/
+use @gtk_tree_list_row_get_parent[NullablePointer[GtkTreeListRow]](self: NullablePointer[GtkTreeListRow] tag)
+

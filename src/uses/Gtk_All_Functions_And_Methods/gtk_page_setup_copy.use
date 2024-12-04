@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:42
+  Original Name: gtk_page_setup_copy/usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f674]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f674]
+*/
+use @gtk_page_setup_copy[NullablePointer[GtkPageSetup]](other: NullablePointer[GtkPageSetup] tag)
+

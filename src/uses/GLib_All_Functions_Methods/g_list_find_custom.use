@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:122
+  Original Name: g_list_find_custom/usr/include/glib-2.0/glib/glist.h:122
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_list_find_custom[NullablePointer[GList]](list: NullablePointer[GList] tag, data: Pointer[None] tag, func: Pointer[None] tag)
+

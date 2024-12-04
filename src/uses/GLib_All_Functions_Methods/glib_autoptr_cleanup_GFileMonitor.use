@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:76
+  Original Name: glib_autoptr_cleanup_GFileMonitor/usr/include/glib-2.0/gio/gio-autocleanups.h:76
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f175]
+*/
+use @glib_autoptr_cleanup_GFileMonitor[None](ptr: Pointer[NullablePointer[GFileMonitor]] tag)
+

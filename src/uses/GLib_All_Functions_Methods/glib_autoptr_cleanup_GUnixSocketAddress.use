@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gunixsocketaddress.h:42
+  Original Name: glib_autoptr_cleanup_GUnixSocketAddress/usr/include/glib-2.0/gio/gunixsocketaddress.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f312]
+*/
+use @glib_autoptr_cleanup_GUnixSocketAddress[None](ptr: Pointer[NullablePointer[GUnixSocketAddress]] tag)
+

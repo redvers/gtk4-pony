@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdatainputstream.h:79
+  Original Name: g_data_input_stream_get_newline_type/usr/include/glib-2.0/gio/gdatainputstream.h:79
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f167]
+*/
+use @g_data_input_stream_get_newline_type[I32](stream: NullablePointer[GDataInputStream] tag)
+

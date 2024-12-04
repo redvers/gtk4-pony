@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:121
+  Original Name: g_strreverse/usr/include/glib-2.0/glib/gstrfuncs.h:121
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strreverse[Pointer[U8]](string: Pointer[U8] tag)
+

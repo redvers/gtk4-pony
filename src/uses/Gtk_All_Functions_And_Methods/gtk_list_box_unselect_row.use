@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:217
+  Original Name: gtk_list_box_unselect_row/usr/include/gtk-4.0/gtk/gtklistbox.h:217
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+    [PointerType size=64]->[Struct size=256,fid: f649]
+*/
+use @gtk_list_box_unselect_row[None](box: NullablePointer[GtkListBox] tag, row: NullablePointer[GtkListBoxRow] tag)
+

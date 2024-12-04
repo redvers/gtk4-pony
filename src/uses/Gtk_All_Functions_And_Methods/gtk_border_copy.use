@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkborder.h:64
+  Original Name: gtk_border_copy/usr/include/gtk-4.0/gtk/gtkborder.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f515]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f515]
+*/
+use @gtk_border_copy[NullablePointer[GtkBorder]](border: NullablePointer[GtkBorder] tag)
+

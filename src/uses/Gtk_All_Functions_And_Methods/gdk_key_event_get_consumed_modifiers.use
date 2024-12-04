@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:443
+  Original Name: gdk_key_event_get_consumed_modifiers/usr/include/gtk-4.0/gdk/gdkevents.h:443
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_key_event_get_consumed_modifiers[I32](event: NullablePointer[GdkEvent] tag)
+

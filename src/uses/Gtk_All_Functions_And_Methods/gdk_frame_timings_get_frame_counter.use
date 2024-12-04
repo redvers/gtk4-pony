@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframetimings.h:39
+  Original Name: gdk_frame_timings_get_frame_counter/usr/include/gtk-4.0/gdk/gdkframetimings.h:39
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f401]
+*/
+use @gdk_frame_timings_get_frame_counter[I64](timings: NullablePointer[GdkFrameTimings] tag)
+

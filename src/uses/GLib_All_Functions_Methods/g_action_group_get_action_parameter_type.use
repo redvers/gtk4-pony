@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroup.h:109
+  Original Name: g_action_group_get_action_parameter_type/usr/include/glib-2.0/gio/gactiongroup.h:109
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f93]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_action_group_get_action_parameter_type[NullablePointer[GVariantType]](actiongroup: NullablePointer[GActionGroup] tag, actionname: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnativesocketaddress.h:62
+  Original Name: g_native_socket_address_new/usr/include/glib-2.0/gio/gnativesocketaddress.h:62
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f201]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_native_socket_address_new[NullablePointer[GSocketAddress]](native: Pointer[None] tag, len: U64)
+

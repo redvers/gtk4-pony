@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:76
+  Original Name: g_simple_async_result_get_op_res_gpointer/usr/include/glib-2.0/gio/gsimpleasyncresult.h:76
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_simple_async_result_get_op_res_gpointer[Pointer[None]](simple: NullablePointer[GSimpleAsyncResult] tag)
+

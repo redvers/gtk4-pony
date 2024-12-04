@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:62
+  Original Name: g_inet_address_get_type/usr/include/glib-2.0/gio/ginetaddress.h:62
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_inet_address_get_type[U64]()
+

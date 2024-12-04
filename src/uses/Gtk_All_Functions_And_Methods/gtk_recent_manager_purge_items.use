@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:182
+  Original Name: gtk_recent_manager_purge_items/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:182
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f688]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_recent_manager_purge_items[I32](manager: NullablePointer[GtkRecentManager] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:92
+  Original Name: g_tree_ref/usr/include/glib-2.0/glib/gtree.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f119]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+*/
+use @g_tree_ref[NullablePointer[GTree]](tree: NullablePointer[GTree] tag)
+

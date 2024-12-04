@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:294
+  Original Name: g_io_channel_new_file/usr/include/glib-2.0/glib/giochannel.h:294
+
+  Return Value: [PointerType size=64]->[Struct size=896,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_io_channel_new_file[NullablePointer[GIOChannel]](filename: Pointer[U8] tag, mode: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

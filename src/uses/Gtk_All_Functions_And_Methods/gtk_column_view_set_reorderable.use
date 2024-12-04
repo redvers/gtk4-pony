@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:100
+  Original Name: gtk_column_view_set_reorderable/usr/include/gtk-4.0/gtk/gtkcolumnview.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f555]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_column_view_set_reorderable[None](self: NullablePointer[GtkColumnView] tag, reorderable: I32)
+

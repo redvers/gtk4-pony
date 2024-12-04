@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathmeasure.h:45
+  Original Name: gsk_path_measure_unref/usr/include/gtk-4.0/gsk/gskpathmeasure.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_path_measure_unref[None](self: NullablePointer[GskPathMeasure] tag)
+

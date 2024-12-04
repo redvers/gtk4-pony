@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:614
+  Original Name: gsk_value_set_render_node/usr/include/gtk-4.0/gsk/gskrendernode.h:614
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_value_set_render_node[None](value: NullablePointer[GValue] tag, node: NullablePointer[GskRenderNode] tag)
+

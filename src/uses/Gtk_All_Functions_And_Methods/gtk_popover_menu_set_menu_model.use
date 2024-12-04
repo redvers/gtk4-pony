@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopovermenu.h:45
+  Original Name: gtk_popover_menu_set_menu_model/usr/include/gtk-4.0/gtk/gtkpopovermenu.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f679]
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @gtk_popover_menu_set_menu_model[None](popover: NullablePointer[GtkPopoverMenu] tag, model: NullablePointer[GMenuModel] tag)
+

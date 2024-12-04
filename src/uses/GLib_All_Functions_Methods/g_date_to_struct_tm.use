@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:265
+  Original Name: g_date_to_struct_tm/usr/include/glib-2.0/glib/gdate.h:265
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=448,fid: f7]
+*/
+use @g_date_to_struct_tm[None](date: NullablePointer[GDate] tag, tm: NullablePointer[Tm] tag)
+

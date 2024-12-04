@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstacksidebar.h:48
+  Original Name: glib_autoptr_clear_GtkStackSidebar/usr/include/gtk-4.0/gtk/gtkstacksidebar.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f714]
+*/
+use @glib_autoptr_clear_GtkStackSidebar[None](ptr: NullablePointer[GtkStackSidebar] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:223
+  Original Name: g_dtls_connection_get_protocol_version/usr/include/glib-2.0/gio/gdtlsconnection.h:223
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dtls_connection_get_protocol_version[I32](conn: NullablePointer[GDtlsConnection] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopup.h:46
+  Original Name: gdk_popup_get_rect_anchor/usr/include/gtk-4.0/gdk/gdkpopup.h:46
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f424]
+*/
+use @gdk_popup_get_rect_anchor[I32](popup: NullablePointer[GdkPopup] tag)
+

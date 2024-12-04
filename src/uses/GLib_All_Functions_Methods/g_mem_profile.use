@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:421
+  Original Name: g_mem_profile/usr/include/glib-2.0/glib/gmem.h:421
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @g_mem_profile[None]()
+

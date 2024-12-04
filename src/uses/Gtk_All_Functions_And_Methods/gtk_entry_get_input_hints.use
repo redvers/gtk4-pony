@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:269
+  Original Name: gtk_entry_get_input_hints/usr/include/gtk-4.0/gtk/gtkentry.h:269
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_get_input_hints[I32](entry: NullablePointer[GtkEntry] tag)
+

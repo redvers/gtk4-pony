@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:185
+  Original Name: g_task_return_value/usr/include/glib-2.0/gio/gtask.h:185
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_task_return_value[None](task: NullablePointer[GTask] tag, result: NullablePointer[GValue] tag)
+

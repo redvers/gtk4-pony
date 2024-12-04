@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:326
+  Original Name: g_settings_bind_writable/usr/include/glib-2.0/gio/gsettings.h:326
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_settings_bind_writable[None](settings: NullablePointer[GSettings] tag, key: Pointer[U8] tag, object: Pointer[None] tag, property: Pointer[U8] tag, inverted: I32)
+

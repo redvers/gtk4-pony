@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksorter.h:106
+  Original Name: gtk_sorter_compare/usr/include/gtk-4.0/gtk/gtksorter.h:106
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f552]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_sorter_compare[I32](self: NullablePointer[GtkSorter] tag, item1: Pointer[None] tag, item2: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:104
+  Original Name: gtk_menu_button_get_has_frame/usr/include/gtk-4.0/gtk/gtkmenubutton.h:104
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @gtk_menu_button_get_has_frame[I32](menubutton: NullablePointer[GtkMenuButton] tag)
+

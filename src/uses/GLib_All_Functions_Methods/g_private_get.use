@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:225
+  Original Name: g_private_get/usr/include/glib-2.0/glib/gthread.h:225
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f41]
+*/
+use @g_private_get[Pointer[None]](key: NullablePointer[GPrivate] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkversion.h:101
+  Original Name: gtk_get_minor_version/usr/include/gtk-4.0/gtk/gtkversion.h:101
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @gtk_get_minor_version[U32]()
+

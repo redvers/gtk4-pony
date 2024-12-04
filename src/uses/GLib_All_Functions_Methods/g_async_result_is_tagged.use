@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gasyncresult.h:76
+  Original Name: g_async_result_is_tagged/usr/include/glib-2.0/gio/gasyncresult.h:76
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_async_result_is_tagged[I32](res: NullablePointer[GAsyncResult] tag, sourcetag: Pointer[None] tag)
+

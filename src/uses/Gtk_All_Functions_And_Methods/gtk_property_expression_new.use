@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:93
+  Original Name: gtk_property_expression_new/usr/include/gtk-4.0/gtk/gtkexpression.h:93
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[Struct size=,fid: f512]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_property_expression_new[NullablePointer[GtkExpression]](thistype: U64, expression: NullablePointer[GtkExpression] tag, propertyname: Pointer[U8] tag)
+

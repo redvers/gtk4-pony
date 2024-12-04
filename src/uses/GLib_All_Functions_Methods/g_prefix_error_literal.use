@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gerror.h:251
+  Original Name: g_prefix_error_literal/usr/include/glib-2.0/glib/gerror.h:251
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_prefix_error_literal[None](err: Pointer[NullablePointer[GError]] tag, prefix: Pointer[U8] tag)
+

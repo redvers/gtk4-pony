@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:66
+  Original Name: gtk_shortcut_action_parse_string/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_shortcut_action_parse_string[NullablePointer[GtkShortcutAction]](string: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleaction.h:47
+  Original Name: g_simple_action_new_stateful/usr/include/glib-2.0/gio/gsimpleaction.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f93]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_simple_action_new_stateful[NullablePointer[GSimpleAction]](name: Pointer[U8] tag, parametertype: NullablePointer[GVariantType] tag, state: NullablePointer[GVariant] tag)
+

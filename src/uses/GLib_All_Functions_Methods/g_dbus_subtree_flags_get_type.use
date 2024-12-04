@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioenumtypes.h:134
+  Original Name: g_dbus_subtree_flags_get_type/usr/include/glib-2.0/gio/gioenumtypes.h:134
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_dbus_subtree_flags_get_type[U64]()
+

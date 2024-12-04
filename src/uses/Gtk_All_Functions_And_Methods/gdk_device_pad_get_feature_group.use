@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevicepad.h:66
+  Original Name: gdk_device_pad_get_feature_group/usr/include/gtk-4.0/gdk/gdkdevicepad.h:66
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f398]
+    [Enumeration size=32,fid: f398]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_device_pad_get_feature_group[I32](pad: NullablePointer[GdkDevicePad] tag, feature: I32, featureidx: I32)
+

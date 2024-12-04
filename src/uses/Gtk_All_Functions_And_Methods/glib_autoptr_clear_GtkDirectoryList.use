@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdirectorylist.h:37
+  Original Name: glib_autoptr_clear_GtkDirectoryList/usr/include/gtk-4.0/gtk/gtkdirectorylist.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f583]
+*/
+use @glib_autoptr_clear_GtkDirectoryList[None](ptr: NullablePointer[GtkDirectoryList] tag)
+

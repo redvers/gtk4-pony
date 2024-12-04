@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:141
+  Original Name: gtk_builder_set_current_object/usr/include/gtk-4.0/gtk/gtkbuilder.h:141
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @gtk_builder_set_current_object[None](builder: NullablePointer[GtkBuilder] tag, currentobject: NullablePointer[GObject] tag)
+

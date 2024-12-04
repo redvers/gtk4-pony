@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:243
+  Original Name: g_uri_get_flags/usr/include/glib-2.0/glib/guri.h:243
+
+  Return Value: [Enumeration size=32,fid: f120]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f120]
+*/
+use @g_uri_get_flags[I32](uri: NullablePointer[GUri] tag)
+

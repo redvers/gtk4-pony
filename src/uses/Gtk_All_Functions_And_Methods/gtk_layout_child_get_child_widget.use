@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutchild.h:25
+  Original Name: gtk_layout_child_get_child_widget/usr/include/gtk-4.0/gtk/gtklayoutchild.h:25
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f508]
+*/
+use @gtk_layout_child_get_child_widget[NullablePointer[GtkWidget]](layoutchild: NullablePointer[GtkLayoutChild] tag)
+

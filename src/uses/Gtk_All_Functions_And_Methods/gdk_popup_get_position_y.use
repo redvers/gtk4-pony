@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopup.h:55
+  Original Name: gdk_popup_get_position_y/usr/include/gtk-4.0/gdk/gdkpopup.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f424]
+*/
+use @gdk_popup_get_position_y[I32](popup: NullablePointer[GdkPopup] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdragsurface.h:36
+  Original Name: gdk_drag_surface_present/usr/include/gtk-4.0/gdk/gdkdragsurface.h:36
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f412]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_drag_surface_present[I32](dragsurface: NullablePointer[GdkDragSurface] tag, width: I32, height: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:45
+  Original Name: glib_autoptr_clear_GtkSnapshot/usr/include/gtk-4.0/gtk/gtksnapshot.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_clear_GtkSnapshot[None](ptr: NullablePointer[GdkSnapshot] tag)
+

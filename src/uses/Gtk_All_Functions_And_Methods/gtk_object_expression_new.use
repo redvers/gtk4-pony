@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:127
+  Original Name: gtk_object_expression_new/usr/include/gtk-4.0/gtk/gtkexpression.h:127
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @gtk_object_expression_new[NullablePointer[GtkExpression]](object: NullablePointer[GObject] tag)
+

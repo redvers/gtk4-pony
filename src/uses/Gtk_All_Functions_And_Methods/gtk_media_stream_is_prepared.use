@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:63
+  Original Name: gtk_media_stream_is_prepared/usr/include/gtk-4.0/gtk/gtkmediastream.h:63
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_stream_is_prepared[I32](self: NullablePointer[GtkMediaStream] tag)
+

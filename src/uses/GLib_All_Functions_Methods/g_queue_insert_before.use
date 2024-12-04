@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:146
+  Original Name: g_queue_insert_before/usr/include/glib-2.0/glib/gqueue.h:146
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_queue_insert_before[None](queue: NullablePointer[GQueue] tag, sibling: NullablePointer[GList] tag, data: Pointer[None] tag)
+

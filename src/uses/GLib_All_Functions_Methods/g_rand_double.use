@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grand.h:77
+  Original Name: g_rand_double/usr/include/glib-2.0/glib/grand.h:77
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f102]
+*/
+use @g_rand_double[F64](rand: NullablePointer[GRand] tag)
+

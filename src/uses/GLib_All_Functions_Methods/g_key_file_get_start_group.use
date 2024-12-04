@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:108
+  Original Name: g_key_file_get_start_group/usr/include/glib-2.0/glib/gkeyfile.h:108
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+*/
+use @g_key_file_get_start_group[Pointer[U8]](keyfile: NullablePointer[GKeyFile] tag)
+

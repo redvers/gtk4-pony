@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:75
+  Original Name: g_queue_new/usr/include/glib-2.0/glib/gqueue.h:75
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f101]
+
+  Arguments:
+*/
+use @g_queue_new[NullablePointer[GQueue]]()
+

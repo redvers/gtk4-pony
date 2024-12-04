@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:119
+  Original Name: g_simple_async_result_set_error/usr/include/glib-2.0/gio/gsimpleasyncresult.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_simple_async_result_set_error[None](simple: NullablePointer[GSimpleAsyncResult] tag, domain: U32, code: I32, format: Pointer[U8] tag, ...)
+

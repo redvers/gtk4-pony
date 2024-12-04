@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:85
+  Original Name: gtk_bitset_remove_range/usr/include/gtk-4.0/gtk/gtkbitset.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_bitset_remove_range[None](self: NullablePointer[GtkBitset] tag, start: U32, nitems: U32)
+

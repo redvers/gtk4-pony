@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkoverlay.h:65
+  Original Name: gtk_overlay_set_clip_overlay/usr/include/gtk-4.0/gtk/gtkoverlay.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f670]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_overlay_set_clip_overlay[None](overlay: NullablePointer[GtkOverlay] tag, widget: NullablePointer[GtkWidget] tag, clipoverlay: I32)
+

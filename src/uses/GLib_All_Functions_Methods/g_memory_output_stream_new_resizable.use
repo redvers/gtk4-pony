@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemoryoutputstream.h:89
+  Original Name: g_memory_output_stream_new_resizable/usr/include/glib-2.0/gio/gmemoryoutputstream.h:89
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f192]
+
+  Arguments:
+*/
+use @g_memory_output_stream_new_resizable[NullablePointer[GOutputStream]]()
+

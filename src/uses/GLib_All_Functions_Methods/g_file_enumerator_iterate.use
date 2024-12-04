@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileenumerator.h:140
+  Original Name: g_file_enumerator_iterate/usr/include/glib-2.0/gio/gfileenumerator.h:140
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f174]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_enumerator_iterate[I32](direnum: NullablePointer[GFileEnumerator] tag, outinfo: Pointer[NullablePointer[GFileInfo]] tag, outchild: Pointer[NullablePointer[GFile]] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroup.h:143
+  Original Name: g_action_group_action_enabled_changed/usr/include/glib-2.0/gio/gactiongroup.h:143
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_action_group_action_enabled_changed[None](actiongroup: NullablePointer[GActionGroup] tag, actionname: Pointer[U8] tag, enabled: I32)
+

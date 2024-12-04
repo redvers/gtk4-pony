@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:124
+  Original Name: gtk_grid_set_row_baseline_position/usr/include/gtk-4.0/gtk/gtkgrid.h:124
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f634]
+    [FundamentalType(int) size=32]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_grid_set_row_baseline_position[None](grid: NullablePointer[GtkGrid] tag, row: I32, pos: I32)
+

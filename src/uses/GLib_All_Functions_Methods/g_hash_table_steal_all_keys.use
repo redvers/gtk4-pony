@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:98
+  Original Name: g_hash_table_steal_all_keys/usr/include/glib-2.0/glib/ghash.h:98
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+*/
+use @g_hash_table_steal_all_keys[NullablePointer[GPtrArray]](hashtable: NullablePointer[GHashTable] tag)
+

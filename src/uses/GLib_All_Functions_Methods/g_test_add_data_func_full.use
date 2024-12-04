@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:381
+  Original Name: g_test_add_data_func_full/usr/include/glib-2.0/glib/gtestutils.h:381
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_test_add_data_func_full[None](testpath: Pointer[U8] tag, testdata: Pointer[None] tag, testfunc: Pointer[None] tag, datafreefunc: Pointer[None] tag)
+

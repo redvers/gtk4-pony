@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditablelabel.h:31
+  Original Name: glib_autoptr_clear_GtkEditableLabel/usr/include/gtk-4.0/gtk/gtkeditablelabel.h:31
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f593]
+*/
+use @glib_autoptr_clear_GtkEditableLabel[None](ptr: NullablePointer[GtkEditableLabel] tag)
+

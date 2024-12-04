@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:245
+  Original Name: gtk_buildable_get_buildable_id/usr/include/gtk-4.0/gtk/gtkbuildable.h:245
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f520]
+*/
+use @gtk_buildable_get_buildable_id[Pointer[U8]](buildable: NullablePointer[GtkBuildable] tag)
+

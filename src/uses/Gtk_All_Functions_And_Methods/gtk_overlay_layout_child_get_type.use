@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkoverlaylayout.h:41
+  Original Name: gtk_overlay_layout_child_get_type/usr/include/gtk-4.0/gtk/gtkoverlaylayout.h:41
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_overlay_layout_child_get_type[U64]()
+

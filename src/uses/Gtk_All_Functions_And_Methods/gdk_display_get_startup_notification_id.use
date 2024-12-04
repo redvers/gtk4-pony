@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:90
+  Original Name: gdk_display_get_startup_notification_id/usr/include/gtk-4.0/gdk/gdkdisplay.h:90
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_get_startup_notification_id[Pointer[U8]](display: NullablePointer[GdkDisplay] tag)
+

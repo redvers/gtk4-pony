@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:478
+  Original Name: g_main_current_source/usr/include/glib-2.0/glib/gmain.h:478
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f85]
+
+  Arguments:
+*/
+use @g_main_current_source[NullablePointer[GSource]]()
+

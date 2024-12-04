@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:60
+  Original Name: g_slist_append/usr/include/glib-2.0/glib/gslist.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_slist_append[NullablePointer[GSList]](list: NullablePointer[GSList] tag, data: Pointer[None] tag)
+

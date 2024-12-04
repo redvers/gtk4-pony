@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilefilter.h:56
+  Original Name: gtk_file_filter_add_suffix/usr/include/gtk-4.0/gtk/gtkfilefilter.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f603]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_file_filter_add_suffix[None](filter: NullablePointer[GtkFileFilter] tag, suffix: Pointer[U8] tag)
+

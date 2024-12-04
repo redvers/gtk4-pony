@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraintguide.h:71
+  Original Name: gtk_constraint_guide_get_name/usr/include/gtk-4.0/gtk/gtkconstraintguide.h:71
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f576]
+*/
+use @gtk_constraint_guide_get_name[Pointer[U8]](guide: NullablePointer[GtkConstraintGuide] tag)
+

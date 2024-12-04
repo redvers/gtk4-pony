@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:411
+  Original Name: g_object_class_override_property/usr/include/glib-2.0/gobject/gobject.h:411
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1088,fid: f143]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_object_class_override_property[None](oclass: NullablePointer[GObjectClass] tag, propertyid: U32, name: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectskeleton.h:79
+  Original Name: g_dbus_object_skeleton_remove_interface/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f222]
+    [PointerType size=64]->[Struct size=256,fid: f221]
+*/
+use @g_dbus_object_skeleton_remove_interface[None](object: NullablePointer[GDBusObjectSkeleton] tag, interface: NullablePointer[GDBusInterfaceSkeleton] tag)
+

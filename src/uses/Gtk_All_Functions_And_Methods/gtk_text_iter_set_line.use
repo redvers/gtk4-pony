@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:325
+  Original Name: gtk_text_iter_set_line/usr/include/gtk-4.0/gtk/gtktextiter.h:325
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_iter_set_line[None](iter: NullablePointer[GtkTextIter] tag, linenumber: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:49
+  Original Name: gtk_expression_ref/usr/include/gtk-4.0/gtk/gtkexpression.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_expression_ref[NullablePointer[GtkExpression]](self: NullablePointer[GtkExpression] tag)
+

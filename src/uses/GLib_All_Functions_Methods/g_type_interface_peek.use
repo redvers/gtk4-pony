@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:773
+  Original Name: g_type_interface_peek/usr/include/glib-2.0/gobject/gtype.h:773
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_interface_peek[Pointer[None]](instanceclass: Pointer[None] tag, ifacetype: U64)
+

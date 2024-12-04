@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetsocketaddress.h:69
+  Original Name: g_inet_socket_address_get_address/usr/include/glib-2.0/gio/ginetsocketaddress.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f182]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f184]
+*/
+use @g_inet_socket_address_get_address[NullablePointer[GInetAddress]](address: NullablePointer[GInetSocketAddress] tag)
+

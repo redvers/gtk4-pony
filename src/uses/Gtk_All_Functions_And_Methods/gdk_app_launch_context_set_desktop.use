@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h:43
+  Original Name: gdk_app_launch_context_set_desktop/usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_app_launch_context_set_desktop[None](context: NullablePointer[GdkAppLaunchContext] tag, desktop: I32)
+

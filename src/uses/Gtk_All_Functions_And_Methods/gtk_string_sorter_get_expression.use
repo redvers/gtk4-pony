@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringsorter.h:39
+  Original Name: gtk_string_sorter_get_expression/usr/include/gtk-4.0/gtk/gtkstringsorter.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f722]
+*/
+use @gtk_string_sorter_get_expression[NullablePointer[GtkExpression]](self: NullablePointer[GtkStringSorter] tag)
+

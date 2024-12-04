@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpathbuf.h:59
+  Original Name: g_path_buf_free_to_path/usr/include/glib-2.0/glib/gpathbuf.h:59
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f97]
+*/
+use @g_path_buf_free_to_path[Pointer[U8]](buf: NullablePointer[GPathBuf] tag)
+

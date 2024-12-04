@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpaintable.h:128
+  Original Name: gdk_paintable_compute_concrete_size/usr/include/gtk-4.0/gdk/gdkpaintable.h:128
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f422]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_paintable_compute_concrete_size[None](paintable: NullablePointer[GdkPaintable] tag, specifiedwidth: F64, specifiedheight: F64, defaultwidth: F64, defaultheight: F64, concretewidth: Pointer[F64] tag, concreteheight: Pointer[F64] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairocontext.h:38
+  Original Name: gdk_cairo_context_get_type/usr/include/gtk-4.0/gdk/gdkcairocontext.h:38
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_cairo_context_get_type[U64]()
+

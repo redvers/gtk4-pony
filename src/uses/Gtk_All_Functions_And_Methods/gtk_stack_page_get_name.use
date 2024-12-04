@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:92
+  Original Name: gtk_stack_page_get_name/usr/include/gtk-4.0/gtk/gtkstack.h:92
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+*/
+use @gtk_stack_page_get_name[Pointer[U8]](self: NullablePointer[GtkStackPage] tag)
+

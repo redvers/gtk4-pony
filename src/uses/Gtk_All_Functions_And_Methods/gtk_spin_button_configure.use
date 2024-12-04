@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:104
+  Original Name: gtk_spin_button_configure/usr/include/gtk-4.0/gtk/gtkspinbutton.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+    [PointerType size=64]->[Struct size=192,fid: f477]
+    [FundamentalType(double) size=64]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_spin_button_configure[None](spinbutton: NullablePointer[GtkSpinButton] tag, adjustment: NullablePointer[GtkAdjustment] tag, climbrate: F64, digits: U32)
+

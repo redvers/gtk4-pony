@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprogressbar.h:74
+  Original Name: gtk_progress_bar_set_ellipsize/usr/include/gtk-4.0/gtk/gtkprogressbar.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f686]
+    [Enumeration size=32,fid: f359]
+*/
+use @gtk_progress_bar_set_ellipsize[None](pbar: NullablePointer[GtkProgressBar] tag, mode: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaspectframe.h:79
+  Original Name: gtk_aspect_frame_get_child/usr/include/gtk-4.0/gtk/gtkaspectframe.h:79
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f505]
+*/
+use @gtk_aspect_frame_get_child[NullablePointer[GtkWidget]](self: NullablePointer[GtkAspectFrame] tag)
+

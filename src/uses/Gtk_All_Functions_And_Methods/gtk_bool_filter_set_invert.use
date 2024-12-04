@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboolfilter.h:46
+  Original Name: gtk_bool_filter_set_invert/usr/include/gtk-4.0/gtk/gtkboolfilter.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f514]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_bool_filter_set_invert[None](self: NullablePointer[GtkBoolFilter] tag, invert: I32)
+

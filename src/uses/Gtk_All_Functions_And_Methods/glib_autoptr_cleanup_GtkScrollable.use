@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollable.h:75
+  Original Name: glib_autoptr_cleanup_GtkScrollable/usr/include/gtk-4.0/gtk/gtkscrollable.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f695]
+*/
+use @glib_autoptr_cleanup_GtkScrollable[None](ptr: Pointer[NullablePointer[GtkScrollable]] tag)
+

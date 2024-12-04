@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:88
+  Original Name: g_queue_clear_full/usr/include/glib-2.0/glib/gqueue.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_queue_clear_full[None](queue: NullablePointer[GQueue] tag, freefunc: Pointer[None] tag)
+

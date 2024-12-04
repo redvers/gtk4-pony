@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:91
+  Original Name: g_subprocess_launcher_set_stdout_file_path/usr/include/glib-2.0/gio/gsubprocesslauncher.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_subprocess_launcher_set_stdout_file_path[None](self: NullablePointer[GSubprocessLauncher] tag, path: Pointer[U8] tag)
+

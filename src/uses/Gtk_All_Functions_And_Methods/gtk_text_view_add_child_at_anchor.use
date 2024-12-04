@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:313
+  Original Name: gtk_text_view_add_child_at_anchor/usr/include/gtk-4.0/gtk/gtktextview.h:313
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=256,fid: f730]
+*/
+use @gtk_text_view_add_child_at_anchor[None](textview: NullablePointer[GtkTextView] tag, child: NullablePointer[GtkWidget] tag, anchor: NullablePointer[GtkTextChildAnchor] tag)
+

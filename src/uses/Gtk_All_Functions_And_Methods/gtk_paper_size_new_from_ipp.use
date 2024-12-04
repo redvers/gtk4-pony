@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:97
+  Original Name: gtk_paper_size_new_from_ipp/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:97
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f673]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_paper_size_new_from_ipp[NullablePointer[GtkPaperSize]](ippname: Pointer[U8] tag, width: F64, height: F64)
+

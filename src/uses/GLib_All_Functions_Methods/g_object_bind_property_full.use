@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbinding.h:128
+  Original Name: g_object_bind_property_full/usr/include/glib-2.0/gobject/gbinding.h:128
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f144]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f144]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_object_bind_property_full[NullablePointer[GBinding]](source: Pointer[None] tag, sourceproperty: Pointer[U8] tag, target: Pointer[None] tag, targetproperty: Pointer[U8] tag, flags: I32, transformto: Pointer[None] tag, transformfrom: Pointer[None] tag, userdata: Pointer[None] tag, notify: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:120
+  Original Name: gtk_editable_set_editable/usr/include/gtk-4.0/gtk/gtkeditable.h:120
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_editable_set_editable[None](editable: NullablePointer[GtkEditable] tag, iseditable: I32)
+

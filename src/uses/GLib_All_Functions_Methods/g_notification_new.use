@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnotification.h:42
+  Original Name: g_notification_new/usr/include/glib-2.0/gio/gnotification.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_notification_new[NullablePointer[GNotification]](title: Pointer[U8] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:113
+  Original Name: g_subprocess_launcher_set_child_setup/usr/include/glib-2.0/gio/gsubprocesslauncher.h:113
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_subprocess_launcher_set_child_setup[None](self: NullablePointer[GSubprocessLauncher] tag, childsetup: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

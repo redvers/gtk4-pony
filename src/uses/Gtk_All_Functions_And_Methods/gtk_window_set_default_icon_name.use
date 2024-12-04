@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:164
+  Original Name: gtk_window_set_default_icon_name/usr/include/gtk-4.0/gtk/gtkwindow.h:164
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_window_set_default_icon_name[None](name: Pointer[U8] tag)
+

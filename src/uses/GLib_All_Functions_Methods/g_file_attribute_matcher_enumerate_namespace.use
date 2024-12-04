@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1532
+  Original Name: g_file_attribute_matcher_enumerate_namespace/usr/include/glib-2.0/gio/gfileinfo.h:1532
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_attribute_matcher_enumerate_namespace[I32](matcher: NullablePointer[GFileAttributeMatcher] tag, ns: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterlayout.h:40
+  Original Name: gtk_center_layout_get_baseline_position/usr/include/gtk-4.0/gtk/gtkcenterlayout.h:40
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f542]
+*/
+use @gtk_center_layout_get_baseline_position[I32](self: NullablePointer[GtkCenterLayout] tag)
+

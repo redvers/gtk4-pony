@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gunixfdlist.h:88
+  Original Name: g_unix_fd_list_peek_fds/usr/include/glib-2.0/gio/gunixfdlist.h:88
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f216]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_unix_fd_list_peek_fds[Pointer[I32]](list: NullablePointer[GUnixFDList] tag, length: Pointer[I32] tag)
+

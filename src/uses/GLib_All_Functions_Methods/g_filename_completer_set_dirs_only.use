@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilenamecompleter.h:71
+  Original Name: g_filename_completer_set_dirs_only/usr/include/glib-2.0/gio/gfilenamecompleter.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+*/
+use @g_filename_completer_set_dirs_only[None](completer: NullablePointer[GFilenameCompleter] tag, dirsonly: I32)
+

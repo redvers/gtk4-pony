@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gboxed.h:84
+  Original Name: g_value_take_boxed/usr/include/glib-2.0/gobject/gboxed.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_value_take_boxed[None](value: NullablePointer[GValue] tag, vboxed: Pointer[None] tag)
+

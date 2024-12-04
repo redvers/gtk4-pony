@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gatomic.h:48
+  Original Name: g_atomic_int_compare_and_exchange_full/usr/include/glib-2.0/glib/gatomic.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_atomic_int_compare_and_exchange_full[I32](atomic: Pointer[I32] tag, oldval: I32, newval: I32, preval: Pointer[I32] tag)
+

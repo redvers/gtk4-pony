@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:101
+  Original Name: g_node_new/usr/include/glib-2.0/glib/gnode.h:101
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_node_new[NullablePointer[GNode]](data: Pointer[None] tag)
+

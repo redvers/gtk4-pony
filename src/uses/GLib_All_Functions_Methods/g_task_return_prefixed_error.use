@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:167
+  Original Name: g_task_return_prefixed_error/usr/include/glib-2.0/gio/gtask.h:167
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_task_return_prefixed_error[None](task: NullablePointer[GTask] tag, error: NullablePointer[GError] tag, format: Pointer[U8] tag, ...)
+

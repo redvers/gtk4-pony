@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1298
+  Original Name: g_file_info_copy_into/usr/include/glib-2.0/gio/gfileinfo.h:1298
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_copy_into[None](srcinfo: NullablePointer[GFileInfo] tag, destinfo: NullablePointer[GFileInfo] tag)
+

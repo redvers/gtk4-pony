@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:359
+  Original Name: g_variant_type_new_maybe/usr/include/glib-2.0/glib/gvarianttype.h:359
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f93]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_type_new_maybe[NullablePointer[GVariantType]](element: NullablePointer[GVariantType] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:140
+  Original Name: gtk_text_get_extra_menu/usr/include/gtk-4.0/gtk/gtktext.h:140
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f173]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_get_extra_menu[NullablePointer[GMenuModel]](self: NullablePointer[GtkText] tag)
+

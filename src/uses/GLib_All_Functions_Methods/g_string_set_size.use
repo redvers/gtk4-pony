@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:93
+  Original Name: g_string_set_size/usr/include/glib-2.0/glib/gstring.h:93
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_string_set_size[NullablePointer[GString]](string: NullablePointer[GString] tag, len: U64)
+

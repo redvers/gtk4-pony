@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:650
+  Original Name: g_file_equal/usr/include/glib-2.0/gio/gfile.h:650
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_equal[I32](file1: NullablePointer[GFile] tag, file2: NullablePointer[GFile] tag)
+

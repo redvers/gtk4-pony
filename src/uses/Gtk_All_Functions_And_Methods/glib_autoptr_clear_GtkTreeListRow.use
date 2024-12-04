@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:39
+  Original Name: glib_autoptr_clear_GtkTreeListRow/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f737]
+*/
+use @glib_autoptr_clear_GtkTreeListRow[None](ptr: NullablePointer[GtkTreeListRow] tag)
+

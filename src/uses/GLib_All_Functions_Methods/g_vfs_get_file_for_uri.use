@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvfs.h:135
+  Original Name: g_vfs_get_file_for_uri/usr/include/glib-2.0/gio/gvfs.h:135
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f211]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_vfs_get_file_for_uri[NullablePointer[GFile]](vfs: NullablePointer[GVfs] tag, uri: Pointer[U8] tag)
+

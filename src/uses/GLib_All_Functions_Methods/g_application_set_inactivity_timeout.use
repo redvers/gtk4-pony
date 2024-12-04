@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:156
+  Original Name: g_application_set_inactivity_timeout/usr/include/glib-2.0/gio/gapplication.h:156
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_application_set_inactivity_timeout[None](application: NullablePointer[GApplication] tag, inactivitytimeout: U32)
+

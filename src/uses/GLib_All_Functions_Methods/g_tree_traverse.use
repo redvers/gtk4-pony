@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:148
+  Original Name: g_tree_traverse/usr/include/glib-2.0/glib/gtree.h:148
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [Enumeration size=32,fid: f77]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_traverse[None](tree: NullablePointer[GTree] tag, traversefunc: Pointer[None] tag, traversetype: I32, userdata: Pointer[None] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:285
+  Original Name: gtk_text_buffer_move_mark_by_name/usr/include/gtk-4.0/gtk/gtktextbuffer.h:285
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_buffer_move_mark_by_name[None](buffer: NullablePointer[GtkTextBuffer] tag, name: Pointer[U8] tag, where: NullablePointer[GtkTextIter] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:36
+  Original Name: gtk_shortcut_trigger_parse_string/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_shortcut_trigger_parse_string[NullablePointer[GtkShortcutTrigger]](string: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:159
+  Original Name: gtk_about_dialog_set_authors/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:159
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_about_dialog_set_authors[None](about: NullablePointer[GtkAboutDialog] tag, authors: Pointer[Pointer[U8]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:79
+  Original Name: g_io_extension_point_get_required_type/usr/include/glib-2.0/gio/giomodule.h:79
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_io_extension_point_get_required_type[U64](extensionpoint: NullablePointer[GIOExtensionPoint] tag)
+

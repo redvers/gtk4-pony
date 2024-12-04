@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:97
+  Original Name: g_socket_client_set_local_address/usr/include/glib-2.0/gio/gsocketclient.h:97
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+    [PointerType size=64]->[Struct size=192,fid: f201]
+*/
+use @g_socket_client_set_local_address[None](client: NullablePointer[GSocketClient] tag, address: NullablePointer[GSocketAddress] tag)
+

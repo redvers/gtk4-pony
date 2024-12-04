@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkheaderbar.h:42
+  Original Name: gtk_header_bar_set_title_widget/usr/include/gtk-4.0/gtk/gtkheaderbar.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f638]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_header_bar_set_title_widget[None](bar: NullablePointer[GtkHeaderBar] tag, titlewidget: NullablePointer[GtkWidget] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusproxy.h:116
+  Original Name: g_dbus_proxy_new_for_bus_finish/usr/include/glib-2.0/gio/gdbusproxy.h:116
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f217]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_proxy_new_for_bus_finish[NullablePointer[GDBusProxy]](res: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

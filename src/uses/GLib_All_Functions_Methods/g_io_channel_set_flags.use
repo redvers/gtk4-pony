@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:219
+  Original Name: g_io_channel_set_flags/usr/include/glib-2.0/glib/giochannel.h:219
+
+  Return Value: [Enumeration size=32,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [Enumeration size=32,fid: f89]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_io_channel_set_flags[I32](channel: NullablePointer[GIOChannel] tag, flags: I32, error: Pointer[NullablePointer[GError]] tag)
+

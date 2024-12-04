@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:35
+  Original Name: glib_autoptr_clear_GAsyncInitable/usr/include/glib-2.0/gio/gio-autocleanups.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_clear_GAsyncInitable[None](ptr: NullablePointer[GAsyncInitable] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpander.h:59
+  Original Name: gtk_expander_set_use_underline/usr/include/gtk-4.0/gtk/gtkexpander.h:59
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f600]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_expander_set_use_underline[None](expander: NullablePointer[GtkExpander] tag, useunderline: I32)
+

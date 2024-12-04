@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:52
+  Original Name: gdk_surface_new_toplevel/usr/include/gtk-4.0/gdk/gdksurface.h:52
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_surface_new_toplevel[NullablePointer[GdkSurface]](display: NullablePointer[GdkDisplay] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:101
+  Original Name: gdk_device_get_source/usr/include/gtk-4.0/gdk/gdkdevice.h:101
+
+  Return Value: [Enumeration size=32,fid: f397]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_device_get_source[I32](device: NullablePointer[GdkDevice] tag)
+

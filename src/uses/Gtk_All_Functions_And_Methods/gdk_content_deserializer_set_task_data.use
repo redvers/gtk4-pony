@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:64
+  Original Name: gdk_content_deserializer_set_task_data/usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f391]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gdk_content_deserializer_set_task_data[None](deserializer: NullablePointer[GdkContentDeserializer] tag, data: Pointer[None] tag, notify: Pointer[None] tag)
+

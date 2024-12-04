@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:131
+  Original Name: gtk_stack_get_page/usr/include/gtk-4.0/gtk/gtkstack.h:131
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f713]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_stack_get_page[NullablePointer[GtkStackPage]](stack: NullablePointer[GtkStack] tag, child: NullablePointer[GtkWidget] tag)
+

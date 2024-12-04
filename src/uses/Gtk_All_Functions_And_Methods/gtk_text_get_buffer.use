@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:63
+  Original Name: gtk_text_get_buffer/usr/include/gtk-4.0/gtk/gtktext.h:63
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f565]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_get_buffer[NullablePointer[GtkEntryBuffer]](self: NullablePointer[GtkText] tag)
+

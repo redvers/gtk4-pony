@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:109
+  Original Name: GTK_MNEMONIC_TRIGGER_GET_CLASS/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:109
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f708]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_MNEMONIC_TRIGGER_GET_CLASS[NullablePointer[GtkMnemonicTriggerClass]](ptr: Pointer[None] tag)
+

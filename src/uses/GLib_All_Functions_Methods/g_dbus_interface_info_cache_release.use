@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:199
+  Original Name: g_dbus_interface_info_cache_release/usr/include/glib-2.0/gio/gdbusintrospection.h:199
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f220]
+*/
+use @g_dbus_interface_info_cache_release[None](info: NullablePointer[GDBusInterfaceInfo] tag)
+

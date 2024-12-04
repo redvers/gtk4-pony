@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:101
+  Original Name: gtk_dialog_error_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:101
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_dialog_error_get_type[U64]()
+

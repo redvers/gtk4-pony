@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrenderer.h:51
+  Original Name: gsk_renderer_realize_for_display/usr/include/gtk-4.0/gsk/gskrenderer.h:51
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gsk_renderer_realize_for_display[I32](renderer: NullablePointer[GskRenderer] tag, display: NullablePointer[GdkDisplay] tag, error: Pointer[NullablePointer[GError]] tag)
+

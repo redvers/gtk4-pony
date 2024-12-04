@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:109
+  Original Name: g_strdelimit/usr/include/glib-2.0/glib/gstrfuncs.h:109
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(char) size=8]
+*/
+use @g_strdelimit[Pointer[U8]](string: Pointer[U8] tag, delimiters: Pointer[U8] tag, newdelimiter: U8)
+

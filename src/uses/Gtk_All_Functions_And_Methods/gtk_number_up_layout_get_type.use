@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:165
+  Original Name: gtk_number_up_layout_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:165
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_number_up_layout_get_type[U64]()
+

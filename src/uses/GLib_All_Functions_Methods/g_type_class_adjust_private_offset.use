@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1506
+  Original Name: g_type_class_adjust_private_offset/usr/include/glib-2.0/gobject/gtype.h:1506
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_type_class_adjust_private_offset[None](gclass: Pointer[None] tag, privatesizeoroffset: Pointer[I32] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:109
+  Original Name: gdk_device_get_direction/usr/include/gtk-4.0/gdk/gdkdevice.h:109
+
+  Return Value: [Enumeration size=32,fid: f347]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_device_get_direction[I32](device: NullablePointer[GdkDevice] tag)
+

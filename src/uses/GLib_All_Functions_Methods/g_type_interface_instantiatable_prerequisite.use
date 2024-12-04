@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1494
+  Original Name: g_type_interface_instantiatable_prerequisite/usr/include/glib-2.0/gobject/gtype.h:1494
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_interface_instantiatable_prerequisite[U64](interfacetype: U64)
+

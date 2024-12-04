@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropdown.h:31
+  Original Name: GTK_DROP_DOWN/usr/include/gtk-4.0/gtk/gtkdropdown.h:31
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f592]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_DROP_DOWN[NullablePointer[GtkDropDown]](ptr: Pointer[None] tag)
+

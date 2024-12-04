@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbinding.h:105
+  Original Name: g_binding_get_flags/usr/include/glib-2.0/gobject/gbinding.h:105
+
+  Return Value: [Enumeration size=32,fid: f144]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f144]
+*/
+use @g_binding_get_flags[I32](binding: NullablePointer[GBinding] tag)
+

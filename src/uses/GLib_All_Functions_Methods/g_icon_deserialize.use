@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gicon.h:124
+  Original Name: g_icon_deserialize/usr/include/glib-2.0/gio/gicon.h:124
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_icon_deserialize[NullablePointer[GIcon]](value: NullablePointer[GVariant] tag)
+

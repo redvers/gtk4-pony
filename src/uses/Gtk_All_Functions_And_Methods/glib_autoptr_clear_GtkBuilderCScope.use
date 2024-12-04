@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilderscope.h:104
+  Original Name: glib_autoptr_clear_GtkBuilderCScope/usr/include/gtk-4.0/gtk/gtkbuilderscope.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f518]
+*/
+use @glib_autoptr_clear_GtkBuilderCScope[None](ptr: NullablePointer[GtkBuilderCScope] tag)
+

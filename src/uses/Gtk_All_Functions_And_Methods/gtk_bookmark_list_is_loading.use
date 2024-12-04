@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbookmarklist.h:59
+  Original Name: gtk_bookmark_list_is_loading/usr/include/gtk-4.0/gtk/gtkbookmarklist.h:59
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f511]
+*/
+use @gtk_bookmark_list_is_loading[I32](self: NullablePointer[GtkBookmarkList] tag)
+

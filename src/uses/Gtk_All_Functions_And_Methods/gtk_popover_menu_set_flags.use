@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopovermenu.h:51
+  Original Name: gtk_popover_menu_set_flags/usr/include/gtk-4.0/gtk/gtkpopovermenu.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f679]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_popover_menu_set_flags[None](popover: NullablePointer[GtkPopoverMenu] tag, flags: I32)
+

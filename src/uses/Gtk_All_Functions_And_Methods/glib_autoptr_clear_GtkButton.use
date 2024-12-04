@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbutton.h:121
+  Original Name: glib_autoptr_clear_GtkButton/usr/include/gtk-4.0/gtk/gtkbutton.h:121
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f523]
+*/
+use @glib_autoptr_clear_GtkButton[None](ptr: NullablePointer[GtkButton] tag)
+

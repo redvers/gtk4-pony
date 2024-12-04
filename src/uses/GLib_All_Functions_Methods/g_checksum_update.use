@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gchecksum.h:71
+  Original Name: g_checksum_update/usr/include/glib-2.0/glib/gchecksum.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f66]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(long int) size=64]
+*/
+use @g_checksum_update[None](checksum: NullablePointer[GChecksum] tag, data: Pointer[U8] tag, length: I64)
+

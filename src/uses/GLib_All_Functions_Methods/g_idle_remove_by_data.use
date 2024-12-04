@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:829
+  Original Name: g_idle_remove_by_data/usr/include/glib-2.0/glib/gmain.h:829
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_idle_remove_by_data[I32](data: Pointer[None] tag)
+

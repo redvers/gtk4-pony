@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:100
+  Original Name: gtk_grid_insert_next_to/usr/include/gtk-4.0/gtk/gtkgrid.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f634]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_grid_insert_next_to[None](grid: NullablePointer[GtkGrid] tag, sibling: NullablePointer[GtkWidget] tag, side: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknative.h:43
+  Original Name: gtk_native_get_for_surface/usr/include/gtk-4.0/gtk/gtknative.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_native_get_for_surface[NullablePointer[GtkNative]](surface: NullablePointer[GdkSurface] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gaction.h:95
+  Original Name: g_action_print_detailed_name/usr/include/glib-2.0/gio/gaction.h:95
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_action_print_detailed_name[Pointer[U8]](actionname: Pointer[U8] tag, targetvalue: NullablePointer[GVariant] tag)
+

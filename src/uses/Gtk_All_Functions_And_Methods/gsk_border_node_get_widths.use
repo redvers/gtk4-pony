@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:334
+  Original Name: gsk_border_node_get_widths/usr/include/gtk-4.0/gsk/gskrendernode.h:334
+
+  Return Value: [PointerType size=64]->[FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_border_node_get_widths[Pointer[F32]](node: NullablePointer[GskRenderNode] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:68
+  Original Name: gtk_popover_get_child/usr/include/gtk-4.0/gtk/gtkpopover.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+*/
+use @gtk_popover_get_child[NullablePointer[GtkWidget]](popover: NullablePointer[GtkPopover] tag)
+

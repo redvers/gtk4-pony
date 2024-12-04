@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:437
+  Original Name: gtk_text_buffer_get_can_undo/usr/include/gtk-4.0/gtk/gtktextbuffer.h:437
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+*/
+use @gtk_text_buffer_get_can_undo[I32](buffer: NullablePointer[GtkTextBuffer] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprogressbar.h:69
+  Original Name: gtk_progress_bar_get_pulse_step/usr/include/gtk-4.0/gtk/gtkprogressbar.h:69
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f686]
+*/
+use @gtk_progress_bar_get_pulse_step[F64](pbar: NullablePointer[GtkProgressBar] tag)
+

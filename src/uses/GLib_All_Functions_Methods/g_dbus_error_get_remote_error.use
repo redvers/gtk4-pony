@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbuserror.h:57
+  Original Name: g_dbus_error_get_remote_error/usr/include/glib-2.0/gio/gdbuserror.h:57
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_error_get_remote_error[Pointer[U8]](error: NullablePointer[GError] tag)
+

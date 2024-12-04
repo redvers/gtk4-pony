@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpermission.h:119
+  Original Name: g_permission_get_can_release/usr/include/glib-2.0/gio/gpermission.h:119
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f172]
+*/
+use @g_permission_get_can_release[I32](permission: NullablePointer[GPermission] tag)
+

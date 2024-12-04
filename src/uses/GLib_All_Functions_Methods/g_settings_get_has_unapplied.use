@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:221
+  Original Name: g_settings_get_has_unapplied/usr/include/glib-2.0/gio/gsettings.h:221
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+*/
+use @g_settings_get_has_unapplied[I32](settings: NullablePointer[GSettings] tag)
+

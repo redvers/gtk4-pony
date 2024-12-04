@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrop.h:49
+  Original Name: gdk_drop_get_drag/usr/include/gtk-4.0/gdk/gdkdrop.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drop_get_drag[NullablePointer[GdkDrag]](self: NullablePointer[GdkDrop] tag)
+

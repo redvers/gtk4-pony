@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscalebutton.h:106
+  Original Name: glib_autoptr_cleanup_GtkScaleButton/usr/include/gtk-4.0/gtk/gtkscalebutton.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f694]
+*/
+use @glib_autoptr_cleanup_GtkScaleButton[None](ptr: Pointer[NullablePointer[GtkScaleButton]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:110
+  Original Name: g_slist_find/usr/include/glib-2.0/glib/gslist.h:110
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_slist_find[NullablePointer[GSList]](list: NullablePointer[GSList] tag, data: Pointer[None] tag)
+

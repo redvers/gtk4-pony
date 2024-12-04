@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:79
+  Original Name: glib_autoptr_cleanup_GFilterInputStream/usr/include/glib-2.0/gio/gio-autocleanups.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=320,fid: f176]
+*/
+use @glib_autoptr_cleanup_GFilterInputStream[None](ptr: Pointer[NullablePointer[GFilterInputStream]] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrvbuilder.h:36
+  Original Name: g_strv_builder_new/usr/include/glib-2.0/glib/gstrvbuilder.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f113]
+
+  Arguments:
+*/
+use @g_strv_builder_new[NullablePointer[GStrvBuilder]]()
+

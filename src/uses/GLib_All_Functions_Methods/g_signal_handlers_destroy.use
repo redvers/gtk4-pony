@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:652
+  Original Name: g_signal_handlers_destroy/usr/include/glib-2.0/gobject/gsignal.h:652
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_signal_handlers_destroy[None](instance: Pointer[None] tag)
+

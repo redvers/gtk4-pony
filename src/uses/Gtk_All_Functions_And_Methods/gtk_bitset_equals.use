@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:48
+  Original Name: gtk_bitset_equals/usr/include/gtk-4.0/gtk/gtkbitset.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_bitset_equals[I32](self: NullablePointer[GtkBitset] tag, other: NullablePointer[GtkBitset] tag)
+

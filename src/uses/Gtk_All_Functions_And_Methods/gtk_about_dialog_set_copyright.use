@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:117
+  Original Name: gtk_about_dialog_set_copyright/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:117
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_about_dialog_set_copyright[None](about: NullablePointer[GtkAboutDialog] tag, copyright: Pointer[U8] tag)
+

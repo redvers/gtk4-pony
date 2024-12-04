@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvalue.h:167
+  Original Name: g_value_transform/usr/include/glib-2.0/gobject/gvalue.h:167
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_transform[I32](srcvalue: NullablePointer[GValue] tag, destvalue: NullablePointer[GValue] tag)
+

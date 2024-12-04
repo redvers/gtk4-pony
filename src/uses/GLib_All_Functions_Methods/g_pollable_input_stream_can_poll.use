@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpollableinputstream.h:81
+  Original Name: g_pollable_input_stream_can_poll/usr/include/glib-2.0/gio/gpollableinputstream.h:81
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_pollable_input_stream_can_poll[I32](stream: NullablePointer[GPollableInputStream] tag)
+

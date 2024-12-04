@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdrive.h:181
+  Original Name: g_drive_get_symbolic_icon/usr/include/glib-2.0/gio/gdrive.h:181
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_drive_get_symbolic_icon[NullablePointer[GIcon]](drive: NullablePointer[GDrive] tag)
+

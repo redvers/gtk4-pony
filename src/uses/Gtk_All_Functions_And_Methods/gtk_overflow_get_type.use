@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:147
+  Original Name: gtk_overflow_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:147
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_overflow_get_type[U64]()
+

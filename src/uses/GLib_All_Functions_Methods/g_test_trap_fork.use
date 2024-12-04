@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:502
+  Original Name: g_test_trap_fork/usr/include/glib-2.0/glib/gtestutils.h:502
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f115]
+*/
+use @g_test_trap_fork[I32](usectimeout: U64, testtrapflags: I32)
+

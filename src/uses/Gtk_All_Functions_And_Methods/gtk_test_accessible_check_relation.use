@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktestatcontext.h:135
+  Original Name: gtk_test_accessible_check_relation/usr/include/gtk-4.0/gtk/gtktestatcontext.h:135
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_test_accessible_check_relation[Pointer[U8]](accessible: NullablePointer[GtkAccessible] tag, relation: I32, ...)
+

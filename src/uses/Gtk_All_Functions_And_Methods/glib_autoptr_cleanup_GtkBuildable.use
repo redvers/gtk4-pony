@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:262
+  Original Name: glib_autoptr_cleanup_GtkBuildable/usr/include/gtk-4.0/gtk/gtkbuildable.h:262
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f520]
+*/
+use @glib_autoptr_cleanup_GtkBuildable[None](ptr: Pointer[NullablePointer[GtkBuildable]] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1469
+  Original Name: g_type_register_dynamic/usr/include/glib-2.0/gobject/gtype.h:1469
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f135]
+    [Enumeration size=32,fid: f135]
+*/
+use @g_type_register_dynamic[U64](parenttype: U64, typename: Pointer[U8] tag, plugin: NullablePointer[GTypePlugin] tag, flags: I32)
+

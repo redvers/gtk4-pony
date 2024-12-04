@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioerror.h:47
+  Original Name: g_io_error_from_errno/usr/include/glib-2.0/gio/gioerror.h:47
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @g_io_error_from_errno[I32](errno: I32)
+

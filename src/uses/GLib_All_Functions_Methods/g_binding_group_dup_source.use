@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbindinggroup.h:46
+  Original Name: g_binding_group_dup_source/usr/include/glib-2.0/gobject/gbindinggroup.h:46
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f145]
+*/
+use @g_binding_group_dup_source[Pointer[None]](self: NullablePointer[GBindingGroup] tag)
+

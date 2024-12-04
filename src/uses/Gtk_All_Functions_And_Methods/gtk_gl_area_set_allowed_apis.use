@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkglarea.h:79
+  Original Name: gtk_gl_area_set_allowed_apis/usr/include/gtk-4.0/gtk/gtkglarea.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f632]
+    [Enumeration size=32,fid: f371]
+*/
+use @gtk_gl_area_set_allowed_apis[None](area: NullablePointer[GtkGLArea] tag, apis: I32)
+

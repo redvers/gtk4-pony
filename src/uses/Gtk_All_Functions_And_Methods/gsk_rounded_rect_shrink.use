@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskroundedrect.h:77
+  Original Name: gsk_rounded_rect_shrink/usr/include/gtk-4.0/gsk/gskroundedrect.h:77
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f463]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_rounded_rect_shrink[NullablePointer[GskRoundedRect]](self: NullablePointer[GskRoundedRect] tag, top: F32, right: F32, bottom: F32, left: F32)
+

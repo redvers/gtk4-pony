@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchentry.h:80
+  Original Name: glib_autoptr_clear_GtkSearchEntry/usr/include/gtk-4.0/gtk/gtksearchentry.h:80
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f700]
+*/
+use @glib_autoptr_clear_GtkSearchEntry[None](ptr: NullablePointer[GtkSearchEntry] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfixedlayout.h:44
+  Original Name: gtk_fixed_layout_child_set_transform/usr/include/gtk-4.0/gtk/gtkfixedlayout.h:44
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f602]
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gtk_fixed_layout_child_set_transform[None](child: NullablePointer[GtkFixedLayoutChild] tag, transform: NullablePointer[GskTransform] tag)
+

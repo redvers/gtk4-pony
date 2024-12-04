@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:257
+  Original Name: g_application_unbind_busy_property/usr/include/glib-2.0/gio/gapplication.h:257
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_unbind_busy_property[None](application: NullablePointer[GApplication] tag, object: Pointer[None] tag, property: Pointer[U8] tag)
+

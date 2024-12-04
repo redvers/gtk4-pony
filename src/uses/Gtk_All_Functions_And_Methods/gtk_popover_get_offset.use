@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:110
+  Original Name: gtk_popover_get_offset/usr/include/gtk-4.0/gtk/gtkpopover.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_popover_get_offset[None](popover: NullablePointer[GtkPopover] tag, xoffset: Pointer[I32] tag, yoffset: Pointer[I32] tag)
+

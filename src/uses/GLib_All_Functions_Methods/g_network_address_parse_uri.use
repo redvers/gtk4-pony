@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkaddress.h:69
+  Original Name: g_network_address_parse_uri/usr/include/glib-2.0/gio/gnetworkaddress.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(short unsigned int) size=16]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_network_address_parse_uri[NullablePointer[GSocketConnectable]](uri: Pointer[U8] tag, defaultport: U16, error: Pointer[NullablePointer[GError]] tag)
+

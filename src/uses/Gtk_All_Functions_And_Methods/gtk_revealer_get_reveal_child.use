@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrevealer.h:53
+  Original Name: gtk_revealer_get_reveal_child/usr/include/gtk-4.0/gtk/gtkrevealer.h:53
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f691]
+*/
+use @gtk_revealer_get_reveal_child[I32](revealer: NullablePointer[GtkRevealer] tag)
+

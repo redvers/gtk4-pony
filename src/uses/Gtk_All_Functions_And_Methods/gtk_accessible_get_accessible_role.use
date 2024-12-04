@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:199
+  Original Name: gtk_accessible_get_accessible_role/usr/include/gtk-4.0/gtk/gtkaccessible.h:199
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+*/
+use @gtk_accessible_get_accessible_role[I32](self: NullablePointer[GtkAccessible] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:71
+  Original Name: gtk_constraint_get_source_attribute/usr/include/gtk-4.0/gtk/gtkconstraint.h:71
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f574]
+*/
+use @gtk_constraint_get_source_attribute[I32](constraint: NullablePointer[GtkConstraint] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtypeplugin.h:112
+  Original Name: g_type_plugin_get_type/usr/include/glib-2.0/gobject/gtypeplugin.h:112
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_type_plugin_get_type[U64]()
+

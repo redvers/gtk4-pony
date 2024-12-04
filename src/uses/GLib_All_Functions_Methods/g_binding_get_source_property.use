@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbinding.h:115
+  Original Name: g_binding_get_source_property/usr/include/glib-2.0/gobject/gbinding.h:115
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f144]
+*/
+use @g_binding_get_source_property[Pointer[U8]](binding: NullablePointer[GBinding] tag)
+

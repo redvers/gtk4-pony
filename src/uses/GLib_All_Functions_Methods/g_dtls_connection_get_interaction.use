@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:129
+  Original Name: g_dtls_connection_get_interaction/usr/include/glib-2.0/gio/gdtlsconnection.h:129
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f209]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dtls_connection_get_interaction[NullablePointer[GTlsInteraction]](conn: NullablePointer[GDtlsConnection] tag)
+

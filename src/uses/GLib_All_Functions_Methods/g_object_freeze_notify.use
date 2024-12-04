@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:497
+  Original Name: g_object_freeze_notify/usr/include/glib-2.0/gobject/gobject.h:497
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_object_freeze_notify[None](object: NullablePointer[GObject] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpowerprofilemonitor.h:45
+  Original Name: g_power_profile_monitor_GET_IFACE/usr/include/glib-2.0/gio/gpowerprofilemonitor.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f287]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_power_profile_monitor_GET_IFACE[NullablePointer[GPowerProfileMonitorInterface]](ptr: Pointer[None] tag)
+

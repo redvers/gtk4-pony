@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:46
+  Original Name: g_sequence_get_length/usr/include/glib-2.0/glib/gsequence.h:46
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_get_length[I32](seq: NullablePointer[GSequence] tag)
+

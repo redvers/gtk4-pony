@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:217
+  Original Name: gtk_entry_get_icon_activatable/usr/include/gtk-4.0/gtk/gtkentry.h:217
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+*/
+use @gtk_entry_get_icon_activatable[I32](entry: NullablePointer[GtkEntry] tag, iconpos: I32)
+

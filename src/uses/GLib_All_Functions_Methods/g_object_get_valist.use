@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:485
+  Original Name: g_object_get_valist/usr/include/glib-2.0/gobject/gobject.h:485
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_object_get_valist[None](object: NullablePointer[GObject] tag, firstpropertyname: Pointer[U8] tag, varargs: NullablePointer[Valisttag] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioenumtypes.h:38
+  Original Name: g_converter_result_get_type/usr/include/glib-2.0/gio/gioenumtypes.h:38
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_converter_result_get_type[U64]()
+

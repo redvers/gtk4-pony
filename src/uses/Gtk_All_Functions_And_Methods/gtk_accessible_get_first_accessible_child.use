@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:182
+  Original Name: gtk_accessible_get_first_accessible_child/usr/include/gtk-4.0/gtk/gtkaccessible.h:182
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f489]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+*/
+use @gtk_accessible_get_first_accessible_child[NullablePointer[GtkAccessible]](self: NullablePointer[GtkAccessible] tag)
+

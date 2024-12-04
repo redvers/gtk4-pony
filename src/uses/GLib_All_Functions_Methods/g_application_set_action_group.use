@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:172
+  Original Name: g_application_set_action_group/usr/include/glib-2.0/gio/gapplication.h:172
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_application_set_action_group[None](application: NullablePointer[GApplication] tag, actiongroup: NullablePointer[GActionGroup] tag)
+

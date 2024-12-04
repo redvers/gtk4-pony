@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:102
+  Original Name: gdk_display_get_monitors/usr/include/gtk-4.0/gdk/gdkdisplay.h:102
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f274]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_get_monitors[NullablePointer[GListModel]](self: NullablePointer[GdkDisplay] tag)
+

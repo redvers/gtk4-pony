@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdataoutputstream.h:114
+  Original Name: g_data_output_stream_put_string/usr/include/glib-2.0/gio/gdataoutputstream.h:114
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f242]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_data_output_stream_put_string[I32](stream: NullablePointer[GDataOutputStream] tag, str: Pointer[U8] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

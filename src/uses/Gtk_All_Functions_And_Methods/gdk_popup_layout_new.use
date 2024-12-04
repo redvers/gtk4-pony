@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopuplayout.h:78
+  Original Name: gdk_popup_layout_new/usr/include/gtk-4.0/gdk/gdkpopuplayout.h:78
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f404]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f318]
+    [Enumeration size=32,fid: f371]
+    [Enumeration size=32,fid: f371]
+*/
+use @gdk_popup_layout_new[NullablePointer[GdkPopupLayout]](anchorrect: NullablePointer[Cairorectangleint] tag, rectanchor: I32, surfaceanchor: I32)
+

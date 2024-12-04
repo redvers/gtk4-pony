@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:157
+  Original Name: glib_autoptr_cleanup_GtkIconTheme/usr/include/gtk-4.0/gtk/gtkicontheme.h:157
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f639]
+*/
+use @glib_autoptr_cleanup_GtkIconTheme[None](ptr: Pointer[NullablePointer[GtkIconTheme]] tag)
+

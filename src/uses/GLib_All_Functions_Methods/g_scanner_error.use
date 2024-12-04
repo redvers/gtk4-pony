@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:275
+  Original Name: g_scanner_error/usr/include/glib-2.0/glib/gscanner.h:275
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_scanner_error[None](scanner: NullablePointer[GScanner] tag, format: Pointer[U8] tag, ...)
+

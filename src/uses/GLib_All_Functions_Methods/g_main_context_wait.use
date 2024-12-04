@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:438
+  Original Name: g_main_context_wait/usr/include/glib-2.0/glib/gmain.h:438
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+    [PointerType size=64]->[Struct size=128,fid: f41]
+    [PointerType size=64]->[UNION size=64]  UNSUPPORTED FIXME
+*/
+use @g_main_context_wait[I32](context: NullablePointer[GMainContext] tag, cond: NullablePointer[GCond] tag, mutex: Pointer[None] tag)
+

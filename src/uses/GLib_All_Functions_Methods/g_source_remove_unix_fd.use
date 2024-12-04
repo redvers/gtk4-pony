@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:673
+  Original Name: g_source_remove_unix_fd/usr/include/glib-2.0/glib/gmain.h:673
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_source_remove_unix_fd[None](source: NullablePointer[GSource] tag, tag: Pointer[None] tag)
+

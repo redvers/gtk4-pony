@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutssection.h:41
+  Original Name: gtk_shortcuts_section_add_group/usr/include/gtk-4.0/gtk/gtkshortcutssection.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f502]
+    [PointerType size=64]->[Struct size=,fid: f501]
+*/
+use @gtk_shortcuts_section_add_group[None](self: NullablePointer[GtkShortcutsSection] tag, group: NullablePointer[GtkShortcutsGroup] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmain.h:84
+  Original Name: gtk_disable_setlocale/usr/include/gtk-4.0/gtk/gtkmain.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @gtk_disable_setlocale[None]()
+

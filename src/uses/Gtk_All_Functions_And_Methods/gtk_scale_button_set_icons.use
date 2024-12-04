@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscalebutton.h:80
+  Original Name: gtk_scale_button_set_icons/usr/include/gtk-4.0/gtk/gtkscalebutton.h:80
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f694]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_scale_button_set_icons[None](button: NullablePointer[GtkScaleButton] tag, icons: Pointer[Pointer[U8]] tag)
+

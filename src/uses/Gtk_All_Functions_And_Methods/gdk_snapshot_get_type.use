@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksnapshot.h:38
+  Original Name: gdk_snapshot_get_type/usr/include/gtk-4.0/gdk/gdksnapshot.h:38
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_snapshot_get_type[U64]()
+

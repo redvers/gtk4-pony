@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:36
+  Original Name: g_uri_ref/usr/include/glib-2.0/glib/guri.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f120]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f120]
+*/
+use @g_uri_ref[NullablePointer[GUri]](uri: NullablePointer[GUri] tag)
+

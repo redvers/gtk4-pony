@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:104
+  Original Name: gtk_entry_new_with_buffer/usr/include/gtk-4.0/gtk/gtkentry.h:104
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f565]
+*/
+use @gtk_entry_new_with_buffer[NullablePointer[GtkWidget]](buffer: NullablePointer[GtkEntryBuffer] tag)
+

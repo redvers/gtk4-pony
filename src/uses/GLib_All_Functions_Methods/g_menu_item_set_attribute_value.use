@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:144
+  Original Name: g_menu_item_set_attribute_value/usr/include/glib-2.0/gio/gmenu.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_menu_item_set_attribute_value[None](menuitem: NullablePointer[GMenuItem] tag, attribute: Pointer[U8] tag, value: NullablePointer[GVariant] tag)
+

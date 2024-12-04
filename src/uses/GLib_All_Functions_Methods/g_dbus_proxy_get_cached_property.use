@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusproxy.h:150
+  Original Name: g_dbus_proxy_get_cached_property/usr/include/glib-2.0/gio/gdbusproxy.h:150
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f217]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_proxy_get_cached_property[NullablePointer[GVariant]](proxy: NullablePointer[GDBusProxy] tag, propertyname: Pointer[U8] tag)
+

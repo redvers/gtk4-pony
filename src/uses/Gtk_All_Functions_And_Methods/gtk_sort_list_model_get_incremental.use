@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksortlistmodel.h:64
+  Original Name: gtk_sort_list_model_get_incremental/usr/include/gtk-4.0/gtk/gtksortlistmodel.h:64
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f553]
+*/
+use @gtk_sort_list_model_get_incremental[I32](self: NullablePointer[GtkSortListModel] tag)
+

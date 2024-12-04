@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:84
+  Original Name: gdk_surface_get_device_cursor/usr/include/gtk-4.0/gdk/gdksurface.h:84
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_surface_get_device_cursor[NullablePointer[GdkCursor]](surface: NullablePointer[GdkSurface] tag, device: NullablePointer[GdkDevice] tag)
+

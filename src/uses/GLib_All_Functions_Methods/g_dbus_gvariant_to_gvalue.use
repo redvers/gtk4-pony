@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusutils.h:51
+  Original Name: g_dbus_gvariant_to_gvalue/usr/include/glib-2.0/gio/gdbusutils.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_dbus_gvariant_to_gvalue[None](value: NullablePointer[GVariant] tag, outgvalue: NullablePointer[GValue] tag)
+

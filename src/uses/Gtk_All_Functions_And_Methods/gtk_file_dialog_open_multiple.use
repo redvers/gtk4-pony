@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:133
+  Original Name: gtk_file_dialog_open_multiple/usr/include/gtk-4.0/gtk/gtkfiledialog.h:133
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_file_dialog_open_multiple[None](self: NullablePointer[GtkFileDialog] tag, parent: NullablePointer[GtkWindow] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

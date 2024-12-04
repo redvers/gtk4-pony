@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:53
+  Original Name: gtk_snapshot_new/usr/include/gtk-4.0/gtk/gtksnapshot.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+*/
+use @gtk_snapshot_new[NullablePointer[GdkSnapshot]]()
+

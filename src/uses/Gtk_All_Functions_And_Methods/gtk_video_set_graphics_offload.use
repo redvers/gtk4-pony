@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:79
+  Original Name: gtk_video_set_graphics_offload/usr/include/gtk-4.0/gtk/gtkvideo.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f745]
+    [Enumeration size=32,fid: f633]
+*/
+use @gtk_video_set_graphics_offload[None](self: NullablePointer[GtkVideo] tag, enabled: I32)
+

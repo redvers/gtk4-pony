@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:154
+  Original Name: gtk_icon_paintable_is_symbolic/usr/include/gtk-4.0/gtk/gtkicontheme.h:154
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+*/
+use @gtk_icon_paintable_is_symbolic[I32](self: NullablePointer[GtkIconPaintable] tag)
+

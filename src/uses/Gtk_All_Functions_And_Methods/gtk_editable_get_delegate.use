@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:181
+  Original Name: gtk_editable_get_delegate/usr/include/gtk-4.0/gtk/gtkeditable.h:181
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f563]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+*/
+use @gtk_editable_get_delegate[NullablePointer[GtkEditable]](editable: NullablePointer[GtkEditable] tag)
+

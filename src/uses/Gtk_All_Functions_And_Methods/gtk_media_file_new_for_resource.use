@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediafile.h:56
+  Original Name: gtk_media_file_new_for_resource/usr/include/gtk-4.0/gtk/gtkmediafile.h:56
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f655]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_media_file_new_for_resource[NullablePointer[GtkMediaStream]](resourcepath: Pointer[U8] tag)
+

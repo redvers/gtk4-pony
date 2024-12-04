@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscalebutton.h:103
+  Original Name: gtk_scale_button_set_has_frame/usr/include/gtk-4.0/gtk/gtkscalebutton.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f694]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_scale_button_set_has_frame[None](button: NullablePointer[GtkScaleButton] tag, hasframe: I32)
+

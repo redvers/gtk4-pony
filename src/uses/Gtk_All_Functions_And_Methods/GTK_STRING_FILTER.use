@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringfilter.h:50
+  Original Name: GTK_STRING_FILTER/usr/include/gtk-4.0/gtk/gtkstringfilter.h:50
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f591]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_STRING_FILTER[NullablePointer[GtkStringFilter]](ptr: Pointer[None] tag)
+

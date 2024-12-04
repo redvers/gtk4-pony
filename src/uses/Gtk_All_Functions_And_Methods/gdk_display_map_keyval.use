@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:112
+  Original Name: gdk_display_map_keyval/usr/include/gtk-4.0/gdk/gdkdisplay.h:112
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=96,fid: f372]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gdk_display_map_keyval[I32](display: NullablePointer[GdkDisplay] tag, keyval: U32, keys: Pointer[NullablePointer[GdkKeymapKey]] tag, nkeys: Pointer[I32] tag)
+

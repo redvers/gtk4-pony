@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkseat.h:70
+  Original Name: gdk_seat_get_display/usr/include/gtk-4.0/gdk/gdkseat.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f375]
+*/
+use @gdk_seat_get_display[NullablePointer[GdkDisplay]](seat: NullablePointer[GdkSeat] tag)
+

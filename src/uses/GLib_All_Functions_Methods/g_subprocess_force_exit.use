@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:72
+  Original Name: g_subprocess_force_exit/usr/include/glib-2.0/gio/gsubprocess.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_subprocess_force_exit[None](subprocess: NullablePointer[GSubprocess] tag)
+

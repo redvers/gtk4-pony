@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolumemonitor.h:147
+  Original Name: g_volume_monitor_adopt_orphan_mount/usr/include/glib-2.0/gio/gvolumemonitor.h:147
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_volume_monitor_adopt_orphan_mount[NullablePointer[GVolume]](mount: NullablePointer[GMount] tag)
+

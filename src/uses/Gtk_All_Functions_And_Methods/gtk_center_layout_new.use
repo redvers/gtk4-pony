@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterlayout.h:30
+  Original Name: gtk_center_layout_new/usr/include/gtk-4.0/gtk/gtkcenterlayout.h:30
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f479]
+
+  Arguments:
+*/
+use @gtk_center_layout_new[NullablePointer[GtkLayoutManager]]()
+

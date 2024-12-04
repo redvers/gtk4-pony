@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsrvtarget.h:42
+  Original Name: g_srv_target_copy/usr/include/glib-2.0/gio/gsrvtarget.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_srv_target_copy[NullablePointer[GSrvTarget]](target: NullablePointer[GSrvTarget] tag)
+

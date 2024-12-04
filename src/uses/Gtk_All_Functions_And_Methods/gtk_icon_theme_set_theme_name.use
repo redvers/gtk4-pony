@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:110
+  Original Name: gtk_icon_theme_set_theme_name/usr/include/gtk-4.0/gtk/gtkicontheme.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_icon_theme_set_theme_name[None](self: NullablePointer[GtkIconTheme] tag, themename: Pointer[U8] tag)
+

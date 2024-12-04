@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginitable.h:73
+  Original Name: g_initable_new/usr/include/glib-2.0/gio/ginitable.h:73
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_initable_new[Pointer[None]](objecttype: U64, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag, firstpropertyname: Pointer[U8] tag, ...)
+

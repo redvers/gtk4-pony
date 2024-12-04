@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevellayout.h:73
+  Original Name: gdk_toplevel_layout_set_resizable/usr/include/gtk-4.0/gdk/gdktoplevellayout.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f428]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_toplevel_layout_set_resizable[None](layout: NullablePointer[GdkToplevelLayout] tag, resizable: I32)
+

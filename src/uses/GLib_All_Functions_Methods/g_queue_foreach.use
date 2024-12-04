@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:97
+  Original Name: g_queue_foreach/usr/include/glib-2.0/glib/gqueue.h:97
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_queue_foreach[None](queue: NullablePointer[GQueue] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

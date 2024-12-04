@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:104
+  Original Name: g_subprocess_launcher_take_fd/usr/include/glib-2.0/gio/gsubprocesslauncher.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @g_subprocess_launcher_take_fd[None](self: NullablePointer[GSubprocessLauncher] tag, sourcefd: I32, targetfd: I32)
+

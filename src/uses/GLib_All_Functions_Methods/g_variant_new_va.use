@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:414
+  Original Name: g_variant_new_va/usr/include/glib-2.0/glib/gvariant.h:414
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[ArrayType size=(0-0)]->[Struct size=192,fid: f0]  UNSUPPORTED - FIXME
+*/
+use @g_variant_new_va[NullablePointer[GVariant]](formatstring: Pointer[U8] tag, endptr: Pointer[Pointer[U8]] tag, app: NullablePointer[Pointer[Valisttag]] tag)
+

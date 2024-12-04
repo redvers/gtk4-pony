@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:181
+  Original Name: g_ptr_array_new_take_null_terminated/usr/include/glib-2.0/glib/garray.h:181
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_ptr_array_new_take_null_terminated[NullablePointer[GPtrArray]](data: NullablePointer[Pointer[None]] tag, elementfreefunc: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:35
+  Original Name: glib_autoptr_clear_GtkVideoClass/usr/include/gtk-4.0/gtk/gtkvideo.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f745]
+*/
+use @glib_autoptr_clear_GtkVideoClass[None](ptr: NullablePointer[] tag)
+

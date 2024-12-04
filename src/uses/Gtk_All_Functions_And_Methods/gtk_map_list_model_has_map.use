@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmaplistmodel.h:70
+  Original Name: gtk_map_list_model_has_map/usr/include/gtk-4.0/gtk/gtkmaplistmodel.h:70
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f654]
+*/
+use @gtk_map_list_model_has_map[I32](self: NullablePointer[GtkMapListModel] tag)
+

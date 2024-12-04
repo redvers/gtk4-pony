@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:115
+  Original Name: g_task_get_context/usr/include/glib-2.0/gio/gtask.h:115
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_task_get_context[NullablePointer[GMainContext]](task: NullablePointer[GTask] tag)
+

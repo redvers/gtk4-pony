@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h:34
+  Original Name: glib_autoptr_cleanup_GtkColorDialogButton/usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f550]
+*/
+use @glib_autoptr_cleanup_GtkColorDialogButton[None](ptr: Pointer[NullablePointer[GtkColorDialogButton]] tag)
+

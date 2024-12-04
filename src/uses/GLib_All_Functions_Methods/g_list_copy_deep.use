@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:108
+  Original Name: g_list_copy_deep/usr/include/glib-2.0/glib/glist.h:108
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_list_copy_deep[NullablePointer[GList]](list: NullablePointer[GList] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

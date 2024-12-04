@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktooltip.h:60
+  Original Name: glib_autoptr_clear_GtkTooltip/usr/include/gtk-4.0/gtk/gtktooltip.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @glib_autoptr_clear_GtkTooltip[None](ptr: NullablePointer[GtkTooltip] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:562
+  Original Name: gsk_blur_node_get_radius/usr/include/gtk-4.0/gsk/gskrendernode.h:562
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_blur_node_get_radius[F32](node: NullablePointer[GskRenderNode] tag)
+

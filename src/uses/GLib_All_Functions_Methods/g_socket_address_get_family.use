@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketaddress.h:67
+  Original Name: g_socket_address_get_family/usr/include/glib-2.0/gio/gsocketaddress.h:67
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f201]
+*/
+use @g_socket_address_get_family[I32](address: NullablePointer[GSocketAddress] tag)
+

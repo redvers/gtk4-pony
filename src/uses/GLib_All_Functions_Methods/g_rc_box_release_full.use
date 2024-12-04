@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grcbox.h:44
+  Original Name: g_rc_box_release_full/usr/include/glib-2.0/glib/grcbox.h:44
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_rc_box_release_full[None](memblock: Pointer[None] tag, clearfunc: Pointer[None] tag)
+

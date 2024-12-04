@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfilemonitor.h:82
+  Original Name: g_file_monitor_set_rate_limit/usr/include/glib-2.0/gio/gfilemonitor.h:82
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f175]
+    [FundamentalType(int) size=32]
+*/
+use @g_file_monitor_set_rate_limit[None](monitor: NullablePointer[GFileMonitor] tag, limitmsecs: I32)
+

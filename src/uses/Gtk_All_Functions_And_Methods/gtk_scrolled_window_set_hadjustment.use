@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:97
+  Original Name: gtk_scrolled_window_set_hadjustment/usr/include/gtk-4.0/gtk/gtkscrolledwindow.h:97
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f698]
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_scrolled_window_set_hadjustment[None](scrolledwindow: NullablePointer[GtkScrolledWindow] tag, hadjustment: NullablePointer[GtkAdjustment] tag)
+

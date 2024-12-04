@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:60
+  Original Name: gsk_stroke_get_line_join/usr/include/gtk-4.0/gsk/gskstroke.h:60
+
+  Return Value: [Enumeration size=32,fid: f432]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_stroke_get_line_join[I32](self: NullablePointer[GskStroke] tag)
+

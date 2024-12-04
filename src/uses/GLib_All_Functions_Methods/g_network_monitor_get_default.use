@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkmonitor.h:72
+  Original Name: g_network_monitor_get_default/usr/include/glib-2.0/gio/gnetworkmonitor.h:72
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+*/
+use @g_network_monitor_get_default[NullablePointer[GNetworkMonitor]]()
+

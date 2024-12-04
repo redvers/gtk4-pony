@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:221
+  Original Name: gtk_print_settings_get_paper_size/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:221
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f673]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @gtk_print_settings_get_paper_size[NullablePointer[GtkPaperSize]](settings: NullablePointer[GtkPrintSettings] tag)
+

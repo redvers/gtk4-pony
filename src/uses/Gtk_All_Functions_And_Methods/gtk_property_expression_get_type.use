@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:90
+  Original Name: gtk_property_expression_get_type/usr/include/gtk-4.0/gtk/gtkexpression.h:90
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_property_expression_get_type[U64]()
+

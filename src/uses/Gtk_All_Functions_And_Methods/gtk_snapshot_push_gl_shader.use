@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:113
+  Original Name: gtk_snapshot_push_gl_shader/usr/include/gtk-4.0/gtk/gtksnapshot.h:113
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @gtk_snapshot_push_gl_shader[None](snapshot: NullablePointer[GdkSnapshot] tag, shader: NullablePointer[GskGLShader] tag, bounds: NullablePointer[Graphenerectt] tag, takeargs: NullablePointer[GBytes] tag)
+

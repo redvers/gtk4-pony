@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmaplistmodel.h:36
+  Original Name: glib_autoptr_cleanup_GtkMapListModel/usr/include/gtk-4.0/gtk/gtkmaplistmodel.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f654]
+*/
+use @glib_autoptr_cleanup_GtkMapListModel[None](ptr: Pointer[NullablePointer[GtkMapListModel]] tag)
+

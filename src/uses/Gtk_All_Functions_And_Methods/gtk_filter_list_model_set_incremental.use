@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:53
+  Original Name: gtk_filter_list_model_set_incremental/usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f611]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_filter_list_model_set_incremental[None](self: NullablePointer[GtkFilterListModel] tag, incremental: I32)
+

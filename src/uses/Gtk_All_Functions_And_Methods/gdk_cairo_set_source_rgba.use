@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairo.h:31
+  Original Name: gdk_cairo_set_source_rgba/usr/include/gtk-4.0/gdk/gdkcairo.h:31
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f318]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gdk_cairo_set_source_rgba[None](cr: NullablePointer[Cairo] tag, rgba: NullablePointer[GdkRGBA] tag)
+

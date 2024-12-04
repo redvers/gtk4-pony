@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbutton.h:98
+  Original Name: gtk_button_set_use_underline/usr/include/gtk-4.0/gtk/gtkbutton.h:98
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f523]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_button_set_use_underline[None](button: NullablePointer[GtkButton] tag, useunderline: I32)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gboxed.h:97
+  Original Name: g_boxed_type_register_static/usr/include/glib-2.0/gobject/gboxed.h:97
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_boxed_type_register_static[U64](name: Pointer[U8] tag, boxedcopy: Pointer[None] tag, boxedfree: Pointer[None] tag)
+

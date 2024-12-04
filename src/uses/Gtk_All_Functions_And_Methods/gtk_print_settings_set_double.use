@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:120
+  Original Name: gtk_print_settings_set_double/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:120
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_print_settings_set_double[None](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag, value: F64)
+

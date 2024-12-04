@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:339
+  Original Name: g_app_launch_context_get_startup_notify_id/usr/include/glib-2.0/gio/gappinfo.h:339
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f160]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @g_app_launch_context_get_startup_notify_id[Pointer[U8]](context: NullablePointer[GAppLaunchContext] tag, info: NullablePointer[GAppInfo] tag, files: NullablePointer[GList] tag)
+

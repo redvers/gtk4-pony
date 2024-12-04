@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:201
+  Original Name: gtk_list_box_set_adjustment/usr/include/gtk-4.0/gtk/gtklistbox.h:201
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_list_box_set_adjustment[None](box: NullablePointer[GtkListBox] tag, adjustment: NullablePointer[GtkAdjustment] tag)
+

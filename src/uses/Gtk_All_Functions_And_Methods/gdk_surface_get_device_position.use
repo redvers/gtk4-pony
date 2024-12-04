@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:103
+  Original Name: gdk_surface_get_device_position/usr/include/gtk-4.0/gdk/gdksurface.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[Enumeration size=32,fid: f371]
+*/
+use @gdk_surface_get_device_position[I32](surface: NullablePointer[GdkSurface] tag, device: NullablePointer[GdkDevice] tag, x: Pointer[F64] tag, y: Pointer[F64] tag, mask: Pointer[I32] tag)
+

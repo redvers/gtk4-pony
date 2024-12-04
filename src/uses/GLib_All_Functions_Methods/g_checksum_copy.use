@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gchecksum.h:67
+  Original Name: g_checksum_copy/usr/include/glib-2.0/glib/gchecksum.h:67
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f66]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f66]
+*/
+use @g_checksum_copy[NullablePointer[GChecksum]](checksum: NullablePointer[GChecksum] tag)
+

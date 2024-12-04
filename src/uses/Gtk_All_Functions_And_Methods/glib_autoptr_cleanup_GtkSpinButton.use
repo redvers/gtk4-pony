@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:205
+  Original Name: glib_autoptr_cleanup_GtkSpinButton/usr/include/gtk-4.0/gtk/gtkspinbutton.h:205
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f717]
+*/
+use @glib_autoptr_cleanup_GtkSpinButton[None](ptr: Pointer[NullablePointer[GtkSpinButton]] tag)
+

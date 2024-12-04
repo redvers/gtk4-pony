@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:69
+  Original Name: gtk_application_window_set_show_menubar/usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f504]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_application_window_set_show_menubar[None](window: NullablePointer[GtkApplicationWindow] tag, showmenubar: I32)
+

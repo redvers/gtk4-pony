@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpander.h:82
+  Original Name: gtk_expander_set_child/usr/include/gtk-4.0/gtk/gtkexpander.h:82
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f600]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_expander_set_child[None](expander: NullablePointer[GtkExpander] tag, child: NullablePointer[GtkWidget] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:77
+  Original Name: glib_autoptr_cleanup_GRand/usr/include/glib-2.0/glib/glib-autocleanups.h:77
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f102]
+*/
+use @glib_autoptr_cleanup_GRand[None](ptr: Pointer[NullablePointer[GRand]] tag)
+

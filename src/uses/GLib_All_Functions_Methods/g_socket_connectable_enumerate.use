@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketconnectable.h:67
+  Original Name: g_socket_connectable_enumerate/usr/include/glib-2.0/gio/gsocketconnectable.h:67
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f202]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_socket_connectable_enumerate[NullablePointer[GSocketAddressEnumerator]](connectable: NullablePointer[GSocketConnectable] tag)
+

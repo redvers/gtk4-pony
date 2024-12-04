@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:623
+  Original Name: gtk_widget_pick/usr/include/gtk-4.0/gtk/gtkwidget.h:623
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_widget_pick[NullablePointer[GtkWidget]](widget: NullablePointer[GtkWidget] tag, x: F64, y: F64, flags: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontext.h:138
+  Original Name: gtk_im_context_reset/usr/include/gtk-4.0/gtk/gtkimcontext.h:138
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f564]
+*/
+use @gtk_im_context_reset[None](context: NullablePointer[GtkIMContext] tag)
+

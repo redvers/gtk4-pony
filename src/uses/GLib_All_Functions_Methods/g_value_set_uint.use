@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:219
+  Original Name: g_value_set_uint/usr/include/glib-2.0/gobject/gvaluetypes.h:219
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_value_set_uint[None](value: NullablePointer[GValue] tag, vuint: U32)
+

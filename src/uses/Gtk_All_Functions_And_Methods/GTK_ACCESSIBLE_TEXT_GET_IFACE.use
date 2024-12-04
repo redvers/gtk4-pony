@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessibletext.h:34
+  Original Name: GTK_ACCESSIBLE_TEXT_GET_IFACE/usr/include/gtk-4.0/gtk/gtkaccessibletext.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f491]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_ACCESSIBLE_TEXT_GET_IFACE[NullablePointer[GtkAccessibleTextInterface]](ptr: Pointer[None] tag)
+

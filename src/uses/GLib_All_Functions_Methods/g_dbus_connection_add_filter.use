@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:677
+  Original Name: g_dbus_connection_add_filter/usr/include/glib-2.0/gio/gdbusconnection.h:677
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_dbus_connection_add_filter[U32](connection: NullablePointer[GDBusConnection] tag, filterfunction: Pointer[None] tag, userdata: Pointer[None] tag, userdatafreefunc: Pointer[None] tag)
+

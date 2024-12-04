@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:66
+  Original Name: gsk_gl_shader_find_uniform_by_name/usr/include/gtk-4.0/gsk/gskglshader.h:66
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gsk_gl_shader_find_uniform_by_name[I32](shader: NullablePointer[GskGLShader] tag, name: Pointer[U8] tag)
+

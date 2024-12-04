@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grcbox.h:58
+  Original Name: g_atomic_rc_box_acquire/usr/include/glib-2.0/glib/grcbox.h:58
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_atomic_rc_box_acquire[Pointer[None]](memblock: Pointer[None] tag)
+

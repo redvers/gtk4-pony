@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grefstring.h:37
+  Original Name: g_ref_string_acquire/usr/include/glib-2.0/glib/grefstring.h:37
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_ref_string_acquire[Pointer[U8]](str: Pointer[U8] tag)
+

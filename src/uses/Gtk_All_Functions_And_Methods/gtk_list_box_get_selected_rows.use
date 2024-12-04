@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:215
+  Original Name: gtk_list_box_get_selected_rows/usr/include/gtk-4.0/gtk/gtklistbox.h:215
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+*/
+use @gtk_list_box_get_selected_rows[NullablePointer[GList]](box: NullablePointer[GtkListBox] tag)
+

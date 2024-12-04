@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:68
+  Original Name: gtk_page_setup_get_left_margin/usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:68
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f674]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_page_setup_get_left_margin[F64](setup: NullablePointer[GtkPageSetup] tag, unit: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkmonitor.h:78
+  Original Name: g_network_monitor_get_network_metered/usr/include/glib-2.0/gio/gnetworkmonitor.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_network_monitor_get_network_metered[I32](monitor: NullablePointer[GNetworkMonitor] tag)
+

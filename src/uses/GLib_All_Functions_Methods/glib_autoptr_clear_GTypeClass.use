@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject-autocleanups.h:34
+  Original Name: glib_autoptr_clear_GTypeClass/usr/include/glib-2.0/gobject/gobject-autocleanups.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f135]
+*/
+use @glib_autoptr_clear_GTypeClass[None](ptr: NullablePointer[GTypeClass] tag)
+

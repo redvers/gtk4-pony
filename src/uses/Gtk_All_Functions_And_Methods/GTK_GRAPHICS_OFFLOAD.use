@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:35
+  Original Name: GTK_GRAPHICS_OFFLOAD/usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:35
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f633]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_GRAPHICS_OFFLOAD[NullablePointer[GtkGraphicsOffload]](ptr: Pointer[None] tag)
+

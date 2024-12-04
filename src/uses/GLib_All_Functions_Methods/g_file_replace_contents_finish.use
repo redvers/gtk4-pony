@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:1323
+  Original Name: g_file_replace_contents_finish/usr/include/glib-2.0/gio/gfile.h:1323
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_replace_contents_finish[I32](file: NullablePointer[GFile] tag, res: NullablePointer[GAsyncResult] tag, newetag: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

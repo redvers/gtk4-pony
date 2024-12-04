@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:250
+  Original Name: g_date_get_monday_weeks_in_year/usr/include/glib-2.0/glib/gdate.h:250
+
+  Return Value: [FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [FundamentalType(short unsigned int) size=16]
+*/
+use @g_date_get_monday_weeks_in_year[U8](year: U16)
+

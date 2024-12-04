@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:393
+  Original Name: g_uri_unescape_segment/usr/include/glib-2.0/glib/guri.h:393
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_uri_unescape_segment[Pointer[U8]](escapedstring: Pointer[U8] tag, escapedstringend: Pointer[U8] tag, illegalcharacters: Pointer[U8] tag)
+

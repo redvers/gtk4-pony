@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrgba.h:49
+  Original Name: gdk_rgba_copy/usr/include/gtk-4.0/gdk/gdkrgba.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f373]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gdk_rgba_copy[NullablePointer[GdkRGBA]](rgba: NullablePointer[GdkRGBA] tag)
+

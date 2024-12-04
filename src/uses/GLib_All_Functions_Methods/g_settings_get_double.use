@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:179
+  Original Name: g_settings_get_double/usr/include/glib-2.0/gio/gsettings.h:179
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_settings_get_double[F64](settings: NullablePointer[GSettings] tag, key: Pointer[U8] tag)
+

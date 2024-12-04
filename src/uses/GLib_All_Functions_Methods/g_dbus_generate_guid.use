@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusutils.h:37
+  Original Name: g_dbus_generate_guid/usr/include/glib-2.0/gio/gdbusutils.h:37
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+*/
+use @g_dbus_generate_guid[Pointer[U8]]()
+

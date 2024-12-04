@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:463
+  Original Name: gdk_crossing_event_get_detail/usr/include/gtk-4.0/gdk/gdkevents.h:463
+
+  Return Value: [Enumeration size=32,fid: f400]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_crossing_event_get_detail[I32](event: NullablePointer[GdkEvent] tag)
+

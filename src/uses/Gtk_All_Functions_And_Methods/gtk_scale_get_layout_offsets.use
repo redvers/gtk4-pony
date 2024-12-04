@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:115
+  Original Name: gtk_scale_get_layout_offsets/usr/include/gtk-4.0/gtk/gtkscale.h:115
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f693]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_scale_get_layout_offsets[None](scale: NullablePointer[GtkScale] tag, x: Pointer[I32] tag, y: Pointer[I32] tag)
+

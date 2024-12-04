@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:78
+  Original Name: g_dbus_message_get_byte_order/usr/include/glib-2.0/gio/gdbusmessage.h:78
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_message_get_byte_order[I32](message: NullablePointer[GDBusMessage] tag)
+

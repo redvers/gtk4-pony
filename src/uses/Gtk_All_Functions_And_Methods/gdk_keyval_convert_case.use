@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkkeys.h:41
+  Original Name: gdk_keyval_convert_case/usr/include/gtk-4.0/gdk/gdkkeys.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @gdk_keyval_convert_case[None](symbol: U32, lower: Pointer[U32] tag, upper: Pointer[U32] tag)
+

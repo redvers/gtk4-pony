@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkborder.h:66
+  Original Name: gtk_border_free/usr/include/gtk-4.0/gtk/gtkborder.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f515]
+*/
+use @gtk_border_free[None](border: NullablePointer[GtkBorder] tag)
+

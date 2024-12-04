@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtestdbus.h:64
+  Original Name: g_test_dbus_stop/usr/include/glib-2.0/gio/gtestdbus.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_test_dbus_stop[None](self: NullablePointer[GTestDBus] tag)
+

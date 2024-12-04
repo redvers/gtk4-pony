@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkadjustment.h:87
+  Original Name: gtk_adjustment_get_lower/usr/include/gtk-4.0/gtk/gtkadjustment.h:87
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_adjustment_get_lower[F64](adjustment: NullablePointer[GtkAdjustment] tag)
+

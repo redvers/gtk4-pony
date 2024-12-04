@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:765
+  Original Name: g_rw_lock_reader_locker_free/usr/include/glib-2.0/glib/gthread.h:765
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_rw_lock_reader_locker_free[None](locker: Pointer[None] tag)
+

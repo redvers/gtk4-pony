@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:47
+  Original Name: gtk_shortcut_trigger_print_label/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:47
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @gtk_shortcut_trigger_print_label[I32](self: NullablePointer[GtkShortcutTrigger] tag, display: NullablePointer[GdkDisplay] tag, string: NullablePointer[GString] tag)
+

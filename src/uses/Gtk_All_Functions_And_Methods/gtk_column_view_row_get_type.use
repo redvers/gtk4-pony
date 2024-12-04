@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:32
+  Original Name: gtk_column_view_row_get_type/usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h:32
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_column_view_row_get_type[U64]()
+

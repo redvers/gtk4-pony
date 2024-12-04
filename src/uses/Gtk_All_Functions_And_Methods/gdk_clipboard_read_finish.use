@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkclipboard.h:64
+  Original Name: gdk_clipboard_read_finish/usr/include/gtk-4.0/gdk/gdkclipboard.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_clipboard_read_finish[NullablePointer[GInputStream]](clipboard: NullablePointer[GdkClipboard] tag, result: NullablePointer[GAsyncResult] tag, outmimetype: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

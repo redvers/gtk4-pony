@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:225
+  Original Name: g_io_channel_set_line_term/usr/include/glib-2.0/glib/giochannel.h:225
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_io_channel_set_line_term[None](channel: NullablePointer[GIOChannel] tag, lineterm: Pointer[U8] tag, length: I32)
+

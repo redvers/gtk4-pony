@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:379
+  Original Name: g_strfreev/usr/include/glib-2.0/glib/gstrfuncs.h:379
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strfreev[None](strarray: Pointer[Pointer[U8]] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathpoint.h:72
+  Original Name: gsk_path_point_get_tangent/usr/include/gtk-4.0/gsk/gskpathpoint.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f462]
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [Enumeration size=32,fid: f432]
+    [PointerType size=64]->[Struct size=128,fid: f438]
+*/
+use @gsk_path_point_get_tangent[None](point: NullablePointer[GskPathPoint] tag, path: NullablePointer[GskPath] tag, direction: I32, tangent: NullablePointer[Graphenevec2t] tag)
+

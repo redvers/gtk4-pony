@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:294
+  Original Name: gtk_text_view_move_visually/usr/include/gtk-4.0/gtk/gtktextview.h:294
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_view_move_visually[I32](textview: NullablePointer[GtkTextView] tag, iter: NullablePointer[GtkTextIter] tag, count: I32)
+

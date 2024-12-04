@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknativedialog.h:73
+  Original Name: gtk_native_dialog_set_title/usr/include/gtk-4.0/gtk/gtknativedialog.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f606]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_native_dialog_set_title[None](self: NullablePointer[GtkNativeDialog] tag, title: Pointer[U8] tag)
+

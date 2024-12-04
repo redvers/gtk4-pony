@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:93
+  Original Name: gtk_list_view_scroll_to/usr/include/gtk-4.0/gtk/gtklistview.h:93
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+    [FundamentalType(unsigned int) size=32]
+    [Enumeration size=32,fid: f476]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_list_view_scroll_to[None](self: NullablePointer[GtkListView] tag, pos: U32, flags: I32, scroll: NullablePointer[GtkScrollInfo] tag)
+

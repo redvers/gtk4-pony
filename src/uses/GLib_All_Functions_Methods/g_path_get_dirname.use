@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:215
+  Original Name: g_path_get_dirname/usr/include/glib-2.0/glib/gfileutils.h:215
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_path_get_dirname[Pointer[U8]](filename: Pointer[U8] tag)
+

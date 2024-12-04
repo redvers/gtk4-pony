@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:45
+  Original Name: gdk_content_formats_unref/usr/include/gtk-4.0/gdk/gdkcontentformats.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_content_formats_unref[None](formats: NullablePointer[GdkContentFormats] tag)
+

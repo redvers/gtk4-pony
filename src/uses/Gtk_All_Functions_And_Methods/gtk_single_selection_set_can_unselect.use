@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksingleselection.h:54
+  Original Name: gtk_single_selection_set_can_unselect/usr/include/gtk-4.0/gtk/gtksingleselection.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f711]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_single_selection_set_can_unselect[None](self: NullablePointer[GtkSingleSelection] tag, canunselect: I32)
+

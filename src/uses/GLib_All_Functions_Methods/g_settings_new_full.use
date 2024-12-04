@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:92
+  Original Name: g_settings_new_full/usr/include/glib-2.0/gio/gsettings.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f171]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_settings_new_full[NullablePointer[GSettings]](schema: NullablePointer[GSettingsSchema] tag, backend: NullablePointer[GSettingsBackend] tag, path: Pointer[U8] tag)
+

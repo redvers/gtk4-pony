@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:310
+  Original Name: g_param_spec_get_redirect_target/usr/include/glib-2.0/gobject/gparam.h:310
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f137]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_param_spec_get_redirect_target[NullablePointer[GParamSpec]](pspec: NullablePointer[GParamSpec] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:241
+  Original Name: g_io_channel_get_encoding/usr/include/glib-2.0/glib/giochannel.h:241
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+*/
+use @g_io_channel_get_encoding[Pointer[U8]](channel: NullablePointer[GIOChannel] tag)
+

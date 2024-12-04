@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:122
+  Original Name: gtk_print_dialog_print_file/usr/include/gtk-4.0/gtk/gtkprintdialog.h:122
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=,fid: f682]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_print_dialog_print_file[None](self: NullablePointer[GtkPrintDialog] tag, parent: NullablePointer[GtkWindow] tag, setup: NullablePointer[GtkPrintSetup] tag, file: NullablePointer[GFile] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

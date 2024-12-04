@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:125
+  Original Name: gtk_icon_theme_lookup_icon/usr/include/gtk-4.0/gtk/gtkicontheme.h:125
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f639]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [Enumeration size=32,fid: f476]
+    [Enumeration size=32,fid: f639]
+*/
+use @gtk_icon_theme_lookup_icon[NullablePointer[GtkIconPaintable]](self: NullablePointer[GtkIconTheme] tag, iconname: Pointer[U8] tag, fallbacks: Pointer[Pointer[U8]] tag, size: I32, scale: I32, direction: I32, flags: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:33
+  Original Name: glib_autoptr_clear_GDebugControllerDBusClass/usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1920,fid: f257]
+*/
+use @glib_autoptr_clear_GDebugControllerDBusClass[None](ptr: NullablePointer[GDebugControllerDBusClass] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilelauncher.h:36
+  Original Name: gtk_file_launcher_new/usr/include/gtk-4.0/gtk/gtkfilelauncher.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f610]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @gtk_file_launcher_new[NullablePointer[GtkFileLauncher]](file: NullablePointer[GFile] tag)
+

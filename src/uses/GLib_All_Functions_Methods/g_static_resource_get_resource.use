@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresource.h:128
+  Original Name: g_static_resource_get_resource/usr/include/glib-2.0/gio/gresource.h:128
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f292]
+*/
+use @g_static_resource_get_resource[NullablePointer[GResource]](staticresource: NullablePointer[GStaticResource] tag)
+

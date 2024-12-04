@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:103
+  Original Name: gdk_device_get_has_cursor/usr/include/gtk-4.0/gdk/gdkdevice.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_device_get_has_cursor[I32](device: NullablePointer[GdkDevice] tag)
+

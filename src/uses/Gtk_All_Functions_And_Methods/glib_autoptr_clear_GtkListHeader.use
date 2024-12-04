@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistheader.h:32
+  Original Name: glib_autoptr_clear_GtkListHeader/usr/include/gtk-4.0/gtk/gtklistheader.h:32
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f650]
+*/
+use @glib_autoptr_clear_GtkListHeader[None](ptr: NullablePointer[GtkListHeader] tag)
+

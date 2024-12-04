@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:311
+  Original Name: g_option_context_new/usr/include/glib-2.0/glib/goption.h:311
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f96]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_option_context_new[NullablePointer[GOptionContext]](parameterstring: Pointer[U8] tag)
+

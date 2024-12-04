@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcsssection.h:58
+  Original Name: gtk_css_section_to_string/usr/include/gtk-4.0/gtk/css/gtkcsssection.h:58
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f317]
+*/
+use @gtk_css_section_to_string[Pointer[U8]](section: NullablePointer[GtkCssSection] tag)
+

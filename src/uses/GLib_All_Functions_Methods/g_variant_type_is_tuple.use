@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:323
+  Original Name: g_variant_type_is_tuple/usr/include/glib-2.0/glib/gvarianttype.h:323
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_type_is_tuple[I32](type: NullablePointer[GVariantType] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:135
+  Original Name: gtk_builder_expose_object/usr/include/gtk-4.0/gtk/gtkbuilder.h:135
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @gtk_builder_expose_object[None](builder: NullablePointer[GtkBuilder] tag, name: Pointer[U8] tag, object: NullablePointer[GObject] tag)
+

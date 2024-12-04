@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:125
+  Original Name: g_file_set_contents/usr/include/glib-2.0/glib/gfileutils.h:125
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_set_contents[I32](filename: Pointer[U8] tag, contents: Pointer[U8] tag, length: I64, error: Pointer[NullablePointer[GError]] tag)
+

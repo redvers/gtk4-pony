@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkactionbar.h:58
+  Original Name: gtk_action_bar_set_revealed/usr/include/gtk-4.0/gtk/gtkactionbar.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f493]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_action_bar_set_revealed[None](actionbar: NullablePointer[GtkActionBar] tag, revealed: I32)
+

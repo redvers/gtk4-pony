@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:55
+  Original Name: glib_autoptr_cleanup_GDir/usr/include/glib-2.0/glib/glib-autocleanups.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f72]
+*/
+use @glib_autoptr_cleanup_GDir[None](ptr: Pointer[NullablePointer[GDir]] tag)
+

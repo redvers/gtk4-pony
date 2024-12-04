@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktestatcontext.h:127
+  Original Name: gtk_test_accessible_has_state/usr/include/gtk-4.0/gtk/gtktestatcontext.h:127
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_test_accessible_has_state[I32](accessible: NullablePointer[GtkAccessible] tag, state: I32)
+

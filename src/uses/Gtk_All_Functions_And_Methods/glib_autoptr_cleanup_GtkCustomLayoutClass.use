@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomlayout.h:70
+  Original Name: glib_autoptr_cleanup_GtkCustomLayoutClass/usr/include/gtk-4.0/gtk/gtkcustomlayout.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=2560,fid: f579]
+*/
+use @glib_autoptr_cleanup_GtkCustomLayoutClass[None](ptr: Pointer[NullablePointer[]] tag)
+

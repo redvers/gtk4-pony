@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h:53
+  Original Name: gtk_builder_list_item_factory_get_resource/usr/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h:53
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f522]
+*/
+use @gtk_builder_list_item_factory_get_resource[Pointer[U8]](self: NullablePointer[GtkBuilderListItemFactory] tag)
+

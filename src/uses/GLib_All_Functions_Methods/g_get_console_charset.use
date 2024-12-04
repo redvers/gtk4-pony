@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gcharset.h:37
+  Original Name: g_get_console_charset/usr/include/glib-2.0/glib/gcharset.h:37
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_get_console_charset[I32](charset: Pointer[Pointer[U8]] tag)
+

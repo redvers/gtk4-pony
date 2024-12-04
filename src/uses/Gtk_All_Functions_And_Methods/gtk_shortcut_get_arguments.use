@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcut.h:54
+  Original Name: gtk_shortcut_get_arguments/usr/include/gtk-4.0/gtk/gtkshortcut.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_shortcut_get_arguments[NullablePointer[GVariant]](self: NullablePointer[GtkShortcut] tag)
+

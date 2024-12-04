@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:132
+  Original Name: gsk_shader_args_builder_unref/usr/include/gtk-4.0/gsk/gskglshader.h:132
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+*/
+use @gsk_shader_args_builder_unref[None](builder: NullablePointer[GskShaderArgsBuilder] tag)
+

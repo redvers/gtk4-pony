@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkenumtypes.h:141
+  Original Name: gdk_texture_error_get_type/usr/include/gtk-4.0/gdk/gdkenumtypes.h:141
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_texture_error_get_type[U64]()
+

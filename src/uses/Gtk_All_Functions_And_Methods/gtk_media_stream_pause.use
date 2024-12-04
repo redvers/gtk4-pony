@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:74
+  Original Name: gtk_media_stream_pause/usr/include/gtk-4.0/gtk/gtkmediastream.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_stream_pause[None](self: NullablePointer[GtkMediaStream] tag)
+

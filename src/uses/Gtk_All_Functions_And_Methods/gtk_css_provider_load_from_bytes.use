@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcssprovider.h:57
+  Original Name: gtk_css_provider_load_from_bytes/usr/include/gtk-4.0/gtk/gtkcssprovider.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f578]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @gtk_css_provider_load_from_bytes[None](cssprovider: NullablePointer[GtkCssProvider] tag, data: NullablePointer[GBytes] tag)
+

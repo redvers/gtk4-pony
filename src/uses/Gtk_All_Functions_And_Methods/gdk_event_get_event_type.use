@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:375
+  Original Name: gdk_event_get_event_type/usr/include/gtk-4.0/gdk/gdkevents.h:375
+
+  Return Value: [Enumeration size=32,fid: f400]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_event_get_event_type[I32](event: NullablePointer[GdkEvent] tag)
+

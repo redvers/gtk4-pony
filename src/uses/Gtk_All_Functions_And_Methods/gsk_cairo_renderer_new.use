@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskcairorenderer.h:55
+  Original Name: gsk_cairo_renderer_new/usr/include/gtk-4.0/gsk/gskcairorenderer.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+*/
+use @gsk_cairo_renderer_new[NullablePointer[GskRenderer]]()
+

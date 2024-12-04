@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:844
+  Original Name: g_steal_fd/usr/include/glib-2.0/glib/gmain.h:844
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_steal_fd[I32](fdptr: Pointer[I32] tag)
+

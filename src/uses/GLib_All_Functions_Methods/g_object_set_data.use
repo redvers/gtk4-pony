@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:597
+  Original Name: g_object_set_data/usr/include/glib-2.0/gobject/gobject.h:597
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_set_data[None](object: NullablePointer[GObject] tag, key: Pointer[U8] tag, data: Pointer[None] tag)
+

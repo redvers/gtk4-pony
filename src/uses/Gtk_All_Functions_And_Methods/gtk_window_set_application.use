@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindow.h:226
+  Original Name: gtk_window_set_application/usr/include/gtk-4.0/gtk/gtkwindow.h:226
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=256,fid: f485]
+*/
+use @gtk_window_set_application[None](window: NullablePointer[GtkWindow] tag, application: NullablePointer[GtkApplication] tag)
+

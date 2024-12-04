@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbutton.h:119
+  Original Name: gtk_button_get_can_shrink/usr/include/gtk-4.0/gtk/gtkbutton.h:119
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f523]
+*/
+use @gtk_button_get_can_shrink[I32](button: NullablePointer[GtkButton] tag)
+

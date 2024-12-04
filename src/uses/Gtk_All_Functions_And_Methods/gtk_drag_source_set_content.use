@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragsource.h:55
+  Original Name: gtk_drag_source_set_content/usr/include/gtk-4.0/gtk/gtkdragsource.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f585]
+    [PointerType size=64]->[Struct size=192,fid: f374]
+*/
+use @gtk_drag_source_set_content[None](source: NullablePointer[GtkDragSource] tag, content: NullablePointer[GdkContentProvider] tag)
+

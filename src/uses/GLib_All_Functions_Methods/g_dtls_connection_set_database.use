@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:114
+  Original Name: g_dtls_connection_set_database/usr/include/glib-2.0/gio/gdtlsconnection.h:114
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f208]
+*/
+use @g_dtls_connection_set_database[None](conn: NullablePointer[GDtlsConnection] tag, database: NullablePointer[GTlsDatabase] tag)
+

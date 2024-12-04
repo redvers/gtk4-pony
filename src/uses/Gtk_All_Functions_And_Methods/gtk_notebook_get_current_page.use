@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:121
+  Original Name: gtk_notebook_get_current_page/usr/include/gtk-4.0/gtk/gtknotebook.h:121
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_get_current_page[I32](notebook: NullablePointer[GtkNotebook] tag)
+

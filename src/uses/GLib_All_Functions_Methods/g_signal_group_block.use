@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignalgroup.h:51
+  Original Name: g_signal_group_block/usr/include/glib-2.0/gobject/gsignalgroup.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f149]
+*/
+use @g_signal_group_block[None](self: NullablePointer[GSignalGroup] tag)
+

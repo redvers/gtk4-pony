@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpander.h:79
+  Original Name: gtk_expander_get_resize_toplevel/usr/include/gtk-4.0/gtk/gtkexpander.h:79
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f600]
+*/
+use @gtk_expander_get_resize_toplevel[I32](expander: NullablePointer[GtkExpander] tag)
+

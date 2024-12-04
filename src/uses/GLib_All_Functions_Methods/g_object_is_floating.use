@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:507
+  Original Name: g_object_is_floating/usr/include/glib-2.0/gobject/gobject.h:507
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_is_floating[I32](object: Pointer[None] tag)
+

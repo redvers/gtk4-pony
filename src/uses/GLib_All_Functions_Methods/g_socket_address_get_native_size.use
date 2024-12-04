@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketaddress.h:80
+  Original Name: g_socket_address_get_native_size/usr/include/glib-2.0/gio/gsocketaddress.h:80
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f201]
+*/
+use @g_socket_address_get_native_size[I64](address: NullablePointer[GSocketAddress] tag)
+

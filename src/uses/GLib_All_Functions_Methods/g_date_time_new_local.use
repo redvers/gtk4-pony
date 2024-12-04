@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:166
+  Original Name: g_date_time_new_local/usr/include/glib-2.0/glib/gdatetime.h:166
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(double) size=64]
+*/
+use @g_date_time_new_local[NullablePointer[GDateTime]](year: I32, month: I32, day: I32, hour: I32, minute: I32, seconds: F64)
+

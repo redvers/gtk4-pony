@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbinding.h:113
+  Original Name: g_binding_dup_target/usr/include/glib-2.0/gobject/gbinding.h:113
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f143]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f144]
+*/
+use @g_binding_dup_target[NullablePointer[GObject]](binding: NullablePointer[GBinding] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:124
+  Original Name: g_date_copy/usr/include/glib-2.0/glib/gdate.h:124
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f69]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_copy[NullablePointer[GDate]](date: NullablePointer[GDate] tag)
+

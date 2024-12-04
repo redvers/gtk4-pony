@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2633
+  Original Name: g_type_check_class_is_a/usr/include/glib-2.0/gobject/gtype.h:2633
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f135]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_type_check_class_is_a[I32](gclass: NullablePointer[GTypeClass] tag, isatype: U64)
+

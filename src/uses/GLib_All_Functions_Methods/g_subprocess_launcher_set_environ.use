@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:58
+  Original Name: g_subprocess_launcher_set_environ/usr/include/glib-2.0/gio/gsubprocesslauncher.h:58
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_subprocess_launcher_set_environ[None](self: NullablePointer[GSubprocessLauncher] tag, env: Pointer[Pointer[U8]] tag)
+

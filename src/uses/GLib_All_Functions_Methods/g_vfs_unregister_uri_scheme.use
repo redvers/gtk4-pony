@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvfs.h:159
+  Original Name: g_vfs_unregister_uri_scheme/usr/include/glib-2.0/gio/gvfs.h:159
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f211]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_vfs_unregister_uri_scheme[I32](vfs: NullablePointer[GVfs] tag, scheme: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketclient.h:87
+  Original Name: g_socket_client_set_socket_type/usr/include/glib-2.0/gio/gsocketclient.h:87
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f197]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_socket_client_set_socket_type[None](client: NullablePointer[GSocketClient] tag, type: I32)
+

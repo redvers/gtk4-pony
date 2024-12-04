@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:32
+  Original Name: glib_autoptr_clear_GAppInfoMonitor/usr/include/glib-2.0/gio/gio-autocleanups.h:32
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f160]
+*/
+use @glib_autoptr_clear_GAppInfoMonitor[None](ptr: NullablePointer[GAppInfoMonitor] tag)
+

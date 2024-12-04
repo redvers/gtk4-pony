@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksymbolicpaintable.h:60
+  Original Name: gtk_symbolic_paintable_snapshot_symbolic/usr/include/gtk-4.0/gtk/gtksymbolicpaintable.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f725]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gtk_symbolic_paintable_snapshot_symbolic[None](paintable: NullablePointer[GtkSymbolicPaintable] tag, snapshot: NullablePointer[GdkSnapshot] tag, width: F64, height: F64, colors: NullablePointer[GdkRGBA] tag, ncolors: U64)
+

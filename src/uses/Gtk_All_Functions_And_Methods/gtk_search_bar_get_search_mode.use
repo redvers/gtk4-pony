@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchbar.h:56
+  Original Name: gtk_search_bar_get_search_mode/usr/include/gtk-4.0/gtk/gtksearchbar.h:56
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f699]
+*/
+use @gtk_search_bar_get_search_mode[I32](bar: NullablePointer[GtkSearchBar] tag)
+

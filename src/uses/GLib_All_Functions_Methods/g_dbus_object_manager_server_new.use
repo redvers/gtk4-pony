@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:66
+  Original Name: g_dbus_object_manager_server_new/usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f225]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_object_manager_server_new[NullablePointer[GDBusObjectManagerServer]](objectpath: Pointer[U8] tag)
+

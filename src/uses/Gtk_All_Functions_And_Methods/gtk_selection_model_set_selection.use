@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkselectionmodel.h:134
+  Original Name: gtk_selection_model_set_selection/usr/include/gtk-4.0/gtk/gtkselectionmodel.h:134
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f554]
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_selection_model_set_selection[I32](model: NullablePointer[GtkSelectionModel] tag, selected: NullablePointer[GtkBitset] tag, mask: NullablePointer[GtkBitset] tag)
+

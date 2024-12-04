@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklinkbutton.h:52
+  Original Name: gtk_link_button_set_uri/usr/include/gtk-4.0/gtk/gtklinkbutton.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f648]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_link_button_set_uri[None](linkbutton: NullablePointer[GtkLinkButton] tag, uri: Pointer[U8] tag)
+

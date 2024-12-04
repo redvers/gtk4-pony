@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:235
+  Original Name: gtk_entry_get_icon_tooltip_text/usr/include/gtk-4.0/gtk/gtkentry.h:235
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+*/
+use @gtk_entry_get_icon_tooltip_text[Pointer[U8]](entry: NullablePointer[GtkEntry] tag, iconpos: I32)
+

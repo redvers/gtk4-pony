@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:104
+  Original Name: gtk_icon_theme_get_resource_path/usr/include/gtk-4.0/gtk/gtkicontheme.h:104
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+*/
+use @gtk_icon_theme_get_resource_path[Pointer[Pointer[U8]]](self: NullablePointer[GtkIconTheme] tag)
+

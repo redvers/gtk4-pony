@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmethodinvocation.h:119
+  Original Name: g_dbus_method_invocation_return_error_literal/usr/include/glib-2.0/gio/gdbusmethodinvocation.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_method_invocation_return_error_literal[None](invocation: NullablePointer[GDBusMethodInvocation] tag, domain: U32, code: I32, message: Pointer[U8] tag)
+

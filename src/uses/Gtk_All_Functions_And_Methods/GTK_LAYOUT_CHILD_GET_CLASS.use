@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutchild.h:14
+  Original Name: GTK_LAYOUT_CHILD_GET_CLASS/usr/include/gtk-4.0/gtk/gtklayoutchild.h:14
+
+  Return Value: [PointerType size=64]->[Struct size=1088,fid: f508]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_LAYOUT_CHILD_GET_CLASS[NullablePointer[GtkLayoutChildClass]](ptr: Pointer[None] tag)
+

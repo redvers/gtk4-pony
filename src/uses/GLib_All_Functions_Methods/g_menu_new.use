@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:47
+  Original Name: g_menu_new/usr/include/glib-2.0/gio/gmenu.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f278]
+
+  Arguments:
+*/
+use @g_menu_new[NullablePointer[GMenu]]()
+

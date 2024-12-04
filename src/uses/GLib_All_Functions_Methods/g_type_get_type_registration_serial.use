@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1521
+  Original Name: g_type_get_type_registration_serial/usr/include/glib-2.0/gobject/gtype.h:1521
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @g_type_get_type_registration_serial[U32]()
+

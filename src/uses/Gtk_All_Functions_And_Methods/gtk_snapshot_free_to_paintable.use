@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:57
+  Original Name: gtk_snapshot_free_to_paintable/usr/include/gtk-4.0/gtk/gtksnapshot.h:57
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f422]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=64,fid: f444]
+*/
+use @gtk_snapshot_free_to_paintable[NullablePointer[GdkPaintable]](snapshot: NullablePointer[GdkSnapshot] tag, size: NullablePointer[Graphenesizet] tag)
+

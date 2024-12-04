@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:148
+  Original Name: gtk_cclosure_expression_get_type/usr/include/gtk-4.0/gtk/gtkexpression.h:148
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_cclosure_expression_get_type[U64]()
+

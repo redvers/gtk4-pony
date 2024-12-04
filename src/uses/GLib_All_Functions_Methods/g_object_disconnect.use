@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:467
+  Original Name: g_object_disconnect/usr/include/glib-2.0/gobject/gobject.h:467
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_object_disconnect[None](object: Pointer[None] tag, signalspec: Pointer[U8] tag, ...)
+

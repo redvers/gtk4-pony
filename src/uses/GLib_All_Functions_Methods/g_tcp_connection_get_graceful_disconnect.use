@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtcpconnection.h:67
+  Original Name: g_tcp_connection_get_graceful_disconnect/usr/include/glib-2.0/gio/gtcpconnection.h:67
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f203]
+*/
+use @g_tcp_connection_get_graceful_disconnect[I32](connection: NullablePointer[GTcpConnection] tag)
+

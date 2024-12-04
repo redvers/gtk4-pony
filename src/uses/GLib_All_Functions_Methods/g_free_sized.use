@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmem.h:76
+  Original Name: g_free_sized/usr/include/glib-2.0/glib/gmem.h:76
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_free_sized[None](mem: Pointer[None] tag, size: U64)
+

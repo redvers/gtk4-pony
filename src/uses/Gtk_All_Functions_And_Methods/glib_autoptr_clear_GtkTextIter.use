@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:416
+  Original Name: glib_autoptr_clear_GtkTextIter/usr/include/gtk-4.0/gtk/gtktextiter.h:416
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @glib_autoptr_clear_GtkTextIter[None](ptr: NullablePointer[GtkTextIter] tag)
+

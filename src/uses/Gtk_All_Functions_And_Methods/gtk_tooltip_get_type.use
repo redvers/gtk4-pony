@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktooltip.h:35
+  Original Name: gtk_tooltip_get_type/usr/include/gtk-4.0/gtk/gtktooltip.h:35
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_tooltip_get_type[U64]()
+

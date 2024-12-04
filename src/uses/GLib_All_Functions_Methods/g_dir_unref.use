@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdir.h:55
+  Original Name: g_dir_unref/usr/include/glib-2.0/glib/gdir.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f72]
+*/
+use @g_dir_unref[None](dir: NullablePointer[GDir] tag)
+

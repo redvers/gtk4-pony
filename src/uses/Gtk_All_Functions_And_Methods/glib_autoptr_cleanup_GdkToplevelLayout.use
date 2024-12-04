@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevellayout.h:79
+  Original Name: glib_autoptr_cleanup_GdkToplevelLayout/usr/include/gtk-4.0/gdk/gdktoplevellayout.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f428]
+*/
+use @glib_autoptr_cleanup_GdkToplevelLayout[None](ptr: Pointer[NullablePointer[GdkToplevelLayout]] tag)
+

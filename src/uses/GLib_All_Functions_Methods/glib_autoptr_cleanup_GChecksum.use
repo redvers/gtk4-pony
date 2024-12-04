@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:52
+  Original Name: glib_autoptr_cleanup_GChecksum/usr/include/glib-2.0/glib/glib-autocleanups.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f66]
+*/
+use @glib_autoptr_cleanup_GChecksum[None](ptr: Pointer[NullablePointer[GChecksum]] tag)
+

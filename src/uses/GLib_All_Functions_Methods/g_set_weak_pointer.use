@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:890
+  Original Name: g_set_weak_pointer/usr/include/glib-2.0/gobject/gobject.h:890
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_set_weak_pointer[I32](weakpointerlocation: NullablePointer[Pointer[None]] tag, newobject: NullablePointer[GObject] tag)
+

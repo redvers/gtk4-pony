@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:152
+  Original Name: gtk_icon_paintable_get_icon_name/usr/include/gtk-4.0/gtk/gtkicontheme.h:152
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+*/
+use @gtk_icon_paintable_get_icon_name[Pointer[U8]](self: NullablePointer[GtkIconPaintable] tag)
+

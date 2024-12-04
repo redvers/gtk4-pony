@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:238
+  Original Name: g_app_info_reset_type_associations/usr/include/glib-2.0/gio/gappinfo.h:238
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_app_info_reset_type_associations[None](contenttype: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfiledialog.h:78
+  Original Name: gtk_file_dialog_set_initial_name/usr/include/gtk-4.0/gtk/gtkfiledialog.h:78
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f609]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_file_dialog_set_initial_name[None](self: NullablePointer[GtkFileDialog] tag, name: Pointer[U8] tag)
+

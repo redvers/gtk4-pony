@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:131
+  Original Name: g_variant_new_fixed_array/usr/include/glib-2.0/glib/gvariant.h:131
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_variant_new_fixed_array[NullablePointer[GVariant]](elementtype: NullablePointer[GVariantType] tag, elements: Pointer[None] tag, nelements: U64, elementsize: U64)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:105
+  Original Name: gtk_scale_get_has_origin/usr/include/gtk-4.0/gtk/gtkscale.h:105
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f693]
+*/
+use @gtk_scale_get_has_origin[I32](scale: NullablePointer[GtkScale] tag)
+

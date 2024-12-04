@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:118
+  Original Name: g_log_set_always_fatal/usr/include/glib-2.0/glib/gmessages.h:118
+
+  Return Value: [Enumeration size=32,fid: f95]
+
+  Arguments:
+    [Enumeration size=32,fid: f95]
+*/
+use @g_log_set_always_fatal[I32](fatalmask: I32)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimezone.h:65
+  Original Name: g_time_zone_new_local/usr/include/glib-2.0/glib/gtimezone.h:65
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f61]
+
+  Arguments:
+*/
+use @g_time_zone_new_local[NullablePointer[GTimeZone]]()
+

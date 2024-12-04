@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknativedialog.h:64
+  Original Name: gtk_native_dialog_destroy/usr/include/gtk-4.0/gtk/gtknativedialog.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f606]
+*/
+use @gtk_native_dialog_destroy[None](self: NullablePointer[GtkNativeDialog] tag)
+

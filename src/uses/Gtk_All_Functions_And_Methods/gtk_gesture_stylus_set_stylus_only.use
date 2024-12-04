@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturestylus.h:48
+  Original Name: gtk_gesture_stylus_set_stylus_only/usr/include/gtk-4.0/gtk/gtkgesturestylus.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f629]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_gesture_stylus_set_stylus_only[None](gesture: NullablePointer[GtkGestureStylus] tag, stylusonly: I32)
+

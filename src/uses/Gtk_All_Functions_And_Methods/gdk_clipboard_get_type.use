@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkclipboard.h:34
+  Original Name: gdk_clipboard_get_type/usr/include/gtk-4.0/gdk/gdkclipboard.h:34
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_clipboard_get_type[U64]()
+

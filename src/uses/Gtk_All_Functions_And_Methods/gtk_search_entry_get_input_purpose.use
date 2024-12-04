@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchentry.h:72
+  Original Name: gtk_search_entry_get_input_purpose/usr/include/gtk-4.0/gtk/gtksearchentry.h:72
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f700]
+*/
+use @gtk_search_entry_get_input_purpose[I32](entry: NullablePointer[GtkSearchEntry] tag)
+

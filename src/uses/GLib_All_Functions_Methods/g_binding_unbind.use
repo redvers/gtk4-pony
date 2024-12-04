@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbinding.h:119
+  Original Name: g_binding_unbind/usr/include/glib-2.0/gobject/gbinding.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f144]
+*/
+use @g_binding_unbind[None](binding: NullablePointer[GBinding] tag)
+

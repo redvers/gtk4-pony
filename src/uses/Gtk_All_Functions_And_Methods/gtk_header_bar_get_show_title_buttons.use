@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkheaderbar.h:57
+  Original Name: gtk_header_bar_get_show_title_buttons/usr/include/gtk-4.0/gtk/gtkheaderbar.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f638]
+*/
+use @gtk_header_bar_get_show_title_buttons[I32](bar: NullablePointer[GtkHeaderBar] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:181
+  Original Name: g_variant_get_bytestring_array/usr/include/glib-2.0/glib/gvariant.h:181
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_variant_get_bytestring_array[Pointer[Pointer[U8]]](value: NullablePointer[GVariant] tag, length: Pointer[U64] tag)
+

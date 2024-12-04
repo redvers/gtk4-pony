@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutmanager.h:111
+  Original Name: gtk_layout_manager_allocate/usr/include/gtk-4.0/gtk/gtklayoutmanager.h:111
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f479]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_layout_manager_allocate[None](manager: NullablePointer[GtkLayoutManager] tag, widget: NullablePointer[GtkWidget] tag, width: I32, height: I32, baseline: I32)
+

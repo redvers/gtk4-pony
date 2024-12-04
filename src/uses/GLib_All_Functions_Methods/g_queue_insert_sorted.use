@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:164
+  Original Name: g_queue_insert_sorted/usr/include/glib-2.0/glib/gqueue.h:164
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_queue_insert_sorted[None](queue: NullablePointer[GQueue] tag, data: Pointer[None] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

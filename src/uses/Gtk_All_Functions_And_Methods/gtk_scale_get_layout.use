@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:113
+  Original Name: gtk_scale_get_layout/usr/include/gtk-4.0/gtk/gtkscale.h:113
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f359]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f693]
+*/
+use @gtk_scale_get_layout[NullablePointer[PangoLayout]](scale: NullablePointer[GtkScale] tag)
+

@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbase64.h:33
+  Original Name: g_base64_encode_step/usr/include/glib-2.0/glib/gbase64.h:33
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_base64_encode_step[U64](in: Pointer[U8] tag, len: U64, breaklines: I32, out: Pointer[U8] tag, state: Pointer[I32] tag, save: Pointer[I32] tag)
+

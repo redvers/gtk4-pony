@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrgba.h:51
+  Original Name: gdk_rgba_free/usr/include/gtk-4.0/gdk/gdkrgba.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f373]
+*/
+use @gdk_rgba_free[None](rgba: NullablePointer[GdkRGBA] tag)
+

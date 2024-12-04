@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:126
+  Original Name: g_task_is_valid/usr/include/glib-2.0/gio/gtask.h:126
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_task_is_valid[I32](result: Pointer[None] tag, sourceobject: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocket.h:128
+  Original Name: g_socket_get_broadcast/usr/include/glib-2.0/gio/gsocket.h:128
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+*/
+use @g_socket_get_broadcast[I32](socket: NullablePointer[GSocket] tag)
+

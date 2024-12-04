@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/goption.h:346
+  Original Name: g_option_context_parse/usr/include/glib-2.0/glib/goption.h:346
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f96]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_option_context_parse[I32](context: NullablePointer[GOptionContext] tag, argc: Pointer[I32] tag, argv: NullablePointer[Array[String]] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:89
+  Original Name: gtk_print_settings_has_key/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:89
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_print_settings_has_key[I32](settings: NullablePointer[GtkPrintSettings] tag, key: Pointer[U8] tag)
+

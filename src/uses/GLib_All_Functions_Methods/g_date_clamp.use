@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:269
+  Original Name: g_date_clamp/usr/include/glib-2.0/glib/gdate.h:269
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_clamp[None](date: NullablePointer[GDate] tag, mindate: NullablePointer[GDate] tag, maxdate: NullablePointer[GDate] tag)
+

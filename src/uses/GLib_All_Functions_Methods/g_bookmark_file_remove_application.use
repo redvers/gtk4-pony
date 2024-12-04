@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:322
+  Original Name: g_bookmark_file_remove_application/usr/include/glib-2.0/glib/gbookmarkfile.h:322
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_bookmark_file_remove_application[I32](bookmark: NullablePointer[GBookmarkFile] tag, uri: Pointer[U8] tag, name: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

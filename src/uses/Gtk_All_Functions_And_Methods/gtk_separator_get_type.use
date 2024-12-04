@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkseparator.h:44
+  Original Name: gtk_separator_get_type/usr/include/gtk-4.0/gtk/gtkseparator.h:44
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_separator_get_type[U64]()
+

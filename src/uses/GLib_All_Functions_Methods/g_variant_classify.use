@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:81
+  Original Name: g_variant_classify/usr/include/glib-2.0/glib/gvariant.h:81
+
+  Return Value: [Enumeration size=32,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_variant_classify[I32](value: NullablePointer[GVariant] tag)
+

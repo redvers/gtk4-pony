@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:162
+  Original Name: g_application_set_flags/usr/include/glib-2.0/gio/gapplication.h:162
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_application_set_flags[None](application: NullablePointer[GApplication] tag, flags: I32)
+

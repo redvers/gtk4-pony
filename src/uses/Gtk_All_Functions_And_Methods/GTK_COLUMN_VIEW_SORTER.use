@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnviewsorter.h:35
+  Original Name: GTK_COLUMN_VIEW_SORTER/usr/include/gtk-4.0/gtk/gtkcolumnviewsorter.h:35
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f560]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_COLUMN_VIEW_SORTER[NullablePointer[GtkColumnViewSorter]](ptr: Pointer[None] tag)
+

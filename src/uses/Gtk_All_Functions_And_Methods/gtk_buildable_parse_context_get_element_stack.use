@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:256
+  Original Name: gtk_buildable_parse_context_get_element_stack/usr/include/gtk-4.0/gtk/gtkbuildable.h:256
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f520]
+*/
+use @gtk_buildable_parse_context_get_element_stack[NullablePointer[GPtrArray]](context: NullablePointer[GtkBuildableParseContext] tag)
+

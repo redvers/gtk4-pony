@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:137
+  Original Name: g_array_binary_search/usr/include/glib-2.0/glib/garray.h:137
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @g_array_binary_search[I32](array: NullablePointer[GArray] tag, target: Pointer[None] tag, comparefunc: Pointer[None] tag, outmatchindex: Pointer[U32] tag)
+

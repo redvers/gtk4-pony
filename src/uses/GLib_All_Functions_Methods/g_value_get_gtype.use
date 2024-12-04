@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:279
+  Original Name: g_value_get_gtype/usr/include/glib-2.0/gobject/gvaluetypes.h:279
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_get_gtype[U64](value: NullablePointer[GValue] tag)
+

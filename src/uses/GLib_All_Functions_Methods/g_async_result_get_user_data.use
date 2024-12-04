@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gasyncresult.h:68
+  Original Name: g_async_result_get_user_data/usr/include/glib-2.0/gio/gasyncresult.h:68
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_async_result_get_user_data[Pointer[None]](res: NullablePointer[GAsyncResult] tag)
+

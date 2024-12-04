@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:506
+  Original Name: gtk_widget_child_focus/usr/include/gtk-4.0/gtk/gtkwidget.h:506
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_widget_child_focus[I32](widget: NullablePointer[GtkWidget] tag, direction: I32)
+

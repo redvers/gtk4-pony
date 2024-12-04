@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:102
+  Original Name: gtk_print_settings_foreach/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:102
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_print_settings_foreach[None](settings: NullablePointer[GtkPrintSettings] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

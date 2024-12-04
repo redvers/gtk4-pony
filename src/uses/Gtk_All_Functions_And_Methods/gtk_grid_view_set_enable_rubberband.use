@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridview.h:70
+  Original Name: gtk_grid_view_set_enable_rubberband/usr/include/gtk-4.0/gtk/gtkgridview.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f637]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_grid_view_set_enable_rubberband[None](self: NullablePointer[GtkGridView] tag, enablerubberband: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:101
+  Original Name: gtk_show_about_dialog/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_show_about_dialog[None](parent: NullablePointer[GtkWindow] tag, firstpropertyname: Pointer[U8] tag, ...)
+

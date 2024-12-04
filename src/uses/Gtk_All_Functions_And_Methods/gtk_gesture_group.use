@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesture.h:92
+  Original Name: gtk_gesture_group/usr/include/gtk-4.0/gtk/gtkgesture.h:92
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_gesture_group[None](groupgesture: NullablePointer[GtkGesture] tag, gesture: NullablePointer[GtkGesture] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:134
+  Original Name: g_slist_sort_with_data/usr/include/glib-2.0/glib/gslist.h:134
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_slist_sort_with_data[NullablePointer[GSList]](list: NullablePointer[GSList] tag, comparefunc: Pointer[None] tag, userdata: Pointer[None] tag)
+

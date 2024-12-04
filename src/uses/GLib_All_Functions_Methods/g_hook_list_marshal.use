@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:192
+  Original Name: g_hook_list_marshal/usr/include/glib-2.0/glib/ghook.h:192
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_hook_list_marshal[None](hooklist: NullablePointer[GHookList] tag, mayrecurse: I32, marshaller: Pointer[None] tag, marshaldata: Pointer[None] tag)
+

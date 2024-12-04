@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:176
+  Original Name: gtk_bitset_iter_is_valid/usr/include/gtk-4.0/gtk/gtkbitset.h:176
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f510]
+*/
+use @gtk_bitset_iter_is_valid[I32](iter: NullablePointer[GtkBitsetIter] tag)
+

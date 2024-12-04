@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkoverlaylayout.h:41
+  Original Name: GTK_OVERLAY_LAYOUT_CHILD/usr/include/gtk-4.0/gtk/gtkoverlaylayout.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f671]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_OVERLAY_LAYOUT_CHILD[NullablePointer[GtkOverlayLayoutChild]](ptr: Pointer[None] tag)
+

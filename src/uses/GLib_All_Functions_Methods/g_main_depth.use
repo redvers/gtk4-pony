@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:476
+  Original Name: g_main_depth/usr/include/glib-2.0/glib/gmain.h:476
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @g_main_depth[I32]()
+

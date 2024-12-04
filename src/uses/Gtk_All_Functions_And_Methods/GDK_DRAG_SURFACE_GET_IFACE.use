@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdragsurface.h:33
+  Original Name: GDK_DRAG_SURFACE_GET_IFACE/usr/include/gtk-4.0/gdk/gdkdragsurface.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f412]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GDK_DRAG_SURFACE_GET_IFACE[NullablePointer[GdkDragSurfaceInterface]](ptr: Pointer[None] tag)
+

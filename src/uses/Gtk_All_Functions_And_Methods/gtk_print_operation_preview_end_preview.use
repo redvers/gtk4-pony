@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperationpreview.h:75
+  Original Name: gtk_print_operation_preview_end_preview/usr/include/gtk-4.0/gtk/print/gtkprintoperationpreview.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f684]
+*/
+use @gtk_print_operation_preview_end_preview[None](preview: NullablePointer[GtkPrintOperationPreview] tag)
+

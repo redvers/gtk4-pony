@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:123
+  Original Name: g_subprocess_get_term_sig/usr/include/glib-2.0/gio/gsubprocess.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_subprocess_get_term_sig[I32](subprocess: NullablePointer[GSubprocess] tag)
+

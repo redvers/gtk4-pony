@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframeclock.h:85
+  Original Name: gdk_frame_clock_end_updating/usr/include/gtk-4.0/gdk/gdkframeclock.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f402]
+*/
+use @gdk_frame_clock_end_updating[None](frameclock: NullablePointer[GdkFrameClock] tag)
+

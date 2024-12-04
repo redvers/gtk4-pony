@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkglarea.h:131
+  Original Name: gtk_gl_area_get_error/usr/include/gtk-4.0/gtk/gtkglarea.h:131
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f23]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f632]
+*/
+use @gtk_gl_area_get_error[NullablePointer[GError]](area: NullablePointer[GtkGLArea] tag)
+

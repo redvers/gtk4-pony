@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject-autocleanups.h:29
+  Original Name: glib_autoptr_clear_GEnumClass/usr/include/glib-2.0/gobject/gobject-autocleanups.h:29
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f146]
+*/
+use @glib_autoptr_clear_GEnumClass[None](ptr: NullablePointer[GEnumClass] tag)
+

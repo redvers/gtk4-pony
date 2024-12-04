@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghmac.h:46
+  Original Name: g_hmac_update/usr/include/glib-2.0/glib/ghmac.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(long int) size=64]
+*/
+use @g_hmac_update[None](hmac: NullablePointer[GHmac] tag, data: Pointer[U8] tag, length: I64)
+

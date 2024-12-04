@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmount.h:188
+  Original Name: g_mount_can_eject/usr/include/glib-2.0/gio/gmount.h:188
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_mount_can_eject[I32](mount: NullablePointer[GMount] tag)
+

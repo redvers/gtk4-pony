@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopup.h:34
+  Original Name: glib_autoptr_clear_GdkPopup/usr/include/gtk-4.0/gdk/gdkpopup.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f424]
+*/
+use @glib_autoptr_clear_GdkPopup[None](ptr: NullablePointer[GdkPopup] tag)
+

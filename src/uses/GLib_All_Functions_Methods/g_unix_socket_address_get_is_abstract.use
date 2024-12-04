@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gunixsocketaddress.h:76
+  Original Name: g_unix_socket_address_get_is_abstract/usr/include/glib-2.0/gio/gunixsocketaddress.h:76
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f312]
+*/
+use @g_unix_socket_address_get_is_abstract[I32](address: NullablePointer[GUnixSocketAddress] tag)
+

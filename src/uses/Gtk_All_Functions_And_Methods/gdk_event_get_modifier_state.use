@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:399
+  Original Name: gdk_event_get_modifier_state/usr/include/gtk-4.0/gdk/gdkevents.h:399
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_event_get_modifier_state[I32](event: NullablePointer[GdkEvent] tag)
+

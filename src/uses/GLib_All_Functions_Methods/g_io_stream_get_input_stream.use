@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giostream.h:87
+  Original Name: g_io_stream_get_input_stream/usr/include/glib-2.0/gio/giostream.h:87
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f193]
+*/
+use @g_io_stream_get_input_stream[NullablePointer[GInputStream]](stream: NullablePointer[GIOStream] tag)
+

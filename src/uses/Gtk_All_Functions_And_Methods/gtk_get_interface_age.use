@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkversion.h:107
+  Original Name: gtk_get_interface_age/usr/include/gtk-4.0/gtk/gtkversion.h:107
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @gtk_get_interface_age[U32]()
+

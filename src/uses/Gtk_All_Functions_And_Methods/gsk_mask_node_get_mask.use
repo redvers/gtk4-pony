@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:573
+  Original Name: gsk_mask_node_get_mask/usr/include/gtk-4.0/gsk/gskrendernode.h:573
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_mask_node_get_mask[NullablePointer[GskRenderNode]](node: NullablePointer[GskRenderNode] tag)
+

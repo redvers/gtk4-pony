@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:187
+  Original Name: gtk_about_dialog_add_credit_section/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:187
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_about_dialog_add_credit_section[None](about: NullablePointer[GtkAboutDialog] tag, sectionname: Pointer[U8] tag, people: Pointer[Pointer[U8]] tag)
+

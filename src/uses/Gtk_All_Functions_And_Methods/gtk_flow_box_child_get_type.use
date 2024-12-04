@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:84
+  Original Name: gtk_flow_box_child_get_type/usr/include/gtk-4.0/gtk/gtkflowbox.h:84
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_flow_box_child_get_type[U64]()
+

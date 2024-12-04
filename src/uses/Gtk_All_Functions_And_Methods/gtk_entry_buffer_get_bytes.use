@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentrybuffer.h:97
+  Original Name: gtk_entry_buffer_get_bytes/usr/include/gtk-4.0/gtk/gtkentrybuffer.h:97
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f565]
+*/
+use @gtk_entry_buffer_get_bytes[U64](buffer: NullablePointer[GtkEntryBuffer] tag)
+

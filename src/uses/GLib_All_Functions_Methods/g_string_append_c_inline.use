@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:195
+  Original Name: g_string_append_c_inline/usr/include/glib-2.0/glib/gstring.h:195
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [FundamentalType(char) size=8]
+*/
+use @g_string_append_c_inline[NullablePointer[GString]](gstring: NullablePointer[GString] tag, c: U8)
+

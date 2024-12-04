@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:117
+  Original Name: gtk_image_get_paintable/usr/include/gtk-4.0/gtk/gtkimage.h:117
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f422]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+*/
+use @gtk_image_get_paintable[NullablePointer[GdkPaintable]](image: NullablePointer[GtkImage] tag)
+

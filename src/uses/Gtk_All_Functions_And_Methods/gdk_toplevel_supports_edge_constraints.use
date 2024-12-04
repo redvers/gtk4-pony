@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:189
+  Original Name: gdk_toplevel_supports_edge_constraints/usr/include/gtk-4.0/gdk/gdktoplevel.h:189
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+*/
+use @gdk_toplevel_supports_edge_constraints[I32](toplevel: NullablePointer[GdkToplevel] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:124
+  Original Name: gtk_spin_button_get_activates_default/usr/include/gtk-4.0/gtk/gtkspinbutton.h:124
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+*/
+use @gtk_spin_button_get_activates_default[I32](spinbutton: NullablePointer[GtkSpinButton] tag)
+

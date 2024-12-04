@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:65
+  Original Name: g_sequence_is_empty/usr/include/glib-2.0/glib/gsequence.h:65
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_is_empty[I32](seq: NullablePointer[GSequence] tag)
+

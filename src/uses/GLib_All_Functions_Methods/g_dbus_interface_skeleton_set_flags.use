@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:87
+  Original Name: g_dbus_interface_skeleton_set_flags/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:87
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f221]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_dbus_interface_skeleton_set_flags[None](interface: NullablePointer[GDBusInterfaceSkeleton] tag, flags: I32)
+

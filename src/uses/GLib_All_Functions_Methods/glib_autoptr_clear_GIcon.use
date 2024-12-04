@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:81
+  Original Name: glib_autoptr_clear_GIcon/usr/include/glib-2.0/gio/gio-autocleanups.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_clear_GIcon[None](ptr: NullablePointer[GIcon] tag)
+

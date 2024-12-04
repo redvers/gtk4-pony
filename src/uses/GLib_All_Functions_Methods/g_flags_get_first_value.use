@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/genums.h:230
+  Original Name: g_flags_get_first_value/usr/include/glib-2.0/gobject/genums.h:230
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f146]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f146]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_flags_get_first_value[NullablePointer[GFlagsValue]](flagsclass: NullablePointer[GFlagsClass] tag, value: U32)
+

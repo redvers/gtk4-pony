@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringfilter.h:56
+  Original Name: gtk_string_filter_get_search/usr/include/gtk-4.0/gtk/gtkstringfilter.h:56
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f591]
+*/
+use @gtk_string_filter_get_search[Pointer[U8]](self: NullablePointer[GtkStringFilter] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:292
+  Original Name: g_date_time_to_timezone/usr/include/glib-2.0/glib/gdatetime.h:292
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f62]
+    [PointerType size=64]->[Struct size=,fid: f61]
+*/
+use @g_date_time_to_timezone[NullablePointer[GDateTime]](datetime: NullablePointer[GDateTime] tag, tz: NullablePointer[GTimeZone] tag)
+

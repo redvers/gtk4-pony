@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:260
+  Original Name: g_node_child_position/usr/include/glib-2.0/glib/gnode.h:260
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+    [PointerType size=64]->[Struct size=320,fid: f77]
+*/
+use @g_node_child_position[I32](node: NullablePointer[GNode] tag, child: NullablePointer[GNode] tag)
+

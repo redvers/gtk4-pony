@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:222
+  Original Name: g_dbus_method_info_ref/usr/include/glib-2.0/gio/gdbusintrospection.h:222
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f220]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f220]
+*/
+use @g_dbus_method_info_ref[NullablePointer[GDBusMethodInfo]](info: NullablePointer[GDBusMethodInfo] tag)
+

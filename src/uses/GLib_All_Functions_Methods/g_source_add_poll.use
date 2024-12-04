@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:687
+  Original Name: g_source_add_poll/usr/include/glib-2.0/glib/gmain.h:687
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[Struct size=64,fid: f83]
+*/
+use @g_source_add_poll[None](source: NullablePointer[GSource] tag, fd: NullablePointer[GPollFD] tag)
+

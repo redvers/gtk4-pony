@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmultiselection.h:33
+  Original Name: gtk_multi_selection_new/usr/include/gtk-4.0/gtk/gtkmultiselection.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f663]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f274]
+*/
+use @gtk_multi_selection_new[NullablePointer[GtkMultiSelection]](model: NullablePointer[GListModel] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcancellable.h:100
+  Original Name: g_cancellable_connect/usr/include/glib-2.0/gio/gcancellable.h:100
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_cancellable_connect[U64](cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, data: Pointer[None] tag, datadestroyfunc: Pointer[None] tag)
+

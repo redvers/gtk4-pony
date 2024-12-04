@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:640
+  Original Name: g_source_set_funcs/usr/include/glib-2.0/glib/gmain.h:640
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[Struct size=384,fid: f85]
+*/
+use @g_source_set_funcs[None](source: NullablePointer[GSource] tag, funcs: NullablePointer[GSourceFuncs] tag)
+

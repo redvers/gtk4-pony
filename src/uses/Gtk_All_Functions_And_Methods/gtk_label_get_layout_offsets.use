@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:146
+  Original Name: gtk_label_get_layout_offsets/usr/include/gtk-4.0/gtk/gtklabel.h:146
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_label_get_layout_offsets[None](self: NullablePointer[GtkLabel] tag, x: Pointer[I32] tag, y: Pointer[I32] tag)
+

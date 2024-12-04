@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdroptarget.h:74
+  Original Name: gtk_drop_target_get_drop/usr/include/gtk-4.0/gtk/gtkdroptarget.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f589]
+*/
+use @gtk_drop_target_get_drop[NullablePointer[GdkDrop]](self: NullablePointer[GtkDropTarget] tag)
+

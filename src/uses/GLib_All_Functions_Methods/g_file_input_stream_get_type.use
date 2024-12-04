@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinputstream.h:87
+  Original Name: g_file_input_stream_get_type/usr/include/glib-2.0/gio/gfileinputstream.h:87
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_file_input_stream_get_type[U64]()
+

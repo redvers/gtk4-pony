@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:110
+  Original Name: g_tree_replace/usr/include/glib-2.0/glib/gtree.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_replace[None](tree: NullablePointer[GTree] tag, key: Pointer[None] tag, value: Pointer[None] tag)
+

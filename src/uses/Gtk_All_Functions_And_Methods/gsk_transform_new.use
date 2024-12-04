@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:88
+  Original Name: gsk_transform_new/usr/include/gtk-4.0/gsk/gsktransform.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+*/
+use @gsk_transform_new[NullablePointer[GskTransform]]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolumemonitor.h:143
+  Original Name: g_volume_monitor_get_mount_for_uuid/usr/include/glib-2.0/gio/gvolumemonitor.h:143
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f214]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_volume_monitor_get_mount_for_uuid[NullablePointer[GMount]](volumemonitor: NullablePointer[GVolumeMonitor] tag, uuid: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:253
+  Original Name: gtk_print_operation_set_export_filename/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:253
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_print_operation_set_export_filename[None](op: NullablePointer[GtkPrintOperation] tag, filename: Pointer[U8] tag)
+

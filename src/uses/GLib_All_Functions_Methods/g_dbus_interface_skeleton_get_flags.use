@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:85
+  Original Name: g_dbus_interface_skeleton_get_flags/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:85
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f221]
+*/
+use @g_dbus_interface_skeleton_get_flags[I32](interface: NullablePointer[GDBusInterfaceSkeleton] tag)
+

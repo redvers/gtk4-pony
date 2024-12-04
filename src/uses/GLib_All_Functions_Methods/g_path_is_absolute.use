@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:202
+  Original Name: g_path_is_absolute/usr/include/glib-2.0/glib/gfileutils.h:202
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_path_is_absolute[I32](filename: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:229
+  Original Name: glib_autoptr_clear_GtkFlowBox/usr/include/gtk-4.0/gtk/gtkflowbox.h:229
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+*/
+use @glib_autoptr_clear_GtkFlowBox[None](ptr: NullablePointer[GtkFlowBox] tag)
+

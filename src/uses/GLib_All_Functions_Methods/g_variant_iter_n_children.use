@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:284
+  Original Name: g_variant_iter_n_children/usr/include/glib-2.0/glib/gvariant.h:284
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+*/
+use @g_variant_iter_n_children[U64](iter: NullablePointer[GVariantIter] tag)
+

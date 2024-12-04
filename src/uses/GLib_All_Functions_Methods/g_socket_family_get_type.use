@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioenumtypes.h:98
+  Original Name: g_socket_family_get_type/usr/include/glib-2.0/gio/gioenumtypes.h:98
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_socket_family_get_type[U64]()
+

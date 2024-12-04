@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmemoryinputstream.h:74
+  Original Name: g_memory_input_stream_new_from_bytes/usr/include/glib-2.0/gio/gmemoryinputstream.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @g_memory_input_stream_new_from_bytes[NullablePointer[GInputStream]](bytes: NullablePointer[GBytes] tag)
+

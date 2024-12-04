@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:396
+  Original Name: gtk_text_view_set_indent/usr/include/gtk-4.0/gtk/gtktextview.h:396
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_view_set_indent[None](textview: NullablePointer[GtkTextView] tag, indent: I32)
+

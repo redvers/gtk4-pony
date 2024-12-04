@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:292
+  Original Name: g_test_maximized_result/usr/include/glib-2.0/glib/gtestutils.h:292
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_maximized_result[None](maximizedquantity: F64, format: Pointer[U8] tag, ...)
+

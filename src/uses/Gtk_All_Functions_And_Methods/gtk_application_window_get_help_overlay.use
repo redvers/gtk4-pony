@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:82
+  Original Name: gtk_application_window_get_help_overlay/usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:82
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f503]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f504]
+*/
+use @gtk_application_window_get_help_overlay[NullablePointer[GtkShortcutsWindow]](window: NullablePointer[GtkApplicationWindow] tag)
+

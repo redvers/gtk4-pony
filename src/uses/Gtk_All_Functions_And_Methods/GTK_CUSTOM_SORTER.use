@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomsorter.h:33
+  Original Name: GTK_CUSTOM_SORTER/usr/include/gtk-4.0/gtk/gtkcustomsorter.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f580]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_CUSTOM_SORTER[NullablePointer[GtkCustomSorter]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:113
+  Original Name: g_hash_table_foreach/usr/include/glib-2.0/glib/ghash.h:113
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_hash_table_foreach[None](hashtable: NullablePointer[GHashTable] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

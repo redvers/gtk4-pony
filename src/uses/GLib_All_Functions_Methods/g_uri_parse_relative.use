@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:158
+  Original Name: g_uri_parse_relative/usr/include/glib-2.0/glib/guri.h:158
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f120]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f120]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f120]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_uri_parse_relative[NullablePointer[GUri]](baseuri: NullablePointer[GUri] tag, uriref: Pointer[U8] tag, flags: I32, error: Pointer[NullablePointer[GError]] tag)
+

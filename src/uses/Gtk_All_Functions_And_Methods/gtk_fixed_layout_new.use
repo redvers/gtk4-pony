@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfixedlayout.h:36
+  Original Name: gtk_fixed_layout_new/usr/include/gtk-4.0/gtk/gtkfixedlayout.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f479]
+
+  Arguments:
+*/
+use @gtk_fixed_layout_new[NullablePointer[GtkLayoutManager]]()
+

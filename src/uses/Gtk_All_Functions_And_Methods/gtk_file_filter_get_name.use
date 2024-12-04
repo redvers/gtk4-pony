@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilefilter.h:45
+  Original Name: gtk_file_filter_get_name/usr/include/gtk-4.0/gtk/gtkfilefilter.h:45
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f603]
+*/
+use @gtk_file_filter_get_name[Pointer[U8]](filter: NullablePointer[GtkFileFilter] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:323
+  Original Name: gtk_collation_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:323
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_collation_get_type[U64]()
+

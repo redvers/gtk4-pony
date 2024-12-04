@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:442
+  Original Name: g_ascii_string_to_signed/usr/include/glib-2.0/glib/gstrfuncs.h:442
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(long int) size=64]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[FundamentalType(long int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_ascii_string_to_signed[I32](str: Pointer[U8] tag, base: U32, min: I64, max: I64, outnum: Pointer[I64] tag, error: Pointer[NullablePointer[GError]] tag)
+

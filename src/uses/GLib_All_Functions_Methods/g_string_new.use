@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:53
+  Original Name: g_string_new/usr/include/glib-2.0/glib/gstring.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_string_new[NullablePointer[GString]](init: Pointer[U8] tag)
+

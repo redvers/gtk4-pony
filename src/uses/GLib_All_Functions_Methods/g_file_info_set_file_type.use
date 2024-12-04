@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1462
+  Original Name: g_file_info_set_file_type/usr/include/glib-2.0/gio/gfileinfo.h:1462
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_file_info_set_file_type[None](info: NullablePointer[GFileInfo] tag, type: I32)
+

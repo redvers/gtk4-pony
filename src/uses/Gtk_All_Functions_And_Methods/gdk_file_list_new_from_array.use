@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:127
+  Original Name: gdk_file_list_new_from_array/usr/include/gtk-4.0/gdk/gdkcontentformats.h:127
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f392]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gdk_file_list_new_from_array[NullablePointer[GdkFileList]](files: Pointer[NullablePointer[GFile]] tag, nfiles: U64)
+

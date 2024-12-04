@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsclientconnection.h:83
+  Original Name: g_tls_client_connection_copy_session_state/usr/include/glib-2.0/gio/gtlsclientconnection.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_tls_client_connection_copy_session_state[None](conn: NullablePointer[GTlsClientConnection] tag, source: NullablePointer[GTlsClientConnection] tag)
+

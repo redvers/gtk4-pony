@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:84
+  Original Name: gdk_content_formats_builder_get_type/usr/include/gtk-4.0/gdk/gdkcontentformats.h:84
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_content_formats_builder_get_type[U64]()
+

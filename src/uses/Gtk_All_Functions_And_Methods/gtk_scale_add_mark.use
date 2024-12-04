@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:120
+  Original Name: gtk_scale_add_mark/usr/include/gtk-4.0/gtk/gtkscale.h:120
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f693]
+    [FundamentalType(double) size=64]
+    [Enumeration size=32,fid: f476]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_scale_add_mark[None](scale: NullablePointer[GtkScale] tag, value: F64, position: I32, markup: Pointer[U8] tag)
+

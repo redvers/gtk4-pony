@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:161
+  Original Name: gtk_stack_set_transition_duration/usr/include/gtk-4.0/gtk/gtkstack.h:161
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_stack_set_transition_duration[None](stack: NullablePointer[GtkStack] tag, duration: U32)
+

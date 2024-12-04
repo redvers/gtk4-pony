@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gchecksum.h:69
+  Original Name: g_checksum_free/usr/include/glib-2.0/glib/gchecksum.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f66]
+*/
+use @g_checksum_free[None](checksum: NullablePointer[GChecksum] tag)
+

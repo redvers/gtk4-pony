@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:259
+  Original Name: g_scanner_scope_foreach_symbol/usr/include/glib-2.0/glib/gscanner.h:259
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_scanner_scope_foreach_symbol[None](scanner: NullablePointer[GScanner] tag, scopeid: U32, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

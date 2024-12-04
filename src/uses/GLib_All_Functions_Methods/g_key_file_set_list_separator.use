@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:68
+  Original Name: g_key_file_set_list_separator/usr/include/glib-2.0/glib/gkeyfile.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [FundamentalType(char) size=8]
+*/
+use @g_key_file_set_list_separator[None](keyfile: NullablePointer[GKeyFile] tag, separator: U8)
+

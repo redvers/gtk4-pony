@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:216
+  Original Name: gdk_toplevel_titlebar_gesture/usr/include/gtk-4.0/gdk/gdktoplevel.h:216
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [Enumeration size=32,fid: f429]
+*/
+use @gdk_toplevel_titlebar_gesture[I32](toplevel: NullablePointer[GdkToplevel] tag, gesture: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:123
+  Original Name: g_bookmark_file_free/usr/include/glib-2.0/glib/gbookmarkfile.h:123
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+*/
+use @g_bookmark_file_free[None](bookmark: NullablePointer[GBookmarkFile] tag)
+

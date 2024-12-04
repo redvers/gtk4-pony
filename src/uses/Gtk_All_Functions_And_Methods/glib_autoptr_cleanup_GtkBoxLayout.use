@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboxlayout.h:33
+  Original Name: glib_autoptr_cleanup_GtkBoxLayout/usr/include/gtk-4.0/gtk/gtkboxlayout.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f516]
+*/
+use @glib_autoptr_cleanup_GtkBoxLayout[None](ptr: Pointer[NullablePointer[GtkBoxLayout]] tag)
+

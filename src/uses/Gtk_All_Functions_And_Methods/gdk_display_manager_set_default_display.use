@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:49
+  Original Name: gdk_display_manager_set_default_display/usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_manager_set_default_display[None](manager: NullablePointer[GdkDisplayManager] tag, display: NullablePointer[GdkDisplay] tag)
+

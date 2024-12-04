@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbytes.h:37
+  Original Name: g_bytes_new/usr/include/glib-2.0/glib/gbytes.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_bytes_new[NullablePointer[GBytes]](data: Pointer[None] tag, size: U64)
+

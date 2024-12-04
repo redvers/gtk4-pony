@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbox.h:102
+  Original Name: gtk_box_remove/usr/include/gtk-4.0/gtk/gtkbox.h:102
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f517]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_box_remove[None](box: NullablePointer[GtkBox] tag, child: NullablePointer[GtkWidget] tag)
+

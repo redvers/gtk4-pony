@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:390
+  Original Name: g_str_to_ascii/usr/include/glib-2.0/glib/gstrfuncs.h:390
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_str_to_ascii[Pointer[U8]](str: Pointer[U8] tag, fromlocale: Pointer[U8] tag)
+

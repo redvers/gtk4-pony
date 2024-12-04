@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:147
+  Original Name: gtk_icon_paintable_get_type/usr/include/gtk-4.0/gtk/gtkicontheme.h:147
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_icon_paintable_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollinfo.h:41
+  Original Name: gtk_scroll_info_ref/usr/include/gtk-4.0/gtk/gtkscrollinfo.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_scroll_info_ref[NullablePointer[GtkScrollInfo]](self: NullablePointer[GtkScrollInfo] tag)
+

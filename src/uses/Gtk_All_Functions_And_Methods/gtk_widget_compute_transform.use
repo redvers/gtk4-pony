@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:482
+  Original Name: gtk_widget_compute_transform/usr/include/gtk-4.0/gtk/gtkwidget.h:482
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=512,fid: f442]
+*/
+use @gtk_widget_compute_transform[I32](widget: NullablePointer[GtkWidget] tag, target: NullablePointer[GtkWidget] tag, outtransform: NullablePointer[Graphenematrixt] tag)
+

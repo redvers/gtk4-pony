@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:368
+  Original Name: gtk_widget_mnemonic_activate/usr/include/gtk-4.0/gtk/gtkwidget.h:368
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_widget_mnemonic_activate[I32](widget: NullablePointer[GtkWidget] tag, groupcycling: I32)
+

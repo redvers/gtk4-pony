@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkservice.h:67
+  Original Name: g_network_service_get_protocol/usr/include/glib-2.0/gio/gnetworkservice.h:67
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f191]
+*/
+use @g_network_service_get_protocol[Pointer[U8]](srv: NullablePointer[GNetworkService] tag)
+

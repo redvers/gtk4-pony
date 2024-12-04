@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:610
+  Original Name: g_assertion_message_cmpstrv/usr/include/glib-2.0/glib/gtestutils.h:610
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_assertion_message_cmpstrv[None](domain: Pointer[U8] tag, file: Pointer[U8] tag, line: I32, func: Pointer[U8] tag, expr: Pointer[U8] tag, arg1: Pointer[Pointer[U8]] tag, arg2: Pointer[Pointer[U8]] tag, firstwrongidx: U64)
+

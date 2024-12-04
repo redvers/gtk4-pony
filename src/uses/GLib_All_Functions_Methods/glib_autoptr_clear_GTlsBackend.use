@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:144
+  Original Name: glib_autoptr_clear_GTlsBackend/usr/include/glib-2.0/gio/gio-autocleanups.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f307]
+*/
+use @glib_autoptr_clear_GTlsBackend[None](ptr: NullablePointer[GTlsBackend] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:112
+  Original Name: gtk_constant_expression_new/usr/include/gtk-4.0/gtk/gtkexpression.h:112
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gtk_constant_expression_new[NullablePointer[GtkExpression]](valuetype: U64, ...)
+

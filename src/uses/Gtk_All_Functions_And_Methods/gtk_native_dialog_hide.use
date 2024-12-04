@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknativedialog.h:62
+  Original Name: gtk_native_dialog_hide/usr/include/gtk-4.0/gtk/gtknativedialog.h:62
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f606]
+*/
+use @gtk_native_dialog_hide[None](self: NullablePointer[GtkNativeDialog] tag)
+

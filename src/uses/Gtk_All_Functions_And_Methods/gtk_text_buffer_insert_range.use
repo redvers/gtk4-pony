@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:184
+  Original Name: gtk_text_buffer_insert_range/usr/include/gtk-4.0/gtk/gtktextbuffer.h:184
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_buffer_insert_range[None](buffer: NullablePointer[GtkTextBuffer] tag, iter: NullablePointer[GtkTextIter] tag, start: NullablePointer[GtkTextIter] tag, end: NullablePointer[GtkTextIter] tag)
+

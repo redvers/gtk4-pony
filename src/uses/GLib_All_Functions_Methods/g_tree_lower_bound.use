@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:162
+  Original Name: g_tree_lower_bound/usr/include/glib-2.0/glib/gtree.h:162
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f119]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_lower_bound[NullablePointer[GTreeNode]](tree: NullablePointer[GTree] tag, key: Pointer[None] tag)
+

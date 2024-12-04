@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketlistener.h:85
+  Original Name: g_socket_listener_get_type/usr/include/glib-2.0/gio/gsocketlistener.h:85
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_socket_listener_get_type[U64]()
+

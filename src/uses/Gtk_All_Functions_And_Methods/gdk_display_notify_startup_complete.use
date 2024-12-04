@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:87
+  Original Name: gdk_display_notify_startup_complete/usr/include/gtk-4.0/gdk/gdkdisplay.h:87
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_display_notify_startup_complete[None](display: NullablePointer[GdkDisplay] tag, startupid: Pointer[U8] tag)
+

@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:133
+  Original Name: g_uri_join/usr/include/glib-2.0/glib/guri.h:133
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [Enumeration size=32,fid: f120]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_uri_join[Pointer[U8]](flags: I32, scheme: Pointer[U8] tag, userinfo: Pointer[U8] tag, host: Pointer[U8] tag, port: I32, path: Pointer[U8] tag, query: Pointer[U8] tag, fragment: Pointer[U8] tag)
+

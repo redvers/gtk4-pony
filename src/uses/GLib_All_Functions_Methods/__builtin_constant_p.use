@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:311
+  Original Name: __builtin_constant_p/usr/include/glib-2.0/glib/gstrfuncs.h:311
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @__builtin_constant_p[I32]()
+

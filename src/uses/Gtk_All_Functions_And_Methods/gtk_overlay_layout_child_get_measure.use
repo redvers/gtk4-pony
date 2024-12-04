@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkoverlaylayout.h:48
+  Original Name: gtk_overlay_layout_child_get_measure/usr/include/gtk-4.0/gtk/gtkoverlaylayout.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f671]
+*/
+use @gtk_overlay_layout_child_get_measure[I32](child: NullablePointer[GtkOverlayLayoutChild] tag)
+

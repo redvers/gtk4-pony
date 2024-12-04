@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:59
+  Original Name: g_timer_elapsed/usr/include/glib-2.0/glib/gtimer.h:59
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f117]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_timer_elapsed[F64](timer: NullablePointer[GTimer] tag, microseconds: Pointer[U64] tag)
+

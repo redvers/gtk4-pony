@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:75
+  Original Name: gtk_constraint_get_multiplier/usr/include/gtk-4.0/gtk/gtkconstraint.h:75
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f574]
+*/
+use @gtk_constraint_get_multiplier[F64](constraint: NullablePointer[GtkConstraint] tag)
+

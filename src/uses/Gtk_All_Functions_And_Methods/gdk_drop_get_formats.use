@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrop.h:45
+  Original Name: gdk_drop_get_formats/usr/include/gtk-4.0/gdk/gdkdrop.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drop_get_formats[NullablePointer[GdkContentFormats]](self: NullablePointer[GdkDrop] tag)
+

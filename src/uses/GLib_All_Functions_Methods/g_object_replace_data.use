@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:615
+  Original Name: g_object_replace_data/usr/include/glib-2.0/gobject/gobject.h:615
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_object_replace_data[I32](object: NullablePointer[GObject] tag, key: Pointer[U8] tag, oldval: Pointer[None] tag, newval: Pointer[None] tag, destroy: Pointer[None] tag, olddestroy: NullablePointer[Pointer[None]] tag)
+

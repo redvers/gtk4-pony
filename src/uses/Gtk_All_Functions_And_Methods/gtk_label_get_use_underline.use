@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:74
+  Original Name: gtk_label_get_use_underline/usr/include/gtk-4.0/gtk/gtklabel.h:74
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_use_underline[I32](self: NullablePointer[GtkLabel] tag)
+

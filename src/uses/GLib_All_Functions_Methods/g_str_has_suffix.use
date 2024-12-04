@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:143
+  Original Name: g_str_has_suffix/usr/include/glib-2.0/glib/gstrfuncs.h:143
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_str_has_suffix[I32](str: Pointer[U8] tag, suffix: Pointer[U8] tag)
+

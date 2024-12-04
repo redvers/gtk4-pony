@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:92
+  Original Name: g_async_queue_length_unlocked/usr/include/glib-2.0/glib/gasyncqueue.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+*/
+use @g_async_queue_length_unlocked[I32](queue: NullablePointer[GAsyncQueue] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:252
+  Original Name: gtk_buildable_parse_context_pop/usr/include/gtk-4.0/gtk/gtkbuildable.h:252
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f520]
+*/
+use @gtk_buildable_parse_context_pop[Pointer[None]](context: NullablePointer[GtkBuildableParseContext] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:90
+  Original Name: g_tree_node_next/usr/include/glib-2.0/glib/gtree.h:90
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f119]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+*/
+use @g_tree_node_next[NullablePointer[GTreeNode]](node: NullablePointer[GTreeNode] tag)
+

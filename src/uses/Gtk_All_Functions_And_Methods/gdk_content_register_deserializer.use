@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:82
+  Original Name: gdk_content_register_deserializer/usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:82
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gdk_content_register_deserializer[None](mimetype: Pointer[U8] tag, type: U64, deserialize: Pointer[None] tag, data: Pointer[None] tag, notify: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:241
+  Original Name: gtk_notebook_page_get_child/usr/include/gtk-4.0/gtk/gtknotebook.h:241
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_page_get_child[NullablePointer[GtkWidget]](page: NullablePointer[GtkNotebookPage] tag)
+

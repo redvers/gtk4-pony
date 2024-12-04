@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:196
+  Original Name: gdk_toplevel_restore_system_shortcuts/usr/include/gtk-4.0/gdk/gdktoplevel.h:196
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+*/
+use @gdk_toplevel_restore_system_shortcuts[None](toplevel: NullablePointer[GdkToplevel] tag)
+

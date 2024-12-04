@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:276
+  Original Name: gtk_print_operation_get_status/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:276
+
+  Return Value: [Enumeration size=32,fid: f685]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+*/
+use @gtk_print_operation_get_status[I32](op: NullablePointer[GtkPrintOperation] tag)
+

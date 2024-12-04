@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:128
+  Original Name: gtk_font_dialog_choose_font_and_features_finish/usr/include/gtk-4.0/gtk/gtkfontdialog.h:128
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f619]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f341]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f339]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_font_dialog_choose_font_and_features_finish[I32](self: NullablePointer[GtkFontDialog] tag, result: NullablePointer[GAsyncResult] tag, fontdesc: Pointer[NullablePointer[PangoFontDescription]] tag, fontfeatures: Pointer[Pointer[U8]] tag, language: Pointer[NullablePointer[PangoLanguage]] tag, error: Pointer[NullablePointer[GError]] tag)
+

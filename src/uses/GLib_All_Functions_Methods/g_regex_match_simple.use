@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:485
+  Original Name: g_regex_match_simple/usr/include/glib-2.0/glib/gregex.h:485
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f106]
+    [Enumeration size=32,fid: f106]
+*/
+use @g_regex_match_simple[I32](pattern: Pointer[U8] tag, string: Pointer[U8] tag, compileoptions: I32, matchoptions: I32)
+

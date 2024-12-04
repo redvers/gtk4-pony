@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:161
+  Original Name: g_subprocess_communicate_utf8_finish/usr/include/glib-2.0/gio/gsubprocess.h:161
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_subprocess_communicate_utf8_finish[I32](subprocess: NullablePointer[GSubprocess] tag, result: NullablePointer[GAsyncResult] tag, stdoutbuf: Pointer[Pointer[U8]] tag, stderrbuf: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

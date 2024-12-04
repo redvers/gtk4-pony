@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringsorter.h:33
+  Original Name: glib_autoptr_clear_GtkStringSorterClass/usr/include/gtk-4.0/gtk/gtkstringsorter.h:33
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f722]
+*/
+use @glib_autoptr_clear_GtkStringSorterClass[None](ptr: NullablePointer[] tag)
+

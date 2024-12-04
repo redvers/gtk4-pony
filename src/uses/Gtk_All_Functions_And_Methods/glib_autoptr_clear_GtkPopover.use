@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:126
+  Original Name: glib_autoptr_clear_GtkPopover/usr/include/gtk-4.0/gtk/gtkpopover.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+*/
+use @glib_autoptr_clear_GtkPopover[None](ptr: NullablePointer[GtkPopover] tag)
+

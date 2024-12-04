@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:63
+  Original Name: g_hash_table_new_full/usr/include/glib-2.0/glib/ghash.h:63
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f79]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_hash_table_new_full[NullablePointer[GHashTable]](hashfunc: Pointer[None] tag, keyequalfunc: Pointer[None] tag, keydestroyfunc: Pointer[None] tag, valuedestroyfunc: Pointer[None] tag)
+

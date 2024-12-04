@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:48
+  Original Name: gdk_display_device_is_grabbed/usr/include/gtk-4.0/gdk/gdkdisplay.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_device_is_grabbed[I32](display: NullablePointer[GdkDisplay] tag, device: NullablePointer[GdkDevice] tag)
+

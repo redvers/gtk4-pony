@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:383
+  Original Name: g_strv_length/usr/include/glib-2.0/glib/gstrfuncs.h:383
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strv_length[U32](strarray: Pointer[Pointer[U8]] tag)
+

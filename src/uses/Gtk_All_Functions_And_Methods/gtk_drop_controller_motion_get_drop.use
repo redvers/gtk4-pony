@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:50
+  Original Name: gtk_drop_controller_motion_get_drop/usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:50
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f588]
+*/
+use @gtk_drop_controller_motion_get_drop[NullablePointer[GdkDrop]](self: NullablePointer[GtkDropControllerMotion] tag)
+

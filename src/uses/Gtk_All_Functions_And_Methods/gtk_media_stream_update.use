@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:137
+  Original Name: gtk_media_stream_update/usr/include/gtk-4.0/gtk/gtkmediastream.h:137
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+    [FundamentalType(long int) size=64]
+*/
+use @gtk_media_stream_update[None](self: NullablePointer[GtkMediaStream] tag, timestamp: I64)
+

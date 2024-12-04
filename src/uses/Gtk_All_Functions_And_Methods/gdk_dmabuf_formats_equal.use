@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdmabufformats.h:55
+  Original Name: gdk_dmabuf_formats_equal/usr/include/gtk-4.0/gdk/gdkdmabufformats.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_dmabuf_formats_equal[I32](formats1: NullablePointer[GdkDmabufFormats] tag, formats2: NullablePointer[GdkDmabufFormats] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:279
+  Original Name: g_scanner_warn/usr/include/glib-2.0/glib/gscanner.h:279
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_scanner_warn[None](scanner: NullablePointer[GScanner] tag, format: Pointer[U8] tag, ...)
+

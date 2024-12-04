@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:255
+  Original Name: gtk_print_settings_get_duplex/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:255
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @gtk_print_settings_get_duplex[I32](settings: NullablePointer[GtkPrintSettings] tag)
+

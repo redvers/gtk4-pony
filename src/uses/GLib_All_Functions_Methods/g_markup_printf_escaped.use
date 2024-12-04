@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmarkup.h:235
+  Original Name: g_markup_printf_escaped/usr/include/glib-2.0/glib/gmarkup.h:235
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_markup_printf_escaped[Pointer[U8]](format: Pointer[U8] tag, ...)
+

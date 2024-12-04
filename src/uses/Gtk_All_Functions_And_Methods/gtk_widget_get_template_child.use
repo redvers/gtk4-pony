@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:833
+  Original Name: gtk_widget_get_template_child/usr/include/gtk-4.0/gtk/gtkwidget.h:833
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f143]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_widget_get_template_child[NullablePointer[GObject]](widget: NullablePointer[GtkWidget] tag, widgettype: U64, name: Pointer[U8] tag)
+

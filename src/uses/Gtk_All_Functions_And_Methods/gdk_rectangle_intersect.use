@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrectangle.h:38
+  Original Name: gdk_rectangle_intersect/usr/include/gtk-4.0/gdk/gdkrectangle.h:38
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f318]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gdk_rectangle_intersect[I32](src1: NullablePointer[Cairorectangleint] tag, src2: NullablePointer[Cairorectangleint] tag, dest: NullablePointer[Cairorectangleint] tag)
+

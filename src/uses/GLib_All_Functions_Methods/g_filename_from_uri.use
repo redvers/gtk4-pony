@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gconvert.h:158
+  Original Name: g_filename_from_uri/usr/include/glib-2.0/glib/gconvert.h:158
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_filename_from_uri[Pointer[U8]](uri: Pointer[U8] tag, hostname: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

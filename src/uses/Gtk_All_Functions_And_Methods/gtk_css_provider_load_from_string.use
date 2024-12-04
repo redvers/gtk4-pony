@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcssprovider.h:53
+  Original Name: gtk_css_provider_load_from_string/usr/include/gtk-4.0/gtk/gtkcssprovider.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f578]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_css_provider_load_from_string[None](cssprovider: NullablePointer[GtkCssProvider] tag, string: Pointer[U8] tag)
+

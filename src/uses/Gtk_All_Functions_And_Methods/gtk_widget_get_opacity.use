@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:526
+  Original Name: gtk_widget_get_opacity/usr/include/gtk-4.0/gtk/gtkwidget.h:526
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_opacity[F64](widget: NullablePointer[GtkWidget] tag)
+

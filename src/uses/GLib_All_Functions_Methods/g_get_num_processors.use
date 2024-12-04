@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:308
+  Original Name: g_get_num_processors/usr/include/glib-2.0/glib/gthread.h:308
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @g_get_num_processors[U32]()
+

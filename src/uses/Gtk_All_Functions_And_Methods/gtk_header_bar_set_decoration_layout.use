@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkheaderbar.h:64
+  Original Name: gtk_header_bar_set_decoration_layout/usr/include/gtk-4.0/gtk/gtkheaderbar.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f638]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_header_bar_set_decoration_layout[None](bar: NullablePointer[GtkHeaderBar] tag, layout: Pointer[U8] tag)
+

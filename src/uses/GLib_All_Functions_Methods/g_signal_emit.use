@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignal.h:341
+  Original Name: g_signal_emit/usr/include/glib-2.0/gobject/gsignal.h:341
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @g_signal_emit[None](instance: Pointer[None] tag, signalid: U32, detail: U32, ...)
+

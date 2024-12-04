@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboxlayout.h:33
+  Original Name: gtk_box_layout_get_type/usr/include/gtk-4.0/gtk/gtkboxlayout.h:33
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_box_layout_get_type[U64]()
+

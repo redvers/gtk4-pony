@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevelsize.h:37
+  Original Name: gdk_toplevel_size_get_bounds/usr/include/gtk-4.0/gdk/gdktoplevelsize.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f430]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gdk_toplevel_size_get_bounds[None](size: NullablePointer[GdkToplevelSize] tag, boundswidth: Pointer[I32] tag, boundsheight: Pointer[I32] tag)
+

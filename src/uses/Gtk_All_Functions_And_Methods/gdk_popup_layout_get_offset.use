@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopuplayout.h:129
+  Original Name: gdk_popup_layout_get_offset/usr/include/gtk-4.0/gdk/gdkpopuplayout.h:129
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f404]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gdk_popup_layout_get_offset[None](layout: NullablePointer[GdkPopupLayout] tag, dx: Pointer[I32] tag, dy: Pointer[I32] tag)
+

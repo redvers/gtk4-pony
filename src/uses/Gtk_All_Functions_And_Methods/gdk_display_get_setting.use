@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:135
+  Original Name: gdk_display_get_setting/usr/include/gtk-4.0/gdk/gdkdisplay.h:135
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @gdk_display_get_setting[I32](display: NullablePointer[GdkDisplay] tag, name: Pointer[U8] tag, value: NullablePointer[GValue] tag)
+

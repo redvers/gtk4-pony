@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:837
+  Original Name: g_utf8_substring/usr/include/glib-2.0/glib/gunicode.h:837
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [FundamentalType(long int) size=64]
+*/
+use @g_utf8_substring[Pointer[U8]](str: Pointer[U8] tag, startpos: I64, endpos: I64)
+

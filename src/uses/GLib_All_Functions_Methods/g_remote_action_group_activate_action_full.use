@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gremoteactiongroup.h:64
+  Original Name: g_remote_action_group_activate_action_full/usr/include/glib-2.0/gio/gremoteactiongroup.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @g_remote_action_group_activate_action_full[None](remote: NullablePointer[GRemoteActionGroup] tag, actionname: Pointer[U8] tag, parameter: NullablePointer[GVariant] tag, platformdata: NullablePointer[GVariant] tag)
+

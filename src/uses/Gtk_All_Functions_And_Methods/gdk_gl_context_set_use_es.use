@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:85
+  Original Name: gdk_gl_context_set_use_es/usr/include/gtk-4.0/gdk/gdkglcontext.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_gl_context_set_use_es[None](context: NullablePointer[GdkGLContext] tag, usees: I32)
+

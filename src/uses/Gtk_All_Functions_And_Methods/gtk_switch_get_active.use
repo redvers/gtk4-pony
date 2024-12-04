@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkswitch.h:53
+  Original Name: gtk_switch_get_active/usr/include/gtk-4.0/gtk/gtkswitch.h:53
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f724]
+*/
+use @gtk_switch_get_active[I32](self: NullablePointer[GtkSwitch] tag)
+

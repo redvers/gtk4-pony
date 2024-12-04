@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:233
+  Original Name: g_scanner_cur_token/usr/include/glib-2.0/glib/gscanner.h:233
+
+  Return Value: [Enumeration size=32,fid: f107]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+*/
+use @g_scanner_cur_token[I32](scanner: NullablePointer[GScanner] tag)
+

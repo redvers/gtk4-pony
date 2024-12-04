@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:136
+  Original Name: g_hook_insert_sorted/usr/include/glib-2.0/glib/ghook.h:136
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [PointerType size=64]->[Struct size=512,fid: f81]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_hook_insert_sorted[None](hooklist: NullablePointer[GHookList] tag, hook: NullablePointer[GHook] tag, func: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleproxyresolver.h:68
+  Original Name: g_simple_proxy_resolver_new/usr/include/glib-2.0/gio/gsimpleproxyresolver.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_simple_proxy_resolver_new[NullablePointer[GProxyResolver]](defaultproxy: Pointer[U8] tag, ignorehosts: Pointer[Pointer[U8]] tag)
+

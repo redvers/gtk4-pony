@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:298
+  Original Name: g_test_init/usr/include/glib-2.0/glib/gtestutils.h:298
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_init[None](argc: Pointer[I32] tag, argv: NullablePointer[Array[String]] tag, ...)
+

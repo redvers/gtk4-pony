@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectskeleton.h:74
+  Original Name: g_dbus_object_skeleton_flush/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f222]
+*/
+use @g_dbus_object_skeleton_flush[None](object: NullablePointer[GDBusObjectSkeleton] tag)
+

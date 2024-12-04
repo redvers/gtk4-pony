@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslice.h:42
+  Original Name: g_slice_free1/usr/include/glib-2.0/glib/gslice.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_slice_free1[None](blocksize: U64, memblock: Pointer[None] tag)
+

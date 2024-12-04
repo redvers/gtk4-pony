@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsclientconnection.h:72
+  Original Name: g_tls_client_connection_set_server_identity/usr/include/glib-2.0/gio/gtlsclientconnection.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_tls_client_connection_set_server_identity[None](conn: NullablePointer[GTlsClientConnection] tag, identity: NullablePointer[GSocketConnectable] tag)
+

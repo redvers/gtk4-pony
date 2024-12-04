@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/glistmodel.h:53
+  Original Name: g_list_model_get_item_type/usr/include/glib-2.0/gio/glistmodel.h:53
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f274]
+*/
+use @g_list_model_get_item_type[U64](list: NullablePointer[GListModel] tag)
+

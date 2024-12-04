@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:198
+  Original Name: gtk_flow_box_get_selection_mode/usr/include/gtk-4.0/gtk/gtkflowbox.h:198
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+*/
+use @gtk_flow_box_get_selection_mode[I32](box: NullablePointer[GtkFlowBox] tag)
+

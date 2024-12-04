@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkflowbox.h:183
+  Original Name: gtk_flow_box_get_selected_children/usr/include/gtk-4.0/gtk/gtkflowbox.h:183
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f614]
+*/
+use @gtk_flow_box_get_selected_children[NullablePointer[GList]](box: NullablePointer[GtkFlowBox] tag)
+

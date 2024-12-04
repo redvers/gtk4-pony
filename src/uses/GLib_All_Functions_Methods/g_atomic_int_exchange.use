@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gatomic.h:53
+  Original Name: g_atomic_int_exchange/usr/include/glib-2.0/glib/gatomic.h:53
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @g_atomic_int_exchange[I32](atomic: Pointer[I32] tag, newval: I32)
+

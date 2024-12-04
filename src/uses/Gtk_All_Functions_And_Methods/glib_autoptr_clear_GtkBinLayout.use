@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbinlayout.h:26
+  Original Name: glib_autoptr_clear_GtkBinLayout/usr/include/gtk-4.0/gtk/gtkbinlayout.h:26
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f509]
+*/
+use @glib_autoptr_clear_GtkBinLayout[None](ptr: NullablePointer[GtkBinLayout] tag)
+

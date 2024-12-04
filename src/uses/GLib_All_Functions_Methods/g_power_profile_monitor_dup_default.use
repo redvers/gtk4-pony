@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpowerprofilemonitor.h:58
+  Original Name: g_power_profile_monitor_dup_default/usr/include/glib-2.0/gio/gpowerprofilemonitor.h:58
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f287]
+
+  Arguments:
+*/
+use @g_power_profile_monitor_dup_default[NullablePointer[GPowerProfileMonitor]]()
+

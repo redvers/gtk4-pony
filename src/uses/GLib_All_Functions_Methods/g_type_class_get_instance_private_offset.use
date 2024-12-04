@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:1516
+  Original Name: g_type_class_get_instance_private_offset/usr/include/glib-2.0/gobject/gtype.h:1516
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_type_class_get_instance_private_offset[I32](gclass: Pointer[None] tag)
+

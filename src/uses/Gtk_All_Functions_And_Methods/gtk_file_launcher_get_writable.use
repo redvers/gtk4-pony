@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilelauncher.h:50
+  Original Name: gtk_file_launcher_get_writable/usr/include/gtk-4.0/gtk/gtkfilelauncher.h:50
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f610]
+*/
+use @gtk_file_launcher_get_writable[I32](self: NullablePointer[GtkFileLauncher] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:754
+  Original Name: g_test_build_filename/usr/include/glib-2.0/glib/gtestutils.h:754
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [Enumeration size=32,fid: f115]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_build_filename[Pointer[U8]](filetype: I32, firstpath: Pointer[U8] tag, ...)
+

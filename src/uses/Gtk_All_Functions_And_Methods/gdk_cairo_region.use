@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairo.h:43
+  Original Name: gdk_cairo_region/usr/include/gtk-4.0/gdk/gdkcairo.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f318]
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gdk_cairo_region[None](cr: NullablePointer[Cairo] tag, region: NullablePointer[Cairoregion] tag)
+

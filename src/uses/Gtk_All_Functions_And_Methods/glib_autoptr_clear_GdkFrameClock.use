@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkframeclock.h:108
+  Original Name: glib_autoptr_clear_GdkFrameClock/usr/include/gtk-4.0/gdk/gdkframeclock.h:108
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f402]
+*/
+use @glib_autoptr_clear_GdkFrameClock[None](ptr: NullablePointer[GdkFrameClock] tag)
+

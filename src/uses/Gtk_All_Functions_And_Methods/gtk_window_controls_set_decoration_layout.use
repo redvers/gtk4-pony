@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:48
+  Original Name: gtk_window_controls_set_decoration_layout/usr/include/gtk-4.0/gtk/gtkwindowcontrols.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f749]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_window_controls_set_decoration_layout[None](self: NullablePointer[GtkWindowControls] tag, layout: Pointer[U8] tag)
+

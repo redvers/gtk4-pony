@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:167
+  Original Name: g_date_get_monday_week_of_year/usr/include/glib-2.0/glib/gdate.h:167
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_get_monday_week_of_year[U32](date: NullablePointer[GDate] tag)
+

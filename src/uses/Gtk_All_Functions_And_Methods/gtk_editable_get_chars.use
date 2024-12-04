@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeditable.h:87
+  Original Name: gtk_editable_get_chars/usr/include/gtk-4.0/gtk/gtkeditable.h:87
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f563]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_editable_get_chars[Pointer[U8]](editable: NullablePointer[GtkEditable] tag, startpos: I32, endpos: I32)
+

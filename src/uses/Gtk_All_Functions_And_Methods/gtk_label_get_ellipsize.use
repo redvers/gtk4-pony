@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:98
+  Original Name: gtk_label_get_ellipsize/usr/include/gtk-4.0/gtk/gtklabel.h:98
+
+  Return Value: [Enumeration size=32,fid: f359]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_ellipsize[I32](self: NullablePointer[GtkLabel] tag)
+

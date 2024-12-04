@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkselectionmodel.h:103
+  Original Name: gtk_selection_model_is_selected/usr/include/gtk-4.0/gtk/gtkselectionmodel.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f554]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_selection_model_is_selected[I32](model: NullablePointer[GtkSelectionModel] tag, position: U32)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolordialog.h:68
+  Original Name: gtk_color_dialog_choose_rgba_finish/usr/include/gtk-4.0/gtk/gtkcolordialog.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f373]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f549]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_color_dialog_choose_rgba_finish[NullablePointer[GdkRGBA]](self: NullablePointer[GtkColorDialog] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

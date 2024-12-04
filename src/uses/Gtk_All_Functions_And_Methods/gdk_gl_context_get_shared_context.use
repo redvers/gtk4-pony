@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:48
+  Original Name: gdk_gl_context_get_shared_context/usr/include/gtk-4.0/gdk/gdkglcontext.h:48
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_gl_context_get_shared_context[NullablePointer[GdkGLContext]](context: NullablePointer[GdkGLContext] tag)
+

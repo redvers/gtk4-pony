@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:137
+  Original Name: gtk_list_box_row_set_child/usr/include/gtk-4.0/gtk/gtklistbox.h:137
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f649]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_list_box_row_set_child[None](row: NullablePointer[GtkListBoxRow] tag, child: NullablePointer[GtkWidget] tag)
+

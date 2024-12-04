@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grefcount.h:44
+  Original Name: g_atomic_ref_count_init/usr/include/glib-2.0/glib/grefcount.h:44
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_atomic_ref_count_init[None](arc: Pointer[I32] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:59
+  Original Name: glib_autoptr_cleanup_GdkDisplayManager/usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:59
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_cleanup_GdkDisplayManager[None](ptr: Pointer[NullablePointer[GdkDisplayManager]] tag)
+

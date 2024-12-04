@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:253
+  Original Name: glib_autoptr_cleanup_GtkRecentManager/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:253
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f688]
+*/
+use @glib_autoptr_cleanup_GtkRecentManager[None](ptr: Pointer[NullablePointer[GtkRecentManager]] tag)
+

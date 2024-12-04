@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:125
+  Original Name: g_queue_pop_tail/usr/include/glib-2.0/glib/gqueue.h:125
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @g_queue_pop_tail[Pointer[None]](queue: NullablePointer[GQueue] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettingsschema.h:63
+  Original Name: g_settings_schema_get_type/usr/include/glib-2.0/gio/gsettingsschema.h:63
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_settings_schema_get_type[U64]()
+

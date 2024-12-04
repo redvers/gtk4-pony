@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknative.h:49
+  Original Name: gtk_native_get_renderer/usr/include/gtk-4.0/gtk/gtknative.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_native_get_renderer[NullablePointer[GskRenderer]](self: NullablePointer[GtkNative] tag)
+

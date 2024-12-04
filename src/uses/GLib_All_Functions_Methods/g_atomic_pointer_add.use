@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gatomic.h:86
+  Original Name: g_atomic_pointer_add/usr/include/glib-2.0/glib/gatomic.h:86
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long int) size=64]
+*/
+use @g_atomic_pointer_add[I64](atomic: Pointer[None] tag, val: I64)
+

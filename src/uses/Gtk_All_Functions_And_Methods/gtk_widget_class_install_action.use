@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:952
+  Original Name: gtk_widget_class_install_action/usr/include/gtk-4.0/gtk/gtkwidget.h:952
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_widget_class_install_action[None](widgetclass: NullablePointer[GtkWidgetClass] tag, actionname: Pointer[U8] tag, parametertype: Pointer[U8] tag, activate: Pointer[None] tag)
+

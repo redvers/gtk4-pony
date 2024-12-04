@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusauthobserver.h:48
+  Original Name: g_dbus_auth_observer_allow_mechanism/usr/include/glib-2.0/gio/gdbusauthobserver.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_auth_observer_allow_mechanism[I32](observer: NullablePointer[GDBusAuthObserver] tag, mechanism: Pointer[U8] tag)
+

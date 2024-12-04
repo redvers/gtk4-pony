@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:235
+  Original Name: gtk_accessible_reset_relation/usr/include/gtk-4.0/gtk/gtkaccessible.h:235
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_accessible_reset_relation[None](self: NullablePointer[GtkAccessible] tag, relation: I32)
+

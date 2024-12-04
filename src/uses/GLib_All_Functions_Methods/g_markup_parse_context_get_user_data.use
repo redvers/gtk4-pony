@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmarkup.h:227
+  Original Name: g_markup_parse_context_get_user_data/usr/include/glib-2.0/glib/gmarkup.h:227
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f92]
+*/
+use @g_markup_parse_context_get_user_data[Pointer[None]](context: NullablePointer[GMarkupParseContext] tag)
+

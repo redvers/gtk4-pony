@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxy.h:119
+  Original Name: g_proxy_supports_hostname/usr/include/glib-2.0/gio/gproxy.h:119
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_proxy_supports_hostname[I32](proxy: NullablePointer[GProxy] tag)
+

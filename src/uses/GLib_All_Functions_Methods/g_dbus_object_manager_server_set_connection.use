@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:70
+  Original Name: g_dbus_object_manager_server_set_connection/usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f225]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_object_manager_server_set_connection[None](manager: NullablePointer[GDBusObjectManagerServer] tag, connection: NullablePointer[GDBusConnection] tag)
+

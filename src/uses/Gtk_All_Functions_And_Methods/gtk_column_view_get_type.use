@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolumnview.h:47
+  Original Name: gtk_column_view_get_type/usr/include/gtk-4.0/gtk/gtkcolumnview.h:47
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_column_view_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesture.h:95
+  Original Name: gtk_gesture_ungroup/usr/include/gtk-4.0/gtk/gtkgesture.h:95
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_gesture_ungroup[None](gesture: NullablePointer[GtkGesture] tag)
+

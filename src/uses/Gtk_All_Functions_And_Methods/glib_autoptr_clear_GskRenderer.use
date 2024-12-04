@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrenderer.h:69
+  Original Name: glib_autoptr_clear_GskRenderer/usr/include/gtk-4.0/gsk/gskrenderer.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @glib_autoptr_clear_GskRenderer[None](ptr: NullablePointer[GskRenderer] tag)
+

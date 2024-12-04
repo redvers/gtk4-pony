@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcsssection.h:61
+  Original Name: gtk_css_section_get_parent/usr/include/gtk-4.0/gtk/css/gtkcsssection.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f317]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f317]
+*/
+use @gtk_css_section_get_parent[NullablePointer[GtkCssSection]](section: NullablePointer[GtkCssSection] tag)
+

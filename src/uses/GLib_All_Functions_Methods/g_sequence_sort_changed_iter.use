@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:106
+  Original Name: g_sequence_sort_changed_iter/usr/include/glib-2.0/glib/gsequence.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_sequence_sort_changed_iter[None](iter: NullablePointer[GSequenceNode] tag, itercmp: Pointer[None] tag, cmpdata: Pointer[None] tag)
+

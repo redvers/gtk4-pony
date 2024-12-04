@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:434
+  Original Name: gtk_text_buffer_get_selection_content/usr/include/gtk-4.0/gtk/gtktextbuffer.h:434
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f374]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+*/
+use @gtk_text_buffer_get_selection_content[NullablePointer[GdkContentProvider]](buffer: NullablePointer[GtkTextBuffer] tag)
+

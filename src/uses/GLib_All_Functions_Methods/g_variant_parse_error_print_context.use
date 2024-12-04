@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:441
+  Original Name: g_variant_parse_error_print_context/usr/include/glib-2.0/glib/gvariant.h:441
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f23]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_variant_parse_error_print_context[Pointer[U8]](error: NullablePointer[GError] tag, sourcestr: Pointer[U8] tag)
+

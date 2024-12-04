@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolumemonitor.h:134
+  Original Name: g_volume_monitor_get_connected_drives/usr/include/glib-2.0/gio/gvolumemonitor.h:134
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f214]
+*/
+use @g_volume_monitor_get_connected_drives[NullablePointer[GList]](volumemonitor: NullablePointer[GVolumeMonitor] tag)
+

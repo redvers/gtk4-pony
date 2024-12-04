@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:229
+  Original Name: gtk_print_settings_set_paper_width/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:229
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [FundamentalType(double) size=64]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_print_settings_set_paper_width[None](settings: NullablePointer[GtkPrintSettings] tag, width: F64, unit: I32)
+

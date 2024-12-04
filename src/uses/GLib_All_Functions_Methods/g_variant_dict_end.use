@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:533
+  Original Name: g_variant_dict_end/usr/include/glib-2.0/glib/gvariant.h:533
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+*/
+use @g_variant_dict_end[NullablePointer[GVariant]](dict: NullablePointer[GVariantDict] tag)
+

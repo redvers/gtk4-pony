@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:645
+  Original Name: gtk_widget_create_pango_layout/usr/include/gtk-4.0/gtk/gtkwidget.h:645
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f359]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_widget_create_pango_layout[NullablePointer[PangoLayout]](widget: NullablePointer[GtkWidget] tag, text: Pointer[U8] tag)
+

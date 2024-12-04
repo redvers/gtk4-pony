@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:305
+  Original Name: gtk_print_settings_set_print_pages/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:305
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_print_settings_set_print_pages[None](settings: NullablePointer[GtkPrintSettings] tag, pages: I32)
+

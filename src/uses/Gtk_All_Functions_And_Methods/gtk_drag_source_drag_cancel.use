@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragsource.h:72
+  Original Name: gtk_drag_source_drag_cancel/usr/include/gtk-4.0/gtk/gtkdragsource.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f585]
+*/
+use @gtk_drag_source_drag_cancel[None](source: NullablePointer[GtkDragSource] tag)
+

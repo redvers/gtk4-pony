@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdebug.h:104
+  Original Name: gtk_get_debug_flags/usr/include/gtk-4.0/gtk/gtkdebug.h:104
+
+  Return Value: [Enumeration size=32,fid: f581]
+
+  Arguments:
+*/
+use @gtk_get_debug_flags[I32]()
+

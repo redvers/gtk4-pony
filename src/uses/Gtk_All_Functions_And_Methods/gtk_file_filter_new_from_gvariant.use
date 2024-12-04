@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilefilter.h:68
+  Original Name: gtk_file_filter_new_from_gvariant/usr/include/gtk-4.0/gtk/gtkfilefilter.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f603]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @gtk_file_filter_new_from_gvariant[NullablePointer[GtkFileFilter]](variant: NullablePointer[GVariant] tag)
+

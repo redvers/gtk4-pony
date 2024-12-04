@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocket.h:335
+  Original Name: g_socket_set_option/usr/include/glib-2.0/gio/gsocket.h:335
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f195]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_set_option[I32](socket: NullablePointer[GSocket] tag, level: I32, optname: I32, value: I32, error: Pointer[NullablePointer[GError]] tag)
+

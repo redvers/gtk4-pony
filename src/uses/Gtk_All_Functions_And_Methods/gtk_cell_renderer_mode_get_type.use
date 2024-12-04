@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:23
+  Original Name: gtk_cell_renderer_mode_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:23
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_cell_renderer_mode_get_type[U64]()
+

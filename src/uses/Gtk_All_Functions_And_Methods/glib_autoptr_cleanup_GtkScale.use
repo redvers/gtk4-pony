@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:133
+  Original Name: glib_autoptr_cleanup_GtkScale/usr/include/gtk-4.0/gtk/gtkscale.h:133
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f693]
+*/
+use @glib_autoptr_cleanup_GtkScale[None](ptr: Pointer[NullablePointer[GtkScale]] tag)
+

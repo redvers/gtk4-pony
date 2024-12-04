@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkmonitor.h:66
+  Original Name: gdk_monitor_get_geometry/usr/include/gtk-4.0/gdk/gdkmonitor.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f403]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gdk_monitor_get_geometry[None](monitor: NullablePointer[GdkMonitor] tag, geometry: NullablePointer[Cairorectangleint] tag)
+

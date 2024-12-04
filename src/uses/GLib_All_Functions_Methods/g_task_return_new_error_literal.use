@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:180
+  Original Name: g_task_return_new_error_literal/usr/include/glib-2.0/gio/gtask.h:180
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_task_return_new_error_literal[None](task: NullablePointer[GTask] tag, domain: U32, code: I32, message: Pointer[U8] tag)
+

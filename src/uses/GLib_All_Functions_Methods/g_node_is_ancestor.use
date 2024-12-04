@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:133
+  Original Name: g_node_is_ancestor/usr/include/glib-2.0/glib/gnode.h:133
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+    [PointerType size=64]->[Struct size=320,fid: f77]
+*/
+use @g_node_is_ancestor[I32](node: NullablePointer[GNode] tag, descendant: NullablePointer[GNode] tag)
+

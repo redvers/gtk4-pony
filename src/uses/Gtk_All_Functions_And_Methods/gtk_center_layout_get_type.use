@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcenterlayout.h:27
+  Original Name: gtk_center_layout_get_type/usr/include/gtk-4.0/gtk/gtkcenterlayout.h:27
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_center_layout_get_type[U64]()
+

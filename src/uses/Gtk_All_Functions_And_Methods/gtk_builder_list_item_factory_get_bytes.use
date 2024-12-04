@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h:51
+  Original Name: gtk_builder_list_item_factory_get_bytes/usr/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h:51
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f522]
+*/
+use @gtk_builder_list_item_factory_get_bytes[NullablePointer[GBytes]](self: NullablePointer[GtkBuilderListItemFactory] tag)
+

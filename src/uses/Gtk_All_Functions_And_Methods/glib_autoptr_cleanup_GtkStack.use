@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:181
+  Original Name: glib_autoptr_cleanup_GtkStack/usr/include/gtk-4.0/gtk/gtkstack.h:181
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f713]
+*/
+use @glib_autoptr_cleanup_GtkStack[None](ptr: Pointer[NullablePointer[GtkStack]] tag)
+

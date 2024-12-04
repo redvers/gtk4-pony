@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:88
+  Original Name: gsk_path_builder_line_to/usr/include/gtk-4.0/gsk/gskpathbuilder.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_path_builder_line_to[None](self: NullablePointer[GskPathBuilder] tag, x: F32, y: F32)
+

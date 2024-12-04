@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpathbuf.h:46
+  Original Name: g_path_buf_new_from_path/usr/include/glib-2.0/glib/gpathbuf.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f97]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_path_buf_new_from_path[NullablePointer[GPathBuf]](path: Pointer[U8] tag)
+

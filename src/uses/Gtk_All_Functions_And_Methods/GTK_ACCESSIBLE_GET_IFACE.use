@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:36
+  Original Name: GTK_ACCESSIBLE_GET_IFACE/usr/include/gtk-4.0/gtk/gtkaccessible.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f489]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_ACCESSIBLE_GET_IFACE[NullablePointer[GtkAccessibleInterface]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklevelbar.h:79
+  Original Name: gtk_level_bar_get_value/usr/include/gtk-4.0/gtk/gtklevelbar.h:79
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f647]
+*/
+use @gtk_level_bar_get_value[F64](self: NullablePointer[GtkLevelBar] tag)
+

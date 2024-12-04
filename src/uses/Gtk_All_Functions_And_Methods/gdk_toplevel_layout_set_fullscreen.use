@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevellayout.h:57
+  Original Name: gdk_toplevel_layout_set_fullscreen/usr/include/gtk-4.0/gdk/gdktoplevellayout.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f428]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f403]
+*/
+use @gdk_toplevel_layout_set_fullscreen[None](layout: NullablePointer[GdkToplevelLayout] tag, fullscreen: I32, monitor: NullablePointer[GdkMonitor] tag)
+

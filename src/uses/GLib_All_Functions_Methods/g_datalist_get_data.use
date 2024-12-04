@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdataset.h:125
+  Original Name: g_datalist_get_data/usr/include/glib-2.0/glib/gdataset.h:125
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f68]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_datalist_get_data[Pointer[None]](datalist: Pointer[NullablePointer[GData]] tag, key: Pointer[U8] tag)
+

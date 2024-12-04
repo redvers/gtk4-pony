@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:75
+  Original Name: gsk_gl_shader_get_args_size/usr/include/gtk-4.0/gsk/gskglshader.h:75
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+*/
+use @gsk_gl_shader_get_args_size[U64](shader: NullablePointer[GskGLShader] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettings.h:215
+  Original Name: g_settings_delay/usr/include/glib-2.0/gio/gsettings.h:215
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f171]
+*/
+use @g_settings_delay[None](settings: NullablePointer[GSettings] tag)
+

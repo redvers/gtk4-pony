@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:109
+  Original Name: gtk_menu_button_popdown/usr/include/gtk-4.0/gtk/gtkmenubutton.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @gtk_menu_button_popdown[None](menubutton: NullablePointer[GtkMenuButton] tag)
+

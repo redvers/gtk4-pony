@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediafile.h:80
+  Original Name: gtk_media_file_get_input_stream/usr/include/gtk-4.0/gtk/gtkmediafile.h:80
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f657]
+*/
+use @gtk_media_file_get_input_stream[NullablePointer[GInputStream]](self: NullablePointer[GtkMediaFile] tag)
+

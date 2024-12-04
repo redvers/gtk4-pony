@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:133
+  Original Name: g_hash_table_get_values/usr/include/glib-2.0/glib/ghash.h:133
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+*/
+use @g_hash_table_get_values[NullablePointer[GList]](hashtable: NullablePointer[GHashTable] tag)
+

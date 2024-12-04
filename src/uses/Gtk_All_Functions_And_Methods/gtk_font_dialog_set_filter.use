@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:71
+  Original Name: gtk_font_dialog_set_filter/usr/include/gtk-4.0/gtk/gtkfontdialog.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f619]
+    [PointerType size=64]->[Struct size=192,fid: f513]
+*/
+use @gtk_font_dialog_set_filter[None](self: NullablePointer[GtkFontDialog] tag, filter: NullablePointer[GtkFilter] tag)
+

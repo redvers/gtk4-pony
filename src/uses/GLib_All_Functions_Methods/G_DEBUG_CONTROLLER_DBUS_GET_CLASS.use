@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:33
+  Original Name: G_DEBUG_CONTROLLER_DBUS_GET_CLASS/usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=1920,fid: f257]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @G_DEBUG_CONTROLLER_DBUS_GET_CLASS[NullablePointer[GDebugControllerDBusClass]](ptr: Pointer[None] tag)
+

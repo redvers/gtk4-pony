@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gmodule.h:128
+  Original Name: g_module_name/usr/include/glib-2.0/gmodule.h:128
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f271]
+*/
+use @g_module_name[Pointer[U8]](module: NullablePointer[GModule] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpattern.h:37
+  Original Name: g_pattern_spec_free/usr/include/glib-2.0/glib/gpattern.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f98]
+*/
+use @g_pattern_spec_free[None](pspec: NullablePointer[GPatternSpec] tag)
+

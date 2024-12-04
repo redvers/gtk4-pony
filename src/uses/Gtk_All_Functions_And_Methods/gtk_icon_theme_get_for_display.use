@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:86
+  Original Name: gtk_icon_theme_get_for_display/usr/include/gtk-4.0/gtk/gtkicontheme.h:86
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f639]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_icon_theme_get_for_display[NullablePointer[GtkIconTheme]](display: NullablePointer[GdkDisplay] tag)
+

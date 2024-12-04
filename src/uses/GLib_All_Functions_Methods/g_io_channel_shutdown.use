@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:189
+  Original Name: g_io_channel_shutdown/usr/include/glib-2.0/glib/giochannel.h:189
+
+  Return Value: [Enumeration size=32,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_io_channel_shutdown[I32](channel: NullablePointer[GIOChannel] tag, flush: I32, err: Pointer[NullablePointer[GError]] tag)
+

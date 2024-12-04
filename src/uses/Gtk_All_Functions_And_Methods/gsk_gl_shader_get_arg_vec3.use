@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:109
+  Original Name: gsk_gl_shader_get_arg_vec3/usr/include/gtk-4.0/gsk/gskglshader.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=128,fid: f440]
+*/
+use @gsk_gl_shader_get_arg_vec3[None](shader: NullablePointer[GskGLShader] tag, args: NullablePointer[GBytes] tag, idx: I32, outvalue: NullablePointer[Graphenevec3t] tag)
+

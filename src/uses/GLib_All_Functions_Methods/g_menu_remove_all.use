@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:67
+  Original Name: g_menu_remove_all/usr/include/glib-2.0/gio/gmenu.h:67
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+*/
+use @g_menu_remove_all[None](menu: NullablePointer[GMenu] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilter.h:109
+  Original Name: gtk_filter_changed/usr/include/gtk-4.0/gtk/gtkfilter.h:109
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f513]
+    [Enumeration size=32,fid: f513]
+*/
+use @gtk_filter_changed[None](self: NullablePointer[GtkFilter] tag, change: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathmeasure.h:48
+  Original Name: gsk_path_measure_get_path/usr/include/gtk-4.0/gsk/gskpathmeasure.h:48
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_path_measure_get_path[NullablePointer[GskPath]](self: NullablePointer[GskPathMeasure] tag)
+

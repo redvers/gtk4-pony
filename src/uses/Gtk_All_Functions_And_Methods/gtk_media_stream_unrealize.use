@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:114
+  Original Name: gtk_media_stream_unrealize/usr/include/gtk-4.0/gtk/gtkmediastream.h:114
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_media_stream_unrealize[None](self: NullablePointer[GtkMediaStream] tag, surface: NullablePointer[GdkSurface] tag)
+

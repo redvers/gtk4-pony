@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:362
+  Original Name: gtk_widget_class_set_activate_signal_from_name/usr/include/gtk-4.0/gtk/gtkwidget.h:362
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_widget_class_set_activate_signal_from_name[None](widgetclass: NullablePointer[GtkWidgetClass] tag, signalname: Pointer[U8] tag)
+

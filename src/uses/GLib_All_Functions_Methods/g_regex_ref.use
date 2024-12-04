@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:455
+  Original Name: g_regex_ref/usr/include/glib-2.0/glib/gregex.h:455
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f106]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_regex_ref[NullablePointer[GRegex]](regex: NullablePointer[GRegex] tag)
+

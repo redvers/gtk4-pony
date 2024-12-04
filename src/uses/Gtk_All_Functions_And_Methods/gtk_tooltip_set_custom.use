@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktooltip.h:53
+  Original Name: gtk_tooltip_set_custom/usr/include/gtk-4.0/gtk/gtktooltip.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_tooltip_set_custom[None](tooltip: NullablePointer[GtkTooltip] tag, customwidget: NullablePointer[GtkWidget] tag)
+

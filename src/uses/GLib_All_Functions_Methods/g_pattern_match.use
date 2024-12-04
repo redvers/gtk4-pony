@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpattern.h:52
+  Original Name: g_pattern_match/usr/include/glib-2.0/glib/gpattern.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f98]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_pattern_match[I32](pspec: NullablePointer[GPatternSpec] tag, stringlength: U32, string: Pointer[U8] tag, stringreversed: Pointer[U8] tag)
+

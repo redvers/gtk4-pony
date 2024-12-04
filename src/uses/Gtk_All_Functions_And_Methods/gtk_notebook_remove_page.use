@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:101
+  Original Name: gtk_notebook_remove_page/usr/include/gtk-4.0/gtk/gtknotebook.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_notebook_remove_page[None](notebook: NullablePointer[GtkNotebook] tag, pagenum: I32)
+

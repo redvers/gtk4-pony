@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectproxy.h:66
+  Original Name: g_dbus_object_proxy_new/usr/include/glib-2.0/gio/gdbusobjectproxy.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f223]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_object_proxy_new[NullablePointer[GDBusObjectProxy]](connection: NullablePointer[GDBusConnection] tag, objectpath: Pointer[U8] tag)
+

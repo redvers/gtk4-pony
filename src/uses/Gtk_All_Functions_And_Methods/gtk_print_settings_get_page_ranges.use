@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:308
+  Original Name: gtk_print_settings_get_page_ranges/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:308
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f681]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_print_settings_get_page_ranges[NullablePointer[GtkPageRange]](settings: NullablePointer[GtkPrintSettings] tag, numranges: Pointer[I32] tag)
+

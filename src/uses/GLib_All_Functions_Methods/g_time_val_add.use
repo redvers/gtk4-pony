@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:69
+  Original Name: g_time_val_add/usr/include/glib-2.0/glib/gtimer.h:69
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f16]
+    [FundamentalType(long int) size=64]
+*/
+use @g_time_val_add[None](time: NullablePointer[GTimeVal] tag, microseconds: I64)
+

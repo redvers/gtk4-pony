@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropdown.h:99
+  Original Name: gtk_drop_down_get_search_match_mode/usr/include/gtk-4.0/gtk/gtkdropdown.h:99
+
+  Return Value: [Enumeration size=32,fid: f591]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f592]
+*/
+use @gtk_drop_down_get_search_match_mode[I32](self: NullablePointer[GtkDropDown] tag)
+

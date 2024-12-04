@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcancellable.h:92
+  Original Name: g_cancellable_get_current/usr/include/glib-2.0/gio/gcancellable.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f164]
+
+  Arguments:
+*/
+use @g_cancellable_get_current[NullablePointer[GCancellable]]()
+

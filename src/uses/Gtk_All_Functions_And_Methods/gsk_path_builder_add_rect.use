@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:65
+  Original Name: gsk_path_builder_add_rect/usr/include/gtk-4.0/gsk/gskpathbuilder.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gsk_path_builder_add_rect[None](self: NullablePointer[GskPathBuilder] tag, rect: NullablePointer[Graphenerectt] tag)
+

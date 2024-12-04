@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:54
+  Original Name: gsk_transform_to_2d/usr/include/gtk-4.0/gsk/gsktransform.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+    [PointerType size=64]->[FundamentalType(float) size=32]
+*/
+use @gsk_transform_to_2d[None](self: NullablePointer[GskTransform] tag, outxx: Pointer[F32] tag, outyx: Pointer[F32] tag, outxy: Pointer[F32] tag, outyy: Pointer[F32] tag, outdx: Pointer[F32] tag, outdy: Pointer[F32] tag)
+

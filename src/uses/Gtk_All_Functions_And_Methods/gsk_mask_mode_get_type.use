@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskenumtypes.h:36
+  Original Name: gsk_mask_mode_get_type/usr/include/gtk-4.0/gsk/gskenumtypes.h:36
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_mask_mode_get_type[U64]()
+

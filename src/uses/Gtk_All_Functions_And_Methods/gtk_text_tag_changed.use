@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktexttag.h:103
+  Original Name: gtk_text_tag_changed/usr/include/gtk-4.0/gtk/gtktexttag.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f728]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_tag_changed[None](tag: NullablePointer[GtkTextTag] tag, sizechanged: I32)
+

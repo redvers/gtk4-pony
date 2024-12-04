@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturezoom.h:48
+  Original Name: gtk_gesture_zoom_get_scale_delta/usr/include/gtk-4.0/gtk/gtkgesturezoom.h:48
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f631]
+*/
+use @gtk_gesture_zoom_get_scale_delta[F64](gesture: NullablePointer[GtkGestureZoom] tag)
+

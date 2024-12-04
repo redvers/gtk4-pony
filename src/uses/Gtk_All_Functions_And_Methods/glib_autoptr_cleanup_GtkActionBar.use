@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkactionbar.h:63
+  Original Name: glib_autoptr_cleanup_GtkActionBar/usr/include/gtk-4.0/gtk/gtkactionbar.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f493]
+*/
+use @glib_autoptr_cleanup_GtkActionBar[None](ptr: Pointer[NullablePointer[GtkActionBar]] tag)
+

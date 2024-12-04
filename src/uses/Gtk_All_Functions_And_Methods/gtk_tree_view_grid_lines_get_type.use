@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:177
+  Original Name: gtk_tree_view_grid_lines_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:177
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_tree_view_grid_lines_get_type[U64]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:602
+  Original Name: g_source_set_dispose_function/usr/include/glib-2.0/glib/gmain.h:602
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_source_set_dispose_function[None](source: NullablePointer[GSource] tag, dispose: Pointer[None] tag)
+

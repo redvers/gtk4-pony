@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioenumtypes.h:192
+  Original Name: g_memory_monitor_warning_level_get_type/usr/include/glib-2.0/gio/gioenumtypes.h:192
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_memory_monitor_warning_level_get_type[U64]()
+

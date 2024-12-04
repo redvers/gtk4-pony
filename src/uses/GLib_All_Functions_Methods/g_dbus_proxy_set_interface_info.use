@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusproxy.h:147
+  Original Name: g_dbus_proxy_set_interface_info/usr/include/glib-2.0/gio/gdbusproxy.h:147
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f217]
+    [PointerType size=64]->[Struct size=384,fid: f220]
+*/
+use @g_dbus_proxy_set_interface_info[None](proxy: NullablePointer[GDBusProxy] tag, info: NullablePointer[GDBusInterfaceInfo] tag)
+

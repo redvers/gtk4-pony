@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimezone.h:67
+  Original Name: g_time_zone_new_offset/usr/include/glib-2.0/glib/gtimezone.h:67
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f61]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @g_time_zone_new_offset[NullablePointer[GTimeZone]](seconds: I32)
+

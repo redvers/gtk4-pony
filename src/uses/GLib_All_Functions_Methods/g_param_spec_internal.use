@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:420
+  Original Name: g_param_spec_internal/usr/include/glib-2.0/gobject/gparam.h:420
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f137]
+*/
+use @g_param_spec_internal[Pointer[None]](paramtype: U64, name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, flags: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:326
+  Original Name: g_io_channel_unix_get_fd/usr/include/glib-2.0/glib/giochannel.h:326
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+*/
+use @g_io_channel_unix_get_fd[I32](channel: NullablePointer[GIOChannel] tag)
+

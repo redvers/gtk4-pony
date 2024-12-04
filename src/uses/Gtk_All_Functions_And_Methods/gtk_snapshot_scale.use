@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:145
+  Original Name: gtk_snapshot_scale/usr/include/gtk-4.0/gtk/gtksnapshot.h:145
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+*/
+use @gtk_snapshot_scale[None](snapshot: NullablePointer[GdkSnapshot] tag, factorx: F32, factory: F32)
+

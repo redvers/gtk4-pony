@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:155
+  Original Name: g_hash_table_iter_replace/usr/include/glib-2.0/glib/ghash.h:155
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f79]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_hash_table_iter_replace[None](iter: NullablePointer[GHashTableIter] tag, value: Pointer[None] tag)
+

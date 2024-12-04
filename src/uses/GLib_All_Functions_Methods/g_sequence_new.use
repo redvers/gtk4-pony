@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:42
+  Original Name: g_sequence_new/usr/include/glib-2.0/glib/gsequence.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f108]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_sequence_new[NullablePointer[GSequence]](datadestroy: Pointer[None] tag)
+

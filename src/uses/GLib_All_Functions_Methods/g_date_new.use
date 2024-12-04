@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:114
+  Original Name: g_date_new/usr/include/glib-2.0/glib/gdate.h:114
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f69]
+
+  Arguments:
+*/
+use @g_date_new[NullablePointer[GDate]]()
+

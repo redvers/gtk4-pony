@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmount.h:167
+  Original Name: g_mount_get_type/usr/include/glib-2.0/gio/gmount.h:167
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_mount_get_type[U64]()
+

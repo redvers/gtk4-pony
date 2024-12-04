@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:251
+  Original Name: gtk_list_box_set_activate_on_single_click/usr/include/gtk-4.0/gtk/gtklistbox.h:251
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_list_box_set_activate_on_single_click[None](box: NullablePointer[GtkListBox] tag, single: I32)
+

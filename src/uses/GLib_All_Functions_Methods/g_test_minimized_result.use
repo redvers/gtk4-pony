@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:288
+  Original Name: g_test_minimized_result/usr/include/glib-2.0/glib/gtestutils.h:288
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_minimized_result[None](minimizedquantity: F64, format: Pointer[U8] tag, ...)
+

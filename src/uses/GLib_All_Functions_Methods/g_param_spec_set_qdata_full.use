@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:302
+  Original Name: g_param_spec_set_qdata_full/usr/include/glib-2.0/gobject/gparam.h:302
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f137]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_param_spec_set_qdata_full[None](pspec: NullablePointer[GParamSpec] tag, quark: U32, data: Pointer[None] tag, destroy: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcheckbutton.h:74
+  Original Name: gtk_check_button_set_inconsistent/usr/include/gtk-4.0/gtk/gtkcheckbutton.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f544]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_check_button_set_inconsistent[None](checkbutton: NullablePointer[GtkCheckButton] tag, inconsistent: I32)
+

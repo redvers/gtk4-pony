@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleactiongroup.h:77
+  Original Name: g_simple_action_group_insert/usr/include/glib-2.0/gio/gsimpleactiongroup.h:77
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f168]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_simple_action_group_insert[None](simple: NullablePointer[GSimpleActionGroup] tag, action: NullablePointer[GAction] tag)
+

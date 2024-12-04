@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:54
+  Original Name: gtk_list_view_set_factory/usr/include/gtk-4.0/gtk/gtklistview.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_list_view_set_factory[None](self: NullablePointer[GtkListView] tag, factory: NullablePointer[GtkListItemFactory] tag)
+

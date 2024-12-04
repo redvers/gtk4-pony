@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1521
+  Original Name: g_file_attribute_matcher_unref/usr/include/glib-2.0/gio/gfileinfo.h:1521
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_attribute_matcher_unref[None](matcher: NullablePointer[GFileAttributeMatcher] tag)
+

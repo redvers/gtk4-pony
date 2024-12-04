@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkviewport.h:53
+  Original Name: gtk_viewport_get_scroll_to_focus/usr/include/gtk-4.0/gtk/gtkviewport.h:53
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f746]
+*/
+use @gtk_viewport_get_scroll_to_focus[I32](viewport: NullablePointer[GtkViewport] tag)
+

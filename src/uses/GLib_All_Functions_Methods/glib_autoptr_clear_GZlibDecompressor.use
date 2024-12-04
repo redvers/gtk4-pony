@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:157
+  Original Name: glib_autoptr_clear_GZlibDecompressor/usr/include/glib-2.0/gio/gio-autocleanups.h:157
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_clear_GZlibDecompressor[None](ptr: NullablePointer[GZlibDecompressor] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsfiledatabase.h:52
+  Original Name: g_tls_file_database_get_type/usr/include/glib-2.0/gio/gtlsfiledatabase.h:52
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @g_tls_file_database_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrop.h:39
+  Original Name: gdk_drop_get_display/usr/include/gtk-4.0/gdk/gdkdrop.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_drop_get_display[NullablePointer[GdkDisplay]](self: NullablePointer[GdkDrop] tag)
+

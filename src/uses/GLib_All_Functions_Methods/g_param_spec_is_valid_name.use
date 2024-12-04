@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparam.h:410
+  Original Name: g_param_spec_is_valid_name/usr/include/glib-2.0/gobject/gparam.h:410
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_param_spec_is_valid_name[I32](name: Pointer[U8] tag)
+

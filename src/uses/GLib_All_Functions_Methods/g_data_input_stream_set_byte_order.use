@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdatainputstream.h:71
+  Original Name: g_data_input_stream_set_byte_order/usr/include/glib-2.0/gio/gdatainputstream.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f167]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_data_input_stream_set_byte_order[None](stream: NullablePointer[GDataInputStream] tag, order: I32)
+

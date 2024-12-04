@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:69
+  Original Name: gtk_print_dialog_get_accept_label/usr/include/gtk-4.0/gtk/gtkprintdialog.h:69
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+*/
+use @gtk_print_dialog_get_accept_label[Pointer[U8]](self: NullablePointer[GtkPrintDialog] tag)
+

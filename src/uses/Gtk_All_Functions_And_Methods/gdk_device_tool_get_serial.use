@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevicetool.h:63
+  Original Name: gdk_device_tool_get_serial/usr/include/gtk-4.0/gdk/gdkdevicetool.h:63
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f396]
+*/
+use @gdk_device_tool_get_serial[U64](tool: NullablePointer[GdkDeviceTool] tag)
+

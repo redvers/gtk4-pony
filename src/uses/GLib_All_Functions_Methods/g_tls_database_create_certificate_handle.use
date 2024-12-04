@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsdatabase.h:178
+  Original Name: g_tls_database_create_certificate_handle/usr/include/glib-2.0/gio/gtlsdatabase.h:178
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f208]
+    [PointerType size=64]->[Struct size=256,fid: f206]
+*/
+use @g_tls_database_create_certificate_handle[Pointer[U8]](self: NullablePointer[GTlsDatabase] tag, certificate: NullablePointer[GTlsCertificate] tag)
+

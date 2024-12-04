@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:513
+  Original Name: g_object_ref/usr/include/glib-2.0/gobject/gobject.h:513
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_object_ref[Pointer[None]](object: Pointer[None] tag)
+

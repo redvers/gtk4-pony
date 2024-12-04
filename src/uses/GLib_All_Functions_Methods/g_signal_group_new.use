@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsignalgroup.h:44
+  Original Name: g_signal_group_new/usr/include/glib-2.0/gobject/gsignalgroup.h:44
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f149]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_signal_group_new[NullablePointer[GSignalGroup]](targettype: U64)
+

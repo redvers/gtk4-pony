@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturesingle.h:65
+  Original Name: gtk_gesture_single_get_current_button/usr/include/gtk-4.0/gtk/gtkgesturesingle.h:65
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f623]
+*/
+use @gtk_gesture_single_get_current_button[U32](gesture: NullablePointer[GtkGestureSingle] tag)
+

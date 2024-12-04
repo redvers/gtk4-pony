@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:192
+  Original Name: gdk_toplevel_inhibit_system_shortcuts/usr/include/gtk-4.0/gdk/gdktoplevel.h:192
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_toplevel_inhibit_system_shortcuts[None](toplevel: NullablePointer[GdkToplevel] tag, event: NullablePointer[GdkEvent] tag)
+

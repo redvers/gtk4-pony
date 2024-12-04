@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:455
+  Original Name: g_object_set/usr/include/glib-2.0/gobject/gobject.h:455
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_object_set[None](object: Pointer[None] tag, firstpropertyname: Pointer[U8] tag, ...)
+

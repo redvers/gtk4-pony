@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1376
+  Original Name: g_file_info_set_attribute_boolean/usr/include/glib-2.0/gio/gfileinfo.h:1376
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_file_info_set_attribute_boolean[None](info: NullablePointer[GFileInfo] tag, attribute: Pointer[U8] tag, attrvalue: I32)
+

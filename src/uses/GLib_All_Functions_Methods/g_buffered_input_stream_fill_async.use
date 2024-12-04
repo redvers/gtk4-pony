@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedinputstream.h:112
+  Original Name: g_buffered_input_stream_fill_async/usr/include/glib-2.0/gio/gbufferedinputstream.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f162]
+    [FundamentalType(long int) size=64]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_buffered_input_stream_fill_async[None](stream: NullablePointer[GBufferedInputStream] tag, count: I64, iopriority: I32, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

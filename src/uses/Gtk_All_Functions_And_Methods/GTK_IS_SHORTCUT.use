@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcut.h:29
+  Original Name: GTK_IS_SHORTCUT/usr/include/gtk-4.0/gtk/gtkshortcut.h:29
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_IS_SHORTCUT[I32](ptr: Pointer[None] tag)
+

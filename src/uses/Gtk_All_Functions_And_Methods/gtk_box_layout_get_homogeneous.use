@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboxlayout.h:42
+  Original Name: gtk_box_layout_get_homogeneous/usr/include/gtk-4.0/gtk/gtkboxlayout.h:42
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f516]
+*/
+use @gtk_box_layout_get_homogeneous[I32](boxlayout: NullablePointer[GtkBoxLayout] tag)
+

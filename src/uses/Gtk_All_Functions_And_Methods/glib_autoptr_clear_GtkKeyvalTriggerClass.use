@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:88
+  Original Name: glib_autoptr_clear_GtkKeyvalTriggerClass/usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f708]
+*/
+use @glib_autoptr_clear_GtkKeyvalTriggerClass[None](ptr: NullablePointer[GtkKeyvalTriggerClass] tag)
+

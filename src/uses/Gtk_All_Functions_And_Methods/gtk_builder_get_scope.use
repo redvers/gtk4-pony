@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:149
+  Original Name: gtk_builder_get_scope/usr/include/gtk-4.0/gtk/gtkbuilder.h:149
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_builder_get_scope[NullablePointer[GtkBuilderScope]](builder: NullablePointer[GtkBuilder] tag)
+

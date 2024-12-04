@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gscanner.h:264
+  Original Name: g_scanner_lookup_symbol/usr/include/glib-2.0/glib/gscanner.h:264
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1152,fid: f107]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_scanner_lookup_symbol[Pointer[None]](scanner: NullablePointer[GScanner] tag, symbol: Pointer[U8] tag)
+

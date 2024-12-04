@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktexturedownloader.h:36
+  Original Name: gdk_texture_downloader_copy/usr/include/gtk-4.0/gdk/gdktexturedownloader.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_texture_downloader_copy[NullablePointer[GdkTextureDownloader]](self: NullablePointer[GdkTextureDownloader] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:880
+  Original Name: gtk_widget_get_font_map/usr/include/gtk-4.0/gtk/gtkwidget.h:880
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f342]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_font_map[NullablePointer[PangoFontMap]](widget: NullablePointer[GtkWidget] tag)
+

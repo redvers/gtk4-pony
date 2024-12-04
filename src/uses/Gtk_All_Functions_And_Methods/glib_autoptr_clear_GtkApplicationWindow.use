@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:84
+  Original Name: glib_autoptr_clear_GtkApplicationWindow/usr/include/gtk-4.0/gtk/gtkapplicationwindow.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f504]
+*/
+use @glib_autoptr_clear_GtkApplicationWindow[None](ptr: NullablePointer[GtkApplicationWindow] tag)
+

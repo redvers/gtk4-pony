@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:80
+  Original Name: g_string_free_to_bytes/usr/include/glib-2.0/glib/gstring.h:80
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @g_string_free_to_bytes[NullablePointer[GBytes]](string: NullablePointer[GString] tag)
+

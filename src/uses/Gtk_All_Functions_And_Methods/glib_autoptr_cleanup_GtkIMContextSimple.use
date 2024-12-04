@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:74
+  Original Name: glib_autoptr_cleanup_GtkIMContextSimple/usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f642]
+*/
+use @glib_autoptr_cleanup_GtkIMContextSimple[None](ptr: Pointer[NullablePointer[GtkIMContextSimple]] tag)
+

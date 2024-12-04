@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollbar.h:51
+  Original Name: gtk_scrollbar_set_adjustment/usr/include/gtk-4.0/gtk/gtkscrollbar.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f696]
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_scrollbar_set_adjustment[None](self: NullablePointer[GtkScrollbar] tag, adjustment: NullablePointer[GtkAdjustment] tag)
+

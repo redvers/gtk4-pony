@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrag.h:71
+  Original Name: gdk_drag_action_is_unique/usr/include/gtk-4.0/gdk/gdkdrag.h:71
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [Enumeration size=32,fid: f371]
+*/
+use @gdk_drag_action_is_unique[I32](action: I32)
+

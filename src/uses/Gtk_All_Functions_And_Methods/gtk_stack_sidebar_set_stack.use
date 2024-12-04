@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstacksidebar.h:43
+  Original Name: gtk_stack_sidebar_set_stack/usr/include/gtk-4.0/gtk/gtkstacksidebar.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f714]
+    [PointerType size=64]->[Struct size=,fid: f713]
+*/
+use @gtk_stack_sidebar_set_stack[None](self: NullablePointer[GtkStackSidebar] tag, stack: NullablePointer[GtkStack] tag)
+

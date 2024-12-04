@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextchild.h:88
+  Original Name: gtk_text_child_anchor_get_deleted/usr/include/gtk-4.0/gtk/gtktextchild.h:88
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f730]
+*/
+use @gtk_text_child_anchor_get_deleted[I32](anchor: NullablePointer[GtkTextChildAnchor] tag)
+

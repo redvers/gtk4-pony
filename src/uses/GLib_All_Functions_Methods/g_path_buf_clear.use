@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpathbuf.h:53
+  Original Name: g_path_buf_clear/usr/include/glib-2.0/glib/gpathbuf.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f97]
+*/
+use @g_path_buf_clear[None](buf: NullablePointer[GPathBuf] tag)
+

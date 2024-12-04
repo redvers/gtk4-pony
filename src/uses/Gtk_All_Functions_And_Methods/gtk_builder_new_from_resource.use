@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:172
+  Original Name: gtk_builder_new_from_resource/usr/include/gtk-4.0/gtk/gtkbuilder.h:172
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_builder_new_from_resource[NullablePointer[GtkBuilder]](resourcepath: Pointer[U8] tag)
+

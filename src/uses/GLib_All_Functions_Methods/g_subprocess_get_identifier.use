@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocess.h:63
+  Original Name: g_subprocess_get_identifier/usr/include/glib-2.0/gio/gsubprocess.h:63
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_subprocess_get_identifier[Pointer[U8]](subprocess: NullablePointer[GSubprocess] tag)
+

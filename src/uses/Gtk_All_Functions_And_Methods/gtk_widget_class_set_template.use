@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:840
+  Original Name: gtk_widget_class_set_template/usr/include/gtk-4.0/gtk/gtkwidget.h:840
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f480]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @gtk_widget_class_set_template[None](widgetclass: NullablePointer[GtkWidgetClass] tag, templatebytes: NullablePointer[GBytes] tag)
+

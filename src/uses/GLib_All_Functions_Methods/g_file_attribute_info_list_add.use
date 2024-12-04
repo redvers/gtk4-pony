@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileattribute.h:79
+  Original Name: g_file_attribute_info_list_add/usr/include/glib-2.0/gio/gfileattribute.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f178]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_file_attribute_info_list_add[None](list: NullablePointer[GFileAttributeInfoList] tag, name: Pointer[U8] tag, type: I32, flags: I32)
+

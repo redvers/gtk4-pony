@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkenumtypes.h:47
+  Original Name: gdk_modifier_type_get_type/usr/include/gtk-4.0/gdk/gdkenumtypes.h:47
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_modifier_type_get_type[U64]()
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuildable.h:258
+  Original Name: gtk_buildable_parse_context_get_position/usr/include/gtk-4.0/gtk/gtkbuildable.h:258
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f520]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gtk_buildable_parse_context_get_position[None](context: NullablePointer[GtkBuildableParseContext] tag, linenumber: Pointer[I32] tag, charnumber: Pointer[I32] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:402
+  Original Name: g_main_context_ref/usr/include/glib-2.0/glib/gmain.h:402
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_context_ref[NullablePointer[GMainContext]](context: NullablePointer[GMainContext] tag)
+

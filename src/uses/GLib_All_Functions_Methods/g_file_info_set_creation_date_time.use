@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1503
+  Original Name: g_file_info_set_creation_date_time/usr/include/glib-2.0/gio/gfileinfo.h:1503
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f62]
+*/
+use @g_file_info_set_creation_date_time[None](info: NullablePointer[GFileInfo] tag, creationtime: NullablePointer[GDateTime] tag)
+

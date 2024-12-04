@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/guri.h:235
+  Original Name: g_uri_get_port/usr/include/glib-2.0/glib/guri.h:235
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f120]
+*/
+use @g_uri_get_port[I32](uri: NullablePointer[GUri] tag)
+

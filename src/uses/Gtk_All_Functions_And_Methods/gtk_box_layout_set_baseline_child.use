@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkboxlayout.h:55
+  Original Name: gtk_box_layout_set_baseline_child/usr/include/gtk-4.0/gtk/gtkboxlayout.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f516]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_box_layout_set_baseline_child[None](boxlayout: NullablePointer[GtkBoxLayout] tag, child: I32)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:35
+  Original Name: gtk_graphics_offload_get_type/usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h:35
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_graphics_offload_get_type[U64]()
+

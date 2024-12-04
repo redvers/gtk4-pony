@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkalertdialog.h:47
+  Original Name: gtk_alert_dialog_get_message/usr/include/gtk-4.0/gtk/gtkalertdialog.h:47
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f494]
+*/
+use @gtk_alert_dialog_get_message[Pointer[U8]](self: NullablePointer[GtkAlertDialog] tag)
+

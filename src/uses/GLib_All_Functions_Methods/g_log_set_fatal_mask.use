@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:115
+  Original Name: g_log_set_fatal_mask/usr/include/glib-2.0/glib/gmessages.h:115
+
+  Return Value: [Enumeration size=32,fid: f95]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f95]
+*/
+use @g_log_set_fatal_mask[I32](logdomain: Pointer[U8] tag, fatalmask: I32)
+

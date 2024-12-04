@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsinteraction.h:122
+  Original Name: g_tls_interaction_invoke_request_certificate/usr/include/glib-2.0/gio/gtlsinteraction.h:122
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f209]
+    [PointerType size=64]->[Struct size=320,fid: f207]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_tls_interaction_invoke_request_certificate[I32](interaction: NullablePointer[GTlsInteraction] tag, connection: NullablePointer[GTlsConnection] tag, flags: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

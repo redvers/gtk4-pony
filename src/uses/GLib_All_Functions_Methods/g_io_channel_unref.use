@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:166
+  Original Name: g_io_channel_unref/usr/include/glib-2.0/glib/giochannel.h:166
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+*/
+use @g_io_channel_unref[None](channel: NullablePointer[GIOChannel] tag)
+

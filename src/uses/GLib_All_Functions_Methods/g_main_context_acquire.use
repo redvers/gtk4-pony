@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:432
+  Original Name: g_main_context_acquire/usr/include/glib-2.0/glib/gmain.h:432
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_context_acquire[I32](context: NullablePointer[GMainContext] tag)
+

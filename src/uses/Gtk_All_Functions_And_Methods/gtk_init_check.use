@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmain.h:59
+  Original Name: gtk_init_check/usr/include/gtk-4.0/gtk/gtkmain.h:59
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @gtk_init_check[I32]()
+

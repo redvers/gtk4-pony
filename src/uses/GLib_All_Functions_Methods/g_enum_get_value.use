@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/genums.h:221
+  Original Name: g_enum_get_value/usr/include/glib-2.0/gobject/genums.h:221
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f146]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f146]
+    [FundamentalType(int) size=32]
+*/
+use @g_enum_get_value[NullablePointer[GEnumValue]](enumclass: NullablePointer[GEnumClass] tag, value: I32)
+

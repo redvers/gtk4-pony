@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:62
+  Original Name: gdk_content_deserializer_get_user_data/usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:62
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f391]
+*/
+use @gdk_content_deserializer_get_user_data[Pointer[None]](deserializer: NullablePointer[GdkContentDeserializer] tag)
+

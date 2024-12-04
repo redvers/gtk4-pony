@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:133
+  Original Name: gtk_builder_get_objects/usr/include/gtk-4.0/gtk/gtkbuilder.h:133
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_builder_get_objects[NullablePointer[GSList]](builder: NullablePointer[GtkBuilder] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:85
+  Original Name: g_inet_address_to_bytes/usr/include/glib-2.0/gio/ginetaddress.h:85
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f182]
+*/
+use @g_inet_address_to_bytes[Pointer[U8]](address: NullablePointer[GInetAddress] tag)
+

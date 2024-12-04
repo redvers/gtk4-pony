@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:224
+  Original Name: gtk_print_operation_get_type/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:224
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_print_operation_get_type[U64]()
+

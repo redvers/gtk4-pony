@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:387
+  Original Name: gdk_event_get_device_tool/usr/include/gtk-4.0/gdk/gdkevents.h:387
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f396]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_event_get_device_tool[NullablePointer[GdkDeviceTool]](event: NullablePointer[GdkEvent] tag)
+

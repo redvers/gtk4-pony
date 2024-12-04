@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentproviderimpl.h:33
+  Original Name: gdk_content_provider_new_typed/usr/include/gtk-4.0/gdk/gdkcontentproviderimpl.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f374]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gdk_content_provider_new_typed[NullablePointer[GdkContentProvider]](type: U64, ...)
+

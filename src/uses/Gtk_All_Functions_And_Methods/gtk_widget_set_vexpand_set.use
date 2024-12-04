@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:568
+  Original Name: gtk_widget_set_vexpand_set/usr/include/gtk-4.0/gtk/gtkwidget.h:568
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_widget_set_vexpand_set[None](widget: NullablePointer[GtkWidget] tag, set: I32)
+

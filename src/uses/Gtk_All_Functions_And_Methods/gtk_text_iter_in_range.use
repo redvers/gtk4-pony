@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:407
+  Original Name: gtk_text_iter_in_range/usr/include/gtk-4.0/gtk/gtktextiter.h:407
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_in_range[I32](iter: NullablePointer[GtkTextIter] tag, start: NullablePointer[GtkTextIter] tag, end: NullablePointer[GtkTextIter] tag)
+

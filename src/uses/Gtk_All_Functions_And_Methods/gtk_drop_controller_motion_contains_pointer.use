@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:48
+  Original Name: gtk_drop_controller_motion_contains_pointer/usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f588]
+*/
+use @gtk_drop_controller_motion_contains_pointer[I32](self: NullablePointer[GtkDropControllerMotion] tag)
+

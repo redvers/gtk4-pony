@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:52
+  Original Name: g_sequence_foreach_range/usr/include/glib-2.0/glib/gsequence.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_sequence_foreach_range[None](begin: NullablePointer[GSequenceNode] tag, end: NullablePointer[GSequenceNode] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

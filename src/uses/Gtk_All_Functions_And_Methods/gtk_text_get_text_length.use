@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:94
+  Original Name: gtk_text_get_text_length/usr/include/gtk-4.0/gtk/gtktext.h:94
+
+  Return Value: [FundamentalType(short unsigned int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_get_text_length[U16](self: NullablePointer[GtkText] tag)
+

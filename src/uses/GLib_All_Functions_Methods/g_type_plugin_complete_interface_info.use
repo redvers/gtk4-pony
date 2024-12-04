@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtypeplugin.h:123
+  Original Name: g_type_plugin_complete_interface_info/usr/include/glib-2.0/gobject/gtypeplugin.h:123
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f135]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[Struct size=192,fid: f135]
+*/
+use @g_type_plugin_complete_interface_info[None](plugin: NullablePointer[GTypePlugin] tag, instancetype: U64, interfacetype: U64, info: NullablePointer[GInterfaceInfo] tag)
+

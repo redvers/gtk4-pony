@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:98
+  Original Name: g_io_extension_ref_class/usr/include/glib-2.0/gio/giomodule.h:98
+
+  Return Value: [PointerType size=64]->[Struct size=64,fid: f135]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_io_extension_ref_class[NullablePointer[GTypeClass]](extension: NullablePointer[GIOExtension] tag)
+

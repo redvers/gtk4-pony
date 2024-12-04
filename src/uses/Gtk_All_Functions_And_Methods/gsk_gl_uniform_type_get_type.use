@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskenumtypes.h:34
+  Original Name: gsk_gl_uniform_type_get_type/usr/include/gtk-4.0/gsk/gskenumtypes.h:34
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gsk_gl_uniform_type_get_type[U64]()
+

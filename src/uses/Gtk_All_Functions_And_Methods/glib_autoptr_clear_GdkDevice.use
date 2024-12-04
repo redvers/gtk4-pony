@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:127
+  Original Name: glib_autoptr_clear_GdkDevice/usr/include/gtk-4.0/gdk/gdkdevice.h:127
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_clear_GdkDevice[None](ptr: NullablePointer[GdkDevice] tag)
+

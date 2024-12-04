@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:112
+  Original Name: gtk_menu_button_set_create_popup_func/usr/include/gtk-4.0/gtk/gtkmenubutton.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_menu_button_set_create_popup_func[None](menubutton: NullablePointer[GtkMenuButton] tag, func: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

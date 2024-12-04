@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:265
+  Original Name: g_value_dup_string/usr/include/glib-2.0/gobject/gvaluetypes.h:265
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_dup_string[Pointer[U8]](value: NullablePointer[GValue] tag)
+

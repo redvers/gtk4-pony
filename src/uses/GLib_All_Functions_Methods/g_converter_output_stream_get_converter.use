@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gconverteroutputstream.h:72
+  Original Name: g_converter_output_stream_get_converter/usr/include/glib-2.0/gio/gconverteroutputstream.h:72
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f166]
+*/
+use @g_converter_output_stream_get_converter[NullablePointer[GConverter]](converterstream: NullablePointer[GConverterOutputStream] tag)
+

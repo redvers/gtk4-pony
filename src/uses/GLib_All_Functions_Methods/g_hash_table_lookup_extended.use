@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:108
+  Original Name: g_hash_table_lookup_extended/usr/include/glib-2.0/glib/ghash.h:108
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f79]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_hash_table_lookup_extended[I32](hashtable: NullablePointer[GHashTable] tag, lookupkey: Pointer[None] tag, origkey: NullablePointer[Pointer[None]] tag, value: NullablePointer[Pointer[None]] tag)
+

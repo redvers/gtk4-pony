@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:40
+  Original Name: gtk_font_dialog_get_title/usr/include/gtk-4.0/gtk/gtkfontdialog.h:40
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f619]
+*/
+use @gtk_font_dialog_get_title[Pointer[U8]](self: NullablePointer[GtkFontDialog] tag)
+

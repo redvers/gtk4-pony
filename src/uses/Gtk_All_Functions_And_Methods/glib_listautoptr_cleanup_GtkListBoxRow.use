@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:278
+  Original Name: glib_listautoptr_cleanup_GtkListBoxRow/usr/include/gtk-4.0/gtk/gtklistbox.h:278
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @glib_listautoptr_cleanup_GtkListBoxRow[None](l: Pointer[NullablePointer[GList]] tag)
+

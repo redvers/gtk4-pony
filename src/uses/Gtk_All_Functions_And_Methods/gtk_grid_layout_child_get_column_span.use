@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridlayout.h:84
+  Original Name: gtk_grid_layout_child_get_column_span/usr/include/gtk-4.0/gtk/gtkgridlayout.h:84
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f635]
+*/
+use @gtk_grid_layout_child_get_column_span[I32](child: NullablePointer[GtkGridLayoutChild] tag)
+

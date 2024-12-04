@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbytesicon.h:42
+  Original Name: g_bytes_icon_new/usr/include/glib-2.0/gio/gbytesicon.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @g_bytes_icon_new[NullablePointer[GIcon]](bytes: NullablePointer[GBytes] tag)
+

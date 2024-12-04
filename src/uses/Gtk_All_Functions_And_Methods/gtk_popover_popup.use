@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:101
+  Original Name: gtk_popover_popup/usr/include/gtk-4.0/gtk/gtkpopover.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+*/
+use @gtk_popover_popup[None](popover: NullablePointer[GtkPopover] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:432
+  Original Name: gtk_text_view_get_ltr_context/usr/include/gtk-4.0/gtk/gtktextview.h:432
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f339]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+*/
+use @gtk_text_view_get_ltr_context[NullablePointer[PangoContext]](textview: NullablePointer[GtkTextView] tag)
+

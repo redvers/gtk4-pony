@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:140
+  Original Name: g_hook_get/usr/include/glib-2.0/glib/ghook.h:140
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f81]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_hook_get[NullablePointer[GHook]](hooklist: NullablePointer[GHookList] tag, hookid: U64)
+

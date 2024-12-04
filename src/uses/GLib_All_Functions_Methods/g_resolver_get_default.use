@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresolver.h:189
+  Original Name: g_resolver_get_default/usr/include/glib-2.0/gio/gresolver.h:189
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f194]
+
+  Arguments:
+*/
+use @g_resolver_get_default[NullablePointer[GResolver]]()
+

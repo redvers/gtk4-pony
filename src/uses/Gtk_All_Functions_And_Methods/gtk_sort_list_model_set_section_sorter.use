@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksortlistmodel.h:49
+  Original Name: gtk_sort_list_model_set_section_sorter/usr/include/gtk-4.0/gtk/gtksortlistmodel.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f553]
+    [PointerType size=64]->[Struct size=192,fid: f552]
+*/
+use @gtk_sort_list_model_set_section_sorter[None](self: NullablePointer[GtkSortListModel] tag, sorter: NullablePointer[GtkSorter] tag)
+

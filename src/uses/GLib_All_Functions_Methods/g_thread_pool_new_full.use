@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthreadpool.h:57
+  Original Name: g_thread_pool_new_full/usr/include/glib-2.0/glib/gthreadpool.h:57
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f116]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_thread_pool_new_full[NullablePointer[GThreadPool]](func: Pointer[None] tag, userdata: Pointer[None] tag, itemfreefunc: Pointer[None] tag, maxthreads: I32, exclusive: I32, error: Pointer[NullablePointer[GError]] tag)
+

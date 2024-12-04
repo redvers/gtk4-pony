@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksizegroup.h:41
+  Original Name: gtk_size_group_get_type/usr/include/gtk-4.0/gtk/gtksizegroup.h:41
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_size_group_get_type[U64]()
+

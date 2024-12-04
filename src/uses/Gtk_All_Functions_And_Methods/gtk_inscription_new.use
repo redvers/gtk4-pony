@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkinscription.h:55
+  Original Name: gtk_inscription_new/usr/include/gtk-4.0/gtk/gtkinscription.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_inscription_new[NullablePointer[GtkWidget]](text: Pointer[U8] tag)
+

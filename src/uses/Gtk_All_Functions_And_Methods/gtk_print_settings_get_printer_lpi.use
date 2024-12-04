@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:293
+  Original Name: gtk_print_settings_get_printer_lpi/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:293
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+*/
+use @gtk_print_settings_get_printer_lpi[F64](settings: NullablePointer[GtkPrintSettings] tag)
+

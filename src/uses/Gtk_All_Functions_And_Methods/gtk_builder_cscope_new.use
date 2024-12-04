@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilderscope.h:107
+  Original Name: gtk_builder_cscope_new/usr/include/gtk-4.0/gtk/gtkbuilderscope.h:107
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+*/
+use @gtk_builder_cscope_new[NullablePointer[GtkBuilderScope]]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomfilter.h:46
+  Original Name: glib_autoptr_cleanup_GtkCustomFilterClass/usr/include/gtk-4.0/gtk/gtkcustomfilter.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1728,fid: f612]
+*/
+use @glib_autoptr_cleanup_GtkCustomFilterClass[None](ptr: Pointer[NullablePointer[]] tag)
+

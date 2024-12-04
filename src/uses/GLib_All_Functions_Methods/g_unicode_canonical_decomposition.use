@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:786
+  Original Name: g_unicode_canonical_decomposition/usr/include/glib-2.0/glib/gunicode.h:786
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_unicode_canonical_decomposition[Pointer[U32]](ch: U32, resultlen: Pointer[U64] tag)
+

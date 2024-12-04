@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:43
+  Original Name: gtk_font_dialog_button_set_dialog/usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f620]
+    [PointerType size=64]->[Struct size=,fid: f619]
+*/
+use @gtk_font_dialog_button_set_dialog[None](self: NullablePointer[GtkFontDialogButton] tag, dialog: NullablePointer[GtkFontDialog] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gparamspecs.h:1131
+  Original Name: g_param_spec_override/usr/include/glib-2.0/gobject/gparamspecs.h:1131
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f137]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=576,fid: f137]
+*/
+use @g_param_spec_override[NullablePointer[GParamSpec]](name: Pointer[U8] tag, overridden: NullablePointer[GParamSpec] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:402
+  Original Name: gdk_event_get_position/usr/include/gtk-4.0/gdk/gdkevents.h:402
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_event_get_position[I32](event: NullablePointer[GdkEvent] tag, x: Pointer[F64] tag, y: Pointer[F64] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:322
+  Original Name: g_app_launch_context_new/usr/include/glib-2.0/gio/gappinfo.h:322
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f160]
+
+  Arguments:
+*/
+use @g_app_launch_context_new[NullablePointer[GAppLaunchContext]]()
+

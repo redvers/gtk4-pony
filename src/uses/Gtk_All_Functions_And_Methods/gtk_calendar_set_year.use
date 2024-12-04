@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcalendar.h:96
+  Original Name: gtk_calendar_set_year/usr/include/gtk-4.0/gtk/gtkcalendar.h:96
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f524]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_calendar_set_year[None](self: NullablePointer[GtkCalendar] tag, year: I32)
+

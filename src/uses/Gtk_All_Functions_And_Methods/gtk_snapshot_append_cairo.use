@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:160
+  Original Name: gtk_snapshot_append_cairo/usr/include/gtk-4.0/gtk/gtksnapshot.h:160
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f318]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gtk_snapshot_append_cairo[NullablePointer[Cairo]](snapshot: NullablePointer[GdkSnapshot] tag, bounds: NullablePointer[Graphenerectt] tag)
+

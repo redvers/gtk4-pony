@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontroller.h:81
+  Original Name: gtk_event_controller_get_current_event_state/usr/include/gtk-4.0/gtk/gtkeventcontroller.h:81
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_event_controller_get_current_event_state[I32](controller: NullablePointer[GtkEventController] tag)
+

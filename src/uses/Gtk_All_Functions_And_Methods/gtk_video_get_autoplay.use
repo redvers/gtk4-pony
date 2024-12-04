@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:65
+  Original Name: gtk_video_get_autoplay/usr/include/gtk-4.0/gtk/gtkvideo.h:65
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f745]
+*/
+use @gtk_video_get_autoplay[I32](self: NullablePointer[GtkVideo] tag)
+

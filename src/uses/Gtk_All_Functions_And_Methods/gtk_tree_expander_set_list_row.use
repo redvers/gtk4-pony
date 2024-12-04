@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreeexpander.h:50
+  Original Name: gtk_tree_expander_set_list_row/usr/include/gtk-4.0/gtk/gtktreeexpander.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f738]
+    [PointerType size=64]->[Struct size=,fid: f737]
+*/
+use @gtk_tree_expander_set_list_row[None](self: NullablePointer[GtkTreeExpander] tag, listrow: NullablePointer[GtkTreeListRow] tag)
+

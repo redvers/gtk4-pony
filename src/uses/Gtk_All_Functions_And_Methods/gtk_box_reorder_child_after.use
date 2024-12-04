@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbox.h:111
+  Original Name: gtk_box_reorder_child_after/usr/include/gtk-4.0/gtk/gtkbox.h:111
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f517]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_box_reorder_child_after[None](box: NullablePointer[GtkBox] tag, child: NullablePointer[GtkWidget] tag, sibling: NullablePointer[GtkWidget] tag)
+

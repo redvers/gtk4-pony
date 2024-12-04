@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gasyncqueue.h:45
+  Original Name: g_async_queue_lock/usr/include/glib-2.0/glib/gasyncqueue.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f43]
+*/
+use @g_async_queue_lock[None](queue: NullablePointer[GAsyncQueue] tag)
+

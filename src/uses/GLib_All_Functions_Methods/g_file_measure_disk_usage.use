@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:1183
+  Original Name: g_file_measure_disk_usage/usr/include/glib-2.0/gio/gfile.h:1183
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_measure_disk_usage[I32](file: NullablePointer[GFile] tag, flags: I32, cancellable: NullablePointer[GCancellable] tag, progresscallback: Pointer[None] tag, progressdata: Pointer[None] tag, diskusage: Pointer[U64] tag, numdirs: Pointer[U64] tag, numfiles: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

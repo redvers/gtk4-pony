@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:272
+  Original Name: gtk_entry_set_attributes/usr/include/gtk-4.0/gtk/gtkentry.h:272
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [PointerType size=64]->[Struct size=,fid: f350]
+*/
+use @gtk_entry_set_attributes[None](entry: NullablePointer[GtkEntry] tag, attrs: NullablePointer[PangoAttrList] tag)
+

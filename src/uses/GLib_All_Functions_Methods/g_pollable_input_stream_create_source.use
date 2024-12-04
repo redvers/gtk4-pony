@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gpollableinputstream.h:86
+  Original Name: g_pollable_input_stream_create_source/usr/include/glib-2.0/gio/gpollableinputstream.h:86
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f85]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_pollable_input_stream_create_source[NullablePointer[GSource]](stream: NullablePointer[GPollableInputStream] tag, cancellable: NullablePointer[GCancellable] tag)
+

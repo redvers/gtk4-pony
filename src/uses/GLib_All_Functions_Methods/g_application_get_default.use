@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:232
+  Original Name: g_application_get_default/usr/include/glib-2.0/gio/gapplication.h:232
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f169]
+
+  Arguments:
+*/
+use @g_application_get_default[NullablePointer[GApplication]]()
+

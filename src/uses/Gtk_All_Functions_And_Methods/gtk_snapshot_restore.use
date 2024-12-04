@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:124
+  Original Name: gtk_snapshot_restore/usr/include/gtk-4.0/gtk/gtksnapshot.h:124
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gtk_snapshot_restore[None](snapshot: NullablePointer[GdkSnapshot] tag)
+

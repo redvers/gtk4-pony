@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgridview.h:83
+  Original Name: gtk_grid_view_set_single_click_activate/usr/include/gtk-4.0/gtk/gtkgridview.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f637]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_grid_view_set_single_click_activate[None](self: NullablePointer[GtkGridView] tag, singleclickactivate: I32)
+

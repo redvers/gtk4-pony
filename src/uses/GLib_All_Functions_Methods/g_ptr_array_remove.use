@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:214
+  Original Name: g_ptr_array_remove/usr/include/glib-2.0/glib/garray.h:214
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_ptr_array_remove[I32](array: NullablePointer[GPtrArray] tag, data: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/garray.h:93
+  Original Name: g_array_copy/usr/include/glib-2.0/glib/garray.h:93
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @g_array_copy[NullablePointer[GArray]](array: NullablePointer[GArray] tag)
+

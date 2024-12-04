@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:91
+  Original Name: gtk_grid_insert_column/usr/include/gtk-4.0/gtk/gtkgrid.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f634]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_grid_insert_column[None](grid: NullablePointer[GtkGrid] tag, position: I32)
+

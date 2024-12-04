@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdevice.h:91
+  Original Name: gdk_device_get_product_id/usr/include/gtk-4.0/gdk/gdkdevice.h:91
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_device_get_product_id[Pointer[U8]](device: NullablePointer[GdkDevice] tag)
+

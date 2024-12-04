@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsconnection.h:139
+  Original Name: g_tls_connection_set_rehandshake_mode/usr/include/glib-2.0/gio/gtlsconnection.h:139
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f207]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_tls_connection_set_rehandshake_mode[None](conn: NullablePointer[GTlsConnection] tag, mode: I32)
+

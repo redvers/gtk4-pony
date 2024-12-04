@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:245
+  Original Name: glib_autoptr_cleanup_GtkNotebook/usr/include/gtk-4.0/gtk/gtknotebook.h:245
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @glib_autoptr_cleanup_GtkNotebook[None](ptr: Pointer[NullablePointer[GtkNotebook]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbuserror.h:107
+  Original Name: g_dbus_error_encode_gerror/usr/include/glib-2.0/gio/gdbuserror.h:107
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_error_encode_gerror[Pointer[U8]](error: NullablePointer[GError] tag)
+

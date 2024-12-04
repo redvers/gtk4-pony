@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2607
+  Original Name: g_type_add_interface_check/usr/include/glib-2.0/gobject/gtype.h:2607
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_type_add_interface_check[None](checkdata: Pointer[None] tag, checkfunc: Pointer[None] tag)
+

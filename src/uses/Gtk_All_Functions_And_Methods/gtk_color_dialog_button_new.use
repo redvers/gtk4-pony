@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h:37
+  Original Name: gtk_color_dialog_button_new/usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f549]
+*/
+use @gtk_color_dialog_button_new[NullablePointer[GtkWidget]](dialog: NullablePointer[GtkColorDialog] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpopover.h:74
+  Original Name: gtk_popover_get_pointing_to/usr/include/gtk-4.0/gtk/gtkpopover.h:74
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f658]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gtk_popover_get_pointing_to[I32](popover: NullablePointer[GtkPopover] tag, rect: NullablePointer[Cairorectangleint] tag)
+

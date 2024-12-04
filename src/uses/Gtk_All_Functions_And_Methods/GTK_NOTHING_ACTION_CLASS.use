@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:85
+  Original Name: GTK_NOTHING_ACTION_CLASS/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:85
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f484]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_NOTHING_ACTION_CLASS[NullablePointer[GtkNothingActionClass]](ptr: Pointer[None] tag)
+

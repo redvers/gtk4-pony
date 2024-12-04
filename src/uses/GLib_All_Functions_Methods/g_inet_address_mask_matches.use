@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddressmask.h:78
+  Original Name: g_inet_address_mask_matches/usr/include/glib-2.0/gio/ginetaddressmask.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f183]
+    [PointerType size=64]->[Struct size=256,fid: f182]
+*/
+use @g_inet_address_mask_matches[I32](mask: NullablePointer[GInetAddressMask] tag, address: NullablePointer[GInetAddress] tag)
+

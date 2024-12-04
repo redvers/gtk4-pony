@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:94
+  Original Name: g_key_file_load_from_data_dirs/usr/include/glib-2.0/glib/gkeyfile.h:94
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f90]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_key_file_load_from_data_dirs[I32](keyfile: NullablePointer[GKeyFile] tag, file: Pointer[U8] tag, fullpath: Pointer[Pointer[U8]] tag, flags: I32, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdtlsconnection.h:132
+  Original Name: g_dtls_connection_get_peer_certificate/usr/include/glib-2.0/gio/gdtlsconnection.h:132
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f206]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dtls_connection_get_peer_certificate[NullablePointer[GTlsCertificate]](conn: NullablePointer[GDtlsConnection] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksizegroup.h:49
+  Original Name: gtk_size_group_get_mode/usr/include/gtk-4.0/gtk/gtksizegroup.h:49
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f715]
+*/
+use @gtk_size_group_get_mode[I32](sizegroup: NullablePointer[GtkSizeGroup] tag)
+

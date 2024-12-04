@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:66
+  Original Name: glib_autoptr_clear_GMainContextPusher/usr/include/glib-2.0/glib/glib-autocleanups.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @glib_autoptr_clear_GMainContextPusher[None](ptr: Pointer[None] tag)
+

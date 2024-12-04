@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:69
+  Original Name: gtk_label_get_use_markup/usr/include/gtk-4.0/gtk/gtklabel.h:69
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_use_markup[I32](self: NullablePointer[GtkLabel] tag)
+

@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcolordialog.h:60
+  Original Name: gtk_color_dialog_choose_rgba/usr/include/gtk-4.0/gtk/gtkcolordialog.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f549]
+    [PointerType size=64]->[Struct size=256,fid: f482]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_color_dialog_choose_rgba[None](self: NullablePointer[GtkColorDialog] tag, parent: NullablePointer[GtkWindow] tag, initialcolor: NullablePointer[GdkRGBA] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

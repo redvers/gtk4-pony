@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:89
+  Original Name: g_menu_prepend_section/usr/include/glib-2.0/gio/gmenu.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @g_menu_prepend_section[None](menu: NullablePointer[GMenu] tag, label: Pointer[U8] tag, section: NullablePointer[GMenuModel] tag)
+

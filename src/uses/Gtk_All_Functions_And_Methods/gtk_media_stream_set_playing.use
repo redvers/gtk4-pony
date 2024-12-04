@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:78
+  Original Name: gtk_media_stream_set_playing/usr/include/gtk-4.0/gtk/gtkmediastream.h:78
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_media_stream_set_playing[None](self: NullablePointer[GtkMediaStream] tag, playing: I32)
+

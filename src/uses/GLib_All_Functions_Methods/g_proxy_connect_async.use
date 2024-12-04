@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxy.h:106
+  Original Name: g_proxy_connect_async/usr/include/glib-2.0/gio/gproxy.h:106
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=256,fid: f193]
+    [PointerType size=64]->[Struct size=320,fid: f212]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_proxy_connect_async[None](proxy: NullablePointer[GProxy] tag, connection: NullablePointer[GIOStream] tag, proxyaddress: NullablePointer[GProxyAddress] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

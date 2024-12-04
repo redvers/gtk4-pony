@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpadcontroller.h:88
+  Original Name: gtk_pad_controller_set_action/usr/include/gtk-4.0/gtk/gtkpadcontroller.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f672]
+    [Enumeration size=32,fid: f672]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_pad_controller_set_action[None](controller: NullablePointer[GtkPadController] tag, type: I32, index: I32, mode: I32, label: Pointer[U8] tag, actionname: Pointer[U8] tag)
+

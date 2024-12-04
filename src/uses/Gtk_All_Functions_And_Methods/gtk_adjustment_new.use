@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkadjustment.h:69
+  Original Name: gtk_adjustment_new/usr/include/gtk-4.0/gtk/gtkadjustment.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f477]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_adjustment_new[NullablePointer[GtkAdjustment]](value: F64, lower: F64, upper: F64, stepincrement: F64, pageincrement: F64, pagesize: F64)
+

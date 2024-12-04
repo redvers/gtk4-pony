@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/genviron.h:39
+  Original Name: g_getenv/usr/include/glib-2.0/glib/genviron.h:39
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_getenv[Pointer[U8]](variable: Pointer[U8] tag)
+

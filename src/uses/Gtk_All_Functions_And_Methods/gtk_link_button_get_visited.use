@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklinkbutton.h:56
+  Original Name: gtk_link_button_get_visited/usr/include/gtk-4.0/gtk/gtklinkbutton.h:56
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f648]
+*/
+use @gtk_link_button_get_visited[I32](linkbutton: NullablePointer[GtkLinkButton] tag)
+

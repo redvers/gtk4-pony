@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:65
+  Original Name: glib_autoptr_clear_GMainContext/usr/include/glib-2.0/glib/glib-autocleanups.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @glib_autoptr_clear_GMainContext[None](ptr: NullablePointer[GMainContext] tag)
+

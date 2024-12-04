@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:406
+  Original Name: gdk_event_get_axes/usr/include/gtk-4.0/gdk/gdkevents.h:406
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @gdk_event_get_axes[I32](event: NullablePointer[GdkEvent] tag, axes: NullablePointer[Pointer[F64]] tag, naxes: Pointer[U32] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:31
+  Original Name: gdk_intern_mime_type/usr/include/gtk-4.0/gdk/gdkcontentformats.h:31
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_intern_mime_type[Pointer[U8]](string: Pointer[U8] tag)
+

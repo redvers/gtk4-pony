@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:229
+  Original Name: gtk_recent_info_get_groups/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:229
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @gtk_recent_info_get_groups[Pointer[Pointer[U8]]](info: NullablePointer[GtkRecentInfo] tag, length: Pointer[U64] tag)
+

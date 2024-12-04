@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdrawingarea.h:103
+  Original Name: gtk_drawing_area_set_draw_func/usr/include/gtk-4.0/gtk/gtkdrawingarea.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f586]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[GtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Pointer[None] tag, destroy: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gemblemedicon.h:74
+  Original Name: g_emblemed_icon_clear_emblems/usr/include/glib-2.0/gio/gemblemedicon.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f264]
+*/
+use @g_emblemed_icon_clear_emblems[None](emblemed: NullablePointer[GEmblemedIcon] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketcontrolmessage.h:105
+  Original Name: g_socket_control_message_deserialize/usr/include/glib-2.0/gio/gsocketcontrolmessage.h:105
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f196]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_socket_control_message_deserialize[NullablePointer[GSocketControlMessage]](level: I32, type: I32, size: U64, data: Pointer[None] tag)
+

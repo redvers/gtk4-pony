@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:112
+  Original Name: g_sequence_remove_range/usr/include/glib-2.0/glib/gsequence.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_remove_range[None](begin: NullablePointer[GSequenceNode] tag, end: NullablePointer[GSequenceNode] tag)
+

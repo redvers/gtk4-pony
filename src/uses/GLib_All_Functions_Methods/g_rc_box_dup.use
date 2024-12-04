@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grcbox.h:37
+  Original Name: g_rc_box_dup/usr/include/glib-2.0/glib/grcbox.h:37
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_rc_box_dup[Pointer[None]](blocksize: U64, memblock: Pointer[None] tag)
+

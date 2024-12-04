@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:685
+  Original Name: gtk_widget_get_tooltip_text/usr/include/gtk-4.0/gtk/gtkwidget.h:685
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_tooltip_text[Pointer[U8]](widget: NullablePointer[GtkWidget] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:72
+  Original Name: gtk_shortcut_action_activate/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [Enumeration size=32,fid: f484]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=,fid: f94]
+*/
+use @gtk_shortcut_action_activate[I32](self: NullablePointer[GtkShortcutAction] tag, flags: I32, widget: NullablePointer[GtkWidget] tag, args: NullablePointer[GVariant] tag)
+

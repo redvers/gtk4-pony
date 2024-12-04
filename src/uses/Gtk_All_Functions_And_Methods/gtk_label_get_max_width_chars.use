@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:108
+  Original Name: gtk_label_get_max_width_chars/usr/include/gtk-4.0/gtk/gtklabel.h:108
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_max_width_chars[I32](self: NullablePointer[GtkLabel] tag)
+

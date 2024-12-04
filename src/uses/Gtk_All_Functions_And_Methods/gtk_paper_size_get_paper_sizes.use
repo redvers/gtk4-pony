@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpapersize.h:115
+  Original Name: gtk_paper_size_get_paper_sizes/usr/include/gtk-4.0/gtk/print/gtkpapersize.h:115
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @gtk_paper_size_get_paper_sizes[NullablePointer[GList]](includecustom: I32)
+

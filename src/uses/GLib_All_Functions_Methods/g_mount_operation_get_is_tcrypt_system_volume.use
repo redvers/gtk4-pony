@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmountoperation.h:161
+  Original Name: g_mount_operation_get_is_tcrypt_system_volume/usr/include/glib-2.0/gio/gmountoperation.h:161
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f189]
+*/
+use @g_mount_operation_get_is_tcrypt_system_volume[I32](op: NullablePointer[GMountOperation] tag)
+

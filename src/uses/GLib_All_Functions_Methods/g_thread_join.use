@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:164
+  Original Name: g_thread_join/usr/include/glib-2.0/glib/gthread.h:164
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f42]
+*/
+use @g_thread_join[Pointer[None]](thread: NullablePointer[GThread] tag)
+

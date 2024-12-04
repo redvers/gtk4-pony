@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:78
+  Original Name: gdk_gl_context_set_allowed_apis/usr/include/gtk-4.0/gdk/gdkglcontext.h:78
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [Enumeration size=32,fid: f371]
+*/
+use @gdk_gl_context_set_allowed_apis[None](self: NullablePointer[GdkGLContext] tag, apis: I32)
+

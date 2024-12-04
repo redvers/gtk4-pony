@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:531
+  Original Name: g_variant_dict_clear/usr/include/glib-2.0/glib/gvariant.h:531
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+*/
+use @g_variant_dict_clear[None](dict: NullablePointer[GVariantDict] tag)
+

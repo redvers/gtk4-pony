@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktestutils.h:32
+  Original Name: gtk_test_init/usr/include/gtk-4.0/gtk/gtktestutils.h:32
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_test_init[None](argcp: Pointer[I32] tag, argvp: NullablePointer[Array[String]] tag, ...)
+

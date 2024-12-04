@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:63
+  Original Name: gtk_im_context_simple_new/usr/include/gtk-4.0/gtk/gtkimcontextsimple.h:63
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f564]
+
+  Arguments:
+*/
+use @gtk_im_context_simple_new[NullablePointer[GtkIMContext]]()
+

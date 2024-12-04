@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:166
+  Original Name: gtk_list_box_row_get_activatable/usr/include/gtk-4.0/gtk/gtklistbox.h:166
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f649]
+*/
+use @gtk_list_box_row_get_activatable[I32](row: NullablePointer[GtkListBoxRow] tag)
+

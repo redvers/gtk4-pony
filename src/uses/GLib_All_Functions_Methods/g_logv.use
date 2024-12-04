@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:110
+  Original Name: g_logv/usr/include/glib-2.0/glib/gmessages.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f95]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_logv[None](logdomain: Pointer[U8] tag, loglevel: I32, format: Pointer[U8] tag, args: NullablePointer[Valisttag] tag)
+

@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:862
+  Original Name: g_file_enumerate_children/usr/include/glib-2.0/gio/gfile.h:862
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f174]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f159]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_file_enumerate_children[NullablePointer[GFileEnumerator]](file: NullablePointer[GFile] tag, attributes: Pointer[U8] tag, flags: I32, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskglshader.h:72
+  Original Name: gsk_gl_shader_get_uniform_offset/usr/include/gtk-4.0/gsk/gskglshader.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f467]
+    [FundamentalType(int) size=32]
+*/
+use @gsk_gl_shader_get_uniform_offset[I32](shader: NullablePointer[GskGLShader] tag, idx: I32)
+

@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:363
+  Original Name: gsk_outset_shadow_node_new/usr/include/gtk-4.0/gsk/gskrendernode.h:363
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+*/
+use @gsk_outset_shadow_node_new[NullablePointer[GskRenderNode]](outline: NullablePointer[GskRoundedRect] tag, color: NullablePointer[GdkRGBA] tag, dx: F32, dy: F32, spread: F32, blurradius: F32)
+

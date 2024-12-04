@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdataset.h:49
+  Original Name: g_datalist_clear/usr/include/glib-2.0/glib/gdataset.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f68]
+*/
+use @g_datalist_clear[None](datalist: Pointer[NullablePointer[GData]] tag)
+

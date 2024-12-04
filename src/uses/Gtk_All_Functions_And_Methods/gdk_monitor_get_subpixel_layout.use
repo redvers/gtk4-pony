@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkmonitor.h:85
+  Original Name: gdk_monitor_get_subpixel_layout/usr/include/gtk-4.0/gdk/gdkmonitor.h:85
+
+  Return Value: [Enumeration size=32,fid: f403]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f403]
+*/
+use @gdk_monitor_get_subpixel_layout[I32](monitor: NullablePointer[GdkMonitor] tag)
+

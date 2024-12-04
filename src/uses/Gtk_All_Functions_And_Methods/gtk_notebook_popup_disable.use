@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:170
+  Original Name: gtk_notebook_popup_disable/usr/include/gtk-4.0/gtk/gtknotebook.h:170
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_popup_disable[None](notebook: NullablePointer[GtkNotebook] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:402
+  Original Name: g_variant_builder_add_parsed/usr/include/glib-2.0/glib/gvariant.h:402
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_variant_builder_add_parsed[None](builder: NullablePointer[GVariantBuilder] tag, format: Pointer[U8] tag, ...)
+

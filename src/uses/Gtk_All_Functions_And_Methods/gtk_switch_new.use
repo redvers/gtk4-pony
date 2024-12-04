@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkswitch.h:47
+  Original Name: gtk_switch_new/usr/include/gtk-4.0/gtk/gtkswitch.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_switch_new[NullablePointer[GtkWidget]]()
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksizegroup.h:51
+  Original Name: gtk_size_group_add_widget/usr/include/gtk-4.0/gtk/gtksizegroup.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f715]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_size_group_add_widget[None](sizegroup: NullablePointer[GtkSizeGroup] tag, widget: NullablePointer[GtkWidget] tag)
+

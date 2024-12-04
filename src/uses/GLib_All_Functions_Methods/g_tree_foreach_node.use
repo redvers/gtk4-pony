@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtree.h:143
+  Original Name: g_tree_foreach_node/usr/include/glib-2.0/glib/gtree.h:143
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f119]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_tree_foreach_node[None](tree: NullablePointer[GTree] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

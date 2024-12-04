@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrvbuilder.h:61
+  Original Name: g_strv_builder_end/usr/include/glib-2.0/glib/gstrvbuilder.h:61
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f113]
+*/
+use @g_strv_builder_end[Pointer[Pointer[U8]]](builder: NullablePointer[GStrvBuilder] tag)
+

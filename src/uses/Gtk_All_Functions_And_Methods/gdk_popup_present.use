@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopup.h:37
+  Original Name: gdk_popup_present/usr/include/gtk-4.0/gdk/gdkpopup.h:37
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f424]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f404]
+*/
+use @gdk_popup_present[I32](popup: NullablePointer[GdkPopup] tag, width: I32, height: I32, layout: NullablePointer[GdkPopupLayout] tag)
+

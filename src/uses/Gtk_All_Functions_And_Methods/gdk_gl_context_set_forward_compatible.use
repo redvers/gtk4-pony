@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkglcontext.h:73
+  Original Name: gdk_gl_context_set_forward_compatible/usr/include/gtk-4.0/gdk/gdkglcontext.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_gl_context_set_forward_compatible[None](context: NullablePointer[GdkGLContext] tag, compatible: I32)
+

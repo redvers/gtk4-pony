@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:114
+  Original Name: gtk_image_get_storage_type/usr/include/gtk-4.0/gtk/gtkimage.h:114
+
+  Return Value: [Enumeration size=32,fid: f569]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+*/
+use @gtk_image_get_storage_type[I32](image: NullablePointer[GtkImage] tag)
+

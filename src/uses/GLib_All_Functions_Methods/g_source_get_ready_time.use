@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:661
+  Original Name: g_source_get_ready_time/usr/include/glib-2.0/glib/gmain.h:661
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+*/
+use @g_source_get_ready_time[I64](source: NullablePointer[GSource] tag)
+

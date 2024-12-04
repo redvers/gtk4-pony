@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:628
+  Original Name: g_source_get_id/usr/include/glib-2.0/glib/gmain.h:628
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+*/
+use @g_source_get_id[U32](source: NullablePointer[GSource] tag)
+

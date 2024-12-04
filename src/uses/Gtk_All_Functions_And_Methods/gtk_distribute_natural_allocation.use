@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksizerequest.h:50
+  Original Name: gtk_distribute_natural_allocation/usr/include/gtk-4.0/gtk/gtksizerequest.h:50
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=128,fid: f716]
+*/
+use @gtk_distribute_natural_allocation[I32](extraspace: I32, nrequestedsizes: U32, sizes: NullablePointer[GtkRequestedSize] tag)
+

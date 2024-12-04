@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:331
+  Original Name: g_variant_type_hash/usr/include/glib-2.0/glib/gvarianttype.h:331
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_variant_type_hash[U32](type: Pointer[None] tag)
+

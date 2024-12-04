@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilefilter.h:60
+  Original Name: gtk_file_filter_add_pixbuf_formats/usr/include/gtk-4.0/gtk/gtkfilefilter.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f603]
+*/
+use @gtk_file_filter_add_pixbuf_formats[None](filter: NullablePointer[GtkFileFilter] tag)
+

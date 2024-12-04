@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:824
+  Original Name: g_utf8_prev_char/usr/include/glib-2.0/glib/gunicode.h:824
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_utf8_prev_char[Pointer[U8]](p: Pointer[U8] tag)
+

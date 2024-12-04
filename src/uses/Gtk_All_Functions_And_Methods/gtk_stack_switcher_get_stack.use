@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstackswitcher.h:45
+  Original Name: gtk_stack_switcher_get_stack/usr/include/gtk-4.0/gtk/gtkstackswitcher.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f713]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f719]
+*/
+use @gtk_stack_switcher_get_stack[NullablePointer[GtkStack]](switcher: NullablePointer[GtkStackSwitcher] tag)
+

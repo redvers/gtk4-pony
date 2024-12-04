@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:99
+  Original Name: glib_autoptr_cleanup_GVariantIter/usr/include/glib-2.0/glib/glib-autocleanups.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1024,fid: f94]
+*/
+use @glib_autoptr_cleanup_GVariantIter[None](ptr: Pointer[NullablePointer[GVariantIter]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:246
+  Original Name: g_once_init_leave_pointer/usr/include/glib-2.0/glib/gthread.h:246
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_once_init_leave_pointer[None](location: Pointer[None] tag, result: Pointer[None] tag)
+

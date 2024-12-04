@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:263
+  Original Name: g_variant_new_from_data/usr/include/glib-2.0/glib/gvariant.h:263
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_variant_new_from_data[NullablePointer[GVariant]](type: NullablePointer[GVariantType] tag, data: Pointer[None] tag, size: U64, trusted: I32, notify: Pointer[None] tag, userdata: Pointer[None] tag)
+

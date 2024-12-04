@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:413
+  Original Name: gtk_text_iter_order/usr/include/gtk-4.0/gtk/gtktextiter.h:413
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_order[None](first: NullablePointer[GtkTextIter] tag, second: NullablePointer[GtkTextIter] tag)
+

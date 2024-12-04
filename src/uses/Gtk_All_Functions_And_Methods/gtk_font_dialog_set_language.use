@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:57
+  Original Name: gtk_font_dialog_set_language/usr/include/gtk-4.0/gtk/gtkfontdialog.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f619]
+    [PointerType size=64]->[Struct size=,fid: f339]
+*/
+use @gtk_font_dialog_set_language[None](self: NullablePointer[GtkFontDialog] tag, language: NullablePointer[PangoLanguage] tag)
+

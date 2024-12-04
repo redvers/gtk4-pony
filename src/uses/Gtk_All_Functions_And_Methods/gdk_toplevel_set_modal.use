@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevel.h:170
+  Original Name: gdk_toplevel_set_modal/usr/include/gtk-4.0/gdk/gdktoplevel.h:170
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f429]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_toplevel_set_modal[None](toplevel: NullablePointer[GdkToplevel] tag, modal: I32)
+

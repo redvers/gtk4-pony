@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gappinfo.h:152
+  Original Name: g_app_info_equal/usr/include/glib-2.0/gio/gappinfo.h:152
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_app_info_equal[I32](appinfo1: NullablePointer[GAppInfo] tag, appinfo2: NullablePointer[GAppInfo] tag)
+

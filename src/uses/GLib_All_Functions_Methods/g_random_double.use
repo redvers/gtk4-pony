@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grand.h:93
+  Original Name: g_random_double/usr/include/glib-2.0/glib/grand.h:93
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+*/
+use @g_random_double[F64]()
+

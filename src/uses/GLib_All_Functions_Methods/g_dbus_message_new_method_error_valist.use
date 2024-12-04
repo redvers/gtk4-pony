@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:59
+  Original Name: g_dbus_message_new_method_error_valist/usr/include/glib-2.0/gio/gdbusmessage.h:59
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @g_dbus_message_new_method_error_valist[NullablePointer[GDBusMessage]](methodcallmessage: NullablePointer[GDBusMessage] tag, errorname: Pointer[U8] tag, errormessageformat: Pointer[U8] tag, varargs: NullablePointer[Valisttag] tag)
+

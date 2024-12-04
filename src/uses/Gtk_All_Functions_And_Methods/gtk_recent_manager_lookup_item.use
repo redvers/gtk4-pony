@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:168
+  Original Name: gtk_recent_manager_lookup_item/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:168
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f688]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f688]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_recent_manager_lookup_item[NullablePointer[GtkRecentInfo]](manager: NullablePointer[GtkRecentManager] tag, uri: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

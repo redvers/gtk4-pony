@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h:49
+  Original Name: glib_autoptr_clear_GskVulkanRenderer/usr/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f474]
+*/
+use @glib_autoptr_clear_GskVulkanRenderer[None](ptr: NullablePointer[GskVulkanRenderer] tag)
+

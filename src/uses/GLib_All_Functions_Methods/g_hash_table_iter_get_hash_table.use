@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghash.h:151
+  Original Name: g_hash_table_iter_get_hash_table/usr/include/glib-2.0/glib/ghash.h:151
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f79]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f79]
+*/
+use @g_hash_table_iter_get_hash_table[NullablePointer[GHashTable]](iter: NullablePointer[GHashTableIter] tag)
+

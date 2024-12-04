@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturesingle.h:72
+  Original Name: glib_autoptr_clear_GtkGestureSingle/usr/include/gtk-4.0/gtk/gtkgesturesingle.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f623]
+*/
+use @glib_autoptr_clear_GtkGestureSingle[None](ptr: NullablePointer[GtkGestureSingle] tag)
+

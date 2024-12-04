@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:215
+  Original Name: g_io_channel_get_buffer_size/usr/include/glib-2.0/glib/giochannel.h:215
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+*/
+use @g_io_channel_get_buffer_size[U64](channel: NullablePointer[GIOChannel] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkroot.h:34
+  Original Name: GTK_ROOT/usr/include/gtk-4.0/gtk/gtkroot.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_ROOT[NullablePointer[GtkRoot]](ptr: Pointer[None] tag)
+

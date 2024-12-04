@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklinkbutton.h:44
+  Original Name: gtk_link_button_new/usr/include/gtk-4.0/gtk/gtklinkbutton.h:44
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_link_button_new[NullablePointer[GtkWidget]](uri: Pointer[U8] tag)
+

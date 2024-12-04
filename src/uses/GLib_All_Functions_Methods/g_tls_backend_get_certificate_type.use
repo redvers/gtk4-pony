@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsbackend.h:100
+  Original Name: g_tls_backend_get_certificate_type/usr/include/glib-2.0/gio/gtlsbackend.h:100
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f307]
+*/
+use @g_tls_backend_get_certificate_type[U64](backend: NullablePointer[GTlsBackend] tag)
+

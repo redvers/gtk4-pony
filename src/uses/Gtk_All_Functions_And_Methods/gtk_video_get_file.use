@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkvideo.h:54
+  Original Name: gtk_video_get_file/usr/include/gtk-4.0/gtk/gtkvideo.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f745]
+*/
+use @gtk_video_get_file[NullablePointer[GFile]](self: NullablePointer[GtkVideo] tag)
+

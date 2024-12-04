@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:486
+  Original Name: gdk_pad_event_get_axis_value/usr/include/gtk-4.0/gdk/gdkevents.h:486
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_pad_event_get_axis_value[None](event: NullablePointer[GdkEvent] tag, index: Pointer[U32] tag, value: Pointer[F64] tag)
+

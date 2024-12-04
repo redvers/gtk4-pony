@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:259
+  Original Name: gtk_text_iter_backward_word_starts/usr/include/gtk-4.0/gtk/gtktextiter.h:259
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_text_iter_backward_word_starts[I32](iter: NullablePointer[GtkTextIter] tag, count: I32)
+

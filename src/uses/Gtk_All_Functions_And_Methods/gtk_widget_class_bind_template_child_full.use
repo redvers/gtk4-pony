@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:853
+  Original Name: gtk_widget_class_bind_template_child_full/usr/include/gtk-4.0/gtk/gtkwidget.h:853
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3264,fid: f480]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(long int) size=64]
+*/
+use @gtk_widget_class_bind_template_child_full[None](widgetclass: NullablePointer[GtkWidgetClass] tag, name: Pointer[U8] tag, internalchild: I32, structoffset: I64)
+

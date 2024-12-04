@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:86
+  Original Name: gtk_print_dialog_set_page_setup/usr/include/gtk-4.0/gtk/gtkprintdialog.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+    [PointerType size=64]->[Struct size=,fid: f674]
+*/
+use @gtk_print_dialog_set_page_setup[None](self: NullablePointer[GtkPrintDialog] tag, pagesetup: NullablePointer[GtkPageSetup] tag)
+

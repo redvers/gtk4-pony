@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmenubutton.h:92
+  Original Name: gtk_menu_button_get_label/usr/include/gtk-4.0/gtk/gtkmenubutton.h:92
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f659]
+*/
+use @gtk_menu_button_get_label[Pointer[U8]](menubutton: NullablePointer[GtkMenuButton] tag)
+

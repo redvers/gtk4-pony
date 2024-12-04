@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:247
+  Original Name: g_value_get_float/usr/include/glib-2.0/gobject/gvaluetypes.h:247
+
+  Return Value: [FundamentalType(float) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_get_float[F32](value: NullablePointer[GValue] tag)
+

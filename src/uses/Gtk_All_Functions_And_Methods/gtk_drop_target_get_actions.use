@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdroptarget.h:65
+  Original Name: gtk_drop_target_get_actions/usr/include/gtk-4.0/gtk/gtkdroptarget.h:65
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f589]
+*/
+use @gtk_drop_target_get_actions[I32](self: NullablePointer[GtkDropTarget] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:561
+  Original Name: g_test_create_suite/usr/include/glib-2.0/glib/gtestutils.h:561
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f115]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_test_create_suite[NullablePointer[GTestSuite]](suitename: Pointer[U8] tag)
+

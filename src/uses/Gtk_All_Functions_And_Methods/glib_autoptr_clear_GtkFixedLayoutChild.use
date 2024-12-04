@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfixedlayout.h:41
+  Original Name: glib_autoptr_clear_GtkFixedLayoutChild/usr/include/gtk-4.0/gtk/gtkfixedlayout.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f602]
+*/
+use @glib_autoptr_clear_GtkFixedLayoutChild[None](ptr: NullablePointer[GtkFixedLayoutChild] tag)
+

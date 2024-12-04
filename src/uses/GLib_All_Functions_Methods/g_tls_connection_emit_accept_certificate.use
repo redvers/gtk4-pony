@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsconnection.h:208
+  Original Name: g_tls_connection_emit_accept_certificate/usr/include/glib-2.0/gio/gtlsconnection.h:208
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f207]
+    [PointerType size=64]->[Struct size=256,fid: f206]
+    [Enumeration size=32,fid: f159]
+*/
+use @g_tls_connection_emit_accept_certificate[I32](conn: NullablePointer[GTlsConnection] tag, peercert: NullablePointer[GTlsCertificate] tag, errors: I32)
+

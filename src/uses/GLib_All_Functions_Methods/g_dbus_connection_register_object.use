@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusconnection.h:406
+  Original Name: g_dbus_connection_register_object/usr/include/glib-2.0/gio/gdbusconnection.h:406
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=384,fid: f220]
+    [PointerType size=64]->[Struct size=704,fid: f219]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_connection_register_object[U32](connection: NullablePointer[GDBusConnection] tag, objectpath: Pointer[U8] tag, interfaceinfo: NullablePointer[GDBusInterfaceInfo] tag, vtable: NullablePointer[GDBusInterfaceVTable] tag, userdata: Pointer[None] tag, userdatafreefunc: Pointer[None] tag, error: Pointer[NullablePointer[GError]] tag)
+

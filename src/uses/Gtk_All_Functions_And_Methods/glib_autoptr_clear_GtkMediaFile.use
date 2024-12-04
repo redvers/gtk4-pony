@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediafile.h:35
+  Original Name: glib_autoptr_clear_GtkMediaFile/usr/include/gtk-4.0/gtk/gtkmediafile.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f657]
+*/
+use @glib_autoptr_clear_GtkMediaFile[None](ptr: NullablePointer[GtkMediaFile] tag)
+

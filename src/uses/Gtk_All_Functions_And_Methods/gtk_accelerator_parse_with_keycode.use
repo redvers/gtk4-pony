@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccelgroup.h:47
+  Original Name: gtk_accelerator_parse_with_keycode/usr/include/gtk-4.0/gtk/gtkaccelgroup.h:47
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Enumeration size=32,fid: f371]
+*/
+use @gtk_accelerator_parse_with_keycode[I32](accelerator: Pointer[U8] tag, display: NullablePointer[GdkDisplay] tag, acceleratorkey: Pointer[U32] tag, acceleratorcodes: NullablePointer[Pointer[U32]] tag, acceleratormods: Pointer[I32] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gsktransform.h:48
+  Original Name: gsk_transform_parse/usr/include/gtk-4.0/gsk/gsktransform.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_transform_parse[I32](string: Pointer[U8] tag, outtransform: Pointer[NullablePointer[GskTransform]] tag)
+

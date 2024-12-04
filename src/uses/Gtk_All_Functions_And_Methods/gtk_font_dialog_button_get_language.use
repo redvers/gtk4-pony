@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:94
+  Original Name: gtk_font_dialog_button_get_language/usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:94
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f339]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f620]
+*/
+use @gtk_font_dialog_button_get_language[NullablePointer[PangoLanguage]](self: NullablePointer[GtkFontDialogButton] tag)
+

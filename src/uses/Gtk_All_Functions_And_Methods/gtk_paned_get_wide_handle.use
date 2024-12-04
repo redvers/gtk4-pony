@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpaned.h:90
+  Original Name: gtk_paned_get_wide_handle/usr/include/gtk-4.0/gtk/gtkpaned.h:90
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f675]
+*/
+use @gtk_paned_get_wide_handle[I32](paned: NullablePointer[GtkPaned] tag)
+

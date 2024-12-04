@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gshell.h:49
+  Original Name: g_shell_unquote/usr/include/glib-2.0/glib/gshell.h:49
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_shell_unquote[Pointer[U8]](quotedstring: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

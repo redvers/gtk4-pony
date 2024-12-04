@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:85
+  Original Name: gtk_print_settings_to_key_file/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_print_settings_to_key_file[None](settings: NullablePointer[GtkPrintSettings] tag, keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:64
+  Original Name: g_key_file_unref/usr/include/glib-2.0/glib/gkeyfile.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+*/
+use @g_key_file_unref[None](keyfile: NullablePointer[GKeyFile] tag)
+

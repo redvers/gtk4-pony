@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextview.h:204
+  Original Name: gtk_text_view_scroll_to_mark/usr/include/gtk-4.0/gtk/gtktextview.h:204
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f733]
+    [PointerType size=64]->[Struct size=256,fid: f732]
+    [FundamentalType(double) size=64]
+    [FundamentalType(int) size=32]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gtk_text_view_scroll_to_mark[None](textview: NullablePointer[GtkTextView] tag, mark: NullablePointer[GtkTextMark] tag, withinmargin: F64, usealign: I32, xalign: F64, yalign: F64)
+

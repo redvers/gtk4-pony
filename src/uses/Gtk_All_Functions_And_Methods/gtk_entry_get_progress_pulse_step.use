@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:177
+  Original Name: gtk_entry_get_progress_pulse_step/usr/include/gtk-4.0/gtk/gtkentry.h:177
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+*/
+use @gtk_entry_get_progress_pulse_step[F64](entry: NullablePointer[GtkEntry] tag)
+

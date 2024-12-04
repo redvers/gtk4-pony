@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:170
+  Original Name: g_menu_item_set_action_and_target/usr/include/glib-2.0/gio/gmenu.h:170
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_menu_item_set_action_and_target[None](menuitem: NullablePointer[GMenuItem] tag, action: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)
+

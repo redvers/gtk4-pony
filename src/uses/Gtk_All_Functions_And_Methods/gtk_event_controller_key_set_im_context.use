@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontrollerkey.h:49
+  Original Name: gtk_event_controller_key_set_im_context/usr/include/gtk-4.0/gtk/gtkeventcontrollerkey.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f596]
+    [PointerType size=64]->[Struct size=192,fid: f564]
+*/
+use @gtk_event_controller_key_set_im_context[None](controller: NullablePointer[GtkEventControllerKey] tag, imcontext: NullablePointer[GtkIMContext] tag)
+

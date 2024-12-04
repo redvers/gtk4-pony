@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropdown.h:41
+  Original Name: gtk_drop_down_set_model/usr/include/gtk-4.0/gtk/gtkdropdown.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f592]
+    [PointerType size=64]->[Struct size=,fid: f274]
+*/
+use @gtk_drop_down_set_model[None](self: NullablePointer[GtkDropDown] tag, model: NullablePointer[GListModel] tag)
+

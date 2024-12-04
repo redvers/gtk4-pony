@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1455
+  Original Name: g_file_info_set_attribute_mask/usr/include/glib-2.0/gio/gfileinfo.h:1455
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_set_attribute_mask[None](info: NullablePointer[GFileInfo] tag, mask: NullablePointer[GFileAttributeMatcher] tag)
+

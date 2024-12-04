@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkrectangle.h:42
+  Original Name: gdk_rectangle_union/usr/include/gtk-4.0/gdk/gdkrectangle.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f318]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gdk_rectangle_union[None](src1: NullablePointer[Cairorectangleint] tag, src2: NullablePointer[Cairorectangleint] tag, dest: NullablePointer[Cairorectangleint] tag)
+

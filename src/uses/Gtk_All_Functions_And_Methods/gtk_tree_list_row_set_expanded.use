@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:87
+  Original Name: gtk_tree_list_row_set_expanded/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:87
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f737]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_tree_list_row_set_expanded[None](self: NullablePointer[GtkTreeListRow] tag, expanded: I32)
+

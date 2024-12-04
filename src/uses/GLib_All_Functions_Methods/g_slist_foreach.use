@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:127
+  Original Name: g_slist_foreach/usr/include/glib-2.0/glib/gslist.h:127
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_slist_foreach[None](list: NullablePointer[GSList] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

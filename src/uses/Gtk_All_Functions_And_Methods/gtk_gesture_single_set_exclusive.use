@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturesingle.h:54
+  Original Name: gtk_gesture_single_set_exclusive/usr/include/gtk-4.0/gtk/gtkgesturesingle.h:54
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f623]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_gesture_single_set_exclusive[None](gesture: NullablePointer[GtkGestureSingle] tag, exclusive: I32)
+

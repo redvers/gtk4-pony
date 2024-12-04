@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:417
+  Original Name: gdk_event_get_pointer_emulated/usr/include/gtk-4.0/gdk/gdkevents.h:417
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_event_get_pointer_emulated[I32](event: NullablePointer[GdkEvent] tag)
+

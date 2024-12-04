@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistview.h:80
+  Original Name: gtk_list_view_set_enable_rubberband/usr/include/gtk-4.0/gtk/gtklistview.h:80
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f651]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_list_view_set_enable_rubberband[None](self: NullablePointer[GtkListView] tag, enablerubberband: I32)
+

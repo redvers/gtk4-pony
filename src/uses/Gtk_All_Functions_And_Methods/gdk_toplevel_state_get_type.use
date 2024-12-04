@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkenumtypes.h:155
+  Original Name: gdk_toplevel_state_get_type/usr/include/gtk-4.0/gdk/gdkenumtypes.h:155
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_toplevel_state_get_type[U64]()
+

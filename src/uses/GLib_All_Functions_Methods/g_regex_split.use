@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:523
+  Original Name: g_regex_split/usr/include/glib-2.0/glib/gregex.h:523
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f106]
+*/
+use @g_regex_split[Pointer[Pointer[U8]]](regex: NullablePointer[GRegex] tag, string: Pointer[U8] tag, matchoptions: I32)
+

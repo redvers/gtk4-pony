@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknumericsorter.h:45
+  Original Name: gtk_numeric_sorter_get_sort_order/usr/include/gtk-4.0/gtk/gtknumericsorter.h:45
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f668]
+*/
+use @gtk_numeric_sorter_get_sort_order[I32](self: NullablePointer[GtkNumericSorter] tag)
+

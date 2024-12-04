@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gconvert.h:169
+  Original Name: g_get_filename_charsets/usr/include/glib-2.0/glib/gconvert.h:169
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_get_filename_charsets[I32](filenamecharsets: NullablePointer[Array[String]] tag)
+

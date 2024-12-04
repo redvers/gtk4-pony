@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:55
+  Original Name: g_list_free_1/usr/include/glib-2.0/glib/glist.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @g_list_free_1[None](list: NullablePointer[GList] tag)
+

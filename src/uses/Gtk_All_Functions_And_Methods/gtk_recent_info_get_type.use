@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:187
+  Original Name: gtk_recent_info_get_type/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:187
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_recent_info_get_type[U64]()
+

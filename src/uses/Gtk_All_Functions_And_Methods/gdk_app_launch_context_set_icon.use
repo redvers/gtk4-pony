@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h:49
+  Original Name: gdk_app_launch_context_set_icon/usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @gdk_app_launch_context_set_icon[None](context: NullablePointer[GdkAppLaunchContext] tag, icon: NullablePointer[GIcon] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmediastream.h:144
+  Original Name: gtk_media_stream_seek_success/usr/include/gtk-4.0/gtk/gtkmediastream.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f655]
+*/
+use @gtk_media_stream_seek_success[None](self: NullablePointer[GtkMediaStream] tag)
+

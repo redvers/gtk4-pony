@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentserializer.h:58
+  Original Name: gdk_content_serializer_get_priority/usr/include/gtk-4.0/gdk/gdkcontentserializer.h:58
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f394]
+*/
+use @gdk_content_serializer_get_priority[I32](serializer: NullablePointer[GdkContentSerializer] tag)
+

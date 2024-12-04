@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnotification.h:74
+  Original Name: g_notification_add_button_with_target/usr/include/glib-2.0/gio/gnotification.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_notification_add_button_with_target[None](notification: NullablePointer[GNotification] tag, label: Pointer[U8] tag, action: Pointer[U8] tag, targetformat: Pointer[U8] tag, ...)
+

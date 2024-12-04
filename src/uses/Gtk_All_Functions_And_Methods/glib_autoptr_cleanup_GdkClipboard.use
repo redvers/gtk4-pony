@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkclipboard.h:119
+  Original Name: glib_autoptr_cleanup_GdkClipboard/usr/include/gtk-4.0/gdk/gdkclipboard.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @glib_autoptr_cleanup_GdkClipboard[None](ptr: Pointer[NullablePointer[GdkClipboard]] tag)
+

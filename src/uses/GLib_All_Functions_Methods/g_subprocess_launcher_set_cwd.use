@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsubprocesslauncher.h:76
+  Original Name: g_subprocess_launcher_set_cwd/usr/include/glib-2.0/gio/gsubprocesslauncher.h:76
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_subprocess_launcher_set_cwd[None](self: NullablePointer[GSubprocessLauncher] tag, cwd: Pointer[U8] tag)
+

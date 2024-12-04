@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:296
+  Original Name: gtk_print_operation_get_has_selection/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:296
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+*/
+use @gtk_print_operation_get_has_selection[I32](op: NullablePointer[GtkPrintOperation] tag)
+

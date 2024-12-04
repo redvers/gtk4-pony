@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplay.h:60
+  Original Name: gdk_display_is_closed/usr/include/gtk-4.0/gdk/gdkdisplay.h:60
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_display_is_closed[I32](display: NullablePointer[GdkDisplay] tag)
+

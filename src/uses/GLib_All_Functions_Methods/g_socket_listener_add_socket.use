@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsocketlistener.h:95
+  Original Name: g_socket_listener_add_socket/usr/include/glib-2.0/gio/gsocketlistener.h:95
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f199]
+    [PointerType size=64]->[Struct size=256,fid: f195]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_socket_listener_add_socket[I32](listener: NullablePointer[GSocketListener] tag, socket: NullablePointer[GSocket] tag, sourceobject: NullablePointer[GObject] tag, error: Pointer[NullablePointer[GError]] tag)
+

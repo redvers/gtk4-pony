@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdrive.h:219
+  Original Name: g_drive_get_identifier/usr/include/glib-2.0/gio/gdrive.h:219
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_drive_get_identifier[Pointer[U8]](drive: NullablePointer[GDrive] tag, kind: Pointer[U8] tag)
+

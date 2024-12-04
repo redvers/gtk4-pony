@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcustomfilter.h:46
+  Original Name: glib_slistautoptr_cleanup_GtkCustomFilter/usr/include/gtk-4.0/gtk/gtkcustomfilter.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @glib_slistautoptr_cleanup_GtkCustomFilter[None](l: Pointer[NullablePointer[GSList]] tag)
+

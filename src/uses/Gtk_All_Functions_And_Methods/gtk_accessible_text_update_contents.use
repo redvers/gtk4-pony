@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessibletext.h:267
+  Original Name: gtk_accessible_text_update_contents/usr/include/gtk-4.0/gtk/gtkaccessibletext.h:267
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f491]
+    [Enumeration size=32,fid: f491]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_accessible_text_update_contents[None](self: NullablePointer[GtkAccessibleText] tag, change: I32, start: U32, end: U32)
+

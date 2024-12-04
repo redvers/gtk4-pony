@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmultisorter.h:39
+  Original Name: gtk_multi_sorter_append/usr/include/gtk-4.0/gtk/gtkmultisorter.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f664]
+    [PointerType size=64]->[Struct size=192,fid: f552]
+*/
+use @gtk_multi_sorter_append[None](self: NullablePointer[GtkMultiSorter] tag, sorter: NullablePointer[GtkSorter] tag)
+

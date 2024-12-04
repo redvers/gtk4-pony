@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresource.h:102
+  Original Name: g_resources_unregister/usr/include/glib-2.0/gio/gresource.h:102
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_resources_unregister[None](resource: NullablePointer[GResource] tag)
+

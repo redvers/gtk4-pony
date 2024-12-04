@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmarkup.h:223
+  Original Name: g_markup_parse_context_get_position/usr/include/glib-2.0/glib/gmarkup.h:223
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f92]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_markup_parse_context_get_position[None](context: NullablePointer[GMarkupParseContext] tag, linenumber: Pointer[I32] tag, charnumber: Pointer[I32] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:148
+  Original Name: g_string_erase/usr/include/glib-2.0/glib/gstring.h:148
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [FundamentalType(long int) size=64]
+    [FundamentalType(long int) size=64]
+*/
+use @g_string_erase[NullablePointer[GString]](string: NullablePointer[GString] tag, pos: I64, len: I64)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtrashstack.h:52
+  Original Name: g_trash_stack_peek/usr/include/glib-2.0/glib/gtrashstack.h:52
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=64,fid: f118]
+*/
+use @g_trash_stack_peek[Pointer[None]](stackp: Pointer[NullablePointer[GTrashStack]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistitem.h:48
+  Original Name: gtk_list_item_set_activatable/usr/include/gtk-4.0/gtk/gtklistitem.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_list_item_set_activatable[None](self: NullablePointer[GtkListItem] tag, activatable: I32)
+

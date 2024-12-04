@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/giochannel.h:164
+  Original Name: g_io_channel_ref/usr/include/glib-2.0/glib/giochannel.h:164
+
+  Return Value: [PointerType size=64]->[Struct size=896,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f89]
+*/
+use @g_io_channel_ref[NullablePointer[GIOChannel]](channel: NullablePointer[GIOChannel] tag)
+

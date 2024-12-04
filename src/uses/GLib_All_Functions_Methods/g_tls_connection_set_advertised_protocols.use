@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtlsconnection.h:146
+  Original Name: g_tls_connection_set_advertised_protocols/usr/include/glib-2.0/gio/gtlsconnection.h:146
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f207]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_tls_connection_set_advertised_protocols[None](conn: NullablePointer[GTlsConnection] tag, protocols: Pointer[Pointer[U8]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:573
+  Original Name: g_match_info_ref/usr/include/glib-2.0/glib/gregex.h:573
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f106]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+*/
+use @g_match_info_ref[NullablePointer[GMatchInfo]](matchinfo: NullablePointer[GMatchInfo] tag)
+

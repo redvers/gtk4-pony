@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:489
+  Original Name: g_rec_mutex_locker_new/usr/include/glib-2.0/glib/gthread.h:489
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f41]
+*/
+use @g_rec_mutex_locker_new[Pointer[None]](recmutex: NullablePointer[GRecMutex] tag)
+

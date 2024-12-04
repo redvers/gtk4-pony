@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:95
+  Original Name: gsk_path_print/usr/include/gtk-4.0/gsk/gskpath.h:95
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @gsk_path_print[None](self: NullablePointer[GskPath] tag, string: NullablePointer[GString] tag)
+

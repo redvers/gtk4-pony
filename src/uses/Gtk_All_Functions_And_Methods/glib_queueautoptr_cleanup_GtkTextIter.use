@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:416
+  Original Name: glib_queueautoptr_cleanup_GtkTextIter/usr/include/gtk-4.0/gtk/gtktextiter.h:416
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @glib_queueautoptr_cleanup_GtkTextIter[None](q: Pointer[NullablePointer[GQueue]] tag)
+

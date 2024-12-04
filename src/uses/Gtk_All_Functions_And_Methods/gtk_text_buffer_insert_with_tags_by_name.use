@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextbuffer.h:204
+  Original Name: gtk_text_buffer_insert_with_tags_by_name/usr/include/gtk-4.0/gtk/gtktextbuffer.h:204
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f731]
+    [PointerType size=64]->[Struct size=640,fid: f727]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_text_buffer_insert_with_tags_by_name[None](buffer: NullablePointer[GtkTextBuffer] tag, iter: NullablePointer[GtkTextIter] tag, text: Pointer[U8] tag, len: I32, firsttagname: Pointer[U8] tag, ...)
+

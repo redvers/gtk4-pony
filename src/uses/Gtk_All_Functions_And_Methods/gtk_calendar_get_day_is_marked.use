@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkcalendar.h:106
+  Original Name: gtk_calendar_get_day_is_marked/usr/include/gtk-4.0/gtk/gtkcalendar.h:106
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f524]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_calendar_get_day_is_marked[I32](calendar: NullablePointer[GtkCalendar] tag, day: U32)
+

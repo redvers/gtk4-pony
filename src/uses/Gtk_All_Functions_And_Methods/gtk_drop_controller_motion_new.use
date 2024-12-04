@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:45
+  Original Name: gtk_drop_controller_motion_new/usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+*/
+use @gtk_drop_controller_motion_new[NullablePointer[GtkEventController]]()
+

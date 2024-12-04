@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksingleselection.h:49
+  Original Name: gtk_single_selection_set_autoselect/usr/include/gtk-4.0/gtk/gtksingleselection.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f711]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_single_selection_set_autoselect[None](self: NullablePointer[GtkSingleSelection] tag, autoselect: I32)
+

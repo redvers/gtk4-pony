@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkatcontext.h:36
+  Original Name: GTK_AT_CONTEXT_CLASS/usr/include/gtk-4.0/gtk/gtkatcontext.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f507]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_AT_CONTEXT_CLASS[NullablePointer[GtkATContextClass]](ptr: Pointer[None] tag)
+

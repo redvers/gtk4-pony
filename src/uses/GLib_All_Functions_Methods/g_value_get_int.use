@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gvaluetypes.h:217
+  Original Name: g_value_get_int/usr/include/glib-2.0/gobject/gvaluetypes.h:217
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_value_get_int[I32](value: NullablePointer[GValue] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedinputstream.h:96
+  Original Name: g_buffered_input_stream_get_available/usr/include/glib-2.0/gio/gbufferedinputstream.h:96
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f162]
+*/
+use @g_buffered_input_stream_get_available[U64](stream: NullablePointer[GBufferedInputStream] tag)
+

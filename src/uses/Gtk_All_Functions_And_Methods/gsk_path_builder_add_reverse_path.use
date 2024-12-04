@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpathbuilder.h:55
+  Original Name: gsk_path_builder_add_reverse_path/usr/include/gtk-4.0/gsk/gskpathbuilder.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f461]
+*/
+use @gsk_path_builder_add_reverse_path[None](self: NullablePointer[GskPathBuilder] tag, path: NullablePointer[GskPath] tag)
+

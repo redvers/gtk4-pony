@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopuplayout.h:121
+  Original Name: gdk_popup_layout_get_anchor_hints/usr/include/gtk-4.0/gdk/gdkpopuplayout.h:121
+
+  Return Value: [Enumeration size=32,fid: f404]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f404]
+*/
+use @gdk_popup_layout_get_anchor_hints[I32](layout: NullablePointer[GdkPopupLayout] tag)
+

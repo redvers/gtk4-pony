@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmenu.h:163
+  Original Name: g_menu_item_set_section/usr/include/glib-2.0/gio/gmenu.h:163
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f278]
+    [PointerType size=64]->[Struct size=256,fid: f173]
+*/
+use @g_menu_item_set_section[None](menuitem: NullablePointer[GMenuItem] tag, section: NullablePointer[GMenuModel] tag)
+

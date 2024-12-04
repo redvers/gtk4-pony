@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:47
+  Original Name: g_timer_new/usr/include/glib-2.0/glib/gtimer.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f117]
+
+  Arguments:
+*/
+use @g_timer_new[NullablePointer[GTimer]]()
+

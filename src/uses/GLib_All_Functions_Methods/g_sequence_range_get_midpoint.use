@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gsequence.h:170
+  Original Name: g_sequence_range_get_midpoint/usr/include/glib-2.0/glib/gsequence.h:170
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f108]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @g_sequence_range_get_midpoint[NullablePointer[GSequenceNode]](begin: NullablePointer[GSequenceNode] tag, end: NullablePointer[GSequenceNode] tag)
+

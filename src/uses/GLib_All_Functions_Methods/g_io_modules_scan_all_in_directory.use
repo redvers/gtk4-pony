@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giomodule.h:60
+  Original Name: g_io_modules_scan_all_in_directory/usr/include/glib-2.0/gio/giomodule.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_io_modules_scan_all_in_directory[None](dirname: Pointer[U8] tag)
+

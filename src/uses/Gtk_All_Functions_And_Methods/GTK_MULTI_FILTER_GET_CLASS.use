@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmultifilter.h:33
+  Original Name: GTK_MULTI_FILTER_GET_CLASS/usr/include/gtk-4.0/gtk/gtkmultifilter.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f662]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_MULTI_FILTER_GET_CLASS[NullablePointer[GtkMultiFilterClass]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:247
+  Original Name: g_date_get_days_in_month/usr/include/glib-2.0/glib/gdate.h:247
+
+  Return Value: [FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [Enumeration size=32,fid: f69]
+    [FundamentalType(short unsigned int) size=16]
+*/
+use @g_date_get_days_in_month[U8](month: I32, year: U16)
+

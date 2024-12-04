@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdktoplevelsize.h:46
+  Original Name: gdk_toplevel_size_set_min_size/usr/include/gtk-4.0/gdk/gdktoplevelsize.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f430]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_toplevel_size_set_min_size[None](size: NullablePointer[GdkToplevelSize] tag, minwidth: I32, minheight: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrange.h:93
+  Original Name: gtk_range_get_inverted/usr/include/gtk-4.0/gtk/gtkrange.h:93
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f687]
+*/
+use @gtk_range_get_inverted[I32](range: NullablePointer[GtkRange] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessiblerange.h:19
+  Original Name: GTK_ACCESSIBLE_RANGE_GET_IFACE/usr/include/gtk-4.0/gtk/gtkaccessiblerange.h:19
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f490]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_ACCESSIBLE_RANGE_GET_IFACE[NullablePointer[GtkAccessibleRangeInterface]](ptr: Pointer[None] tag)
+

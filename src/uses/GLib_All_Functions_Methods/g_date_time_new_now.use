@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:130
+  Original Name: g_date_time_new_now/usr/include/glib-2.0/glib/gdatetime.h:130
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f61]
+*/
+use @g_date_time_new_now[NullablePointer[GDateTime]](tz: NullablePointer[GTimeZone] tag)
+

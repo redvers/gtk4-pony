@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktexttagtable.h:61
+  Original Name: gtk_text_tag_table_lookup/usr/include/gtk-4.0/gtk/gtktexttagtable.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f728]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f728]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_text_tag_table_lookup[NullablePointer[GtkTextTag]](table: NullablePointer[GtkTextTagTable] tag, name: Pointer[U8] tag)
+

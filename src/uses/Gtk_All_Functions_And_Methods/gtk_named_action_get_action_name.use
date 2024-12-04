@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:162
+  Original Name: gtk_named_action_get_action_name/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:162
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f484]
+*/
+use @gtk_named_action_get_action_name[Pointer[U8]](self: NullablePointer[GtkNamedAction] tag)
+

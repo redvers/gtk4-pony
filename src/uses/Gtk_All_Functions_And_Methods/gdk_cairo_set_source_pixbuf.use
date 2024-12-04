@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairo.h:34
+  Original Name: gdk_cairo_set_source_pixbuf/usr/include/gtk-4.0/gdk/gdkcairo.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f318]
+    [PointerType size=64]->[Struct size=,fid: f378]
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @gdk_cairo_set_source_pixbuf[None](cr: NullablePointer[Cairo] tag, pixbuf: NullablePointer[GdkPixbuf] tag, pixbufx: F64, pixbufy: F64)
+

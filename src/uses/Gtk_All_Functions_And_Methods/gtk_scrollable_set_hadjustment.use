@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscrollable.h:53
+  Original Name: gtk_scrollable_set_hadjustment/usr/include/gtk-4.0/gtk/gtkscrollable.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f695]
+    [PointerType size=64]->[Struct size=192,fid: f477]
+*/
+use @gtk_scrollable_set_hadjustment[None](scrollable: NullablePointer[GtkScrollable] tag, hadjustment: NullablePointer[GtkAdjustment] tag)
+

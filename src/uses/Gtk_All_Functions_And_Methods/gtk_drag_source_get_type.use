@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragsource.h:49
+  Original Name: gtk_drag_source_get_type/usr/include/gtk-4.0/gtk/gtkdragsource.h:49
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_drag_source_get_type[U64]()
+

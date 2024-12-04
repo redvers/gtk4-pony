@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:381
+  Original Name: gdk_event_get_seat/usr/include/gtk-4.0/gdk/gdkevents.h:381
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f375]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+*/
+use @gdk_event_get_seat[NullablePointer[GdkSeat]](event: NullablePointer[GdkEvent] tag)
+

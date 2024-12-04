@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:275
+  Original Name: g_date_order/usr/include/glib-2.0/glib/gdate.h:275
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [PointerType size=64]->[Struct size=64,fid: f69]
+*/
+use @g_date_order[None](date1: NullablePointer[GDate] tag, date2: NullablePointer[GDate] tag)
+

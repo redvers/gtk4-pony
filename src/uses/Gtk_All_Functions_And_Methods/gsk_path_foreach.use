@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:142
+  Original Name: gsk_path_foreach/usr/include/gtk-4.0/gsk/gskpath.h:142
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [Enumeration size=32,fid: f464]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gsk_path_foreach[I32](self: NullablePointer[GskPath] tag, flags: I32, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

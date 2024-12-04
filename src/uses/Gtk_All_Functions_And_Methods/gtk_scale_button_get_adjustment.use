@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscalebutton.h:88
+  Original Name: gtk_scale_button_get_adjustment/usr/include/gtk-4.0/gtk/gtkscalebutton.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f477]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f694]
+*/
+use @gtk_scale_button_get_adjustment[NullablePointer[GtkAdjustment]](button: NullablePointer[GtkScaleButton] tag)
+

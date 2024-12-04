@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringlist.h:46
+  Original Name: GTK_STRING_LIST/usr/include/gtk-4.0/gtk/gtkstringlist.h:46
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f721]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @GTK_STRING_LIST[NullablePointer[GtkStringList]](ptr: Pointer[None] tag)
+

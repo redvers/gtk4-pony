@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturesingle.h:45
+  Original Name: gtk_gesture_single_get_touch_only/usr/include/gtk-4.0/gtk/gtkgesturesingle.h:45
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f623]
+*/
+use @gtk_gesture_single_get_touch_only[I32](gesture: NullablePointer[GtkGestureSingle] tag)
+

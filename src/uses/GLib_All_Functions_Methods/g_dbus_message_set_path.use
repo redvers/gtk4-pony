@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusmessage.h:144
+  Original Name: g_dbus_message_set_path/usr/include/glib-2.0/gio/gdbusmessage.h:144
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_message_set_path[None](message: NullablePointer[GDBusMessage] tag, value: Pointer[U8] tag)
+

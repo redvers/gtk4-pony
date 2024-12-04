@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:191
+  Original Name: g_dbus_interface_info_lookup_signal/usr/include/glib-2.0/gio/gdbusintrospection.h:191
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f220]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f220]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_interface_info_lookup_signal[NullablePointer[GDBusSignalInfo]](info: NullablePointer[GDBusInterfaceInfo] tag, name: Pointer[U8] tag)
+

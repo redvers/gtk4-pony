@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gemblem.h:54
+  Original Name: g_emblem_get_origin/usr/include/glib-2.0/gio/gemblem.h:54
+
+  Return Value: [Enumeration size=32,fid: f159]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f263]
+*/
+use @g_emblem_get_origin[I32](emblem: NullablePointer[GEmblem] tag)
+

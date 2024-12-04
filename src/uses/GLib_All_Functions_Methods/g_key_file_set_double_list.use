@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:257
+  Original Name: g_key_file_set_double_list/usr/include/glib-2.0/glib/gkeyfile.h:257
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_key_file_set_double_list[None](keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag, key: Pointer[U8] tag, list: Pointer[F64] tag, length: U64)
+

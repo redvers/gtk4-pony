@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdragsurfacesize.h:34
+  Original Name: gdk_drag_surface_size_get_type/usr/include/gtk-4.0/gdk/gdkdragsurfacesize.h:34
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_drag_surface_size_get_type[U64]()
+

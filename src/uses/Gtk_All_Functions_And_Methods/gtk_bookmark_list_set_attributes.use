@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbookmarklist.h:47
+  Original Name: gtk_bookmark_list_set_attributes/usr/include/gtk-4.0/gtk/gtkbookmarklist.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f511]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_bookmark_list_set_attributes[None](self: NullablePointer[GtkBookmarkList] tag, attributes: Pointer[U8] tag)
+

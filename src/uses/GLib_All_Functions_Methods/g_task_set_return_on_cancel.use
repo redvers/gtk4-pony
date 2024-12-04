@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gtask.h:141
+  Original Name: g_task_set_return_on_cancel/usr/include/glib-2.0/gio/gtask.h:141
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+*/
+use @g_task_set_return_on_cancel[I32](task: NullablePointer[GTask] tag, returnoncancel: I32)
+

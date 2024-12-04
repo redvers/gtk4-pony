@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/giostream.h:123
+  Original Name: g_io_stream_has_pending/usr/include/glib-2.0/gio/giostream.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f193]
+*/
+use @g_io_stream_has_pending[I32](stream: NullablePointer[GIOStream] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:47
+  Original Name: glib_autoptr_clear_GDataInputStream/usr/include/glib-2.0/gio/gio-autocleanups.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f167]
+*/
+use @glib_autoptr_clear_GDataInputStream[None](ptr: NullablePointer[GDataInputStream] tag)
+

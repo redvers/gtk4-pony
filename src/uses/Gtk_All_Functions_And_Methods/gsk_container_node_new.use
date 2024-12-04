@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:394
+  Original Name: gsk_container_node_new/usr/include/gtk-4.0/gsk/gskrendernode.h:394
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f461]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gsk_container_node_new[NullablePointer[GskRenderNode]](children: Pointer[NullablePointer[GskRenderNode]] tag, nchildren: U32)
+

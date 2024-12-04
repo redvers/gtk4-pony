@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:705
+  Original Name: g_test_log_buffer_free/usr/include/glib-2.0/glib/gtestutils.h:705
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f115]
+*/
+use @g_test_log_buffer_free[None](tbuffer: NullablePointer[] tag)
+

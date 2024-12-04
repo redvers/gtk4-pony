@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileattribute.h:76
+  Original Name: g_file_attribute_info_list_lookup/usr/include/glib-2.0/gio/gfileattribute.h:76
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f178]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f178]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_attribute_info_list_lookup[NullablePointer[GFileAttributeInfo]](list: NullablePointer[GFileAttributeInfoList] tag, name: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpoll.h:116
+  Original Name: g_poll/usr/include/glib-2.0/glib/gpoll.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f83]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @g_poll[I32](fds: NullablePointer[GPollFD] tag, nfds: U32, timeout: I32)
+

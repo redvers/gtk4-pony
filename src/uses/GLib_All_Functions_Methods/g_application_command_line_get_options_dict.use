@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplicationcommandline.h:83
+  Original Name: g_application_command_line_get_options_dict/usr/include/glib-2.0/gio/gapplicationcommandline.h:83
+
+  Return Value: [PointerType size=64]->[Struct size=1024,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f170]
+*/
+use @g_application_command_line_get_options_dict[NullablePointer[GVariantDict]](cmdline: NullablePointer[GApplicationCommandLine] tag)
+

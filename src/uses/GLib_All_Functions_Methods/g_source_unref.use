@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:609
+  Original Name: g_source_unref/usr/include/glib-2.0/glib/gmain.h:609
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+*/
+use @g_source_unref[None](source: NullablePointer[GSource] tag)
+

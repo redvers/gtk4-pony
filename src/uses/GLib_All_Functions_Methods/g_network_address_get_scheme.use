@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnetworkaddress.h:77
+  Original Name: g_network_address_get_scheme/usr/include/glib-2.0/gio/gnetworkaddress.h:77
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f190]
+*/
+use @g_network_address_get_scheme[Pointer[U8]](addr: NullablePointer[GNetworkAddress] tag)
+

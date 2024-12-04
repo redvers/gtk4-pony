@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:205
+  Original Name: gtk_notebook_reorder_child/usr/include/gtk-4.0/gtk/gtknotebook.h:205
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_notebook_reorder_child[None](notebook: NullablePointer[GtkNotebook] tag, child: NullablePointer[GtkWidget] tag, position: I32)
+

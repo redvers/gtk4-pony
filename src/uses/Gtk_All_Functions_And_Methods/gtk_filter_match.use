@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfilter.h:102
+  Original Name: gtk_filter_match/usr/include/gtk-4.0/gtk/gtkfilter.h:102
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f513]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gtk_filter_match[I32](self: NullablePointer[GtkFilter] tag, item: Pointer[None] tag)
+

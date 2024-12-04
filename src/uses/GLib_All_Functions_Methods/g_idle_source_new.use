@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:716
+  Original Name: g_idle_source_new/usr/include/glib-2.0/glib/gmain.h:716
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f85]
+
+  Arguments:
+*/
+use @g_idle_source_new[NullablePointer[GSource]]()
+

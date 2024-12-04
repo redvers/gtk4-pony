@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpathbuf.h:73
+  Original Name: g_path_buf_set_extension/usr/include/glib-2.0/glib/gpathbuf.h:73
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f97]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_path_buf_set_extension[I32](buf: NullablePointer[GPathBuf] tag, extension: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:179
+  Original Name: gtk_stack_get_pages/usr/include/gtk-4.0/gtk/gtkstack.h:179
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f554]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+*/
+use @gtk_stack_get_pages[NullablePointer[GtkSelectionModel]](stack: NullablePointer[GtkStack] tag)
+

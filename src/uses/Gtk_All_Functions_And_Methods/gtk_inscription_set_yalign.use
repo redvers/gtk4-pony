@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkinscription.h:110
+  Original Name: gtk_inscription_set_yalign/usr/include/gtk-4.0/gtk/gtkinscription.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f645]
+    [FundamentalType(float) size=32]
+*/
+use @gtk_inscription_set_yalign[None](self: NullablePointer[GtkInscription] tag, yalign: F32)
+

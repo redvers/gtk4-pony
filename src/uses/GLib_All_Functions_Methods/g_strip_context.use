@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ggettext.h:39
+  Original Name: g_strip_context/usr/include/glib-2.0/glib/ggettext.h:39
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strip_context[Pointer[U8]](msgid: Pointer[U8] tag, msgval: Pointer[U8] tag)
+

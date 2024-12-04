@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmessages.h:535
+  Original Name: g_set_printerr_handler/usr/include/glib-2.0/glib/gmessages.h:535
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_set_printerr_handler[Pointer[None]](func: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:93
+  Original Name: g_dbus_object_manager_client_new_finish/usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:93
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_dbus_object_manager_client_new_finish[NullablePointer[GDBusObjectManager]](res: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

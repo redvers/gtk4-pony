@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:47
+  Original Name: gtk_print_context_get_page_setup/usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f674]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f683]
+*/
+use @gtk_print_context_get_page_setup[NullablePointer[GtkPageSetup]](context: NullablePointer[GtkPrintContext] tag)
+

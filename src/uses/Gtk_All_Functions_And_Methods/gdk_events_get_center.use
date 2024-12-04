@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:524
+  Original Name: gdk_events_get_center/usr/include/gtk-4.0/gdk/gdkevents.h:524
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gdk_events_get_center[I32](event1: NullablePointer[GdkEvent] tag, event2: NullablePointer[GdkEvent] tag, x: Pointer[F64] tag, y: Pointer[F64] tag)
+

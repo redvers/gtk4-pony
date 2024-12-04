@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1446
+  Original Name: g_file_info_get_creation_date_time/usr/include/glib-2.0/gio/gfileinfo.h:1446
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f62]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_file_info_get_creation_date_time[NullablePointer[GDateTime]](info: NullablePointer[GFileInfo] tag)
+

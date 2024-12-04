@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:101
+  Original Name: gtk_font_dialog_button_get_use_font/usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h:101
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f620]
+*/
+use @gtk_font_dialog_button_get_use_font[I32](self: NullablePointer[GtkFontDialogButton] tag)
+

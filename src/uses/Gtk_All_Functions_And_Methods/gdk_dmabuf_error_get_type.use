@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkenumtypes.h:51
+  Original Name: gdk_dmabuf_error_get_type/usr/include/gtk-4.0/gdk/gdkenumtypes.h:51
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gdk_dmabuf_error_get_type[U64]()
+

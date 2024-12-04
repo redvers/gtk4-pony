@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:218
+  Original Name: g_application_open/usr/include/glib-2.0/gio/gapplication.h:218
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_open[None](application: NullablePointer[GApplication] tag, files: Pointer[NullablePointer[GFile]] tag, nfiles: I32, hint: Pointer[U8] tag)
+

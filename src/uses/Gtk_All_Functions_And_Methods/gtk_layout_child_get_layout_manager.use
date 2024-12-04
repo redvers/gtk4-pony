@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklayoutchild.h:23
+  Original Name: gtk_layout_child_get_layout_manager/usr/include/gtk-4.0/gtk/gtklayoutchild.h:23
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f479]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f508]
+*/
+use @gtk_layout_child_get_layout_manager[NullablePointer[GtkLayoutManager]](layoutchild: NullablePointer[GtkLayoutChild] tag)
+

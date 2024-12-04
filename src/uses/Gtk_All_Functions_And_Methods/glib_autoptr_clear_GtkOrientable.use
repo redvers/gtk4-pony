@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkorientable.h:55
+  Original Name: glib_autoptr_clear_GtkOrientable/usr/include/gtk-4.0/gtk/gtkorientable.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f669]
+*/
+use @glib_autoptr_clear_GtkOrientable[None](ptr: NullablePointer[GtkOrientable] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpattern.h:39
+  Original Name: g_pattern_spec_copy/usr/include/glib-2.0/glib/gpattern.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f98]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f98]
+*/
+use @g_pattern_spec_copy[NullablePointer[GPatternSpec]](pspec: NullablePointer[GPatternSpec] tag)
+

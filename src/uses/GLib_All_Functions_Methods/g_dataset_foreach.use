@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdataset.h:136
+  Original Name: g_dataset_foreach/usr/include/glib-2.0/glib/gdataset.h:136
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_dataset_foreach[None](datasetlocation: Pointer[None] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

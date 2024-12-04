@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskpath.h:131
+  Original Name: gsk_path_get_end_point/usr/include/gtk-4.0/gsk/gskpath.h:131
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=512,fid: f462]
+*/
+use @gsk_path_get_end_point[I32](self: NullablePointer[GskPath] tag, result: NullablePointer[GskPathPoint] tag)
+

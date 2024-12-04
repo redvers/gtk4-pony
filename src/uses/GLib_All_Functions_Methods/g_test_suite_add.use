@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:565
+  Original Name: g_test_suite_add/usr/include/glib-2.0/glib/gtestutils.h:565
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f115]
+    [PointerType size=64]->[Struct size=,fid: f115]
+*/
+use @g_test_suite_add[None](suite: NullablePointer[GTestSuite] tag, testcase: NullablePointer[GTestCase] tag)
+

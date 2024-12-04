@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolume.h:202
+  Original Name: g_volume_can_mount/usr/include/glib-2.0/gio/gvolume.h:202
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_volume_can_mount[I32](volume: NullablePointer[GVolume] tag)
+

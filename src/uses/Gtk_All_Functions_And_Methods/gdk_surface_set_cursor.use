@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdksurface.h:75
+  Original Name: gdk_surface_set_cursor/usr/include/gtk-4.0/gdk/gdksurface.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_surface_set_cursor[None](surface: NullablePointer[GdkSurface] tag, cursor: NullablePointer[GdkCursor] tag)
+

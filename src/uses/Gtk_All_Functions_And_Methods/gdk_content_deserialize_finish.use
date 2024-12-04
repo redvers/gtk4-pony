@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:96
+  Original Name: gdk_content_deserialize_finish/usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h:96
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=192,fid: f136]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_content_deserialize_finish[I32](result: NullablePointer[GAsyncResult] tag, value: NullablePointer[GValue] tag, error: Pointer[NullablePointer[GError]] tag)
+

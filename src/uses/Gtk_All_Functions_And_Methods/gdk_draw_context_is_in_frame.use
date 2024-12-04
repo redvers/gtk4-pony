@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrawcontext.h:50
+  Original Name: gdk_draw_context_is_in_frame/usr/include/gtk-4.0/gdk/gdkdrawcontext.h:50
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_draw_context_is_in_frame[I32](context: NullablePointer[GdkDrawContext] tag)
+

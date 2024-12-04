@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:92
+  Original Name: gtk_picture_get_alternative_text/usr/include/gtk-4.0/gtk/gtkpicture.h:92
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f678]
+*/
+use @gtk_picture_get_alternative_text[Pointer[U8]](self: NullablePointer[GtkPicture] tag)
+

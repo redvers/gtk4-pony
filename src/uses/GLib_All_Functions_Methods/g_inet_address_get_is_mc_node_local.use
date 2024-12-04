@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:115
+  Original Name: g_inet_address_get_is_mc_node_local/usr/include/glib-2.0/gio/ginetaddress.h:115
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f182]
+*/
+use @g_inet_address_get_is_mc_node_local[I32](address: NullablePointer[GInetAddress] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusserver.h:48
+  Original Name: g_dbus_server_get_client_address/usr/include/glib-2.0/gio/gdbusserver.h:48
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_dbus_server_get_client_address[Pointer[U8]](server: NullablePointer[GDBusServer] tag)
+

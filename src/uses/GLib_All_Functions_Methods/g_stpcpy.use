@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:386
+  Original Name: g_stpcpy/usr/include/glib-2.0/glib/gstrfuncs.h:386
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_stpcpy[Pointer[U8]](dest: Pointer[U8] tag, src: Pointer[U8] tag)
+

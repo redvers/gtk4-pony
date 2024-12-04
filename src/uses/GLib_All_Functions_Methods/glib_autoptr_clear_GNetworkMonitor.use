@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:101
+  Original Name: glib_autoptr_clear_GNetworkMonitor/usr/include/glib-2.0/gio/gio-autocleanups.h:101
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @glib_autoptr_clear_GNetworkMonitor[None](ptr: NullablePointer[GNetworkMonitor] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:703
+  Original Name: g_test_log_buffer_new/usr/include/glib-2.0/glib/gtestutils.h:703
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f115]
+
+  Arguments:
+*/
+use @g_test_log_buffer_new[NullablePointer[]]()
+

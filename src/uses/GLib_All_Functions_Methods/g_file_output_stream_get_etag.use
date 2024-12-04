@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileoutputstream.h:112
+  Original Name: g_file_output_stream_get_etag/usr/include/glib-2.0/gio/gfileoutputstream.h:112
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f180]
+*/
+use @g_file_output_stream_get_etag[Pointer[U8]](stream: NullablePointer[GFileOutputStream] tag)
+

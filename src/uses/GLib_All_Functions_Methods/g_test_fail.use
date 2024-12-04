@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:392
+  Original Name: g_test_fail/usr/include/glib-2.0/glib/gtestutils.h:392
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @g_test_fail[None]()
+

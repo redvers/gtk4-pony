@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistheader.h:39
+  Original Name: gtk_list_header_get_end/usr/include/gtk-4.0/gtk/gtklistheader.h:39
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f650]
+*/
+use @gtk_list_header_get_end[U32](self: NullablePointer[GtkListHeader] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgestureswipe.h:52
+  Original Name: glib_autoptr_cleanup_GtkGestureSwipe/usr/include/gtk-4.0/gtk/gtkgestureswipe.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f630]
+*/
+use @glib_autoptr_cleanup_GtkGestureSwipe[None](ptr: Pointer[NullablePointer[GtkGestureSwipe]] tag)
+

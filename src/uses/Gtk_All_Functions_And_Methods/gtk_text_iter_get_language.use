@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:221
+  Original Name: gtk_text_iter_get_language/usr/include/gtk-4.0/gtk/gtktextiter.h:221
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f339]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_get_language[NullablePointer[PangoLanguage]](iter: NullablePointer[GtkTextIter] tag)
+

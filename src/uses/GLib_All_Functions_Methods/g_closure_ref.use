@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gclosure.h:237
+  Original Name: g_closure_ref/usr/include/glib-2.0/gobject/gclosure.h:237
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f138]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f138]
+*/
+use @g_closure_ref[NullablePointer[GClosure]](closure: NullablePointer[GClosure] tag)
+

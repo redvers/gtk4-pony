@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:241
+  Original Name: gtk_recent_info_get_age/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:241
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f688]
+*/
+use @gtk_recent_info_get_age[I32](info: NullablePointer[GtkRecentInfo] tag)
+

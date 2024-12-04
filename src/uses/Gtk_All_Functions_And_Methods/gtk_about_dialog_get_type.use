@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:97
+  Original Name: gtk_about_dialog_get_type/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:97
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_about_dialog_get_type[U64]()
+

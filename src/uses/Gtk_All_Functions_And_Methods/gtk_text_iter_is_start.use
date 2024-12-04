@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:225
+  Original Name: gtk_text_iter_is_start/usr/include/gtk-4.0/gtk/gtktextiter.h:225
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_is_start[I32](iter: NullablePointer[GtkTextIter] tag)
+

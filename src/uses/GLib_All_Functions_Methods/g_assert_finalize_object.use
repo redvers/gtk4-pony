@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:800
+  Original Name: g_assert_finalize_object/usr/include/glib-2.0/gobject/gobject.h:800
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @g_assert_finalize_object[None](object: NullablePointer[GObject] tag)
+

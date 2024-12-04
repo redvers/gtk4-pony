@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:149
+  Original Name: g_thread_unref/usr/include/glib-2.0/glib/gthread.h:149
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f42]
+*/
+use @g_thread_unref[None](thread: NullablePointer[GThread] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/genviron.h:45
+  Original Name: g_unsetenv/usr/include/glib-2.0/glib/genviron.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_unsetenv[None](variable: Pointer[U8] tag)
+

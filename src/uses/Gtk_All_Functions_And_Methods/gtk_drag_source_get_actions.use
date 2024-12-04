@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdragsource.h:64
+  Original Name: gtk_drag_source_get_actions/usr/include/gtk-4.0/gtk/gtkdragsource.h:64
+
+  Return Value: [Enumeration size=32,fid: f371]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f585]
+*/
+use @gtk_drag_source_get_actions[I32](source: NullablePointer[GtkDragSource] tag)
+

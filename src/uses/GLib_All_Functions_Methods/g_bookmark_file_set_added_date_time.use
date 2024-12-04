@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:265
+  Original Name: g_bookmark_file_set_added_date_time/usr/include/glib-2.0/glib/gbookmarkfile.h:265
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f63]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f62]
+*/
+use @g_bookmark_file_set_added_date_time[None](bookmark: NullablePointer[GBookmarkFile] tag, uri: Pointer[U8] tag, added: NullablePointer[GDateTime] tag)
+

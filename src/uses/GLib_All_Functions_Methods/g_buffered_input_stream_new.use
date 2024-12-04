@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedinputstream.h:85
+  Original Name: g_buffered_input_stream_new/usr/include/glib-2.0/gio/gbufferedinputstream.h:85
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f186]
+*/
+use @g_buffered_input_stream_new[NullablePointer[GInputStream]](basestream: NullablePointer[GInputStream] tag)
+

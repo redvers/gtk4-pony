@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkmultiselection.h:30
+  Original Name: glib_autoptr_cleanup_GtkMultiSelectionClass/usr/include/gtk-4.0/gtk/gtkmultiselection.h:30
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1088,fid: f663]
+*/
+use @glib_autoptr_cleanup_GtkMultiSelectionClass[None](ptr: Pointer[NullablePointer[]] tag)
+

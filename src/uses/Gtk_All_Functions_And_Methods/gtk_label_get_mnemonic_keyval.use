@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklabel.h:80
+  Original Name: gtk_label_get_mnemonic_keyval/usr/include/gtk-4.0/gtk/gtklabel.h:80
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f646]
+*/
+use @gtk_label_get_mnemonic_keyval[U32](self: NullablePointer[GtkLabel] tag)
+

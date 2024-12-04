@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:242
+  Original Name: gtk_print_settings_set_use_color/usr/include/gtk-4.0/gtk/print/gtkprintsettings.h:242
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f681]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_print_settings_set_use_color[None](settings: NullablePointer[GtkPrintSettings] tag, usecolor: I32)
+

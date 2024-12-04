@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:464
+  Original Name: g_test_queue_free/usr/include/glib-2.0/glib/gtestutils.h:464
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_test_queue_free[None](gfreepointer: Pointer[None] tag)
+

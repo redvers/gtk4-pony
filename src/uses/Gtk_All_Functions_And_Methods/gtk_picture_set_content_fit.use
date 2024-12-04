@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpicture.h:83
+  Original Name: gtk_picture_set_content_fit/usr/include/gtk-4.0/gtk/gtkpicture.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f678]
+    [Enumeration size=32,fid: f476]
+*/
+use @gtk_picture_set_content_fit[None](self: NullablePointer[GtkPicture] tag, contentfit: I32)
+

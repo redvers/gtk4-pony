@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskstroke.h:83
+  Original Name: gsk_stroke_to_cairo/usr/include/gtk-4.0/gsk/gskstroke.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[Struct size=,fid: f318]
+*/
+use @gsk_stroke_to_cairo[None](self: NullablePointer[GskStroke] tag, cr: NullablePointer[Cairo] tag)
+

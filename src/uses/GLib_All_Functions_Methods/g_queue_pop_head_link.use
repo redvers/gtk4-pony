@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gqueue.h:180
+  Original Name: g_queue_pop_head_link/usr/include/glib-2.0/glib/gqueue.h:180
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f101]
+*/
+use @g_queue_pop_head_link[NullablePointer[GList]](queue: NullablePointer[GQueue] tag)
+

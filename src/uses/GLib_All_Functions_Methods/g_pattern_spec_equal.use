@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gpattern.h:41
+  Original Name: g_pattern_spec_equal/usr/include/glib-2.0/glib/gpattern.h:41
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f98]
+    [PointerType size=64]->[Struct size=,fid: f98]
+*/
+use @g_pattern_spec_equal[I32](pspec1: NullablePointer[GPatternSpec] tag, pspec2: NullablePointer[GPatternSpec] tag)
+

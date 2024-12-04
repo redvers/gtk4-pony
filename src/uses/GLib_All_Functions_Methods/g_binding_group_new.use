@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gbindinggroup.h:44
+  Original Name: g_binding_group_new/usr/include/glib-2.0/gobject/gbindinggroup.h:44
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f145]
+
+  Arguments:
+*/
+use @g_binding_group_new[NullablePointer[GBindingGroup]]()
+

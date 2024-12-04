@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gkeyfile.h:110
+  Original Name: g_key_file_get_groups/usr/include/glib-2.0/glib/gkeyfile.h:110
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @g_key_file_get_groups[Pointer[Pointer[U8]]](keyfile: NullablePointer[GKeyFile] tag, length: Pointer[U64] tag)
+

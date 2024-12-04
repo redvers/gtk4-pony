@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/css/gtkcsssection.h:55
+  Original Name: gtk_css_section_print/usr/include/gtk-4.0/gtk/css/gtkcsssection.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f317]
+    [PointerType size=64]->[Struct size=192,fid: f88]
+*/
+use @gtk_css_section_print[None](section: NullablePointer[GtkCssSection] tag, string: NullablePointer[GString] tag)
+

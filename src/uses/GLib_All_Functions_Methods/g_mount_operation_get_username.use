@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmountoperation.h:123
+  Original Name: g_mount_operation_get_username/usr/include/glib-2.0/gio/gmountoperation.h:123
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f189]
+*/
+use @g_mount_operation_get_username[Pointer[U8]](op: NullablePointer[GMountOperation] tag)
+

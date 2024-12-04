@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentformats.h:125
+  Original Name: gdk_file_list_new_from_list/usr/include/gtk-4.0/gdk/gdkcontentformats.h:125
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f392]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @gdk_file_list_new_from_list[NullablePointer[GdkFileList]](files: NullablePointer[GSList] tag)
+

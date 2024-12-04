@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:62
+  Original Name: g_string_free/usr/include/glib-2.0/glib/gstring.h:62
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [FundamentalType(int) size=32]
+*/
+use @g_string_free[Pointer[U8]](string: NullablePointer[GString] tag, freesegment: I32)
+

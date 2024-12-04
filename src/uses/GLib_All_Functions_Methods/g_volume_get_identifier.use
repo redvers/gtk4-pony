@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolume.h:230
+  Original Name: g_volume_get_identifier/usr/include/glib-2.0/gio/gvolume.h:230
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_volume_get_identifier[Pointer[U8]](volume: NullablePointer[GVolume] tag, kind: Pointer[U8] tag)
+

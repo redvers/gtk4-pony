@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:293
+  Original Name: gtk_print_operation_set_has_selection/usr/include/gtk-4.0/gtk/print/gtkprintoperation.h:293
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f685]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_print_operation_set_has_selection[None](op: NullablePointer[GtkPrintOperation] tag, hasselection: I32)
+

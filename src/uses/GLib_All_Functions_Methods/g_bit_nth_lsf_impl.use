@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:375
+  Original Name: g_bit_nth_lsf_impl/usr/include/glib-2.0/glib/gutils.h:375
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(int) size=32]
+*/
+use @g_bit_nth_lsf_impl[I32](mask: U64, nthbit: I32)
+

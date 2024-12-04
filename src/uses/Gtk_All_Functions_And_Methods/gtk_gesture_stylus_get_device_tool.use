@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturestylus.h:64
+  Original Name: gtk_gesture_stylus_get_device_tool/usr/include/gtk-4.0/gtk/gtkgesturestylus.h:64
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f396]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f629]
+*/
+use @gtk_gesture_stylus_get_device_tool[NullablePointer[GdkDeviceTool]](gesture: NullablePointer[GtkGestureStylus] tag)
+

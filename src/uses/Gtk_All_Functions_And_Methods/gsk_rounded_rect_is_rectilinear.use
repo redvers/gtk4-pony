@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskroundedrect.h:84
+  Original Name: gsk_rounded_rect_is_rectilinear/usr/include/gtk-4.0/gsk/gskroundedrect.h:84
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f463]
+*/
+use @gsk_rounded_rect_is_rectilinear[I32](self: NullablePointer[GskRoundedRect] tag)
+

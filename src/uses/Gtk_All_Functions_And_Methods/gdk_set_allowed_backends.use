@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:57
+  Original Name: gdk_set_allowed_backends/usr/include/gtk-4.0/gdk/gdkdisplaymanager.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gdk_set_allowed_backends[None](backends: Pointer[U8] tag)
+

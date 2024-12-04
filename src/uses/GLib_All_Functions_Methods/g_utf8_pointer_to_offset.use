@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gunicode.h:821
+  Original Name: g_utf8_pointer_to_offset/usr/include/glib-2.0/glib/gunicode.h:821
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_utf8_pointer_to_offset[I64](str: Pointer[U8] tag, pos: Pointer[U8] tag)
+

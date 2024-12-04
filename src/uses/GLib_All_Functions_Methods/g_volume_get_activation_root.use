@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gvolume.h:236
+  Original Name: g_volume_get_activation_root/usr/include/glib-2.0/gio/gvolume.h:236
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+*/
+use @g_volume_get_activation_root[NullablePointer[GFile]](volume: NullablePointer[GVolume] tag)
+

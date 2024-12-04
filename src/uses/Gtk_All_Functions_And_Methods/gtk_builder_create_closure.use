@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbuilder.h:178
+  Original Name: gtk_builder_create_closure/usr/include/gtk-4.0/gtk/gtkbuilder.h:178
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f138]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f518]
+    [PointerType size=64]->[Struct size=192,fid: f143]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gtk_builder_create_closure[NullablePointer[GClosure]](builder: NullablePointer[GtkBuilder] tag, functionname: Pointer[U8] tag, flags: I32, object: NullablePointer[GObject] tag, error: Pointer[NullablePointer[GError]] tag)
+

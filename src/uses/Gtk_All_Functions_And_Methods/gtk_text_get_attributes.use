@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktext.h:124
+  Original Name: gtk_text_get_attributes/usr/include/gtk-4.0/gtk/gtktext.h:124
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f350]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f726]
+*/
+use @gtk_text_get_attributes[NullablePointer[PangoAttrList]](self: NullablePointer[GtkText] tag)
+

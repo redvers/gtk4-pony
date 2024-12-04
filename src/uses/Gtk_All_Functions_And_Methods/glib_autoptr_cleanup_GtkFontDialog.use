@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:34
+  Original Name: glib_autoptr_cleanup_GtkFontDialog/usr/include/gtk-4.0/gtk/gtkfontdialog.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f619]
+*/
+use @glib_autoptr_cleanup_GtkFontDialog[None](ptr: Pointer[NullablePointer[GtkFontDialog]] tag)
+

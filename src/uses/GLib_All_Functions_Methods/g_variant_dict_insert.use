@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvariant.h:519
+  Original Name: g_variant_dict_insert/usr/include/glib-2.0/glib/gvariant.h:519
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f94]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_variant_dict_insert[None](dict: NullablePointer[GVariantDict] tag, key: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)
+

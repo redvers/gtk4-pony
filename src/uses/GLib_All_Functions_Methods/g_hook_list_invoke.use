@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:181
+  Original Name: g_hook_list_invoke/usr/include/glib-2.0/glib/ghook.h:181
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [FundamentalType(int) size=32]
+*/
+use @g_hook_list_invoke[None](hooklist: NullablePointer[GHookList] tag, mayrecurse: I32)
+

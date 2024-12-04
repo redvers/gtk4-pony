@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextmark.h:86
+  Original Name: gtk_text_mark_get_type/usr/include/gtk-4.0/gtk/gtktextmark.h:86
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_text_mark_get_type[U64]()
+

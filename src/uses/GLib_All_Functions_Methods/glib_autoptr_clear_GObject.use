@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject-autocleanups.h:31
+  Original Name: glib_autoptr_clear_GObject/usr/include/glib-2.0/gobject/gobject-autocleanups.h:31
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f143]
+*/
+use @glib_autoptr_clear_GObject[None](ptr: NullablePointer[GObject] tag)
+

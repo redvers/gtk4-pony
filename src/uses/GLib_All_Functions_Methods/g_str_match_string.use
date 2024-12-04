@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:399
+  Original Name: g_str_match_string/usr/include/glib-2.0/glib/gstrfuncs.h:399
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @g_str_match_string[I32](searchterm: Pointer[U8] tag, potentialhit: Pointer[U8] tag, acceptalternates: I32)
+

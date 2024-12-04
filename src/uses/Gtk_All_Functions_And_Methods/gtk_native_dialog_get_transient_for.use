@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknativedialog.h:81
+  Original Name: gtk_native_dialog_get_transient_for/usr/include/gtk-4.0/gtk/gtknativedialog.h:81
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f482]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f606]
+*/
+use @gtk_native_dialog_get_transient_for[NullablePointer[GtkWindow]](self: NullablePointer[GtkNativeDialog] tag)
+

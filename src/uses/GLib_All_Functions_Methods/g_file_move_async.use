@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfile.h:960
+  Original Name: g_file_move_async/usr/include/glib-2.0/gio/gfile.h:960
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [Enumeration size=32,fid: f159]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_file_move_async[None](source: NullablePointer[GFile] tag, destination: NullablePointer[GFile] tag, flags: I32, iopriority: I32, cancellable: NullablePointer[GCancellable] tag, progresscallback: Pointer[None] tag, progresscallbackdata: Pointer[None] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

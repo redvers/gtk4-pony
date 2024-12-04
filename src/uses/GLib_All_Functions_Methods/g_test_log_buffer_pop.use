@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:711
+  Original Name: g_test_log_buffer_pop/usr/include/glib-2.0/glib/gtestutils.h:711
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f115]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f115]
+*/
+use @g_test_log_buffer_pop[NullablePointer[]](tbuffer: NullablePointer[] tag)
+

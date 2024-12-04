@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusintrospection.h:239
+  Original Name: g_dbus_signal_info_unref/usr/include/glib-2.0/gio/gdbusintrospection.h:239
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f220]
+*/
+use @g_dbus_signal_info_unref[None](info: NullablePointer[GDBusSignalInfo] tag)
+

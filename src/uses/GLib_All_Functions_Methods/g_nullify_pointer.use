@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gutils.h:292
+  Original Name: g_nullify_pointer/usr/include/glib-2.0/glib/gutils.h:292
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_nullify_pointer[None](nullifylocation: NullablePointer[Pointer[None]] tag)
+

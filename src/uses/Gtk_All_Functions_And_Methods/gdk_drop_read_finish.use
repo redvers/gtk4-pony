@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrop.h:67
+  Original Name: gdk_drop_read_finish/usr/include/gtk-4.0/gdk/gdkdrop.h:67
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f186]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @gdk_drop_read_finish[NullablePointer[GInputStream]](self: NullablePointer[GdkDrop] tag, result: NullablePointer[GAsyncResult] tag, outmimetype: Pointer[Pointer[U8]] tag, error: Pointer[NullablePointer[GError]] tag)
+

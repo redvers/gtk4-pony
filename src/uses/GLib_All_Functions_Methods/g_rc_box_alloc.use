@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grcbox.h:33
+  Original Name: g_rc_box_alloc/usr/include/glib-2.0/glib/grcbox.h:33
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_rc_box_alloc[Pointer[None]](blocksize: U64)
+

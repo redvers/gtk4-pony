@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcontentprovider.h:88
+  Original Name: gdk_content_provider_ref_formats/usr/include/gtk-4.0/gdk/gdkcontentprovider.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f374]
+*/
+use @gdk_content_provider_ref_formats[NullablePointer[GdkContentFormats]](provider: NullablePointer[GdkContentProvider] tag)
+

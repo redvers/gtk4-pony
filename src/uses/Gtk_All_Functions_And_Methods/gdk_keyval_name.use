@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkkeys.h:36
+  Original Name: gdk_keyval_name/usr/include/gtk-4.0/gdk/gdkkeys.h:36
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gdk_keyval_name[Pointer[U8]](keyval: U32)
+

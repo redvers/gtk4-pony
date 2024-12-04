@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdate.h:203
+  Original Name: g_date_set_day/usr/include/glib-2.0/glib/gdate.h:203
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=64,fid: f69]
+    [FundamentalType(unsigned char) size=8]
+*/
+use @g_date_set_day[None](date: NullablePointer[GDate] tag, day: U8)
+

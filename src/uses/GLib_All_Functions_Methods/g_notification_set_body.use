@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gnotification.h:49
+  Original Name: g_notification_set_body/usr/include/glib-2.0/gio/gnotification.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_notification_set_body[None](notification: NullablePointer[GNotification] tag, body: Pointer[U8] tag)
+

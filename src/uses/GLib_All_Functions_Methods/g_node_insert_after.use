@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gnode.h:121
+  Original Name: g_node_insert_after/usr/include/glib-2.0/glib/gnode.h:121
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=320,fid: f77]
+    [PointerType size=64]->[Struct size=320,fid: f77]
+    [PointerType size=64]->[Struct size=320,fid: f77]
+*/
+use @g_node_insert_after[NullablePointer[GNode]](parent: NullablePointer[GNode] tag, sibling: NullablePointer[GNode] tag, node: NullablePointer[GNode] tag)
+

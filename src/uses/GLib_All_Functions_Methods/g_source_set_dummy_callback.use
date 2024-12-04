@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gsourceclosure.h:36
+  Original Name: g_source_set_dummy_callback/usr/include/glib-2.0/gobject/gsourceclosure.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f85]
+*/
+use @g_source_set_dummy_callback[None](source: NullablePointer[GSource] tag)
+

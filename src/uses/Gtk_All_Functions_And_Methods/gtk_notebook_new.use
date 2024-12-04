@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:70
+  Original Name: gtk_notebook_new/usr/include/gtk-4.0/gtk/gtknotebook.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_notebook_new[NullablePointer[GtkWidget]]()
+

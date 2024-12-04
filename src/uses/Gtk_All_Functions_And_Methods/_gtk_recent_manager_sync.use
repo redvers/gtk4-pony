@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:251
+  Original Name: _gtk_recent_manager_sync/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:251
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @_gtk_recent_manager_sync[None]()
+

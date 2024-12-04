@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:125
+  Original Name: gtk_page_setup_to_key_file/usr/include/gtk-4.0/gtk/print/gtkpagesetup.h:125
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f674]
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_page_setup_to_key_file[None](setup: NullablePointer[GtkPageSetup] tag, keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag)
+

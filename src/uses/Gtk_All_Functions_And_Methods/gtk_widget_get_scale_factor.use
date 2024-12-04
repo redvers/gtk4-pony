@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:538
+  Original Name: gtk_widget_get_scale_factor/usr/include/gtk-4.0/gtk/gtkwidget.h:538
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+*/
+use @gtk_widget_get_scale_factor[I32](widget: NullablePointer[GtkWidget] tag)
+

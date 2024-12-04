@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:466
+  Original Name: g_test_queue_destroy/usr/include/glib-2.0/glib/gtestutils.h:466
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_test_queue_destroy[None](destroyfunc: Pointer[None] tag, destroydata: Pointer[None] tag)
+

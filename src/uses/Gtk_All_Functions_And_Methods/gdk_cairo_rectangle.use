@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkcairo.h:40
+  Original Name: gdk_cairo_rectangle/usr/include/gtk-4.0/gdk/gdkcairo.h:40
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f318]
+    [PointerType size=64]->[Struct size=128,fid: f318]
+*/
+use @gdk_cairo_rectangle[None](cr: NullablePointer[Cairo] tag, rectangle: NullablePointer[Cairorectangleint] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gbufferedinputstream.h:93
+  Original Name: g_buffered_input_stream_set_buffer_size/usr/include/glib-2.0/gio/gbufferedinputstream.h:93
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f162]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_buffered_input_stream_set_buffer_size[None](stream: NullablePointer[GBufferedInputStream] tag, size: U64)
+

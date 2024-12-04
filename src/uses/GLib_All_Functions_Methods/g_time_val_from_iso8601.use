@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimer.h:72
+  Original Name: g_time_val_from_iso8601/usr/include/glib-2.0/glib/gtimer.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @g_time_val_from_iso8601[I32](isodate: Pointer[U8] tag, time: NullablePointer[GTimeVal] tag)
+

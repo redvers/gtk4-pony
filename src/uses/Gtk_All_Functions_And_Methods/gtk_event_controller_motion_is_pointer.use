@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkeventcontrollermotion.h:50
+  Original Name: gtk_event_controller_motion_is_pointer/usr/include/gtk-4.0/gtk/gtkeventcontrollermotion.h:50
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f598]
+*/
+use @gtk_event_controller_motion_is_pointer[I32](self: NullablePointer[GtkEventControllerMotion] tag)
+

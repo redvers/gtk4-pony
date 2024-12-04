@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdir.h:53
+  Original Name: g_dir_ref/usr/include/glib-2.0/glib/gdir.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f72]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f72]
+*/
+use @g_dir_ref[NullablePointer[GDir]](dir: NullablePointer[GDir] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/ghook.h:123
+  Original Name: g_hook_destroy/usr/include/glib-2.0/glib/ghook.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f81]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @g_hook_destroy[I32](hooklist: NullablePointer[GHookList] tag, hookid: U64)
+

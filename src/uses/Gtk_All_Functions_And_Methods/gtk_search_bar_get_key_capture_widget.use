@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchbar.h:71
+  Original Name: gtk_search_bar_get_key_capture_widget/usr/include/gtk-4.0/gtk/gtksearchbar.h:71
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f699]
+*/
+use @gtk_search_bar_get_key_capture_widget[NullablePointer[GtkWidget]](bar: NullablePointer[GtkSearchBar] tag)
+

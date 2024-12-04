@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gmodule.h:100
+  Original Name: g_module_open/usr/include/glib-2.0/gmodule.h:100
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f271]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f271]
+*/
+use @g_module_open[NullablePointer[GModule]](filename: Pointer[U8] tag, flags: I32)
+

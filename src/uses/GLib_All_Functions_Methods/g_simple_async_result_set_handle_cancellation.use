@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsimpleasyncresult.h:98
+  Original Name: g_simple_async_result_set_handle_cancellation/usr/include/glib-2.0/gio/gsimpleasyncresult.h:98
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+*/
+use @g_simple_async_result_set_handle_cancellation[None](simple: NullablePointer[GSimpleAsyncResult] tag, handlecancellation: I32)
+

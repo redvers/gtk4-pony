@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkicontheme.h:116
+  Original Name: gtk_icon_theme_has_icon/usr/include/gtk-4.0/gtk/gtkicontheme.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f639]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_icon_theme_has_icon[I32](self: NullablePointer[GtkIconTheme] tag, iconname: Pointer[U8] tag)
+

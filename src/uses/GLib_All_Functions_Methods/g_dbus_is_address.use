@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gdbusaddress.h:38
+  Original Name: g_dbus_is_address/usr/include/glib-2.0/gio/gdbusaddress.h:38
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_dbus_is_address[I32](string: Pointer[U8] tag)
+

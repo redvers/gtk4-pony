@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessible.h:254
+  Original Name: gtk_accessible_list_get_objects/usr/include/gtk-4.0/gtk/gtkaccessible.h:254
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f489]
+*/
+use @gtk_accessible_list_get_objects[NullablePointer[GList]](accessiblelist: NullablePointer[GtkAccessibleList] tag)
+

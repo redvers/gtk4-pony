@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmappedfile.h:56
+  Original Name: g_mapped_file_free/usr/include/glib-2.0/glib/gmappedfile.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f91]
+*/
+use @g_mapped_file_free[None](file: NullablePointer[GMappedFile] tag)
+

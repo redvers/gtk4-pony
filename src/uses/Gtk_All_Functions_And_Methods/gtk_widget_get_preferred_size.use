@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkwidget.h:315
+  Original Name: gtk_widget_get_preferred_size/usr/include/gtk-4.0/gtk/gtkwidget.h:315
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[Struct size=64,fid: f480]
+    [PointerType size=64]->[Struct size=64,fid: f480]
+*/
+use @gtk_widget_get_preferred_size[None](widget: NullablePointer[GtkWidget] tag, minimumsize: NullablePointer[GtkRequisition] tag, naturalsize: NullablePointer[GtkRequisition] tag)
+

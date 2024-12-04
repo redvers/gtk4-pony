@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:119
+  Original Name: gtk_bitset_difference/usr/include/gtk-4.0/gtk/gtkbitset.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @gtk_bitset_difference[None](self: NullablePointer[GtkBitset] tag, other: NullablePointer[GtkBitset] tag)
+

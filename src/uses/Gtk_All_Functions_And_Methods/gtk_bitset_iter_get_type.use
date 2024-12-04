@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkbitset.h:152
+  Original Name: gtk_bitset_iter_get_type/usr/include/gtk-4.0/gtk/gtkbitset.h:152
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_bitset_iter_get_type[U64]()
+

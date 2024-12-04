@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:463
+  Original Name: g_main_context_get_poll_func/usr/include/glib-2.0/glib/gmain.h:463
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f85]
+*/
+use @g_main_context_get_poll_func[Pointer[None]](context: NullablePointer[GMainContext] tag)
+

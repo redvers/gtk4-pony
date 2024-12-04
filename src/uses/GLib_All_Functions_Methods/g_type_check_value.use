@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:2638
+  Original Name: g_type_check_value/usr/include/glib-2.0/gobject/gtype.h:2638
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f136]
+*/
+use @g_type_check_value[I32](value: NullablePointer[GValue] tag)
+

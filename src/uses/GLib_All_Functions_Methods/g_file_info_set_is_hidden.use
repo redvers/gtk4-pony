@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1465
+  Original Name: g_file_info_set_is_hidden/usr/include/glib-2.0/gio/gfileinfo.h:1465
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [FundamentalType(int) size=32]
+*/
+use @g_file_info_set_is_hidden[None](info: NullablePointer[GFileInfo] tag, ishidden: I32)
+

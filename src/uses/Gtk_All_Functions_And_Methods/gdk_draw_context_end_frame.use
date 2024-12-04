@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkdrawcontext.h:47
+  Original Name: gdk_draw_context_end_frame/usr/include/gtk-4.0/gdk/gdkdrawcontext.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+*/
+use @gdk_draw_context_end_frame[None](context: NullablePointer[GdkDrawContext] tag)
+

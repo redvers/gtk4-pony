@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:408
+  Original Name: g_strv_equal/usr/include/glib-2.0/glib/gstrfuncs.h:408
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strv_equal[I32](strv1: Pointer[Pointer[U8]] tag, strv2: Pointer[Pointer[U8]] tag)
+

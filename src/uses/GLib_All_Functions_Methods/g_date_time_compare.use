@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gdatetime.h:226
+  Original Name: g_date_time_compare/usr/include/glib-2.0/glib/gdatetime.h:226
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_date_time_compare[I32](dt1: Pointer[None] tag, dt2: Pointer[None] tag)
+

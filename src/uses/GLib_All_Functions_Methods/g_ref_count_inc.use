@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/grefcount.h:36
+  Original Name: g_ref_count_inc/usr/include/glib-2.0/glib/grefcount.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @g_ref_count_inc[None](rc: Pointer[I32] tag)
+

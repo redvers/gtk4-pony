@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcancellable.h:75
+  Original Name: g_cancellable_is_cancelled/usr/include/glib-2.0/gio/gcancellable.h:75
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f164]
+*/
+use @g_cancellable_is_cancelled[I32](cancellable: NullablePointer[GCancellable] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktooltip.h:38
+  Original Name: gtk_tooltip_set_markup/usr/include/gtk-4.0/gtk/gtktooltip.h:38
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_tooltip_set_markup[None](tooltip: NullablePointer[GtkTooltip] tag, markup: Pointer[U8] tag)
+

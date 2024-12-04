@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktreelistmodel.h:96
+  Original Name: gtk_tree_list_row_get_depth/usr/include/gtk-4.0/gtk/gtktreelistmodel.h:96
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f737]
+*/
+use @gtk_tree_list_row_get_depth[U32](self: NullablePointer[GtkTreeListRow] tag)
+

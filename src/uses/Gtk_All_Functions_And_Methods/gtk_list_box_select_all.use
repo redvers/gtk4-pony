@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtklistbox.h:220
+  Original Name: gtk_list_box_select_all/usr/include/gtk-4.0/gtk/gtklistbox.h:220
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f649]
+*/
+use @gtk_list_box_select_all[None](box: NullablePointer[GtkListBox] tag)
+

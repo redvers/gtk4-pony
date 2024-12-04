@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtknotebook.h:156
+  Original Name: gtk_notebook_get_tab_pos/usr/include/gtk-4.0/gtk/gtknotebook.h:156
+
+  Return Value: [Enumeration size=32,fid: f476]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f667]
+*/
+use @gtk_notebook_get_tab_pos[I32](notebook: NullablePointer[GtkNotebook] tag)
+

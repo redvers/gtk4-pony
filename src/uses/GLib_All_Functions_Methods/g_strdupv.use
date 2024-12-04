@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstrfuncs.h:381
+  Original Name: g_strdupv/usr/include/glib-2.0/glib/gstrfuncs.h:381
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_strdupv[Pointer[Pointer[U8]]](strarray: Pointer[Pointer[U8]] tag)
+

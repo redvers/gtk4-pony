@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gthread.h:183
+  Original Name: g_rw_lock_clear/usr/include/glib-2.0/glib/gthread.h:183
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f41]
+*/
+use @g_rw_lock_clear[None](rwlock: NullablePointer[GRWLock] tag)
+

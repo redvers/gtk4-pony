@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfixed.h:80
+  Original Name: gtk_fixed_get_child_position/usr/include/gtk-4.0/gtk/gtkfixed.h:80
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f601]
+    [PointerType size=64]->[Struct size=256,fid: f480]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+    [PointerType size=64]->[FundamentalType(double) size=64]
+*/
+use @gtk_fixed_get_child_position[None](fixed: NullablePointer[GtkFixed] tag, widget: NullablePointer[GtkWidget] tag, x: Pointer[F64] tag, y: Pointer[F64] tag)
+

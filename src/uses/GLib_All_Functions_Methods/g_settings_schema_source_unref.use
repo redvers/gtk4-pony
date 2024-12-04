@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gsettingsschema.h:42
+  Original Name: g_settings_schema_source_unref/usr/include/glib-2.0/gio/gsettingsschema.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f294]
+*/
+use @g_settings_schema_source_unref[None](source: NullablePointer[GSettingsSchemaSource] tag)
+

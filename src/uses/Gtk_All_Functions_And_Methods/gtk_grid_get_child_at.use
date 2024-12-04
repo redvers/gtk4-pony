@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgrid.h:80
+  Original Name: gtk_grid_get_child_at/usr/include/gtk-4.0/gtk/gtkgrid.h:80
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f634]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gtk_grid_get_child_at[NullablePointer[GtkWidget]](grid: NullablePointer[GtkGrid] tag, column: I32, row: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringfilter.h:63
+  Original Name: gtk_string_filter_set_expression/usr/include/gtk-4.0/gtk/gtkstringfilter.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f591]
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_string_filter_set_expression[None](self: NullablePointer[GtkStringFilter] tag, expression: NullablePointer[GtkExpression] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gtype.h:776
+  Original Name: g_type_interface_peek_parent/usr/include/glib-2.0/gobject/gtype.h:776
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_type_interface_peek_parent[Pointer[None]](giface: Pointer[None] tag)
+

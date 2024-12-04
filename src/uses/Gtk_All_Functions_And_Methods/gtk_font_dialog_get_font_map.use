@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkfontdialog.h:61
+  Original Name: gtk_font_dialog_get_font_map/usr/include/gtk-4.0/gtk/gtkfontdialog.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f342]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f619]
+*/
+use @gtk_font_dialog_get_font_map[NullablePointer[PangoFontMap]](self: NullablePointer[GtkFontDialog] tag)
+

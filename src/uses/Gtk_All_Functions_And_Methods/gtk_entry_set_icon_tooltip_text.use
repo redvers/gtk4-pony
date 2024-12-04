@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:231
+  Original Name: gtk_entry_set_icon_tooltip_text/usr/include/gtk-4.0/gtk/gtkentry.h:231
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_entry_set_icon_tooltip_text[None](entry: NullablePointer[GtkEntry] tag, iconpos: I32, tooltip: Pointer[U8] tag)
+

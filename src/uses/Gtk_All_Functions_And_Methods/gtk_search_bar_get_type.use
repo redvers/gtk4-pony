@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchbar.h:46
+  Original Name: gtk_search_bar_get_type/usr/include/gtk-4.0/gtk/gtksearchbar.h:46
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_search_bar_get_type[U64]()
+

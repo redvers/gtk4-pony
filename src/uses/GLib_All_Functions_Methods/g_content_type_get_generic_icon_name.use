@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gcontenttype.h:54
+  Original Name: g_content_type_get_generic_icon_name/usr/include/glib-2.0/gio/gcontenttype.h:54
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_content_type_get_generic_icon_name[Pointer[U8]](type: Pointer[U8] tag)
+

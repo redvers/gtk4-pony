@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkscale.h:128
+  Original Name: gtk_scale_set_format_value_func/usr/include/gtk-4.0/gtk/gtkscale.h:128
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f693]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_scale_set_format_value_func[None](scale: NullablePointer[GtkScale] tag, func: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

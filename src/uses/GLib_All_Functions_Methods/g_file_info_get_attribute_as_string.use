@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gfileinfo.h:1329
+  Original Name: g_file_info_get_attribute_as_string/usr/include/glib-2.0/gio/gfileinfo.h:1329
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_file_info_get_attribute_as_string[Pointer[U8]](info: NullablePointer[GFileInfo] tag, attribute: Pointer[U8] tag)
+

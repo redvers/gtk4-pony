@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkpaned.h:81
+  Original Name: gtk_paned_get_position/usr/include/gtk-4.0/gtk/gtkpaned.h:81
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f675]
+*/
+use @gtk_paned_get_position[I32](paned: NullablePointer[GtkPaned] tag)
+

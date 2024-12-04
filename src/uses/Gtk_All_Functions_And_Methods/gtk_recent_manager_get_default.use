@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkrecentmanager.h:154
+  Original Name: gtk_recent_manager_get_default/usr/include/gtk-4.0/gtk/gtkrecentmanager.h:154
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f688]
+
+  Arguments:
+*/
+use @gtk_recent_manager_get_default[NullablePointer[GtkRecentManager]]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpaintable.h:125
+  Original Name: gdk_paintable_get_intrinsic_aspect_ratio/usr/include/gtk-4.0/gdk/gdkpaintable.h:125
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f422]
+*/
+use @gdk_paintable_get_intrinsic_aspect_ratio[F64](paintable: NullablePointer[GdkPaintable] tag)
+

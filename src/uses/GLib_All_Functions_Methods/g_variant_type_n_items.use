@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gvarianttype.h:349
+  Original Name: g_variant_type_n_items/usr/include/glib-2.0/glib/gvarianttype.h:349
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f93]
+*/
+use @g_variant_type_n_items[U64](type: NullablePointer[GVariantType] tag)
+

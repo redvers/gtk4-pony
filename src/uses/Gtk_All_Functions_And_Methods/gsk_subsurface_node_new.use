@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskrendernode.h:598
+  Original Name: gsk_subsurface_node_new/usr/include/gtk-4.0/gsk/gskrendernode.h:598
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f461]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f461]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @gsk_subsurface_node_new[NullablePointer[GskRenderNode]](child: NullablePointer[GskRenderNode] tag, subsurface: Pointer[None] tag)
+

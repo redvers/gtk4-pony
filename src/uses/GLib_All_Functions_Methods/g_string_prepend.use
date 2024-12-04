@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstring.h:114
+  Original Name: g_string_prepend/usr/include/glib-2.0/glib/gstring.h:114
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f88]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f88]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_string_prepend[NullablePointer[GString]](string: NullablePointer[GString] tag, val: Pointer[U8] tag)
+

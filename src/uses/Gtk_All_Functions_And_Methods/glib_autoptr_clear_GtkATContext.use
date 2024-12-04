@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkatcontext.h:36
+  Original Name: glib_autoptr_clear_GtkATContext/usr/include/gtk-4.0/gtk/gtkatcontext.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f478]
+*/
+use @glib_autoptr_clear_GtkATContext[None](ptr: NullablePointer[GtkATContext] tag)
+

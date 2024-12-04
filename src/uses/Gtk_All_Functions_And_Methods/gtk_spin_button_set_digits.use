@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkspinbutton.h:134
+  Original Name: gtk_spin_button_set_digits/usr/include/gtk-4.0/gtk/gtkspinbutton.h:134
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f717]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_spin_button_set_digits[None](spinbutton: NullablePointer[GtkSpinButton] tag, digits: U32)
+

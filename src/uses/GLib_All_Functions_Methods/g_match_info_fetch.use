@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gregex.h:592
+  Original Name: g_match_info_fetch/usr/include/glib-2.0/glib/gregex.h:592
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f106]
+    [FundamentalType(int) size=32]
+*/
+use @g_match_info_fetch[Pointer[U8]](matchinfo: NullablePointer[GMatchInfo] tag, matchnum: I32)
+

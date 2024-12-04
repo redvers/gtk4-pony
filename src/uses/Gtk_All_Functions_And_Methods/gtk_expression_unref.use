@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:51
+  Original Name: gtk_expression_unref/usr/include/gtk-4.0/gtk/gtkexpression.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_expression_unref[None](self: NullablePointer[GtkExpression] tag)
+

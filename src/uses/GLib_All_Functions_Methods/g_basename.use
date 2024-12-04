@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gfileutils.h:207
+  Original Name: g_basename/usr/include/glib-2.0/glib/gfileutils.h:207
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_basename[Pointer[U8]](filename: Pointer[U8] tag)
+

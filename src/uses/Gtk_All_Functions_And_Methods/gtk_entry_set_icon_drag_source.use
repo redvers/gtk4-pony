@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkentry.h:245
+  Original Name: gtk_entry_set_icon_drag_source/usr/include/gtk-4.0/gtk/gtkentry.h:245
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f570]
+    [Enumeration size=32,fid: f570]
+    [PointerType size=64]->[Struct size=192,fid: f374]
+    [Enumeration size=32,fid: f371]
+*/
+use @gtk_entry_set_icon_drag_source[None](entry: NullablePointer[GtkEntry] tag, iconpos: I32, provider: NullablePointer[GdkContentProvider] tag, actions: I32)
+

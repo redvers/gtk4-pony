@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksnapshot.h:222
+  Original Name: gtk_snapshot_append_inset_shadow/usr/include/gtk-4.0/gtk/gtksnapshot.h:222
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [PointerType size=64]->[Struct size=128,fid: f373]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+    [FundamentalType(float) size=32]
+*/
+use @gtk_snapshot_append_inset_shadow[None](snapshot: NullablePointer[GdkSnapshot] tag, outline: NullablePointer[GskRoundedRect] tag, color: NullablePointer[GdkRGBA] tag, dx: F32, dy: F32, spread: F32, blurradius: F32)
+

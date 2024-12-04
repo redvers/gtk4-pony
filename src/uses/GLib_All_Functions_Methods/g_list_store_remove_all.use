@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gliststore.h:68
+  Original Name: g_list_store_remove_all/usr/include/glib-2.0/gio/gliststore.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f275]
+*/
+use @g_list_store_remove_all[None](store: NullablePointer[GListStore] tag)
+

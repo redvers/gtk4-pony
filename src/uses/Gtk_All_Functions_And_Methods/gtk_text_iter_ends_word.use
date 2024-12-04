@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktextiter.h:199
+  Original Name: gtk_text_iter_ends_word/usr/include/gtk-4.0/gtk/gtktextiter.h:199
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=640,fid: f727]
+*/
+use @gtk_text_iter_ends_word[I32](iter: NullablePointer[GtkTextIter] tag)
+

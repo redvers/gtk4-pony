@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkimage.h:120
+  Original Name: gtk_image_get_icon_name/usr/include/gtk-4.0/gtk/gtkimage.h:120
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f569]
+*/
+use @gtk_image_get_icon_name[Pointer[U8]](image: NullablePointer[GtkImage] tag)
+

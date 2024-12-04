@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstringfilter.h:53
+  Original Name: gtk_string_filter_new/usr/include/gtk-4.0/gtk/gtkstringfilter.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f591]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+*/
+use @gtk_string_filter_new[NullablePointer[GtkStringFilter]](expression: NullablePointer[GtkExpression] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glib-autocleanups.h:81
+  Original Name: glib_autoptr_clear_GSequence/usr/include/glib-2.0/glib/glib-autocleanups.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f108]
+*/
+use @glib_autoptr_clear_GSequence[None](ptr: NullablePointer[GSequence] tag)
+

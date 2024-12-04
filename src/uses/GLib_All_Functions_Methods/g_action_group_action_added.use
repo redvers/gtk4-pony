@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gactiongroup.h:137
+  Original Name: g_action_group_action_added/usr/include/glib-2.0/gio/gactiongroup.h:137
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_action_group_action_added[None](actiongroup: NullablePointer[GActionGroup] tag, actionname: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkprintdialog.h:43
+  Original Name: gtk_print_setup_unref/usr/include/gtk-4.0/gtk/gtkprintdialog.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f682]
+*/
+use @gtk_print_setup_unref[None](setup: NullablePointer[GtkPrintSetup] tag)
+

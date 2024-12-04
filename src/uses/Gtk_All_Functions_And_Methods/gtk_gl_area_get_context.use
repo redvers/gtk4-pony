@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkglarea.h:120
+  Original Name: gtk_gl_area_get_context/usr/include/gtk-4.0/gtk/gtkglarea.h:120
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f372]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f632]
+*/
+use @gtk_gl_area_get_context[NullablePointer[GdkGLContext]](area: NullablePointer[GtkGLArea] tag)
+

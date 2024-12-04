@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkdroptarget.h:52
+  Original Name: gtk_drop_target_set_gtypes/usr/include/gtk-4.0/gtk/gtkdroptarget.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f589]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gtk_drop_target_set_gtypes[None](self: NullablePointer[GtkDropTarget] tag, types: Pointer[U64] tag, ntypes: U64)
+

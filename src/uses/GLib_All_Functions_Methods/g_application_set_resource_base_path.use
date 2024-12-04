@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gapplication.h:168
+  Original Name: g_application_set_resource_base_path/usr/include/glib-2.0/gio/gapplication.h:168
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f169]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_application_set_resource_base_path[None](application: NullablePointer[GApplication] tag, resourcepath: Pointer[U8] tag)
+

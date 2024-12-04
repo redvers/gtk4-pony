@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkexpression.h:63
+  Original Name: gtk_expression_watch/usr/include/gtk-4.0/gtk/gtkexpression.h:63
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f512]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f512]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_expression_watch[NullablePointer[GtkExpressionWatch]](self: NullablePointer[GtkExpression] tag, this: Pointer[None] tag, notify: Pointer[None] tag, userdata: Pointer[None] tag, userdestroy: Pointer[None] tag)
+

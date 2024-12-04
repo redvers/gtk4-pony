@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gproxyresolver.h:90
+  Original Name: g_proxy_resolver_lookup_finish/usr/include/glib-2.0/gio/gproxyresolver.h:90
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_proxy_resolver_lookup_finish[Pointer[Pointer[U8]]](resolver: NullablePointer[GProxyResolver] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

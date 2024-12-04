@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:130
+  Original Name: gtk_about_dialog_set_license_type/usr/include/gtk-4.0/gtk/gtkaboutdialog.h:130
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f488]
+    [Enumeration size=32,fid: f488]
+*/
+use @gtk_about_dialog_set_license_type[None](about: NullablePointer[GtkAboutDialog] tag, licensetype: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkgesturestylus.h:46
+  Original Name: gtk_gesture_stylus_get_stylus_only/usr/include/gtk-4.0/gtk/gtkgesturestylus.h:46
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f629]
+*/
+use @gtk_gesture_stylus_get_stylus_only[I32](gesture: NullablePointer[GtkGestureStylus] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gsk/gskroundedrect.h:92
+  Original Name: gsk_rounded_rect_intersects_rect/usr/include/gtk-4.0/gsk/gskroundedrect.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f463]
+    [PointerType size=64]->[Struct size=128,fid: f445]
+*/
+use @gsk_rounded_rect_intersects_rect[I32](self: NullablePointer[GskRoundedRect] tag, rect: NullablePointer[Graphenerectt] tag)
+

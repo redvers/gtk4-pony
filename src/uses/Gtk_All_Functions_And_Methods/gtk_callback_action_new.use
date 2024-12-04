@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:101
+  Original Name: gtk_callback_action_new/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:101
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f478]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @gtk_callback_action_new[NullablePointer[GtkShortcutAction]](callback: Pointer[None] tag, data: Pointer[None] tag, destroy: Pointer[None] tag)
+

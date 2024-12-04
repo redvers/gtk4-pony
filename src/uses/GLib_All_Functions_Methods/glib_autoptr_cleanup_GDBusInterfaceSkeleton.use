@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gio-autocleanups.h:53
+  Original Name: glib_autoptr_cleanup_GDBusInterfaceSkeleton/usr/include/glib-2.0/gio/gio-autocleanups.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f221]
+*/
+use @glib_autoptr_cleanup_GDBusInterfaceSkeleton[None](ptr: Pointer[NullablePointer[GDBusInterfaceSkeleton]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gstringchunk.h:45
+  Original Name: g_string_chunk_clear/usr/include/glib-2.0/glib/gstringchunk.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f112]
+*/
+use @g_string_chunk_clear[None](chunk: NullablePointer[GStringChunk] tag)
+

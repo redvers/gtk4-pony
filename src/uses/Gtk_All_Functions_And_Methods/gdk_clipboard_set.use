@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkclipboard.h:102
+  Original Name: gdk_clipboard_set/usr/include/gtk-4.0/gdk/gdkclipboard.h:102
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @gdk_clipboard_set[None](clipboard: NullablePointer[GdkClipboard] tag, type: U64, ...)
+

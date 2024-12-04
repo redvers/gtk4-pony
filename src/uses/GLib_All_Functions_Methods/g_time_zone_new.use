@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtimezone.h:59
+  Original Name: g_time_zone_new/usr/include/glib-2.0/glib/gtimezone.h:59
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f61]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_time_zone_new[NullablePointer[GTimeZone]](identifier: Pointer[U8] tag)
+

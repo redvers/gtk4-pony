@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gmain.h:743
+  Original Name: g_source_remove_by_funcs_user_data/usr/include/glib-2.0/glib/gmain.h:743
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f85]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_source_remove_by_funcs_user_data[I32](funcs: NullablePointer[GSourceFuncs] tag, userdata: Pointer[None] tag)
+

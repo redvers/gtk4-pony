@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gobject/gobject.h:423
+  Original Name: g_object_interface_find_property/usr/include/glib-2.0/gobject/gobject.h:423
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f137]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @g_object_interface_find_property[NullablePointer[GParamSpec]](giface: Pointer[None] tag, propertyname: Pointer[U8] tag)
+

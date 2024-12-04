@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gmountoperation.h:120
+  Original Name: g_mount_operation_new/usr/include/glib-2.0/gio/gmountoperation.h:120
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f189]
+
+  Arguments:
+*/
+use @g_mount_operation_new[NullablePointer[GMountOperation]]()
+

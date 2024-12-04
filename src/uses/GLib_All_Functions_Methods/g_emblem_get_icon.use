@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gemblem.h:52
+  Original Name: g_emblem_get_icon/usr/include/glib-2.0/gio/gemblem.h:52
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f161]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f263]
+*/
+use @g_emblem_get_icon[NullablePointer[GIcon]](emblem: NullablePointer[GEmblem] tag)
+

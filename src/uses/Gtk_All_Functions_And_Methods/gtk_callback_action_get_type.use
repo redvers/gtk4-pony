@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkshortcutaction.h:98
+  Original Name: gtk_callback_action_get_type/usr/include/gtk-4.0/gtk/gtkshortcutaction.h:98
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_callback_action_get_type[U64]()
+

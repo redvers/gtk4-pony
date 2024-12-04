@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtksearchentry.h:48
+  Original Name: gtk_search_entry_new/usr/include/gtk-4.0/gtk/gtksearchentry.h:48
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f480]
+
+  Arguments:
+*/
+use @gtk_search_entry_new[NullablePointer[GtkWidget]]()
+

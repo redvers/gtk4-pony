@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gbookmarkfile.h:121
+  Original Name: g_bookmark_file_new/usr/include/glib-2.0/glib/gbookmarkfile.h:121
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f63]
+
+  Arguments:
+*/
+use @g_bookmark_file_new[NullablePointer[GBookmarkFile]]()
+

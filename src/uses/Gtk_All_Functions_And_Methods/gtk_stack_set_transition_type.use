@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstack.h:166
+  Original Name: gtk_stack_set_transition_type/usr/include/gtk-4.0/gtk/gtkstack.h:166
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f713]
+    [Enumeration size=32,fid: f713]
+*/
+use @gtk_stack_set_transition_type[None](stack: NullablePointer[GtkStack] tag, transition: I32)
+

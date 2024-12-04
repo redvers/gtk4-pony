@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:545
+  Original Name: g_test_rand_double_range/usr/include/glib-2.0/glib/gtestutils.h:545
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+    [FundamentalType(double) size=64]
+*/
+use @g_test_rand_double_range[F64](rangestart: F64, rangeend: F64)
+

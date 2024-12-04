@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gtestutils.h:519
+  Original Name: g_test_trap_subprocess_with_envp/usr/include/glib-2.0/glib/gtestutils.h:519
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f115]
+*/
+use @g_test_trap_subprocess_with_envp[None](testpath: Pointer[U8] tag, envp: Pointer[Pointer[U8]] tag, usectimeout: U64, testflags: I32)
+

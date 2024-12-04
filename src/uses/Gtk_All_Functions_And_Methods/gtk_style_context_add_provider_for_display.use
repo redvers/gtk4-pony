@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkstyleprovider.h:93
+  Original Name: gtk_style_context_add_provider_for_display/usr/include/gtk-4.0/gtk/gtkstyleprovider.h:93
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f372]
+    [PointerType size=64]->[Struct size=,fid: f723]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @gtk_style_context_add_provider_for_display[None](display: NullablePointer[GdkDisplay] tag, provider: NullablePointer[GtkStyleProvider] tag, priority: U32)
+

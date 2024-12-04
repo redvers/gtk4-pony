@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtktypebuiltins.h:117
+  Original Name: gtk_baseline_position_get_type/usr/include/gtk-4.0/gtk/gtktypebuiltins.h:117
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @gtk_baseline_position_get_type[U64]()
+

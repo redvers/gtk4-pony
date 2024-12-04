@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gresolver.h:227
+  Original Name: g_resolver_lookup_by_address/usr/include/glib-2.0/gio/gresolver.h:227
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f194]
+    [PointerType size=64]->[Struct size=256,fid: f182]
+    [PointerType size=64]->[Struct size=256,fid: f164]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @g_resolver_lookup_by_address[Pointer[U8]](resolver: NullablePointer[GResolver] tag, address: NullablePointer[GInetAddress] tag, cancellable: NullablePointer[GCancellable] tag, error: Pointer[NullablePointer[GError]] tag)
+

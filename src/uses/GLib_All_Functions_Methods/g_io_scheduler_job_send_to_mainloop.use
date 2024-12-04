@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/gioscheduler.h:44
+  Original Name: g_io_scheduler_job_send_to_mainloop/usr/include/glib-2.0/gio/gioscheduler.h:44
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @g_io_scheduler_job_send_to_mainloop[I32](job: NullablePointer[GIOSchedulerJob] tag, func: Pointer[None] tag, userdata: Pointer[None] tag, notify: Pointer[None] tag)
+

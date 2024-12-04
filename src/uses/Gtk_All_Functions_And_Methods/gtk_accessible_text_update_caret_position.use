@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkaccessibletext.h:261
+  Original Name: gtk_accessible_text_update_caret_position/usr/include/gtk-4.0/gtk/gtkaccessibletext.h:261
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f491]
+*/
+use @gtk_accessible_text_update_caret_position[None](self: NullablePointer[GtkAccessibleText] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/gtkconstraint.h:69
+  Original Name: gtk_constraint_get_source/usr/include/gtk-4.0/gtk/gtkconstraint.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f574]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f574]
+*/
+use @gtk_constraint_get_source[NullablePointer[GtkConstraintTarget]](constraint: NullablePointer[GtkConstraint] tag)
+

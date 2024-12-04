@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkevents.h:490
+  Original Name: gdk_pad_event_get_group_mode/usr/include/gtk-4.0/gdk/gdkevents.h:490
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f400]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned int) size=32]
+*/
+use @gdk_pad_event_get_group_mode[None](event: NullablePointer[GdkEvent] tag, group: Pointer[U32] tag, mode: Pointer[U32] tag)
+

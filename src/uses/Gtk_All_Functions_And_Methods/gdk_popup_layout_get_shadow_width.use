@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gdk/gdkpopuplayout.h:140
+  Original Name: gdk_popup_layout_get_shadow_width/usr/include/gtk-4.0/gdk/gdkpopuplayout.h:140
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f404]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @gdk_popup_layout_get_shadow_width[None](layout: NullablePointer[GdkPopupLayout] tag, left: Pointer[I32] tag, right: Pointer[I32] tag, top: Pointer[I32] tag, bottom: Pointer[I32] tag)
+

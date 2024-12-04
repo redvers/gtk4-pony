@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/gslist.h:103
+  Original Name: g_slist_copy_deep/usr/include/glib-2.0/glib/gslist.h:103
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f84]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_slist_copy_deep[NullablePointer[GSList]](list: NullablePointer[GSList] tag, func: Pointer[None] tag, userdata: Pointer[None] tag)
+

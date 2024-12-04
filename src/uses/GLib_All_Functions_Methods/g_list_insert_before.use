@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/glib/glist.h:80
+  Original Name: g_list_insert_before/usr/include/glib-2.0/glib/glist.h:80
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @g_list_insert_before[NullablePointer[GList]](list: NullablePointer[GList] tag, sibling: NullablePointer[GList] tag, data: Pointer[None] tag)
+

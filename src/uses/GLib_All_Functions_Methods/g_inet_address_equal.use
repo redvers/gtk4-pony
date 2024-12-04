@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/glib-2.0/gio/ginetaddress.h:78
+  Original Name: g_inet_address_equal/usr/include/glib-2.0/gio/ginetaddress.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f182]
+    [PointerType size=64]->[Struct size=256,fid: f182]
+*/
+use @g_inet_address_equal[I32](address: NullablePointer[GInetAddress] tag, otheraddress: NullablePointer[GInetAddress] tag)
+

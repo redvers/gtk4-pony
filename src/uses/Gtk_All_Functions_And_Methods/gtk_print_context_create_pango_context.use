@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:67
+  Original Name: gtk_print_context_create_pango_context/usr/include/gtk-4.0/gtk/print/gtkprintcontext.h:67
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f339]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f683]
+*/
+use @gtk_print_context_create_pango_context[NullablePointer[PangoContext]](context: NullablePointer[GtkPrintContext] tag)
+
