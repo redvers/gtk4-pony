@@ -1,4 +1,5 @@
 use @g_object_ref[Pointer[GObject]](gobj: Pointer[GObject] tag)
+use @g_object_ref_sink[Pointer[GObject]](gobj: Pointer[GObject] tag)
 use @g_object_unref[None](gobj: Pointer[GObject] tag)
 use @g_signal_connect_data[U64](instance: Pointer[GObject] tag, signal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Any, destdata: Pointer[None] tag, connectflags: I32)
 use @g_object_set_data[None](gobj: NullablePointer[GObject], key: Pointer[U8] tag, data: Pointer[None])

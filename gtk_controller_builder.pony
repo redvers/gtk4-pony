@@ -1,6 +1,8 @@
+use "collections"
 use "actor_pinning"
 use "Gtk"
 use "Gtk/Builder"
+use "Gtk/Button"
 use "Gtk/Window"
 use "GLib"
 use "GLib/Resource"
@@ -28,24 +30,18 @@ actor GtkControllerBuilder
     if ActorPinning.is_successfully_pinned(auth) then
       env.out.print("We are pinned")
       Gtk.init()
-      build_window()
+      summon_builder()
     else
       env.out.print("We are not pinned")
       initialize_gtk()
     end
 
-  be build_window() => None
-    let gresource: GResource = GResource.load("widget-factory.gresource")
-    gresource.register()
+  be summon_builder() => None
     try
-      builder = GtkBuilder.new_from_resource("/org/gtk/WidgetFactory4/widget-factory.ui")?
+      builder = GtkBuilder.new_from_file("gtk4-pony-test-ui.ui")
       match builder
       | let b: GtkBuilder =>
-        let window: GtkWindow = GtkWindow.new_from_builder(b, "window")?
-        window.set_interactive_debugging(true)
-        window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
-        window.set_visible(true)
-        window_active = true
+        build_window(b)?
         loop()
       else
         @printf("My builder failed\n".cstring())
@@ -53,6 +49,17 @@ actor GtkControllerBuilder
     else
       @printf("Our builder failed\n".cstring())
     end
+
+  fun ref build_window(b: GtkBuilder)? =>
+    let window: GtkWindow = GtkWindow.new_from_builder(b, "window")?
+    window.set_interactive_debugging(true)
+    window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
+    window.set_visible(true)
+
+    let buttona: GtkButton = GtkButton.new_from_builder(b, "a")?
+    buttona.signal_connect_data[GtkControllerBuilder]("clicked", Callbacks~button_a_clicked[GtkControllerBuilder](), me)
+
+    window_active = true
 
   be close_window() =>
     window_active = false
@@ -65,4 +72,16 @@ actor GtkControllerBuilder
 
   be done() =>
     ActorPinning.request_unpin(auth)
+
+  be buttona_clicked(buttona: GtkButton iso) =>
+    @printf("In buttona callback in gtkcontrollerbuilder\n".cstring())
+
+    for f in Range[USize](0,10000) do
+      let b: GtkButton = GtkButton
+    end
+
+
+
+
+
 

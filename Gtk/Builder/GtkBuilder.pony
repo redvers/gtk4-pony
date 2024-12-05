@@ -8,12 +8,17 @@ use @gtk_builder_new_from_resource[Pointer[GObject] tag](str: Pointer[U8] tag)
 use @g_object_unref[None](gobj: Pointer[GObject] tag)
 use @g_object_ref[Pointer[GObject] tag](gobj: Pointer[GObject] tag)
 use @gtk_builder_get_object[Pointer[GObject] tag](gobj: Pointer[GObject] tag, str: Pointer[U8] tag)
+use @gtk_builder_new_from_file[Pointer[GObject]](filename: Pointer[U8] tag)
 
 class GtkBuilder is GObjectInterface
   var ptr: Pointer[GObject] tag
 
   new new_from_string(str: String val) =>
     ptr = @gtk_builder_new_from_string(str.cstring(), str.size().i64())
+    @g_object_ref(ptr)
+
+  new new_from_file(str: String val) =>
+    ptr = @gtk_builder_new_from_file(str.cstring())
     @g_object_ref(ptr)
 
   new new_from_resource(resourcepath: String val)? =>
