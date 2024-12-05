@@ -1,7 +1,9 @@
 use "GObject/Object"
 
 primitive Callbacks
-  fun @window_close_request[A: GtkController](gobj: Pointer[GObject] tag, me: A) => None
-    me.close_window()
+  fun @window_close_request[A: GtkControllerBuilder tag](gobj: Pointer[GObject] tag, me: A) => None
+    @printf("In window_close_request()\n".cstring())
+//    me.close_window()
+
 
 

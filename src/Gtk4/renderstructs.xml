@@ -57,7 +57,7 @@
   <renderstruct id="_872" render="0"/><!-- GBookmarkFile f63 -->
   <renderstruct id="_945" render="0"/><!-- GChecksum f66 -->
   <renderstruct id="_961" render="0"/><!-- GIConv f67 -->
-  <renderstruct id="_979" render="GData"/><!-- GData f68 -->
+  <renderstruct id="_979" render="0"/><!-- GData f68 -->
   <renderstruct id="_1004" render="0"/><!-- GDate f69 -->
   <renderstruct id="_1061" render="0"/><!-- Dirent f70 -->
   <renderstruct id="_1063" render="0"/><!-- Dirstream f71 -->
@@ -72,7 +72,7 @@
   <renderstruct id="_1291" render="0"/><!-- GHookList f81 -->
   <renderstruct id="_1330" render="0"/><!-- GPollFD f83 -->
   <renderstruct id="_1334" render="0"/><!-- GSList f84 -->
-  <renderstruct id="_1370" render="GMainContext"/><!-- GMainContext f85 -->
+  <renderstruct id="_1370" render="0"/><!-- GMainContext f85 -->
   <renderstruct id="_1372" render="0"/><!-- GMainLoop f85 -->
   <renderstruct id="_1374" render="0"/><!-- GSource f85 -->
   <renderstruct id="_1376" render="0"/><!-- GSourcePrivate f85 -->
@@ -136,11 +136,11 @@
   <renderstruct id="_2817" render="0"/><!-- GStaticRecMutex f42 -->
   <renderstruct id="_2826" render="0"/><!-- GStaticRWLock f42 -->
   <renderstruct id="_2837" render="0"/><!-- GStaticPrivate f42 -->
-  <renderstruct id="_3335" render="0"/><!-- GValue f136 -->
+  <renderstruct id="_3335" render="1"/><!-- GValue f136 -->
   <renderstruct id="_3339" render="0"/><!-- GTypePlugin f135 -->
-  <renderstruct id="_3341" render="GTypeClass"/><!-- GTypeClass f135 -->
+  <renderstruct id="_3341" render="0"/><!-- GTypeClass f135 -->
   <renderstruct id="_3343" render="0"/><!-- GTypeInterface f135 -->
-  <renderstruct id="_3345" render="GTypeInstance"/><!-- GTypeInstance f135 -->
+  <renderstruct id="_3345" render="0"/><!-- GTypeInstance f135 -->
   <renderstruct id="_3347" render="0"/><!-- GTypeInfo f135 -->
   <renderstruct id="_3349" render="0"/><!-- GTypeFundamentalInfo f135 -->
   <renderstruct id="_3351" render="0"/><!-- GInterfaceInfo f135 -->
@@ -156,7 +156,7 @@
   <renderstruct id="_3514" render="0"/><!-- GCClosure f138 -->
   <renderstruct id="_3578" render="0"/><!-- GSignalQuery f140 -->
   <renderstruct id="_3580" render="0"/><!-- GSignalInvocationHint f140 -->
-  <renderstruct id="_3683" render="GObject"/><!-- GObject f143 -->
+  <renderstruct id="_3683" render="0"/><!-- GObject f143 -->
   <renderstruct id="_3685" render="0"/><!-- GObjectClass f143 -->
   <renderstruct id="_3689" render="0"/><!-- GObjectConstructParam f143 -->
   <renderstruct id="_3765" render="0"/><!--  f143 -->
@@ -434,7 +434,7 @@
   <renderstruct id="_6007" render="0"/><!-- GModule f271 -->
   <renderstruct id="_6023" render="0"/><!-- GIOModuleScope f272 -->
   <renderstruct id="_6028" render="0"/><!-- GIOModuleClass f272 -->
-  <renderstruct id="_6055" render="GListModel"/><!-- GListModel f274 -->
+  <renderstruct id="_6055" render="0"/><!-- GListModel f274 -->
   <renderstruct id="_6057" render="0"/><!-- GListModelInterface f274 -->
   <renderstruct id="_6077" render="0"/><!-- GListStore f275 -->
   <renderstruct id="_6079" render="0"/><!--  f275 -->
@@ -835,8 +835,8 @@
   <renderstruct id="_14031" render="0"/><!-- GtkShortcutTrigger f478 -->
   <renderstruct id="_14034" render="0"/><!-- GtkStyleContext f481 -->
   <renderstruct id="_14036" render="0"/><!-- GtkTooltip f478 -->
-  <renderstruct id="_14038" render="GtkWidget"/><!-- GtkWidget f480 -->
-  <renderstruct id="_14040" render="GtkWindow"/><!-- GtkWindow f482 -->
+  <renderstruct id="_14038" render="0"/><!-- GtkWidget f480 -->
+  <renderstruct id="_14040" render="0"/><!-- GtkWindow f482 -->
   <renderstruct id="_14043" render="0"/><!--  f483 -->
   <renderstruct id="_14077" render="0"/><!-- GtkShortcutActionClass f484 -->
   <renderstruct id="_14107" render="0"/><!-- GtkNothingAction f484 -->
@@ -851,7 +851,7 @@
   <renderstruct id="_14225" render="0"/><!-- GtkSignalActionClass f484 -->
   <renderstruct id="_14253" render="0"/><!-- GtkNamedAction f484 -->
   <renderstruct id="_14255" render="0"/><!-- GtkNamedActionClass f484 -->
-  <renderstruct id="_14282" render="GtkWidgetPrivate"/><!-- GtkWidgetPrivate f480 -->
+  <renderstruct id="_14282" render="0"/><!-- GtkWidgetPrivate f480 -->
   <renderstruct id="_14284" render="0"/><!-- GtkWidgetClass f480 -->
   <renderstruct id="_14286" render="0"/><!-- GtkWidgetClassPrivate f480 -->
   <renderstruct id="_14498" render="0"/><!-- GtkApplication f485 -->
