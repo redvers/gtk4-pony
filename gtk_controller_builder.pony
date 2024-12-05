@@ -18,8 +18,6 @@ actor GtkControllerBuilder
   var me: GtkControllerBuilder tag
   var builder: (GtkBuilder | None) = None
 
-  let stub: GCallback[GtkControllerBuilder tag] = Callbacks~window_close_request[GtkControllerBuilder tag]()
-
   new create(env': Env) =>
     env = env'
     auth = PinUnpinActorAuth(env.root)
@@ -45,7 +43,7 @@ actor GtkControllerBuilder
       | let b: GtkBuilder =>
         let window: GtkWindow = GtkWindow.new_from_builder(b, "window")?
         window.set_interactive_debugging(true)
-//        window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
+        window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
         window.set_visible(true)
         window_active = true
         loop()
