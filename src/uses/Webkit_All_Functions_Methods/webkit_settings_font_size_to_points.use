@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:428
+  Original Name: webkit_settings_font_size_to_points/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:428
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @webkit_settings_font_size_to_points[U32](pixels: U32)
+

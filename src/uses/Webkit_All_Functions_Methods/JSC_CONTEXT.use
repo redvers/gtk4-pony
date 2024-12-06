@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:39
+  Original Name: JSC_CONTEXT/usr/include/webkitgtk-6.0/jsc/JSCContext.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @JSC_CONTEXT[NullablePointer[JSCContext]](ptr: Pointer[None] tag)
+

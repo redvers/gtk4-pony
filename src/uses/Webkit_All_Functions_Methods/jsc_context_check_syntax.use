@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:133
+  Original Name: jsc_context_check_syntax/usr/include/webkitgtk-6.0/jsc/JSCContext.h:133
+
+  Return Value: [Enumeration size=32,fid: f845]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [Enumeration size=32,fid: f845]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f843]
+*/
+use @jsc_context_check_syntax[I32](context: NullablePointer[JSCContext] tag, code: Pointer[U8] tag, length: I64, mode: I32, uri: Pointer[U8] tag, linenumber: U32, exception: Pointer[NullablePointer[JSCException]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:73
+  Original Name: jsc_value_is_null/usr/include/webkitgtk-6.0/jsc/JSCValue.h:73
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_is_null[I32](value: NullablePointer[JSCValue] tag)
+

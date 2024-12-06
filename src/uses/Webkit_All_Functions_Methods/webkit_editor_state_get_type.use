@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEditorState.h:34
+  Original Name: webkit_editor_state_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEditorState.h:34
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_editor_state_get_type[U64]()
+

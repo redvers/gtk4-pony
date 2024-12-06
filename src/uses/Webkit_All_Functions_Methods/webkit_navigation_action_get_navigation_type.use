@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:68
+  Original Name: webkit_navigation_action_get_navigation_type/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:68
+
+  Return Value: [Enumeration size=32,fid: f824]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_get_navigation_type[I32](navigation: NullablePointer[WebKitNavigationAction] tag)
+

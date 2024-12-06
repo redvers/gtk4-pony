@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:126
+  Original Name: webkit_itp_first_party_unref/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_itp_first_party_unref[None](itpfirstparty: NullablePointer[WebKitITPFirstParty] tag)
+

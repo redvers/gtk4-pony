@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:75
+  Original Name: webkit_context_menu_item_get_submenu/usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:75
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f760]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f760]
+*/
+use @webkit_context_menu_item_get_submenu[NullablePointer[WebKitContextMenu]](item: NullablePointer[WebKitContextMenuItem] tag)
+

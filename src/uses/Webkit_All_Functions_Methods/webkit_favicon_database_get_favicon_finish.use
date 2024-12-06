@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:65
+  Original Name: webkit_favicon_database_get_favicon_finish/usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:65
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f375]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f813]
+    [PointerType size=64]->[Struct size=,fid: f158]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_favicon_database_get_favicon_finish[NullablePointer[GdkTexture]](database: NullablePointer[WebKitFaviconDatabase] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:34
+  Original Name: webkit_user_message_get_type/usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:34
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_user_message_get_type[U64]()
+

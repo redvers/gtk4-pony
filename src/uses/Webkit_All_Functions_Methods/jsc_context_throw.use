@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:72
+  Original Name: jsc_context_throw/usr/include/webkitgtk-6.0/jsc/JSCContext.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @jsc_context_throw[None](context: NullablePointer[JSCContext] tag, errormessage: Pointer[U8] tag)
+

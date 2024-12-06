@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPrintOperation.h:61
+  Original Name: webkit_print_operation_get_page_setup/usr/include/webkitgtk-6.0/webkit/WebKitPrintOperation.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f677]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f809]
+*/
+use @webkit_print_operation_get_page_setup[NullablePointer[GtkPageSetup]](printoperation: NullablePointer[WebKitPrintOperation] tag)
+

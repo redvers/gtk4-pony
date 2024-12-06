@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:119
+  Original Name: webkit_cookie_manager_delete_cookie_finish/usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:119
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f804]
+    [PointerType size=64]->[Struct size=,fid: f158]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_cookie_manager_delete_cookie_finish[I32](cookiemanager: NullablePointer[WebKitCookieManager] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

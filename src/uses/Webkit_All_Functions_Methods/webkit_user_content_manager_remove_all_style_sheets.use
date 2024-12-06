@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:47
+  Original Name: webkit_user_content_manager_remove_all_style_sheets/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+*/
+use @webkit_user_content_manager_remove_all_style_sheets[None](manager: NullablePointer[WebKitUserContentManager] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:63
+  Original Name: webkit_script_dialog_unref/usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f839]
+*/
+use @webkit_script_dialog_unref[None](dialog: NullablePointer[WebKitScriptDialog] tag)
+

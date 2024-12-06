@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitResponsePolicyDecision.h:40
+  Original Name: webkit_response_policy_decision_get_request/usr/include/webkitgtk-6.0/webkit/WebKitResponsePolicyDecision.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f806]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f862]
+*/
+use @webkit_response_policy_decision_get_request[NullablePointer[WebKitURIRequest]](decision: NullablePointer[WebKitResponsePolicyDecision] tag)
+

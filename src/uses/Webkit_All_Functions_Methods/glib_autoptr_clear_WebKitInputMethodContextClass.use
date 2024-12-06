@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:37
+  Original Name: glib_autoptr_clear_WebKitInputMethodContextClass/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2944,fid: f821]
+*/
+use @glib_autoptr_clear_WebKitInputMethodContextClass[None](ptr: NullablePointer[WebKitInputMethodContextClass] tag)
+

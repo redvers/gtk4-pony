@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:393
+  Original Name: webkit_web_view_load_bytes/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:393
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_web_view_load_bytes[None](webview: NullablePointer[WebKitWebView] tag, bytes: NullablePointer[GBytes] tag, mimetype: Pointer[U8] tag, encoding: Pointer[U8] tag, baseuri: Pointer[U8] tag)
+

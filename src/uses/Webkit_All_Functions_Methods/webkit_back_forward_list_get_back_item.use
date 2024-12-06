@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitBackForwardList.h:40
+  Original Name: webkit_back_forward_list_get_back_item/usr/include/webkitgtk-6.0/webkit/WebKitBackForwardList.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f756]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f757]
+*/
+use @webkit_back_forward_list_get_back_item[NullablePointer[WebKitBackForwardListItem]](backforwardlist: NullablePointer[WebKitBackForwardList] tag)
+

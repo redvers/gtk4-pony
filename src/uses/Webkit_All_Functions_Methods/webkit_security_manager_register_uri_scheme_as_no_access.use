@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityManager.h:45
+  Original Name: webkit_security_manager_register_uri_scheme_as_no_access/usr/include/webkitgtk-6.0/webkit/WebKitSecurityManager.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f852]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_security_manager_register_uri_scheme_as_no_access[None](securitymanager: NullablePointer[WebKitSecurityManager] tag, scheme: Pointer[U8] tag)
+

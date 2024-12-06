@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:103
+  Original Name: webkit_network_session_prefetch_dns/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_network_session_prefetch_dns[None](session: NullablePointer[WebKitNetworkSession] tag, hostname: Pointer[U8] tag)
+

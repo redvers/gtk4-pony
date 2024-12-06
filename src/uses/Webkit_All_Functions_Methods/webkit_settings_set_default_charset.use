@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:195
+  Original Name: webkit_settings_set_default_charset/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:195
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_settings_set_default_charset[None](settings: NullablePointer[WebKitSettings] tag, defaultcharset: Pointer[U8] tag)
+

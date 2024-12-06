@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:60
+  Original Name: webkit_security_origin_get_port/usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:60
+
+  Return Value: [FundamentalType(short unsigned int) size=16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f315]
+*/
+use @webkit_security_origin_get_port[U16](origin: NullablePointer[WebKitSecurityOrigin] tag)
+

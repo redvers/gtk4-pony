@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:43
+  Original Name: webkit_web_context_get_type/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:43
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_web_context_get_type[U64]()
+

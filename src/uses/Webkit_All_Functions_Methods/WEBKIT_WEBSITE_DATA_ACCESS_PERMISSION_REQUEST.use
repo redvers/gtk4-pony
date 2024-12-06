@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataAccessPermissionRequest.h:33
+  Original Name: WEBKIT_WEBSITE_DATA_ACCESS_PERMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataAccessPermissionRequest.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f867]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_WEBSITE_DATA_ACCESS_PERMISSION_REQUEST[NullablePointer[WebKitWebsiteDataAccessPermissionRequest]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:56
+  Original Name: webkit_download_get_estimated_progress/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:56
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_get_estimated_progress[F64](download: NullablePointer[WebKitDownload] tag)
+

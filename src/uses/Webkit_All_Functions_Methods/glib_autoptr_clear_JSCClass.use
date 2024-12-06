@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCClass.h:35
+  Original Name: glib_autoptr_clear_JSCClass/usr/include/webkitgtk-6.0/jsc/JSCClass.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @glib_autoptr_clear_JSCClass[None](ptr: NullablePointer[JSCClass] tag)
+

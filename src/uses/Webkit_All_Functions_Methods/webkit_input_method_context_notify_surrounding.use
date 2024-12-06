@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:174
+  Original Name: webkit_input_method_context_notify_surrounding/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:174
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f821]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @webkit_input_method_context_notify_surrounding[None](context: NullablePointer[WebKitInputMethodContext] tag, text: Pointer[U8] tag, length: I32, cursorindex: U32, selectionindex: U32)
+

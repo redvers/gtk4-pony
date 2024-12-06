@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:68
+  Original Name: webkit_cookie_manager_set_persistent_storage/usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:68
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f804]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f804]
+*/
+use @webkit_cookie_manager_set_persistent_storage[None](cookiemanager: NullablePointer[WebKitCookieManager] tag, filename: Pointer[U8] tag, storage: I32)
+

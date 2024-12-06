@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:80
+  Original Name: webkit_navigation_action_is_user_gesture/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:80
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_is_user_gesture[I32](navigation: NullablePointer[WebKitNavigationAction] tag)
+

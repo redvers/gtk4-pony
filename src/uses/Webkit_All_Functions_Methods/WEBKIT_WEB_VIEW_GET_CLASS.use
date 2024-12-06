@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:68
+  Original Name: WEBKIT_WEB_VIEW_GET_CLASS/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:68
+
+  Return Value: [PointerType size=64]->[Struct size=7296,fid: f809]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_WEB_VIEW_GET_CLASS[NullablePointer[WebKitWebViewClass]](ptr: Pointer[None] tag)
+

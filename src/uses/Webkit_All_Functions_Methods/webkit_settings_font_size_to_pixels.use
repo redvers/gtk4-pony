@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:431
+  Original Name: webkit_settings_font_size_to_pixels/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:431
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @webkit_settings_font_size_to_pixels[U32](points: U32)
+

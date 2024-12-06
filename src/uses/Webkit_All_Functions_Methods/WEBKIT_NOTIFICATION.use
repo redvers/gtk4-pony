@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:34
+  Original Name: WEBKIT_NOTIFICATION/usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f832]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_NOTIFICATION[NullablePointer[WebKitNotification]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:177
+  Original Name: jsc_value_object_invoke_methodv/usr/include/webkitgtk-6.0/jsc/JSCValue.h:177
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_object_invoke_methodv[NullablePointer[JSCValue]](value: NullablePointer[JSCValue] tag, name: Pointer[U8] tag, nparameters: U32, parameters: Pointer[NullablePointer[JSCValue]] tag)
+

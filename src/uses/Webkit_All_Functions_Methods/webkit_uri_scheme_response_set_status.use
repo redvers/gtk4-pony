@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeResponse.h:42
+  Original Name: webkit_uri_scheme_response_set_status/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeResponse.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f853]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_uri_scheme_response_set_status[None](response: NullablePointer[WebKitURISchemeResponse] tag, statuscode: U32, reasonphrase: Pointer[U8] tag)
+

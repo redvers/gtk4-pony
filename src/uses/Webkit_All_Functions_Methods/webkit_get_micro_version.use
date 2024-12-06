@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitVersion.h:48
+  Original Name: webkit_get_micro_version/usr/include/webkitgtk-6.0/webkit/WebKitVersion.h:48
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @webkit_get_micro_version[U32]()
+

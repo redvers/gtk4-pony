@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:55
+  Original Name: webkit_file_chooser_request_cancel/usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f815]
+*/
+use @webkit_file_chooser_request_cancel[None](request: NullablePointer[WebKitFileChooserRequest] tag)
+

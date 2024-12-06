@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:38
+  Original Name: glib_autoptr_cleanup_WebKitSecurityOrigin/usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:38
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f315]
+*/
+use @glib_autoptr_cleanup_WebKitSecurityOrigin[None](ptr: Pointer[NullablePointer[WebKitSecurityOrigin]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:141
+  Original Name: webkit_user_content_manager_remove_filter_by_id/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:141
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_user_content_manager_remove_filter_by_id[None](manager: NullablePointer[WebKitUserContentManager] tag, filterid: Pointer[U8] tag)
+

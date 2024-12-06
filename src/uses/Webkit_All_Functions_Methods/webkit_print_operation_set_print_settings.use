@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPrintOperation.h:57
+  Original Name: webkit_print_operation_set_print_settings/usr/include/webkitgtk-6.0/webkit/WebKitPrintOperation.h:57
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f809]
+    [PointerType size=64]->[Struct size=,fid: f684]
+*/
+use @webkit_print_operation_set_print_settings[None](printoperation: NullablePointer[WebKitPrintOperation] tag, printsettings: NullablePointer[GtkPrintSettings] tag)
+

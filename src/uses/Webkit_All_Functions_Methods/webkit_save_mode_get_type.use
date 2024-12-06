@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:195
+  Original Name: webkit_save_mode_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:195
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_save_mode_get_type[U64]()
+

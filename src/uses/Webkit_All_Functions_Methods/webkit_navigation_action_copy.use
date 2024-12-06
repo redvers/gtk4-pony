@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:62
+  Original Name: webkit_navigation_action_copy/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:62
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f824]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_copy[NullablePointer[WebKitNavigationAction]](navigation: NullablePointer[WebKitNavigationAction] tag)
+

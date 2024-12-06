@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitColorChooserRequest.h:41
+  Original Name: glib_autoptr_clear_WebKitColorChooserRequest/usr/include/webkitgtk-6.0/webkit/WebKitColorChooserRequest.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f759]
+*/
+use @glib_autoptr_clear_WebKitColorChooserRequest[None](ptr: NullablePointer[WebKitColorChooserRequest] tag)
+

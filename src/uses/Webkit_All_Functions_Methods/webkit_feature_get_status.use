@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:99
+  Original Name: webkit_feature_get_status/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:99
+
+  Return Value: [Enumeration size=32,fid: f814]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_feature_get_status[I32](feature: NullablePointer[WebKitFeature] tag)
+

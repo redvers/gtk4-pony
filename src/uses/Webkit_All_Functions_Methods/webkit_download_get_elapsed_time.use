@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:59
+  Original Name: webkit_download_get_elapsed_time/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:59
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_get_elapsed_time[F64](download: NullablePointer[WebKitDownload] tag)
+

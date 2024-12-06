@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:450
+  Original Name: webkit_web_view_go_to_back_forward_list_item/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:450
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+    [PointerType size=64]->[Struct size=,fid: f756]
+*/
+use @webkit_web_view_go_to_back_forward_list_item[None](webview: NullablePointer[WebKitWebView] tag, listitem: NullablePointer[WebKitBackForwardListItem] tag)
+

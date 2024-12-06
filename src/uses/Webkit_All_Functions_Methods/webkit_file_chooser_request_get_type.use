@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:36
+  Original Name: webkit_file_chooser_request_get_type/usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:36
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_file_chooser_request_get_type[U64]()
+

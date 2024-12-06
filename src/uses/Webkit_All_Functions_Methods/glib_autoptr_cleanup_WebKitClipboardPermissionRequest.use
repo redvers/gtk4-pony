@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitClipboardPermissionRequest.h:34
+  Original Name: glib_autoptr_cleanup_WebKitClipboardPermissionRequest/usr/include/webkitgtk-6.0/webkit/WebKitClipboardPermissionRequest.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f758]
+*/
+use @glib_autoptr_cleanup_WebKitClipboardPermissionRequest[None](ptr: Pointer[NullablePointer[WebKitClipboardPermissionRequest]] tag)
+

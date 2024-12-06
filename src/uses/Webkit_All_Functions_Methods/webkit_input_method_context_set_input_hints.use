@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:212
+  Original Name: webkit_input_method_context_set_input_hints/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:212
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f821]
+    [Enumeration size=32,fid: f821]
+*/
+use @webkit_input_method_context_set_input_hints[None](context: NullablePointer[WebKitInputMethodContext] tag, hints: I32)
+

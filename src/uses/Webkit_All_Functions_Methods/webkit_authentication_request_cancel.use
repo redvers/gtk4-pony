@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:110
+  Original Name: webkit_authentication_request_cancel/usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f754]
+*/
+use @webkit_authentication_request_cancel[None](request: NullablePointer[WebKitAuthenticationRequest] tag)
+

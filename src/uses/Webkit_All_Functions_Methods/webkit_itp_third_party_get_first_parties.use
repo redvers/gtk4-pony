@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:155
+  Original Name: webkit_itp_third_party_get_first_parties/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:155
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_itp_third_party_get_first_parties[NullablePointer[GList]](itpthirdparty: NullablePointer[WebKitITPThirdParty] tag)
+

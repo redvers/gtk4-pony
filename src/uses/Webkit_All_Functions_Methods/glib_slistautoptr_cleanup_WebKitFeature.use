@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:104
+  Original Name: glib_slistautoptr_cleanup_WebKitFeature/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f84]
+*/
+use @glib_slistautoptr_cleanup_WebKitFeature[None](l: Pointer[NullablePointer[GSList]] tag)
+

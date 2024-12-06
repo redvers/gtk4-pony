@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:58
+  Original Name: webkit_user_message_new_with_fd_list/usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:58
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f851]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[Struct size=256,fid: f213]
+*/
+use @webkit_user_message_new_with_fd_list[NullablePointer[WebKitUserMessage]](name: Pointer[U8] tag, parameters: NullablePointer[GVariant] tag, fdlist: NullablePointer[GUnixFDList] tag)
+

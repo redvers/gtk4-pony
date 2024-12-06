@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPrintOperation.h:68
+  Original Name: webkit_print_operation_run_dialog/usr/include/webkitgtk-6.0/webkit/WebKitPrintOperation.h:68
+
+  Return Value: [Enumeration size=32,fid: f861]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f809]
+    [PointerType size=64]->[Struct size=256,fid: f485]
+*/
+use @webkit_print_operation_run_dialog[I32](printoperation: NullablePointer[WebKitPrintOperation] tag, parent: NullablePointer[GtkWindow] tag)
+

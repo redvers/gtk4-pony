@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPermissionStateQuery.h:66
+  Original Name: webkit_permission_state_query_get_security_origin/usr/include/webkitgtk-6.0/webkit/WebKitPermissionStateQuery.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f315]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f837]
+*/
+use @webkit_permission_state_query_get_security_origin[NullablePointer[WebKitSecurityOrigin]](query: NullablePointer[WebKitPermissionStateQuery] tag)
+

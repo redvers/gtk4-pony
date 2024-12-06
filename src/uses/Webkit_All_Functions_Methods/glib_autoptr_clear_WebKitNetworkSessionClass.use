@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:39
+  Original Name: glib_autoptr_clear_WebKitNetworkSessionClass/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1088,fid: f831]
+*/
+use @glib_autoptr_clear_WebKitNetworkSessionClass[None](ptr: NullablePointer[] tag)
+

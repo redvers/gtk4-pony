@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:157
+  Original Name: webkit_input_method_context_filter_key_event/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:157
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f821]
+    [PointerType size=64]->[Struct size=,fid: f403]
+*/
+use @webkit_input_method_context_filter_key_event[I32](context: NullablePointer[WebKitInputMethodContext] tag, keyevent: NullablePointer[GdkEvent] tag)
+

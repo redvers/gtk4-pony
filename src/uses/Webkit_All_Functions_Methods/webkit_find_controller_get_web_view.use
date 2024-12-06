@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFindController.h:94
+  Original Name: webkit_find_controller_get_web_view/usr/include/webkitgtk-6.0/webkit/WebKitFindController.h:94
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f809]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f816]
+*/
+use @webkit_find_controller_get_web_view[NullablePointer[WebKitWebView]](findcontroller: NullablePointer[WebKitFindController] tag)
+

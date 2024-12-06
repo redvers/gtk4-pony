@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:57
+  Original Name: webkit_cookie_accept_policy_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:57
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_cookie_accept_policy_get_type[U64]()
+

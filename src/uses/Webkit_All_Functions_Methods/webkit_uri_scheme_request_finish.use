@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:62
+  Original Name: webkit_uri_scheme_request_finish/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:62
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f854]
+    [PointerType size=64]->[Struct size=256,fid: f183]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_uri_scheme_request_finish[None](request: NullablePointer[WebKitURISchemeRequest] tag, stream: NullablePointer[GInputStream] tag, streamlength: I64, contenttype: Pointer[U8] tag)
+

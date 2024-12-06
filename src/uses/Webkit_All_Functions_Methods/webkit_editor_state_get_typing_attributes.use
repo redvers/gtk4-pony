@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEditorState.h:58
+  Original Name: webkit_editor_state_get_typing_attributes/usr/include/webkitgtk-6.0/webkit/WebKitEditorState.h:58
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f810]
+*/
+use @webkit_editor_state_get_typing_attributes[U32](editorstate: NullablePointer[WebKitEditorState] tag)
+

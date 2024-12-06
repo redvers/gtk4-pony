@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNotificationPermissionRequest.h:34
+  Original Name: WEBKIT_NOTIFICATION_PERMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitNotificationPermissionRequest.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f833]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_NOTIFICATION_PERMISSION_REQUEST[NullablePointer[WebKitNotificationPermissionRequest]](ptr: Pointer[None] tag)
+

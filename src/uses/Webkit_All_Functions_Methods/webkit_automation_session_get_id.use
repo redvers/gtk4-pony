@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:52
+  Original Name: webkit_automation_session_get_id/usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:52
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f755]
+*/
+use @webkit_automation_session_get_id[Pointer[U8]](session: NullablePointer[WebKitAutomationSession] tag)
+

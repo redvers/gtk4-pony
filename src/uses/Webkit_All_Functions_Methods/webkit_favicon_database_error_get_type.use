@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:105
+  Original Name: webkit_favicon_database_error_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:105
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_favicon_database_error_get_type[U64]()
+

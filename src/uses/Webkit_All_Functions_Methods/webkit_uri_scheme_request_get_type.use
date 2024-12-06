@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:36
+  Original Name: webkit_uri_scheme_request_get_type/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:36
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_uri_scheme_request_get_type[U64]()
+

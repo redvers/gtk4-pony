@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:105
+  Original Name: jsc_context_pop_exception_handler/usr/include/webkitgtk-6.0/jsc/JSCContext.h:105
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_context_pop_exception_handler[None](context: NullablePointer[JSCContext] tag)
+

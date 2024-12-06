@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:74
+  Original Name: webkit_website_data_manager_get_favicon_database/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f813]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_website_data_manager_get_favicon_database[NullablePointer[WebKitFaviconDatabase]](manager: NullablePointer[WebKitWebsiteDataManager] tag)
+

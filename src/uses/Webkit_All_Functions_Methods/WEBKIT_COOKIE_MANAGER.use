@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:37
+  Original Name: WEBKIT_COOKIE_MANAGER/usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f804]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_COOKIE_MANAGER[NullablePointer[WebKitCookieManager]](ptr: Pointer[None] tag)
+

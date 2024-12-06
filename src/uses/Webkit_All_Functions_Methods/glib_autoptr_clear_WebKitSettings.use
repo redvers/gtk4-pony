@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:42
+  Original Name: glib_autoptr_clear_WebKitSettings/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @glib_autoptr_clear_WebKitSettings[None](ptr: NullablePointer[WebKitSettings] tag)
+

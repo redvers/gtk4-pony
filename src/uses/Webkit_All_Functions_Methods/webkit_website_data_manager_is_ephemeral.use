@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:58
+  Original Name: webkit_website_data_manager_is_ephemeral/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:58
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_website_data_manager_is_ephemeral[I32](manager: NullablePointer[WebKitWebsiteDataManager] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:68
+  Original Name: webkit_download_get_allow_overwrite/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_get_allow_overwrite[I32](download: NullablePointer[WebKitDownload] tag)
+

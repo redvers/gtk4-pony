@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:195
+  Original Name: webkit_input_method_underline_free/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:195
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f821]
+*/
+use @webkit_input_method_underline_free[None](underline: NullablePointer[WebKitInputMethodUnderline] tag)
+

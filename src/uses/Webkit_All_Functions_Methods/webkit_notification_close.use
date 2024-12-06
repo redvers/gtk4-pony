@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:49
+  Original Name: webkit_notification_close/usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f832]
+*/
+use @webkit_notification_close[None](notification: NullablePointer[WebKitNotification] tag)
+

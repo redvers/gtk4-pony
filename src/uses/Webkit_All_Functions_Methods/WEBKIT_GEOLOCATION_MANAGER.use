@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:34
+  Original Name: WEBKIT_GEOLOCATION_MANAGER/usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f818]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_GEOLOCATION_MANAGER[NullablePointer[WebKitGeolocationManager]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:117
+  Original Name: webkit_feature_list_unref/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:117
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_feature_list_unref[None](featurelist: NullablePointer[WebKitFeatureList] tag)
+

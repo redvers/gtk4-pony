@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMediaPermissionRequest.h:39
+  Original Name: webkit_user_media_permission_is_for_video_device/usr/include/webkitgtk-6.0/webkit/WebKitUserMediaPermissionRequest.h:39
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f865]
+*/
+use @webkit_user_media_permission_is_for_video_device[I32](request: NullablePointer[WebKitUserMediaPermissionRequest] tag)
+

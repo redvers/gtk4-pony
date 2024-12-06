@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:81
+  Original Name: webkit_feature_ref/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:81
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f814]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_feature_ref[NullablePointer[WebKitFeature]](feature: NullablePointer[WebKitFeature] tag)
+

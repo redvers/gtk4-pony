@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:83
+  Original Name: webkit_navigation_action_is_redirect/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:83
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_is_redirect[I32](navigation: NullablePointer[WebKitNavigationAction] tag)
+

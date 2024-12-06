@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPolicyDecision.h:35
+  Original Name: glib_autoptr_cleanup_WebKitPolicyDecision/usr/include/webkitgtk-6.0/webkit/WebKitPolicyDecision.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=256,fid: f826]
+*/
+use @glib_autoptr_cleanup_WebKitPolicyDecision[None](ptr: Pointer[NullablePointer[WebKitPolicyDecision]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteData.h:62
+  Original Name: webkit_website_data_get_name/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteData.h:62
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f829]
+*/
+use @webkit_website_data_get_name[Pointer[U8]](websitedata: NullablePointer[WebKitWebsiteData] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:83
+  Original Name: webkit_context_menu_remove_all/usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f760]
+*/
+use @webkit_context_menu_remove_all[None](menu: NullablePointer[WebKitContextMenu] tag)
+

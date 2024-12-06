@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitError.h:178
+  Original Name: webkit_user_content_filter_error_quark/usr/include/webkitgtk-6.0/webkit/WebKitError.h:178
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @webkit_user_content_filter_error_quark[U32]()
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCVirtualMachine.h:35
+  Original Name: jsc_virtual_machine_get_type/usr/include/webkitgtk-6.0/jsc/JSCVirtualMachine.h:35
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @jsc_virtual_machine_get_type[U64]()
+

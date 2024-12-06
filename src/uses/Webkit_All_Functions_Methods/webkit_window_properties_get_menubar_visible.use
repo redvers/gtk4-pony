@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWindowProperties.h:52
+  Original Name: webkit_window_properties_get_menubar_visible/usr/include/webkitgtk-6.0/webkit/WebKitWindowProperties.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f858]
+*/
+use @webkit_window_properties_get_menubar_visible[I32](windowproperties: NullablePointer[WebKitWindowProperties] tag)
+

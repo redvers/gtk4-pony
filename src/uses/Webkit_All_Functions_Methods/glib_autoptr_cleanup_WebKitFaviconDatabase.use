@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:38
+  Original Name: glib_autoptr_cleanup_WebKitFaviconDatabase/usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:38
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f813]
+*/
+use @glib_autoptr_cleanup_WebKitFaviconDatabase[None](ptr: Pointer[NullablePointer[WebKitFaviconDatabase]] tag)
+

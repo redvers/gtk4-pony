@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:36
+  Original Name: glib_autoptr_cleanup_WebKitFileChooserRequestClass/usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1088,fid: f815]
+*/
+use @glib_autoptr_cleanup_WebKitFileChooserRequestClass[None](ptr: Pointer[NullablePointer[]] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:302
+  Original Name: jsc_value_new_from_json/usr/include/webkitgtk-6.0/jsc/JSCValue.h:302
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @jsc_value_new_from_json[NullablePointer[JSCValue]](context: NullablePointer[JSCContext] tag, json: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:65
+  Original Name: webkit_context_menu_item_get_stock_action/usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:65
+
+  Return Value: [Enumeration size=32,fid: f761]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f760]
+*/
+use @webkit_context_menu_item_get_stock_action[I32](item: NullablePointer[WebKitContextMenuItem] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:43
+  Original Name: webkit_download_get_destination/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:43
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_get_destination[Pointer[U8]](download: NullablePointer[WebKitDownload] tag)
+

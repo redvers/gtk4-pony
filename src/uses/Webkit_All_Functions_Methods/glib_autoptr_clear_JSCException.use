@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+  Original Name: glib_autoptr_clear_JSCException/usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f843]
+*/
+use @glib_autoptr_clear_JSCException[None](ptr: NullablePointer[JSCException] tag)
+

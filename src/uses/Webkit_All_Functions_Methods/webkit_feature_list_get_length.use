@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:120
+  Original Name: webkit_feature_list_get_length/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:120
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_feature_list_get_length[U64](featurelist: NullablePointer[WebKitFeatureList] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:37
+  Original Name: glib_autoptr_clear_WebKitAuthenticationRequestClass/usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1088,fid: f754]
+*/
+use @glib_autoptr_clear_WebKitAuthenticationRequestClass[None](ptr: NullablePointer[] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+  Original Name: jsc_exception_get_type/usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @jsc_exception_get_type[U64]()
+

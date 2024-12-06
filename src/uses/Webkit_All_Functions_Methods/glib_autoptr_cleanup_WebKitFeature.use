@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:104
+  Original Name: glib_autoptr_cleanup_WebKitFeature/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @glib_autoptr_cleanup_WebKitFeature[None](ptr: Pointer[NullablePointer[WebKitFeature]] tag)
+

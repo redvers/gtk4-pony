@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCClass.h:142
+  Original Name: jsc_class_add_property/usr/include/webkitgtk-6.0/jsc/JSCClass.h:142
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @jsc_class_add_property[None](jscclass: NullablePointer[JSCClass] tag, name: Pointer[U8] tag, propertytype: U64, getter: Pointer[None] tag, setter: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

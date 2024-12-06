@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitResponsePolicyDecision.h:49
+  Original Name: webkit_response_policy_decision_is_main_frame_main_resource/usr/include/webkitgtk-6.0/webkit/WebKitResponsePolicyDecision.h:49
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f862]
+*/
+use @webkit_response_policy_decision_is_main_frame_main_resource[I32](decision: NullablePointer[WebKitResponsePolicyDecision] tag)
+

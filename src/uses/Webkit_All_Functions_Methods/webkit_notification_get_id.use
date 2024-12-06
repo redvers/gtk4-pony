@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:37
+  Original Name: webkit_notification_get_id/usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:37
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f832]
+*/
+use @webkit_notification_get_id[U64](notification: NullablePointer[WebKitNotification] tag)
+

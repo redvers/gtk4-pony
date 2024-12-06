@@ -1,0 +1,20 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:189
+  Original Name: jsc_value_object_define_property_accessor/usr/include/webkitgtk-6.0/jsc/JSCValue.h:189
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f841]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @jsc_value_object_define_property_accessor[None](value: NullablePointer[JSCValue] tag, propertyname: Pointer[U8] tag, flags: I32, propertytype: U64, getter: Pointer[None] tag, setter: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

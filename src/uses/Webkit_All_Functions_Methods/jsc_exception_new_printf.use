@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:43
+  Original Name: jsc_exception_new_printf/usr/include/webkitgtk-6.0/jsc/JSCException.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f843]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @jsc_exception_new_printf[NullablePointer[JSCException]](context: NullablePointer[JSCContext] tag, format: Pointer[U8] tag, ...)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFindController.h:34
+  Original Name: WEBKIT_FIND_CONTROLLER/usr/include/webkitgtk-6.0/webkit/WebKitFindController.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f816]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_FIND_CONTROLLER[NullablePointer[WebKitFindController]](ptr: Pointer[None] tag)
+

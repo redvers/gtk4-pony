@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:86
+  Original Name: webkit_navigation_action_get_frame_name/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:86
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_get_frame_name[Pointer[U8]](navigation: NullablePointer[WebKitNavigationAction] tag)
+

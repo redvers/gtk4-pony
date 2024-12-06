@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:79
+  Original Name: webkit_geolocation_position_set_heading/usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f818]
+    [FundamentalType(double) size=64]
+*/
+use @webkit_geolocation_position_set_heading[None](position: NullablePointer[WebKitGeolocationPosition] tag, heading: F64)
+

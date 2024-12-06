@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:129
+  Original Name: webkit_itp_first_party_get_domain/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:129
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_itp_first_party_get_domain[Pointer[U8]](itpfirstparty: NullablePointer[WebKitITPFirstParty] tag)
+

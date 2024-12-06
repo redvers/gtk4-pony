@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:44
+  Original Name: webkit_web_inspector_is_attached/usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:44
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f860]
+*/
+use @webkit_web_inspector_is_attached[I32](inspector: NullablePointer[WebKitWebInspector] tag)
+

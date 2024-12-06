@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFormSubmissionRequest.h:34
+  Original Name: WEBKIT_FORM_SUBMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitFormSubmissionRequest.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f817]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_FORM_SUBMISSION_REQUEST[NullablePointer[WebKitFormSubmissionRequest]](ptr: Pointer[None] tag)
+

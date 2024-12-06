@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:256
+  Original Name: webkit_settings_get_enable_webgl/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:256
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @webkit_settings_get_enable_webgl[I32](settings: NullablePointer[WebKitSettings] tag)
+

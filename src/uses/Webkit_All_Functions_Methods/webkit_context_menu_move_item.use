@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:59
+  Original Name: webkit_context_menu_move_item/usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:59
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f760]
+    [PointerType size=64]->[Struct size=,fid: f760]
+    [FundamentalType(int) size=32]
+*/
+use @webkit_context_menu_move_item[None](menu: NullablePointer[WebKitContextMenu] tag, item: NullablePointer[WebKitContextMenuItem] tag, position: I32)
+

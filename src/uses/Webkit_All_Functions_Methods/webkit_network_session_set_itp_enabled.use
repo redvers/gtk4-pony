@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:60
+  Original Name: webkit_network_session_set_itp_enabled/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:60
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [FundamentalType(int) size=32]
+*/
+use @webkit_network_session_set_itp_enabled[None](session: NullablePointer[WebKitNetworkSession] tag, enabled: I32)
+

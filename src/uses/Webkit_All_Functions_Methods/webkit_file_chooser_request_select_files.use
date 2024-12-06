@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:48
+  Original Name: webkit_file_chooser_request_select_files/usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:48
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f815]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_file_chooser_request_select_files[None](request: NullablePointer[WebKitFileChooserRequest] tag, files: Pointer[Pointer[U8]] tag)
+

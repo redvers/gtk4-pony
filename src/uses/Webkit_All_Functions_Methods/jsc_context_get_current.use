@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:108
+  Original Name: jsc_context_get_current/usr/include/webkitgtk-6.0/jsc/JSCContext.h:108
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+*/
+use @jsc_context_get_current[NullablePointer[JSCContext]]()
+

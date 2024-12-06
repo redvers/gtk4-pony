@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataAccessPermissionRequest.h:36
+  Original Name: webkit_website_data_access_permission_request_get_requesting_domain/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataAccessPermissionRequest.h:36
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f867]
+*/
+use @webkit_website_data_access_permission_request_get_requesting_domain[Pointer[U8]](request: NullablePointer[WebKitWebsiteDataAccessPermissionRequest] tag)
+

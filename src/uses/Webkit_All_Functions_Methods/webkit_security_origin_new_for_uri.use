@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:45
+  Original Name: webkit_security_origin_new_for_uri/usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f315]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_security_origin_new_for_uri[NullablePointer[WebKitSecurityOrigin]](uri: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:151
+  Original Name: jsc_value_object_set_property_at_index/usr/include/webkitgtk-6.0/jsc/JSCValue.h:151
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [FundamentalType(unsigned int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_object_set_property_at_index[None](value: NullablePointer[JSCValue] tag, index: U32, property: NullablePointer[JSCValue] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:161
+  Original Name: webkit_script_message_reply_return_value/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:161
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @webkit_script_message_reply_return_value[None](scriptmessagereply: NullablePointer[WebKitScriptMessageReply] tag, replyvalue: NullablePointer[JSCValue] tag)
+

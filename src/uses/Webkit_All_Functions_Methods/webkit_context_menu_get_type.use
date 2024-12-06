@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:35
+  Original Name: webkit_context_menu_get_type/usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:35
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_context_menu_get_type[U64]()
+

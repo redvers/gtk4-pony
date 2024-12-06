@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:59
+  Original Name: webkit_user_content_filter_store_save_finish/usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:59
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f849]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f864]
+    [PointerType size=64]->[Struct size=,fid: f158]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_user_content_filter_store_save_finish[NullablePointer[WebKitUserContentFilter]](store: NullablePointer[WebKitUserContentFilterStore] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

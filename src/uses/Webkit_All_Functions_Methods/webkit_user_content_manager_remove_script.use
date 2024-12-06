@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:126
+  Original Name: webkit_user_content_manager_remove_script/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:126
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+    [PointerType size=64]->[Struct size=,fid: f849]
+*/
+use @webkit_user_content_manager_remove_script[None](manager: NullablePointer[WebKitUserContentManager] tag, script: NullablePointer[WebKitUserScript] tag)
+

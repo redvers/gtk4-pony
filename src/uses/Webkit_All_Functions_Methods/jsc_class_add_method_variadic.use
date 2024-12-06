@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCClass.h:134
+  Original Name: jsc_class_add_method_variadic/usr/include/webkitgtk-6.0/jsc/JSCClass.h:134
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @jsc_class_add_method_variadic[None](jscclass: NullablePointer[JSCClass] tag, name: Pointer[U8] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag, returntype: U64)
+

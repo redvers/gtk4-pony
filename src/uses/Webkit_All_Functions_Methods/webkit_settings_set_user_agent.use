@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:321
+  Original Name: webkit_settings_set_user_agent/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:321
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_settings_set_user_agent[None](settings: NullablePointer[WebKitSettings] tag, useragent: Pointer[U8] tag)
+

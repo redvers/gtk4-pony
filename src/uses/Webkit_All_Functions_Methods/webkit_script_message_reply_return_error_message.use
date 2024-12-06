@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:165
+  Original Name: webkit_script_message_reply_return_error_message/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:165
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_script_message_reply_return_error_message[None](scriptmessagereply: NullablePointer[WebKitScriptMessageReply] tag, errormessage: Pointer[U8] tag)
+

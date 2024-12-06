@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitMemoryPressureSettings.h:70
+  Original Name: webkit_memory_pressure_settings_set_kill_threshold/usr/include/webkitgtk-6.0/webkit/WebKitMemoryPressureSettings.h:70
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f823]
+    [FundamentalType(double) size=64]
+*/
+use @webkit_memory_pressure_settings_set_kill_threshold[None](settings: NullablePointer[WebKitMemoryPressureSettings] tag, value: F64)
+

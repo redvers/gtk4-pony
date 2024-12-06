@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebViewBase.h:42
+  Original Name: WEBKIT_WEB_VIEW_BASE/usr/include/webkitgtk-6.0/webkit/WebKitWebViewBase.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f859]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_WEB_VIEW_BASE[NullablePointer[WebKitWebViewBase]](ptr: Pointer[None] tag)
+

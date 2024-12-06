@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContent.h:147
+  Original Name: webkit_user_content_filter_get_identifier/usr/include/webkitgtk-6.0/webkit/WebKitUserContent.h:147
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f849]
+*/
+use @webkit_user_content_filter_get_identifier[Pointer[U8]](usercontentfilter: NullablePointer[WebKitUserContentFilter] tag)
+

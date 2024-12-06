@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:164
+  Original Name: webkit_website_data_manager_get_itp_summary_finish/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:164
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+    [PointerType size=64]->[Struct size=,fid: f158]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_website_data_manager_get_itp_summary_finish[NullablePointer[GList]](manager: NullablePointer[WebKitWebsiteDataManager] tag, result: NullablePointer[GAsyncResult] tag, error: Pointer[NullablePointer[GError]] tag)
+

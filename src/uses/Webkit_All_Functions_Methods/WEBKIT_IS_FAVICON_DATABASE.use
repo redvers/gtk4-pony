@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:38
+  Original Name: WEBKIT_IS_FAVICON_DATABASE/usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:38
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_IS_FAVICON_DATABASE[I32](ptr: Pointer[None] tag)
+

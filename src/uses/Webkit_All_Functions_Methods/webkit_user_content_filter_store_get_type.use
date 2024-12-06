@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:40
+  Original Name: webkit_user_content_filter_store_get_type/usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:40
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_user_content_filter_store_get_type[U64]()
+

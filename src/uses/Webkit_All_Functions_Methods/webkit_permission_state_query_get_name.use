@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPermissionStateQuery.h:63
+  Original Name: webkit_permission_state_query_get_name/usr/include/webkitgtk-6.0/webkit/WebKitPermissionStateQuery.h:63
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f837]
+*/
+use @webkit_permission_state_query_get_name[Pointer[U8]](query: NullablePointer[WebKitPermissionStateQuery] tag)
+

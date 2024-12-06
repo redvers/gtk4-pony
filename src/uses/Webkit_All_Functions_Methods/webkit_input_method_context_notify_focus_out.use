@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:164
+  Original Name: webkit_input_method_context_notify_focus_out/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:164
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f821]
+*/
+use @webkit_input_method_context_notify_focus_out[None](context: NullablePointer[WebKitInputMethodContext] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:274
+  Original Name: webkit_settings_get_zoom_text_only/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:274
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @webkit_settings_get_zoom_text_only[I32](settings: NullablePointer[WebKitSettings] tag)
+

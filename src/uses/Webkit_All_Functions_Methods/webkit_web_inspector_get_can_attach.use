@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:62
+  Original Name: webkit_web_inspector_get_can_attach/usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:62
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f860]
+*/
+use @webkit_web_inspector_get_can_attach[I32](inspector: NullablePointer[WebKitWebInspector] tag)
+

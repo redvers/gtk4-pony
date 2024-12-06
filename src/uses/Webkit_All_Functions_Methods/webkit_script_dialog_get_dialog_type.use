@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:66
+  Original Name: webkit_script_dialog_get_dialog_type/usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:66
+
+  Return Value: [Enumeration size=32,fid: f839]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f839]
+*/
+use @webkit_script_dialog_get_dialog_type[I32](dialog: NullablePointer[WebKitScriptDialog] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:64
+  Original Name: webkit_website_data_manager_get_base_cache_directory/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:64
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_website_data_manager_get_base_cache_directory[Pointer[U8]](manager: NullablePointer[WebKitWebsiteDataManager] tag)
+

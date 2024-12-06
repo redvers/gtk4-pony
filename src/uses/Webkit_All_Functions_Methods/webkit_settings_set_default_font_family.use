@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:125
+  Original Name: webkit_settings_set_default_font_family/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:125
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_settings_set_default_font_family[None](settings: NullablePointer[WebKitSettings] tag, defaultfontfamily: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebViewBase.h:42
+  Original Name: glib_autoptr_cleanup_WebKitWebViewBase/usr/include/webkitgtk-6.0/webkit/WebKitWebViewBase.h:42
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=320,fid: f859]
+*/
+use @glib_autoptr_cleanup_WebKitWebViewBase[None](ptr: Pointer[NullablePointer[WebKitWebViewBase]] tag)
+

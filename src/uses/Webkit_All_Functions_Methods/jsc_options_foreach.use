@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCOptions.h:102
+  Original Name: jsc_options_foreach/usr/include/webkitgtk-6.0/jsc/JSCOptions.h:102
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @jsc_options_foreach[None](function: Pointer[None] tag, userdata: Pointer[None] tag)
+

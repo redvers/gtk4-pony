@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:43
+  Original Name: WEBKIT_WEB_CONTEXT/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f855]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_WEB_CONTEXT[NullablePointer[WebKitWebContext]](ptr: Pointer[None] tag)
+

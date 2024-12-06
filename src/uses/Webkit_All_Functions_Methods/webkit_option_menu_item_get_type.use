@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitOptionMenuItem.h:37
+  Original Name: webkit_option_menu_item_get_type/usr/include/webkitgtk-6.0/webkit/WebKitOptionMenuItem.h:37
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_option_menu_item_get_type[U64]()
+

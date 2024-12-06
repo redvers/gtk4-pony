@@ -14,7 +14,7 @@ class GtkButton is GtkWidgetInterface
 
   new create() =>
     ptr = @gtk_button_new()
-    @g_object_ref_sink(ptr)
+    ref_sink(ptr)
 
   new new_from_ptr(gobj': Pointer[GObject] tag) ? =>
     ptr = gobj'
@@ -38,4 +38,5 @@ class GtkButton is GtkWidgetInterface
 
   fun _final() =>
     @printf("GtkButton._final() called\n".cstring())
-    @g_object_unref(ptr)
+    GObject.unref(ptr)
+//    @g_object_unref(ptr)

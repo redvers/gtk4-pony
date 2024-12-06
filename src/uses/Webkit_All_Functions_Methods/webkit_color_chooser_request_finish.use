@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitColorChooserRequest.h:56
+  Original Name: webkit_color_chooser_request_finish/usr/include/webkitgtk-6.0/webkit/WebKitColorChooserRequest.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f759]
+*/
+use @webkit_color_chooser_request_finish[None](request: NullablePointer[WebKitColorChooserRequest] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:55
+  Original Name: webkit_favicon_database_error_quark/usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:55
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @webkit_favicon_database_error_quark[U32]()
+

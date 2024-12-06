@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:44
+  Original Name: webkit_uri_response_get_content_length/usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:44
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f807]
+*/
+use @webkit_uri_response_get_content_length[U64](response: NullablePointer[WebKitURIResponse] tag)
+

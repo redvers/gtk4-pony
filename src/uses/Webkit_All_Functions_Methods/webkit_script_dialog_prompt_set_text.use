@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:79
+  Original Name: webkit_script_dialog_prompt_set_text/usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f839]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_script_dialog_prompt_set_text[None](dialog: NullablePointer[WebKitScriptDialog] tag, text: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:34
+  Original Name: JSC_VALUE/usr/include/webkitgtk-6.0/jsc/JSCValue.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @JSC_VALUE[NullablePointer[JSCValue]](ptr: Pointer[None] tag)
+

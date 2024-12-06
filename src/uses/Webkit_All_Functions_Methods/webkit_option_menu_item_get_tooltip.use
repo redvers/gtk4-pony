@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitOptionMenuItem.h:49
+  Original Name: webkit_option_menu_item_get_tooltip/usr/include/webkitgtk-6.0/webkit/WebKitOptionMenuItem.h:49
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f834]
+*/
+use @webkit_option_menu_item_get_tooltip[Pointer[U8]](item: NullablePointer[WebKitOptionMenuItem] tag)
+

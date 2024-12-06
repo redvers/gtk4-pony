@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:147
+  Original Name: webkit_input_method_context_set_enable_preedit/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:147
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f821]
+    [FundamentalType(int) size=32]
+*/
+use @webkit_input_method_context_set_enable_preedit[None](context: NullablePointer[WebKitInputMethodContext] tag, enabled: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationPolicyDecision.h:40
+  Original Name: webkit_navigation_policy_decision_get_navigation_action/usr/include/webkitgtk-6.0/webkit/WebKitNavigationPolicyDecision.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f824]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f827]
+*/
+use @webkit_navigation_policy_decision_get_navigation_action[NullablePointer[WebKitNavigationAction]](decision: NullablePointer[WebKitNavigationPolicyDecision] tag)
+

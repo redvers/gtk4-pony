@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:114
+  Original Name: jsc_value_new_array/usr/include/webkitgtk-6.0/jsc/JSCValue.h:114
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @jsc_value_new_array[NullablePointer[JSCValue]](context: NullablePointer[JSCContext] tag, firstitemtype: U64, ...)
+

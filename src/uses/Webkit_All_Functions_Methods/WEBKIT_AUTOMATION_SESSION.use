@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:35
+  Original Name: WEBKIT_AUTOMATION_SESSION/usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:35
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f755]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_AUTOMATION_SESSION[NullablePointer[WebKitAutomationSession]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:41
+  Original Name: webkit_web_inspector_get_inspected_uri/usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:41
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f860]
+*/
+use @webkit_web_inspector_get_inspected_uri[Pointer[U8]](inspector: NullablePointer[WebKitWebInspector] tag)
+

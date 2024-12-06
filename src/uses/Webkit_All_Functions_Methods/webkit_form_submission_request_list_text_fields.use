@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFormSubmissionRequest.h:38
+  Original Name: webkit_form_submission_request_list_text_fields/usr/include/webkitgtk-6.0/webkit/WebKitFormSubmissionRequest.h:38
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f817]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f19]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f19]
+*/
+use @webkit_form_submission_request_list_text_fields[I32](request: NullablePointer[WebKitFormSubmissionRequest] tag, fieldnames: Pointer[NullablePointer[GPtrArray]] tag, fieldvalues: Pointer[NullablePointer[GPtrArray]] tag)
+

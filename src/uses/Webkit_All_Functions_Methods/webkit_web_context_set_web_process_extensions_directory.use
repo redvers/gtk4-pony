@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:154
+  Original Name: webkit_web_context_set_web_process_extensions_directory/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:154
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f855]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_web_context_set_web_process_extensions_directory[None](context: NullablePointer[WebKitWebContext] tag, directory: Pointer[U8] tag)
+

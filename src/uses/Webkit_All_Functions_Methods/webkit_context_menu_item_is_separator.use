@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:68
+  Original Name: webkit_context_menu_item_is_separator/usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f760]
+*/
+use @webkit_context_menu_item_is_separator[I32](item: NullablePointer[WebKitContextMenuItem] tag)
+

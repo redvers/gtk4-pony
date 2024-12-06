@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:168
+  Original Name: webkit_user_style_level_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:168
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_user_style_level_get_type[U64]()
+

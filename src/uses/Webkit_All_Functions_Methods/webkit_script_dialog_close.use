@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:83
+  Original Name: webkit_script_dialog_close/usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:83
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f839]
+*/
+use @webkit_script_dialog_close[None](dialog: NullablePointer[WebKitScriptDialog] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:292
+  Original Name: jsc_value_constructor_call/usr/include/webkitgtk-6.0/jsc/JSCValue.h:292
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @jsc_value_constructor_call[NullablePointer[JSCValue]](value: NullablePointer[JSCValue] tag, firstparametertype: U64, ...)
+

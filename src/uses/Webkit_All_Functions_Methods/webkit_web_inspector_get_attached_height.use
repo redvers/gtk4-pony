@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:59
+  Original Name: webkit_web_inspector_get_attached_height/usr/include/webkitgtk-6.0/webkit/WebKitWebInspector.h:59
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f860]
+*/
+use @webkit_web_inspector_get_attached_height[U32](inspector: NullablePointer[WebKitWebInspector] tag)
+

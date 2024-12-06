@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:87
+  Original Name: webkit_user_content_manager_register_script_message_handler/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:87
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_user_content_manager_register_script_message_handler[I32](manager: NullablePointer[WebKitUserContentManager] tag, name: Pointer[U8] tag, worldname: Pointer[U8] tag)
+

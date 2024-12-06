@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:79
+  Original Name: jsc_exception_get_column_number/usr/include/webkitgtk-6.0/jsc/JSCException.h:79
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f843]
+*/
+use @jsc_exception_get_column_number[U32](exception: NullablePointer[JSCException] tag)
+

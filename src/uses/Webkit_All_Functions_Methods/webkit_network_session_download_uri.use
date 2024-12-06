@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:107
+  Original Name: webkit_network_session_download_uri/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:107
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f808]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_network_session_download_uri[NullablePointer[WebKitDownload]](session: NullablePointer[WebKitNetworkSession] tag, uri: Pointer[U8] tag)
+

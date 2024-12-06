@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:145
+  Original Name: jsc_context_set_value/usr/include/webkitgtk-6.0/jsc/JSCContext.h:145
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_context_set_value[None](context: NullablePointer[JSCContext] tag, name: Pointer[U8] tag, value: NullablePointer[JSCValue] tag)
+

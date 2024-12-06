@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkProxySettings.h:60
+  Original Name: webkit_network_proxy_settings_copy/usr/include/webkitgtk-6.0/webkit/WebKitNetworkProxySettings.h:60
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f828]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f828]
+*/
+use @webkit_network_proxy_settings_copy[NullablePointer[WebKitNetworkProxySettings]](proxysettings: NullablePointer[WebKitNetworkProxySettings] tag)
+

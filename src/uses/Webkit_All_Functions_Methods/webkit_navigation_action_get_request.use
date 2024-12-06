@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:77
+  Original Name: webkit_navigation_action_get_request/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:77
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f806]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_get_request[NullablePointer[WebKitURIRequest]](navigation: NullablePointer[WebKitNavigationAction] tag)
+

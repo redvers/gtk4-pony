@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:154
+  Original Name: jsc_context_register_class/usr/include/webkitgtk-6.0/jsc/JSCContext.h:154
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[Struct size=832,fid: f842]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @jsc_context_register_class[NullablePointer[JSCClass]](context: NullablePointer[JSCContext] tag, name: Pointer[U8] tag, parentclass: NullablePointer[JSCClass] tag, vtable: NullablePointer[] tag, destroynotify: Pointer[None] tag)
+

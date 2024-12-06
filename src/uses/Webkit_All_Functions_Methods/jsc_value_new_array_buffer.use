@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:239
+  Original Name: jsc_value_new_array_buffer/usr/include/webkitgtk-6.0/jsc/JSCValue.h:239
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @jsc_value_new_array_buffer[NullablePointer[JSCValue]](context: NullablePointer[JSCContext] tag, data: Pointer[None] tag, size: U64, destroynotify: Pointer[None] tag, userdata: Pointer[None] tag)
+

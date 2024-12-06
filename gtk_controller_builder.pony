@@ -80,8 +80,3 @@ actor GtkControllerBuilder
       let b: GtkButton = GtkButton
     end
 
-
-
-
-
-

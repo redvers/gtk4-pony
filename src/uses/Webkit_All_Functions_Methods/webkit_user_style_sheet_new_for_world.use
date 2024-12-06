@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContent.h:88
+  Original Name: webkit_user_style_sheet_new_for_world/usr/include/webkitgtk-6.0/webkit/WebKitUserContent.h:88
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f849]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f849]
+    [Enumeration size=32,fid: f849]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_user_style_sheet_new_for_world[NullablePointer[WebKitUserStyleSheet]](source: Pointer[U8] tag, injectedframes: I32, level: I32, worldname: Pointer[U8] tag, allowlist: Pointer[Pointer[U8]] tag, blocklist: Pointer[Pointer[U8]] tag)
+

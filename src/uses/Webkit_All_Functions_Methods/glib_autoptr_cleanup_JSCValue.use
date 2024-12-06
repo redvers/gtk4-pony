@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:34
+  Original Name: glib_autoptr_cleanup_JSCValue/usr/include/webkitgtk-6.0/jsc/JSCValue.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @glib_autoptr_cleanup_JSCValue[None](ptr: Pointer[NullablePointer[JSCValue]] tag)
+

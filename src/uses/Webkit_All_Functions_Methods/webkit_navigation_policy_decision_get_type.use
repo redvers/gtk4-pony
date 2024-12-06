@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationPolicyDecision.h:37
+  Original Name: webkit_navigation_policy_decision_get_type/usr/include/webkitgtk-6.0/webkit/WebKitNavigationPolicyDecision.h:37
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_navigation_policy_decision_get_type[U64]()
+

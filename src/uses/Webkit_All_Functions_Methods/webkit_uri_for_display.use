@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURIUtilities.h:33
+  Original Name: webkit_uri_for_display/usr/include/webkitgtk-6.0/webkit/WebKitURIUtilities.h:33
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_uri_for_display[Pointer[U8]](uri: Pointer[U8] tag)
+

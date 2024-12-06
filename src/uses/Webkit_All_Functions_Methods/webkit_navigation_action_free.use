@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:65
+  Original Name: webkit_navigation_action_free/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @webkit_navigation_action_free[None](navigation: NullablePointer[WebKitNavigationAction] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:344
+  Original Name: webkit_settings_get_enable_write_console_messages_to_stdout/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:344
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @webkit_settings_get_enable_write_console_messages_to_stdout[I32](settings: NullablePointer[WebKitSettings] tag)
+

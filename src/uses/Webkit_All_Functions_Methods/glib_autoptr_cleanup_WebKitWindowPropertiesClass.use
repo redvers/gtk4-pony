@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWindowProperties.h:36
+  Original Name: glib_autoptr_cleanup_WebKitWindowPropertiesClass/usr/include/webkitgtk-6.0/webkit/WebKitWindowProperties.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1088,fid: f858]
+*/
+use @glib_autoptr_cleanup_WebKitWindowPropertiesClass[None](ptr: Pointer[NullablePointer[]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:39
+  Original Name: glib_autoptr_cleanup_WebKitUserScript/usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f849]
+*/
+use @glib_autoptr_cleanup_WebKitUserScript[None](ptr: Pointer[NullablePointer[WebKitUserScript]] tag)
+

@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:134
+  Original Name: webkit_navigation_type_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:134
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_navigation_type_get_type[U64]()
+

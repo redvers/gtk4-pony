@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:41
+  Original Name: webkit_uri_response_get_status_code/usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:41
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f807]
+*/
+use @webkit_uri_response_get_status_code[U32](response: NullablePointer[WebKitURIResponse] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:45
+  Original Name: webkit_file_chooser_request_get_select_multiple/usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:45
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f815]
+*/
+use @webkit_file_chooser_request_get_select_multiple[I32](request: NullablePointer[WebKitFileChooserRequest] tag)
+

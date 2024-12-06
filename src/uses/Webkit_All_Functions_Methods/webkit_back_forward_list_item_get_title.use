@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitBackForwardListItem.h:40
+  Original Name: webkit_back_forward_list_item_get_title/usr/include/webkitgtk-6.0/webkit/WebKitBackForwardListItem.h:40
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f756]
+*/
+use @webkit_back_forward_list_item_get_title[Pointer[U8]](listitem: NullablePointer[WebKitBackForwardListItem] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:249
+  Original Name: jsc_value_array_buffer_get_data/usr/include/webkitgtk-6.0/jsc/JSCValue.h:249
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @jsc_value_array_buffer_get_data[Pointer[None]](value: NullablePointer[JSCValue] tag, size: Pointer[U64] tag)
+

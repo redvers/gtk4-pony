@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteData.h:68
+  Original Name: webkit_website_data_get_size/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteData.h:68
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f829]
+    [Enumeration size=32,fid: f829]
+*/
+use @webkit_website_data_get_size[U64](websitedata: NullablePointer[WebKitWebsiteData] tag, types: I32)
+

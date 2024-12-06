@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:47
+  Original Name: webkit_uri_response_get_mime_type/usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:47
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f807]
+*/
+use @webkit_uri_response_get_mime_type[Pointer[U8]](response: NullablePointer[WebKitURIResponse] tag)
+

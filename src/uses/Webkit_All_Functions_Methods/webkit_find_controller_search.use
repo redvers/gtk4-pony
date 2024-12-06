@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFindController.h:64
+  Original Name: webkit_find_controller_search/usr/include/webkitgtk-6.0/webkit/WebKitFindController.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f816]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(unsigned int) size=32]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @webkit_find_controller_search[None](findcontroller: NullablePointer[WebKitFindController] tag, searchtext: Pointer[U8] tag, findoptions: U32, maxmatchcount: U32)
+

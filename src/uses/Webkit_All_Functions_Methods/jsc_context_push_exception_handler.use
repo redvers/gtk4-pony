@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:99
+  Original Name: jsc_context_push_exception_handler/usr/include/webkitgtk-6.0/jsc/JSCContext.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @jsc_context_push_exception_handler[None](context: NullablePointer[JSCContext] tag, handler: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag)
+

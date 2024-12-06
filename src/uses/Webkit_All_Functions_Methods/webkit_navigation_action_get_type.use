@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:59
+  Original Name: webkit_navigation_action_get_type/usr/include/webkitgtk-6.0/webkit/WebKitNavigationAction.h:59
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_navigation_action_get_type[U64]()
+

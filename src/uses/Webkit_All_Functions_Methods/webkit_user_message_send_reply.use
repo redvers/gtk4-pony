@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:72
+  Original Name: webkit_user_message_send_reply/usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f851]
+    [PointerType size=64]->[Struct size=,fid: f851]
+*/
+use @webkit_user_message_send_reply[None](message: NullablePointer[WebKitUserMessage] tag, reply: NullablePointer[WebKitUserMessage] tag)
+

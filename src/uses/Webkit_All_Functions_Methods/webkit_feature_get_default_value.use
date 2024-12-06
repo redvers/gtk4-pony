@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:102
+  Original Name: webkit_feature_get_default_value/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:102
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_feature_get_default_value[I32](feature: NullablePointer[WebKitFeature] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+  Original Name: JSC_IS_EXCEPTION/usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @JSC_IS_EXCEPTION[I32](ptr: Pointer[None] tag)
+

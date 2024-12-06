@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:67
+  Original Name: webkit_website_data_manager_set_favicons_enabled/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:67
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+    [FundamentalType(int) size=32]
+*/
+use @webkit_website_data_manager_set_favicons_enabled[None](manager: NullablePointer[WebKitWebsiteDataManager] tag, enabled: I32)
+

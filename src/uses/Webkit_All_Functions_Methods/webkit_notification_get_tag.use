@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:46
+  Original Name: webkit_notification_get_tag/usr/include/webkitgtk-6.0/webkit/WebKitNotification.h:46
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f832]
+*/
+use @webkit_notification_get_tag[Pointer[U8]](notification: NullablePointer[WebKitNotification] tag)
+

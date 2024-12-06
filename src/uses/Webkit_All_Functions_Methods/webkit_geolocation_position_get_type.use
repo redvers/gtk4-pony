@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:53
+  Original Name: webkit_geolocation_position_get_type/usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:53
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_geolocation_position_get_type[U64]()
+

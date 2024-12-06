@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:55
+  Original Name: webkit_automation_session_set_application_info/usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f755]
+    [PointerType size=64]->[Struct size=,fid: f155]
+*/
+use @webkit_automation_session_set_application_info[None](session: NullablePointer[WebKitAutomationSession] tag, info: NullablePointer[WebKitApplicationInfo] tag)
+

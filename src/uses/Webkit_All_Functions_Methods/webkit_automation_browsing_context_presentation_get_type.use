@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:43
+  Original Name: webkit_automation_browsing_context_presentation_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:43
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_automation_browsing_context_presentation_get_type[U64]()
+

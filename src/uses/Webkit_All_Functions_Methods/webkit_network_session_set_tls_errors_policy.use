@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:74
+  Original Name: webkit_network_session_set_tls_errors_policy/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [Enumeration size=32,fid: f830]
+*/
+use @webkit_network_session_set_tls_errors_policy[None](session: NullablePointer[WebKitNetworkSession] tag, policy: I32)
+

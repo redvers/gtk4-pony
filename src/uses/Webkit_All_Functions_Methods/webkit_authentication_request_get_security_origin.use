@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:91
+  Original Name: webkit_authentication_request_get_security_origin/usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:91
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f315]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f754]
+*/
+use @webkit_authentication_request_get_security_origin[NullablePointer[WebKitSecurityOrigin]](request: NullablePointer[WebKitAuthenticationRequest] tag)
+

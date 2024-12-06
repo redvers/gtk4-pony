@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWindowProperties.h:36
+  Original Name: glib_autoptr_clear_WebKitWindowProperties/usr/include/webkitgtk-6.0/webkit/WebKitWindowProperties.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f858]
+*/
+use @glib_autoptr_clear_WebKitWindowProperties[None](ptr: NullablePointer[WebKitWindowProperties] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURIRequest.h:48
+  Original Name: webkit_uri_request_get_http_method/usr/include/webkitgtk-6.0/webkit/WebKitURIRequest.h:48
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f806]
+*/
+use @webkit_uri_request_get_http_method[Pointer[U8]](request: NullablePointer[WebKitURIRequest] tag)
+

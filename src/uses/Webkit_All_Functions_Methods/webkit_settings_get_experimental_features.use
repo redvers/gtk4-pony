@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:484
+  Original Name: webkit_settings_get_experimental_features/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:484
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f814]
+
+  Arguments:
+*/
+use @webkit_settings_get_experimental_features[NullablePointer[WebKitFeatureList]]()
+

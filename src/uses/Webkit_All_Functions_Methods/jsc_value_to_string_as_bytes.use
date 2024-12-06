@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:111
+  Original Name: jsc_value_to_string_as_bytes/usr/include/webkitgtk-6.0/jsc/JSCValue.h:111
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_to_string_as_bytes[NullablePointer[GBytes]](value: NullablePointer[JSCValue] tag)
+

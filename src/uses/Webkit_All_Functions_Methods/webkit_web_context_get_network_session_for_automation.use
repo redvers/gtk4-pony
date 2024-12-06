@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:92
+  Original Name: webkit_web_context_get_network_session_for_automation/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:92
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f831]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f855]
+*/
+use @webkit_web_context_get_network_session_for_automation[NullablePointer[WebKitNetworkSession]](context: NullablePointer[WebKitWebContext] tag)
+

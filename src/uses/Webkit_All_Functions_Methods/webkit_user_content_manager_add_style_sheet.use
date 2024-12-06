@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:39
+  Original Name: webkit_user_content_manager_add_style_sheet/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+    [PointerType size=64]->[Struct size=,fid: f849]
+*/
+use @webkit_user_content_manager_add_style_sheet[None](manager: NullablePointer[WebKitUserContentManager] tag, stylesheet: NullablePointer[WebKitUserStyleSheet] tag)
+

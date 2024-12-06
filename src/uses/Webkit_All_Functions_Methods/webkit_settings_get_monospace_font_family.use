@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:129
+  Original Name: webkit_settings_get_monospace_font_family/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:129
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @webkit_settings_get_monospace_font_family[Pointer[U8]](settings: NullablePointer[WebKitSettings] tag)
+

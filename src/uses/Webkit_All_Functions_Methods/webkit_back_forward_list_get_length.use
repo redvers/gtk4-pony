@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitBackForwardList.h:49
+  Original Name: webkit_back_forward_list_get_length/usr/include/webkitgtk-6.0/webkit/WebKitBackForwardList.h:49
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f757]
+*/
+use @webkit_back_forward_list_get_length[U32](backforwardlist: NullablePointer[WebKitBackForwardList] tag)
+

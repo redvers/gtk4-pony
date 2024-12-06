@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:38
+  Original Name: WEBKIT_FAVICON_DATABASE/usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:38
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f813]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_FAVICON_DATABASE[NullablePointer[WebKitFaviconDatabase]](ptr: Pointer[None] tag)
+

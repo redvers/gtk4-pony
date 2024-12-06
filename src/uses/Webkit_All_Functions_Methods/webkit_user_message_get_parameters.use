@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:66
+  Original Name: webkit_user_message_get_parameters/usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f94]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f851]
+*/
+use @webkit_user_message_get_parameters[NullablePointer[GVariant]](message: NullablePointer[WebKitUserMessage] tag)
+

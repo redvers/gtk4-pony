@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeResponse.h:51
+  Original Name: webkit_uri_scheme_response_set_http_headers/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeResponse.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f853]
+    [PointerType size=64]->[Struct size=,fid: f774]
+*/
+use @webkit_uri_scheme_response_set_http_headers[None](response: NullablePointer[WebKitURISchemeResponse] tag, headers: NullablePointer[SoupMessageHeaders] tag)
+

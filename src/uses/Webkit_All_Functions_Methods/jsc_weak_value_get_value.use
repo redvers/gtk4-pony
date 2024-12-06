@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCWeakValue.h:41
+  Original Name: jsc_weak_value_get_value/usr/include/webkitgtk-6.0/jsc/JSCWeakValue.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f848]
+*/
+use @jsc_weak_value_get_value[NullablePointer[JSCValue]](weakvalue: NullablePointer[JSCWeakValue] tag)
+

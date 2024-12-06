@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:39
+  Original Name: glib_autoptr_clear_JSCContext/usr/include/webkitgtk-6.0/jsc/JSCContext.h:39
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @glib_autoptr_clear_JSCContext[None](ptr: NullablePointer[JSCContext] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityManager.h:34
+  Original Name: WEBKIT_SECURITY_MANAGER/usr/include/webkitgtk-6.0/webkit/WebKitSecurityManager.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f852]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_SECURITY_MANAGER[NullablePointer[WebKitSecurityManager]](ptr: Pointer[None] tag)
+

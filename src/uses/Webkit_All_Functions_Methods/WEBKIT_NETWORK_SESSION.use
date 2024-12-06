@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:39
+  Original Name: WEBKIT_NETWORK_SESSION/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f831]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_NETWORK_SESSION[NullablePointer[WebKitNetworkSession]](ptr: Pointer[None] tag)
+

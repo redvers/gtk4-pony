@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:88
+  Original Name: webkit_authentication_request_get_port/usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:88
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f754]
+*/
+use @webkit_authentication_request_get_port[U32](request: NullablePointer[WebKitAuthenticationRequest] tag)
+

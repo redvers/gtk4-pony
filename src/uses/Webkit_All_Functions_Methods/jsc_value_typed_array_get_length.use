@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:277
+  Original Name: jsc_value_typed_array_get_length/usr/include/webkitgtk-6.0/jsc/JSCValue.h:277
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_typed_array_get_length[U64](value: NullablePointer[JSCValue] tag)
+

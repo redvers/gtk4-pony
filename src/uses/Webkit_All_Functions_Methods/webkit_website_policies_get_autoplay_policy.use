@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsitePolicies.h:60
+  Original Name: webkit_website_policies_get_autoplay_policy/usr/include/webkitgtk-6.0/webkit/WebKitWebsitePolicies.h:60
+
+  Return Value: [Enumeration size=32,fid: f825]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f825]
+*/
+use @webkit_website_policies_get_autoplay_policy[I32](policies: NullablePointer[WebKitWebsitePolicies] tag)
+

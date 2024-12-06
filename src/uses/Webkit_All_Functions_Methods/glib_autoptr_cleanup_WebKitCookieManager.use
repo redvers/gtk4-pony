@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:37
+  Original Name: glib_autoptr_cleanup_WebKitCookieManager/usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:37
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f804]
+*/
+use @glib_autoptr_cleanup_WebKitCookieManager[None](ptr: Pointer[NullablePointer[WebKitCookieManager]] tag)
+

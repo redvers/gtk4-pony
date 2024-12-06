@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsitePolicies.h:33
+  Original Name: WEBKIT_WEBSITE_POLICIES/usr/include/webkitgtk-6.0/webkit/WebKitWebsitePolicies.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f825]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_WEBSITE_POLICIES[NullablePointer[WebKitWebsitePolicies]](ptr: Pointer[None] tag)
+

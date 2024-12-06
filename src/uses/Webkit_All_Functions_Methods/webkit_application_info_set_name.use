@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitApplicationInfo.h:50
+  Original Name: webkit_application_info_set_name/usr/include/webkitgtk-6.0/webkit/WebKitApplicationInfo.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f155]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_application_info_set_name[None](info: NullablePointer[WebKitApplicationInfo] tag, name: Pointer[U8] tag)
+

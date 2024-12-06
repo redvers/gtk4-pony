@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitHitTestResult.h:34
+  Original Name: glib_autoptr_cleanup_WebKitHitTestResult/usr/include/webkitgtk-6.0/webkit/WebKitHitTestResult.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f820]
+*/
+use @glib_autoptr_cleanup_WebKitHitTestResult[None](ptr: Pointer[NullablePointer[WebKitHitTestResult]] tag)
+

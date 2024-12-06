@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCWeakValue.h:35
+  Original Name: glib_autoptr_cleanup_JSCWeakValue/usr/include/webkitgtk-6.0/jsc/JSCWeakValue.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f848]
+*/
+use @glib_autoptr_cleanup_JSCWeakValue[None](ptr: Pointer[NullablePointer[JSCWeakValue]] tag)
+

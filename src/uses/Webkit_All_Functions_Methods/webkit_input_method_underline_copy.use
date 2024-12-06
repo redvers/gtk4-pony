@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:192
+  Original Name: webkit_input_method_underline_copy/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:192
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f821]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f821]
+*/
+use @webkit_input_method_underline_copy[NullablePointer[WebKitInputMethodUnderline]](underline: NullablePointer[WebKitInputMethodUnderline] tag)
+

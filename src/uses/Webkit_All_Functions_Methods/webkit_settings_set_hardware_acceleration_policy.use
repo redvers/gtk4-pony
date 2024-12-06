@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:417
+  Original Name: webkit_settings_set_hardware_acceleration_policy/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:417
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [Enumeration size=32,fid: f840]
+*/
+use @webkit_settings_set_hardware_acceleration_policy[None](settings: NullablePointer[WebKitSettings] tag, policy: I32)
+

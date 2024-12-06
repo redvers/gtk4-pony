@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebViewSessionState.h:49
+  Original Name: webkit_web_view_session_state_serialize/usr/include/webkitgtk-6.0/webkit/WebKitWebViewSessionState.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f857]
+*/
+use @webkit_web_view_session_state_serialize[NullablePointer[GBytes]](state: NullablePointer[WebKitWebViewSessionState] tag)
+

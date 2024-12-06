@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:59
+  Original Name: webkit_uri_scheme_request_get_http_body/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:59
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f183]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f854]
+*/
+use @webkit_uri_scheme_request_get_http_body[NullablePointer[GInputStream]](request: NullablePointer[WebKitURISchemeRequest] tag)
+

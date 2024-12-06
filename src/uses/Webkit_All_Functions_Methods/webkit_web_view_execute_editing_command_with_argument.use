@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:498
+  Original Name: webkit_web_view_execute_editing_command_with_argument/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:498
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_web_view_execute_editing_command_with_argument[None](webview: NullablePointer[WebKitWebView] tag, command: Pointer[U8] tag, argument: Pointer[U8] tag)
+

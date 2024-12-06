@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:101
+  Original Name: jsc_value_new_string_from_bytes/usr/include/webkitgtk-6.0/jsc/JSCValue.h:101
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @jsc_value_new_string_from_bytes[NullablePointer[JSCValue]](context: NullablePointer[JSCContext] tag, bytes: NullablePointer[GBytes] tag)
+

@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:625
+  Original Name: webkit_web_view_send_message_to_page/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:625
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+    [PointerType size=64]->[Struct size=,fid: f851]
+    [PointerType size=64]->[Struct size=256,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @webkit_web_view_send_message_to_page[None](webview: NullablePointer[WebKitWebView] tag, message: NullablePointer[WebKitUserMessage] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

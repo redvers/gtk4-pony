@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:72
+  Original Name: webkit_script_dialog_confirm_set_confirmed/usr/include/webkitgtk-6.0/webkit/WebKitScriptDialog.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f839]
+    [FundamentalType(int) size=32]
+*/
+use @webkit_script_dialog_confirm_set_confirmed[None](dialog: NullablePointer[WebKitScriptDialog] tag, confirmed: I32)
+

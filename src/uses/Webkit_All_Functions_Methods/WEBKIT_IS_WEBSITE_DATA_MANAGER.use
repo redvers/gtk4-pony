@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:39
+  Original Name: WEBKIT_IS_WEBSITE_DATA_MANAGER/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:39
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_IS_WEBSITE_DATA_MANAGER[I32](ptr: Pointer[None] tag)
+

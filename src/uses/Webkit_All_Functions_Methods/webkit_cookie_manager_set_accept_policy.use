@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:73
+  Original Name: webkit_cookie_manager_set_accept_policy/usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f804]
+    [Enumeration size=32,fid: f804]
+*/
+use @webkit_cookie_manager_set_accept_policy[None](cookiemanager: NullablePointer[WebKitCookieManager] tag, policy: I32)
+

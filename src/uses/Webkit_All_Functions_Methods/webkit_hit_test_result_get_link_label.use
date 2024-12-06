@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitHitTestResult.h:84
+  Original Name: webkit_hit_test_result_get_link_label/usr/include/webkitgtk-6.0/webkit/WebKitHitTestResult.h:84
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f820]
+*/
+use @webkit_hit_test_result_get_link_label[Pointer[U8]](hittestresult: NullablePointer[WebKitHitTestResult] tag)
+

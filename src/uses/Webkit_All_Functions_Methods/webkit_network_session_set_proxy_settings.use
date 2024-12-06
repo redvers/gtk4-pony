@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:86
+  Original Name: webkit_network_session_set_proxy_settings/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [Enumeration size=32,fid: f828]
+    [PointerType size=64]->[Struct size=,fid: f828]
+*/
+use @webkit_network_session_set_proxy_settings[None](session: NullablePointer[WebKitNetworkSession] tag, proxymode: I32, proxysettings: NullablePointer[WebKitNetworkProxySettings] tag)
+

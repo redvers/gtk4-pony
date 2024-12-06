@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:91
+  Original Name: webkit_network_session_set_memory_pressure_settings/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f823]
+*/
+use @webkit_network_session_set_memory_pressure_settings[None](settings: NullablePointer[WebKitMemoryPressureSettings] tag)
+

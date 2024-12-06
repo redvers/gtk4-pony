@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCOptions.h:73
+  Original Name: jsc_options_set_string/usr/include/webkitgtk-6.0/jsc/JSCOptions.h:73
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @jsc_options_set_string[I32](option: Pointer[U8] tag, value: Pointer[U8] tag)
+

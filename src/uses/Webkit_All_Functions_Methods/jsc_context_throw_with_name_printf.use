@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:86
+  Original Name: jsc_context_throw_with_name_printf/usr/include/webkitgtk-6.0/jsc/JSCContext.h:86
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @jsc_context_throw_with_name_printf[None](context: NullablePointer[JSCContext] tag, errorname: Pointer[U8] tag, format: Pointer[U8] tag, ...)
+

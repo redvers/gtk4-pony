@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:270
+  Original Name: jsc_value_typed_array_get_type/usr/include/webkitgtk-6.0/jsc/JSCValue.h:270
+
+  Return Value: [Enumeration size=32,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_typed_array_get_type[I32](value: NullablePointer[JSCValue] tag)
+

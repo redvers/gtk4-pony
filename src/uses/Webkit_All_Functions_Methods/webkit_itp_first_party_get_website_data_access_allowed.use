@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:132
+  Original Name: webkit_itp_first_party_get_website_data_access_allowed/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:132
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_itp_first_party_get_website_data_access_allowed[I32](itpfirstparty: NullablePointer[WebKitITPFirstParty] tag)
+

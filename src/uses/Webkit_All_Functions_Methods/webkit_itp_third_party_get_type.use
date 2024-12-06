@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:143
+  Original Name: webkit_itp_third_party_get_type/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:143
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_itp_third_party_get_type[U64]()
+

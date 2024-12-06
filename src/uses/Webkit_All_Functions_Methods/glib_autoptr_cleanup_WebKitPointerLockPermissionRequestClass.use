@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPointerLockPermissionRequest.h:34
+  Original Name: glib_autoptr_cleanup_WebKitPointerLockPermissionRequestClass/usr/include/webkitgtk-6.0/webkit/WebKitPointerLockPermissionRequest.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1088,fid: f838]
+*/
+use @glib_autoptr_cleanup_WebKitPointerLockPermissionRequestClass[None](ptr: Pointer[NullablePointer[]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebResource.h:36
+  Original Name: WEBKIT_WEB_RESOURCE/usr/include/webkitgtk-6.0/webkit/WebKitWebResource.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f856]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_WEB_RESOURCE[NullablePointer[WebKitWebResource]](ptr: Pointer[None] tag)
+

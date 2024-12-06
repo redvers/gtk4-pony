@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCWeakValue.h:35
+  Original Name: JSC_IS_WEAK_VALUE/usr/include/webkitgtk-6.0/jsc/JSCWeakValue.h:35
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @JSC_IS_WEAK_VALUE[I32](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:33
+  Original Name: WEBKIT_USER_CONTENT_MANAGER/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f850]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_USER_CONTENT_MANAGER[NullablePointer[WebKitUserContentManager]](ptr: Pointer[None] tag)
+

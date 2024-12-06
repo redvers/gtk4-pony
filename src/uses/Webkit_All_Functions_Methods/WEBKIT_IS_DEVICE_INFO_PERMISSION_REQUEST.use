@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDeviceInfoPermissionRequest.h:33
+  Original Name: WEBKIT_IS_DEVICE_INFO_PERMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitDeviceInfoPermissionRequest.h:33
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_IS_DEVICE_INFO_PERMISSION_REQUEST[I32](ptr: Pointer[None] tag)
+

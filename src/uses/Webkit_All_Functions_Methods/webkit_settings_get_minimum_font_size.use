@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:185
+  Original Name: webkit_settings_get_minimum_font_size/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:185
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @webkit_settings_get_minimum_font_size[U32](settings: NullablePointer[WebKitSettings] tag)
+

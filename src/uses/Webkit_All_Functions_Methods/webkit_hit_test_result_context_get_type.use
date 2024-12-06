@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:120
+  Original Name: webkit_hit_test_result_context_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:120
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_hit_test_result_context_get_type[U64]()
+

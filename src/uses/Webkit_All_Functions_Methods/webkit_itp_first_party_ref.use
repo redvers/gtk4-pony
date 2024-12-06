@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:123
+  Original Name: webkit_itp_first_party_ref/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:123
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f830]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+*/
+use @webkit_itp_first_party_ref[NullablePointer[WebKitITPFirstParty]](itpfirstparty: NullablePointer[WebKitITPFirstParty] tag)
+

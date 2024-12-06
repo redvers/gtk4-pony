@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:158
+  Original Name: webkit_script_message_reply_unref/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:158
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f850]
+*/
+use @webkit_script_message_reply_unref[None](scriptmessagereply: NullablePointer[WebKitScriptMessageReply] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:94
+  Original Name: webkit_network_session_get_itp_summary/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:94
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [PointerType size=64]->[Struct size=256,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @webkit_network_session_get_itp_summary[None](session: NullablePointer[WebKitNetworkSession] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:41
+  Original Name: glib_autoptr_clear_WebKitUserContentFilter/usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:41
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f849]
+*/
+use @glib_autoptr_clear_WebKitUserContentFilter[None](ptr: NullablePointer[WebKitUserContentFilter] tag)
+

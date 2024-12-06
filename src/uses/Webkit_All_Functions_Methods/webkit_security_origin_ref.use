@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:48
+  Original Name: webkit_security_origin_ref/usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:48
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f315]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f315]
+*/
+use @webkit_security_origin_ref[NullablePointer[WebKitSecurityOrigin]](origin: NullablePointer[WebKitSecurityOrigin] tag)
+

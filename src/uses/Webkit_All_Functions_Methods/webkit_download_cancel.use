@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:53
+  Original Name: webkit_download_cancel/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_cancel[None](download: NullablePointer[WebKitDownload] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitColorChooserRequest.h:52
+  Original Name: webkit_color_chooser_request_get_element_rectangle/usr/include/webkitgtk-6.0/webkit/WebKitColorChooserRequest.h:52
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f759]
+    [PointerType size=64]->[Struct size=128,fid: f321]
+*/
+use @webkit_color_chooser_request_get_element_rectangle[None](request: NullablePointer[WebKitColorChooserRequest] tag, rect: NullablePointer[Cairorectangleint] tag)
+

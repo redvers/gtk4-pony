@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitMemoryPressureSettings.h:37
+  Original Name: webkit_memory_pressure_settings_get_type/usr/include/webkitgtk-6.0/webkit/WebKitMemoryPressureSettings.h:37
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_memory_pressure_settings_get_type[U64]()
+

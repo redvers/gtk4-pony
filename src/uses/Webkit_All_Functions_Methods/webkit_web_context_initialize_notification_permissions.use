@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:192
+  Original Name: webkit_web_context_initialize_notification_permissions/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:192
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f855]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @webkit_web_context_initialize_notification_permissions[None](context: NullablePointer[WebKitWebContext] tag, allowedorigins: NullablePointer[GList] tag, disallowedorigins: NullablePointer[GList] tag)
+

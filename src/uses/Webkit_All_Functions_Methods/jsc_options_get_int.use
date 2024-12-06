@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCOptions.h:48
+  Original Name: jsc_options_get_int/usr/include/webkitgtk-6.0/jsc/JSCOptions.h:48
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @jsc_options_get_int[I32](option: Pointer[U8] tag, value: Pointer[I32] tag)
+

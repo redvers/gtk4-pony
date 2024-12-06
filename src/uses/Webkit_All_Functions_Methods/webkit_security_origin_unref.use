@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:51
+  Original Name: webkit_security_origin_unref/usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f315]
+*/
+use @webkit_security_origin_unref[None](origin: NullablePointer[WebKitSecurityOrigin] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:72
+  Original Name: webkit_uri_scheme_request_finish_error/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:72
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f854]
+    [PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_uri_scheme_request_finish_error[None](request: NullablePointer[WebKitURISchemeRequest] tag, error: NullablePointer[GError] tag)
+

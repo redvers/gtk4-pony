@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:66
+  Original Name: webkit_context_menu_get_n_items/usr/include/webkitgtk-6.0/webkit/WebKitContextMenu.h:66
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f760]
+*/
+use @webkit_context_menu_get_n_items[U32](menu: NullablePointer[WebKitContextMenu] tag)
+

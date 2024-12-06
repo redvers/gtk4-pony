@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:85
+  Original Name: webkit_authentication_request_get_host/usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:85
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f754]
+*/
+use @webkit_authentication_request_get_host[Pointer[U8]](request: NullablePointer[WebKitAuthenticationRequest] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:36
+  Original Name: WEBKIT_URI_SCHEME_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitURISchemeRequest.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f854]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_URI_SCHEME_REQUEST[NullablePointer[WebKitURISchemeRequest]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:81
+  Original Name: webkit_network_session_allow_tls_certificate_for_host/usr/include/webkitgtk-6.0/webkit/WebKitNetworkSession.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f831]
+    [PointerType size=64]->[Struct size=256,fid: f203]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_network_session_allow_tls_certificate_for_host[None](session: NullablePointer[WebKitNetworkSession] tag, certificate: NullablePointer[GTlsCertificate] tag, host: Pointer[U8] tag)
+

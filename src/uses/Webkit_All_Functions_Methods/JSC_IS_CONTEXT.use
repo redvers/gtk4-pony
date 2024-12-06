@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:39
+  Original Name: JSC_IS_CONTEXT/usr/include/webkitgtk-6.0/jsc/JSCContext.h:39
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @JSC_IS_CONTEXT[I32](ptr: Pointer[None] tag)
+

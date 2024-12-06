@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPointerLockPermissionRequest.h:34
+  Original Name: WEBKIT_POINTER_LOCK_PERMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitPointerLockPermissionRequest.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f838]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_POINTER_LOCK_PERMISSION_REQUEST[NullablePointer[WebKitPointerLockPermissionRequest]](ptr: Pointer[None] tag)
+

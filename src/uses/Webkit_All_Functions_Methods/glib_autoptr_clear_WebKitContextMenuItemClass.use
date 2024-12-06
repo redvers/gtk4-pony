@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:38
+  Original Name: glib_autoptr_clear_WebKitContextMenuItemClass/usr/include/webkitgtk-6.0/webkit/WebKitContextMenuItem.h:38
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1088,fid: f762]
+*/
+use @glib_autoptr_clear_WebKitContextMenuItemClass[None](ptr: NullablePointer[] tag)
+

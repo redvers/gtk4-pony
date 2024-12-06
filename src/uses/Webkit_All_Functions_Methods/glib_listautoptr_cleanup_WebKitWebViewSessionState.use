@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:43
+  Original Name: glib_listautoptr_cleanup_WebKitWebViewSessionState/usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=192,fid: f78]
+*/
+use @glib_listautoptr_cleanup_WebKitWebViewSessionState[None](l: Pointer[NullablePointer[GList]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCContext.h:66
+  Original Name: jsc_context_get_virtual_machine/usr/include/webkitgtk-6.0/jsc/JSCContext.h:66
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f844]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_context_get_virtual_machine[NullablePointer[JSCVirtualMachine]](context: NullablePointer[JSCContext] tag)
+

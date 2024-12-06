@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:324
+  Original Name: webkit_settings_set_user_agent_with_application_details/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:324
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_settings_set_user_agent_with_application_details[None](settings: NullablePointer[WebKitSettings] tag, applicationname: Pointer[U8] tag, applicationversion: Pointer[U8] tag)
+

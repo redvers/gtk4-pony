@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:40
+  Original Name: glib_autoptr_clear_WebKitUserContentFilterStore/usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:40
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f864]
+*/
+use @glib_autoptr_clear_WebKitUserContentFilterStore[None](ptr: NullablePointer[WebKitUserContentFilterStore] tag)
+

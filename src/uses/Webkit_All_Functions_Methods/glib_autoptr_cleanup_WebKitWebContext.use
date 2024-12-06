@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:43
+  Original Name: glib_autoptr_cleanup_WebKitWebContext/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:43
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f855]
+*/
+use @glib_autoptr_cleanup_WebKitWebContext[None](ptr: Pointer[NullablePointer[WebKitWebContext]] tag)
+

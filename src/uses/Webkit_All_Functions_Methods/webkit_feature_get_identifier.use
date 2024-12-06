@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:87
+  Original Name: webkit_feature_get_identifier/usr/include/webkitgtk-6.0/webkit/WebKitFeature.h:87
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_feature_get_identifier[Pointer[U8]](feature: NullablePointer[WebKitFeature] tag)
+

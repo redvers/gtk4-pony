@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:94
+  Original Name: jsc_value_to_boolean/usr/include/webkitgtk-6.0/jsc/JSCValue.h:94
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_to_boolean[I32](value: NullablePointer[JSCValue] tag)
+

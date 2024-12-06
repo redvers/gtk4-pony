@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:199
+  Original Name: webkit_insecure_content_event_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:199
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_insecure_content_event_get_type[U64]()
+

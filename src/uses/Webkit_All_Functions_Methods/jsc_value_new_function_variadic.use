@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:219
+  Original Name: jsc_value_new_function_variadic/usr/include/webkitgtk-6.0/jsc/JSCValue.h:219
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @jsc_value_new_function_variadic[NullablePointer[JSCValue]](context: NullablePointer[JSCContext] tag, name: Pointer[U8] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag, destroynotify: Pointer[None] tag, returntype: U64)
+

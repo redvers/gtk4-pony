@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:37
+  Original Name: WEBKIT_AUTHENTICATION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitAuthenticationRequest.h:37
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f754]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_AUTHENTICATION_REQUEST[NullablePointer[WebKitAuthenticationRequest]](ptr: Pointer[None] tag)
+

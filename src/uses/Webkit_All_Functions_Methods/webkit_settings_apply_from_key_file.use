@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:490
+  Original Name: webkit_settings_apply_from_key_file/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:490
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [PointerType size=64]->[Struct size=,fid: f90]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_settings_apply_from_key_file[I32](settings: NullablePointer[WebKitSettings] tag, keyfile: NullablePointer[GKeyFile] tag, groupname: Pointer[U8] tag, error: Pointer[NullablePointer[GError]] tag)
+

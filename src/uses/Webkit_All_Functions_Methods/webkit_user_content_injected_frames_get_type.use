@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:164
+  Original Name: webkit_user_content_injected_frames_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:164
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_user_content_injected_frames_get_type[U64]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:57
+  Original Name: webkit_option_menu_get_event/usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:57
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f403]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f835]
+*/
+use @webkit_option_menu_get_event[NullablePointer[GdkEvent]](menu: NullablePointer[WebKitOptionMenu] tag)
+

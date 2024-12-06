@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:42
+  Original Name: webkit_file_chooser_request_get_mime_types_filter/usr/include/webkitgtk-6.0/webkit/WebKitFileChooserRequest.h:42
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f606]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f815]
+*/
+use @webkit_file_chooser_request_get_mime_types_filter[NullablePointer[GtkFileFilter]](request: NullablePointer[WebKitFileChooserRequest] tag)
+

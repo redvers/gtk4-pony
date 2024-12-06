@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:437
+  Original Name: webkit_settings_set_enable_javascript_markup/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:437
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [FundamentalType(int) size=32]
+*/
+use @webkit_settings_set_enable_javascript_markup[None](settings: NullablePointer[WebKitSettings] tag, enabled: I32)
+

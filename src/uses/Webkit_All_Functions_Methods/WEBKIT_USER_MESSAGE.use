@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:34
+  Original Name: WEBKIT_USER_MESSAGE/usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f851]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_USER_MESSAGE[NullablePointer[WebKitUserMessage]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebResource.h:36
+  Original Name: WEBKIT_IS_WEB_RESOURCE/usr/include/webkitgtk-6.0/webkit/WebKitWebResource.h:36
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_IS_WEB_RESOURCE[I32](ptr: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:36
+  Original Name: glib_autoptr_clear_WebKitNavigationAction/usr/include/webkitgtk-6.0/webkit/WebKitAutocleanups.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f824]
+*/
+use @glib_autoptr_clear_WebKitNavigationAction[None](ptr: NullablePointer[WebKitNavigationAction] tag)
+

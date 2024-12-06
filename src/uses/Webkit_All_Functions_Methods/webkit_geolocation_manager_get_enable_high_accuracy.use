@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:49
+  Original Name: webkit_geolocation_manager_get_enable_high_accuracy/usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:49
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f818]
+*/
+use @webkit_geolocation_manager_get_enable_high_accuracy[I32](manager: NullablePointer[WebKitGeolocationManager] tag)
+

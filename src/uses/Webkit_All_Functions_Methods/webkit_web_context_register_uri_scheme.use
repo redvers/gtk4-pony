@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:111
+  Original Name: webkit_web_context_register_uri_scheme/usr/include/webkitgtk-6.0/webkit/WebKitWebContext.h:111
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f855]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @webkit_web_context_register_uri_scheme[None](context: NullablePointer[WebKitWebContext] tag, scheme: Pointer[U8] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag, userdatadestroyfunc: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:50
+  Original Name: webkit_download_get_response/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:50
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f807]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_get_response[NullablePointer[WebKitURIResponse]](download: NullablePointer[WebKitDownload] tag)
+

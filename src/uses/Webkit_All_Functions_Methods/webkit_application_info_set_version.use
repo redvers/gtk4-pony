@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitApplicationInfo.h:56
+  Original Name: webkit_application_info_set_version/usr/include/webkitgtk-6.0/webkit/WebKitApplicationInfo.h:56
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f155]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @webkit_application_info_set_version[None](info: NullablePointer[WebKitApplicationInfo] tag, major: U64, minor: U64, micro: U64)
+

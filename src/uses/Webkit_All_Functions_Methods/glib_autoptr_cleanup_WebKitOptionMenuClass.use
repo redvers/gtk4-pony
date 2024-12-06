@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:36
+  Original Name: glib_autoptr_cleanup_WebKitOptionMenuClass/usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1088,fid: f835]
+*/
+use @glib_autoptr_cleanup_WebKitOptionMenuClass[None](ptr: Pointer[NullablePointer[]] tag)
+

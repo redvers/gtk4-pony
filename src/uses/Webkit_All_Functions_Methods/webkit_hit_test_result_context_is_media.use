@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitHitTestResult.h:69
+  Original Name: webkit_hit_test_result_context_is_media/usr/include/webkitgtk-6.0/webkit/WebKitHitTestResult.h:69
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f820]
+*/
+use @webkit_hit_test_result_context_is_media[I32](hittestresult: NullablePointer[WebKitHitTestResult] tag)
+

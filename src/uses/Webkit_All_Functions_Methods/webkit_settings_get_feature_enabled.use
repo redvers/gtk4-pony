@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:477
+  Original Name: webkit_settings_get_feature_enabled/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:477
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+    [PointerType size=64]->[Struct size=,fid: f814]
+*/
+use @webkit_settings_get_feature_enabled[I32](settings: NullablePointer[WebKitSettings] tag, feature: NullablePointer[WebKitFeature] tag)
+

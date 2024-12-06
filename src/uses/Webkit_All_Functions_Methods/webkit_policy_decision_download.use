@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPolicyDecision.h:62
+  Original Name: webkit_policy_decision_download/usr/include/webkitgtk-6.0/webkit/WebKitPolicyDecision.h:62
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f826]
+*/
+use @webkit_policy_decision_download[None](decision: NullablePointer[WebKitPolicyDecision] tag)
+

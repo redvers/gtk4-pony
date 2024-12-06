@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:69
+  Original Name: webkit_user_message_get_fd_list/usr/include/webkitgtk-6.0/webkit/WebKitUserMessage.h:69
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f213]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f851]
+*/
+use @webkit_user_message_get_fd_list[NullablePointer[GUnixFDList]](message: NullablePointer[WebKitUserMessage] tag)
+

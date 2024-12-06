@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:39
+  Original Name: webkit_option_menu_get_n_items/usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:39
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f835]
+*/
+use @webkit_option_menu_get_n_items[U32](menu: NullablePointer[WebKitOptionMenu] tag)
+

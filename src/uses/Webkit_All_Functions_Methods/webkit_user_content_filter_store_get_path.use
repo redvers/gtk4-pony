@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:48
+  Original Name: webkit_user_content_filter_store_get_path/usr/include/webkitgtk-6.0/webkit/WebKitUserContentFilterStore.h:48
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f864]
+*/
+use @webkit_user_content_filter_store_get_path[Pointer[U8]](store: NullablePointer[WebKitUserContentFilterStore] tag)
+

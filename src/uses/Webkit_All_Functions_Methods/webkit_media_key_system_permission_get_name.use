@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitMediaKeySystemPermissionRequest.h:37
+  Original Name: webkit_media_key_system_permission_get_name/usr/include/webkitgtk-6.0/webkit/WebKitMediaKeySystemPermissionRequest.h:37
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f822]
+*/
+use @webkit_media_key_system_permission_get_name[Pointer[U8]](request: NullablePointer[WebKitMediaKeySystemPermissionRequest] tag)
+

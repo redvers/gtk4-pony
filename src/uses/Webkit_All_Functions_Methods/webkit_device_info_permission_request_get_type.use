@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDeviceInfoPermissionRequest.h:33
+  Original Name: webkit_device_info_permission_request_get_type/usr/include/webkitgtk-6.0/webkit/WebKitDeviceInfoPermissionRequest.h:33
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_device_info_permission_request_get_type[U64]()
+

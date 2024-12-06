@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitPointerLockPermissionRequest.h:34
+  Original Name: WEBKIT_IS_POINTER_LOCK_PERMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitPointerLockPermissionRequest.h:34
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_IS_POINTER_LOCK_PERMISSION_REQUEST[I32](ptr: Pointer[None] tag)
+

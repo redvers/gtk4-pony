@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:455
+  Original Name: webkit_settings_get_enable_webrtc/usr/include/webkitgtk-6.0/webkit/WebKitSettings.h:455
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f840]
+*/
+use @webkit_settings_get_enable_webrtc[I32](settings: NullablePointer[WebKitSettings] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:70
+  Original Name: jsc_exception_get_name/usr/include/webkitgtk-6.0/jsc/JSCException.h:70
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f843]
+*/
+use @jsc_exception_get_name[Pointer[U8]](exception: NullablePointer[JSCException] tag)
+

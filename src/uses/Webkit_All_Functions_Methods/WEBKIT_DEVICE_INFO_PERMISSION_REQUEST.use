@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDeviceInfoPermissionRequest.h:33
+  Original Name: WEBKIT_DEVICE_INFO_PERMISSION_REQUEST/usr/include/webkitgtk-6.0/webkit/WebKitDeviceInfoPermissionRequest.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f805]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_DEVICE_INFO_PERMISSION_REQUEST[NullablePointer[WebKitDeviceInfoPermissionRequest]](ptr: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:198
+  Original Name: webkit_input_method_underline_set_color/usr/include/webkitgtk-6.0/webkit/WebKitInputMethodContext.h:198
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f821]
+    [PointerType size=64]->[Struct size=128,fid: f376]
+*/
+use @webkit_input_method_underline_set_color[None](underline: NullablePointer[WebKitInputMethodUnderline] tag, rgba: NullablePointer[GdkRGBA] tag)
+

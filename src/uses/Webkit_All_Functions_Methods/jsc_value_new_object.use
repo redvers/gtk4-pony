@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:130
+  Original Name: jsc_value_new_object/usr/include/webkitgtk-6.0/jsc/JSCValue.h:130
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_new_object[NullablePointer[JSCValue]](context: NullablePointer[JSCContext] tag, instance: Pointer[None] tag, jscclass: NullablePointer[JSCClass] tag)
+

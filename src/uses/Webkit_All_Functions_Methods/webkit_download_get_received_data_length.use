@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:62
+  Original Name: webkit_download_get_received_data_length/usr/include/webkitgtk-6.0/webkit/WebKitDownload.h:62
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f808]
+*/
+use @webkit_download_get_received_data_length[U64](download: NullablePointer[WebKitDownload] tag)
+

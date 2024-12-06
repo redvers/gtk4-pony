@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:370
+  Original Name: webkit_web_view_get_context/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:370
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f855]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+*/
+use @webkit_web_view_get_context[NullablePointer[WebKitWebContext]](webview: NullablePointer[WebKitWebView] tag)
+

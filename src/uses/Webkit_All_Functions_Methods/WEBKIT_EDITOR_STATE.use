@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEditorState.h:34
+  Original Name: WEBKIT_EDITOR_STATE/usr/include/webkitgtk-6.0/webkit/WebKitEditorState.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f810]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @WEBKIT_EDITOR_STATE[NullablePointer[WebKitEditorState]](ptr: Pointer[None] tag)
+

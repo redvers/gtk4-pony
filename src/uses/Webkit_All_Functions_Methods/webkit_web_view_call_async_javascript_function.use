@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:522
+  Original Name: webkit_web_view_call_async_javascript_function/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:522
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(long int) size=64]
+    [PointerType size=64]->[Struct size=,fid: f94]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=256,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @webkit_web_view_call_async_javascript_function[None](webview: NullablePointer[WebKitWebView] tag, body: Pointer[U8] tag, length: I64, arguments: NullablePointer[GVariant] tag, worldname: Pointer[U8] tag, sourceuri: Pointer[U8] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:147
+  Original Name: jsc_value_object_get_property/usr/include/webkitgtk-6.0/jsc/JSCValue.h:147
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f841]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @jsc_value_object_get_property[NullablePointer[JSCValue]](value: NullablePointer[JSCValue] tag, name: Pointer[U8] tag)
+

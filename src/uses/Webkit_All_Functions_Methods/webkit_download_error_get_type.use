@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:80
+  Original Name: webkit_download_error_get_type/usr/include/webkitgtk-6.0/webkit/WebKitEnumTypes.h:80
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_download_error_get_type[U64]()
+

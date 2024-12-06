@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+  Original Name: JSC_EXCEPTION/usr/include/webkitgtk-6.0/jsc/JSCException.h:34
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f843]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @JSC_EXCEPTION[NullablePointer[JSCException]](ptr: Pointer[None] tag)
+

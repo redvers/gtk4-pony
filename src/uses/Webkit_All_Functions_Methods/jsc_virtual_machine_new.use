@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCVirtualMachine.h:38
+  Original Name: jsc_virtual_machine_new/usr/include/webkitgtk-6.0/jsc/JSCVirtualMachine.h:38
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f844]
+
+  Arguments:
+*/
+use @jsc_virtual_machine_new[NullablePointer[JSCVirtualMachine]]()
+

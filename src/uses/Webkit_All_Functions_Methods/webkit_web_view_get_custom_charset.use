@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:459
+  Original Name: webkit_web_view_get_custom_charset/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:459
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+*/
+use @webkit_web_view_get_custom_charset[Pointer[U8]](webview: NullablePointer[WebKitWebView] tag)
+

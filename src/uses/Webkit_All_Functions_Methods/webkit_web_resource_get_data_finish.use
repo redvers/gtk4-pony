@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebResource.h:51
+  Original Name: webkit_web_resource_get_data_finish/usr/include/webkitgtk-6.0/webkit/WebKitWebResource.h:51
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f856]
+    [PointerType size=64]->[Struct size=,fid: f158]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f23]
+*/
+use @webkit_web_resource_get_data_finish[Pointer[U8]](resource: NullablePointer[WebKitWebResource] tag, result: NullablePointer[GAsyncResult] tag, length: Pointer[U64] tag, error: Pointer[NullablePointer[GError]] tag)
+

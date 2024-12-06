@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:89
+  Original Name: webkit_website_data_manager_remove/usr/include/webkitgtk-6.0/webkit/WebKitWebsiteDataManager.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f830]
+    [Enumeration size=32,fid: f829]
+    [PointerType size=64]->[Struct size=192,fid: f78]
+    [PointerType size=64]->[Struct size=256,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @webkit_website_data_manager_remove[None](manager: NullablePointer[WebKitWebsiteDataManager] tag, types: I32, websitedata: NullablePointer[GList] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

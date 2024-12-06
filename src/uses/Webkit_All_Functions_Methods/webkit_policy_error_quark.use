@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitError.h:162
+  Original Name: webkit_policy_error_quark/usr/include/webkitgtk-6.0/webkit/WebKitError.h:162
+
+  Return Value: [FundamentalType(unsigned int) size=32]
+
+  Arguments:
+*/
+use @webkit_policy_error_quark[U32]()
+

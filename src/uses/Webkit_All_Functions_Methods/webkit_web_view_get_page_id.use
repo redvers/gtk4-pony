@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:420
+  Original Name: webkit_web_view_get_page_id/usr/include/webkitgtk-6.0/webkit/WebKitWebView.h:420
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f809]
+*/
+use @webkit_web_view_get_page_id[U64](webview: NullablePointer[WebKitWebView] tag)
+

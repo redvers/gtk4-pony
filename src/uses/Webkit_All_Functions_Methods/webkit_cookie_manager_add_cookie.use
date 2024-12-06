@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:88
+  Original Name: webkit_cookie_manager_add_cookie/usr/include/webkitgtk-6.0/webkit/WebKitCookieManager.h:88
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f804]
+    [PointerType size=64]->[Struct size=,fid: f766]
+    [PointerType size=64]->[Struct size=256,fid: f161]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @webkit_cookie_manager_add_cookie[None](cookiemanager: NullablePointer[WebKitCookieManager] tag, cookie: NullablePointer[SoupCookie] tag, cancellable: NullablePointer[GCancellable] tag, callback: Pointer[None] tag, userdata: Pointer[None] tag)
+

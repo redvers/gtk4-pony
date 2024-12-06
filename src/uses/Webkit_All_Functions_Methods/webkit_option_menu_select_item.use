@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:46
+  Original Name: webkit_option_menu_select_item/usr/include/webkitgtk-6.0/webkit/WebKitOptionMenu.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f835]
+    [FundamentalType(unsigned int) size=32]
+*/
+use @webkit_option_menu_select_item[None](menu: NullablePointer[WebKitOptionMenu] tag, index: U32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:70
+  Original Name: webkit_favicon_database_get_favicon_uri/usr/include/webkitgtk-6.0/webkit/WebKitFaviconDatabase.h:70
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f813]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @webkit_favicon_database_get_favicon_uri[Pointer[U8]](database: NullablePointer[WebKitFaviconDatabase] tag, pageuri: Pointer[U8] tag)
+

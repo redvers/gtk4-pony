@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitMemoryPressureSettings.h:60
+  Original Name: webkit_memory_pressure_settings_get_conservative_threshold/usr/include/webkitgtk-6.0/webkit/WebKitMemoryPressureSettings.h:60
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f823]
+*/
+use @webkit_memory_pressure_settings_get_conservative_threshold[F64](settings: NullablePointer[WebKitMemoryPressureSettings] tag)
+

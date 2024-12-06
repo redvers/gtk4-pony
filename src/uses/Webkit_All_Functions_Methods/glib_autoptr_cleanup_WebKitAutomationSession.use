@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:35
+  Original Name: glib_autoptr_cleanup_WebKitAutomationSession/usr/include/webkitgtk-6.0/webkit/WebKitAutomationSession.h:35
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f755]
+*/
+use @glib_autoptr_cleanup_WebKitAutomationSession[None](ptr: Pointer[NullablePointer[WebKitAutomationSession]] tag)
+

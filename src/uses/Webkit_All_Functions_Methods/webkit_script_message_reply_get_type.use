@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:152
+  Original Name: webkit_script_message_reply_get_type/usr/include/webkitgtk-6.0/webkit/WebKitUserContentManager.h:152
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_script_message_reply_get_type[U64]()
+

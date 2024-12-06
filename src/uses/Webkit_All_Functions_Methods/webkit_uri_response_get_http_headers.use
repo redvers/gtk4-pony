@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:53
+  Original Name: webkit_uri_response_get_http_headers/usr/include/webkitgtk-6.0/webkit/WebKitURIResponse.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f774]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f807]
+*/
+use @webkit_uri_response_get_http_headers[NullablePointer[SoupMessageHeaders]](response: NullablePointer[WebKitURIResponse] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/jsc/JSCValue.h:168
+  Original Name: jsc_value_object_enumerate_properties/usr/include/webkitgtk-6.0/jsc/JSCValue.h:168
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f841]
+*/
+use @jsc_value_object_enumerate_properties[Pointer[Pointer[U8]]](value: NullablePointer[JSCValue] tag)
+

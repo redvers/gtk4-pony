@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:64
+  Original Name: webkit_geolocation_position_free/usr/include/webkitgtk-6.0/webkit/WebKitGeolocationManager.h:64
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f818]
+*/
+use @webkit_geolocation_position_free[None](position: NullablePointer[WebKitGeolocationPosition] tag)
+

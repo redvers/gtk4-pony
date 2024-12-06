@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitUserContent.h:72
+  Original Name: webkit_user_style_sheet_get_type/usr/include/webkitgtk-6.0/webkit/WebKitUserContent.h:72
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+*/
+use @webkit_user_style_sheet_get_type[U64]()
+

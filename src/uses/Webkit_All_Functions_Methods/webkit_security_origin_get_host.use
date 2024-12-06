@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:57
+  Original Name: webkit_security_origin_get_host/usr/include/webkitgtk-6.0/webkit/WebKitSecurityOrigin.h:57
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f315]
+*/
+use @webkit_security_origin_get_host[Pointer[U8]](origin: NullablePointer[WebKitSecurityOrigin] tag)
+
