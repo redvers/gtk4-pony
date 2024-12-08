@@ -23,11 +23,11 @@ interface GObjectInterface
   fun ref signal_connect_data[A: Any](signal: String val, chandler: GCallback[A], data: A) => None
     GObject.signal_connect_data[A](get_ptr(), signal.cstring(), chandler, consume data)
 
-  fun ref ref_sink(gobj: Pointer[GObject] tag) =>
-    GObject.ref_sink(gobj)
+  fun ref ref_sink() =>
+    GObject.ref_sink(get_ptr())
 
-  fun ref unref(gobj: Pointer[GObject] tag) =>
-    GObject.unref(gobj)
+  fun ref unref() =>
+    GObject.unref(get_ptr())
 
 primitive GObjectPrimitives
 

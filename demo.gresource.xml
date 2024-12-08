@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/me/infect/gtk4-demo">
+    <file preprocess="xml-stripblanks">main.ui</file>
+    <file preprocess="xml-stripblanks">main-listitem.ui</file>
+  </gresource>
+  <gresource prefix="/me/red/infect/gtk4-demo/sources">
+    <file>main.pony</file>
+  </gresource>
+</gresources>
+

@@ -4,15 +4,14 @@ use "../Widget"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
 use @gtk_label_new_with_mnemonic[Pointer[GObject] tag](str: Pointer[U8] tag)
-use @g_object_unref[None](gobj: Pointer[GObject] tag)
-use @g_object_ref[Pointer[GObject] tag](gobj: Pointer[GObject] tag)
 
 class GtkLabel is GtkWidgetInterface
   var ptr: Pointer[GObject] tag
 
-  new new_with_mnemonic(str: String val) =>
+  new new_with_mnemonic(str: String val)? =>
+    if (ptr.is_null()) then error end
     ptr = @gtk_label_new_with_mnemonic(str.cstring())
-    @g_object_ref(ptr)
+    ref_sink()
 
   fun ref get_ptr(): Pointer[GObject] tag => ptr
 
