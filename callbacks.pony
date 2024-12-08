@@ -13,5 +13,7 @@ primitive Callbacks
     else
       @printf("Button A object creation fail\n".cstring())
     end
+  fun @test_extfun() =>
+    @printf("test_extfun\n".cstring())
 
 

@@ -4,10 +4,12 @@ use "Gtk"
 use "Gtk/Builder"
 use "Gtk/Button"
 use "Gtk/Window"
+use "Gtk/ScrolledWindow"
 use "GLib"
 use "GLib/Resource"
 use "GObject/Value"
 use "GObject/Object"
+use "Webkit/WebView"
 
 use "lib:gmodule-2.0"
 
@@ -38,7 +40,7 @@ actor GtkControllerBuilder
 
   be summon_builder() => None
     try
-      builder = GtkBuilder.new_from_file("gtk4-pony-test-ui.ui")
+      builder = GtkBuilder.new_from_file("test-browser.ui")
       match builder
       | let b: GtkBuilder =>
         build_window(b)?
@@ -55,9 +57,12 @@ actor GtkControllerBuilder
     window.set_interactive_debugging(true)
     window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
     window.set_visible(true)
+//    let sw: GtkScrolledWindow = GtkScrolledWindow.new_from_builder(b, "scrolled")?
+//    let view: WebkitWebView = WebkitWebView
+//
+//    sw.set_child(view)
+//    view.load_uri("https://ponylang.io")
 
-    let buttona: GtkButton = GtkButton.new_from_builder(b, "a")?
-    buttona.signal_connect_data[GtkControllerBuilder]("clicked", Callbacks~button_a_clicked[GtkControllerBuilder](), me)
 
     window_active = true
 

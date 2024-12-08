@@ -16,6 +16,7 @@
         <child>
           <object class="GtkButton" id="a">
             <property name="label">Button A</property>
+            <signal name="clicked" handler="Callbacks_test_extfun_o"/>
             <layout>
               <property name="column">0</property>
               <property name="column-span">1</property>
