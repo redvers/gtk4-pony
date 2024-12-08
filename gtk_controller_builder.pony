@@ -57,11 +57,11 @@ actor GtkControllerBuilder
     window.set_interactive_debugging(true)
     window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
     window.set_visible(true)
-//    let sw: GtkScrolledWindow = GtkScrolledWindow.new_from_builder(b, "scrolled")?
-//    let view: WebkitWebView = WebkitWebView
-//
-//    sw.set_child(view)
-//    view.load_uri("https://ponylang.io")
+    let sw: GtkScrolledWindow = GtkScrolledWindow.new_from_builder(b, "scrolled")?
+    let view: WebkitWebView = WebkitWebView
+
+    sw.set_child(view)
+    view.load_uri("https://ponylang.io")
 
 
     window_active = true
