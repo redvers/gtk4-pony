@@ -1,3 +1,4 @@
+/*
 use "GObject/Object"
 use "Gtk"
 use "Gtk/Button"
@@ -16,4 +17,4 @@ primitive Callbacks
     me.close_window()
 
 
-
+*/

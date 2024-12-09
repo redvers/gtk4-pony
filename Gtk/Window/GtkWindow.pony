@@ -8,7 +8,7 @@ use @gtk_window_new[Pointer[GObject] tag]()
 use @gtk_window_set_interactive_debugging[None](enable: I32)
 use @gtk_window_set_child[None](gobj: Pointer[GObject] tag, child: Pointer[GObject] tag)
 
-class GtkWindow is GtkWidgetInterface
+class GtkWindow is GtkWindowInterface
   var ptr: Pointer[GObject] tag
 
   new create()? =>
@@ -29,9 +29,17 @@ class GtkWindow is GtkWidgetInterface
       @gtk_window_set_interactive_debugging(0)
     end
 
-  fun ref set_child(gobj: GtkWidgetInterface) =>
-    @gtk_window_set_child(ptr, gobj.get_ptr())
 
   fun _final() =>
     @printf("GtkWindow._final() called\n".cstring())
     GObject.unref(ptr)
+
+
+
+interface GtkWindowInterface is GtkWidgetInterface
+  fun ref set_child(gobj: GtkWidgetInterface) =>
+    GtkWindows.set_child(get_ptr(), gobj.get_ptr())
+
+primitive GtkWindows
+  fun set_child(window: Pointer[GObject] tag, child: Pointer[GObject] tag) =>
+    @gtk_window_set_child(window, child)

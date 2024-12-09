@@ -1,6 +1,8 @@
+/*
 use "collections"
 use "actor_pinning"
 use "Gtk"
+use "Gtk/Application"
 use "Gtk/Builder"
 use "Gtk/Button"
 use "Gtk/Window"
@@ -35,11 +37,22 @@ actor GtkControllerBuilder is GtkPony
     if ActorPinning.is_successfully_pinned(auth) then
       env.out.print("We are pinned")
       Gtk.init()
-      summon_builder()
+      create_gtkapplication()
+//      summon_builder()
     else
       env.out.print("We are not pinned")
       initialize_gtk()
     end
+
+  be create_gtkapplication() =>
+    let application: GtkApplication = GtkApplication("me.infect.red.gtk-demo")
+    application.signal_connect_data[GtkControllerBuilder]("activate", Callbacks~window_close_request[GtkControllerBuilder](), me)
+    application.
+
+
+
+
+
 
   be summon_builder() => None
     try
@@ -88,5 +101,4 @@ actor GtkControllerBuilder is GtkPony
     if (window_active) then
       loop()
     end
-
-
+*/
