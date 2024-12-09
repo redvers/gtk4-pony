@@ -16,8 +16,9 @@
       </item>
     </section>
   </menu>
-          <!--  <object class="GObject" id="pony_actor"/> -->
+  <object class="GObject" id="pony-actor"/> 
   <object class="GtkApplicationWindow" id="window">
+    <signal name="close-request" handler="Callbacks_window_close_request_GtkControllerBuilder_tag_oo" object="pony-actor"/>
     <property name="default-width">800</property>
     <property name="default-height">600</property>
     <child type="titlebar">
