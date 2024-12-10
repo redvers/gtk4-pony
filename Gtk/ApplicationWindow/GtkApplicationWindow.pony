@@ -30,7 +30,7 @@ class GtkApplicationWindow is GtkApplicationWindowInterface
 
 
   fun _final() =>
-    @printf("GtkWindow._final() called\n".cstring())
+    @printf("GtkApplicationWindow._final() called\n".cstring())
     GObject.unref(ptr)
 
 

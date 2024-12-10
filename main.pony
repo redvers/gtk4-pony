@@ -1,5 +1,6 @@
 use "actor_pinning"
 use "GLib"
+use "GObject/Object"
 use "GLib/Resource"
 use "Gtk"
 use "Gtk/Application"
@@ -27,10 +28,9 @@ class GtkAppState is GtkPony
   new create(name': String val) =>
     name = name'
 
-  fun ref test_activate() => @printf("In test_activate\n".cstring())
-  fun ref activate(gtkapplication': GtkApplication tag) =>
-    @printf("In activate\n".cstring())
-    gtkapplication = gtkapplication'
+  fun ref set_application(gtkapplication': GtkApplication tag) => gtkapplication = gtkapplication'
+
+  fun ref activate() =>
     try
       let gresource: GResource = GResource.load("demo.gresource")
       gresource.register()
@@ -49,18 +49,20 @@ class GtkAppState is GtkPony
     end
 
   fun ref build_window(b: GtkBuilder)? => if (false) then error end
+    @printf("In build_window()\n".cstring())
     let window: GtkApplicationWindow = GtkApplicationWindow.new_from_builder(b, "window")?
     match gtkapplication
     | let app: GtkApplication tag => window.register_application(app)
     end
 //    window.set_interactive_debugging(true)
-////    window.signal_connect_data[GtkControllerBuilder]("close-request", Callbacks~window_close_request[GtkControllerBuilder](), me)
-//    window.set_visible(true)
+//    window.signal_connect_data[GtkAppState]("close-request", @{(gtk: Pointer[GObject] tag) => None}, this)
+    window.set_visible(true)
 //    window_active = true
 
 
 
+  fun close_window() => @printf("close_window() requested\n".cstring())
 
-    @printf("In activate\n".cstring())
+
 
   fun get_name(): String val => name
