@@ -1,10 +1,12 @@
 use "../../GObject/Object"
 
 use @g_variant_new[Pointer[GVariant]](fmt: Pointer[U8] tag, ...)
-use @g_variant_get[None](me: Pointer[GVariant], fmt: Pointer[U8] tag, ...)
+use @g_variant_get[None](me: Pointer[GVariant] tag, fmt: Pointer[U8] tag, ...)
 
 class GVariant
-  var ptr: Pointer[GVariant]
+  var ptr: Pointer[GVariant] tag
+
+  fun get_ptr(): Pointer[GVariant] tag => ptr
 
   new create[A: Any](string: String, data: A) =>
     ptr = @g_variant_new(string.cstring(), data)

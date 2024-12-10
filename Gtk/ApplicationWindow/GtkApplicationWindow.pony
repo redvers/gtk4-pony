@@ -27,22 +27,9 @@ class GtkApplicationWindow is GtkApplicationWindowInterface
   fun register_application(gtkapp: GtkApplication tag) =>
     gtkapp.register_window_ptr(ptr)
 
-
-
   fun _final() =>
     @printf("GtkApplicationWindow._final() called\n".cstring())
     GObject.unref(ptr)
 
 
 interface GtkApplicationWindowInterface is GtkWindowInterface
-//  fun ref add_window(gobj: Pointer[GObject] tag, window: Pointer[GObject] tag) =>
-//    @gtk_application_add_window(gobj, window)
-
-
-
-//  fun ref set_child(gobj: GtkWidgetInterface) =>
-//    set_child(gobj.get_ptr())
-
-//primitive GtkApplicationWindows
-//  fun set_child(window: Pointer[GObject] tag, child: Pointer[GObject] tag) =>
- //   @gtk_window_set_child(window, child)
