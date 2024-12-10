@@ -1,5 +1,5 @@
 use "../../Gtk"
-use "../../GObject/Object"
+use "../../GLib/Object"
 use "../Variant"
 
 

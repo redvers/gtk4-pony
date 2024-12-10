@@ -3,10 +3,11 @@ use "../../GLib"
 use "../../GLib/SimpleAction"
 use "../../GLib/ActionEntry"
 use "../../GLib/SimpleActionGroup"
+use "../../GLib/Application"
+use "../../GLib/Object"
+
 use "../../Gtk"
 use "../../Gtk/ApplicationWindow"
-use "../../GLib/Application"
-use "../../GObject/Object"
 
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 use @gtk_application_new[Pointer[GObject]](name: Pointer[U8] tag, flags: I32)
