@@ -1,4 +1,4 @@
-use "../../GObject/Object"
+use "../../GLib/Object"
 
 use @g_variant_new[Pointer[GVariant]](fmt: Pointer[U8] tag, ...)
 use @g_variant_get[None](me: Pointer[GVariant] tag, fmt: Pointer[U8] tag, ...)

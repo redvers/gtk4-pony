@@ -1,6 +1,6 @@
 use "debug"
 
-use "../../GObject/Object"
+use "../../GLib/Object"
 
 interface GtkWidgetInterface is GObjectInterface
   fun ref get_ptr(): Pointer[GObject] tag
