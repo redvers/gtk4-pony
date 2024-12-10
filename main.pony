@@ -54,16 +54,24 @@ class GtkAppState is GtkPony
     window.set_interactive_debugging(true)
     match gtkapplication
     | let app: GtkApplication tag => window.register_application(app)
-        let about: GActionEntry = GActionEntry
-                                  .>set_name("about")
-                                  .>set_activate(
-                                     @{(w: Pointer[GObject], g: Pointer[GVariant], me: GtkPony) =>
-                                        match me
-                                        | let m: GtkAppState => m.activate_about()
-                                        end
-                                      }
-                                    )
-        app.add_action_entry(recover tag about end)
+        let about: GActionEntry[GtkAppState] iso = recover iso GActionEntry[GtkAppState] end
+        about.set_name("about")
+        about.set_activate(
+          @{(w: Pointer[GObject], g: Pointer[GVariant], me: GtkAppState) =>
+            me.activate_about()
+           }
+        )
+
+        let inspector: GActionEntry[GtkApplicationWindow] iso = recover iso GActionEntry[GtkApplicationWindow] end
+        inspector.set_name("inspector")
+        inspector.set_activate(
+          @{(w: Pointer[GObject], g: Pointer[GVariant], me: GtkApplicationWindow) =>
+            me.set_interactive_debugging(true)
+           }
+        )
+
+        app.add_action_entry[GtkAppState](consume about, app)
+        app.add_action_entry[GtkApplicationWindow](consume inspector, app)
     end
     window.set_visible(true)
 
