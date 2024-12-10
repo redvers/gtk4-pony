@@ -75,3 +75,5 @@ foo (void)
   g_value_unset (value);
   g_free (value);
 }
+
+G_TYPE_BOOLEAN

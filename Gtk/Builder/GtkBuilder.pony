@@ -30,11 +30,12 @@ class GtkBuilder is GObjectInterface
     if (ptr.is_null()) then error end
     ref_sink()
 
-  new new_from_resource[A: GtkPony tag](me: A, resourcepath: String val)? =>
+//  new new_from_resource[A: GtkPony tag](me: A, resourcepath: String val)? =>
+  new new_from_resource(resourcepath: String val)? =>
     ptr = @gtk_builder_new_from_resource(resourcepath.cstring())
     if (ptr.is_null()) then error end
     ref_sink()
-
+/*
     pony_actor = @gtk_builder_get_object(ptr, "pony-actor".cstring())
     if (pony_actor.is_null()) then error end
     GObject.ref_sink(pony_actor)
@@ -45,7 +46,7 @@ class GtkBuilder is GObjectInterface
     if (t.is_null()) then
       @printf("I got a null, this does not spark joy\n".cstring())
     end
-
+*/
 
 
   fun get_object(name: String val): Pointer[GObject] tag ? =>
