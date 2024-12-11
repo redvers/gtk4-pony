@@ -13,6 +13,8 @@ use "../../Gtk/Application"
 use "../../Gtk/Builder"
 use "../../Gtk/ApplicationWindow"
 
+use @exit[None](err: I32)
+
 actor Main
   let env: Env
 
@@ -35,7 +37,7 @@ class GtkAppState is GtkPony
 
   fun ref activate() =>
     try
-      let gresource: GResource = GResource.load("demo.gresource")
+      let gresource: GResource = GResource.load("demo.gresource")?
       gresource.register()
 
       builder = GtkBuilder.new_from_resource("/me/infect/gtk4-demo/main.ui")?

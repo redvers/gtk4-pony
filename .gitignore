@@ -1,3 +1,6 @@
 gtk4-pony
 *.swp
 examples/gtk-demo/gtk-demo
+build
+src
+trash
