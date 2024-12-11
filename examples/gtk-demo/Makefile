@@ -6,7 +6,7 @@ build:
 	ponyc -d
 
 run:
-	./gtk4-pony
+	./gtk-demo
 
 gresources:
 	glib-compile-resources demo.gresource.xml

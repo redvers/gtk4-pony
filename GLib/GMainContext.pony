@@ -1,4 +1,5 @@
 use "lib:glib-2.0"
+use @printf[I32](fmt: Pointer[U8] tag, ...)
 use @g_main_context_default[Pointer[GMainContext]]()
 use @g_main_context_iteration[I32](me: Pointer[GMainContext], mayblock: I32)
 

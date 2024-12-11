@@ -2,6 +2,7 @@ use "../../Gtk"
 use "../../GLib/Object"
 use "../Variant"
 
+use @printf[I32](fmt: Pointer[U8] tag, ...)
 
 struct GActionEntry[A: Any]
   var _name: Pointer[U8] tag = Pointer[U8]
@@ -15,8 +16,6 @@ struct GActionEntry[A: Any]
 
   fun ref set_name(name: String val) => _name = name.cstring()
   fun ref set_activate(activate: @{(Pointer[GObject], Pointer[GVariant], A): None}) =>  _activate = activate
-
-
 
 
 

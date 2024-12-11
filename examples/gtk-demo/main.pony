@@ -1,16 +1,17 @@
 use "actor_pinning"
-use "GLib"
-use "GLib/Variant"
-use "GLib/Object"
-use "GLib/ActionEntry"
-use "GLib/Resource"
 
-use "Gtk"
-use "Gtk/Application"
-use "Gtk/Builder"
-use "Gtk/ApplicationWindow"
+use "debug"
 
-use @printf[I32](fmt: Pointer[U8] tag, ...)
+use "../../GLib"
+use "../../GLib/Variant"
+use "../../GLib/Object"
+use "../../GLib/ActionEntry"
+use "../../GLib/Resource"
+
+use "../../Gtk"
+use "../../Gtk/Application"
+use "../../Gtk/Builder"
+use "../../Gtk/ApplicationWindow"
 
 actor Main
   let env: Env
@@ -42,40 +43,37 @@ class GtkAppState is GtkPony
       | let b: GtkBuilder =>
         build_window(b)?
       else
-        @printf("My builder failed\n".cstring())
+        Debug.out("My builder failed\n")
       end
     else
-      @printf("Our builder failed\n".cstring())
+      Debug.out("Our builder failed\n")
     end
 
   fun ref build_window(b: GtkBuilder)? => if (false) then error end
-    @printf("In build_window()\n".cstring())
+    Debug.out("In build_window()\n")
     let window: GtkApplicationWindow = GtkApplicationWindow.new_from_builder(b, "window")?
-    window.set_interactive_debugging(true)
     match gtkapplication
     | let app: GtkApplication tag => window.register_application(app)
         let about: GActionEntry[GtkAppState] iso = recover iso GActionEntry[GtkAppState] end
         about.set_name("about")
-        about.set_activate(
-          @{(w: Pointer[GObject], g: Pointer[GVariant], me: GtkAppState) =>
-            me.activate_about()
-           }
-        )
+        about.set_activate(this~raw_about())
 
         let inspector: GActionEntry[GtkApplicationWindow] iso = recover iso GActionEntry[GtkApplicationWindow] end
         inspector.set_name("inspector")
-        inspector.set_activate(
-          @{(w: Pointer[GObject], g: Pointer[GVariant], me: GtkApplicationWindow) =>
-            me.set_interactive_debugging(true)
-           }
-        )
+        inspector.set_activate(this~raw_inspector())
 
         app.add_action_entry[GtkAppState](consume about, app)
         app.add_action_entry[GtkApplicationWindow](consume inspector, app)
     end
     window.set_visible(true)
 
-  fun activate_about() => @printf("activate_about\n".cstring())
+  fun @raw_about(w: Pointer[GObject], g: Pointer[GVariant], me: GtkAppState) =>
+    me.activate_about()
+  fun activate_about() => Debug.out("activate_about\n")
+
+  fun @raw_inspector(w: Pointer[GObject], g: Pointer[GVariant], window: GtkApplicationWindow) =>
+    window.set_interactive_debugging(true)
+
 
   fun get_name(): String val => name
 

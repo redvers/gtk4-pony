@@ -1,2 +1,3 @@
 gtk4-pony
 *.swp
+examples/gtk-demo/gtk-demo

@@ -5,7 +5,6 @@ use @g_object_unref[None](gobj: Pointer[GObject] tag)
 use @g_signal_connect_data[U64](instance: Pointer[GObject] tag, signal: Pointer[U8] tag, ...)
 use @g_object_set_data[None](gobj: Pointer[GObject] tag, key: Pointer[U8] tag, data: Any tag)
 use @g_object_get_data[Any tag](gobj: Pointer[GObject] tag, key: Pointer[U8] tag)
-use @printf[U32](fmt: Pointer[U8] tag, ...)
 
 use "debug"
 use "lib:gobject-2.0"
@@ -17,9 +16,9 @@ primitive GObject
   fun signal_connect[A: Any](ptr: Pointer[GObject] tag, signal: Pointer[U8] tag, cb: {(): None} val, data: A) => None
     @g_signal_connect_data(ptr, signal,
       @{(c: {(): None} val) =>
-      @printf("in callbacka\n".cstring())
+      Debug.out("in callbacka\n")
       c()
-      @printf("in callbackb\n".cstring())
+      Debug.out("in callbackb\n")
 
       }, cb)
 

@@ -19,7 +19,7 @@ use @g_application_register[I32](instance: Pointer[GObject] tag, a: Pointer[None
 use @gtk_application_get_active_window[Pointer[GObject]](app: Pointer[GObject])
 use @g_action_map_add_action[None](a: Pointer[GObject] tag, b: Pointer[GObject] tag)
 use @g_application_set_action_group[None](application: Pointer[GObject] tag, actiongroup: Pointer[GObject] tag)
-use @g_action_map_add_action_entries[None](action_map: Pointer[GObject] tag, ...) //entries: GActionEntry[Any] tag, n_entries: I32, user_data: Any tag)
+use @g_action_map_add_action_entries[None](action_map: Pointer[GObject] tag, entries: Pointer[None] tag, n_entries: I32, user_data: Any tag)
 
 
 
@@ -43,7 +43,7 @@ actor GtkApplication is GtkApplicationInterface
     gtkappstate.set_application(recover tag this end)
 
   be add_action_entry[A: Any](action: GActionEntry[A] iso, data: Any) => None
-    @g_action_map_add_action_entries(ptr, consume action, I32(1), data)
+    @g_action_map_add_action_entries(ptr, NullablePointer[GActionEntry[A]](consume action), I32(1), data)
 
 
 
