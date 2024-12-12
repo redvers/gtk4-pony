@@ -1,7 +1,7 @@
 use "lib:gtk-4"
 use "../../Gtk"
 use "gobject"
-use "../../GLib/Resource"
+use "gio"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
 use @gtk_builder_new_from_string[Pointer[GObject] tag](str: Pointer[U8] tag, length: I64)

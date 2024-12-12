@@ -1,7 +1,7 @@
 use "actor_pinning"
-use "glib"
-use "../../GLib/ActionEntry"
+
 use "gio"
+use "glib"
 use "gobject"
 
 use "../../Gtk"

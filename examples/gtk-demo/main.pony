@@ -4,9 +4,9 @@ use "debug"
 
 use "glib"
 use "gobject"
-use "../../GLib/ActionEntry"
-use "../../GLib/Resource"
+use "gio"
 
+use @printf[I32](fmt: Pointer[U8] tag, ...)
 use "../../Gtk"
 use "../../Gtk/Application"
 use "../../Gtk/Builder"
@@ -37,6 +37,12 @@ class GtkAppState is GtkPony
   fun ref activate() =>
     try
       let gresource: GResource = GResource.load("demo.gresource")?
+      try
+      let t: Array[String val] val = gresource.enumerate_children("/me/infect/gtk4-demo", 0)?
+      for str in t.values() do
+        @printf("%s\n".cstring(), str.cstring())
+      end
+      end
       gresource.register()
 
       builder = GtkBuilder.new_from_resource("/me/infect/gtk4-demo/main.ui")?

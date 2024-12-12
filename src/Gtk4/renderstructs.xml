@@ -268,7 +268,7 @@
   <renderstruct id="_4371" render="0"/><!-- GPollableInputStream f161 -->
   <renderstruct id="_4373" render="0"/><!-- GPollableOutputStream f161 -->
   <renderstruct id="_4375" render="0"/><!-- GResolver f194 -->
-  <renderstruct id="_4377" render="0"/><!-- GResource f161 -->
+  <renderstruct id="_4377" render="1"/><!-- GResource f161 -->
   <renderstruct id="_4379" render="0"/><!-- GSeekable f161 -->
   <renderstruct id="_4381" render="0"/><!-- GSimpleAsyncResult f161 -->
   <renderstruct id="_4383" render="0"/><!-- GSocket f195 -->
@@ -341,7 +341,7 @@
   <renderstruct id="_4528" render="0"/><!-- GActionInterface f226 -->
   <renderstruct id="_4542" render="0"/><!-- GActionGroupInterface f227 -->
   <renderstruct id="_4561" render="0"/><!-- GActionMapInterface f229 -->
-  <renderstruct id="_4563" render="0"/><!-- GActionEntry f229 -->
+  <renderstruct id="_4563" render="GActionEntry"/><!-- GActionEntry f229 -->
   <renderstruct id="_4571" render="0"/><!-- GAppLaunchContextClass f160 -->
   <renderstruct id="_4573" render="0"/><!-- GAppLaunchContextPrivate f160 -->
   <renderstruct id="_4575" render="0"/><!-- GAppInfoIface f160 -->
