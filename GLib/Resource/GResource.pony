@@ -1,7 +1,8 @@
 use "lib:gtk-4"
 use "lib:gio-2.0"
 use "debug"
-use "../Error"
+use "glib"
+use "gobject"
 
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 use @g_resource_load[Pointer[GResource] tag](str: Pointer[U8] tag, gerr: Pointer[NullablePointer[GError]])

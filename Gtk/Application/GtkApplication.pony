@@ -1,10 +1,8 @@
 use "actor_pinning"
-use "../../GLib"
-use "../../GLib/SimpleAction"
+use "glib"
 use "../../GLib/ActionEntry"
-use "../../GLib/SimpleActionGroup"
 use "../../GLib/Application"
-use "../../GLib/Object"
+use "gobject"
 
 use "../../Gtk"
 use "../../Gtk/ApplicationWindow"

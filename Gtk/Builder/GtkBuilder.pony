@@ -1,6 +1,6 @@
 use "lib:gtk-4"
 use "../../Gtk"
-use "../../GLib/Object"
+use "gobject"
 use "../../GLib/Resource"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)

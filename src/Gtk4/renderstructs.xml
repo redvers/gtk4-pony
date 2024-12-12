@@ -11,7 +11,7 @@
   <renderstruct id="_231" render="0"/><!-- GArray f19 -->
   <renderstruct id="_233" render="0"/><!-- GByteArray f19 -->
   <renderstruct id="_235" render="0"/><!-- GPtrArray f19 -->
-  <renderstruct id="_339" render="0"/><!-- GError f23 -->
+  <renderstruct id="_339" render="GError"/><!-- GError f23 -->
   <renderstruct id="_380" render="0"/><!-- GDebugKey f24 -->
   <renderstruct id="_404" render="0"/><!--  f26 -->
   <renderstruct id="_406" render="0"/><!--  f26 -->
@@ -72,7 +72,7 @@
   <renderstruct id="_1291" render="0"/><!-- GHookList f81 -->
   <renderstruct id="_1330" render="0"/><!-- GPollFD f83 -->
   <renderstruct id="_1334" render="0"/><!-- GSList f84 -->
-  <renderstruct id="_1370" render="0"/><!-- GMainContext f85 -->
+  <renderstruct id="_1370" render="GMainContext"/><!-- GMainContext f85 -->
   <renderstruct id="_1372" render="0"/><!-- GMainLoop f85 -->
   <renderstruct id="_1374" render="0"/><!-- GSource f85 -->
   <renderstruct id="_1376" render="0"/><!-- GSourcePrivate f85 -->
@@ -86,7 +86,7 @@
   <renderstruct id="_1803" render="0"/><!-- GMarkupParseContext f92 -->
   <renderstruct id="_1805" render="0"/><!-- GMarkupParser f92 -->
   <renderstruct id="_1825" render="0"/><!-- GVariantType f93 -->
-  <renderstruct id="_1858" render="0"/><!-- GVariant f94 -->
+  <renderstruct id="_1858" render="GVariant"/><!-- GVariant f94 -->
   <renderstruct id="_1940" render="0"/><!-- GVariantIter f94 -->
   <renderstruct id="_1950" render="0"/><!-- GVariantBuilder f94 -->
   <renderstruct id="_1977" render="0"/><!-- GVariantDict f94 -->

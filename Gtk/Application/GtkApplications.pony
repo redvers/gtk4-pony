@@ -1,4 +1,5 @@
-use "../../GLib/Object"
+use "gobject"
+
 use @gtk_application_add_window[None](gobj: Pointer[GObject] tag, window: Pointer[GObject] tag)
 
 primitive GtkApplications

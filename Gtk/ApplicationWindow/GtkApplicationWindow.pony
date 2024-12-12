@@ -1,5 +1,5 @@
 use "lib:gtk-4"
-use "../../GLib/Object"
+use "gobject"
 use "../Application"
 use "../Widget"
 use "../Builder"

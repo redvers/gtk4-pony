@@ -1,5 +1,5 @@
 use "../../GLib/Variant"
-use "../../GLib/Object"
+use "gobject"
 use "../SimpleAction"
 
 use @g_simple_action_group_new[Pointer[GObject]]()

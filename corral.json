@@ -1,11 +1,14 @@
 {
   "packages": [
     "Gtk",
-    "GLib",
     "GObject",
     "Webkit"
   ],
-  "deps": [],
+  "deps": [
+    {
+      "locator": "../glib2-pony"
+    }
+  ],
   "info": {
     "description": "",
     "homepage": "",

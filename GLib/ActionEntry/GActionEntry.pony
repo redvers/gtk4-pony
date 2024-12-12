@@ -1,6 +1,6 @@
 use "../../Gtk"
-use "../../GLib/Object"
-use "../Variant"
+use "gobject"
+use "../../../glib2-pony/glib"
 
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 

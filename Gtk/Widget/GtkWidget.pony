@@ -1,6 +1,6 @@
 use "debug"
 
-use "../../GLib/Object"
+use "gobject"
 use @gtk_widget_set_visible[None](widget: Pointer[GObject] tag, visible: I32)
 
 

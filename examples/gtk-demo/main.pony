@@ -2,9 +2,8 @@ use "actor_pinning"
 
 use "debug"
 
-use "../../GLib"
-use "../../GLib/Variant"
-use "../../GLib/Object"
+use "glib"
+use "gobject"
 use "../../GLib/ActionEntry"
 use "../../GLib/Resource"
 

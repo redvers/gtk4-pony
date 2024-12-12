@@ -1,6 +1,6 @@
 use "debug"
 use "../../GLib/Variant"
-use "../../GLib/Object"
+use "gobject"
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 
 use @g_simple_action_new[Pointer[GObject]](name: Pointer[U8] tag, parametertype: Pointer[None] tag)

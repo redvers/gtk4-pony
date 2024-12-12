@@ -1,5 +1,5 @@
 use "lib:gtk-4"
-use "../../GLib/Object"
+use "gobject"
 use "../Widget"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
