@@ -1,3 +1,3 @@
-use "../../GLib/Application"
+use "gio"
 
 interface GtkApplicationInterface is GApplicationInterface
