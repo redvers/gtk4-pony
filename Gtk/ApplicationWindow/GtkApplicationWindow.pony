@@ -6,7 +6,7 @@ use "../Builder"
 use "../Window"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
-use @gtk_application_window_new[NullablePointer[GObjectS] tag](application: NullablePointer[GObjectS])
+use @gtk_application_window_new[NullablePointer[GObjectS]](application: NullablePointer[GObjectS])
 use @gtk_window_new[NullablePointer[GObjectS]]()
 use @gtk_application_add_window[None](gobj: Pointer[U8] tag, window: NullablePointer[GObjectS])
 
