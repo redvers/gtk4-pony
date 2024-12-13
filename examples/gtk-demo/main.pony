@@ -73,11 +73,11 @@ class GtkAppState is GtkPony
     end
     window.set_visible(true)
 
-  fun @raw_about(w: Pointer[GObject], g: Pointer[GVariant], me: GtkAppState) =>
+  fun @raw_about(w: NullablePointer[GObjectS], g: Pointer[GVariant], me: GtkAppState) =>
     me.activate_about()
-  fun activate_about() => Debug.out("activate_about\n")
+  fun activate_about() => @printf("activate_about\n".cstring())
 
-  fun @raw_inspector(w: Pointer[GObject], g: Pointer[GVariant], window: GtkApplicationWindow) =>
+  fun @raw_inspector(w: NullablePointer[GObjectS], g: Pointer[GVariant], window: GtkApplicationWindow) =>
     window.set_interactive_debugging(true)
 
 
