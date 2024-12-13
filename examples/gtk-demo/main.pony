@@ -11,6 +11,9 @@ use "../../Gtk"
 use "../../Gtk/Application"
 use "../../Gtk/Builder"
 use "../../Gtk/ApplicationWindow"
+use "../../Gtk/Label"
+use "../../Gtk/Button"
+use "../../Gtk/ScrolledWindow"
 
 use @exit[None](err: I32)
 
@@ -19,6 +22,7 @@ actor Main
 
   new create(env': Env) =>
     env = env'
+
     let gtkapplication: GtkApplication =
       GtkApplication(PinUnpinActorAuth(env.root), recover iso GtkAppState("me.infect.red.gtk-demo") end)
     gtkapplication.run()
@@ -31,10 +35,10 @@ class GtkAppState is GtkPony
 
   new create(name': String val) =>
     name = name'
-
   fun ref set_application(gtkapplication': GtkApplication tag) => gtkapplication = gtkapplication'
+  fun get_name(): String val => name
+  fun ref activate() => None
 
-  fun ref activate() =>
     try
       let gresource: GResource = GResource.new_from_data(UI.ui()?)
 //      let gresource: GResource = GResource.load("demo.gresource")?
@@ -77,5 +81,4 @@ class GtkAppState is GtkPony
     window.set_interactive_debugging(true)
 
 
-  fun get_name(): String val => name
 
