@@ -4,19 +4,19 @@ use "../Widget"
 use "../Builder"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
-use @gtk_button_new[Pointer[GObject] tag]()
+use @gtk_button_new[NullablePointer[GObjectS]]()
 
 class GtkButton is GtkWidgetInterface
-  var ptr: Pointer[GObject] tag
+  var ptr: NullablePointer[GObjectS]
 
   new create()? =>
     ptr = @gtk_button_new()
-    if (ptr.is_null()) then error end
+    if (ptr.is_none()) then error end
     ref_sink()
 
-  new new_from_ptr(gobj': Pointer[GObject] tag) ? =>
+  new new_from_ptr(gobj': NullablePointer[GObjectS]) ? =>
     ptr = gobj'
-    if (ptr.is_null()) then error end
+    if (ptr.is_none()) then error end
     @printf("GtkButton successfully created\n".cstring())
     ref_sink()
 
@@ -25,7 +25,7 @@ class GtkButton is GtkWidgetInterface
     @printf("GtkButton successfully created\n".cstring())
     ref_sink()
 
-  fun ref get_ptr(): Pointer[GObject] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
 
   fun _final() =>
     @printf("GtkButton._final() called\n".cstring())

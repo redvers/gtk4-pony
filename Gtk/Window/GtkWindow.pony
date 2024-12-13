@@ -1,27 +1,29 @@
 use "lib:gtk-4"
 use "gobject"
 use "../Widget"
-use "../Builder"
+//use "../Builder"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
-use @gtk_window_new[Pointer[GObject] tag]()
+use @gtk_window_new[NullablePointer[GObjectS]]()
 use @gtk_window_set_interactive_debugging[None](enable: I32)
-use @gtk_window_set_child[None](gobj: Pointer[GObject] tag, child: Pointer[GObject] tag)
+use @gtk_window_set_child[None](gobj: NullablePointer[GObjectS] tag, child: NullablePointer[GObjectS] tag)
 
 class GtkWindow is GtkWindowInterface
-  var ptr: Pointer[GObject] tag
+  var ptr: NullablePointer[GObjectS]
 
   new create()? =>
     ptr = @gtk_window_new()
-    if (ptr.is_null()) then error end
+    if (ptr.is_none()) then error end
     ref_sink()
 
+  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+
+/*
   new new_from_builder(gbuilder: GtkBuilder, str: String val) ? =>
     ptr = gbuilder.get_object(str)?
     ref_sink()
 
-  fun ref get_ptr(): Pointer[GObject] tag => ptr
-
+*/
   fun _final() =>
     @printf("GtkWindow._final() called\n".cstring())
     GObject.unref(ptr)
@@ -36,7 +38,7 @@ interface GtkWindowInterface is GtkWidgetInterface
     GtkWindows.set_interactive_debugging(value)
 
 primitive GtkWindows
-  fun set_child(window: Pointer[GObject] tag, child: Pointer[GObject] tag) =>
+  fun set_child(window: NullablePointer[GObjectS] tag, child: NullablePointer[GObjectS] tag) =>
     @gtk_window_set_child(window, child)
 
   fun set_interactive_debugging(enable: Bool) =>
