@@ -7,8 +7,8 @@
   <renderstruct id="_97" render="0"/><!-- Sigevent f12 -->
   <renderstruct id="_99" render="0"/><!-- Localestruct f14 -->
   <renderstruct id="_166" render="0"/><!-- GTimeVal f16 -->
-  <renderstruct id="_229" render="0"/><!-- GBytes f19 -->
-  <renderstruct id="_231" render="0"/><!-- GArray f19 -->
+  <renderstruct id="_229" render="GBytes"/><!-- GBytes f19 -->
+  <renderstruct id="_231" render="GArray"/><!-- GArray f19 -->
   <renderstruct id="_233" render="0"/><!-- GByteArray f19 -->
   <renderstruct id="_235" render="0"/><!-- GPtrArray f19 -->
   <renderstruct id="_339" render="GError"/><!-- GError f23 -->
@@ -57,14 +57,14 @@
   <renderstruct id="_872" render="0"/><!-- GBookmarkFile f63 -->
   <renderstruct id="_945" render="0"/><!-- GChecksum f66 -->
   <renderstruct id="_961" render="0"/><!-- GIConv f67 -->
-  <renderstruct id="_979" render="0"/><!-- GData f68 -->
+  <renderstruct id="_979" render="GData"/><!-- GData f68 -->
   <renderstruct id="_1004" render="0"/><!-- GDate f69 -->
   <renderstruct id="_1061" render="0"/><!-- Dirent f70 -->
   <renderstruct id="_1063" render="0"/><!-- Dirstream f71 -->
   <renderstruct id="_1077" render="0"/><!-- GDir f72 -->
   <renderstruct id="_1131" render="0"/><!-- GMemVTable f76 -->
   <renderstruct id="_1158" render="0"/><!-- GNode f77 -->
-  <renderstruct id="_1192" render="0"/><!-- GList f78 -->
+  <renderstruct id="_1192" render="GList"/><!-- GList f78 -->
   <renderstruct id="_1227" render="0"/><!-- GHashTable f79 -->
   <renderstruct id="_1230" render="0"/><!-- GHashTableIter f79 -->
   <renderstruct id="_1277" render="0"/><!-- GHmac f80 -->
@@ -138,9 +138,9 @@
   <renderstruct id="_2837" render="0"/><!-- GStaticPrivate f42 -->
   <renderstruct id="_3335" render="1"/><!-- GValue f136 -->
   <renderstruct id="_3339" render="0"/><!-- GTypePlugin f135 -->
-  <renderstruct id="_3341" render="0"/><!-- GTypeClass f135 -->
+  <renderstruct id="_3341" render="GTypeClass"/><!-- GTypeClass f135 -->
   <renderstruct id="_3343" render="0"/><!-- GTypeInterface f135 -->
-  <renderstruct id="_3345" render="0"/><!-- GTypeInstance f135 -->
+  <renderstruct id="_3345" render="GTypeInstance"/><!-- GTypeInstance f135 -->
   <renderstruct id="_3347" render="0"/><!-- GTypeInfo f135 -->
   <renderstruct id="_3349" render="0"/><!-- GTypeFundamentalInfo f135 -->
   <renderstruct id="_3351" render="0"/><!-- GInterfaceInfo f135 -->
@@ -434,7 +434,7 @@
   <renderstruct id="_6007" render="0"/><!-- GModule f271 -->
   <renderstruct id="_6023" render="0"/><!-- GIOModuleScope f272 -->
   <renderstruct id="_6028" render="0"/><!-- GIOModuleClass f272 -->
-  <renderstruct id="_6055" render="0"/><!-- GListModel f274 -->
+  <renderstruct id="_6055" render="GListModel"/><!-- GListModel f274 -->
   <renderstruct id="_6057" render="0"/><!-- GListModelInterface f274 -->
   <renderstruct id="_6077" render="0"/><!-- GListStore f275 -->
   <renderstruct id="_6079" render="0"/><!--  f275 -->

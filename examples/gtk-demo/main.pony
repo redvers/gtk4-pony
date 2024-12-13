@@ -36,13 +36,8 @@ class GtkAppState is GtkPony
 
   fun ref activate() =>
     try
-      let gresource: GResource = GResource.load("demo.gresource")?
-      try
-      let t: Array[String val] val = gresource.enumerate_children("/me/infect/gtk4-demo", 0)?
-      for str in t.values() do
-        @printf("%s\n".cstring(), str.cstring())
-      end
-      end
+      let gresource: GResource = GResource.new_from_data(UI.ui()?)
+//      let gresource: GResource = GResource.load("demo.gresource")?
       gresource.register()
 
       builder = GtkBuilder.new_from_resource("/me/infect/gtk4-demo/main.ui")?
