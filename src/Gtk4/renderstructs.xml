@@ -146,10 +146,10 @@
   <renderstruct id="_3351" render="0"/><!-- GInterfaceInfo f135 -->
   <renderstruct id="_3353" render="GTypeValueTable"/><!-- GTypeValueTable f135 -->
   <renderstruct id="_3355" render="0"/><!-- GTypeQuery f135 -->
-  <renderstruct id="_3460" render="0"/><!-- GParamSpec f137 -->
-  <renderstruct id="_3462" render="0"/><!-- GParamSpecClass f137 -->
-  <renderstruct id="_3464" render="0"/><!-- GParameter f137 -->
-  <renderstruct id="_3466" render="0"/><!-- GParamSpecPool f137 -->
+  <renderstruct id="_3460" render="GParamSpec"/><!-- GParamSpec f137 -->
+  <renderstruct id="_3462" render="GParamSpec"/><!-- GParamSpecClass f137 -->
+  <renderstruct id="_3464" render="GParamSpec"/><!-- GParameter f137 -->
+  <renderstruct id="_3466" render="GParamSpec"/><!-- GParamSpecPool f137 -->
   <renderstruct id="_3493" render="0"/><!-- GParamSpecTypeInfo f137 -->
   <renderstruct id="_3506" render="0"/><!-- GClosure f138 -->
   <renderstruct id="_3508" render="0"/><!-- GClosureNotifyData f138 -->
@@ -166,29 +166,29 @@
   <renderstruct id="_3800" render="0"/><!-- GFlagsClass f146 -->
   <renderstruct id="_3802" render="0"/><!-- GEnumValue f146 -->
   <renderstruct id="_3804" render="0"/><!-- GFlagsValue f146 -->
-  <renderstruct id="_3826" render="0"/><!-- GParamSpecChar f148 -->
-  <renderstruct id="_3828" render="0"/><!-- GParamSpecUChar f148 -->
-  <renderstruct id="_3830" render="0"/><!-- GParamSpecBoolean f148 -->
-  <renderstruct id="_3832" render="0"/><!-- GParamSpecInt f148 -->
-  <renderstruct id="_3834" render="0"/><!-- GParamSpecUInt f148 -->
-  <renderstruct id="_3836" render="0"/><!-- GParamSpecLong f148 -->
-  <renderstruct id="_3838" render="0"/><!-- GParamSpecULong f148 -->
-  <renderstruct id="_3840" render="0"/><!-- GParamSpecInt64 f148 -->
-  <renderstruct id="_3842" render="0"/><!-- GParamSpecUInt64 f148 -->
-  <renderstruct id="_3844" render="0"/><!-- GParamSpecUnichar f148 -->
-  <renderstruct id="_3846" render="0"/><!-- GParamSpecEnum f148 -->
-  <renderstruct id="_3848" render="0"/><!-- GParamSpecFlags f148 -->
-  <renderstruct id="_3850" render="0"/><!-- GParamSpecFloat f148 -->
-  <renderstruct id="_3852" render="0"/><!-- GParamSpecDouble f148 -->
-  <renderstruct id="_3854" render="0"/><!-- GParamSpecString f148 -->
-  <renderstruct id="_3856" render="0"/><!-- GParamSpecParam f148 -->
-  <renderstruct id="_3858" render="0"/><!-- GParamSpecBoxed f148 -->
-  <renderstruct id="_3860" render="0"/><!-- GParamSpecPointer f148 -->
-  <renderstruct id="_3862" render="0"/><!-- GParamSpecValueArray f148 -->
-  <renderstruct id="_3864" render="0"/><!-- GParamSpecObject f148 -->
-  <renderstruct id="_3866" render="0"/><!-- GParamSpecOverride f148 -->
-  <renderstruct id="_3868" render="0"/><!-- GParamSpecGType f148 -->
-  <renderstruct id="_3870" render="0"/><!-- GParamSpecVariant f148 -->
+  <renderstruct id="_3826" render="GParamSpec"/><!-- GParamSpecChar f148 -->
+  <renderstruct id="_3828" render="GParamSpec"/><!-- GParamSpecUChar f148 -->
+  <renderstruct id="_3830" render="GParamSpec"/><!-- GParamSpecBoolean f148 -->
+  <renderstruct id="_3832" render="GParamSpec"/><!-- GParamSpecInt f148 -->
+  <renderstruct id="_3834" render="GParamSpec"/><!-- GParamSpecUInt f148 -->
+  <renderstruct id="_3836" render="GParamSpec"/><!-- GParamSpecLong f148 -->
+  <renderstruct id="_3838" render="GParamSpec"/><!-- GParamSpecULong f148 -->
+  <renderstruct id="_3840" render="GParamSpec"/><!-- GParamSpecInt64 f148 -->
+  <renderstruct id="_3842" render="GParamSpec"/><!-- GParamSpecUInt64 f148 -->
+  <renderstruct id="_3844" render="GParamSpec"/><!-- GParamSpecUnichar f148 -->
+  <renderstruct id="_3846" render="GParamSpec"/><!-- GParamSpecEnum f148 -->
+  <renderstruct id="_3848" render="GParamSpec"/><!-- GParamSpecFlags f148 -->
+  <renderstruct id="_3850" render="GParamSpec"/><!-- GParamSpecFloat f148 -->
+  <renderstruct id="_3852" render="GParamSpec"/><!-- GParamSpecDouble f148 -->
+  <renderstruct id="_3854" render="GParamSpec"/><!-- GParamSpecString f148 -->
+  <renderstruct id="_3856" render="GParamSpec"/><!-- GParamSpecParam f148 -->
+  <renderstruct id="_3858" render="GParamSpec"/><!-- GParamSpecBoxed f148 -->
+  <renderstruct id="_3860" render="GParamSpec"/><!-- GParamSpecPointer f148 -->
+  <renderstruct id="_3862" render="GParamSpec"/><!-- GParamSpecValueArray f148 -->
+  <renderstruct id="_3864" render="GParamSpec"/><!-- GParamSpecObject f148 -->
+  <renderstruct id="_3866" render="GParamSpec"/><!-- GParamSpecOverride f148 -->
+  <renderstruct id="_3868" render="GParamSpec"/><!-- GParamSpecGType f148 -->
+  <renderstruct id="_3870" render="GParamSpec"/><!-- GParamSpecVariant f148 -->
   <renderstruct id="_3896" render="0"/><!-- GSignalGroup f149 -->
   <renderstruct id="_3912" render="0"/><!-- GTypeModule f151 -->
   <renderstruct id="_3914" render="0"/><!-- GTypeModuleClass f151 -->
