@@ -25,7 +25,7 @@ class GtkButton is GtkWidgetInterface
     @printf("GtkButton successfully created\n".cstring())
     ref_sink()
 
-  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
 
   fun _final() =>
     @printf("GtkButton._final() called\n".cstring())

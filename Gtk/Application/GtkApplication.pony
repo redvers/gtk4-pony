@@ -22,7 +22,7 @@ actor GtkApplication is GtkApplicationInterface
   var ptr: NullablePointer[GObjectS] = NullablePointer[GObjectS].none()
   var initialized: Bool = false
 
-  fun get_ptr(): NullablePointer[GObjectS] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
 
   new create(auth': PinUnpinActorAuth, gtkappstate': GtkPony iso) =>
     gtkappstate = consume gtkappstate'

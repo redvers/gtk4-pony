@@ -53,7 +53,7 @@ class GtkBuilder is GObjectInterface
     if (rptr.is_none()) then error end
     rptr
 
-  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
 
   fun _final() =>
     if (ptr.is_none()) then

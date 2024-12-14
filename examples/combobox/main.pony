@@ -19,6 +19,7 @@ actor Main
   new create(env': Env) =>
     env = env'
 
+    /*
     let gtkapplication: GtkApplication =
       GtkApplication(PinUnpinActorAuth(env.root), recover iso GtkAppState("me.infect.comboboxes") end)
     gtkapplication.run()
@@ -58,4 +59,4 @@ class GtkAppState is GtkPony
   fun ref not_implemented() =>
     @printf("I'm actually in my class with my state and stuff\n".cstring())
 
-
+*/

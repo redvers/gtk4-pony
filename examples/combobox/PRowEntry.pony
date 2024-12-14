@@ -24,7 +24,7 @@ class PRowEntry is GObjectInterface
     ptr = @g_object_new(gtype, Pointer[U8])
     GObject.ref_sink(get_ptr())
 
-  fun ref get_ptr(): NullablePointer[GObjectS] tag =>
+  fun ref get_ptr(): NullablePointer[GObjectS] =>
     NullablePointer[GObjectS](ptr.parent_instance)
 
   fun ref get_type(): U64 => gtype

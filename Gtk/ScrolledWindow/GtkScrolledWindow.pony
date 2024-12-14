@@ -26,7 +26,7 @@ class GtkScrolledWindow is GtkWidgetInterface
     @printf("GtkScrolledWindow successfully created\n".cstring())
     ref_sink()
 
-  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
 
   fun set_child(child: GtkWidgetInterface) =>
     @gtk_scrolled_window_set_child(ptr, child.get_ptr())
