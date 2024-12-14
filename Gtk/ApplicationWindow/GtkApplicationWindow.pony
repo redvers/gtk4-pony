@@ -18,7 +18,7 @@ class GtkApplicationWindow is GtkApplicationWindowInterface
     if (ptr.is_none()) then error end
     ref_sink()
 
-  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
 
 
   new new_from_builder(gbuilder: GtkBuilder, str: String val) ? =>

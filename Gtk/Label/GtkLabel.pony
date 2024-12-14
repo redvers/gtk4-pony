@@ -14,7 +14,7 @@ class GtkLabel is GtkWidgetInterface
     if (ptr.is_none()) then error end
     ref_sink()
 
-  fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
 
   fun _final() =>
     @printf("GtkLabel._final() called\n".cstring())
