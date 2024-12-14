@@ -71,7 +71,7 @@
   <renderstruct id="_1289" render="0"/><!-- GHook f81 -->
   <renderstruct id="_1291" render="0"/><!-- GHookList f81 -->
   <renderstruct id="_1330" render="0"/><!-- GPollFD f83 -->
-  <renderstruct id="_1334" render="0"/><!-- GSList f84 -->
+  <renderstruct id="_1334" render="GSList"/><!-- GSList f84 -->
   <renderstruct id="_1370" render="GMainContext"/><!-- GMainContext f85 -->
   <renderstruct id="_1372" render="0"/><!-- GMainLoop f85 -->
   <renderstruct id="_1374" render="0"/><!-- GSource f85 -->
@@ -141,10 +141,10 @@
   <renderstruct id="_3341" render="GTypeClass"/><!-- GTypeClass f135 -->
   <renderstruct id="_3343" render="0"/><!-- GTypeInterface f135 -->
   <renderstruct id="_3345" render="GTypeInstance"/><!-- GTypeInstance f135 -->
-  <renderstruct id="_3347" render="0"/><!-- GTypeInfo f135 -->
+  <renderstruct id="_3347" render="GTypeInfo"/><!-- GTypeInfo f135 -->
   <renderstruct id="_3349" render="0"/><!-- GTypeFundamentalInfo f135 -->
   <renderstruct id="_3351" render="0"/><!-- GInterfaceInfo f135 -->
-  <renderstruct id="_3353" render="0"/><!-- GTypeValueTable f135 -->
+  <renderstruct id="_3353" render="GTypeValueTable"/><!-- GTypeValueTable f135 -->
   <renderstruct id="_3355" render="0"/><!-- GTypeQuery f135 -->
   <renderstruct id="_3460" render="0"/><!-- GParamSpec f137 -->
   <renderstruct id="_3462" render="0"/><!-- GParamSpecClass f137 -->
@@ -156,8 +156,8 @@
   <renderstruct id="_3514" render="0"/><!-- GCClosure f138 -->
   <renderstruct id="_3578" render="0"/><!-- GSignalQuery f140 -->
   <renderstruct id="_3580" render="0"/><!-- GSignalInvocationHint f140 -->
-  <renderstruct id="_3683" render="0"/><!-- GObject f143 -->
-  <renderstruct id="_3685" render="0"/><!-- GObjectClass f143 -->
+  <renderstruct id="_3683" render="GObject"/><!-- GObject f143 -->
+  <renderstruct id="_3685" render="GObjectClass"/><!-- GObjectClass f143 -->
   <renderstruct id="_3689" render="0"/><!-- GObjectConstructParam f143 -->
   <renderstruct id="_3765" render="0"/><!--  f143 -->
   <renderstruct id="_3771" render="0"/><!-- GBinding f144 -->
@@ -436,7 +436,7 @@
   <renderstruct id="_6028" render="0"/><!-- GIOModuleClass f272 -->
   <renderstruct id="_6055" render="GListModel"/><!-- GListModel f274 -->
   <renderstruct id="_6057" render="0"/><!-- GListModelInterface f274 -->
-  <renderstruct id="_6077" render="0"/><!-- GListStore f275 -->
+  <renderstruct id="_6077" render="GListStore"/><!-- GListStore f275 -->
   <renderstruct id="_6079" render="0"/><!--  f275 -->
   <renderstruct id="_6112" render="0"/><!-- GLoadableIconIface f276 -->
   <renderstruct id="_6118" render="0"/><!-- GMemoryInputStreamClass f187 -->

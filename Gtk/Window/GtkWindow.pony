@@ -1,6 +1,7 @@
 use "lib:gtk-4"
 use "gobject"
 use "../Widget"
+use "gio"
 //use "../Builder"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
@@ -17,6 +18,7 @@ class GtkWindow is GtkWindowInterface
     ref_sink()
 
   fun ref get_ptr(): NullablePointer[GObjectS] tag => ptr
+
 
 /*
   new new_from_builder(gbuilder: GtkBuilder, str: String val) ? =>
@@ -37,6 +39,8 @@ interface GtkWindowInterface is GtkWidgetInterface
   fun set_interactive_debugging(value: Bool) =>
     GtkWindows.set_interactive_debugging(value)
 
+
+
 primitive GtkWindows
   fun set_child(window: NullablePointer[GObjectS] tag, child: NullablePointer[GObjectS] tag) =>
     @gtk_window_set_child(window, child)
@@ -47,3 +51,4 @@ primitive GtkWindows
     else
       @gtk_window_set_interactive_debugging(0)
     end
+

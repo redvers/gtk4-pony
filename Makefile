@@ -3,7 +3,7 @@ config ?= release
 PACKAGE := Gtk
 GET_DEPENDENCIES_WITH := corral fetch
 CLEAN_DEPENDENCIES_WITH := corral clean
-COMPILE_WITH := corral run -- ponyc
+COMPILE_WITH := corral run -- ponyc -d 
 
 BUILD_DIR ?= build/$(config)
 COVERAGE_DIR ?= build/coverage
