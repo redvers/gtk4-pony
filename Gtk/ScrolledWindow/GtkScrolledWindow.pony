@@ -4,29 +4,25 @@ use "../Widget"
 use "../Builder"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
-use @gtk_scrolled_window_new[NullablePointer[GObjectS]]()
-use @gtk_scrolled_window_set_child[None](ptr: NullablePointer[GObjectS] tag, child: NullablePointer[GObjectS] tag)
+use @gtk_scrolled_window_new[GObjectStruct]()
+use @gtk_scrolled_window_set_child[None](ptr: GObjectStruct tag, child: GObjectStruct tag)
 
 class GtkScrolledWindow is GtkWidgetInterface
-  var ptr: NullablePointer[GObjectS]
+  var ptr: GObjectStruct
 
-  new create()? =>
+  new create() =>
     ptr = @gtk_scrolled_window_new()
-    if (ptr.is_none()) then error end
     ref_sink()
 
-  new new_from_ptr(gobj': NullablePointer[GObjectS]) ? =>
+  new new_from_ptr(gobj': GObjectStruct) =>
     ptr = gobj'
-    if (ptr.is_none()) then error end
-    @printf("GtkScrolledWindow successfully created\n".cstring())
     ref_sink()
 
   new new_from_builder(gbuilder: GtkBuilder, str: String val) ? =>
     ptr = gbuilder.get_object(str)?
-    @printf("GtkScrolledWindow successfully created\n".cstring())
     ref_sink()
 
-  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
+  fun ref get_ptr(): GObjectStruct => ptr
 
   fun set_child(child: GtkWidgetInterface) =>
     @gtk_scrolled_window_set_child(ptr, child.get_ptr())

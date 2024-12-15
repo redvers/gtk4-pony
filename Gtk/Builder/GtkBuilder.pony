@@ -4,21 +4,21 @@ use "gobject"
 use "gio"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
-use @gtk_builder_new_from_string[NullablePointer[GObjectS]](str: Pointer[U8] tag, length: I64)
-use @gtk_builder_new_from_resource[NullablePointer[GObjectS]](str: Pointer[U8] tag)
-use @gtk_builder_get_object[NullablePointer[GObjectS]](gobj: NullablePointer[GObjectS] tag, str: Pointer[U8] tag)
-use @gtk_builder_new_from_file[NullablePointer[GObjectS]](filename: Pointer[U8] tag)
-use @gtk_builder_set_current_object[None](builder: NullablePointer[GObjectS] tag, currentobject: NullablePointer[GObjectS] tag)
-use @g_object_get_data[Any tag](gobj: NullablePointer[GObjectS] tag, key: Pointer[U8] tag)
+use @gtk_builder_new_from_string[GObjectStruct](str: Pointer[U8] tag, length: I64)
+use @gtk_builder_new_from_resource[GObjectStruct](str: Pointer[U8] tag)
+use @gtk_builder_get_object[GObjectStruct](gobj: GObjectStruct tag, str: Pointer[U8] tag)
+use @gtk_builder_new_from_file[GObjectStruct](filename: Pointer[U8] tag)
+use @gtk_builder_set_current_object[None](builder: GObjectStruct tag, currentobject: GObjectStruct tag)
+use @g_object_get_data[Any tag](gobj: GObjectStruct tag, key: Pointer[U8] tag)
 
 
 class GtkBuilder is GObjectInterface
-  var ptr: NullablePointer[GObjectS]
-//  var pony_actor: NullablePointer[GObjectS] tag = NullablePointer[GObjectS].none()
+  var ptr: GObjectStruct
+//  var pony_actor: GObjectStruct tag = GObjectStruct.none()
 
   new new_from_string[A: GtkPony tag](me: GtkPony tag, str: String val)? =>
     ptr = @gtk_builder_new_from_string(str.cstring(), str.size().i64())
-    if (ptr.is_none()) then error end
+    if (NullablePointer[GObjectStruct](ptr).is_none()) then error end
     ref_sink()
 
 //    pony_actor = @gtk_builder_get_object(ptr, "pony-actor".cstring())
@@ -27,12 +27,12 @@ class GtkBuilder is GObjectInterface
 
   new new_from_file[A: GtkPony tag](me: GtkPony tag, str: String val)? =>
     ptr = @gtk_builder_new_from_file(str.cstring())
-    if (ptr.is_none()) then error end
+    if (NullablePointer[GObjectStruct](ptr).is_none()) then error end
     ref_sink()
 
   new new_from_resource(resourcepath: String val)? =>
     ptr = @gtk_builder_new_from_resource(resourcepath.cstring())
-    if (ptr.is_none()) then error end
+    if (NullablePointer[GObjectStruct](ptr).is_none()) then error end
     ref_sink()
 /*
     pony_actor = @gtk_builder_get_object(ptr, "pony-actor".cstring())
@@ -48,18 +48,13 @@ class GtkBuilder is GObjectInterface
 */
 
 
-  fun get_object(name: String val): NullablePointer[GObjectS] ? =>
-    let rptr: NullablePointer[GObjectS] = @gtk_builder_get_object(ptr, name.cstring())
-    if (rptr.is_none()) then error end
+  fun get_object(name: String val): GObjectStruct ? =>
+    let rptr: GObjectStruct = @gtk_builder_get_object(ptr, name.cstring())
+    if (NullablePointer[GObjectStruct](rptr).is_none()) then error end
     rptr
 
-  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
+  fun ref get_ptr(): GObjectStruct => ptr
 
   fun _final() =>
-    if (ptr.is_none()) then
-      None
-    else
-      @printf("GtkBuilder._final() called\n".cstring())
-      GObject.unref(ptr)
-    end
+    GObject.unref(ptr)
 
