@@ -33,29 +33,27 @@ class GtkAppState is GtkPony
   fun ref set_application(gtkapplication': GtkApplication tag) => gtkapplication = gtkapplication'
   fun get_name(): String val => name
   fun ref activate() => None
-    try
-      let window: GtkApplicationWindow = GtkApplicationWindow.create()?
-      window.list_properties()
-      window.set_interactive_debugging(true)
-      match gtkapplication
-      | let app: GtkApplication tag =>
-        window.register_application(app)
-        register_custom_datatypes()
-      end
-      window.set_visible(true)
+    let window: GtkApplicationWindow = GtkApplicationWindow.create()
+    window.list_properties()
+    window.set_interactive_debugging(true)
+    match gtkapplication
+    | let app: GtkApplication tag =>
+      window.register_application(app)
+      register_custom_datatypes()
     end
+    window.set_visible(true)
 
-  fun ref register_custom_datatypes() =>
-    let prow: PRowEntry = PRowEntry
-    prow.list_properties()
-    let prow2: PRowEntry = PRowEntry
-    @printf("Got type: %lu\n".cstring(), prow.get_type())
-    @printf("Got type: %lu\n".cstring(), prow2.get_type())
-    let gv  = prow.get_property_string("name")
+  fun ref register_custom_datatypes() => None
+//    let prow: PRowEntry = PRowEntry
+//    prow.list_properties()
+//    let prow2: PRowEntry = PRowEntry
+//    @printf("Got type: %lu\n".cstring(), prow.get_type())
+//    @printf("Got type: %lu\n".cstring(), prow2.get_type())
+//    let gv  = prow.get_property_string("name")
 
 
 
-  fun @not_implemented_raw(w: NullablePointer[GObjectS], g: Pointer[GVariant], me: GtkAppState) =>
+  fun @not_implemented_raw(w: NullablePointer[GObjectStruct], g: Pointer[GVariantStruct], me: GtkAppState) =>
     me.not_implemented()
 
   fun ref not_implemented() =>

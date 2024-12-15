@@ -5,19 +5,18 @@ use "gio"
 //use "../Builder"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
-use @gtk_window_new[NullablePointer[GObjectS]]()
+use @gtk_window_new[GObjectStruct]()
 use @gtk_window_set_interactive_debugging[None](enable: I32)
-use @gtk_window_set_child[None](gobj: NullablePointer[GObjectS] tag, child: NullablePointer[GObjectS] tag)
+use @gtk_window_set_child[None](gobj: GObjectStruct tag, child: GObjectStruct tag)
 
 class GtkWindow is GtkWindowInterface
-  var ptr: NullablePointer[GObjectS]
+  var ptr: GObjectStruct
 
-  new create()? =>
+  new create() =>
     ptr = @gtk_window_new()
-    if (ptr.is_none()) then error end
     ref_sink()
 
-  fun ref get_ptr(): NullablePointer[GObjectS] => ptr
+  fun ref get_ptr(): GObjectStruct => ptr
 
 
 /*
@@ -42,7 +41,7 @@ interface GtkWindowInterface is GtkWidgetInterface
 
 
 primitive GtkWindows
-  fun set_child(window: NullablePointer[GObjectS] tag, child: NullablePointer[GObjectS] tag) =>
+  fun set_child(window: GObjectStruct tag, child: GObjectStruct tag) =>
     @gtk_window_set_child(window, child)
 
   fun set_interactive_debugging(enable: Bool) =>
