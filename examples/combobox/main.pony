@@ -19,7 +19,6 @@ actor Main
   new create(env': Env) =>
     env = env'
 
-    /*
     let gtkapplication: GtkApplication =
       GtkApplication(PinUnpinActorAuth(env.root), recover iso GtkAppState("me.infect.comboboxes") end)
     gtkapplication.run()
@@ -36,6 +35,7 @@ class GtkAppState is GtkPony
   fun ref activate() => None
     try
       let window: GtkApplicationWindow = GtkApplicationWindow.create()?
+      window.list_properties()
       window.set_interactive_debugging(true)
       match gtkapplication
       | let app: GtkApplication tag =>
@@ -47,9 +47,11 @@ class GtkAppState is GtkPony
 
   fun ref register_custom_datatypes() =>
     let prow: PRowEntry = PRowEntry
+    prow.list_properties()
     let prow2: PRowEntry = PRowEntry
     @printf("Got type: %lu\n".cstring(), prow.get_type())
     @printf("Got type: %lu\n".cstring(), prow2.get_type())
+    let gv  = prow.get_property_string("name")
 
 
 
@@ -59,4 +61,3 @@ class GtkAppState is GtkPony
   fun ref not_implemented() =>
     @printf("I'm actually in my class with my state and stuff\n".cstring())
 
-*/

@@ -1,4 +1,4 @@
 use "gobject"
 
-struct PRowEntryClass
+struct PRowEntryClassS
   embed parent_class: GObjectClassS = GObjectClassS
