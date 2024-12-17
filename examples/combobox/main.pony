@@ -34,6 +34,7 @@ class GtkAppState is GtkPony
   fun get_name(): String val => name
   fun ref activate() => None
     let window: GtkApplicationWindow = GtkApplicationWindow.create()
+    @printf("GtkApplicationWindow GType: %s\n".cstring(), window.string().cstring())
     window.list_properties()
     window.set_interactive_debugging(true)
     match gtkapplication

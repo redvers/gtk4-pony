@@ -19,6 +19,8 @@ class GtkApplicationWindow is GtkApplicationWindowInterface
 
   fun ref get_ptr(): GObjectStruct => ptr
 
+//  fun ref string(): String val => GObject.name_from_instance(NullablePointer[GObjectStruct](ptr))
+
 
   new new_from_builder(gbuilder: GtkBuilder, str: String val) ? =>
     ptr = gbuilder.get_object(str)?
