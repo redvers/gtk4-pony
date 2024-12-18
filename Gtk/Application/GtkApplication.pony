@@ -33,8 +33,8 @@ actor GtkApplication is GtkApplicationInterface
 
     gtkappstate.set_application(recover tag this end)
 
-  be add_action_entry[A: Any](action: GActionEntry[A] iso, data: Any) => None
-    @g_action_map_add_action_entries(ptr, NullablePointer[GActionEntry[A]](consume action), I32(1), data)
+  be add_action_entry[A: Any](action: GActionEntryStruct[A] iso, data: Any) => None
+    @g_action_map_add_action_entries(ptr, NullablePointer[GActionEntryStruct[A]](consume action), I32(1), data)
 
 
   be run() =>

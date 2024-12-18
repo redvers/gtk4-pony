@@ -35,7 +35,7 @@ class GtkAppState is GtkPony
   fun ref activate() => None
     let window: GtkApplicationWindow = GtkApplicationWindow.create()
     @printf("GtkApplicationWindow GType: %s\n".cstring(), window.string().cstring())
-    window.list_properties()
+//    window.list_properties()
     window.set_interactive_debugging(true)
     match gtkapplication
     | let app: GtkApplication tag =>
@@ -45,14 +45,7 @@ class GtkAppState is GtkPony
     window.set_visible(true)
 
   fun ref register_custom_datatypes() => None
-//    let prow: PRowEntry = PRowEntry
-//    prow.list_properties()
-//    let prow2: PRowEntry = PRowEntry
-//    @printf("Got type: %lu\n".cstring(), prow.get_type())
-//    @printf("Got type: %lu\n".cstring(), prow2.get_type())
-//    let gv  = prow.get_property_string("name")
-
-
+    let prow: PRowEntry = PRowEntry(this)
 
   fun @not_implemented_raw(w: NullablePointer[GObjectStruct], g: Pointer[GVariantStruct], me: GtkAppState) =>
     me.not_implemented()
