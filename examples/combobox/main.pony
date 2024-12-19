@@ -34,7 +34,6 @@ class GtkAppState is GtkPony
   fun get_name(): String val => name
   fun ref activate() => None
     let window: GtkApplicationWindow = GtkApplicationWindow.create()
-    @printf("GtkApplicationWindow GType: %s\n".cstring(), window.string().cstring())
 //    window.list_properties()
     window.set_interactive_debugging(true)
     match gtkapplication
@@ -46,6 +45,20 @@ class GtkAppState is GtkPony
 
   fun ref register_custom_datatypes() => None
     let prow: PRowEntry = PRowEntry(this)
+    @printf("My prow lives at %lu".cstring(), prow)
+    try
+      var gvalue: GValue = GValue.init_from_name("gchararray")?
+      gvalue.set_string("Hello World")
+      var mystr = gvalue.get_string()
+      @printf("did I extract this correctly? %s\n".cstring(), mystr.cstring())
+      prow.set_property("name", gvalue)
+
+      var gvalue2: GValue = GValue.init_from_name("gchararray")?
+      prow.get_property("name", gvalue)
+    else
+      @printf("Unable to find gtype for gpointer\n".cstring())
+    end
+
 
   fun @not_implemented_raw(w: NullablePointer[GObjectStruct], g: Pointer[GVariantStruct], me: GtkAppState) =>
     me.not_implemented()

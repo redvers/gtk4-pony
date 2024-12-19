@@ -3,5 +3,5 @@ use "collections"
 
 struct PRowEntryStruct
   embed parent_instance: GObjectStruct = GObjectStruct
-  var data: Array[GValueStruct] = Array[GValueStruct]
+  var data: Array[GValue] = Array[GValue].create(16)
 

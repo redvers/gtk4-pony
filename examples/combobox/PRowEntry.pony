@@ -2,14 +2,15 @@ use "gio"
 use "glib"
 use "gobject"
 
+use @g_type_instance_get_private[Pointer[GValue]](gi: GTypeInstanceStruct, gtype: U64)
 use @g_type_name[Pointer[U8]](gtype: U64)
 use @g_type_from_name[U64](name: Pointer[U8] tag)
 use @g_type_register_static[U64](parenttype: U64, typename: Pointer[U8] tag, info: Pointer[None] tag, flags: I32)
 use @g_object_new[PRowEntryStruct](gtype: U64, first: Pointer[U8] tag, ...)
 use @g_param_spec_string[NullablePointer[GParamSpecStruct]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, default_value: Pointer[U8] tag, flags: I32)
 use @g_object_class_install_property[None](oclass: NullablePointer[GObjectClassStruct] tag, propertyid: U32, pspec: NullablePointer[GParamSpecStringStruct] tag)
-use @g_param_spec_pointer[NullablePointer[GParamSpecS]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, flags: I32)
-use @g_param_spec_char[NullablePointer[GParamSpecS]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, min: U8, max: U8, default: U8, flags: I32)
+//use @g_param_spec_pointer[NullablePointer[GParamSpecS]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, flags: I32)
+//use @g_param_spec_char[NullablePointer[GParamSpecS]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, min: U8, max: U8, default: U8, flags: I32)
 
 class PRowEntry is GObjectInterface
   var ptr: PRowEntryStruct
@@ -25,7 +26,8 @@ class PRowEntry is GObjectInterface
       gtypeinfo.class_size = 1088 // No methods, so same as GObject
       gtypeinfo.instance_size = 256
       gtypeinfo.n_preallocs = 0
-      gtypeinfo.class_init = this~create_properties()
+      gtypeinfo.class_init = this~class_init()
+      gtypeinfo.instance_init = this~instance_init()
 
       gtype = @g_type_register_static(80, "PRowEntry".cstring(), NullablePointer[GTypeInfoStruct[GtkAppState]](gtypeinfo), 0)
     end
@@ -33,7 +35,17 @@ class PRowEntry is GObjectInterface
     ptr = @g_object_new(gtype, Pointer[U8])
     GObject.ref_sink(get_ptr())
 
-  fun @create_properties(gobj: PRowEntryClassStruct, data: String val) =>
+
+  fun @instance_init(instance: PRowEntryStruct, gotc: Pointer[None]) => None
+    instance.data = Array[GValue].create(16)
+
+    @printf("Initialized\n".cstring())
+
+
+
+
+
+  fun @class_init(gobj: PRowEntryClassStruct, data: String val) =>
     gobj.parent_class.set_property = PRowEntrys~set_property()
     gobj.parent_class.get_property = PRowEntrys~get_property()
 
