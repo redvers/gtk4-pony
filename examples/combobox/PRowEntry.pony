@@ -38,8 +38,12 @@ class PRowEntry is GObjectInterface
 
   fun @instance_init(instance: PRowEntryStruct, gotc: Pointer[None]) => None
     instance.data = Array[GValue].create(16)
+    try
+      var default_id0: GValue = GValue.init_from_name("gpointer")?
+      instance.data.push(default_id0)
+    end
+    @printf("SizE: %d\n".cstring(), instance.data.size())
 
-    @printf("Initialized\n".cstring())
 
 
 

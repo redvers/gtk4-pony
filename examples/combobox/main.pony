@@ -49,12 +49,12 @@ class GtkAppState is GtkPony
     try
       var gvalue: GValue = GValue.init_from_name("gchararray")?
       gvalue.set_string("Hello World")
-      var mystr = gvalue.get_string()
-      @printf("did I extract this correctly? %s\n".cstring(), mystr.cstring())
       prow.set_property("name", gvalue)
+//      var mystr = gvalue.get_string()
+//      @printf("did I extract this correctly? %s\n".cstring(), mystr.cstring())
 
-      var gvalue2: GValue = GValue.init_from_name("gchararray")?
-      prow.get_property("name", gvalue)
+//      var gvalue2: GValue = GValue.init_from_name("gchararray")?
+//      prow.get_property("name", gvalue)
     else
       @printf("Unable to find gtype for gpointer\n".cstring())
     end

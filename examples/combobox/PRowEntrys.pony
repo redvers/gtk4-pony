@@ -10,8 +10,7 @@ primitive PRowEntrys
 
   fun @set_property(gobj: PRowEntryStruct, id: I32, gvalue: GValue, param: GParamSpecStruct) =>
     var data: Array[GValue] = gobj.data
-    @printf("Our map has %d values in it\n".cstring(), data.size())
-    @printf("set_property_callback for id: %d".cstring(), id)
+
 //    gvalue.ptr.set_pointer[Pointer[U8] tag]("Hello World".cstring())
 
   fun @get_property(gobj: PRowEntrys, id: I32, gvalue: GValue, param: GParamSpecStruct) =>
