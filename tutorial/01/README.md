@@ -93,6 +93,7 @@ use "Gtk/Application"
 class AppState is GtkPony
   var name: String val
   var gtkapplication: (GtkApplication tag | None) = None
+  var counter_value: USize = 0 
 
   new create(name': String val) =>
     name = name'
@@ -133,15 +134,5 @@ once the object has finished being instantiated, registered, and activated.
 In our example, our `AppState.activate()` function simply prints a debug
 message and exists.
 
-On the [next page](../02/README.md), we shall create our actual UI.
-
-
-
-
-
-
-
-
-
-
+On the [next page](../02/), we shall create our actual UI.
 

@@ -19,8 +19,12 @@ class GtkAppState is GtkPony
   new create(name': String val) =>
     name = name'
 
-  fun ref set_application(gtkapplication': GtkApplication tag) => gtkapplication = gtkapplication'
-  fun get_name(): String val => name
+  fun ref set_application(gtkapplication': GtkApplication tag) =>
+    gtkapplication = gtkapplication'
+
+  fun get_name(): String val =>
+    name
+
   fun ref activate() => None
     let window: GtkApplicationWindow = GtkApplicationWindow.create()
 //    window.set_interactive_debugging(true)

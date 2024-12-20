@@ -16,7 +16,7 @@ class GtkBuilder is GObjectInterface
   var ptr: GObjectStruct
 //  var pony_actor: GObjectStruct tag = GObjectStruct.none()
 
-  new new_from_string[A: GtkPony tag](me: GtkPony tag, str: String val)? =>
+  new new_from_string(str: String val)? =>
     ptr = @gtk_builder_new_from_string(str.cstring(), str.size().i64())
     if (NullablePointer[GObjectStruct](ptr).is_none()) then error end
     ref_sink()
