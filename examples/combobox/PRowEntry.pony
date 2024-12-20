@@ -2,10 +2,8 @@ use "gio"
 use "glib"
 use "gobject"
 
-use @g_type_instance_get_private[Pointer[GValue]](gi: GTypeInstanceStruct, gtype: U64)
-use @g_type_name[Pointer[U8]](gtype: U64)
-use @g_type_from_name[U64](name: Pointer[U8] tag)
-use @g_type_register_static[U64](parenttype: U64, typename: Pointer[U8] tag, info: Pointer[None] tag, flags: I32)
+//use @g_type_name[Pointer[U8]](gtype: U64)
+//use @g_type_from_name[U64](name: Pointer[U8] tag)
 use @g_object_new[PRowEntryStruct](gtype: U64, first: Pointer[U8] tag, ...)
 use @g_param_spec_string[NullablePointer[GParamSpecStruct]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, default_value: Pointer[U8] tag, flags: I32)
 use @g_object_class_install_property[None](oclass: NullablePointer[GObjectClassStruct] tag, propertyid: U32, pspec: NullablePointer[GParamSpecStringStruct] tag)
@@ -20,19 +18,20 @@ class PRowEntry is GObjectInterface
     ptr.parent_instance
 
   new create(app: GtkAppState) =>
-    gtype = @g_type_from_name("PRowEntry".cstring())
+    gtype = GType.from_name("PRowEntry")
     if (gtype == 0) then
-      let gtypeinfo: GTypeInfoStruct[GtkAppState] = GTypeInfoStruct[GtkAppState](app)
-      gtypeinfo.class_size = 1088 // No methods, so same as GObject
-      gtypeinfo.instance_size = 256
-      gtypeinfo.n_preallocs = 0
-      gtypeinfo.class_init = this~class_init()
-      gtypeinfo.instance_init = this~instance_init()
+      let gtypeinfo: GTypeInfo[GtkAppState] = GTypeInfo[GtkAppState](app)
+      gtypeinfo.ptr.class_size = 1088 // No methods, so same as GObject
+      gtypeinfo.ptr.instance_size = 256
+      gtypeinfo.ptr.n_preallocs = 0
+      gtypeinfo.ptr.class_init = this~class_init()
+      gtypeinfo.ptr.instance_init = this~instance_init()
 
-      gtype = @g_type_register_static(80, "PRowEntry".cstring(), NullablePointer[GTypeInfoStruct[GtkAppState]](gtypeinfo), 0)
+      gtype = GType.register_static[GtkAppState]("PRowEntry", "GObject", gtypeinfo)
     end
 
     ptr = @g_object_new(gtype, Pointer[U8])
+//    ptr = GObject.init[PRowEntryStruct]("PRowEntry")
     GObject.ref_sink(get_ptr())
 
 
