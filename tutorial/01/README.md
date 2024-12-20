@@ -117,7 +117,7 @@ I'm in the AppState.activate() callback
 ### GtkApplication.create()
 
 When you create the `GtkApplication` actor, the actor is spawned on a random
-scheduler, not the pinnable one. `GtkApplication.create() requests to be
+scheduler, not the pinnable one. `GtkApplication.create()` requests to be
 pinned and sends a copy of its own tag (it's an actor) to your
 `AppState.set\_application()` callback for storage for use later.
 
@@ -133,7 +133,7 @@ once the object has finished being instantiated, registered, and activated.
 In our example, our `AppState.activate()` function simply prints a debug
 message and exists.
 
-On the next page, we shall create our actual UI.
+On the [next page](../02/README.md), we shall create our actual UI.
 
 
 
