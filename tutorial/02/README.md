@@ -17,16 +17,14 @@ Now let's do something with it.
 
 ## Bulding the GtkBuilder
 
-Go ahead and add our new dependencies at the top of `app\_state.pony`.  Again,
+Go ahead and add our new dependencies at the top of `app_state.pony`.  Again,
 note - we only include these subpackages if we're going to directly access
-those objects.  Note we do not include `Gtk/Box` since we're not doing
-anything with it.
+those objects.  Note we do not include `Gtk/Box`, `Gtk/Button`, or `Gtk/Label`
+as we're not doing anything with it yet.
 
 ```pony
 use "Gtk/Builder"
 use "Gtk/ApplicationWindow"
-use "Gtk/Button"
-use "Gtk/Label"
 ```
 Let's modify our `AppState.activate()` function as follows:
 
