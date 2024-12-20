@@ -150,7 +150,7 @@
   <renderstruct id="_3462" render="GParamSpec"/><!-- GParamSpecClass f137 -->
   <renderstruct id="_3464" render="GParamSpec"/><!-- GParameter f137 -->
   <renderstruct id="_3466" render="GParamSpec"/><!-- GParamSpecPool f137 -->
-  <renderstruct id="_3493" render="0"/><!-- GParamSpecTypeInfo f137 -->
+  <renderstruct id="_3493" render="GParamSpec"/><!-- GParamSpecTypeInfo f137 -->
   <renderstruct id="_3506" render="0"/><!-- GClosure f138 -->
   <renderstruct id="_3508" render="0"/><!-- GClosureNotifyData f138 -->
   <renderstruct id="_3514" render="0"/><!-- GCClosure f138 -->

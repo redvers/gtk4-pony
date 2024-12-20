@@ -6,7 +6,7 @@ use "gobject"
 //use @g_type_from_name[U64](name: Pointer[U8] tag)
 use @g_object_new[PRowEntryStruct](gtype: U64, first: Pointer[U8] tag, ...)
 use @g_param_spec_string[NullablePointer[GParamSpecStruct]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, default_value: Pointer[U8] tag, flags: I32)
-use @g_object_class_install_property[None](oclass: NullablePointer[GObjectClassStruct] tag, propertyid: U32, pspec: NullablePointer[GParamSpecStringStruct] tag)
+use @g_object_class_install_property[None](oclass: NullablePointer[GObjectClassStruct] tag, propertyid: U32, pspec: Pointer[None] tag)
 //use @g_param_spec_pointer[NullablePointer[GParamSpecS]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, flags: I32)
 //use @g_param_spec_char[NullablePointer[GParamSpecS]](name: Pointer[U8] tag, nick: Pointer[U8] tag, blurb: Pointer[U8] tag, min: U8, max: U8, default: U8, flags: I32)
 
@@ -52,8 +52,8 @@ class PRowEntry is GObjectInterface
     gobj.parent_class.set_property = PRowEntrys~set_property()
     gobj.parent_class.get_property = PRowEntrys~get_property()
 
-    let g: NullablePointer[GParamSpecStringStruct] = @g_param_spec_string[NullablePointer[GParamSpecStringStruct]]("name".cstring(), "nick".cstring(), "blurb".cstring(), Pointer[U8], I32(3))
-    @g_object_class_install_property(NullablePointer[GObjectClassStruct](gobj.parent_class), U32(1), g)
+    let g: GParamSpecString = GParamSpecString("name", "nick", "blurb", "default value")
+    @g_object_class_install_property(NullablePointer[GObjectClassStruct](gobj.parent_class), U32(1), NullablePointer[GParamSpecStringStruct](g.ptr))
 
 
   fun ref get_type(): U64 => gtype
