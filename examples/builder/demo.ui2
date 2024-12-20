@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.94.0 -->
+<interface>
+  <!-- interface-name demo.ui2 -->
+  <requires lib="gio" version="2.0"/>
+  <requires lib="gtk" version="4.6"/>
+  <menu id="menubar">
+    <submenu>
+      <attribute name="label" translatable="yes">_File</attribute>
+      <section>
+        <item>
+          <attribute name="action">app.new</attribute>
+          <attribute name="label" translatable="yes">_New</attribute>
+        </item>
+        <item>
+          <attribute name="action">app.open</attribute>
+          <attribute name="label" translatable="yes">_Open</attribute>
+        </item>
+        <item>
+          <attribute name="action">app.save</attribute>
+          <attribute name="label" translatable="yes">_Save</attribute>
+        </item>
+        <item>
+          <attribute name="action">app.save-as</attribute>
+          <attribute name="label" translatable="yes">Save _As</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="action">app.quit</attribute>
+          <attribute name="label" translatable="yes">_Quit</attribute>
+        </item>
+      </section>
+    </submenu>
+    <submenu>
+      <attribute name="label" translatable="yes">_Edit</attribute>
+      <section>
+        <item>
+          <attribute name="action">app.copy</attribute>
+          <attribute name="label" translatable="yes">_Copy</attribute>
+        </item>
+        <item>
+          <attribute name="action">app.cut</attribute>
+          <attribute name="label" translatable="yes">_Cut</attribute>
+        </item>
+        <item>
+          <attribute name="action">app.paste</attribute>
+          <attribute name="label" translatable="yes">_Paste</attribute>
+        </item>
+      </section>
+    </submenu>
+    <submenu>
+      <attribute name="label" translatable="yes">_Help</attribute>
+      <section>
+        <item>
+          <attribute name="action">app.help</attribute>
+          <attribute name="label" translatable="yes">_Help</attribute>
+        </item>
+        <item>
+          <attribute name="action">app.about</attribute>
+          <attribute name="label" translatable="yes">_About</attribute>
+        </item>
+      </section>
+    </submenu>
+  </menu>
+  <object class="GtkWindow" id="window1">
+    <property name="default-height">250</property>
+    <property name="default-width">440</property>
+    <property name="title" translatable="yes">Builder</property>
+    <child>
+      <object class="GtkBox" id="vbox1">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkPopoverMenuBar" id="menubar1">
+            <property name="menu-model">menubar</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow" id="scrolledwindow1">
+            <property name="has-frame">1</property>
+            <property name="hexpand">1</property>
+            <property name="vexpand">1</property>
+            <child>
+              <object class="GtkTreeView" id="treeview1">
+                <property name="tooltip-column">3</property>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column1">
+                    <property name="title">Name</property>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer1"/>
+                      <!-- Custom child fragments -->
+                      <attributes>
+                        <attribute name="text">0</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column2">
+                    <property name="title">Surname</property>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer2"/>
+                      <!-- Custom child fragments -->
+                      <attributes>
+                        <attribute name="text">1</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="column3">
+                    <property name="title">Age</property>
+                    <child>
+                      <object class="GtkCellRendererText" id="renderer3"/>
+                      <!-- Custom child fragments -->
+                      <attributes>
+                        <attribute name="text">2</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="statusbar1">
+            <property name="margin-bottom">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-start">2</property>
+            <property name="margin-top">2</property>
+            <property name="xalign">0</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

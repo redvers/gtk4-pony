@@ -30,9 +30,9 @@ class PRowEntry is GObjectInterface
       gtype = GType.register_static[GtkAppState]("PRowEntry", "GObject", gtypeinfo)
     end
 
-    ptr = @g_object_new(gtype, Pointer[U8])
+//    ptr = @g_object_new(gtype, Pointer[U8])
 //    ptr = GObject.init[PRowEntryStruct]("PRowEntry")
-    GObject.ref_sink(get_ptr())
+//    GObject.ref_sink(get_ptr())
 
 
   fun @instance_init(instance: PRowEntryStruct, gotc: Pointer[None]) => None

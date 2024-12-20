@@ -65,8 +65,7 @@ actor GtkApplication is GtkApplicationInterface
     @g_application_activate(ptr)
 
   fun _final() =>
-    ifdef debug then @printf("GtkApplication._final()\n".cstring()) end
-      GObject.unref(ptr)
+    GObject.unref(ptr)
   be register_window_ptr(windowptr: GObjectStruct tag) =>
     GtkApplications.add_window(ptr, windowptr)
 
