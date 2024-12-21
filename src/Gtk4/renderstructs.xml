@@ -930,7 +930,7 @@
   <renderstruct id="_15616" render="0"/><!-- GtkListItemFactoryClass f521 -->
   <renderstruct id="_15628" render="0"/><!-- GtkBuilderListItemFactory f522 -->
   <renderstruct id="_15630" render="0"/><!-- GtkBuilderListItemFactoryClass f522 -->
-  <renderstruct id="_15638" render="0"/><!-- GtkButton f523 -->
+  <renderstruct id="_15638" render="GtkButton"/><!-- GtkButton f523 -->
   <renderstruct id="_15640" render="0"/><!-- GtkButtonPrivate f523 -->
   <renderstruct id="_15642" render="0"/><!-- GtkButtonClass f523 -->
   <renderstruct id="_15670" render="0"/><!-- GtkCalendar f524 -->

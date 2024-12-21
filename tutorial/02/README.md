@@ -53,19 +53,22 @@ We only have a few things left to do before we can see our application:
 
 ```pony
   fun build_ui(builder: GtkBuilder)? =>
-    try
-      let window: GtkApplicationWindow = GtkApplicationWindow.new_from_builder(builder, "window")?
-      match gtkapplication
-      | let app: GtkApplication tag => window.register_application(app)
-        window.set_visible(true)
+    let window: GtkApplicationWindow =
+      try
+        GtkApplicationWindow.new_from_builder(builder, "window")?
       else
-        Debug.err("We did not have a valid GtkApplication to link")
+        Debug.err("I was unable to find the GtkApplicationWindow")
         error
       end
+
+    match gtkapplication
+    | let app: GtkApplication tag => window.register_application(app)
     else
-      Debug.err("Unable to find GtkApplicationWindow id=\"window\" in Builder")
+      Debug.err("We did not have a valid GtkApplication to link")
       error
     end
+
+    window.set_visible(true)
 ```
 
 ... and that's it.

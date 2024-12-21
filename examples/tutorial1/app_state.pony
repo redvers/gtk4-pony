@@ -1,3 +1,4 @@
+use "gobject"
 use "debug"
 use "actor_pinning"
 
@@ -11,7 +12,8 @@ use "../../Gtk/Label"
 class AppState is GtkPony
   var name: String val
   var gtkapplication: (GtkApplication tag | None) = None
-  var counter_value: USize = 0
+  var counter_value: ISize = 0
+  var label: (GtkLabel | None) = None
 
   new create(name': String val) =>
     name = name'
@@ -21,29 +23,56 @@ class AppState is GtkPony
 
   fun get_name(): String val => name
 
-  fun activate(): None =>
+  fun ref activate(): None =>
     Debug.err("I'm in the AppState.activate() callback\n")
     try
       let builder: GtkBuilder = GtkBuilder.new_from_string(UI())?
       build_ui(builder)?
+      hookup_signals(builder)?
     else
       Debug.err("I failed to parse my GtkBuilder XML")
     end
 
-  fun build_ui(builder: GtkBuilder)? =>
-    try
-      let window: GtkApplicationWindow = GtkApplicationWindow.new_from_builder(builder, "window")?
-      match gtkapplication
-      | let app: GtkApplication tag => window.register_application(app)
-        window.set_visible(true)
+  fun ref build_ui(builder: GtkBuilder)? =>
+    let window: GtkApplicationWindow =
+      try
+        label = GtkLabel.new_from_builder(builder, "label")?
+        refresh_display()
+        GtkApplicationWindow.new_from_builder(builder, "window")?
       else
-        Debug.err("We did not have a valid GtkApplication to link")
+        Debug.err("I was unable to find the GtkApplicationWindow or GtkLabel")
         error
       end
+
+    match gtkapplication
+    | let app: GtkApplication tag => window.register_application(app)
     else
-      Debug.err("Unable to find GtkApplicationWindow id=\"window\" in Builder")
+      Debug.err("We did not have a valid GtkApplication to link")
       error
     end
+    window.set_visible(true)
+
+  fun ref hookup_signals(builder: GtkBuilder)? =>
+    let button_increment: GtkButton = GtkButton.new_from_builder(builder, "button_increment")?
+    let button_decrement: GtkButton = GtkButton.new_from_builder(builder, "button_decrement")?
+    button_increment.signal_connect_data[AppState]("clicked", this~raw_increment_clicked(), this)
+    button_decrement.signal_connect_data[AppState]("clicked", this~raw_decrement_clicked(), this)
+
+  fun @raw_increment_clicked(button: GObjectStruct, app: AppState): None =>
+    app.counter_value = app.counter_value + 1
+    app.refresh_display()
+
+  fun @raw_decrement_clicked(button: GObjectStruct, app: AppState): None =>
+    app.counter_value = app.counter_value - 1
+    app.refresh_display()
+
+  fun ref refresh_display() =>
+    match label
+    | let l: GtkLabel => l.set_label("Count: " + counter_value.string())
+    else
+      Debug.out("My counter value is: " + counter_value.string())
+    end
+
 
 
 

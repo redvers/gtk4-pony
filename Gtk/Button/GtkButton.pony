@@ -1,3 +1,4 @@
+use "debug"
 use "lib:gtk-4"
 use "gobject"
 use "../Widget"
@@ -5,6 +6,7 @@ use "../Builder"
 
 use @printf[U32](fmt: Pointer[U8] tag, ...)
 use @gtk_button_new[GObjectStruct]()
+use @g_signal_connect_data[U64](instance: GObjectStruct tag, signal: Pointer[U8] tag, ...)
 
 class GtkButton is GtkWidgetInterface
   var ptr: GObjectStruct
@@ -25,4 +27,7 @@ class GtkButton is GtkWidgetInterface
 
   fun _final() =>
     GObject.unref(ptr)
-//    @g_object_unref(ptr)
+
+
+
+
