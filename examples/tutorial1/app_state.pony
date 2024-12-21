@@ -28,6 +28,7 @@ class AppState is GtkPony
     try
       let builder: GtkBuilder = GtkBuilder.new_from_string(UI())?
       build_ui(builder)?
+      label = GtkLabel.new_from_builder(builder, "label")?
       hookup_signals(builder)?
     else
       Debug.err("I failed to parse my GtkBuilder XML")
@@ -36,7 +37,6 @@ class AppState is GtkPony
   fun ref build_ui(builder: GtkBuilder)? =>
     let window: GtkApplicationWindow =
       try
-        label = GtkLabel.new_from_builder(builder, "label")?
         refresh_display()
         GtkApplicationWindow.new_from_builder(builder, "window")?
       else

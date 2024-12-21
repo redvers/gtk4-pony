@@ -86,7 +86,7 @@ and an additional field in the AppState class.
 ```
 
 Then, we'll modify the `activate()` function to add a new function called
-`hookup_signals()`.  This is the function we're going to focus on.
+`hookup_signals()` and assign the label to its new field variable for later.
 
 ```pony
   fun ref activate(): None =>
@@ -94,6 +94,7 @@ Then, we'll modify the `activate()` function to add a new function called
     try
       let builder: GtkBuilder = GtkBuilder.new_from_string(UI())?
       build_ui(builder)?
+      label = GtkLabel.new_from_builder(builder, "label")?
       hookup_signals(builder)?
     else
       Debug.err("I failed to parse my GtkBuilder XML")
@@ -136,7 +137,7 @@ with the button it's called on:
 - The name of the signal "clicked"
 - A reference to the callback (Note - this is a BARE function, so even though
 it looks like it may be in the class' scope - it is not.  It has no access to
-any class fields or `this`.
+any class fields or `this`).
 - Our `user_data`, which we make a reference to our AppState class.
 
 As we provided a reference to our AppState object, we can now call functions
