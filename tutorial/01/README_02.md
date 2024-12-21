@@ -73,4 +73,4 @@ We only have a few things left to do before we can see our application:
 
 ... and that's it.
 
-On the [next page](../03/), we'll learn how to make it do things when we click buttons!
+On the [next page](README_03.md), we'll learn how to make it do things when we click buttons!

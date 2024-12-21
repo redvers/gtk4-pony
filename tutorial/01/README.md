@@ -134,5 +134,5 @@ once the object has finished being instantiated, registered, and activated.
 In our example, our `AppState.activate()` function simply prints a debug
 message and exists.
 
-On the [next page](../02/), we shall create our actual UI.
+On the [next page](README_02.md), we shall create our actual UI.
 
