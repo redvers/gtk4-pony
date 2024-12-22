@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<cambalache-project version="0.94.0" target_tk="gtk-4.0">
+  <ui>
+	(1,None,"ttt.ui","main.ui",None,None,None,None,None,None,None)
+  </ui>
+  <object>
+	(1,1,"GtkApplicationWindow","window",None,None,None,None,0,None,None),
+	(1,2,"GtkBox",None,1,None,None,None,0,None,None),
+	(1,3,"GtkLabel",None,2,None,None,None,0,None,None),
+	(1,4,"GtkScrolledWindow","scrollwindow",2,None,None,None,1,None,None),
+	(1,5,"GtkBox",None,4,None,None,None,0,None,None),
+	(1,6,"GtkCheckButton",None,5,None,None,None,0,None,None),
+	(1,7,"GtkButton",None,5,None,None,None,2,None,None),
+	(1,8,"GtkImage",None,7,None,None,None,0,None,None),
+	(1,10,"GtkCenterBox",None,2,None,None,None,2,None,None),
+	(1,11,"GtkLabel","label",10,None,"start",None,0,None,None),
+	(1,14,"GtkEntry",None,5,None,None,None,1,None,None),
+	(1,15,"GtkButton","clear_completed",10,None,"end",None,1,None,None),
+	(1,16,"GtkCenterBox",None,10,None,"center",None,2,None,None),
+	(1,17,"GtkToggleButton","all",16,None,"start",None,0,None,None),
+	(1,18,"GtkToggleButton","active",16,None,"center",None,1,None,None),
+	(1,19,"GtkToggleButton","completed",16,None,"end",None,2,None,None)
+  </object>
+  <object_property>
+	(1,1,"GtkWindow","default-height","600",None,None,None,None,None,None,None,None,None),
+	(1,1,"GtkWindow","default-width","500",None,None,None,None,None,None,None,None,None),
+	(1,1,"GtkWindow","title","todo",None,None,None,None,None,None,None,None,None),
+	(1,2,"GtkOrientable","orientation","vertical",None,None,None,None,None,None,None,None,None),
+	(1,3,"GtkLabel","justify","center",None,None,None,None,None,None,None,None,None),
+	(1,3,"GtkLabel","label","&lt;span foreground=\"red\" size=\"600%\"&gt;todo&lt;/span&gt;",None,None,None,None,None,None,None,None,None),
+	(1,3,"GtkLabel","use-markup","True",None,None,None,None,None,None,None,None,None),
+	(1,4,"GtkWidget","vexpand","True",None,None,None,None,None,None,None,None,None),
+	(1,5,"GtkWidget","valign","start",None,None,None,None,None,None,None,None,None),
+	(1,7,"GtkButton","child",None,None,None,None,None,8,None,None,None,None),
+	(1,8,"GtkImage","icon-name","application-exit-rtl-symbolic",None,None,None,None,None,None,None,None,None),
+	(1,8,"GtkImage","icon-size","large",None,None,None,None,None,None,None,None,None),
+	(1,10,"GtkWidget","halign","baseline-fill",None,None,None,None,None,None,None,None,None),
+	(1,10,"GtkWidget","hexpand","True",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkLabel","label","&lt;span size=\"large\"&gt;0 Items Left!&lt;/span&gt;",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkLabel","use-markup","True",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkWidget","halign","start",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkWidget","margin-bottom","1",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkWidget","margin-end","2",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkWidget","margin-start","2",None,None,None,None,None,None,None,None,None),
+	(1,11,"GtkWidget","margin-top","1",None,None,None,None,None,None,None,None,None),
+	(1,14,"GtkEntry","placeholder-text","What needs to be done?",None,None,None,None,None,None,None,None,None),
+	(1,14,"GtkWidget","hexpand","True",None,None,None,None,None,None,None,None,None),
+	(1,14,"GtkWidget","margin-bottom","2",None,None,None,None,None,None,None,None,None),
+	(1,14,"GtkWidget","margin-end","1",None,None,None,None,None,None,None,None,None),
+	(1,14,"GtkWidget","margin-start","1",None,None,None,None,None,None,None,None,None),
+	(1,14,"GtkWidget","margin-top","2",None,None,None,None,None,None,None,None,None),
+	(1,15,"GtkButton","label","Clear Completed",None,None,None,None,None,None,None,None,None),
+	(1,16,"GtkWidget","halign","center",None,None,None,None,None,None,None,None,None),
+	(1,16,"GtkWidget","valign","end",None,None,None,None,None,None,None,None,None),
+	(1,17,"GtkButton","label","All",None,None,None,None,None,None,None,None,None),
+	(1,17,"GtkWidget","hexpand","True",None,None,None,None,None,None,None,None,None),
+	(1,18,"GtkButton","label","Active",None,None,None,None,None,None,None,None,None),
+	(1,18,"GtkWidget","hexpand","True",None,None,None,None,None,None,None,None,None),
+	(1,19,"GtkButton","label","Completed",None,None,None,None,None,None,None,None,None),
+	(1,19,"GtkWidget","hexpand","True",None,None,None,None,None,None,None,None,None)
+  </object_property>
+</cambalache-project>

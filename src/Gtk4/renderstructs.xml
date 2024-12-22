@@ -835,7 +835,7 @@
   <renderstruct id="_14031" render="0"/><!-- GtkShortcutTrigger f478 -->
   <renderstruct id="_14034" render="0"/><!-- GtkStyleContext f481 -->
   <renderstruct id="_14036" render="0"/><!-- GtkTooltip f478 -->
-  <renderstruct id="_14038" render="0"/><!-- GtkWidget f480 -->
+  <renderstruct id="_14038" render="GtkWidget"/><!-- GtkWidget f480 -->
   <renderstruct id="_14040" render="0"/><!-- GtkWindow f482 -->
   <renderstruct id="_14043" render="0"/><!--  f483 -->
   <renderstruct id="_14077" render="0"/><!-- GtkShortcutActionClass f484 -->
@@ -851,7 +851,7 @@
   <renderstruct id="_14225" render="0"/><!-- GtkSignalActionClass f484 -->
   <renderstruct id="_14253" render="0"/><!-- GtkNamedAction f484 -->
   <renderstruct id="_14255" render="0"/><!-- GtkNamedActionClass f484 -->
-  <renderstruct id="_14282" render="0"/><!-- GtkWidgetPrivate f480 -->
+  <renderstruct id="_14282" render="GtkWidgetPrivate"/><!-- GtkWidgetPrivate f480 -->
   <renderstruct id="_14284" render="0"/><!-- GtkWidgetClass f480 -->
   <renderstruct id="_14286" render="0"/><!-- GtkWidgetClassPrivate f480 -->
   <renderstruct id="_14498" render="0"/><!-- GtkApplication f485 -->
@@ -917,7 +917,7 @@
   <renderstruct id="_15427" render="0"/><!-- GtkBorder f515 -->
   <renderstruct id="_15443" render="0"/><!-- GtkBoxLayout f516 -->
   <renderstruct id="_15445" render="0"/><!--  f516 -->
-  <renderstruct id="_15476" render="0"/><!-- GtkBox f517 -->
+  <renderstruct id="_15476" render="GtkBox"/><!-- GtkBox f517 -->
   <renderstruct id="_15478" render="0"/><!-- GtkBoxClass f517 -->
   <renderstruct id="_15505" render="0"/><!-- GtkBuilderScopeInterface f518 -->
   <renderstruct id="_15521" render="0"/><!-- GtkBuilderCScopeClass f518 -->
@@ -967,9 +967,9 @@
   <renderstruct id="_16158" render="0"/><!-- GtkCenterBoxClass f541 -->
   <renderstruct id="_16173" render="0"/><!-- GtkCenterLayout f542 -->
   <renderstruct id="_16175" render="0"/><!--  f542 -->
-  <renderstruct id="_16210" render="0"/><!-- GtkToggleButton f543 -->
+  <renderstruct id="_16210" render="GtkToggleButton"/><!-- GtkToggleButton f543 -->
   <renderstruct id="_16212" render="0"/><!-- GtkToggleButtonClass f543 -->
-  <renderstruct id="_16231" render="0"/><!-- GtkCheckButton f544 -->
+  <renderstruct id="_16231" render="GtkCheckButton"/><!-- GtkCheckButton f544 -->
   <renderstruct id="_16233" render="0"/><!-- GtkCheckButtonClass f544 -->
   <renderstruct id="_16259" render="0"/><!-- GtkColorButton f545 -->
   <renderstruct id="_16277" render="0"/><!-- GtkColorChooser f546 -->
@@ -1013,8 +1013,8 @@
   <renderstruct id="_16924" render="0"/><!-- GtkTreeModelFilterClass f567 -->
   <renderstruct id="_16926" render="0"/><!-- GtkTreeModelFilterPrivate f567 -->
   <renderstruct id="_16949" render="0"/><!-- GtkEntryCompletion f568 -->
-  <renderstruct id="_16986" render="0"/><!-- GtkImage f569 -->
-  <renderstruct id="_17024" render="0"/><!-- GtkEntry f570 -->
+  <renderstruct id="_16986" render="GtkImage"/><!-- GtkImage f569 -->
+  <renderstruct id="_17024" render="GtkEntry"/><!-- GtkEntry f570 -->
   <renderstruct id="_17026" render="0"/><!-- GtkEntryClass f570 -->
   <renderstruct id="_17100" render="0"/><!-- GtkTreeView f571 -->
   <renderstruct id="_17102" render="0"/><!-- GtkTreeViewClass f571 -->
@@ -1251,7 +1251,7 @@
   <renderstruct id="_21029" render="0"/><!-- GtkScrollable f695 -->
   <renderstruct id="_21031" render="0"/><!-- GtkScrollableInterface f695 -->
   <renderstruct id="_21052" render="0"/><!-- GtkScrollbar f696 -->
-  <renderstruct id="_21084" render="0"/><!-- GtkScrolledWindow f698 -->
+  <renderstruct id="_21084" render="GtkScrolledWindow"/><!-- GtkScrolledWindow f698 -->
   <renderstruct id="_21132" render="0"/><!-- GtkSearchBar f699 -->
   <renderstruct id="_21154" render="0"/><!-- GtkSearchEntry f700 -->
   <renderstruct id="_21178" render="0"/><!-- GtkSectionModel f701 -->

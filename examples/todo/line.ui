@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.94.0 -->
+<interface>
+  <!-- interface-name ttt.ui -->
+  <requires lib="gtk" version="4.12"/>
+  <object class="GtkBox">
+    <property name="valign">start</property>
+    <child>
+      <object class="GtkCheckButton"/>
+    </child>
+    <child>
+      <object class="GtkEntry">
+        <property name="hexpand">True</property>
+        <property name="margin-bottom">2</property>
+        <property name="margin-end">1</property>
+        <property name="margin-start">1</property>
+        <property name="margin-top">2</property>
+        <property name="placeholder-text">What needs to be done?</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton">
+        <property name="child">
+          <object class="GtkImage">
+            <property name="icon-name">application-exit-rtl-symbolic</property>
+            <property name="icon-size">large</property>
+          </object>
+        </property>
+      </object>
+    </child>
+  </object>
+</interface>
