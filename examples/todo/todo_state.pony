@@ -6,6 +6,7 @@ use "../../Gtk"
 use "../../Gtk/Builder"
 use "../../Gtk/Application"
 use "../../Gtk/ApplicationWindow"
+use "../../Gtk/ScrolledWindow"
 use "../../Gtk/ToggleButton"
 use "../../Gtk/Button"
 use "../../Gtk/Label"
@@ -17,6 +18,9 @@ class ToDoState is GtkPony
   var counter_value: ISize = 0
   var label: (GtkLabel | None) = None
   var filterbuttons: (FilterButtons | None) = None
+  var state: FilterState = ToggleAll
+  var todos: Array[ToDoItem] = Array[ToDoItem]
+  var masterbox: (GtkBox | None) = None
 
   new create(name': String val) =>
     name = name'
@@ -48,8 +52,18 @@ class ToDoState is GtkPony
         filterbuttons = FilterButtons(
           GtkToggleButton.new_from_builder(builder, "all")?,
           GtkToggleButton.new_from_builder(builder, "active")?,
-          GtkToggleButton.new_from_builder(builder, "completed")?
+          GtkToggleButton.new_from_builder(builder, "completed")?,
+          this
         )
+        var m: GtkBox = GtkBox(1, 1)
+        m.set_valign(1)
+        masterbox = m
+        GtkScrolledWindow.new_from_builder(builder, "scrollwindow")?.set_child(m)
+
+        var initialtodo: ToDoItem = ToDoItem
+        todos.push(initialtodo)
+        m.append(initialtodo.gbox)
+      else
         Debug.out("I was unable to find the GtkToggleButtons")
         error
       end
@@ -60,7 +74,24 @@ class ToDoState is GtkPony
       Debug.err("We did not have a valid GtkApplication to link")
       error
     end
+
+//    state_refresh()
     window.set_visible(true)
+
+  fun ref state_refresh() => None
+    match masterbox
+    | let n: None => None
+    | let m: GtkBox => render_todos(m)
+    end
+
+  fun ref render_todos(m: GtkBox) =>
+    @printf("New State is: %s\n".cstring(), state.string().cstring())
+
+    for f in todos.values() do
+      m.remove(f.gbox)
+    end
+
+
 /*
   fun ref hookup_signals(builder: GtkBuilder)? =>
     let button_increment: GtkButton = GtkButton.new_from_builder(builder, "button_increment")?
@@ -114,34 +145,6 @@ primitive UI
         <child>
           <object class="GtkScrolledWindow" id="scrollwindow">
             <property name="vexpand">True</property>
-            <child>
-              <object class="GtkBox">
-                <property name="valign">start</property>
-                <child>
-                  <object class="GtkCheckButton"/>
-                </child>
-                <child>
-                  <object class="GtkEntry">
-                    <property name="hexpand">True</property>
-                    <property name="margin-bottom">2</property>
-                    <property name="margin-end">1</property>
-                    <property name="margin-start">1</property>
-                    <property name="margin-top">2</property>
-                    <property name="placeholder-text">What needs to be done?</property>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkButton">
-                    <property name="child">
-                      <object class="GtkImage">
-                        <property name="icon-name">application-exit-rtl-symbolic</property>
-                        <property name="icon-size">large</property>
-                      </object>
-                    </property>
-                  </object>
-                </child>
-              </object>
-            </child>
           </object>
         </child>
         <child>
