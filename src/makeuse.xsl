@@ -40,7 +40,7 @@
   <xsl:apply-templates select="/castxml2pony/uses/use[@id=$originalid]/useargs/usearg" mode="generateArgument"/>
 </xsl:variable>
 <xsl:variable name="rrv" select="$n/@rv"/>
-<xsl:if test="$render='0'">// </xsl:if><xsl:text>use @</xsl:text><xsl:value-of select="$n/@name"/>[<xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$rrv]/@rvtype"/>](<xsl:value-of select="$args"/>)
+<xsl:if test="$render='0'">// </xsl:if><xsl:text>//use @</xsl:text><xsl:value-of select="$n/@name"/>[<xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$rrv]/@rvtype"/>](<xsl:value-of select="$args"/>)
 
 </xsl:template>
 

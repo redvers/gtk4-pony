@@ -14,6 +14,15 @@ gtk_castxml2pony_use:
 	mkdir -p Gtk4
 	mv use.xml usetypes.xml renderuse.xml Gtk4
 
+allgtk_castxml2pony_use:
+	../../castxml2pony/castxml2pony -x gtk.xml -u `grep File gtk.xml  | grep -v depre | cut -d'"' -f2 | tr '\n' ' '`
+	mkdir -p Gtk4
+	mv use.xml usetypes.xml renderuse.xml Gtk4
+
+allgtk_castxml2pony_enum:
+	../../castxml2pony/castxml2pony -x gtk.xml -E
+	mv enums.xml Gtk4
+
 webkit_castxml2pony_use:
 	../../castxml2pony/castxml2pony -x webkit.xml -u `grep File webkit.xml | grep webkit | grep -v depre | cut -d'"' -f2 | tr '\n' ' '`
 	mkdir -p Webkit
@@ -45,6 +54,9 @@ gtk_genstruct:
 
 glib_genuse:
 	java -jar /usr/share/java/Saxon-HE.jar -xi GLib/use.xml makeuse.xsl
+
+gtk_genenums:
+	java -jar /usr/share/java/Saxon-HE.jar -xi Gtk4/enums.xml makeenums.xsl
 
 clean_use:
 	rm -rf uses/
