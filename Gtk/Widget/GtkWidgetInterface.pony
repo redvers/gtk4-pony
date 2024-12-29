@@ -17,6 +17,13 @@ interface GtkWidgetInterface is GObjectInterface
     else
       GtkWidget.set_hexpand(get_ptr(), 0)
     end
+
+  fun ref set_sensitive(sens: Bool) =>
+    if (sens) then
+      GtkWidget.set_sensitive(get_ptr(), 1)
+    else
+      GtkWidget.set_sensitive(get_ptr(), 0)
+    end
 //  fun ref string(): String val => GObject.name_from_instance(NullablePointer[GObjectStruct](get_ptr()))
 
 

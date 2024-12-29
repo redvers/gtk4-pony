@@ -21,6 +21,7 @@ class ToDoState is GtkPony
   var state: FilterState = ToggleAll
   var todos: Array[ToDoItem] = Array[ToDoItem]
   var masterbox: (GtkBox | None) = None
+  var initialtodo: (ToDoItem | None) = None
 
   new create(name': String val) =>
     name = name'
@@ -48,25 +49,25 @@ class ToDoState is GtkPony
         Debug.err("I was unable to find the GtkApplicationWindow or GtkLabel")
         error
       end
-      try
-        filterbuttons = FilterButtons(
-          GtkToggleButton.new_from_builder(builder, "all")?,
-          GtkToggleButton.new_from_builder(builder, "active")?,
-          GtkToggleButton.new_from_builder(builder, "completed")?,
-          this
-        )
-        var m: GtkBox = GtkBox(1, 1)
-        m.set_valign(1)
-        masterbox = m
-        GtkScrolledWindow.new_from_builder(builder, "scrollwindow")?.set_child(m)
+    try
+      filterbuttons = FilterButtons(
+        GtkToggleButton.new_from_builder(builder, "all")?,
+        GtkToggleButton.new_from_builder(builder, "active")?,
+        GtkToggleButton.new_from_builder(builder, "completed")?,
+        this
+      )
+      var m: GtkBox = GtkBox(1, 1)
+      m.set_valign(1)
+      masterbox = m
+      GtkScrolledWindow.new_from_builder(builder, "scrollwindow")?.set_child(m)
 
-        var initialtodo: ToDoItem = ToDoItem
-        todos.push(initialtodo)
-        m.append(initialtodo.gbox)
-      else
-        Debug.out("I was unable to find the GtkToggleButtons")
-        error
-      end
+      var vit: ToDoItem = ToDoItem(this)
+      initialtodo = vit
+      m.append(vit.gbox)
+    else
+      Debug.out("I was unable to find the GtkToggleButtons")
+      error
+    end
 
     match gtkapplication
     | let app: GtkApplication tag => window.register_application(app)
@@ -75,7 +76,7 @@ class ToDoState is GtkPony
       error
     end
 
-//    state_refresh()
+    state_refresh()
     window.set_visible(true)
 
   fun ref state_refresh() => None
@@ -88,34 +89,11 @@ class ToDoState is GtkPony
     @printf("New State is: %s\n".cstring(), state.string().cstring())
 
     for f in todos.values() do
-      m.remove(f.gbox)
+      m.append(f.gbox)
     end
 
 
-/*
-  fun ref hookup_signals(builder: GtkBuilder)? =>
-    let button_increment: GtkButton = GtkButton.new_from_builder(builder, "button_increment")?
-    let button_decrement: GtkButton = GtkButton.new_from_builder(builder, "button_decrement")?
-    button_increment.signal_connect_data[AppState]("clicked", this~raw_increment_clicked(), this)
-    button_decrement.signal_connect_data[AppState]("clicked", this~raw_decrement_clicked(), this)
 
-  fun @raw_increment_clicked(button: GObjectStruct, app: AppState): None =>
-    app.counter_value = app.counter_value + 1
-    app.refresh_display()
-
-  fun @raw_decrement_clicked(button: GObjectStruct, app: AppState): None =>
-    app.counter_value = app.counter_value - 1
-    app.refresh_display()
-
-  fun ref refresh_display() =>
-    match label
-    | let l: GtkLabel => l.set_label("Count: " + counter_value.string())
-    else
-      Debug.out("My counter value is: " + counter_value.string())
-    end
-
-
-*/
 
 
 

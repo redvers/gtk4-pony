@@ -1,3 +1,4 @@
 use "../Widget"
+use "../Editable"
 
-interface GtkEntryInterface is GtkWidgetInterface
+interface GtkEntryInterface is (GtkWidgetInterface & GtkEditableInterface)

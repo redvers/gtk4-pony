@@ -4,6 +4,7 @@ use "gobject"
 use @gtk_widget_set_visible[None](widget: GObjectStruct tag, visible: I32)
 use @gtk_widget_set_valign[None](widget: GObjectStruct tag, align: I32)
 use @gtk_widget_set_hexpand[None](widget: GObjectStruct tag, align: I32)
+use @gtk_widget_set_sensitive[None](widget: GObjectStruct tag, align: I32)
 
 
 primitive GtkWidget
@@ -19,3 +20,6 @@ primitive GtkWidget
 
   fun set_hexpand(ptr: GObjectStruct, align: I32) =>
     @gtk_widget_set_hexpand(ptr, align)
+
+  fun set_sensitive(ptr: GObjectStruct, sens: I32) =>
+    @gtk_widget_set_sensitive(ptr, sens)
