@@ -1,6 +1,6 @@
 use "../Widget"
 
-interface GtkBoxInterface is GtkWidgetInterface
+trait GtkBoxInterface is GtkWidgetInterface
   fun ref append(child: GtkWidgetInterface) =>
     GtkBoxs.gtk_box_append(get_ptr(), child.get_ptr())
 

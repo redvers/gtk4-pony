@@ -1,3 +1,3 @@
 use "../Widget"
 
-interface GtkEditableLabelInterface is GtkWidgetInterface
+trait GtkEditableLabelInterface is GtkWidgetInterface

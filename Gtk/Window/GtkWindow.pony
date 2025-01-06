@@ -29,7 +29,7 @@ class GtkWindow is GtkWindowInterface
 
 
 
-interface GtkWindowInterface is GtkWidgetInterface
+trait GtkWindowInterface is GtkWidgetInterface
   fun ref set_child(gobj: GtkWidgetInterface) =>
     GtkWindows.set_child(get_ptr(), gobj.get_ptr())
 

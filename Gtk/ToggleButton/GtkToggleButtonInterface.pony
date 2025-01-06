@@ -1,4 +1,4 @@
 use "../Button"
 
-interface GtkToggleButtonInterface is GtkButtonInterface
+trait GtkToggleButtonInterface is GtkButtonInterface
 

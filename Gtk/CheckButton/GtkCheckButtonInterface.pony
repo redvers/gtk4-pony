@@ -1,3 +1,3 @@
 use "../Widget"
 
-interface GtkCheckButtonInterface is GtkWidgetInterface
+trait GtkCheckButtonInterface is GtkWidgetInterface

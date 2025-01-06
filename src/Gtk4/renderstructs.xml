@@ -1000,8 +1000,8 @@
   <renderstruct id="_16697" render="0"/><!-- GtkTreeSortable f561 -->
   <renderstruct id="_16699" render="0"/><!-- GtkTreeSortableIface f561 -->
   <renderstruct id="_16718" render="0"/><!-- GtkTreeViewColumn f562 -->
-  <renderstruct id="_16786" render="0"/><!-- GtkEditable f563 -->
-  <renderstruct id="_16788" render="0"/><!-- GtkEditableInterface f563 -->
+  <renderstruct id="_16786" render="GtkEditable"/><!-- GtkEditable f563 -->
+  <renderstruct id="_16788" render="GtkEditable"/><!-- GtkEditableInterface f563 -->
   <renderstruct id="_16829" render="0"/><!-- GtkIMContext f564 -->
   <renderstruct id="_16831" render="0"/><!-- GtkIMContextClass f564 -->
   <renderstruct id="_16858" render="0"/><!-- GtkEntryBuffer f565 -->
@@ -1058,7 +1058,7 @@
   <renderstruct id="_17805" render="0"/><!--  f591 -->
   <renderstruct id="_17837" render="0"/><!-- GtkDropDown f592 -->
   <renderstruct id="_17839" render="0"/><!--  f592 -->
-  <renderstruct id="_17883" render="0"/><!-- GtkEditableLabel f593 -->
+  <renderstruct id="_17883" render="GtkEditableLabel"/><!-- GtkEditableLabel f593 -->
   <renderstruct id="_17885" render="0"/><!--  f593 -->
   <renderstruct id="_17911" render="0"/><!-- GtkEmojiChooser f594 -->
   <renderstruct id="_17913" render="0"/><!-- GtkEmojiChooserClass f594 -->

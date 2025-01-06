@@ -1,3 +1,3 @@
 use "gio"
 
-interface GtkApplicationInterface is GApplicationInterface
+trait GtkApplicationInterface is GApplicationInterface

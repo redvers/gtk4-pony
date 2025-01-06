@@ -35,4 +35,4 @@ class GtkApplicationWindow is GtkApplicationWindowInterface
     GObject.unref(ptr)
 
 
-interface GtkApplicationWindowInterface is GtkWindowInterface
+trait GtkApplicationWindowInterface is GtkWindowInterface
